@@ -1,0 +1,13 @@
+Index: kde-workspace-kf5-4.95.0/startkde/startkde.cmake
+===================================================================
+--- kde-workspace-kf5-4.95.0.orig/startkde/startkde.cmake	2014-04-04 11:12:22.000000000 +0100
++++ kde-workspace-kf5-4.95.0/startkde/startkde.cmake	2014-04-04 12:36:42.786011312 +0100
+@@ -193,7 +193,7 @@
+ # For anything else (that doesn't set env vars, or that needs a window manager),
+ # better use the Autostart folder.
+ 
+-libpath=`kde4-config --path lib | tr : '\n'`
++libpath=`kf5-config --path lib | tr : '\n'`
+ 
+ for prefix in `echo "$libpath" | sed -n -e 's,/lib[^/]*/,/env/,p'`; do
+   for file in "$prefix"*.sh; do

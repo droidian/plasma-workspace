@@ -1,0 +1,13 @@
+Index: plasma-workspace-4.96.0/startkde/startkde.cmake
+===================================================================
+--- plasma-workspace-4.96.0.orig/startkde/startkde.cmake	2014-05-30 00:53:26.121020859 +0000
++++ plasma-workspace-4.96.0/startkde/startkde.cmake	2014-05-30 00:53:26.113020859 +0000
+@@ -3,6 +3,8 @@
+ #  DEFAULT KDE STARTUP SCRIPT ( @KDE4WORKSPACE_VERSION@ )
+ #
+ 
++export QML2_IMPORT_PATH=/usr/lib/`dpkg-architecture | grep DEB_HOST_MULTIARCH= | sed s,DEB_HOST_MULTIARCH=,,`/qml/
++
+ if test "x$1" = x--failsafe; then
+     KDE_FAILSAFE=1 # General failsafe flag
+     KWIN_COMPOSE=N # Disable KWin's compositing

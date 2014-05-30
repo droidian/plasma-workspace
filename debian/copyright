@@ -1,0 +1,973 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: plasma-workspace-kf5
+Source: http://depot.kde.org/unstable/plasma/4.95.0/plasma-workspace-4.95.0.tar.xz
+
+Files: *
+       debian/*
+Copyright: © 2005-2014 Chusslove Illich <caslav.ilic@gmx.net>
+           © 1999-2014 Free Software Foundation Inc.
+           © 2009-2011 Dalibor Djuric <dalibor.djuric@mozilla-srbija.org> <daliborddjuric@gmail.com>
+           © 2002-2014 Marco Martin <mart@kde.org> <notmart@gmail.com> <marcos@euskalgnu.org> <marcus.gama@gmail.com> <marcus_gama@uol.com.br>
+           © 2007-2014 Josep Ma. Ferrer <txemaq@gmail.com>
+           © 2008-2009, 2011-2014 Marce Villarino <mvillarino@kde-espana.es> <mvillarino@users.sourceforge.net> <mvillarino@gmail.com> <mvillarino@kde-espana.org>
+           © 2008-2013 Sergiu Bivol <sergiu@ase.md> <sergiu-bivol@mail.md> <sergiu.bivol@jurnaltv.md>
+           © 2001, 2007-2014 Andrej Mernik <andrej.vernekar@moj.net> <andrejm@ubuntu.si> <andrej.vernekar@gmail.com>
+           © 2005-2011, 2013 Aaron Seigo <aseigo@kde.org>
+           © 2004-2014 Stefan Asserhäll <stefan.asserhall@bredband.net>
+           © 2009-2014 Freek de Kruijf <freekdekruijf@kde.nl> <f.de.kruijf@hetnet.nl> <freek@opensuse.org>
+           © 2007-2014 Park Shinjo <kde@peremen.name> <peremen@gmail.com>
+           © 2003-2013 Marek Laane <bald@smail.ee> <bald@starman.ee>
+           © 2005, 2007-2013 Sairan Kikkarin <sairan@computer.org>
+           © 2007, 2012 Glenn Ergeerts <glenn.ergeerts@telenet.be> <marco.gulino@gmail.com>
+           © 2008-2014 Martin Schlander <mschlander@opensuse.org>
+           © 2003-2006, 2008-2010, 2012-2013 Diego Iastrubni <elcuco@kde.org>
+           © 2002-2003, 2007-2014 Bjørn Steensrud <bjornst@skogkatt.homelinux.org>
+           © 2008-2014 Yuri Chornoivan <yurchor@ukr.net>
+           © 2012-2013 Chetan Khona <chetan@kompkin.com>
+           © 2005-2013 Jure Repinc <jlp@holodeck1.com>
+           © 2006-2010, 2013 Frank Weng (a.k.a. Franklin) <franklin@mail.everfocus.com.tw> <franklin@goodhorse.idv.tw>
+           © 2007-2013 Serdar Soytetir <tulliana@gmail.com>
+           © 2011-2013 xavier <fjvinal@gmail.com> <ktranslator31@yahoo.fr> <xavier.besnard@neuf.fr>
+           © 2005, 2007-2012 Khoem Sokhem <khoemsokhem@khmeros.info>
+           © 2004-2009, 2014 Sönke Dibbern <s_dibbern@web.de>
+           © 2008-2012 Manfred Wiese <m.j.wiese@web.de>
+           © 2008-2014 André Marcelo Alvarenga <alvarenga@kde.org> <andrealvarenga@gmx.net>
+           © 2008-2010 Zayed Al-Saidi <zayed.alsaidi@gmail.com>
+           © 2009-2014 Andhika Padmawan <andhika.padmawan@gmail.com>
+           © 2007-2008, 2010-2014 Franklin Weng <franklin@goodhorse.idv.tw> <franklin@mail.everfocus.com.tw>
+           © 2004-2005, 2009-2011 Andrew Coles <andrew_coles@yahoo.co.uk>
+           © 2010-2014 g.sora <g.sora@tiscali.it>
+           © 2004, 2008-2011, 2013-2014 Iñigo Salvador Azurmendi <xalba@euskalnet.net>
+           © 2013 Hizkuntza Politikarako Sailburuordetza <hizpol@ej-gv.es>
+           © 2008-2010, 2012-2013 Ni Hui <shuizhuyuanluo@126.com>
+           © 2009-2011 Michal Sulek <misurel@gmail.com>
+           © 2004-2005, 2007-2013 Karl Ove Hufthammer <karl@huftis.org>
+           © 2005-2010 Thomas Reitelbach <tr@erdfunkstelle.de>
+           © 2009-2014 Tommi Nieminen <translator@legisign.org>
+           © 2007-2010 Petri Damsten <damu@iki.fi>
+           © 2007-2011, 2013 Marta Rybczyńska <kde-i18n@rybczynska.net>
+           © 2008-2010, 2012-2014 Eloy Cuadra <ecuadra@eloihr.net>
+           © 2003, 2005, 2007-2009 Teemu Rytilahti <teemu.rytilahti@kde-fi.org> <tpr@d5k.net> <teemu.rytilahti@d5k.net> <tpr@iki.fi>
+           © 2008-2009, 2011-2014 Sebastian Kügler <sebas@kde.org>
+           © 2008-2011 Eirik U. Birkeland <eirbir@gmail.com>
+           © 2009-2010, 2012 George Kiagiadakis <gkiagia@users.sourceforge.net> <kiagiadakis.george@gmail.com>
+           © 2009-2010 Andrej Dundovic <adundovi@gmail.com> <andrej@dundovic.com.hr>
+           © 2009-2012 Alexander Potashev <aspotashev@gmail.com>
+           © 2006-2010 Yukiko Bando <ybando@k6.dion.ne.jp>
+           © 2008-2010 Chani Armitage <chani@kde.org> <chanika@gmail.com>
+           © 2010-2012 Canonical Ltd
+           © 2010-2014 Lasse Liehu <lasse.liehu@gmail.com> <lliehu@kolumbus.fi>
+           © 2009-2012 Shankar Prasad <svenkate@redhat.com>
+           © 2000-2001, 2003, 2005, 2007-2009 Tamas Szanto <tszanto@interware.hu> <taszanto@gmail.com>
+           © 2010-2012 FIRST <email@address>
+           © 2009-2011 Dario Andres Rodriguez <andresbajotierra@gmail.com>
+           © 2006-2011 Richard Fric <richard.fric@kdemail.net>
+           © 2010-2012, 2014 Kristóf Kiszel <ulysses@kubuntu.org>
+           © 2005, 2007-2009 Toussis Manolis <koppermind@yahoo.com> <manolis@koppermind.homelinux.org>
+           © 2008-2013 Frederik Schwarzer <schwarzer@kde.org>
+           © 2008 Christian Mollekopf <chrigi_1@hotmail.com>
+           © 2010-2014 Vít Pelčák <vit@pelcak.org>
+           © 2009, 2011 Andrey Cherepanov <skull@kde.ru>
+           © 2009, 2011 Danishka Navin <danishka@gmail.com>
+           © 2009-2010 Petros Vidalis <p_vidalis@hotmail.com> <pvidalis@gmail.com>
+           © 2006-2012 Nick Shaforostoff <shafff@ukr.net> <shaforostoff@kde.ru>
+           © 2007-2013 Vincenzo Reale <smart2128@baslug.org>
+           © 2008-2010 Rajesh Ranjan <rajesh672@gmail.com> <rranjan@redhat.com>
+           © 2009-2014 Burkhard Lück <lueck@hube-lueck.de>
+           © 2009 Sandeep Shedmake <sandeep.shedmake@gmail.com>
+           © 2000-2005, 2007-2008, 2010 Rinse de Vries <rinsedevries@kde.nl> <rinse@kde.nl>
+           © 2006-2009 mvillarino <mvillarino@users.sourceforge.net>
+           © 2009, 2011, 2013-2014 Martin Gräßlin <mgraesslin@kde.org> <kde@martin-graesslin.com>
+           © 2009-2013 Joëlle Cornavin <jcorn@free.fr> <jcornavin@laposte.net> <jcornavi@club-internet.fr> <j.cornavin@sfr.fr>
+           © 2011-2014 Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>
+           © 2003, 2005, 2007-2009 Jaime Robles <jaime@kde.org> <jaime@robles.nu>
+           © 2006, 2010-2013 Lukáš Tinkl <ltinkl@suse.cz> <ltinkl@redhat.com> <lukas@kde.org>
+           © 2003-2004 Toplica Tanaskovic <toptan@kde.org.yu>
+           © 2009-2010 Artur Duque de Souza <asouza@kde.org>
+           © 2008-2012 Luiz Fernando Ranghetti <elchevive@opensuse.org>
+           © 2013-2014 Volkan Gezer <volkangezer@gmail.com>
+           © 2004-2007, 2009 Kevin Ottens <ervin@kde.org>
+           © 2005-2008 Spiros Georgaras <sngeorgaras@otenet.gr> <sng@hellug.gr>
+           © 2009-2011 Marko Dimjasevic <marko@dimjasevic.net>
+           © 2011-2014 Dimitrios Glentadakis <dglent@gmail.com> <dglent@free.fr>
+           © 2004, 2007-2009 Ravishankar Shrivastava <raviratlami@yahoo.com> <raviratlami@gmail.com> <raviratlami@aol.in>
+           © 2007-2012 Alex Merry <alex.merry@kdemail.net>
+           © 2007, 2010-2011, 2013 Ivan Cukic <ivan.cukic+kde@gmail.com> <ivan.cukic@kde.org>
+           © 2002-2005, 2008-2009 Malcolm Hunter <malcolm.hunter@gmx.co.uk>
+           © 2011 Lionel Chauvin <megabigbug@yahoo.fr>
+           © 2011-2012 Cédric Bellegarde <gnumdk@gmail.com>
+           © 2004, 2009 Esben Mose Hansen <kde@mosehansen.dk>
+           © 2011-2014 Antonis Geralis <capoiosct@gmail.com>
+           © 2010-2011 Cristina Yenyxe González García <the.blue.valkyrie@gmail.com>
+           © 2000-2001, 2003, 2007, 2011 KDE <megaribi@epn.ba>
+           © 2012-2014 Roman Paholík <wizzardsk@gmail.com>
+           © 2010-2011, 2013 H. İbrahim Güngör <tulliana@gmail.com> <ibrahim@pardus.org.tr>
+           © 2008-2009 Peter Mihalik <udavac@inmail.sk>
+           © 1999-2000 Matthias Ettrich <ettrich@kde.org>
+           © 2007-2010 Lie Ex <lilith.ex@gmail.com>
+           © 2003-2005 Oswald Buddenhagen <ossi@kde.org>
+           © 2009-2010 Johannes Obermayr <johannesobermayr@gmx.de>
+           © 2010-2013 Cristian Oneț <onet.cristian@gmail.com>
+           © 2007-2013 Federico Zenith <federico.zenith@member.fsf.org> <zenith@chemeng.ntnu.no>
+           © 2005, 2007-2008, 2010-2011, 2013 Fumiaki Okushi <okushi@kde.gr.jp> <fumiaki@okushi.com>
+           © 2010 Michel Lafon-Puyo <michel.lafonpuyo@gmail.com>
+           © 2010-2013 Yuri Efremov <yur.arh@gmail.com>
+           © 2010-2011 Ingomar Wesp <ingomar@wesp.name>
+           © 2010 Ilie Halip <lupuroshu@gmail.com>
+           © 2009 DoDo <dodoentertainment@gmail.com>
+           © 2007-2008 Youssef Chahibi <chahibi@gmail.com>
+           © 2000, 2003 Marko Rosic <roske@kde.org.yu>
+           © 2012-2014 Balázs Úr <urbalazs@gmail.com>
+           © 2006-2008 Rafael Fernández López <ereslibre@kde.org>
+           © 2010-2011, 2013-2014 Feng Chao <rainofchaos@gmail.com>
+           © 2007-2011 Shawn Starr <shawn.starr@rogers.com>
+           © 2009-2010 Ashok Kumar <ashok567@gmail.com>
+           © 2007-2009, 2011-2012 Sébastien Renard <sebastien.renard@digitalfox.org> <renard@kde.org>
+           © 2004-2005, 2007-2012 Nicolas Ternisien <nicolas.ternisien@gmail.com> <nicolast@libertysurf.fr>
+           © 2001, 2007 Richard Moore <rich@kde.org>
+           © 2007-2008 Michael Jansen <kde@michael-jansen.biz>
+           © 2008 Rob Scheepmaker <r.scheepmaker@student.utwente.nl>
+           © 2004, 2010 Taiki Komoda <kom@kde.gr.jp>
+           © 2004-2009 Ivan Petrouchtchak <fr.ivan@ukrainian-orthodox.org> <ivanpetrouchtchak@yahoo.com>
+           © 2009-2010 Vasudev Kamath <kamathvasudev@gmail.com>
+           © 2009-2011 Panagiotis Papadopoulos <pano_90@gmx.net>
+           © 2006-2008, 2011 tahmar1900 <tahmar1900@gmail.com>
+           © 2004-2005 Albert Astals Cid <aacid@kde.org>
+           © 2009, 2011-2012 Shaun Reich <shaun.reich@kdemail.net>
+           © 2000-2001 Matthias Elter <elter@kde.org>
+           © 2007-2008 Diniz Bortolotto <diniz.bortolotto@gmail.com>
+           © 2001-2005 Stanislav Visnovsky <visnovsky@nenya.ms.mff.cuni.cz> <stano@ms.mff.cuni.cz> <visnovsky@kde.org>
+           © 2007-2010, 2012 G Karunakar <karunakar@indlinux.org>
+           © 2002-2007, 2010 Funda Wang <fundawang@gmail.com> <fundawang@linux.net.cn>
+           © 2005, 2007-2008 Lubos Lunak <l.lunak@suse.cz> <l.lunak@kde.org>
+           © 2011-2012 Viranch Mehta <viranch.mehta@gmail.com>
+           © 2009-2010 Davide Bettio <davide.bettio@kdemail.net>
+           © 2011-2013 Lê Hoàng Phương <herophuong93@gmail.com>
+           © 2007-2013 Nicola Ruggero <nicola@nxnt.org>
+           © 2007-2008 Fredrik Höglund <fredrik@kde.org>
+           © 2013-2014 Martin Klapetek <mklapetek@kde.org>
+           © 2009-2010 Matthieu Gallien <matthieu_gallien@yahoo.fr>
+           © 2008, 2014 xalba <xalba@euskalnet.net>
+           © 2008-2009 Dmitry Suzdalev <dimsuz@gmail.com>
+           © 2002-2003, 2012-2013 Antoni Bella Pérez <antonibella5@orange.es>
+           © 2009 Laurenţiu Buzdugan <lbuz@rolix.org>
+           © 2000-2002, 2006-2007 David Faure <faure@kde.org>
+           © 2005 Jean-Remy Falleri <jr.falleri@laposte.net>
+           © 2006, 2008 Auk Piseth <piseth_dv@khmeros.info>
+           © 2010-2011 Ozan Çağlayan <ozan@pardus.org.tr>
+           © 2010-2011 Jorma Karvonen <karvonen.jorma@gmail.com>
+           ©  Andrew Stanley-Jones <asj@cban.com>
+           © 2012-2013 Stelios <sstavra@gmail.com>
+           © 2011-2013 Weng Xuetian <wengxt@gmail.com>
+           © 2000-2006 Pablo de Vicente <vicente@oan.es> <vicnte@oan.es> <p.devicente@wanadoo.es> <pablo.devicente@gmail.com>
+           © 2007 Enrique Matias Sanchez (aka Quique) <cronopios@gmail.com>
+           © 2002-2005 Lisiane Sztoltz Teixeira <lisiane@conectiva.com.br> <lisiane.teixeira@gmail.com> <lisiane@kdemail.net>
+           © 2010 Jumpei Ogawa <phanective@gmail.com>
+           © 2007 Christopher Blauvelt <cblauvelt@gmail.com>
+           © 2008 Alain Boyer <alainboyer@gmail.com>
+           © 2000-2002 Carsten Pfeiffer <pfeiffer@kde.org>
+           © 2008-2009 Orestes Mas Casals <orestes@tsc.upc.edu>
+           © 1999 Martin R. Jones <mjones@kde.org>
+           © 2012-2013 Tomáš Chvátal <tomas.chvatal@gmail.com>
+           © 2010 Laszlo Papp <djszapi@archlinux.us>
+           © 2001-2002 Ellis Whitehead <ellis@kde.org>
+           © 2007 Abdulaziz AlSharif <a.a-a.s@hotmail.com>
+           © 2008-2009 Kristof Bal <kristof.bal@gmail.com>
+           © 2012-2014 Vit Pelcak <vit@pelcak.org>
+           © 2008-2009 Maciej Wikło <maciej.wiklo@wp.pl>
+           © 2007-2008 Mikko Piippo <piippo@cc.helsinki.fi>
+           © 2007-2010, 2012 Mickael Sibelle <kimael@gmail.com>
+           © 2013 Alexander Lakhin <exclusion@gmail.com>
+           © 2009 Sushruth Tendulkar <sushtend@gmail.com>
+           © 2008-2011 Guillaume Pujol <guill.p@gmail.com>
+           © 2006, 2011-2012 Phan Vĩnh Thịnh <teppi82@gmail.com>
+           © 1999-2000, 2002-2005 Hasso Tepper <hasso@linux.ee> <hasso@estpak.ee> <hasso@kde.org>
+           © 1998, 2000-2003 Hans Petter Bieker <bieker@kde.org>
+           © 2012-2014 Giovanni Sora <g.sora@tiscali.it> <g.sora@tioscali.it> <g.sora@fastwebnet.it>
+           © 2006 Mohamed SAAD <metehyi@free.fr>
+           © 2009-2010 Jacopo De Simoi <wilderkde@gmail.com>
+           © 2008, 2014 David Edmundson <david@davidedmundson.co.uk> <kde@davidedmundson.co.uk> <davidedmundson@kde.org>
+           © 2003-2005 Gregor Rakar <gregor.rakar@kiss.si>
+           © 2008-2009 Lukas Appelhans <l.appelhans@gmx.de>
+           © 2011 Matthias Fuchs <mat69@gmx.net>
+           © 1998 Christian Esken <esken@kde.org>
+           © 1998-2002, 2004-2006 Sebastià Pla i Sanz <sps@sastia.com>
+           © 2012 Gregor Taetzner <gregor@freenet.de>
+           © 2008 Asier Urio Larrea <asieriko@gmail.com>
+           © 1998, 2001-2006 Erik Kjær Pedersen <erik@binghamton.edu>
+           © 2004-2005, 2008 Leonid Kanter <leon@asplinux.ru>
+           © 2005-2007 Stephan Johach <hunsum@gmx.de>
+           © 2004-2005 Heiko Evermann <heiko@evermann.de> <heiko.evermann@gmx.de>
+           © 2002-2006, 2008-2010 Michal Rudolf <mrudolf@kdewebdev.org>
+           © 1999-2005 Gaute Hvoslef Kvalnes <gaute@verdsveven.com>
+           © 2009 qeqe <danishka@gmail.com>
+           © 2010, 2012-2013 Serdar SOYTETİR <tulliana@gmail.com>
+           © 2010 Mohamed Mohsen <eng.mohamed91@ymail.com>
+           © 2002-2005 Eugene Onischenko <oneugene@ukr.net>
+           © 2001, 2004-2005 Gregory Mokhin <mok@kde.ru>
+           © 2002-2004 Thomas Diehl <thd@kde.org>
+           © 2001, 2003-2004 Görkem Çetin <tulliana@gmail.com> <gorkem@kde.org>
+           © 2002-2004 Stergios Dramis <sdramis@egnatia.ee.auth.gr>
+           © 2005, 2007 Nils Kristian Tomren <slx@nilsk.net>
+           © 2006-2010 John Tapsell <tapsell@kde.org> <johnflux@gmail.com>
+           © 2005 Ilpo Kantonen <ilpo@iki.fi>
+           © 2003-2005, 2007 Andrea Rizzi <rizzi@kde.org>
+           © 2011 Craig Drummond <craig@kde.org> <craig.p.drummond@gmail.com>
+           © 2000 Matej Koss <koss@miesto.sk>
+           © 2008 Ignacio Poggi <ignaciop.3@gmail.com>
+           © 2002-2005 Claudiu Costin <claudiuc@kde.org>
+           © 2013-2014 Vincent PINON <vincent.pinon@st.com> <vincent.pinon@laposte.net>
+           © 1999-2003, 2007 Meni Livne <livne@kde.org>
+           © 2007-2008 Matthias Kretz <kretz@kde.org>
+           © 2005-2006 Xabi G. Feal <xabigf@gmx.net>
+           © 1999 Preston Brown <pbrown@kde.org>
+           © 2003, 2005 Knut Yrvin <knuty@skolelinux.no>
+           © 2002-2004, 2006 Andriy Rysin <rysin@kde.org>
+           © 2008 Dario Freddi <drf54321@gmail.com> <drf@kdemod.ath.cx>
+           © 2010 Will Stephenson <wstephenson@kde.org>
+           © 2004 Volker Jockheck <volkae@gmx.net>
+           © 2003-2004, 2006 Matthieu Robin <kde@macolu.org>
+           © 2008 Jason Stubbs <jasonbstubbs@gmail.com>
+           © 2010, 2012 Gama <marcus.gama@gmail.com>
+           © 2010 Frederik Gladhorn <gladhorn@kde.org>
+           © 2013 Andrea Scarpino <scarpino@kde.org>
+           © 2007-2010, 2012 Marcello Anni <marcello.anni@alice.it>
+           © 2009 Gerrit Marker> <jangerrit@weiler-marker.com>
+           © 2002-2003 Isam Bayazidi <bayazidi@arabeyes.org>
+           © 2009 Ivo Anjo <knuckles@gmail.com>
+           © 2007 Paolo Capriotti <p.capriotti@gmail.com>
+           © 2007-2008 Umesh Rudrapatna <urudrapatna@yahoo.com> <umeshrs@gmail.com>
+           © 2007 Bjørn Kvisli <bjorn.kvisli@gmail.com>
+           © 2010-2011 Aracele Torres <araceletorres@gmail.com>
+           © 2013 Heena <heena393@gmail.com>
+           © 2005 Shinichi Tsunoda <tsuno@ngy.1st.ne.jp>
+           © 2013 Bhushan Shah <bhush94@gmail.com>
+           © 2009, 2013 Anne-Marie Mahfouf <annemarie.mahfouf@free.fr> <annma@kde.org>
+           © 2008 Il'ya Mertsalov <a567765@yandex.ru>
+           © 2009 Zarko Pintar <zarko.pintar@gmail.com>
+           © 2013 Adrián Chaves Fernández <adriyetichaves@gmail.com>
+           © 2003 Henrique Pinto <stampede@coltec.ufmg.br>
+           © 2002-2004 Xabi García <xabigf@gmx.net>
+           © 2000 Jesús Bravo Álvarez. <jba@pobox.com>
+           © 2009-2010 Manuel Tortosa Moreno <manutortosa@gmail.com>
+           © 1998 Caldera Inc.
+           © 2010 Matteo Agostinelli <agostinelli@gmail.com>
+           © 2014 G.Sora <g.sora@tiscali.it>
+           © 2005, 2007 Santiago Fernandez Sancho <santi@kde-es.org>
+           © 2006-2007 Niklas Laxström <niklas.laxstrom+kdetrans@gmail.com>
+           © 2004 Adem Alp Yıldız <tulliana@gmail.com> <ademalp@linux-sevenler.org> <ademalp@kde.org.tr>
+           © 2011 Andrej Žnidaršič <andrej.znidarsic@ubuntu.com> <andrej.zndarsic@ubuntu.com>
+           © 1997 Matthias Kalle Dalheimer <kalle@kde.org>
+           © 2003 Gilles CAULIER <caulier.gilles@free.fr>
+           © 2008 Jozef Vydra <vydrajojo@gmail.com>
+           © 2002 Noboru Sinohara <shinobo@leo.bekkoame.ne.jp>
+           © 2012-2013 Eike Hein <hein@kde.org>
+           © 2000, 2008 Keld Simonsen <keld@dkuug.dk>
+           © 2004 Tom Albers <toma@omat.nl> <tomalbers@kde.nl>
+           © 2000, 2004 Wang Jian <lark@linux.net.cn>
+           © 2007-2008 Menard Alexis <darktears31@gmail.com>
+           © 2007 Ramaprakasha <ramaprakash.b@gmail.com>
+           © 2000-2002 Dimitris Kamenopoulos <el97146@mail.ntua.gr>
+           ©  Olaf Kirch <okir@caldera.de>
+           © 2002 Ömer Fadıl USTA <tulliana@gmail.com> <omer_fad@hotmail.com>
+           © 2014 Vishesh Handa <me@vhanda.in>
+           © 2008-2009 Fernando Boaglio <boaglio@kde.org>
+           © 2011 Elvis Stansvik <elvstone@gmail.com>
+           © 2011 Katarzyna Gierlach <gierlach_k@yahoo.pl>
+           © 2010 Anton Kreuzkamp <akreuzkamp@web.de>
+           © 2003-2004 Delafond <gerard@delafond.org>
+           © 2006, 2009-2013 Pino Toscano <toscano.pino@tiscali.it>
+           © 2005-2010 David Jarvie <djarvie@kde.org>
+           © 2007 Tobias Koenig <tokoe@kde.org>
+           © 2002-2003, 2006 Kim Enkovaara <kim.enkovaara@iki.fi>
+           © 2009 Till Adam <adam@kde.org>
+           © 2002 Nguyễn Hưng Vũ <vu.hung@techviet.com>
+           © 1998, 2000, 2005 Stephan Kulow <coolo@kde.org>
+           © 2014 Dimitris Kardarakos <dimkard@gmail.com>
+           © 2000-2004 Mattias Newzella <newzella@linux.nu> <newzella@swipnet.se>
+           © 2003-2004 Tapio Kautto <eleknader@phnet.fi>
+           © 2007 Andreas Hartmetz <ahartmetz@gmail.com>
+           © 2007-2010, 2012-2013 Bruno Patri <bruno.patri@gmail.com>
+           © 2007 Eng Vannak <evannak@khmeros.info>
+           © 2001 George Staikos <staikos@kde.org>
+           © 2002 Luboš Luňák <l.lunak@kde.org>
+           © 2011 Klemen Košir <klemen.kosir@gmx.com>
+           © 2008-2009 Amine Say <aminesay@yahoo.fr>
+           © 2003-2004 Miguel Revilla Rodríguez <yo@miguelrevilla.com>
+           © 2002-2003 Xiong Jiang <jxiong@offtopic.org>
+           © 2012-2013 Julia Dronova <juliette.tux@gmail.com>
+           © 2012 Abdalrahim G. Fakhouri <abdilra7eem@yahoo.com>
+           © 2004 Ossama Khayat <okhayat@yahoo.com>
+           © 2008 Montel Laurent <montel@kde.org>
+           © 2007 aminesay <aminesay@yahoo.fr>
+           © 2003 Dror Levin <spatz@012.net.il>
+           © 2007 Percy Leonhardt <percy@eris23.de>
+           © 2010 Vladimir Buharin <vovan2482@mail.ru>
+           © 2009 Rolf Eike Beer <kde@opensource.sf-tec.de>
+           © 2003 Charles de Miramon <cmiramon@kde-france.org>
+           © 2004 Liu Songhe <jack@linux.net.cn>
+           © 2011 Sune Vuorela <sune@vuorela.dk>
+           © 2009-2010 Xosé <xosecalvo@gmail.com>
+           © 2008 Arnaud <arnaud.bienner@gmail.com>
+           © 2005-2006 Krzysztof Lichota <lichota@mimuw.edu.pl>
+           © 2010-2012 Muhammet Kara <tulliana@gmail.com> <muhammet.k@gmail.com>
+           © 2004 Ryuichi Kakuda <ryuk@user.script.nu>
+           © 2010 Onur Küçük <onur@pardus.org.tr>
+           © 2004 Munzir Taha <munzir@kacst.edu.sa>
+           © 2007 Clytie Siddall <clytie@riverland.net.au>
+           © 2007 Robert Knight <robertknight@gmail.com>
+           © 2010 phanect <phanective@gmail.com>
+           © 2009 Miroslav David <mirodav@gmail.com>
+           © 2007 Liang Qi <cavendish.qi@gmail.com>
+           © 2008 Koray Löker <tulliana@gmail.com> <loker@pardus.org.tr>
+           © 2009 Thilo-Alexander Ginkel <thilo@ginkel.com>
+           © 2002 Dmytro Kovalov <kov@tokyo.email.ne.jp>
+           © 2011 Nikos Pantazis <pantazisnikolaos@gmail.com>
+           © 2012 Abdelrahman Osama <it@abdelos.com>
+           © 2012 Samir Ribic <megaribi@epn.ba>
+           © 2007 Barış Metin <baris@pardus.org.tr>
+           © 1999 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
+           © 2009 Ana Cecília Martins <anaceciliamb@gmail.com>
+           © 2008 Luca Bellonda <lbellonda@gmail.com>
+           © 2011 Arve Eriksson <031299870@telia.com>
+           © 2001 Majid Moggamel <anatolia@linux-team.org>
+           © 2001 Sae-keun Kim <segni@susekorea.net>
+           © 2010 Kira J. Fernandez <kirajfdez@gmail.com>
+           © 2005 Israel Berger <israelb@gmail.com>
+           © 2007 Volker Krause <vkrause@kde.org>
+           © 2008-2010 Julien Richard-Foy <julien.rf@no-log.org>
+           © 2010 Harald Sitter <apachelogger@ubuntu.com>
+           © 2000, 2002 Roman Maurer <roman.maurer@amis.net> <roman.maurer@hermes.si>
+           © 2011-2012 Lamarque V. Souza <lamarque.souza.ext@basyskom.com>
+           © 2003-2005, 2007 Axel Bojer <axelb@skolelinux.no>
+           © 2006 Marijn Kruisselbrink <m.kruisselbrink@student.tue.nl>
+           © 2011 Cristian Buzduga <cristianbzdg@gmail.com>
+           © 2009 A. L. Spehr <spehr@kde.org>
+           © 2008 Ayhan YALÇINSOY <dellpardus@hotmail.com>
+           © 2010 Milian Wolff <mail@milianw.de>
+           © 2007 Thomas Georgiou <tageorgiou@gmail.com>
+           © 2013 OPENTIA Group
+           © 2005 Tadashi Jokagi <elf2000@users.sourceforge.net>
+           © 2012 Abdalrahim Fakhouri <abdilra7eem@yahoo.com>
+           © 2007-2008 Sebastian Kuegler <sebas@kde.org>
+           © 2007-2008 Alexis Ménard <darktears31@gmail.com>
+           © 2007-2008 Hoàng Đức Hiếu <hieu.d.hoang@gmail.com>
+           © 2012 Michal Dutkiewicz <emdeck@gmail.com>
+           © 2003 Wilbert Berendsen <wbsoft@xs4all.nl>
+           © 2004 Adil Yıldız <tulliana@gmail.com> <adil_yildiztr@yahoo.com>
+           © 2007 Jeff Cooper <weirdsox11@gmail.com>
+           © 2004 Kenshi Muto <kmuto@debian.org>
+           © 2009 Robin <icewind1991@gmail.com>
+           © 2009 Styopa Semenukha <semenukha@gmail.com>
+           © 2001 Mohamed Eldesoky <mohamed@handasarabia.org>
+           © 2004 Chris Howells <howells@kde.org>
+           © 2007 Andrea Celli <andrea.celli@libero.it>
+           © 2010 Matos Júnior <rubens.matos@gmail.com>
+           © 2007 Richard J. Moore <rich@kde.org>
+           © 2001-2003 Andrey S. Cherepanov <sibskull@mail.ru>
+           © 2011 Last-Translator: Stefan Asserhall <stefan.asserhall@bredband.net>
+           © 2003 Daniele Medri <madrid@linuxmeeting.net>
+           © 2000-2002 Waldo Bastian <bastian@kde.org>
+           © 2011 Last-Translator: Alexander Potashev <aspotashev@gmail.com>
+           © 2002-2003 Ludovic Grossard <grossard@kde.org>
+           © 2005 Andrea RIZZI <rizzi@sns.it>
+           © 2009 Jean-Jacques Finazzi <mrjay01@users.sourceforge.net>
+           © 2000 Hermann Zheboldov <hermann.zheboldov@shq.ru>
+           © 2004 Xabier García Feal <xabigf@gmx.net>
+           © 2004 Juan Irigoien <juanirigoien@irakasle.net>
+           © 2004 Ossama M. Khayat <okhayat@yahoo.com>
+           © 1999 Marko Samastur <markos@elite.org>
+           © 2007-2009 Park Sinjo <kde@peremen.name>
+           © 2012 Jiri Grönroos <jiri.gronroos@iki.fi>
+           © 2004 Kurose Shushi <md81@bird.email.ne.jp>
+           © 2008 Luciano Montanaro <mikelima@cirulla.net>
+           © 2002 Yuan-Chen Cheng <ycheng@slat.org>
+           © 2000 Zhitomirsky Sergey <szh@chat.ru>
+           © 1999-2000 Chris Schlaeger <cs@kde.org>
+           © 2002 Nguyen Hung.Vu <vu.hung@techviet.com>
+           © 2002 Chao-Hsiung Liao <pesder.liao@msa.hinet.net>
+           © 2012 Hajur Alasefer <frostbutterfly@gmail.com>
+           © 2012 Raul Gonzalez <raulgf83@gmail.com>
+           © 2007 pierluigi <pier_andreit@yahoo.it>
+           © 2010 Bob Zhang <78zhanghao87@gmail.com>
+           © 2010 Markus Slopianka <markus.s@kdemail.net>
+           © 2008 Goodhorse <franklin@goodhorse.idv.tw>
+           © 2011 Rinat Bikov <becase@altlinux.org>
+           © 2004 Toyohiro Asukai <toyohiro@ksmplus.com>
+           © 2008 Espen Talberg <espental@gmail.com>
+           © 2008-2009 Dario Panico <dareus.persarumrex@gmail.com>
+           © 2008 Laurent Montel <montel@kde.org>
+           © 1992-2007 Trolltech ASA. All Rights Reserved.
+           © 2008 Alain Sacky <nouslesfrancais@yahoo.fr>
+           © 2008 Stanislas Zeller <uncensored.assault@gmail.com>
+           © 2012 Bouklis Panos <panos@echidna-band.com>
+           © 2001 Jing-Jong Shyue <shyue@sonoma.com.tw>
+           © 2008 majed <gmajedli@gmail.com>
+           © 2000, 2003 Dmitri Ovechkin <d_ovechkin@hotmail.com>
+           ©  Norbert Popiołek <norbert@kde.com.pl>
+           © 2007 Jean-Jacques FINAZZI <mrjay01@users.sourceforge.net>
+           ©  Žugelj <gzugelj@vuka.hr>
+           © 2003 Cedric Pasteur <cedric.pasteur@free.fr>
+           © 2004 ABE Masanori <maas_abb@ybb.ne.jp>
+           © 2007 Urs Wolfer
+           © 2009 Vesna Rus <rus.vesna@yahoo.com>
+           © 2007 Riccardo Iaconelli <riccardo@kde.org>
+           ©  Koldo Navarro <koldo.np@euskalnet.net>
+           © 2003 Gonzalo H. Castilla <ttxzgl@yahoo.es>
+           © 2004 Ahmad M. Zawawi <azawawi@emirates.net.ae>
+           © 2003 Tsung-Chien Ho <iitze@hotmail.com>
+           © 2003 Dick Zhang <netwind2003@263.net>
+           © 2005 Paladin Liu <paladin@ms1.hinet.net>
+           © 1995 Christophe Wolfhugel
+           © 2007 Adarsha Rao <adarsh@cadl.iisc.ernet.in>
+           © 2010 Rubens de Souza
+           ©  Proefgelezen door Chris <cr.hooijer@hccnet.nl>
+           © 2008 Artem Sereda <overmind88@gmail.com>
+           © 2003 Keng-Yu Lin <s9321028@ncnu.edu.tw>
+           © 2006 Bram Schoenmakers <bramschoenmakers@kde.nl>
+           © 2011 Hendrik Knackstedt <kn.hendrik@gmail.com>
+           © 2009 Original Implementation. <andrew.coles@yahoo.co.uk>
+           © 2007 Peter Murdoch <pete@pmurdoch.com>
+           © 2007 UTUMI Hirosi <utuhiro78@yahoo.co.jp>
+           © 2003 Rıdvan CAN <ridvan@geleceklinux.org>
+           © 2008 Anas Husseini <linux.anas@gmail.com>
+           © 2009 Geoffray Levasseur <geoffray.levasseurbrandin@numericable.fr>
+           © 1999 Mark Davies <mark@mcs.vuw.ac.nz>
+           © 2008-2010 Etienne Biardeaud <etienne@cyteen.net>
+           © 2001, 2005 Mai Haohui <mhh@126.com>
+           © 2012 Abderrahim Kitouni <a.kitouni@gmail.com>
+           © 2008 Артём Середа <overmind88@gmail.com>
+           © 2007 sebo <tetsuo3@free.fr>
+           © 2003-2004 Marcin Garski <mgarski@post.pl>
+           © 2009 OsamaKhalid <osamak.wfm@gmail.com>
+           © 2007 Maor Vanmak <mvanmak1@gmail.com>
+           © 2000 Erol Öz <eroloz@bilgi.edu.tr>
+           © 2012 Kjetil Kilhavn <kjetil@kilhavn.no>
+           © 2002 Leon Kanter <leon@asplinux.ru>
+           © 2004 Shinsaku Nakagawa <shinsaku@users.sourceforge.jp>
+           © 2010 I. Petrouchtchak <fr.ivan@ukrainian-orthodox.org>
+           © 2010 Gökçen Eraslan <tulliana@gmail.com>
+           © 2009 Miguel Branco <mgl.branco@gmail.com>
+           © 2001 Translator: Chung-Yen Chang <candyz@linux.org.tw>
+           © 2000 Karl Backström <backstrom@kde.org>
+           © 2011 W.H. Kalpa Pathum <callkalpa@gmail.com>
+           © 2007 Mahesh <mahesh@localhost.localdomain>
+           © 2006 Alexander Neundorf <neundorf@kde.org>
+           © 2001 Li Zongliang <li-zongliang@21cn.com>
+           © 2000 Xie Yuheng <phycommusyee@263.net>
+           © 2001 Reza Arbab <arbab@austin.ibm.com>
+           © 2005 Michal Milos <krasnall@post.pl>
+           ©  Translators: Dario Lah <>,Denis Lackovic <delacko@fly.srk.fer.hr>
+           © 2006 Joonas Niilola <juippis@roskakori.org>
+           © 2006 Robert Gomulka <rgom@o2.pl>
+           © 2003 Joseph Wenninger <jowenn@kde.org>
+           © 2004 Arpad Biro <biro_arpad@yahoo.com>
+           © 2012 hanny <hannysabbagh@hotmail.com>
+           © 2003 Knut Erik Hollund <khollund@responze.net>
+           © 2007 Vladimir Kuznetsov <ks.vladimir@gmail.com>
+           © 2008 Evgeniy Ivanov <powerfox@kde.ru>
+           © 2007 Manu B <iammanu@gmail.com>
+           © 2008 Amine Roukh <amineroukh@gmail.com>
+           © 2008 Alexandre Chassignon <axcldd@gmail.com>
+           © 2001 Mohammed Gamal <f2c2001@yahoo.com>
+           © 2004 Nickolai Shaforostoff <shafff@ukr.net>
+           © 2000 Niels Reedijk <n.reedijk@planet.nl>
+           © 2003 Nuriddin Aminagha <nuriddin@eminaga.de>
+           © 2011 FengChao <rainofchaos@gmail.com>
+           © 2004 Littleagle Thoronaug <thoronaug@yahoo.es>
+           © 2010 Ignigo Salvador Azurmendi <xalba@euskalnet.net>
+           © 2010 Kiszel Kristóf <ulysses@kubuntu.org>
+           © 2005 S.R.Haque <srhaque@iee.org>
+           ©  Roberto Teixeira <maragato@kde.org>
+           2014 Jonathan Riddell <jriddell@ubuntu.com>
+           2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+Files: drkonqi/backtracegenerator.cpp
+       drkonqi/backtracegenerator.h
+       drkonqi/main.cpp
+       drkonqi/tests/crashtest/crashtest.cpp
+Copyright: 2000-2003 Hans Petter Bieker <bieker@kde.org>
+           2009  George Kiagiadakis <gkiagia@users.sourceforge.net>
+           2000-2002 David Faure <faure@kde.org>
+           2000-2002 Waldo Bastian <bastian@kde.org>
+License: BSD-BY-LC-NE
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+ * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ * IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+ * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ * NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+ * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ *****************************************************************/
+
+Files: shell/scripting/backportglobal.h
+Copyright: 1992-2007 Trolltech ASA. All rights reserved.
+License: GPL-2 + Trolltech GPL Exception version 1.0
+** This file is part of the plugins of the Qt Toolkit.
+**
+** This file may be used under the terms of the GNU General Public
+** License version 2.0 as published by the Free Software Foundation
+** and appearing in the file LICENSE.GPL included in the packaging of
+** this file.  Please review the following information to ensure GNU
+** General Public Licensing requirements will be met:
+** http://trolltech.com/products/qt/licenses/licensing/opensource/
+**
+** If you are unsure which license is appropriate for your use, please
+** review the following information:
+** http://trolltech.com/products/qt/licenses/licensing/licensingoverview
+** or contact the sales department at sales@trolltech.com.
+**
+** In addition, as a special exception, Trolltech gives you certain
+** additional rights. These rights are described in the Trolltech GPL
+** Exception version 1.0, which can be found at
+** http://www.trolltech.com/products/qt/gplexception/ and in the file
+** GPL_EXCEPTION.txt in this package.
+**
+** In addition, as a special exception, Trolltech, as the sole copyright
+** holder for Qt Designer, grants users of the Qt/Eclipse Integration
+** plug-in the right for the Qt/Eclipse Integration to link to
+** functionality provided by Qt Designer and its related libraries.
+**
+** Trolltech reserves all rights not expressly granted herein.
+**
+** Trolltech ASA (c) 2007
+**
+** This file is provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING THE
+** WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+**
+****************************************************************************/
+
+Files: dataengines/systemmonitor/sensorclient.h
+Copyright: 1999, 2000 Chris Schlaeger <cs@kde.org>
+           2006 John Tapsell <tapsell@kde.org>
+License: GPL-2
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of version 2 of the GNU General Public
+ License as published by the Free Software Foundation.
+ .
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+Files: applets/system-monitor/* excluding:
+        -? applets/system-monitor/CMakeLists.txt
+           applets/system-monitor/monitorbutton.cpp
+           applets/system-monitor/monitorbutton.h
+           applets/system-monitor/monitoricon.cpp
+           applets/system-monitor/monitoricon.h
+           applets/system-monitor/sm_export.h
+       applets/webbrowser/bookmarkitem.cpp
+       applets/webbrowser/bookmarkitem.h
+       dataengines/activities/activityjob.cpp
+       dataengines/activities/activityjob.h
+       dataengines/applicationjobs/* excluding:
+        -? dataengines/applicationjobs/CMakeLists.txt
+       dataengines/apps/* excluding:
+        -? dataengines/apps/CMakeLists.txt
+       dataengines/dict/* excluding:
+        -? dataengines/dict/CMakeLists.txt
+       dataengines/executable/* excluding:
+        -? dataengines/executable/CMakeLists.txt
+       dataengines/hotplug/* excluding:
+        -? dataengines/hotplug/CMakeLists.txt
+       dataengines/hotplug/hotplugengine.cpp
+       dataengines/hotplug/hotplugengine.h
+       dataengines/mouse/* excluding:
+        -? dataengines/mouse/CMakeLists.txt
+       dataengines/mpris2/mpris2engine.cpp
+       dataengines/mpris2/mpris2engine.h
+       dataengines/network/* excluding:
+        -? dataengines/network/CMakeLists.txt
+       dataengines/notifications/* excluding:
+        -? dataengines/notifications/CMakeLists.txt
+       dataengines/notifications/notificationsengine.cpp
+       dataengines/notifications/notificationsengine.h
+       dataengines/places/placesengine.cpp
+       dataengines/places/placesengine.h
+       dataengines/powermanagement/* excluding:
+        -? dataengines/powermanagement/CMakeLists.txt
+       dataengines/powermanagement/powermanagementservice.cpp
+       dataengines/powermanagement/powermanagementservice.h
+       dataengines/rss/* excluding:
+        -? dataengines/rss/CMakeLists.txt
+       dataengines/soliddevice/* excluding:
+        -? dataengines/soliddevice/CMakeLists.txt
+       dataengines/statusnotifieritem/statusnotifieritemjob.cpp
+       dataengines/statusnotifieritem/statusnotifieritemjob.h
+       dataengines/statusnotifieritem/statusnotifieritemservice.cpp
+       dataengines/statusnotifieritem/statusnotifieritemservice.h
+       dataengines/systemmonitor/systemmonitor.cpp
+       dataengines/systemmonitor/systemmonitor.h
+       dataengines/tasks/* excluding:
+        -? dataengines/tasks/CMakeLists.txt
+       dataengines/tasks/virtualdesktopssource.cpp
+       dataengines/tasks/virtualdesktopssource.h
+       kglobalaccel/main.cpp
+       kioslave/remote/kdedmodule/* excluding:
+        -? kioslave/remote/kdedmodule/CMakeLists.txt
+       kuiserver/* excluding:
+        -? kuiserver/CMakeLists.txt
+       kuiserver/jobview.cpp
+       kuiserver/jobview.h
+       kuiserver/requestviewcallwatcher.cpp
+       kuiserver/requestviewcallwatcher.h
+       kuiserver/tests/* excluding:
+        -? kuiserver/tests/CMakeLists.txt
+       phonon/platform_kde/* excluding:
+        -? phonon/platform_kde/CMakeLists.txt
+        -? phonon/platform_kde/debug.cpp
+        -? phonon/platform_kde/debug.h
+       runners/activities/* excluding:
+        -? runners/activities/CMakeLists.txt
+       runners/calculator/calculatorrunner.cpp
+       runners/calculator/calculatorrunner.h
+       runners/locations/* excluding:
+        -? runners/locations/CMakeLists.txt
+       runners/services/* excluding:
+        -? runners/services/CMakeLists.txt
+       runners/sessions/* excluding:
+        -? runners/sessions/CMakeLists.txt
+       runners/shell/shellrunner.cpp
+       runners/shell/shellrunner.h
+       runners/webshortcuts/* excluding:
+        -? runners/webshortcuts/CMakeLists.txt
+       runners/windowedwidgets/* excluding:
+        -? runners/windowedwidgets/CMakeLists.txt
+       shell/scripting/rect.cpp
+       solidautoeject/* excluding:
+        -? solidautoeject/CMakeLists.txt
+       soliduiserver/* excluding:
+        -? soliduiserver/CMakeLists.txt
+       systemmonitor/kdedksysguard.cpp
+       systemmonitor/ksystemactivitydialog.cpp
+       systemmonitor/ksystemactivitydialog.h
+Copyright: 2007 Petri Damsten <damu@iki.fi>
+           2010 Michel Lafon-Puyo <michel.lafonpuyo@gmail.com>
+License: LGPL-2
+ *   This program is free software; you can redistribute it and/or modify
+ *   it under the terms of the GNU Library General Public License version 2 as
+ *   published by the Free Software Foundation
+ *
+ *   This program is distributed in the hope that it will be useful,
+ *   but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *   GNU General Public License for more details
+ *
+ *   You should have received a copy of the GNU Library General Public
+ *   License along with this program; if not, write to the
+ *   Free Software Foundation, Inc.,
+ *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+Files: applets/analog-clock/contents/code/*
+       applets/batterymonitor/contents/code/*
+       applets/notifications/package/contents/ui/*
+       applets/notifications/package/platformcontents/touch/ui/*
+       applets/system-monitor/monitorbutton.cpp
+       applets/system-monitor/monitorbutton.h
+       applets/system-monitor/monitoricon.cpp
+       applets/system-monitor/monitoricon.h
+       applets/system-monitor/sm_export.h
+       applets/systemtray/package/contents/code/*
+       applets/systemtray/plugin/protocols/plasmoid/appletquickitem.h
+       applets/systemtray/tests/statusnotifier/* excluding:
+        -? applets/systemtray/tests/statusnotifier/CMakeLists.txt
+        -+ applets/systemtray/tests/statusnotifier/main.cpp
+       applets/webbrowser/bookmarksdelegate.cpp
+       applets/webbrowser/bookmarksdelegate.h
+       applets/webbrowser/browserhistorycombobox.cpp
+       applets/webbrowser/browserhistorycombobox.h
+       applets/webbrowser/errorpage.cpp
+       appmenu/shadows.cpp
+       appmenu/shadows.h
+       containmentactions/applauncher/* excluding:
+        -? containmentactions/applauncher/CMakeLists.txt
+       containmentactions/contextmenu/* excluding:
+        -? containmentactions/contextmenu/CMakeLists.txt
+       containmentactions/minimalcontextmenu/* excluding:
+        -? containmentactions/minimalcontextmenu/CMakeLists.txt
+       containmentactions/paste/* excluding:
+        -? containmentactions/paste/CMakeLists.txt
+       containmentactions/switchactivity/* excluding:
+        -? containmentactions/switchactivity/CMakeLists.txt
+       containmentactions/switchdesktop/* excluding:
+        -? containmentactions/switchdesktop/CMakeLists.txt
+       containmentactions/switchwindow/* excluding:
+        -? containmentactions/switchwindow/CMakeLists.txt
+       dataengines/activities/activityengine.cpp
+       dataengines/activities/activityengine.h
+       dataengines/activities/activityservice.cpp
+       dataengines/activities/activityservice.h
+       dataengines/akonadi/* excluding:
+        -? dataengines/akonadi/CMakeLists.txt
+       dataengines/calendar/* excluding:
+        -? dataengines/calendar/CMakeLists.txt
+       dataengines/devicenotifications/* excluding:
+        -? dataengines/devicenotifications/CMakeLists.txt
+       dataengines/favicons/* excluding:
+        -? dataengines/favicons/CMakeLists.txt
+       dataengines/hotplug/hotplugengine.cpp
+       dataengines/hotplug/hotplugengine.h
+       dataengines/keystate/keystate.cpp
+       dataengines/keystate/keystate.h
+       dataengines/notifications/notificationsengine.cpp
+       dataengines/notifications/notificationsengine.h
+       dataengines/powermanagement/powermanagementservice.cpp
+       dataengines/powermanagement/powermanagementservice.h
+       dataengines/tasks/virtualdesktopssource.cpp
+       dataengines/tasks/virtualdesktopssource.h
+       dataengines/time/* excluding:
+        -? dataengines/time/CMakeLists.txt
+        -+ dataengines/time/solarsystem.cpp
+        -+ dataengines/time/solarsystem.h
+       dataengines/weather/ions/* excluding:
+        -? dataengines/weather/ions/CMakeLists.txt
+       kioslave/applications/kio_applications.cpp
+       kioslave/remote/* excluding:
+        -? kioslave/remote/CMakeLists.txt
+       kioslave/remote/tests/* excluding:
+        -? kioslave/remote/tests/CMakeLists.txt
+       ksmserver/kcheckrunning.cpp
+       ksmserver/themes/default/*
+       ktimezoned/* excluding:
+        -? ktimezoned/CMakeLists.txt
+       libkworkspace/interface_util.h
+       libkworkspace/kworkspace.cpp
+       libkworkspace/kworkspace.h
+       libkworkspace/kworkspace_p.h
+       runners/bookmarks/* excluding:
+        -? runners/bookmarks/CMakeLists.txt
+       runners/bookmarks/browsers/*
+       runners/bookmarks/tests/* excluding:
+        -? runners/bookmarks/tests/CMakeLists.txt
+       runners/calculator/qalculate_engine.cpp
+       runners/calculator/qalculate_engine.h
+       runners/places/* excluding:
+        -? runners/places/CMakeLists.txt
+       runners/recentdocuments/* excluding:
+        -? runners/recentdocuments/CMakeLists.txt
+       shell/* excluding:
+        -? shell/CMakeLists.txt
+        -+ shell/activity.cpp
+        -+ shell/activity.h
+        -? shell/config-ktexteditor.h.cmake
+        -? shell/config-plasma.h.cmake
+        -+ shell/desktopview.cpp
+        -+ shell/desktopview.h
+        -+ shell/main.cpp
+        -+ shell/osd.cpp
+        -+ shell/osd.h
+        -+ shell/panelview.cpp
+        -+ shell/panelview.h
+        -+ shell/shellmanager.cpp
+        -+ shell/shellmanager.h
+       shell/plasmaquick/configmodel.h
+       shell/plasmaquick/configview.h
+       shell/scripting/* excluding:
+        -+ shell/scripting/backportglobal.h
+        -+ shell/scripting/rect.cpp
+       shell/widgetexplorer/* excluding:
+        -? shell/widgetexplorer/CMakeLists.txt
+        -+ shell/widgetexplorer/widgetexplorerplugin.cpp
+        -+ shell/widgetexplorer/widgetexplorerplugin.h
+       wallpapers/image/imageplugin.cpp
+       wallpapers/image/imageplugin.h
+       wallpapers/image/wallpaperpackage.cpp
+       wallpapers/image/wallpaperpackage.h
+Copyright: 2012 Viranch Mehta <viranch.mehta@gmail.com>
+           2012, 2013 Marco Martin <mart@kde.org>
+           2007, 2012 Glenn Ergeerts <glenn.ergeerts@telenet.be>
+           2008 Laurent Montel <montel@kde.org>
+           2007-2009 David Jarvie <djarvie@kde.org>
+           2009 Till Adam <adam@kde.org>
+           2005 Lubos Lunak <l.lunak@kde.org>
+           2003 Joseph Wenninger <jowenn@kde.org>
+           2004 Kevin Ottens <ervin ipsquad net>
+           2010 Chani Armitage <chani@kde.org>
+           2007 Volker Krause <vkrause@kde.org>
+           2009 Sebastian Kügler <sebas@kde.org>
+           2009 Davide Bettio <davide.bettio@kdemail.net>
+           2010 Frederik Gladhorn <gladhorn@kde.org>
+           2010 Jacopo De Simoi <wilderkde@gmail.com>
+           2007 Tobias Koenig <tokoe@kde.org>
+           2008 Marco Martin <notmart@gmail.com>
+           2013 Andrea Scarpino <scarpino@kde.org>
+           2007 Menard Alexis <darktears31@gmail.com>
+           2009 Aaron Seigo <aseigo@kde.org>
+           2008 Dmitry Suzdalev <dimsuz@gmail.com>
+           2010 Matthieu Gallien <matthieu_gallien@yahoo.fr>
+           2008 Alex Merry <alex.merry@kdemail.net>
+License: LGPL-2+
+ *   This program is free software; you can redistribute it and/or modify
+ *   it under the terms of the GNU Library General Public License as
+ *   published by the Free Software Foundation; either version 2 or
+ *   (at your option) any later version.
+ *
+ *   This program is distributed in the hope that it will be useful,
+ *   but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *   GNU Library General Public License for more details
+ *
+ *   You should have received a copy of the GNU Library General Public
+ *   License along with this program; if not, write to the
+ *   Free Software Foundation, Inc.,
+ *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+Files: applets/notifications/plugin/* excluding:
+        -? applets/notifications/plugin/CMakeLists.txt
+       applets/systemtray/plugin/tasklistmodel.cpp
+       applets/systemtray/plugin/tasklistmodel.h
+       dataengines/keystate/keyservice.h
+       dataengines/mpris2/* excluding:
+        -? dataengines/mpris2/CMakeLists.txt
+        -? dataengines/mpris2/debug.h
+        -+ dataengines/mpris2/mpris2engine.cpp
+        -+ dataengines/mpris2/mpris2engine.h
+       dataengines/places/* excluding:
+        -? dataengines/places/CMakeLists.txt
+        -+ dataengines/places/placesengine.cpp
+        -+ dataengines/places/placesengine.h
+       systemmonitor/kdedksysguard.h
+       systemmonitor/main.cpp
+Copyright: 2014  Martin Klapetek <mklapetek@kde.org>
+           2014  David Edmundson <david@davidedmundson.co.uk>
+           2009 Aaron Seigo aseigo@kde.org
+           2012  Alex Merry <alex.merry@kdemail.net>
+           2014 Marco Martin <mart@kde.org>
+License: LGPL-2.1+
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 2.1 of the License, or (at your option) any later version.
+ *
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this library; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin St, Fifth Floor,
+ * Boston, MA  02110-1301  USA
+ */
+
+Files: drkonqi/kdbgwin/* excluding:
+        -? drkonqi/kdbgwin/CMakeLists.txt
+       runners/kill/* excluding:
+        -? runners/kill/CMakeLists.txt
+Copyright: 2010 Ilie Halip <lupuroshu@gmail.com>
+           2009  <Jan Gerrit Marker> <jangerrit@weiler-marker.com>
+License: LGPL-2.1+ accepted by the membership of KDE e.V.
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 2.1 of the License, or (at your option) version 3, or any
+ * later version accepted by the membership of KDE e.V. (or its
+ * successor approved by the membership of KDE e.V.), which shall
+ * act as a proxy defined in Section 6 of version 3 of the license.
+ *
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this library.  If not, see <http://www.gnu.org/licenses/>
+ *****************************************************************/
+
+Files: dataengines/keystate/keyservice.cpp
+Copyright: 2009 Aaron Seigo <aseigo@kde.org>
+License: LGPL-any
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * This library is free software; you can redistribute it and/or
+ *
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this library; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin St, Fifth Floor,
+ * Boston, MA  02110-1301  USA
+
+Files: ksmserver
+       appmenu/* excluding:
+        -? appmenu/CMakeLists.txt
+        -+ appmenu/shadows.cpp
+        -+ appmenu/shadows.h
+       dataengines/weather/ions/debianweather/* excluding:
+        -? dataengines/weather/ions/debianweather/CMakeLists.txt
+       ksmserver/* excluding:
+        -+ ksmserver/kcheckrunning.cpp
+       ksmserver/tests/*
+       libtaskmanager/* excluding:
+        -? libtaskmanager/CMakeLists.txt
+       libtaskmanager/strategies/* excluding:
+        -+ libtaskmanager/strategies/activitysortingstrategy.cpp
+        -+ libtaskmanager/strategies/activitysortingstrategy.h
+       shell/widgetexplorer/widgetexplorerplugin.cpp
+       shell/widgetexplorer/widgetexplorerplugin.h
+       startkde/kstartupconfig/* excluding:
+        -? startkde/kstartupconfig/CMakeLists.txt
+Copyright: 2000 Matthias Ettrich <ettrich@kde.org>
+           2005 Lubos Lunak <l.lunak@kde.org>
+           2008 Christian Mollekopf <chrigi_1@hotmail.com>
+           2010 Anton Kreuzkamp <akreuzkamp@web.de>
+           2011 Craig Drummond <craig@kde.org>
+           2000-2001 Matthias Elter <elter@kde.org>
+           2001 Richard Moore <rich@kde.org>
+           2010 Aaron Seigo <aseigo@kde.org>
+           2012-2013 Eike Hein <hein@kde.org>
+License: MIT
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
