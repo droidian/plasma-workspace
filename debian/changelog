@@ -3,6 +3,10 @@ plasma-workspace-kf5 (4.96.0-0ubuntu1) UNRELEASED; urgency=medium
   * New upstream release
   * Removed kubuntu_startkde.diff applied upstream 
   * wrap-and-sort
+  * Split out libs
+  * Add -dev package
+  * Add watch file
+  * Fine tuning copyright
 
  -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Sat, 05 Apr 2014 16:50:51 +0000
 

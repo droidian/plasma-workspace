@@ -1,14 +1,20 @@
 #!/usr/bin/make -f
 
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
+libpkgs_addsubst_allLibraries = plasma-workspace-kf5-dev
+include /usr/share/pkg-kde-tools/qt-kde-team/2/library-packages.mk
 
 override_dh_auto_test:
 	PYBUILD_TEST_ARGS="export `dbus-launch`"\
 	dh_auto_test
 
+override_dh_fixperms:
+	chmod -x debian/plasma-workspace-kf5/etc/xdg/autostart/klipper.desktop
+	$(overridden_command)
+
 override_dh_install:
-	mkdir -p debian/kde-workspace-kf5/usr/share/xsessions/
-	cp debian/kde-plasma-kf5.desktop debian/kde-workspace-kf5/usr/share/xsessions/
-	mkdir -p debian/kde-workspace-kf5/usr/share/lightdm/lightdm.conf.d/
-	cp debian/40-kde-plasma-kf5.conf debian/kde-workspace-kf5/usr/share/lightdm/lightdm.conf.d/
+	mkdir -p debian/plasma-workspace-kf5/usr/share/xsessions/
+	cp debian/kde-plasma-kf5.desktop debian/plasma-workspace-kf5/usr/share/xsessions/
+	mkdir -p debian/plasma-workspace-kf5/usr/share/lightdm/lightdm.conf.d/
+	cp debian/40-kde-plasma-kf5.conf debian/plasma-workspace-kf5/usr/share/lightdm/lightdm.conf.d/
 	dh_install
