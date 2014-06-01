@@ -41,7 +41,7 @@ Build-Depends: cmake,
                libkf5jsembed-dev
  (>= 4.99.0),
                libkf5kcmutils-dev (>= 4.99.0),
-               libkf5kdelibs4support-dev (>= 4.99.0),
+               libkf5kdelibs4support-dev (>= 4.99.0),               
                libkf5khtml-dev (>= 4.99.0),
                libkf5kjs-dev (>= 4.99.0),
                libkf5newstuff-dev (>= 4.99.0),

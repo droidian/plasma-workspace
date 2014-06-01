@@ -1,6 +1,6 @@
 usr/include/*
 usr/lib/*/cmake
-usr/lib/x86_64-linux-gnu/libkworkspace.so
-usr/lib/x86_64-linux-gnu/libplasma-geolocation-interface.so
-usr/lib/x86_64-linux-gnu/libtaskmanager.so
-usr/lib/x86_64-linux-gnu/libweather_ion.so
+usr/lib/*/libkworkspace.so
+usr/lib/*/libplasma-geolocation-interface.so
+usr/lib/*/libtaskmanager.so
+usr/lib/*/libweather_ion.so
