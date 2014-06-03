@@ -1,4 +1,4 @@
-Source: plasma-workspace-kf5
+Source: plasma-workspace
 Section: kde
 Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
@@ -18,30 +18,30 @@ Build-Depends: cmake,
                libfontconfig1-dev,
                libgps-dev,
                libkf5activities-dev (>= 4.99.0),
-               libkf5attica-dev,
-               libkf5auth-dev,
-               libkf5bookmarks-dev,
-               libkf5codecs-dev,
-               libkf5completion-dev,
-               libkf5config-dev,
-               libkf5configwidgets-dev,
-               libkf5coreaddons-dev,
-               libkf5crash-dev,
-               libkf5dbusaddons-dev,
-               libkf5declarative-dev,
-               libkf5emoticons-dev,
-               libkf5globalaccel-dev,
-               libkf5guiaddons-dev,
-               libkf5i18n-dev,
-               libkf5iconthemes-dev,
-               libkf5idletime-dev,
-               libkf5itemmodels-dev,
-               libkf5itemviews-dev,
-               libkf5jobwidgets-dev,
+               libkf5attica-dev (>= 4.99.0),
+               libkf5auth-dev (>= 4.99.0),
+               libkf5bookmarks-dev (>= 4.99.0),
+               libkf5codecs-dev (>= 4.99.0),
+               libkf5completion-dev (>= 4.99.0),
+               libkf5config-dev (>= 4.99.0),
+               libkf5configwidgets-dev (>= 4.99.0),
+               libkf5coreaddons-dev (>= 4.99.0),
+               libkf5crash-dev (>= 4.99.0),
+               libkf5dbusaddons-dev (>= 4.99.0),
+               libkf5declarative-dev (>= 4.99.0),
+               libkf5emoticons-dev (>= 4.99.0),
+               libkf5globalaccel-dev (>= 4.99.0),
+               libkf5guiaddons-dev (>= 4.99.0),
+               libkf5i18n-dev (>= 4.99.0),
+               libkf5iconthemes-dev (>= 4.99.0),
+               libkf5idletime-dev (>= 4.99.0),
+               libkf5itemmodels-dev (>= 4.99.0),
+               libkf5itemviews-dev (>= 4.99.0),
+               libkf5jobwidgets-dev (>= 4.99.0),
                libkf5jsembed-dev
  (>= 4.99.0),
                libkf5kcmutils-dev (>= 4.99.0),
-               libkf5kdelibs4support-dev (>= 4.99.0),               
+               libkf5kdelibs4support-dev (>= 4.99.0),
                libkf5khtml-dev (>= 4.99.0),
                libkf5kjs-dev (>= 4.99.0),
                libkf5newstuff-dev (>= 4.99.0),
@@ -120,9 +120,9 @@ Build-Depends: cmake,
                xvfb
 Standards-Version: 3.9.5
 
-Package: plasma-workspace-kf5-dev
+Package: plasma-workspace-dev
 Architecture: any
-Depends: plasma-workspace-kf5 (= ${binary:Version}),
+Depends: plasma-workspace (= ${binary:Version}),
          ${allLibraries},
          ${misc:Depends}
 Description: Plasma Workspace for KF5 devel files
@@ -132,7 +132,7 @@ Description: Plasma Workspace for KF5 devel files
  .
  This package contains the development files.
 
-Package: plasma-workspace-kf5
+Package: plasma-workspace
 Architecture: any
 Depends: dbus-x11,
          kactivities,
@@ -157,7 +157,7 @@ Depends: dbus-x11,
          x11-utils,
          x11-xserver-utils,
          ${misc:Depends},
-         ${shlibs:Depends}       
+         ${shlibs:Depends}
 Suggests: libkf5newstuff5
 Conflicts: kde-window-manager,
            kde-workspace,
@@ -172,7 +172,7 @@ Description: Plasma Workspace for KF5
  .
  THIS WILL REMOVE YOUR KDE 4 Plasma.
 
-Package: plasma-workspace-kf5-data
+Package: plasma-workspace-data
 Architecture: any
 Depends: plasma-workspace-kf5 (= ${binary:Version}), ${misc:Depends}
 Description: Plasma Workspace for KF5 data files
