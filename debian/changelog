@@ -1,8 +1,12 @@
-plasma-workspace (4.96.0-0ubuntu5) UNRELEASED; urgency=medium
+plasma-workspace (4:4.97.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * Rename - drop kf5
 
- -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Tue, 03 Jun 2014 13:35:32 +0000
+  [ Jonathan Riddell ]
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 09 Jun 2014 10:26:55 +0100
 
 plasma-workspace-kf5 (4.96.0-0ubuntu4) trusty; urgency=medium
 
