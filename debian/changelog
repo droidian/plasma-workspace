@@ -1,4 +1,4 @@
-plasma-workspace (4.97.0-0ubuntu1) UNRELEASED; urgency=medium
+plasma-workspace (4:4.97.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Rename - drop kf5
@@ -11,7 +11,7 @@ plasma-workspace (4.97.0-0ubuntu1) UNRELEASED; urgency=medium
 plasma-workspace-kf5 (4.96.0-0ubuntu4) trusty; urgency=medium
 
   * New upstream release
-  * Removed kubuntu_startkde.diff applied upstream 
+  * Removed kubuntu_startkde.diff applied upstream
   * wrap-and-sort
   * Split out libs
   * Add -dev package
