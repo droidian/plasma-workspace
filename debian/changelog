@@ -8,6 +8,12 @@ plasma-workspace (4:4.97.0-0ubuntu1) UNRELEASED; urgency=medium
   * New packages for new soname, libplasma-geolocation-interface5
     and libweather-ion7
 
+  [ Scarlett Clark ]
+  * Fix runtime depends
+  * Fix permissions
+  * change data package arch all
+  * add missing comma 
+
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 09 Jun 2014 10:26:55 +0100
 
 plasma-workspace-kf5 (4.96.0-0ubuntu4) trusty; urgency=medium

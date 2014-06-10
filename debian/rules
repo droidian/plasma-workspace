@@ -10,6 +10,7 @@ override_dh_auto_test:
 
 override_dh_fixperms:
 	chmod -x debian/plasma-workspace/etc/xdg/autostart/klipper.desktop
+	chmod +x debian/plasma-workspace-data/usr/share/plasma/look-and-feel/org.kde.lookandfeel/contents/components/artwork/currentColorFillFix.sh
 	$(overridden_command)
 
 override_dh_install:
