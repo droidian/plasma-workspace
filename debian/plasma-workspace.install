@@ -9,3 +9,6 @@ usr/lib/*/libkdeinit5_ksmserver.so
 usr/lib/*/libkdeinit5_kuiserver5.so
 usr/lib/*/qt5
 usr/share/applications
+usr/share/dbus-1/services/org.kde.krunner.service
+usr/share/dbus-1/services/org.kde.kglobalaccel.service
+usr/share/dbus-1/services/kf5_org.kde.kuiserver.service

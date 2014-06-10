@@ -11,8 +11,8 @@ Build-Depends: cmake,
                kio-dev,
                kgendesignerplugin,
                kinit-dev,
-               kwin-dev (>= 4.96.0),
-               libboost1.54-dev,
+               kwin-dev (>= 4.97.0),
+               libboost1.55-dev,
                libdbusmenu-qt5-dev,
                libfontconfig1-dev,
                libgps-dev,
@@ -53,7 +53,7 @@ Build-Depends: cmake,
                libkf5sonnet-dev (>= 4.100.0),
                libkf5style-dev (>= 4.100.0),
                libkf5su-dev (>= 4.100.0),
-               libkf5sysguard-dev (>= 4.96.0),
+               libkf5sysguard-dev (>= 4.97.0),
                libkf5texteditor-dev (>= 4.100.0),
                libkf5textwidgets-dev (>= 4.100.0),
                libkf5threadweaver-dev (>= 4.100.0),
@@ -154,6 +154,7 @@ Depends: dbus-x11,
          udisks2,
          x11-utils,
          x11-xserver-utils,
+         plasma-workspace-data (= ${source:Version})
          ${misc:Depends},
          ${shlibs:Depends}
 Suggests: libkf5newstuff5
@@ -172,7 +173,7 @@ Description: Plasma Workspace for KF5
 
 Package: plasma-workspace-data
 Architecture: any
-Depends: plasma-workspace-kf5 (= ${binary:Version}), ${misc:Depends}
+Depends: ${misc:Depends}
 Description: Plasma Workspace for KF5 data files
  Plasma Workspace for KF5. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
@@ -191,7 +192,7 @@ Description: Plasma Workspace for KF5 library
  .
  This package contains library files.
 
-Package: libplasma-geolocation-interface4
+Package: libplasma-geolocation-interface5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Plasma Workspace for KF5 library
@@ -213,7 +214,7 @@ Description: Plasma Workspace for KF5 library
  .
  This package contains library files.
 
-Package: libweather-ion6
+Package: libweather-ion7
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Plasma Workspace for KF5 library

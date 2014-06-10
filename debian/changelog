@@ -1,10 +1,12 @@
-plasma-workspace (4:4.97.0-0ubuntu1) UNRELEASED; urgency=medium
+plasma-workspace (4:4.97.0-0ubuntu1~ubuntu14.10~ppa4) utopic; urgency=medium
 
   [ Scarlett Clark ]
   * Rename - drop kf5
 
   [ Jonathan Riddell ]
   * New upstream beta release
+  * New packages for new soname, libplasma-geolocation-interface5
+    and libweather-ion7
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 09 Jun 2014 10:26:55 +0100
 

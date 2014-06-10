@@ -1,5 +1,5 @@
 usr/share/config.kcfg
-usr/share/desktop-directories
+#usr/share/desktop-directories #FIXME upstream overlapping files
 usr/share/doc
 usr/share/drkonqi
 usr/share/knotifications5
