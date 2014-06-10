@@ -13,6 +13,7 @@ plasma-workspace (4:4.97.0-0ubuntu1) UNRELEASED; urgency=medium
   * Fix permissions
   * change data package arch all
   * add missing comma 
+  * Fix runtime depend plasma-workspace 
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 09 Jun 2014 10:26:55 +0100
 
