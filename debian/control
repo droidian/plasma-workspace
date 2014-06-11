@@ -161,9 +161,6 @@ Suggests: libkf5newstuff5
 Conflicts: kde-window-manager,
            kde-workspace,
            kde-workspace-data,
-           ksysguard,
-           ksysguardd,
-           plasma-desktop
 Description: Plasma Workspace for KF5
  Plasma Workspace for KF5. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
