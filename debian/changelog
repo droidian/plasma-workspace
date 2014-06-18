@@ -24,6 +24,8 @@ plasma-workspace (4:4.97.0-0ubuntu1) UNRELEASED; urgency=medium
     with latest debian's qt 5.3:
     - qml-module-qtquick2 as an alternative of qtdeclarative5-qtquick2-plugin
     - qml-module-qtquick-window2 as an alternative of qtdeclarative5-window-plugin
+  * Improve kubuntu_add-qml2-path.diff so plasma-workspace doesn't need to
+    execute dpkg-architecture at runtime.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 09 Jun 2014 10:26:55 +0100
 
