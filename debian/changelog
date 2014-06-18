@@ -18,6 +18,13 @@ plasma-workspace (4:4.97.0-0ubuntu1) UNRELEASED; urgency=medium
   * Fix dh_fixperms
   * Removing a fixperm for now so it will build.
 
+  [ José Manuel Santamaría Lema ]
+  * Build depend on libxcb-randr0-dev.
+  * Add the following alternative depencies to make plasma-workspace installable
+    with latest debian's qt 5.3:
+    - qml-module-qtquick2 as an alternative of qtdeclarative5-qtquick2-plugin
+    - qml-module-qtquick-window2 as an alternative of qtdeclarative5-window-plugin
+
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 09 Jun 2014 10:26:55 +0100
 
 plasma-workspace-kf5 (4.96.0-0ubuntu4) trusty; urgency=medium
