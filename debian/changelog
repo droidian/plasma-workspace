@@ -7,15 +7,16 @@ plasma-workspace (4:4.97.0-0ubuntu1) UNRELEASED; urgency=medium
   * New upstream beta release
   * New packages for new soname, libplasma-geolocation-interface5
     and libweather-ion7
+  * Don't depend on qt5-default
 
   [ Scarlett Clark ]
   * Fix runtime depends
   * Fix permissions
   * change data package arch all
-  * add missing comma 
-  * Fix runtime depend plasma-workspace 
-  * Fix dh_fixperms 
-  * Removing a fixperm for now so it will build. 
+  * add missing comma
+  * Fix runtime depend plasma-workspace
+  * Fix dh_fixperms
+  * Removing a fixperm for now so it will build.
 
   [ José Manuel Santamaría Lema ]
   * Build depend on libxcb-randr0-dev.
