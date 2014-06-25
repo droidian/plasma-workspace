@@ -1,13 +1,26 @@
-Index: plasma-workspace-4.96.0/startkde/startkde.cmake
-===================================================================
---- plasma-workspace-4.96.0.orig/startkde/startkde.cmake	2014-05-30 00:53:26.121020859 +0000
-+++ plasma-workspace-4.96.0/startkde/startkde.cmake	2014-05-30 00:53:26.113020859 +0000
+--- a/startkde/startkde.cmake
++++ b/startkde/startkde.cmake
 @@ -3,6 +3,8 @@
  #  DEFAULT KDE STARTUP SCRIPT ( @KDE4WORKSPACE_VERSION@ )
  #
  
-+export QML2_IMPORT_PATH=/usr/lib/`dpkg-architecture | grep DEB_HOST_MULTIARCH= | sed s,DEB_HOST_MULTIARCH=,,`/qt5/qml/
++export QML2_IMPORT_PATH=/usr/lib/@DEB_HOST_MULTIARCH@/qt5/qml/
 +
  if test "x$1" = x--failsafe; then
      KDE_FAILSAFE=1 # General failsafe flag
      KWIN_COMPOSE=N # Disable KWin's compositing
+--- a/startkde/CMakeLists.txt
++++ b/startkde/CMakeLists.txt
+@@ -6,8 +6,10 @@ if(NOT CMAKE_INSTALL_PREFIX STREQUAL "/u
+     set(EXPORT_XCURSOR_PATH "XCURSOR_PATH=${CMAKE_INSTALL_PREFIX}/share/icons:$XCURSOR_PATH\":~/.icons:/usr/share/icons:/usr/share/pixmaps:/usr/X11R6/lib/X11/icons\"; export XCURSOR_PATH")
+ endif()
+ 
++execute_process( COMMAND dpkg-architecture -qDEB_HOST_MULTIARCH OUTPUT_VARIABLE DEB_HOST_MULTIARCH OUTPUT_STRIP_TRAILING_WHITESPACE)
++
+ configure_file(startkde.cmake ${CMAKE_CURRENT_BINARY_DIR}/startkde  @ONLY)
+ 
+ if(NOT WIN32)
+   install(PROGRAMS ${CMAKE_CURRENT_BINARY_DIR}/startkde DESTINATION ${BIN_INSTALL_DIR})
+-endif()
+\ No newline at end of file
++endif()
