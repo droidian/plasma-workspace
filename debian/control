@@ -3,15 +3,15 @@ Section: kde
 Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Jonathan Riddell <jriddell@ubuntu.com>
-Build-Depends: baloo-kf5-dev (>= 4.98.0), 
+Build-Depends: baloo-kf5-dev (>= 4.98.0),
                cmake,
                dbus-x11,
                debhelper (>= 9.0.0),
                extra-cmake-modules,
                kdoctools-dev,
-               kio-dev,
                kgendesignerplugin,
                kinit-dev,
+               kio-dev,
                kwin-dev (>= 4:4.98.0),
                libboost1.55-dev,
                libdbusmenu-qt5-dev,
@@ -80,8 +80,8 @@ Build-Depends: baloo-kf5-dev (>= 4.98.0),
                libsm-dev,
                libudev-dev,
                libusb-dev,
-               libxapian-dev,
                libx11-xcb-dev,
+               libxapian-dev,
                libxcb-composite0-dev,
                libxcb-cursor-dev,
                libxcb-damage0-dev,
@@ -142,10 +142,11 @@ Depends: dbus-x11,
          kde-wallpapers-default,
          kded5,
          kinit,
-         libkf5declarative5,        
+         libkf5declarative5,
+         libkf5service-bin,
          oxygen-icon-theme,
          plasma-framework,
-         libprison-dev,
+         plasma-workspace-data (= ${source:Version}),
          qdbus-qt5,
          qml-module-qtgraphicaleffects,
          qml-module-qtquick-controls,
@@ -161,21 +162,17 @@ Depends: dbus-x11,
          udisks2,
          x11-utils,
          x11-xserver-utils,
-         plasma-workspace-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Suggests: libkf5newstuff5
-Conflicts: kde-window-manager,
-           kde-workspace,
-           kde-workspace-data,
-           klipper
+Conflicts: kde-window-manager, kde-workspace, kde-workspace-data, klipper
 Replaces: klipper
 Description: Plasma Workspace for KF5
  Plasma Workspace for KF5. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
  hardware management and a high degree of customizability.
  .
- THIS WILL REMOVE YOUR KDE 4 Plasma.
+ THIS WILL REMOVE YOUR KDE Plasma 4.
 
 Package: plasma-workspace-data
 Architecture: all
