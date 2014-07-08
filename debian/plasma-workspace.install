@@ -12,3 +12,4 @@ usr/share/applications
 usr/share/dbus-1/services/org.kde.krunner.service
 usr/share/dbus-1/services/org.kde.kglobalaccel.service
 usr/share/dbus-1/services/kf5_org.kde.kuiserver.service
+usr/share/xsessions/plasma.desktop

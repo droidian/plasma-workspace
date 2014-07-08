@@ -11,3 +11,5 @@ usr/share/kstyle
 usr/share/locale
 usr/share/plasma
 usr/share/solid
+usr/share/sddm
+usr/share/desktop-directories
