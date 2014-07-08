@@ -3,7 +3,8 @@ Section: kde
 Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Jonathan Riddell <jriddell@ubuntu.com>
-Build-Depends: cmake,
+Build-Depends: baloo-kf5-dev (>= 4.98.0), 
+               cmake,
                dbus-x11,
                debhelper (>= 9.0.0),
                extra-cmake-modules,

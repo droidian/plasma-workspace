@@ -1,6 +1,10 @@
 plasma-workspace (4:4.98.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * New upstream RC release
+
+  [ Scarlett Clark ]
+  * Add baloo build depend 
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 07 Jul 2014 13:28:19 +0200
 
