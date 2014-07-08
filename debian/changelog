@@ -6,6 +6,7 @@ plasma-workspace (4:4.98.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * Add baloo build depend 
   * Fix filename in fix-perms and add new files to -data 
+  * add optional depends 
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 07 Jul 2014 13:28:19 +0200
 
