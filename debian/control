@@ -3,15 +3,15 @@ Section: kde
 Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Jonathan Riddell <jriddell@ubuntu.com>
-Build-Depends: baloo-kf5-dev (>= 4.98.0),
+Build-Depends: baloo-kf5-dev (>= 5.0.0),
                cmake,
                dbus-x11,
                debhelper (>= 9.0.0),
                extra-cmake-modules,
                kdoctools-dev,
-               kgendesignerplugin,
+               kgendesignerplugin (>= 5.0.0),
                kinit-dev,
-               kio-dev,
+               kio-dev (>= 5.0.0),
                kwin-dev (>= 4:5.0.0),
                libboost1.55-dev,
                libdbusmenu-qt5-dev,
@@ -30,7 +30,7 @@ Build-Depends: baloo-kf5-dev (>= 4.98.0),
                libkf5dbusaddons-dev (>= 5.0.0),
                libkf5declarative-dev (>= 5.0.0),
                libkf5emoticons-dev (>= 5.0.0),
-               libkf5filemetadata5-dev (>= 4.98.0),
+               libkf5filemetadata5-dev (>= 5.0.0),
                libkf5globalaccel-dev (>= 5.0.0),
                libkf5guiaddons-dev (>= 5.0.0),
                libkf5i18n-dev (>= 5.0.0),
@@ -55,7 +55,7 @@ Build-Depends: baloo-kf5-dev (>= 4.98.0),
                libkf5sonnet-dev (>= 5.0.0),
                libkf5style-dev (>= 5.0.0),
                libkf5su-dev (>= 5.0.0),
-               libkf5sysguard-dev (>= 4.97.0),
+               libkf5sysguard-dev (>= 5.0.0),
                libkf5texteditor-dev (>= 5.0.0),
                libkf5textwidgets-dev (>= 5.0.0),
                libkf5threadweaver-dev (>= 5.0.0),
@@ -146,7 +146,6 @@ Depends: dbus-x11,
          libkf5service-bin,
          oxygen-icon-theme,
          plasma-framework,
-         plasma-workspace-data (= ${source:Version}),
          qdbus-qt5,
          qml-module-qtgraphicaleffects,
          qml-module-qtquick-controls,
@@ -166,23 +165,13 @@ Depends: dbus-x11,
          ${shlibs:Depends}
 Suggests: libkf5newstuff5
 Conflicts: kde-window-manager, kde-workspace, kde-workspace-data, klipper
-Replaces: klipper
+Replaces: klipper, plasma-workspace-data
 Description: Plasma Workspace for KF5
  Plasma Workspace for KF5. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
  hardware management and a high degree of customizability.
  .
  THIS WILL REMOVE YOUR KDE Plasma 4.
-
-Package: plasma-workspace-data
-Architecture: all
-Depends: ${misc:Depends}
-Description: Plasma Workspace for KF5 data files
- Plasma Workspace for KF5. Workspaces provide
- support for KDE Plasma Widgets, integrated search,
- hardware management and a high degree of customizability.
- .
- This package contains the data files.
 
 Package: libkworkspace5
 Architecture: any
@@ -194,6 +183,12 @@ Description: Plasma Workspace for KF5 library
  Kworkspace library.
  .
  This package contains library files.
+
+Package: libkf5xmlrpcclientprivate5
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Library files needed by Drkonqi
+ A simple XML-RPC client library used by Drkonqi.
 
 Package: libplasma-geolocation-interface5
 Architecture: any
