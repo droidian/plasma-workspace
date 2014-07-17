@@ -507,64 +507,61 @@ Copyright: 2000-2003 Hans Petter Bieker <bieker@kde.org>
            2000-2002 David Faure <faure@kde.org>
            2000-2002 Waldo Bastian <bastian@kde.org>
 License: BSD-BY-LC-NE
- * Redistribution and use in source and binary forms, with or without
- * modification, are permitted provided that the following conditions
- * are met:
- *
- * 1. Redistributions of source code must retain the above copyright
- *    notice, this list of conditions and the following disclaimer.
- * 2. Redistributions in binary form must reproduce the above copyright
- *    notice, this list of conditions and the following disclaimer in the
- *    documentation and/or other materials provided with the distribution.
- *
- * THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
- * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
- * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
- * IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
- * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
- * NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
- * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
- * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
- * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
- * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
- *****************************************************************/
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 Files: shell/scripting/backportglobal.h
 Copyright: 1992-2007 Trolltech ASA. All rights reserved.
 License: GPL-2 + Trolltech GPL Exception version 1.0
- ** This file is part of the plugins of the Qt Toolkit.
- **
- ** This file may be used under the terms of the GNU General Public
- ** License version 2.0 as published by the Free Software Foundation
- ** and appearing in the file LICENSE.GPL included in the packaging of
- ** this file.  Please review the following information to ensure GNU
- ** General Public Licensing requirements will be met:
- ** http://trolltech.com/products/qt/licenses/licensing/opensource/
- **
- ** If you are unsure which license is appropriate for your use, please
- ** review the following information:
- ** http://trolltech.com/products/qt/licenses/licensing/licensingoverview
- ** or contact the sales department at sales@trolltech.com.
- **
- ** In addition, as a special exception, Trolltech gives you certain
- ** additional rights. These rights are described in the Trolltech GPL
- ** Exception version 1.0, which can be found at
- ** http://www.trolltech.com/products/qt/gplexception/ and in the file
- ** GPL_EXCEPTION.txt in this package.
- **
- ** In addition, as a special exception, Trolltech, as the sole copyright
- ** holder for Qt Designer, grants users of the Qt/Eclipse Integration
- ** plug-in the right for the Qt/Eclipse Integration to link to
- ** functionality provided by Qt Designer and its related libraries.
- **
- ** Trolltech reserves all rights not expressly granted herein.
- **
- ** Trolltech ASA (c) 2007
- **
- ** This file is provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING THE
- ** WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
- **
- ****************************************************************************/
+ This file is part of the plugins of the Qt Toolkit.
+ .
+ This file may be used under the terms of the GNU General Public
+ License version 2.0 as published by the Free Software Foundation
+ and appearing in the file LICENSE.GPL included in the packaging of
+ this file.  Please review the following information to ensure GNU
+ General Public Licensing requirements will be met:
+ http://trolltech.com/products/qt/licenses/licensing/opensource/
+ .
+ If you are unsure which license is appropriate for your use, please
+ review the following information:
+ http://trolltech.com/products/qt/licenses/licensing/licensingoverview
+ or contact the sales department at sales@trolltech.com.
+ .
+ In addition, as a special exception, Trolltech gives you certain
+ additional rights. These rights are described in the Trolltech GPL
+ Exception version 1.0, which can be found at
+ http://www.trolltech.com/products/qt/gplexception/ and in the file
+ GPL_EXCEPTION.txt in this package.
+ .
+ In addition, as a special exception, Trolltech, as the sole copyright
+ holder for Qt Designer, grants users of the Qt/Eclipse Integration
+ plug-in the right for the Qt/Eclipse Integration to link to
+ functionality provided by Qt Designer and its related libraries.
+ .
+ Trolltech reserves all rights not expressly granted herein.
+ .
+ Trolltech ASA (c) 2007
+ .
+ This file is provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING THE
+ WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
 
 Files: dataengines/systemmonitor/sensorclient.h
 Copyright: 1999, 2000 Chris Schlaeger <cs@kde.org>
@@ -583,114 +580,87 @@ License: GPL-2
  along with this program; if not, write to the Free Software
  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
-Files: applets/system-monitor/* excluding:
-        -? applets/system-monitor/CMakeLists.txt
-           applets/system-monitor/monitorbutton.cpp
-           applets/system-monitor/monitorbutton.h
-           applets/system-monitor/monitoricon.cpp
-           applets/system-monitor/monitoricon.h
-           applets/system-monitor/sm_export.h
+Files: applets/system-monitor/* excluding:       
+         -applets/system-monitor/monitorbutton.cpp
+         -applets/system-monitor/monitorbutton.h
+         -applets/system-monitor/monitoricon.cpp
+         -applets/system-monitor/monitoricon.h
+         -applets/system-monitor/sm_export.h
        applets/webbrowser/bookmarkitem.cpp
        applets/webbrowser/bookmarkitem.h
        dataengines/activities/activityjob.cpp
        dataengines/activities/activityjob.h
-       dataengines/applicationjobs/* excluding:
-        -? dataengines/applicationjobs/CMakeLists.txt
-       dataengines/apps/* excluding:
-        -? dataengines/apps/CMakeLists.txt
-       dataengines/dict/* excluding:
-        -? dataengines/dict/CMakeLists.txt
-       dataengines/executable/* excluding:
-        -? dataengines/executable/CMakeLists.txt
-       dataengines/hotplug/* excluding:
-        -? dataengines/hotplug/CMakeLists.txt
+       dataengines/applicationjobs/* 
+       dataengines/apps/* 
+       dataengines/dict/* 
+       dataengines/executable/* 
+       dataengines/hotplug/* 
        dataengines/hotplug/hotplugengine.cpp
        dataengines/hotplug/hotplugengine.h
-       dataengines/mouse/* excluding:
-        -? dataengines/mouse/CMakeLists.txt
+       dataengines/mouse/* 
        dataengines/mpris2/mpris2engine.cpp
        dataengines/mpris2/mpris2engine.h
-       dataengines/network/* excluding:
-        -? dataengines/network/CMakeLists.txt
-       dataengines/notifications/* excluding:
-        -? dataengines/notifications/CMakeLists.txt
+       dataengines/network/* 
+       dataengines/notifications/*  
        dataengines/notifications/notificationsengine.cpp
        dataengines/notifications/notificationsengine.h
        dataengines/places/placesengine.cpp
        dataengines/places/placesengine.h
-       dataengines/powermanagement/* excluding:
-        -? dataengines/powermanagement/CMakeLists.txt
+       dataengines/powermanagement/* 
        dataengines/powermanagement/powermanagementservice.cpp
        dataengines/powermanagement/powermanagementservice.h
-       dataengines/rss/* excluding:
-        -? dataengines/rss/CMakeLists.txt
-       dataengines/soliddevice/* excluding:
-        -? dataengines/soliddevice/CMakeLists.txt
+       dataengines/rss/* 
+       dataengines/soliddevice/* 
        dataengines/statusnotifieritem/statusnotifieritemjob.cpp
        dataengines/statusnotifieritem/statusnotifieritemjob.h
        dataengines/statusnotifieritem/statusnotifieritemservice.cpp
        dataengines/statusnotifieritem/statusnotifieritemservice.h
        dataengines/systemmonitor/systemmonitor.cpp
        dataengines/systemmonitor/systemmonitor.h
-       dataengines/tasks/* excluding:
-        -? dataengines/tasks/CMakeLists.txt
+       dataengines/tasks/* 
        dataengines/tasks/virtualdesktopssource.cpp
        dataengines/tasks/virtualdesktopssource.h
        kglobalaccel/main.cpp
-       kioslave/remote/kdedmodule/* excluding:
-        -? kioslave/remote/kdedmodule/CMakeLists.txt
-       kuiserver/* excluding:
-        -? kuiserver/CMakeLists.txt
+       kioslave/remote/kdedmodule/* 
+       kuiserver/* 
        kuiserver/jobview.cpp
        kuiserver/jobview.h
        kuiserver/requestviewcallwatcher.cpp
        kuiserver/requestviewcallwatcher.h
-       kuiserver/tests/* excluding:
-        -? kuiserver/tests/CMakeLists.txt
-       phonon/platform_kde/* excluding:
-        -? phonon/platform_kde/CMakeLists.txt
-        -? phonon/platform_kde/debug.cpp
-        -? phonon/platform_kde/debug.h
-       runners/activities/* excluding:
-        -? runners/activities/CMakeLists.txt
+       kuiserver/tests/* 
+       phonon/platform_kde/* 
+       runners/activities/* 
        runners/calculator/calculatorrunner.cpp
        runners/calculator/calculatorrunner.h
-       runners/locations/* excluding:
-        -? runners/locations/CMakeLists.txt
-       runners/services/* excluding:
-        -? runners/services/CMakeLists.txt
-       runners/sessions/* excluding:
-        -? runners/sessions/CMakeLists.txt
+       runners/locations/* 
+       runners/services/* 
+       runners/sessions/* 
        runners/shell/shellrunner.cpp
        runners/shell/shellrunner.h
-       runners/webshortcuts/* excluding:
-        -? runners/webshortcuts/CMakeLists.txt
-       runners/windowedwidgets/* excluding:
-        -? runners/windowedwidgets/CMakeLists.txt
+       runners/webshortcuts/* 
+       runners/windowedwidgets/* 
        shell/scripting/rect.cpp
-       solidautoeject/* excluding:
-        -? solidautoeject/CMakeLists.txt
-       soliduiserver/* excluding:
-        -? soliduiserver/CMakeLists.txt
+       solidautoeject/* 
+       soliduiserver/* 
        systemmonitor/kdedksysguard.cpp
        systemmonitor/ksystemactivitydialog.cpp
        systemmonitor/ksystemactivitydialog.h
 Copyright: 2007 Petri Damsten <damu@iki.fi>
            2010 Michel Lafon-Puyo <michel.lafonpuyo@gmail.com>
 License: LGPL-2
- *   This program is free software; you can redistribute it and/or modify
- *   it under the terms of the GNU Library General Public License version 2 as
- *   published by the Free Software Foundation
- *
- *   This program is distributed in the hope that it will be useful,
- *   but WITHOUT ANY WARRANTY; without even the implied warranty of
- *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *   GNU General Public License for more details
- *
- *   You should have received a copy of the GNU Library General Public
- *   License along with this program; if not, write to the
- *   Free Software Foundation, Inc.,
- *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Library General Public License version 2 as
+ published by the Free Software Foundation
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details
+ .
+ You should have received a copy of the GNU Library General Public
+ License along with this program; if not, write to the
+ Free Software Foundation, Inc.,
+ 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 Files: applets/analog-clock/contents/code/*
        applets/batterymonitor/contents/code/*
@@ -703,9 +673,8 @@ Files: applets/analog-clock/contents/code/*
        applets/system-monitor/sm_export.h
        applets/systemtray/package/contents/code/*
        applets/systemtray/plugin/protocols/plasmoid/appletquickitem.h
-       applets/systemtray/tests/statusnotifier/* excluding:
-        -? applets/systemtray/tests/statusnotifier/CMakeLists.txt
-        -+ applets/systemtray/tests/statusnotifier/main.cpp
+       applets/systemtray/tests/statusnotifier/* excluding:        
+         -applets/systemtray/tests/statusnotifier/main.cpp
        applets/webbrowser/bookmarksdelegate.cpp
        applets/webbrowser/bookmarksdelegate.h
        applets/webbrowser/browserhistorycombobox.cpp
@@ -713,32 +682,21 @@ Files: applets/analog-clock/contents/code/*
        applets/webbrowser/errorpage.cpp
        appmenu/shadows.cpp
        appmenu/shadows.h
-       containmentactions/applauncher/* excluding:
-        -? containmentactions/applauncher/CMakeLists.txt
-       containmentactions/contextmenu/* excluding:
-        -? containmentactions/contextmenu/CMakeLists.txt
-       containmentactions/minimalcontextmenu/* excluding:
-        -? containmentactions/minimalcontextmenu/CMakeLists.txt
-       containmentactions/paste/* excluding:
-        -? containmentactions/paste/CMakeLists.txt
-       containmentactions/switchactivity/* excluding:
-        -? containmentactions/switchactivity/CMakeLists.txt
-       containmentactions/switchdesktop/* excluding:
-        -? containmentactions/switchdesktop/CMakeLists.txt
-       containmentactions/switchwindow/* excluding:
-        -? containmentactions/switchwindow/CMakeLists.txt
+       containmentactions/applauncher/* 
+       containmentactions/contextmenu/* 
+       containmentactions/minimalcontextmenu/* 
+       containmentactions/paste/* 
+       containmentactions/switchactivity/* 
+       containmentactions/switchdesktop/* 
+       containmentactions/switchwindow/* 
        dataengines/activities/activityengine.cpp
        dataengines/activities/activityengine.h
        dataengines/activities/activityservice.cpp
        dataengines/activities/activityservice.h
-       dataengines/akonadi/* excluding:
-        -? dataengines/akonadi/CMakeLists.txt
-       dataengines/calendar/* excluding:
-        -? dataengines/calendar/CMakeLists.txt
-       dataengines/devicenotifications/* excluding:
-        -? dataengines/devicenotifications/CMakeLists.txt
-       dataengines/favicons/* excluding:
-        -? dataengines/favicons/CMakeLists.txt
+       dataengines/akonadi/* 
+       dataengines/calendar/* 
+       dataengines/devicenotifications/* 
+       dataengines/favicons/* 
        dataengines/hotplug/hotplugengine.cpp
        dataengines/hotplug/hotplugengine.h
        dataengines/keystate/keystate.cpp
@@ -749,60 +707,47 @@ Files: applets/analog-clock/contents/code/*
        dataengines/powermanagement/powermanagementservice.h
        dataengines/tasks/virtualdesktopssource.cpp
        dataengines/tasks/virtualdesktopssource.h
-       dataengines/time/* excluding:
-        -? dataengines/time/CMakeLists.txt
-        -+ dataengines/time/solarsystem.cpp
-        -+ dataengines/time/solarsystem.h
-       dataengines/weather/ions/* excluding:
-        -? dataengines/weather/ions/CMakeLists.txt
+       dataengines/time/* 
+        -dataengines/time/solarsystem.cpp
+        -dataengines/time/solarsystem.h
+       dataengines/weather/ions/* 
        kioslave/applications/kio_applications.cpp
-       kioslave/remote/* excluding:
-        -? kioslave/remote/CMakeLists.txt
-       kioslave/remote/tests/* excluding:
-        -? kioslave/remote/tests/CMakeLists.txt
+       kioslave/remote/* 
+       kioslave/remote/tests/* 
        ksmserver/kcheckrunning.cpp
        ksmserver/themes/default/*
-       ktimezoned/* excluding:
-        -? ktimezoned/CMakeLists.txt
+       ktimezoned/*
        libkworkspace/interface_util.h
        libkworkspace/kworkspace.cpp
        libkworkspace/kworkspace.h
        libkworkspace/kworkspace_p.h
-       runners/bookmarks/* excluding:
-        -? runners/bookmarks/CMakeLists.txt
+       runners/bookmarks/* 
        runners/bookmarks/browsers/*
-       runners/bookmarks/tests/* excluding:
-        -? runners/bookmarks/tests/CMakeLists.txt
+       runners/bookmarks/tests/* 
        runners/calculator/qalculate_engine.cpp
        runners/calculator/qalculate_engine.h
-       runners/places/* excluding:
-        -? runners/places/CMakeLists.txt
-       runners/recentdocuments/* excluding:
-        -? runners/recentdocuments/CMakeLists.txt
-       shell/* excluding:
-        -? shell/CMakeLists.txt
-        -+ shell/activity.cpp
-        -+ shell/activity.h
-        -? shell/config-ktexteditor.h.cmake
-        -? shell/config-plasma.h.cmake
-        -+ shell/desktopview.cpp
-        -+ shell/desktopview.h
-        -+ shell/main.cpp
-        -+ shell/osd.cpp
-        -+ shell/osd.h
-        -+ shell/panelview.cpp
-        -+ shell/panelview.h
-        -+ shell/shellmanager.cpp
-        -+ shell/shellmanager.h
+       runners/places/* 
+       runners/recentdocuments/* 
+       shell/* excluding:        
+        -shell/activity.cpp
+        -shell/activity.h        
+        -shell/desktopview.cpp
+        -shell/desktopview.h
+        -shell/main.cpp
+        -shell/osd.cpp
+        -shell/osd.h
+        -shell/panelview.cpp
+        -shell/panelview.h
+        -shell/shellmanager.cpp
+        -shell/shellmanager.h
        shell/plasmaquick/configmodel.h
        shell/plasmaquick/configview.h
        shell/scripting/* excluding:
-        -+ shell/scripting/backportglobal.h
-        -+ shell/scripting/rect.cpp
-       shell/widgetexplorer/* excluding:
-        -? shell/widgetexplorer/CMakeLists.txt
-        -+ shell/widgetexplorer/widgetexplorerplugin.cpp
-        -+ shell/widgetexplorer/widgetexplorerplugin.h
+        -shell/scripting/backportglobal.h
+        -shell/scripting/rect.cpp
+       shell/widgetexplorer/* excluding:        
+        -shell/widgetexplorer/widgetexplorerplugin.cpp
+        -shell/widgetexplorer/widgetexplorerplugin.h
        wallpapers/image/imageplugin.cpp
        wallpapers/image/imageplugin.h
        wallpapers/image/wallpaperpackage.cpp
@@ -831,35 +776,31 @@ Copyright: 2012 Viranch Mehta <viranch.mehta@gmail.com>
            2010 Matthieu Gallien <matthieu_gallien@yahoo.fr>
            2008 Alex Merry <alex.merry@kdemail.net>
 License: LGPL-2+
- *   This program is free software; you can redistribute it and/or modify
- *   it under the terms of the GNU Library General Public License as
- *   published by the Free Software Foundation; either version 2 or
- *   (at your option) any later version.
- *
- *   This program is distributed in the hope that it will be useful,
- *   but WITHOUT ANY WARRANTY; without even the implied warranty of
- *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *   GNU Library General Public License for more details
- *
- *   You should have received a copy of the GNU Library General Public
- *   License along with this program; if not, write to the
- *   Free Software Foundation, Inc.,
- *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Library General Public License as
+ published by the Free Software Foundation; either version 2 or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU Library General Public License for more details
+ .
+ You should have received a copy of the GNU Library General Public
+ License along with this program; if not, write to the
+ Free Software Foundation, Inc.,
+ 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
-Files: applets/notifications/plugin/* excluding:
-        -? applets/notifications/plugin/CMakeLists.txt
+Files: applets/notifications/plugin/* 
        applets/systemtray/plugin/tasklistmodel.cpp
        applets/systemtray/plugin/tasklistmodel.h
        dataengines/keystate/keyservice.h
-       dataengines/mpris2/* excluding:
-        -? dataengines/mpris2/CMakeLists.txt
-        -? dataengines/mpris2/debug.h
-        -+ dataengines/mpris2/mpris2engine.cpp
-        -+ dataengines/mpris2/mpris2engine.h
-       dataengines/places/* excluding:
-        -? dataengines/places/CMakeLists.txt
-        -+ dataengines/places/placesengine.cpp
-        -+ dataengines/places/placesengine.h
+       dataengines/mpris2/* excluding:       
+        -dataengines/mpris2/mpris2engine.cpp
+        -dataengines/mpris2/mpris2engine.h
+       dataengines/places/* excluding:        
+        -dataengines/places/placesengine.cpp
+        -dataengines/places/placesengine.h
        systemmonitor/kdedksysguard.h
        systemmonitor/main.cpp
 Copyright: 2014  Martin Klapetek <mklapetek@kde.org>
@@ -868,83 +809,75 @@ Copyright: 2014  Martin Klapetek <mklapetek@kde.org>
            2012  Alex Merry <alex.merry@kdemail.net>
            2014 Marco Martin <mart@kde.org>
 License: LGPL-2.1+
- * This library is free software; you can redistribute it and/or
- * modify it under the terms of the GNU Lesser General Public
- * License as published by the Free Software Foundation; either
- * version 2.1 of the License, or (at your option) any later version.
- *
- * This library is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- * Lesser General Public License for more details.
- *
- * You should have received a copy of the GNU Lesser General Public
- * License along with this library; if not, write to the Free Software
- * Foundation, Inc., 51 Franklin St, Fifth Floor,
- * Boston, MA  02110-1301  USA
- */
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin St, Fifth Floor,
+ Boston, MA  02110-1301  USA
 
-Files: drkonqi/kdbgwin/* excluding:
-        -? drkonqi/kdbgwin/CMakeLists.txt
-       runners/kill/* excluding:
-        -? runners/kill/CMakeLists.txt
+Files: drkonqi/kdbgwin/*
+       runners/kill/* 
 Copyright: 2010 Ilie Halip <lupuroshu@gmail.com>
            2009  <Jan Gerrit Marker> <jangerrit@weiler-marker.com>
 License: LGPL-2.1+ accepted by the membership of KDE e.V.
- * This library is free software; you can redistribute it and/or
- * modify it under the terms of the GNU Lesser General Public
- * License as published by the Free Software Foundation; either
- * version 2.1 of the License, or (at your option) version 3, or any
- * later version accepted by the membership of KDE e.V. (or its
- * successor approved by the membership of KDE e.V.), which shall
- * act as a proxy defined in Section 6 of version 3 of the license.
- *
- * This library is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- * Lesser General Public License for more details.
- *
- * You should have received a copy of the GNU Lesser General Public
- * License along with this library.  If not, see <http://www.gnu.org/licenses/>
- *****************************************************************/
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) version 3, or any
+ later version accepted by the membership of KDE e.V. (or its
+ successor approved by the membership of KDE e.V.), which shall
+ act as a proxy defined in Section 6 of version 3 of the license.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library.  If not, see <http://www.gnu.org/licenses/>
 
 Files: dataengines/keystate/keyservice.cpp
 Copyright: 2009 Aaron Seigo <aseigo@kde.org>
 License: LGPL-any
- * This library is free software; you can redistribute it and/or
- * modify it under the terms of the GNU Lesser General Public
- * License as published by the Free Software Foundation; either
- * This library is free software; you can redistribute it and/or
- *
- * This library is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- * Lesser General Public License for more details.
- *
- * You should have received a copy of the GNU Lesser General Public
- * License along with this library; if not, write to the Free Software
- * Foundation, Inc., 51 Franklin St, Fifth Floor,
- * Boston, MA  02110-1301  USA
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ This library is free software; you can redistribute it and/or
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin St, Fifth Floor,
+ Boston, MA  02110-1301  USA
 
 Files: ksmserver
-       appmenu/* excluding:
-        -? appmenu/CMakeLists.txt
-        -+ appmenu/shadows.cpp
-        -+ appmenu/shadows.h
-       dataengines/weather/ions/debianweather/* excluding:
-        -? dataengines/weather/ions/debianweather/CMakeLists.txt
+       appmenu/* excluding:        
+        -appmenu/shadows.cpp
+        -appmenu/shadows.h
+       dataengines/weather/ions/debianweather/* 
        ksmserver/* excluding:
-        -+ ksmserver/kcheckrunning.cpp
+        -ksmserver/kcheckrunning.cpp
        ksmserver/tests/*
-       libtaskmanager/* excluding:
-        -? libtaskmanager/CMakeLists.txt
+       libtaskmanager/* 
        libtaskmanager/strategies/* excluding:
-        -+ libtaskmanager/strategies/activitysortingstrategy.cpp
-        -+ libtaskmanager/strategies/activitysortingstrategy.h
+        -libtaskmanager/strategies/activitysortingstrategy.cpp
+        -libtaskmanager/strategies/activitysortingstrategy.h
        shell/widgetexplorer/widgetexplorerplugin.cpp
        shell/widgetexplorer/widgetexplorerplugin.h
-       startkde/kstartupconfig/* excluding:
-        -? startkde/kstartupconfig/CMakeLists.txt
+       startkde/kstartupconfig/*
 Copyright: 2000 Matthias Ettrich <ettrich@kde.org>
            2005 Lubos Lunak <l.lunak@kde.org>
            2008 Christian Mollekopf <chrigi_1@hotmail.com>
