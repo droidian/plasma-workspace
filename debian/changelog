@@ -10,6 +10,10 @@ plasma-workspace (4:5.0.0-0ubuntu1) UNRELEASED; urgency=medium
   * Cleanup - remove -data and minor fixes.
   * Update watch to http://download.kde.org 
 
+  [ José Manuel Santamaría Lema ]
+  * Build depend on libkf5filemetadata1-dev instead of
+    libkf5filemetadata5-dev.
+
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 10 Jul 2014 20:06:06 +0200
 
 plasma-workspace (4:4.98.0-0ubuntu1) utopic; urgency=medium
