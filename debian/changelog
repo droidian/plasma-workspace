@@ -8,8 +8,12 @@ plasma-workspace (4:5.0.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * Add missing lib to fix build
   * Cleanup - remove -data and minor fixes.
-  * Update watch to http://download.kde.org 
-  * Cleanup copyright-helper cruft. 
+  * Update watch to http://download.kde.org
+  * Cleanup copyright-helper cruft.
+
+  [ José Manuel Santamaría Lema ]
+  * Build depend on libkf5filemetadata1-dev instead of
+    libkf5filemetadata5-dev.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 10 Jul 2014 20:06:06 +0200
 
