@@ -14,6 +14,10 @@ plasma-workspace (4:5.0.0-0ubuntu1) UNRELEASED; urgency=medium
   [ José Manuel Santamaría Lema ]
   * Build depend on libkf5filemetadata1-dev instead of
     libkf5filemetadata5-dev.
+  * Add plasma-workspace.postinst in order to set the x-session-manager
+    alternative, this way in a system without any login manager and only
+    the plasma desktop installed users would be able to start plasma
+    just typing 'startx'.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 10 Jul 2014 20:06:06 +0200
 
