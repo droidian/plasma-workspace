@@ -4,6 +4,7 @@ plasma-workspace (4:5.0.0-0ubuntu1) UNRELEASED; urgency=medium
   * New upstream release
   * Add kubuntu_startkde-qtpath.diff to tell it the path to,
     ironically, qtpaths
+  * Add depends on frameworkintegration
 
   [ Scarlett Clark ]
   * Add missing lib to fix build

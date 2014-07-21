@@ -161,6 +161,7 @@ Depends: dbus-x11,
          udisks2,
          x11-utils,
          x11-xserver-utils,
+         frameworkintegration,
          ${misc:Depends},
          ${shlibs:Depends}
 Suggests: libkf5newstuff5
