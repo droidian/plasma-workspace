@@ -19,6 +19,7 @@ plasma-workspace (4:5.0.0-0ubuntu1) UNRELEASED; urgency=medium
     alternative, this way in a system without any login manager and only
     the plasma desktop installed users would be able to start plasma
     just typing 'startx'.
+  * Add plasma-workspace-dbg in order to provide debugging symbols.
 
   [ Rohan Garg ]
   * Add sddm-theme-breeze package
