@@ -580,7 +580,7 @@ License: GPL-2
  along with this program; if not, write to the Free Software
  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
-Files: applets/system-monitor/* excluding:       
+Files: applets/system-monitor/* excluding:
          -applets/system-monitor/monitorbutton.cpp
          -applets/system-monitor/monitorbutton.h
          -applets/system-monitor/monitoricon.cpp
@@ -590,58 +590,58 @@ Files: applets/system-monitor/* excluding:
        applets/webbrowser/bookmarkitem.h
        dataengines/activities/activityjob.cpp
        dataengines/activities/activityjob.h
-       dataengines/applicationjobs/* 
-       dataengines/apps/* 
-       dataengines/dict/* 
-       dataengines/executable/* 
-       dataengines/hotplug/* 
+       dataengines/applicationjobs/*
+       dataengines/apps/*
+       dataengines/dict/*
+       dataengines/executable/*
+       dataengines/hotplug/*
        dataengines/hotplug/hotplugengine.cpp
        dataengines/hotplug/hotplugengine.h
-       dataengines/mouse/* 
+       dataengines/mouse/*
        dataengines/mpris2/mpris2engine.cpp
        dataengines/mpris2/mpris2engine.h
-       dataengines/network/* 
-       dataengines/notifications/*  
+       dataengines/network/*
+       dataengines/notifications/*
        dataengines/notifications/notificationsengine.cpp
        dataengines/notifications/notificationsengine.h
        dataengines/places/placesengine.cpp
        dataengines/places/placesengine.h
-       dataengines/powermanagement/* 
+       dataengines/powermanagement/*
        dataengines/powermanagement/powermanagementservice.cpp
        dataengines/powermanagement/powermanagementservice.h
-       dataengines/rss/* 
-       dataengines/soliddevice/* 
+       dataengines/rss/*
+       dataengines/soliddevice/*
        dataengines/statusnotifieritem/statusnotifieritemjob.cpp
        dataengines/statusnotifieritem/statusnotifieritemjob.h
        dataengines/statusnotifieritem/statusnotifieritemservice.cpp
        dataengines/statusnotifieritem/statusnotifieritemservice.h
        dataengines/systemmonitor/systemmonitor.cpp
        dataengines/systemmonitor/systemmonitor.h
-       dataengines/tasks/* 
+       dataengines/tasks/*
        dataengines/tasks/virtualdesktopssource.cpp
        dataengines/tasks/virtualdesktopssource.h
        kglobalaccel/main.cpp
-       kioslave/remote/kdedmodule/* 
-       kuiserver/* 
+       kioslave/remote/kdedmodule/*
+       kuiserver/*
        kuiserver/jobview.cpp
        kuiserver/jobview.h
        kuiserver/requestviewcallwatcher.cpp
        kuiserver/requestviewcallwatcher.h
-       kuiserver/tests/* 
-       phonon/platform_kde/* 
-       runners/activities/* 
+       kuiserver/tests/*
+       phonon/platform_kde/*
+       runners/activities/*
        runners/calculator/calculatorrunner.cpp
        runners/calculator/calculatorrunner.h
-       runners/locations/* 
-       runners/services/* 
-       runners/sessions/* 
+       runners/locations/*
+       runners/services/*
+       runners/sessions/*
        runners/shell/shellrunner.cpp
        runners/shell/shellrunner.h
-       runners/webshortcuts/* 
-       runners/windowedwidgets/* 
+       runners/webshortcuts/*
+       runners/windowedwidgets/*
        shell/scripting/rect.cpp
-       solidautoeject/* 
-       soliduiserver/* 
+       solidautoeject/*
+       soliduiserver/*
        systemmonitor/kdedksysguard.cpp
        systemmonitor/ksystemactivitydialog.cpp
        systemmonitor/ksystemactivitydialog.h
@@ -673,7 +673,7 @@ Files: applets/analog-clock/contents/code/*
        applets/system-monitor/sm_export.h
        applets/systemtray/package/contents/code/*
        applets/systemtray/plugin/protocols/plasmoid/appletquickitem.h
-       applets/systemtray/tests/statusnotifier/* excluding:        
+       applets/systemtray/tests/statusnotifier/* excluding:
          -applets/systemtray/tests/statusnotifier/main.cpp
        applets/webbrowser/bookmarksdelegate.cpp
        applets/webbrowser/bookmarksdelegate.h
@@ -682,21 +682,21 @@ Files: applets/analog-clock/contents/code/*
        applets/webbrowser/errorpage.cpp
        appmenu/shadows.cpp
        appmenu/shadows.h
-       containmentactions/applauncher/* 
-       containmentactions/contextmenu/* 
-       containmentactions/minimalcontextmenu/* 
-       containmentactions/paste/* 
-       containmentactions/switchactivity/* 
-       containmentactions/switchdesktop/* 
-       containmentactions/switchwindow/* 
+       containmentactions/applauncher/*
+       containmentactions/contextmenu/*
+       containmentactions/minimalcontextmenu/*
+       containmentactions/paste/*
+       containmentactions/switchactivity/*
+       containmentactions/switchdesktop/*
+       containmentactions/switchwindow/*
        dataengines/activities/activityengine.cpp
        dataengines/activities/activityengine.h
        dataengines/activities/activityservice.cpp
        dataengines/activities/activityservice.h
-       dataengines/akonadi/* 
-       dataengines/calendar/* 
-       dataengines/devicenotifications/* 
-       dataengines/favicons/* 
+       dataengines/akonadi/*
+       dataengines/calendar/*
+       dataengines/devicenotifications/*
+       dataengines/favicons/*
        dataengines/hotplug/hotplugengine.cpp
        dataengines/hotplug/hotplugengine.h
        dataengines/keystate/keystate.cpp
@@ -707,13 +707,13 @@ Files: applets/analog-clock/contents/code/*
        dataengines/powermanagement/powermanagementservice.h
        dataengines/tasks/virtualdesktopssource.cpp
        dataengines/tasks/virtualdesktopssource.h
-       dataengines/time/* 
+       dataengines/time/*
         -dataengines/time/solarsystem.cpp
         -dataengines/time/solarsystem.h
-       dataengines/weather/ions/* 
+       dataengines/weather/ions/*
        kioslave/applications/kio_applications.cpp
-       kioslave/remote/* 
-       kioslave/remote/tests/* 
+       kioslave/remote/*
+       kioslave/remote/tests/*
        ksmserver/kcheckrunning.cpp
        ksmserver/themes/default/*
        ktimezoned/*
@@ -721,16 +721,16 @@ Files: applets/analog-clock/contents/code/*
        libkworkspace/kworkspace.cpp
        libkworkspace/kworkspace.h
        libkworkspace/kworkspace_p.h
-       runners/bookmarks/* 
+       runners/bookmarks/*
        runners/bookmarks/browsers/*
-       runners/bookmarks/tests/* 
+       runners/bookmarks/tests/*
        runners/calculator/qalculate_engine.cpp
        runners/calculator/qalculate_engine.h
-       runners/places/* 
-       runners/recentdocuments/* 
-       shell/* excluding:        
+       runners/places/*
+       runners/recentdocuments/*
+       shell/* excluding:
         -shell/activity.cpp
-        -shell/activity.h        
+        -shell/activity.h
         -shell/desktopview.cpp
         -shell/desktopview.h
         -shell/main.cpp
@@ -745,7 +745,7 @@ Files: applets/analog-clock/contents/code/*
        shell/scripting/* excluding:
         -shell/scripting/backportglobal.h
         -shell/scripting/rect.cpp
-       shell/widgetexplorer/* excluding:        
+       shell/widgetexplorer/* excluding:
         -shell/widgetexplorer/widgetexplorerplugin.cpp
         -shell/widgetexplorer/widgetexplorerplugin.h
        wallpapers/image/imageplugin.cpp
@@ -791,14 +791,14 @@ License: LGPL-2+
  Free Software Foundation, Inc.,
  51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
-Files: applets/notifications/plugin/* 
+Files: applets/notifications/plugin/*
        applets/systemtray/plugin/tasklistmodel.cpp
        applets/systemtray/plugin/tasklistmodel.h
        dataengines/keystate/keyservice.h
-       dataengines/mpris2/* excluding:       
+       dataengines/mpris2/* excluding:
         -dataengines/mpris2/mpris2engine.cpp
         -dataengines/mpris2/mpris2engine.h
-       dataengines/places/* excluding:        
+       dataengines/places/* excluding:
         -dataengines/places/placesengine.cpp
         -dataengines/places/placesengine.h
        systemmonitor/kdedksysguard.h
@@ -825,7 +825,7 @@ License: LGPL-2.1+
  Boston, MA  02110-1301  USA
 
 Files: drkonqi/kdbgwin/*
-       runners/kill/* 
+       runners/kill/*
 Copyright: 2010 Ilie Halip <lupuroshu@gmail.com>
            2009  <Jan Gerrit Marker> <jangerrit@weiler-marker.com>
 License: LGPL-2.1+ accepted by the membership of KDE e.V.
@@ -864,14 +864,14 @@ License: LGPL-any
  Boston, MA  02110-1301  USA
 
 Files: ksmserver
-       appmenu/* excluding:        
+       appmenu/* excluding:
         -appmenu/shadows.cpp
         -appmenu/shadows.h
-       dataengines/weather/ions/debianweather/* 
+       dataengines/weather/ions/debianweather/*
        ksmserver/* excluding:
         -ksmserver/kcheckrunning.cpp
        ksmserver/tests/*
-       libtaskmanager/* 
+       libtaskmanager/*
        libtaskmanager/strategies/* excluding:
         -libtaskmanager/strategies/activitysortingstrategy.cpp
         -libtaskmanager/strategies/activitysortingstrategy.h

@@ -1,8 +1,8 @@
 usr/include/*
 usr/lib/*/cmake
+usr/lib/*/libKF5XmlRpcClientPrivate.so
 usr/lib/*/libkworkspace.so
 usr/lib/*/libplasma-geolocation-interface.so
 usr/lib/*/libtaskmanager.so
 usr/lib/*/libweather_ion.so
 usr/share/dbus-1/interfaces
-usr/lib/*/libKF5XmlRpcClientPrivate.so

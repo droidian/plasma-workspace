@@ -9,14 +9,14 @@ usr/lib/*/libkdeinit5_ksmserver.so
 usr/lib/*/libkdeinit5_kuiserver5.so
 usr/lib/*/qt5
 usr/share/applications
+usr/share/config.kcfg
 usr/share/dbus-1/services/kf5_org.kde.kuiserver.service
 usr/share/dbus-1/services/org.kde.kglobalaccel.service
 usr/share/dbus-1/services/org.kde.krunner.service
-usr/share/xsessions/plasma.desktop
 usr/share/desktop-directories
-usr/share/config.kcfg
 usr/share/desktop-directories
 usr/share/doc
+usr/share/drkonqi
 usr/share/knotifications5
 usr/share/kservices5
 usr/share/kservicetypes5
@@ -26,4 +26,4 @@ usr/share/kstyle
 usr/share/locale
 usr/share/plasma
 usr/share/solid
-usr/share/drkonqi
+usr/share/xsessions/plasma.desktop

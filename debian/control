@@ -50,6 +50,7 @@ Build-Depends: baloo-kf5-dev (>= 5.0.0),
                libkf5parts-dev (>= 5.0.0),
                libkf5pty-dev (>= 5.0.0),
                libkf5runner-dev (>= 5.0.0),
+               libkf5screen-dev,
                libkf5service-dev (>= 5.0.0),
                libkf5solid-dev (>= 5.0.0),
                libkf5sonnet-dev (>= 5.0.0),
@@ -65,7 +66,6 @@ Build-Depends: baloo-kf5-dev (>= 5.0.0),
                libkf5widgetsaddons-dev (>= 5.0.0),
                libkf5windowsystem-dev (>= 5.0.0),
                libkf5xmlgui-dev (>= 5.0.0),
-               libkf5screen-dev,
                libpam0g-dev,
                libpci-dev,
                libphonon4qt5-dev,
@@ -138,15 +138,16 @@ Description: Plasma Workspace for KF5 devel files
 Package: plasma-workspace
 Architecture: any
 Depends: dbus-x11,
+         frameworkintegration,
+         gdb-minimal | gdb,
          kactivities,
          kde-cli-tools,
          kded5,
          kinit,
          kio-extras,
          libkf5service-bin,
-         plasma-framework,
          milou,
-         gdb-minimal | gdb,
+         plasma-framework,
          qdbus-qt5,
          qml-module-qtgraphicaleffects,
          qml-module-qtquick-controls,
@@ -157,11 +158,10 @@ Depends: dbus-x11,
          qtdeclarative5-qtquick2-plugin | qml-module-qtquick2,
          qtdeclarative5-quicklayouts-plugin,
          qtdeclarative5-window-plugin | qml-module-qtquick-window2,
+         qttools5-dev-tools,
          udisks2,
          x11-utils,
          x11-xserver-utils,
-         frameworkintegration,
-         qttools5-dev-tools,
          ${misc:Depends},
          ${shlibs:Depends}
 Conflicts: kde-window-manager, kde-workspace, kde-workspace-data, klipper
@@ -247,4 +247,3 @@ Description: Plasma Workspace for KF5
  hardware management and a high degree of customizability.
  .
  This package contains the debugging symbols.
-
