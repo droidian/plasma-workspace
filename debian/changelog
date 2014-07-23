@@ -32,6 +32,7 @@ plasma-workspace (4:5.0.0-0ubuntu1) UNRELEASED; urgency=medium
      + milou - needed for qml module used in krunner
      + gdb-minimal | gdb - used by drkonqi
      - libkf5declarative5 - library, should be picked up by shlibs
+     - kde-wallpapers-default - kdesc4 package, 5.x wallpaper is in workspace
      - qtquick1-5-dev
      - qttools5-dev-tools
        No one is quite sure why they were there in the first place and they

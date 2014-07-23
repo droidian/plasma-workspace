@@ -140,7 +140,6 @@ Architecture: any
 Depends: dbus-x11,
          kactivities,
          kde-cli-tools,
-         kde-wallpapers-default,
          kded5,
          kinit,
          kio-extras,
