@@ -19,6 +19,7 @@ plasma-workspace (4:5.0.0-0ubuntu1) UNRELEASED; urgency=medium
     alternative, this way in a system without any login manager and only
     the plasma desktop installed users would be able to start plasma
     just typing 'startx'.
+  * Add plasma-workspace-dbg in order to provide debugging symbols.
 
   [ Rohan Garg ]
   * Add sddm-theme-breeze package
@@ -37,6 +38,11 @@ plasma-workspace (4:5.0.0-0ubuntu1) UNRELEASED; urgency=medium
      Suggests:
      - libkf5newstuff5 - only contains a lib that should be picked up by shlibs
   * Drop kde-plasma-kf5.desktop as upstream now provides an xsession file
+  * Demote sddm dependency of sddm-theme-breeze to recommends. The theme is not
+    worthwhile having without sddm to load it, but there is no actual
+    dependency, the other way around however sddm-theme-breeze could provided
+    sddm-theme to resolve sddm's theme dependency, which then defacto makes a
+    circular dependency.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 10 Jul 2014 20:06:06 +0200
 
