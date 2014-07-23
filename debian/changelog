@@ -30,6 +30,7 @@ plasma-workspace (4:5.0.0-0ubuntu1) UNRELEASED; urgency=medium
      + kde-cli-tools - needed to run screenlocker kcm (standalone that is)
      + kio-extras - needed for wallpaper preview generation
      + milou - needed for qml module used in krunner
+     + gdb-minimal | gdb - used by drkonqi
      - libkf5declarative5 - library, should be picked up by shlibs
      - qtquick1-5-dev
      - qttools5-dev-tools
