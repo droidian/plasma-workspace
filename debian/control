@@ -161,6 +161,7 @@ Depends: dbus-x11,
          x11-utils,
          x11-xserver-utils,
          frameworkintegration,
+         qttools5-dev-tools,
          ${misc:Depends},
          ${shlibs:Depends}
 Conflicts: kde-window-manager, kde-workspace, kde-workspace-data, klipper
