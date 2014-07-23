@@ -13,8 +13,6 @@ override_dh_fixperms:
 	$(overridden_command)
 
 override_dh_install:
-	mkdir -p debian/plasma-workspace/usr/share/xsessions/
-	cp debian/kde-plasma-kf5.desktop debian/plasma-workspace/usr/share/xsessions/
 	mkdir -p debian/plasma-workspace/usr/share/lightdm/lightdm.conf.d/
 	cp debian/40-kde-plasma-kf5.conf debian/plasma-workspace/usr/share/lightdm/lightdm.conf.d/
 	dh_install

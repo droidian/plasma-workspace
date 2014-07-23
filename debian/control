@@ -139,13 +139,14 @@ Package: plasma-workspace
 Architecture: any
 Depends: dbus-x11,
          kactivities,
+         kde-cli-tools,
          kde-wallpapers-default,
          kded5,
          kinit,
-         libkf5declarative5,
+         kio-extras,
          libkf5service-bin,
-         oxygen-icon-theme,
          plasma-framework,
+         milou,
          qdbus-qt5,
          qml-module-qtgraphicaleffects,
          qml-module-qtquick-controls,
@@ -162,7 +163,6 @@ Depends: dbus-x11,
          frameworkintegration,
          ${misc:Depends},
          ${shlibs:Depends}
-Suggests: libkf5newstuff5
 Conflicts: kde-window-manager, kde-workspace, kde-workspace-data, klipper
 Replaces: klipper, plasma-workspace-data
 Description: Plasma Workspace for KF5
