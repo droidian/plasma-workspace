@@ -120,7 +120,8 @@ Build-Depends: baloo-kf5-dev (>= 5.0.0),
                qttools5-dev,
                xauth,
                xcb-proto,
-               xvfb
+               xvfb,
+               libprison-dev
 Standards-Version: 3.9.5
 
 Package: plasma-workspace-dev
@@ -240,11 +241,9 @@ Description: Breeze SDDM theme
 
 Package: plasma-workspace-dbg
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}, plasma-workspace (= ${binary:Version}) |
- libweather-ion7 (= ${binary:Version}) |
- libplasma-geolocation-interface5 (= ${binary:Version}) |
- libkf5xmlrpcclientprivate5 (= ${binary:Version}) |
- libkworkspace5 (= ${binary:Version})
+Depends: plasma-workspace (= ${binary:Version}) | libweather-ion7 (= ${binary:Version}) | libplasma-geolocation-interface5 (= ${binary:Version}) | libkf5xmlrpcclientprivate5 (= ${binary:Version}) | libkworkspace5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Section: debug
 Priority: extra
 Description: Plasma Workspace for KF5
