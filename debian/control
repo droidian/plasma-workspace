@@ -246,6 +246,7 @@ Depends: ${misc:Depends}, ${shlibs:Depends}, plasma-workspace (= ${binary:Versio
  libkf5xmlrpcclientprivate5 (= ${binary:Version}) |
  libkworkspace5 (= ${binary:Version})
 Section: debug
+Priority: extra
 Description: Plasma Workspace for KF5
  Plasma Workspace for KF5. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
