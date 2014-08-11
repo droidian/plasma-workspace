@@ -245,6 +245,7 @@ Depends: ${misc:Depends}, ${shlibs:Depends}, plasma-workspace (= ${binary:Versio
  libplasma-geolocation-interface5 (= ${binary:Version}) |
  libkf5xmlrpcclientprivate5 (= ${binary:Version}) |
  libkworkspace5 (= ${binary:Version})
+Section: debug
 Description: Plasma Workspace for KF5
  Plasma Workspace for KF5. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
