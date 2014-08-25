@@ -5,6 +5,8 @@ plasma-workspace (4:5.0.1-0ubuntu1) UNRELEASED; urgency=medium
   * Add kubuntu_startkde-qtpath.diff to tell it the path to,
     ironically, qtpaths
   * Add depends on frameworkintegration
+  * Make plasma-workspace-dev conflict on kde-workspace-dev for
+    overlapping files
 
   [ Scarlett Clark ]
   * Add missing lib to fix build
@@ -42,9 +44,6 @@ plasma-workspace (4:5.0.1-0ubuntu1) UNRELEASED; urgency=medium
     dependency, the other way around however sddm-theme-breeze could provided
     sddm-theme to resolve sddm's theme dependency, which then defacto makes a
     circular dependency.
-
-  [ Jonathan Riddell ]
-  * New upstream bugfix release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Sun, 10 Aug 2014 15:45:29 +0200
 
