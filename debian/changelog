@@ -44,6 +44,7 @@ plasma-workspace (4:5.0.1-0ubuntu1) UNRELEASED; urgency=medium
     dependency, the other way around however sddm-theme-breeze could provided
     sddm-theme to resolve sddm's theme dependency, which then defacto makes a
     circular dependency.
+  * switch to new pkg-kde-tools
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Sun, 10 Aug 2014 15:45:29 +0200
 
