@@ -69,6 +69,7 @@ Build-Depends: baloo-kf5-dev (>= 5.0.0),
                libpci-dev,
                libphonon4qt5-dev,
                libphonon4qt5experimental-dev,
+               libprison-dev,
                libqalculate-dev,
                libqimageblitz-dev,
                libqt5sensors5-dev,
@@ -118,8 +119,7 @@ Build-Depends: baloo-kf5-dev (>= 5.0.0),
                qttools5-dev,
                xauth,
                xcb-proto,
-               xvfb,
-               libprison-dev
+               xvfb
 Standards-Version: 3.9.5
 
 Package: plasma-workspace-dev
