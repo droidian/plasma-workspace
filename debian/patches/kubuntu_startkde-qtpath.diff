@@ -2,10 +2,10 @@ Description: set path to qtpath
 Forwarded: not-needed
 Origin: vendor
 Author: Jonathan Riddell <jriddell@ubuntu.com>
-Index: plasma-workspace-5.0.0/startkde/startkde.cmake
+Index: b/startkde/startkde.cmake
 ===================================================================
---- plasma-workspace-5.0.0.orig/startkde/startkde.cmake
-+++ plasma-workspace-5.0.0/startkde/startkde.cmake
+--- b.orig/startkde/startkde.cmake
++++ b/startkde/startkde.cmake
 @@ -4,6 +4,7 @@
  #
  
@@ -23,7 +23,7 @@ Index: plasma-workspace-5.0.0/startkde/startkde.cmake
    qdbus=$qbindir/qdbus
    case $PATH in
      $bindir|$bindir:*|*:$bindir|*:$bindir:*) ;;
-@@ -197,7 +198,7 @@ fi
+@@ -205,7 +206,7 @@ fi
  # better use the Autostart folder.
  
  # TODO: Use GenericConfigLocation once we depend on Qt 5.4
@@ -32,7 +32,7 @@ Index: plasma-workspace-5.0.0/startkde/startkde.cmake
  
  # Add /env/ to the directory to locate the scripts to be sourced
  for prefix in `echo $scriptpath`; do
-@@ -207,7 +208,7 @@ for prefix in `echo $scriptpath`; do
+@@ -215,7 +216,7 @@ for prefix in `echo $scriptpath`; do
  done
  
  # Set the path for Qt plugins provided by KDE

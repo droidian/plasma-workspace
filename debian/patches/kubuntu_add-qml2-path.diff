@@ -2,12 +2,12 @@ Description: set path to QML
 Forwarded: not-needed
 Origin: vendor
 Author: Jonathan Riddell <jriddell@ubuntu.com>
-Index: plasma-workspace-5.0.0/startkde/startkde.cmake
+Index: b/startkde/startkde.cmake
 ===================================================================
---- plasma-workspace-5.0.0.orig/startkde/startkde.cmake
-+++ plasma-workspace-5.0.0/startkde/startkde.cmake
+--- b.orig/startkde/startkde.cmake
++++ b/startkde/startkde.cmake
 @@ -3,6 +3,8 @@
- #  DEFAULT KDE STARTUP SCRIPT ( @KDE4WORKSPACE_VERSION@ )
+ #  DEFAULT KDE STARTUP SCRIPT ( @PROJECT_VERSION@ )
  #
  
 +export QML2_IMPORT_PATH=/usr/lib/@DEB_HOST_MULTIARCH@/qt5/qml/
@@ -15,10 +15,10 @@ Index: plasma-workspace-5.0.0/startkde/startkde.cmake
  if test "x$1" = x--failsafe; then
      KDE_FAILSAFE=1 # General failsafe flag
      KWIN_COMPOSE=N # Disable KWin's compositing
-Index: plasma-workspace-5.0.0/startkde/CMakeLists.txt
+Index: b/startkde/CMakeLists.txt
 ===================================================================
---- plasma-workspace-5.0.0.orig/startkde/CMakeLists.txt
-+++ plasma-workspace-5.0.0/startkde/CMakeLists.txt
+--- b.orig/startkde/CMakeLists.txt
++++ b/startkde/CMakeLists.txt
 @@ -7,8 +7,10 @@ if(NOT CMAKE_INSTALL_PREFIX STREQUAL "/u
      set(EXPORT_XCURSOR_PATH "XCURSOR_PATH=${CMAKE_INSTALL_PREFIX}/share/icons:$XCURSOR_PATH\":~/.icons:/usr/share/icons:/usr/share/pixmaps:/usr/X11R6/lib/X11/icons\"; export XCURSOR_PATH")
  endif()
