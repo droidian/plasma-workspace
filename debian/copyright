@@ -530,7 +530,7 @@ License: BSD-BY-LC-NE
 
 Files: shell/scripting/backportglobal.h
 Copyright: 1992-2007 Trolltech ASA. All rights reserved.
-License: GPL-2 + Trolltech GPL Exception version 1.0
+License: GPL-2
  This file is part of the plugins of the Qt Toolkit.
  .
  This file may be used under the terms of the GNU General Public
