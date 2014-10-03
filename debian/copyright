@@ -828,7 +828,7 @@ Files: drkonqi/kdbgwin/*
        runners/kill/*
 Copyright: 2010 Ilie Halip <lupuroshu@gmail.com>
            2009  <Jan Gerrit Marker> <jangerrit@weiler-marker.com>
-License: LGPL-2.1+ accepted by the membership of KDE e.V.
+License: LGPL-KDEeV
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
  License as published by the Free Software Foundation; either
