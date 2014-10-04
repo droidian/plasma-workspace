@@ -530,7 +530,7 @@ License: BSD-BY-LC-NE
 
 Files: shell/scripting/backportglobal.h
 Copyright: 1992-2007 Trolltech ASA. All rights reserved.
-License: GPL-2 + Trolltech GPL Exception version 1.0
+License: GPL-2
  This file is part of the plugins of the Qt Toolkit.
  .
  This file may be used under the terms of the GNU General Public
@@ -828,7 +828,7 @@ Files: drkonqi/kdbgwin/*
        runners/kill/*
 Copyright: 2010 Ilie Halip <lupuroshu@gmail.com>
            2009  <Jan Gerrit Marker> <jangerrit@weiler-marker.com>
-License: LGPL-2.1+ accepted by the membership of KDE e.V.
+License: LGPL-KDEeV
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
  License as published by the Free Software Foundation; either
