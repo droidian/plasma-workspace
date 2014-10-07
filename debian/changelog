@@ -1,6 +1,12 @@
 plasma-workspace (4:5.0.95-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * New upstream beta release
+
+  [ Harald Sitter ]
+  * Add lintian overrides
+    + xmlrpcclientprivate installs no so link anymore as it is considered
+      internal and shouldn't be linked to by third parties
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 01 Oct 2014 15:29:24 +0200
 
