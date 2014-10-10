@@ -2,6 +2,7 @@ plasma-workspace (4:5.1.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Jonathan Riddell ]
   * New upstream beta release
+  * Add upstream_gdb-7.8-fix.diff to fix gdb 7.8 in drkonqi
 
   [ Harald Sitter ]
   * Add lintian overrides
