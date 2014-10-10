@@ -18,5 +18,5 @@ Index: plasma-workspace-5.1.0/drkonqi/data/debuggers/internal/gdbrc
  
  [KCrash]
 -Exec=gdb -nw -n -batch -x %tempfile -p %pid %execpath
-+Exec=gdb -nw -n -batch -ex "mt set target-async off" -ex "attach %pid" -x %tempfile %execpathgdb -nw -n -batch -x %tempfile -p %pid %execpath
++Exec=gdb -nw -n -batch -ex "mt set target-async off" -ex "attach %pid" -x %tempfile %execpath
  BatchCommands=set width 200\nthread\nthread apply all bt
