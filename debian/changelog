@@ -1,4 +1,4 @@
-plasma-workspace (4:5.1.0-0ubuntu1) UNRELEASED; urgency=medium
+plasma-workspace (4:5.1.0.1-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Jonathan Riddell ]
   * New upstream beta release
@@ -15,7 +15,10 @@ plasma-workspace (4:5.1.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * Remove libKF5XmlRpcClientPrivate.so from -dev as it no longer exists. 
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 09 Oct 2014 15:50:14 +0200
+  [ Jonathan Riddell ]
+  * New upstream release with fixed tar
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 14 Oct 2014 13:51:05 +0200
 
 plasma-workspace (4:5.0.2-0ubuntu1) utopic; urgency=medium
 
