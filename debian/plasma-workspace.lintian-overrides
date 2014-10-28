@@ -26,3 +26,4 @@ plasma-workspace: shlib-without-versioned-soname usr/lib/i386-linux-gnu/libkdein
 plasma-workspace: shlib-without-versioned-soname usr/lib/i386-linux-gnu/libkdeinit5_kcminit.so libkdeinit5_kcminit.so
 plasma-workspace: shlib-without-versioned-soname usr/lib/i386-linux-gnu/libkdeinit5_kuiserver5.so libkdeinit5_kuiserver5.so
 plasma-workspace: shlib-without-versioned-soname usr/lib/i386-linux-gnu/libkdeinit5_ksmserver.so libkdeinit5_ksmserver.so
+plasma-workspace: pkg-has-shlibs-control-file-but-no-actual-shared-libs
