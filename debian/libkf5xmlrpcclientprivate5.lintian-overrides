@@ -1,2 +1,2 @@
-libkf5xmlrpcclientprivate5: dev-pkg-without-shlib-symlink usr/lib/i386-linux-gnu/libKF5XmlRpcClientPrivate.so.4.70.0 usr/lib/i386-linux-gnu/libKF5XmlRpcClientPrivate.so
+libkf5xmlrpcclientprivate5: dev-pkg-without-shlib-symlink usr/lib/*/libKF5XmlRpcClientPrivate.so.4.70.0 usr/lib/*/libKF5XmlRpcClientPrivate.so
 libkf5xmlrpcclientprivate5: package-has-long-file-name
