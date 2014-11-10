@@ -14,16 +14,16 @@ plasma-workspace: binary-without-manpage usr/bin/plasmashell
 plasma-workspace: binary-without-manpage usr/bin/plasmawindowed
 plasma-workspace: binary-without-manpage usr/bin/startkde
 plasma-workspace: binary-without-manpage usr/bin/systemmonitor
-plasma-workspace: dev-pkg-without-shlib-symlink usr/lib/i386-linux-gnu/libkdeinit5_klipper.so usr/lib/i386-linux-gnu/libkdeinit5_klipper.so
-plasma-workspace: dev-pkg-without-shlib-symlink usr/lib/i386-linux-gnu/libkdeinit5_kglobalaccel5.so usr/lib/i386-linux-gnu/libkdeinit5_kglobalaccel5.so
-plasma-workspace: dev-pkg-without-shlib-symlink usr/lib/i386-linux-gnu/libkdeinit5_kcminit_startup.so usr/lib/i386-linux-gnu/libkdeinit5_kcminit_startup.so
-plasma-workspace: dev-pkg-without-shlib-symlink usr/lib/i386-linux-gnu/libkdeinit5_kcminit.so usr/lib/i386-linux-gnu/libkdeinit5_kcminit.so
-plasma-workspace: dev-pkg-without-shlib-symlink usr/lib/i386-linux-gnu/libkdeinit5_kuiserver5.so usr/lib/i386-linux-gnu/libkdeinit5_kuiserver5.so
-plasma-workspace: dev-pkg-without-shlib-symlink usr/lib/i386-linux-gnu/libkdeinit5_ksmserver.so usr/lib/i386-linux-gnu/libkdeinit5_ksmserver.so
-plasma-workspace: shlib-without-versioned-soname usr/lib/i386-linux-gnu/libkdeinit5_klipper.so libkdeinit5_klipper.so
-plasma-workspace: shlib-without-versioned-soname usr/lib/i386-linux-gnu/libkdeinit5_kglobalaccel5.so libkdeinit5_kglobalaccel5.so
-plasma-workspace: shlib-without-versioned-soname usr/lib/i386-linux-gnu/libkdeinit5_kcminit_startup.so libkdeinit5_kcminit_startup.so
-plasma-workspace: shlib-without-versioned-soname usr/lib/i386-linux-gnu/libkdeinit5_kcminit.so libkdeinit5_kcminit.so
-plasma-workspace: shlib-without-versioned-soname usr/lib/i386-linux-gnu/libkdeinit5_kuiserver5.so libkdeinit5_kuiserver5.so
-plasma-workspace: shlib-without-versioned-soname usr/lib/i386-linux-gnu/libkdeinit5_ksmserver.so libkdeinit5_ksmserver.so
+plasma-workspace: dev-pkg-without-shlib-symlink usr/lib/*/libkdeinit5_klipper.so usr/lib/*/libkdeinit5_klipper.so
+plasma-workspace: dev-pkg-without-shlib-symlink usr/lib/*/libkdeinit5_kglobalaccel5.so usr/lib/*/libkdeinit5_kglobalaccel5.so
+plasma-workspace: dev-pkg-without-shlib-symlink usr/lib/*/libkdeinit5_kcminit_startup.so usr/lib/*/libkdeinit5_kcminit_startup.so
+plasma-workspace: dev-pkg-without-shlib-symlink usr/lib/*/libkdeinit5_kcminit.so usr/lib/*/libkdeinit5_kcminit.so
+plasma-workspace: dev-pkg-without-shlib-symlink usr/lib/*/libkdeinit5_kuiserver5.so usr/lib/*/libkdeinit5_kuiserver5.so
+plasma-workspace: dev-pkg-without-shlib-symlink usr/lib/*/libkdeinit5_ksmserver.so usr/lib/*/libkdeinit5_ksmserver.so
+plasma-workspace: shlib-without-versioned-soname usr/lib/*/libkdeinit5_klipper.so libkdeinit5_klipper.so
+plasma-workspace: shlib-without-versioned-soname usr/lib/*/libkdeinit5_kglobalaccel5.so libkdeinit5_kglobalaccel5.so
+plasma-workspace: shlib-without-versioned-soname usr/lib/*/libkdeinit5_kcminit_startup.so libkdeinit5_kcminit_startup.so
+plasma-workspace: shlib-without-versioned-soname usr/lib/*/libkdeinit5_kcminit.so libkdeinit5_kcminit.so
+plasma-workspace: shlib-without-versioned-soname usr/lib/*/libkdeinit5_kuiserver5.so libkdeinit5_kuiserver5.so
+plasma-workspace: shlib-without-versioned-soname usr/lib/*/libkdeinit5_ksmserver.so libkdeinit5_ksmserver.so
 plasma-workspace: pkg-has-shlibs-control-file-but-no-actual-shared-libs
