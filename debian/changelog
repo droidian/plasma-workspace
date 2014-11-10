@@ -1,4 +1,10 @@
-plasma-workspace (4:5.1.0.1-0ubuntu1) UNRELEASED; urgency=medium
+plasma-workspace (4:5.1.1-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 07 Nov 2014 02:41:19 +0000
+
+plasma-workspace (4:5.1.0.1-0ubuntu1) vivid; urgency=medium
 
   [ Jonathan Riddell ]
   * New upstream beta release
