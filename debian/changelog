@@ -1,3 +1,10 @@
+plasma-workspace (4:5.1.1-0ubuntu2) vivid; urgency=medium
+
+  * Add kubuntu_temp_fix_path.diff to add usr/games to PATH.
+    This is a temp fix that really needs to be fixed.  
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 19 Nov 2014 16:09:22 -0800
+
 plasma-workspace (4:5.1.1-0ubuntu1) vivid; urgency=medium
 
   * New upstream release

@@ -1,3 +1,4 @@
 kubuntu_add-qml2-path.diff
 kubuntu_startkde-qtpath.diff
 upstream_gdb-7.8-fix.diff
+kubuntu_temp_fix_games_path.diff

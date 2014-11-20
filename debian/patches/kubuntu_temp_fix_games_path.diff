@@ -1,0 +1,10 @@
+--- a/startkde/startkde.cmake
++++ b/startkde/startkde.cmake
+@@ -3,6 +3,7 @@
+ #  DEFAULT KDE STARTUP SCRIPT ( @PROJECT_VERSION@ )
+ #
+ 
++export PATH=$PATH:usr/games
+ export QML2_IMPORT_PATH=/usr/lib/@DEB_HOST_MULTIARCH@/qt5/qml/
+ QTPATHS=/usr/lib/@DEB_HOST_MULTIARCH@/qt5/bin/qtpaths
+ 
