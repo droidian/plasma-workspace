@@ -1,3 +1,9 @@
+plasma-workspace (4:5.1.1-0ubuntu3) UNRELEASED; urgency=medium
+
+  * Remove kubuntu_temp_fix_games_path.diff per shadeslayer. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 01 Dec 2014 06:14:46 -0800
+
 plasma-workspace (4:5.1.1-0ubuntu2) vivid; urgency=medium
 
   * Add kubuntu_temp_fix_path.diff to add usr/games to PATH.
