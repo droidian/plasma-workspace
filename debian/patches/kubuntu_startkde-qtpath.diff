@@ -2,19 +2,20 @@ Description: set path to qtpath
 Forwarded: not-needed
 Origin: vendor
 Author: Jonathan Riddell <jriddell@ubuntu.com>
-Index: b/startkde/startkde.cmake
+Index: plasma-workspace-5.1.2/startkde/startkde.cmake
 ===================================================================
---- b.orig/startkde/startkde.cmake
-+++ b/startkde/startkde.cmake
-@@ -4,6 +4,7 @@
+--- plasma-workspace-5.1.2.orig/startkde/startkde.cmake
++++ plasma-workspace-5.1.2/startkde/startkde.cmake
+@@ -3,6 +3,8 @@
+ #  DEFAULT KDE STARTUP SCRIPT ( @PROJECT_VERSION@ )
  #
  
- export QML2_IMPORT_PATH=/usr/lib/@DEB_HOST_MULTIARCH@/qt5/qml/
 +QTPATHS=/usr/lib/@DEB_HOST_MULTIARCH@/qt5/bin/qtpaths
- 
++
  if test "x$1" = x--failsafe; then
      KDE_FAILSAFE=1 # General failsafe flag
-@@ -21,7 +22,7 @@ unset DYLD_FORCE_FLAT_NAMESPACE
+     KWIN_COMPOSE=N # Disable KWin's compositing
+@@ -19,7 +21,7 @@ unset DYLD_FORCE_FLAT_NAMESPACE
  # in case we have been started with full pathname spec without being in PATH
  bindir=`echo "$0" | sed -n 's,^\(/.*\)/[^/][^/]*$,\1,p'`
  if [ -n "$bindir" ]; then
@@ -23,7 +24,7 @@ Index: b/startkde/startkde.cmake
    qdbus=$qbindir/qdbus
    case $PATH in
      $bindir|$bindir:*|*:$bindir|*:$bindir:*) ;;
-@@ -205,7 +206,7 @@ fi
+@@ -203,7 +205,7 @@ fi
  # better use the Autostart folder.
  
  # TODO: Use GenericConfigLocation once we depend on Qt 5.4
@@ -32,7 +33,7 @@ Index: b/startkde/startkde.cmake
  
  # Add /env/ to the directory to locate the scripts to be sourced
  for prefix in `echo $scriptpath`; do
-@@ -215,7 +216,7 @@ for prefix in `echo $scriptpath`; do
+@@ -213,7 +215,7 @@ for prefix in `echo $scriptpath`; do
  done
  
  # Set the path for Qt plugins provided by KDE
@@ -41,3 +42,16 @@ Index: b/startkde/startkde.cmake
  # TODO: Do we really need this?
  QT_PLUGIN_PATH=$QT_PLUGIN_PATH:$kdehome/lib/kde5/plugins/
  export QT_PLUGIN_PATH
+Index: plasma-workspace-5.1.2/startkde/CMakeLists.txt
+===================================================================
+--- plasma-workspace-5.1.2.orig/startkde/CMakeLists.txt
++++ plasma-workspace-5.1.2/startkde/CMakeLists.txt
+@@ -7,6 +7,8 @@ if(NOT CMAKE_INSTALL_PREFIX STREQUAL "/u
+     set(EXPORT_XCURSOR_PATH "XCURSOR_PATH=${CMAKE_INSTALL_PREFIX}/share/icons:$XCURSOR_PATH\":~/.icons:/usr/share/icons:/usr/share/pixmaps:/usr/X11R6/lib/X11/icons\"; export XCURSOR_PATH")
+ endif()
+ 
++execute_process( COMMAND dpkg-architecture -qDEB_HOST_MULTIARCH OUTPUT_VARIABLE DEB_HOST_MULTIARCH OUTPUT_STRIP_TRAILING_WHITESPACE)
++
+ configure_file(startkde.cmake ${CMAKE_CURRENT_BINARY_DIR}/startkde  @ONLY)
+ 
+ if(NOT WIN32)
