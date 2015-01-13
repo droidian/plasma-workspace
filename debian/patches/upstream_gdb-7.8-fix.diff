@@ -1,0 +1,22 @@
+Description: Workaround for GDB 7.8
+ DrKonqi backtrace generation is broken with gdb 7.8 so it will be good
+ idea to patch Drkonqi with following patch if distribution is shipping
+ gdb 7.8 and once gdb 7.8.1 is out you can remove this patch because is
+ fixed in gdb 7.8.1
+Author: Bhushan Shah <bhush94@gmail.com>
+Origin: upstream, http://mail.kde.org/pipermail/release-team/2014-October/008080.html
+Forwarded: no
+Last-Update: 2014-10-10
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+Index: plasma-workspace-5.1.0/drkonqi/data/debuggers/internal/gdbrc
+===================================================================
+--- plasma-workspace-5.1.0.orig/drkonqi/data/debuggers/internal/gdbrc
++++ plasma-workspace-5.1.0/drkonqi/data/debuggers/internal/gdbrc
+@@ -73,5 +73,5 @@ TryExec=gdb
+ Backends=KCrash
+ 
+ [KCrash]
+-Exec=gdb -nw -n -batch -x %tempfile -p %pid %execpath
++Exec=gdb -nw -n -batch -ex "mt set target-async off" -ex "attach %pid" -x %tempfile %execpath
+ BatchCommands=set width 200\nthread\nthread apply all bt

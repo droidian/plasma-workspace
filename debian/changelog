@@ -1,4 +1,59 @@
-plasma-workspace (4:5.0.2-0ubuntu1) UNRELEASED; urgency=medium
+plasma-workspace (4:5.1.2-0ubuntu2) vivid; urgency=medium
+
+  * Remove kubuntu_add-qml2-path.diff causing issues for people
+    developing Qt with self compiled or downloaded Qt import path
+    compiled into Qt5Core's QLibraryInfo should be correct
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 19 Dec 2014 13:17:31 +0100
+
+plasma-workspace (4:5.1.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 15 Dec 2014 13:27:55 +0100
+
+plasma-workspace (4:5.1.1-0ubuntu3) UNRELEASED; urgency=medium
+
+  * Remove kubuntu_temp_fix_games_path.diff per shadeslayer. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 01 Dec 2014 06:14:46 -0800
+
+plasma-workspace (4:5.1.1-0ubuntu2) vivid; urgency=medium
+
+  * Add kubuntu_temp_fix_path.diff to add usr/games to PATH.
+    This is a temp fix that really needs to be fixed.  
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 19 Nov 2014 16:09:22 -0800
+
+plasma-workspace (4:5.1.1-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 10 Nov 2014 19:52:36 +0100
+
+plasma-workspace (4:5.1.0.1-0ubuntu1) vivid; urgency=medium
+
+  [ Jonathan Riddell ]
+  * New upstream beta release
+  * Add upstream_gdb-7.8-fix.diff to fix gdb 7.8 in drkonqi
+
+  [ Harald Sitter ]
+  * Add lintian overrides
+    + xmlrpcclientprivate installs no so link anymore as it is considered
+      internal and shouldn't be linked to by third parties
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+  [ Scarlett Clark ]
+  * Remove libKF5XmlRpcClientPrivate.so from -dev as it no longer exists. 
+
+  [ Jonathan Riddell ]
+  * New upstream release with fixed tar
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 14 Oct 2014 13:51:05 +0200
+
+plasma-workspace (4:5.0.2-0ubuntu1) utopic; urgency=medium
 
   * New upstream release
 

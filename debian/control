@@ -11,7 +11,8 @@ Build-Depends: baloo-kf5-dev (>= 5.0.0),
                kgendesignerplugin (>= 5.2.0),
                kinit-dev,
                kio-dev (>= 5.2.0),
-               kwin-dev (>= 4:5.0.2),
+               kwayland-dev,
+               kwin-dev (>= 4:5.1.2),
                libboost1.55-dev,
                libdbusmenu-qt5-dev,
                libfontconfig1-dev,
@@ -19,6 +20,7 @@ Build-Depends: baloo-kf5-dev (>= 5.0.0),
                libkf5activities-dev (>= 5.2.0),
                libkf5attica-dev (>= 5.2.0),
                libkf5auth-dev (>= 5.2.0),
+               libkf5baloonaturalqueryparser1,
                libkf5bookmarks-dev (>= 5.2.0),
                libkf5codecs-dev (>= 5.2.0),
                libkf5completion-dev (>= 5.2.0),
@@ -78,6 +80,7 @@ Build-Depends: baloo-kf5-dev (>= 5.0.0),
                libsm-dev,
                libudev-dev,
                libusb-dev,
+               libwayland-dev,
                libx11-xcb-dev,
                libxapian-dev,
                libxcb-composite0-dev,
@@ -145,17 +148,19 @@ Depends: dbus-x11,
          kinit,
          kio-extras,
          libkf5service-bin,
+         libkf5globalaccel-bin,
          milou,
          plasma-framework,
          qdbus-qt5,
+         qml-module-org-kde-extensionplugin,
          qml-module-qtgraphicaleffects,
          qml-module-qtquick-controls,
          qml-module-qtquick-dialogs,
-         qtdeclarative5-kf5declarative,
-         qtdeclarative5-kf5solid,
-         qml-module-qtquick2,
          qml-module-qtquick-layouts,
          qml-module-qtquick-window2,
+         qml-module-qtquick2,
+         qtdeclarative5-kf5declarative,
+         qtdeclarative5-kf5solid,
          qttools5-dev-tools,
          udisks2,
          x11-utils,
@@ -171,7 +176,7 @@ Description: Plasma Workspace for KF5
  .
  THIS WILL REMOVE YOUR KDE Plasma 4.
 
-Package: libkworkspace5
+Package: libkworkspace5-5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Plasma Workspace for KF5 library
@@ -238,7 +243,7 @@ Description: Breeze SDDM theme
 
 Package: plasma-workspace-dbg
 Architecture: any
-Depends: plasma-workspace (= ${binary:Version}) | libweather-ion7 (= ${binary:Version}) | libplasma-geolocation-interface5 (= ${binary:Version}) | libkf5xmlrpcclientprivate5 (= ${binary:Version}) | libkworkspace5 (= ${binary:Version}),
+Depends: plasma-workspace (= ${binary:Version}) | libweather-ion7 (= ${binary:Version}) | libplasma-geolocation-interface5 (= ${binary:Version}) | libkf5xmlrpcclientprivate5 (= ${binary:Version}) | libkworkspace5-5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Section: debug
