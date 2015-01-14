@@ -1,8 +1,9 @@
 plasma-workspace (4:5.1.95-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream beta release
+  * Remove dependency on libkf5globalaccel-bin
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 14 Jan 2015 13:25:49 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 14 Jan 2015 14:28:46 +0100
 
 plasma-workspace (4:5.1.2-0ubuntu2) vivid; urgency=medium
 
