@@ -3,6 +3,7 @@ usr/bin/
 usr/lib/*/libexec
 usr/lib/*/libkdeinit5_kcminit.so
 usr/lib/*/libkdeinit5_kcminit_startup.so
+usr/lib/*/libkdeinit5_kglobalaccel5.so
 usr/lib/*/libkdeinit5_klipper.so
 usr/lib/*/libkdeinit5_ksmserver.so
 usr/lib/*/libkdeinit5_kuiserver5.so
@@ -10,6 +11,7 @@ usr/lib/*/qt5
 usr/share/applications
 usr/share/config.kcfg
 usr/share/dbus-1/services/kf5_org.kde.kuiserver.service
+usr/share/dbus-1/services/org.kde.kglobalaccel.service
 usr/share/dbus-1/services/org.kde.krunner.service
 usr/share/desktop-directories
 usr/share/desktop-directories
