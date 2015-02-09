@@ -1,6 +1,7 @@
 plasma-workspace (4:5.2.0-1~) UNRELEASED; urgency=medium
 
   * Prepare initial Debian release.
+  * Add myself as Uploader.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 09 Feb 2015 14:31:36 +0100
 
