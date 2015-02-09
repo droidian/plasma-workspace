@@ -4,6 +4,8 @@ plasma-workspace (4:5.2.0-1~) UNRELEASED; urgency=medium
   * Add myself as Uploader.
   * Add missing prerm.
   * Bump Standards-Version to 3.9.6, no changes needed.
+  * Update build dependencies to build against experimental and to
+    follow cmake.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 09 Feb 2015 14:31:36 +0100
 
