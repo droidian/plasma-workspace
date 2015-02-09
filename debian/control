@@ -245,12 +245,12 @@ Description: Breeze SDDM theme
  This package contains the files for the breeze SDDM theme.
 
 Package: plasma-workspace-dbg
+Section: debug
+Priority: extra
 Architecture: any
 Depends: plasma-workspace (= ${binary:Version}) | libweather-ion7 (= ${binary:Version}) | libplasma-geolocation-interface5 (= ${binary:Version}) | libkf5xmlrpcclientprivate5 (= ${binary:Version}) | libkworkspace5-5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Section: debug
-Priority: extra
 Description: Plasma Workspace for KF5
  Plasma Workspace for KF5. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
