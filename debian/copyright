@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: plasma-workspace-kf5
-Source: http://depot.kde.org/unstable/plasma/4.95.0/plasma-workspace-4.95.0.tar.xz
+Upstream-Name: plasma-workspace
+Source: git://anongit.kde.org/plasma-workspace
 
 Files: *
        debian/*
