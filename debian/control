@@ -82,7 +82,10 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/plasma-workspace.git
 
 Package: plasma-workspace-dev
 Architecture: any
-Depends: plasma-workspace (= ${binary:Version}),
+Depends: libkf5windowsystem-dev (>= 5.4.0),
+         plasma-framework-dev (>= 5.4.0),
+         plasma-workspace (= ${binary:Version}),
+         qtbase5-dev (>= 5.3.0),
          ${allLibraries},
          ${misc:Depends}
 Conflicts: kde-workspace-dev

@@ -196,8 +196,8 @@ usr/share/locale/*/*/kio_applications.mo
 usr/share/locale/*/*/kio_remote.mo
 usr/share/locale/*/*/klipper.mo
 usr/share/locale/*/*/krunner.mo
-usr/share/locale/*/*/kscreenlocker_greet.mo
 usr/share/locale/*/*/kscreenlocker.mo
+usr/share/locale/*/*/kscreenlocker_greet.mo
 usr/share/locale/*/*/ksmserver.mo
 usr/share/locale/*/*/kuiserver5.mo
 usr/share/locale/*/*/libkworkspace.mo
