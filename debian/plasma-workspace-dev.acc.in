@@ -14,7 +14,7 @@
 </headers>
 
 <libs>
-    /usr/lib/@@DEB_HOST_MULTIARCH@@/libworkspace5.so
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libkworkspace5.so
     /usr/lib/@@DEB_HOST_MULTIARCH@@/libplasma-geolocation-interface.so
     /usr/lib/@@DEB_HOST_MULTIARCH@@/libtaskmanager.so
     /usr/lib/@@DEB_HOST_MULTIARCH@@/libweather_ion.so
@@ -22,6 +22,7 @@
 
 <gcc_options>
     -fPIC
+    -std=c++11
 </gcc_options>
 
 </descriptor>
