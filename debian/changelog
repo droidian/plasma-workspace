@@ -8,6 +8,7 @@ plasma-workspace (4:5.2.0-1~) UNRELEASED; urgency=medium
     follow cmake.
   * Update copyright information.
   * Update install files.
+  * Add basic autopkgtests support.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 09 Feb 2015 14:31:36 +0100
 
