@@ -1,1 +1,2 @@
-usr/lib/*/libkworkspace5.so.5*
+usr/lib/*/libkworkspace5.so.5
+usr/lib/*/libkworkspace5.so.5.*
