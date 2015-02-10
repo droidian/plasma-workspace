@@ -1,2 +1,3 @@
 kubuntu_startkde-qtpath.diff
 upstream_gdb-7.8-fix.diff
+install_missing_header

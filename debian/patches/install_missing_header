@@ -1,0 +1,16 @@
+Index: plasma-workspace/CMakeLists.txt
+===================================================================
+--- plasma-workspace.orig/CMakeLists.txt	2015-02-10 20:28:49.183793069 +0100
++++ plasma-workspace/CMakeLists.txt	2015-02-10 20:29:26.634292187 +0100
+@@ -101,7 +101,10 @@
+ configure_file(config-workspace.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-workspace.h)
+ configure_file(config-unix.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-unix.h )
+ configure_file(config-X11.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-X11.h)
+-
++install(FILES
++        ${CMAKE_CURRENT_BINARY_DIR}/config-X11.h
++        DESTINATION ${INCLUDE_INSTALL_DIR}/taskmanager COMPONENT Devel
++)
+ configure_file(plasma.desktop.cmake ${CMAKE_CURRENT_BINARY_DIR}/plasma.desktop)
+ install(FILES
+         ${CMAKE_CURRENT_BINARY_DIR}/plasma.desktop
