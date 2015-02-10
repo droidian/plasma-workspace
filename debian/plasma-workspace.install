@@ -188,7 +188,6 @@ usr/share/kservicetypes5/plasma_shareprovider.desktop
 usr/share/ksmserver/
 usr/share/ksplash/
 usr/share/kstyle/
-usr/share/lightdm/lightdm.conf.d/40-kde-plasma-kf5.conf
 usr/share/locale/*/*/drkonqi.mo
 usr/share/locale/*/*/freespacenotifier.mo
 usr/share/locale/*/*/kcminit.mo
