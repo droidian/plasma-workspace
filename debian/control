@@ -65,6 +65,7 @@ Build-Depends: baloo-kf5-dev (>= 5.0.0),
                libkf5widgetsaddons-dev (>= 5.2.0),
                libkf5windowsystem-dev (>= 5.2.0),
                libkf5xmlgui-dev (>= 5.2.0),
+               libkf5xmlrpcclient-dev (>= 5.2.0),
                libpam0g-dev,
                libpci-dev,
                libphonon4qt5-dev,
@@ -185,12 +186,6 @@ Description: Plasma Workspace for KF5 library
  Kworkspace library.
  .
  This package contains library files.
-
-Package: libkf5xmlrpcclientprivate5
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Library files needed by Drkonqi
- A simple XML-RPC client library used by Drkonqi.
 
 Package: libplasma-geolocation-interface5
 Architecture: any
