@@ -237,7 +237,7 @@ Description: Breeze SDDM theme
 
 Package: plasma-workspace-dbg
 Architecture: any
-Depends: plasma-workspace (= ${binary:Version}) | libweather-ion7 (= ${binary:Version}) | libplasma-geolocation-interface5 (= ${binary:Version}) | libkf5xmlrpcclientprivate5 (= ${binary:Version}) | libkworkspace5-5 (= ${binary:Version}),
+Depends: plasma-workspace (= ${binary:Version}) | libweather-ion7 (= ${binary:Version}) | libplasma-geolocation-interface5 (= ${binary:Version}) | libkworkspace5-5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Section: debug
