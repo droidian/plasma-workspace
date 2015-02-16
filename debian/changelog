@@ -1,11 +1,11 @@
-plasma-workspace (4:5.2.0-0ubuntu2) UNRELEASED; urgency=medium
+plasma-workspace (4:5.2.0-0ubuntu2) vivid; urgency=medium
 
   * Merge kubuntu_stable branch to adopt kglobalacceld move for
     frameworks 5.7
     + Force a dependency on the kglobalaccel binary package >= 5.7
     + Also force a build dependency on >= 5.7
 
- -- Harald Sitter <sitter@kde.org>  Tue, 10 Feb 2015 09:45:34 +0100
+ -- Harald Sitter <sitter@kde.org>  Mon, 16 Feb 2015 08:10:29 +0100
 
 plasma-workspace (4:5.2.0-0ubuntu1) vivid; urgency=medium
 
