@@ -1,3 +1,9 @@
+plasma-workspace (4:5.2.1-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 19 Feb 2015 10:03:52 -0800
+
 plasma-workspace (4:5.2.0-0ubuntu2) vivid; urgency=medium
 
   * Merge kubuntu_stable branch to adopt kglobalacceld move for
