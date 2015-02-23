@@ -1,7 +1,13 @@
 plasma-workspace (4:5.2.1-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * New upstream release
   * Add new depend libkf5filemetadata 
+
+  [ Jonathan Riddell ]
+  * Add build-dep on libkf5prison-dev and upstream_prison.diff to build
+    klipper with prison, FFe approved on IRC
+  * Add libglib2.0-dev to fix build with libqalculate-dev for krunner
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 19 Feb 2015 10:03:52 -0800
 
