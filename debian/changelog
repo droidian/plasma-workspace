@@ -1,3 +1,10 @@
+plasma-workspace (4:5.2.1-0ubuntu2) vivid; urgency=medium
+
+  * Add kubuntu_default-systray-applets.diff to add printer, muon and
+    kdeconnect to systray by default
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 09 Mar 2015 21:24:35 +0100
+
 plasma-workspace (4:5.2.1-0ubuntu1) vivid; urgency=medium
 
   [ Scarlett Clark ]
