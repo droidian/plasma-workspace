@@ -15,6 +15,7 @@ usr/share/desktop-directories
 usr/share/desktop-directories
 usr/share/doc
 usr/share/drkonqi
+usr/share/kconf_update
 usr/share/knotifications5
 usr/share/kservices5
 usr/share/kservicetypes5
