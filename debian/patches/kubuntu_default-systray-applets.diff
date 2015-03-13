@@ -13,7 +13,7 @@ Index: plasma-workspace-5.2.1/applets/systemtray/package/contents/config/main.xm
  
      <entry name="extraItems" type="StringList">
 -      <default>org.kde.plasma.devicenotifier,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.clipboard</default>
-+      <default>org.kde.plasma.devicenotifier,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.clipboard,org.kde.plasma.printmanager,org.kde.muonnotifier,org.kde.kdeconnect</default>
++      <default>org.kde.plasma.devicenotifier,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.clipboard,org.kde.plasma.printmanager,org.kde.muonnotifier,org.kde.kdeconnect,org.kde.plasma.ktplegacypresenceapplet</default>
      </entry>
      <entry name="hiddenItems" type="StringList">
        <default></default>
