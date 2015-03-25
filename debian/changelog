@@ -1,9 +1,9 @@
-plasma-workspace (4:5.2.2-1~) UNRELEASED; urgency=medium
+plasma-workspace (4:5.2.2-1) experimental; urgency=medium
 
   * New upstream release (5.2.1).
   * New upstream release (5.2.2).
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 25 Mar 2015 10:00:59 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 25 Mar 2015 23:18:03 +0100
 
 plasma-workspace (4:5.2.2-0ubuntu1) vivid; urgency=medium
 
