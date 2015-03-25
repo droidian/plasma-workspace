@@ -5,6 +5,38 @@ plasma-workspace (4:5.2.2-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 25 Mar 2015 10:00:59 +0100
 
+plasma-workspace (4:5.2.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 24 Mar 2015 07:43:40 -0700
+
+plasma-workspace (4:5.2.1-0ubuntu3) vivid; urgency=medium
+
+  * Update kubuntu_default-systray-applets.diff to add telepathy
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 13 Mar 2015 21:04:50 +0100
+
+plasma-workspace (4:5.2.1-0ubuntu2) vivid; urgency=medium
+
+  * Add kubuntu_default-systray-applets.diff to add printer, muon and
+    kdeconnect to systray by default
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 09 Mar 2015 21:24:35 +0100
+
+plasma-workspace (4:5.2.1-0ubuntu1) vivid; urgency=medium
+
+  [ Scarlett Clark ]
+  * New upstream release
+  * Add new depend libkf5filemetadata 
+
+  [ Jonathan Riddell ]
+  * Add build-dep on libkf5prison-dev and upstream_prison.diff to build
+    klipper with prison, FFe approved on IRC
+  * Add libglib2.0-dev to fix build with libqalculate-dev for krunner
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 23 Feb 2015 09:48:01 -0800
+
 plasma-workspace (4:5.2.0-1) experimental; urgency=medium
 
   * Prepare initial Debian release.
@@ -19,6 +51,15 @@ plasma-workspace (4:5.2.0-1) experimental; urgency=medium
   * New patch: install_missing_header.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 10 Feb 2015 20:32:53 +0100
+
+plasma-workspace (4:5.2.0-0ubuntu2) vivid; urgency=medium
+
+  * Merge kubuntu_stable branch to adopt kglobalacceld move for
+    frameworks 5.7
+    + Force a dependency on the kglobalaccel binary package >= 5.7
+    + Also force a build dependency on >= 5.7
+
+ -- Harald Sitter <sitter@kde.org>  Mon, 16 Feb 2015 08:10:29 +0100
 
 plasma-workspace (4:5.2.0-0ubuntu1) vivid; urgency=medium
 

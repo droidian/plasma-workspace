@@ -1,0 +1,19 @@
+Description: add missing applets by default
+Author: Jonathan Riddell
+Origin: no, hardcoding gone away in plasma 5.3
+Last-Update: 2015-03-09
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+Index: plasma-workspace-5.2.1/applets/systemtray/package/contents/config/main.xml
+===================================================================
+--- plasma-workspace-5.2.1.orig/applets/systemtray/package/contents/config/main.xml
++++ plasma-workspace-5.2.1/applets/systemtray/package/contents/config/main.xml
+@@ -29,7 +29,7 @@
+     </entry>
+ 
+     <entry name="extraItems" type="StringList">
+-      <default>org.kde.plasma.devicenotifier,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.clipboard</default>
++      <default>org.kde.plasma.devicenotifier,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.clipboard,org.kde.plasma.printmanager,org.kde.muonnotifier,org.kde.kdeconnect,org.kde.plasma.ktplegacypresenceapplet</default>
+     </entry>
+     <entry name="hiddenItems" type="StringList">
+       <default></default>
