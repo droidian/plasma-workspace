@@ -186,7 +186,7 @@ Description: Plasma Workspace for KF5 library
 
 Package: sddm-theme-breeze
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}, plasma-framework
 Recommends: sddm
 Provides: sddm-theme
 Breaks: plasma-workspace (<< 4:5.0.2-0ubuntu1~ubuntu14.10~ppa5)
