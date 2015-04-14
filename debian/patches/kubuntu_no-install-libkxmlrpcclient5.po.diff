@@ -1,0 +1,1220 @@
+Index: plasma-workspace-5.2.2/po/zh_TW/libkxmlrpcclient5.po
+===================================================================
+--- plasma-workspace-5.2.2.orig/po/zh_TW/libkxmlrpcclient5.po
++++ /dev/null
+@@ -1,27 +0,0 @@
+-# Copyright (C) YEAR This_file_is_part_of_KDE
+-# This file is distributed under the same license as the PACKAGE package.
+-#
+-# Franklin, 2014.
+-msgid ""
+-msgstr ""
+-"Project-Id-Version: \n"
+-"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+-"POT-Creation-Date: 2015-01-18 09:51+0000\n"
+-"PO-Revision-Date: 2014-09-14 09:40+0800\n"
+-"Last-Translator: Franklin\n"
+-"Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
+-"Language: zh_TW\n"
+-"MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=UTF-8\n"
+-"Content-Transfer-Encoding: 8bit\n"
+-"Plural-Forms: nplurals=1; plural=0;\n"
+-"X-Generator: Lokalize 1.5\n"
+-
+-#: query.cpp:375
+-#, kde-format
+-msgid "Received invalid XML markup: %1 at %2:%3"
+-msgstr "接收到不合法的 XML 標籤：%1，於 %2:%3"
+-
+-#: query.cpp:389
+-msgid "Unknown type of XML markup received"
+-msgstr "接收到未知型態的 XML 標籤。"
+\ No newline at end of file
+Index: plasma-workspace-5.2.2/po/bs/libkxmlrpcclient5.po
+===================================================================
+--- plasma-workspace-5.2.2.orig/po/bs/libkxmlrpcclient5.po
++++ /dev/null
+@@ -1,28 +0,0 @@
+-# Bosnian translation for bosnianuniversetranslation
+-# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
+-# This file is distributed under the same license as the bosnianuniversetranslation package.
+-# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+-#
+-msgid ""
+-msgstr ""
+-"Project-Id-Version: bosnianuniversetranslation\n"
+-"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+-"POT-Creation-Date: 2015-01-18 09:51+0000\n"
+-"PO-Revision-Date: 2015-01-04 13:21+0000\n"
+-"Last-Translator: Samir Ribić <Unknown>\n"
+-"Language-Team: Bosnian <bs@li.org>\n"
+-"Language: bs\n"
+-"MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=UTF-8\n"
+-"Content-Transfer-Encoding: 8bit\n"
+-"X-Launchpad-Export-Date: 2015-01-05 06:45+0000\n"
+-"X-Generator: Launchpad (build 17286)\n"
+-
+-#: query.cpp:375
+-#, kde-format
+-msgid "Received invalid XML markup: %1 at %2:%3"
+-msgstr "Primio neispravan XML markup: %1 na %2:%3"
+-
+-#: query.cpp:389
+-msgid "Unknown type of XML markup received"
+-msgstr "Primljena nepoznata vrsta XML markupa"
+\ No newline at end of file
+Index: plasma-workspace-5.2.2/po/ca/libkxmlrpcclient5.po
+===================================================================
+--- plasma-workspace-5.2.2.orig/po/ca/libkxmlrpcclient5.po
++++ /dev/null
+@@ -1,29 +0,0 @@
+-# Translation of libkxmlrpcclient5.po to Catalan
+-# Copyright (C) 2014 This_file_is_part_of_KDE
+-# This file is distributed under the license LGPL version 2.1 or
+-# version 3 or later versions approved by the membership of KDE e.V.
+-#
+-# Antoni Bella Pérez <antonibella5@yahoo.com>, 2014.
+-msgid ""
+-msgstr ""
+-"Project-Id-Version: libkxmlrpcclient5\n"
+-"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+-"POT-Creation-Date: 2015-01-18 09:51+0000\n"
+-"PO-Revision-Date: 2014-07-13 18:13+0200\n"
+-"Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
+-"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
+-"Language: ca\n"
+-"MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=UTF-8\n"
+-"Content-Transfer-Encoding: 8bit\n"
+-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+-"X-Generator: Lokalize 1.5\n"
+-
+-#: query.cpp:375
+-#, kde-format
+-msgid "Received invalid XML markup: %1 at %2:%3"
+-msgstr "S'han rebut marques XML no vàlides: %1 a %2:%3"
+-
+-#: query.cpp:389
+-msgid "Unknown type of XML markup received"
+-msgstr "S'ha rebut un tipus de marca XML desconeguda"
+\ No newline at end of file
+Index: plasma-workspace-5.2.2/po/cs/libkxmlrpcclient5.po
+===================================================================
+--- plasma-workspace-5.2.2.orig/po/cs/libkxmlrpcclient5.po
++++ /dev/null
+@@ -1,27 +0,0 @@
+-# SOME DESCRIPTIVE TITLE.
+-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+-# This file is distributed under the same license as the PACKAGE package.
+-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+-#
+-msgid ""
+-msgstr ""
+-"Project-Id-Version: libkxmlrpcclient\n"
+-"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+-"POT-Creation-Date: 2015-01-18 09:51+0000\n"
+-"PO-Revision-Date: 2007-08-25 21:16+0200\n"
+-"Last-Translator: Klára Cihlářová <koty@seznam.cz>\n"
+-"Language-Team: Czech <cs@li.org>\n"
+-"Language: cs\n"
+-"MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=UTF-8\n"
+-"Content-Transfer-Encoding: 8bit\n"
+-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+-
+-#: query.cpp:375
+-#, kde-format
+-msgid "Received invalid XML markup: %1 at %2:%3"
+-msgstr "Navráceno chybné XML: %1 na %2:%3"
+-
+-#: query.cpp:389
+-msgid "Unknown type of XML markup received"
+-msgstr "Obdrženo neznámý typ XML"
+\ No newline at end of file
+Index: plasma-workspace-5.2.2/po/da/libkxmlrpcclient5.po
+===================================================================
+--- plasma-workspace-5.2.2.orig/po/da/libkxmlrpcclient5.po
++++ /dev/null
+@@ -1,27 +0,0 @@
+-# Copyright (C) YEAR This_file_is_part_of_KDE
+-# This file is distributed under the same license as the PACKAGE package.
+-#
+-# Martin Schlander <mschlander@opensuse.org>, 2014.
+-msgid ""
+-msgstr ""
+-"Project-Id-Version: \n"
+-"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+-"POT-Creation-Date: 2015-01-18 09:51+0000\n"
+-"PO-Revision-Date: 2014-08-26 19:58+0200\n"
+-"Last-Translator: Martin Schlander <mschlander@opensuse.org>\n"
+-"Language-Team: Danish <kde-i18n-doc@kde.org>\n"
+-"Language: da\n"
+-"MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=UTF-8\n"
+-"Content-Transfer-Encoding: 8bit\n"
+-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+-"X-Generator: Lokalize 1.5\n"
+-
+-#: query.cpp:375
+-#, kde-format
+-msgid "Received invalid XML markup: %1 at %2:%3"
+-msgstr "Modtog ugyldig XML-opmærkning: %1 ved %2:%3"
+-
+-#: query.cpp:389
+-msgid "Unknown type of XML markup received"
+-msgstr "Ukendt type af XML-opmærkning modtaget"
+\ No newline at end of file
+Index: plasma-workspace-5.2.2/po/de/libkxmlrpcclient5.po
+===================================================================
+--- plasma-workspace-5.2.2.orig/po/de/libkxmlrpcclient5.po
++++ /dev/null
+@@ -1,24 +0,0 @@
+-# Frederik Schwarzer <schwarzer@kde.org>, 2014.
+-msgid ""
+-msgstr ""
+-"Project-Id-Version: \n"
+-"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+-"POT-Creation-Date: 2015-01-18 09:51+0000\n"
+-"PO-Revision-Date: 2014-07-25 00:15+0200\n"
+-"Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
+-"Language-Team: German <kde-i18n-de@kde.org>\n"
+-"Language: de\n"
+-"MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=UTF-8\n"
+-"Content-Transfer-Encoding: 8bit\n"
+-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+-"X-Generator: Lokalize 1.5\n"
+-
+-#: query.cpp:375
+-#, kde-format
+-msgid "Received invalid XML markup: %1 at %2:%3"
+-msgstr "Ungültiges XML empfangen: %1 um %2:%3"
+-
+-#: query.cpp:389
+-msgid "Unknown type of XML markup received"
+-msgstr "Ungültiger XML-Markup-Typ empfangen"
+\ No newline at end of file
+Index: plasma-workspace-5.2.2/po/el/libkxmlrpcclient5.po
+===================================================================
+--- plasma-workspace-5.2.2.orig/po/el/libkxmlrpcclient5.po
++++ /dev/null
+@@ -1,27 +0,0 @@
+-# Copyright (C) YEAR This_file_is_part_of_KDE
+-# This file is distributed under the same license as the PACKAGE package.
+-#
+-# Dimitris Kardarakos <dimkard@gmail.com>, 2014.
+-msgid ""
+-msgstr ""
+-"Project-Id-Version: \n"
+-"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+-"POT-Creation-Date: 2015-01-18 09:51+0000\n"
+-"PO-Revision-Date: 2014-10-06 14:48+0300\n"
+-"Last-Translator: Dimitris Kardarakos <dimkard@gmail.com>\n"
+-"Language-Team: Greek <kde-i18n-el@kde.org>\n"
+-"Language: el\n"
+-"MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=UTF-8\n"
+-"Content-Transfer-Encoding: 8bit\n"
+-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+-"X-Generator: Lokalize 1.5\n"
+-
+-#: query.cpp:375
+-#, kde-format
+-msgid "Received invalid XML markup: %1 at %2:%3"
+-msgstr "Παραλήφθηκε μη έγκυρη σήμανση XML: %1 στο %2:%3"
+-
+-#: query.cpp:389
+-msgid "Unknown type of XML markup received"
+-msgstr "Παραλήφθηκε άγνωστη σήμανση XML"
+\ No newline at end of file
+Index: plasma-workspace-5.2.2/po/en_GB/libkxmlrpcclient5.po
+===================================================================
+--- plasma-workspace-5.2.2.orig/po/en_GB/libkxmlrpcclient5.po
++++ /dev/null
+@@ -1,27 +0,0 @@
+-# Copyright (C) YEAR This_file_is_part_of_KDE
+-# This file is distributed under the same license as the PACKAGE package.
+-# Steve Allewell <steve.allewell@gmail.com>, 2014.
+-#
+-msgid ""
+-msgstr ""
+-"Project-Id-Version: \n"
+-"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+-"POT-Creation-Date: 2015-01-18 09:51+0000\n"
+-"PO-Revision-Date: 2014-07-11 17:19+0100\n"
+-"Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
+-"Language-Team: British English <kde-l10n-en_gb@kde.org>\n"
+-"Language: en_GB\n"
+-"MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=UTF-8\n"
+-"Content-Transfer-Encoding: 8bit\n"
+-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+-"X-Generator: Lokalize 1.5\n"
+-
+-#: query.cpp:375
+-#, kde-format
+-msgid "Received invalid XML markup: %1 at %2:%3"
+-msgstr "Received invalid XML markup: %1 at %2:%3"
+-
+-#: query.cpp:389
+-msgid "Unknown type of XML markup received"
+-msgstr "Unknown type of XML markup received"
+\ No newline at end of file
+Index: plasma-workspace-5.2.2/po/es/libkxmlrpcclient5.po
+===================================================================
+--- plasma-workspace-5.2.2.orig/po/es/libkxmlrpcclient5.po
++++ /dev/null
+@@ -1,29 +0,0 @@
+-# Spanish translations for libkxmlrpcclient5.po package.
+-# Copyright (C) 2014 This_file_is_part_of_KDE
+-# This file is distributed under the same license as the PACKAGE package.
+-#
+-# Automatically generated, 2014.
+-# Eloy Cuadra <ecuadra@eloihr.net>, 2014.
+-msgid ""
+-msgstr ""
+-"Project-Id-Version: libkxmlrpcclient5\n"
+-"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+-"POT-Creation-Date: 2015-01-18 09:51+0000\n"
+-"PO-Revision-Date: 2014-07-13 00:58+0200\n"
+-"Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
+-"Language-Team: Spanish <kde-l10n-es@kde.org>\n"
+-"Language: es\n"
+-"MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=UTF-8\n"
+-"Content-Transfer-Encoding: 8bit\n"
+-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+-"X-Generator: Lokalize 1.5\n"
+-
+-#: query.cpp:375
+-#, kde-format
+-msgid "Received invalid XML markup: %1 at %2:%3"
+-msgstr "Se ha recibido una marca XML no válida: %1 en %2:%3"
+-
+-#: query.cpp:389
+-msgid "Unknown type of XML markup received"
+-msgstr "Se ha recibido un tipo de marca XML desconocido"
+\ No newline at end of file
+Index: plasma-workspace-5.2.2/po/fi/libkxmlrpcclient5.po
+===================================================================
+--- plasma-workspace-5.2.2.orig/po/fi/libkxmlrpcclient5.po
++++ /dev/null
+@@ -1,30 +0,0 @@
+-# Copyright (C) YEAR This_file_is_part_of_KDE
+-# This file is distributed under the same license as the PACKAGE package.
+-# Tommi Nieminen <translator@legisign.org>, 2010.
+-# Lasse Liehu <lasse.liehu@gmail.com>, 2012.
+-#
+-# KDE Finnish translation sprint participants:
+-msgid ""
+-msgstr ""
+-"Project-Id-Version: libkxmlrpcclient\n"
+-"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+-"POT-Creation-Date: 2015-01-18 09:51+0000\n"
+-"PO-Revision-Date: 2013-01-20 20:04:12+0000\n"
+-"Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
+-"Language-Team: Finnish <lokalisointi@lists.coss.fi>\n"
+-"Language: fi\n"
+-"MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=UTF-8\n"
+-"Content-Transfer-Encoding: 8bit\n"
+-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+-"X-POT-Import-Date: 2012-12-01 22:25:21+0000\n"
+-"X-Generator: MediaWiki 1.21alpha (963ddae); Translate 2012-11-08\n"
+-
+-#: query.cpp:375
+-#, kde-format
+-msgid "Received invalid XML markup: %1 at %2:%3"
+-msgstr "Vastaanotettiin virheellinen XML-merkkaus: %1 kohdassa %2:%3"
+-
+-#: query.cpp:389
+-msgid "Unknown type of XML markup received"
+-msgstr "Vastaanotettiin tuntematon XML-merkkauksen tyyppi"
+\ No newline at end of file
+Index: plasma-workspace-5.2.2/po/fr/libkxmlrpcclient5.po
+===================================================================
+--- plasma-workspace-5.2.2.orig/po/fr/libkxmlrpcclient5.po
++++ /dev/null
+@@ -1,32 +0,0 @@
+-# translation of libkxmlrpcclient.po to Français
+-# Copyright (C) YEAR This_file_is_part_of_KDE
+-# This file is distributed under the same license as the PACKAGE package.
+-# Sébastien Renard <Sebastien.Renard@digitalfox.org>, 2007, 2008.
+-# xavier <xavier.besnard@neuf.fr>, 2013.
+-#
+-msgid ""
+-msgstr ""
+-"Project-Id-Version: libkxmlrpcclient\n"
+-"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+-"POT-Creation-Date: 2015-01-18 09:51+0000\n"
+-"PO-Revision-Date: 2013-06-06 14:06+0200\n"
+-"Last-Translator: xavier <xavier.besnard@neuf.fr>\n"
+-"Language-Team: French <kde-i18n-doc@kde.org>\n"
+-"Language: fr\n"
+-"MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=UTF-8\n"
+-"Content-Transfer-Encoding: 8bit\n"
+-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+-"X-Generator: Lokalize 1.5\n"
+-"X-Environment: kde\n"
+-"X-Accelerator-Marker: &\n"
+-"X-Text-Markup: kde4\n"
+-
+-#: query.cpp:375
+-#, kde-format
+-msgid "Received invalid XML markup: %1 at %2:%3"
+-msgstr "Balise XML reçue non valable : %1 (%2 : %3)"
+-
+-#: query.cpp:389
+-msgid "Unknown type of XML markup received"
+-msgstr "Type inconnu de balise XML reçue"
+\ No newline at end of file
+Index: plasma-workspace-5.2.2/po/hu/libkxmlrpcclient5.po
+===================================================================
+--- plasma-workspace-5.2.2.orig/po/hu/libkxmlrpcclient5.po
++++ /dev/null
+@@ -1,27 +0,0 @@
+-# Copyright (C) YEAR This_file_is_part_of_KDE
+-# This file is distributed under the same license as the PACKAGE package.
+-#
+-# Kristóf Kiszel <ulysses@kubuntu.org>, 2014.
+-msgid ""
+-msgstr ""
+-"Project-Id-Version: \n"
+-"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+-"POT-Creation-Date: 2015-01-18 09:51+0000\n"
+-"PO-Revision-Date: 2014-09-06 12:10+0200\n"
+-"Last-Translator: Kristóf Kiszel <ulysses@kubuntu.org>\n"
+-"Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
+-"Language: hu\n"
+-"MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=UTF-8\n"
+-"Content-Transfer-Encoding: 8bit\n"
+-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+-"X-Generator: Lokalize 1.5\n"
+-
+-#: query.cpp:375
+-#, kde-format
+-msgid "Received invalid XML markup: %1 at %2:%3"
+-msgstr "Érvénytelen XML adatok érkeztek: %1 - %2:%3"
+-
+-#: query.cpp:389
+-msgid "Unknown type of XML markup received"
+-msgstr "Ismeretlen típusú XML adatok érkeztek"
+\ No newline at end of file
+Index: plasma-workspace-5.2.2/po/ia/libkxmlrpcclient5.po
+===================================================================
+--- plasma-workspace-5.2.2.orig/po/ia/libkxmlrpcclient5.po
++++ /dev/null
+@@ -1,27 +0,0 @@
+-# Copyright (C) YEAR This_file_is_part_of_KDE
+-# This file is distributed under the same license as the PACKAGE package.
+-#
+-# Giovanni Sora <g.sora@tiscali.it>, 2014.
+-msgid ""
+-msgstr ""
+-"Project-Id-Version: \n"
+-"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+-"POT-Creation-Date: 2015-01-18 09:51+0000\n"
+-"PO-Revision-Date: 2014-07-25 14:45+0200\n"
+-"Last-Translator: Giovanni Sora <g.sora@tiscali.it>\n"
+-"Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
+-"Language: ia\n"
+-"MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=UTF-8\n"
+-"Content-Transfer-Encoding: 8bit\n"
+-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+-"X-Generator: Lokalize 1.5\n"
+-
+-#: query.cpp:375
+-#, kde-format
+-msgid "Received invalid XML markup: %1 at %2:%3"
+-msgstr "On recipeva un invalide notation XML: %1 a %2:%3"
+-
+-#: query.cpp:389
+-msgid "Unknown type of XML markup received"
+-msgstr "On recipeva typo incognite de notation XML "
+\ No newline at end of file
+Index: plasma-workspace-5.2.2/po/it/libkxmlrpcclient5.po
+===================================================================
+--- plasma-workspace-5.2.2.orig/po/it/libkxmlrpcclient5.po
++++ /dev/null
+@@ -1,27 +0,0 @@
+-# Copyright (C) YEAR This_file_is_part_of_KDE
+-# This file is distributed under the same license as the PACKAGE package.
+-# Vincenzo Reale <smart2128@baslug.org>, 2014.
+-#
+-msgid ""
+-msgstr ""
+-"Project-Id-Version: \n"
+-"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+-"POT-Creation-Date: 2015-01-18 09:51+0000\n"
+-"PO-Revision-Date: 2014-12-09 21:13+0100\n"
+-"Last-Translator: Vincenzo Reale <smart2128@baslug.org>\n"
+-"Language-Team: Italian <kde-i18n-it@kde.org>\n"
+-"Language: it\n"
+-"MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=UTF-8\n"
+-"Content-Transfer-Encoding: 8bit\n"
+-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+-"X-Generator: Lokalize 1.5\n"
+-
+-#: query.cpp:375
+-#, kde-format
+-msgid "Received invalid XML markup: %1 at %2:%3"
+-msgstr "Contrassegno XML ricevuto non valido: %1 in %2:%3"
+-
+-#: query.cpp:389
+-msgid "Unknown type of XML markup received"
+-msgstr "Tipo di contrassegno XML ricevuto sconosciuto"
+\ No newline at end of file
+Index: plasma-workspace-5.2.2/po/ja/libkxmlrpcclient5.po
+===================================================================
+--- plasma-workspace-5.2.2.orig/po/ja/libkxmlrpcclient5.po
++++ /dev/null
+@@ -1,29 +0,0 @@
+-# Translation of libkxmlrpcclient into Japanese.
+-# This file is distributed under the same license as the kdepimlibs package.
+-# Toyohiro Asukai <toyohiro@ksmplus.com>, 2004.
+-# Yukiko Bando <ybando@k6.dion.ne.jp>, 2007.
+-#
+-msgid ""
+-msgstr ""
+-"Project-Id-Version: libkxmlrpcclient\n"
+-"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+-"POT-Creation-Date: 2015-01-18 09:51+0000\n"
+-"PO-Revision-Date: 2007-01-09 22:00+0900\n"
+-"Last-Translator: Yukiko Bando <ybando@k6.dion.ne.jp>\n"
+-"Language-Team: Japanese <kde-jp@kde.org>\n"
+-"Language: ja\n"
+-"MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=UTF-8\n"
+-"Content-Transfer-Encoding: 8bit\n"
+-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+-"X-Accelerator-Marker: &\n"
+-"X-Text-Markup: kde4\n"
+-
+-#: query.cpp:375
+-#, kde-format
+-msgid "Received invalid XML markup: %1 at %2:%3"
+-msgstr "無効な XML マークアップを受信: %2:%3 の %1"
+-
+-#: query.cpp:389
+-msgid "Unknown type of XML markup received"
+-msgstr "未知のタイプの XML マークアップを受信"
+\ No newline at end of file
+Index: plasma-workspace-5.2.2/po/ko/libkxmlrpcclient5.po
+===================================================================
+--- plasma-workspace-5.2.2.orig/po/ko/libkxmlrpcclient5.po
++++ /dev/null
+@@ -1,26 +0,0 @@
+-# Copyright (C) YEAR This_file_is_part_of_KDE
+-# This file is distributed under the same license as the PACKAGE package.
+-# Park Shinjo <peremen@gmail.com>, 2014.
+-#
+-msgid ""
+-msgstr ""
+-"Project-Id-Version: \n"
+-"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+-"POT-Creation-Date: 2015-01-18 09:51+0000\n"
+-"PO-Revision-Date: 2014-03-03 00:29+0900\n"
+-"Last-Translator: Park Shinjo <peremen@gmail.com>\n"
+-"Language-Team: Korean <kde@peremen.name>\n"
+-"Language: ko\n"
+-"MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=UTF-8\n"
+-"Content-Transfer-Encoding: 8bit\n"
+-"Plural-Forms: nplurals=1; plural=0;\n"
+-
+-#: query.cpp:375
+-#, kde-format
+-msgid "Received invalid XML markup: %1 at %2:%3"
+-msgstr "잘못된 XML 마크업 수신: %1, %2:%3"
+-
+-#: query.cpp:389
+-msgid "Unknown type of XML markup received"
+-msgstr "알 수 없는 XML 마크업 수신"
+\ No newline at end of file
+Index: plasma-workspace-5.2.2/po/lt/libkxmlrpcclient5.po
+===================================================================
+--- plasma-workspace-5.2.2.orig/po/lt/libkxmlrpcclient5.po
++++ /dev/null
+@@ -1,30 +0,0 @@
+-# Lithuanian translations for trunk-kf package.
+-# Copyright (C) 2014 This_file_is_part_of_KDE
+-# This file is distributed under the same license as the trunk-kf package.
+-#
+-# Automatically generated, 2014, 2015.
+-# Liudas Ališauskas <liudas@akmc.lt>, 2015.
+-msgid ""
+-msgstr ""
+-"Project-Id-Version: trunk-kf 5\n"
+-"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+-"POT-Creation-Date: 2015-01-18 09:51+0000\n"
+-"PO-Revision-Date: 2015-01-25 12:12+0200\n"
+-"Last-Translator: Liudas Ališauskas <liudas@akmc.lt>\n"
+-"Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
+-"Language: lt\n"
+-"MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=UTF-8\n"
+-"Content-Transfer-Encoding: 8bit\n"
+-"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
+-"%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
+-"X-Generator: Lokalize 1.5\n"
+-
+-#: query.cpp:375
+-#, kde-format
+-msgid "Received invalid XML markup: %1 at %2:%3"
+-msgstr "Gautas neteisingas XML failas: %1 vietoje %2:%3"
+-
+-#: query.cpp:389
+-msgid "Unknown type of XML markup received"
+-msgstr "Gautas nežinomo tipo XML žymėjimas"
+\ No newline at end of file
+Index: plasma-workspace-5.2.2/po/nb/libkxmlrpcclient5.po
+===================================================================
+--- plasma-workspace-5.2.2.orig/po/nb/libkxmlrpcclient5.po
++++ /dev/null
+@@ -1,29 +0,0 @@
+-# Translation of libkxmlrpcclient5 to Norwegian Bokmål
+-#
+-# Nils Kristian Tomren <slx@nilsk.net>, 2007.
+-msgid ""
+-msgstr ""
+-"Project-Id-Version: libkxmlrpcclient\n"
+-"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+-"POT-Creation-Date: 2015-01-18 09:51+0000\n"
+-"PO-Revision-Date: 2007-10-07 15:14+0200\n"
+-"Last-Translator: MagicPO 0.3 (automated)\n"
+-"Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
+-"Language: nb\n"
+-"MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=UTF-8\n"
+-"Content-Transfer-Encoding: 8bit\n"
+-"X-Generator: MagicPO 0.3\n"
+-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+-"X-Environment: kde\n"
+-"X-Accelerator-Marker: &\n"
+-"X-Text-Markup: kde4\n"
+-
+-#: query.cpp:375
+-#, kde-format
+-msgid "Received invalid XML markup: %1 at %2:%3"
+-msgstr "Mottok ugyldig XML-oppmerking: %1 ved %2:%3"
+-
+-#: query.cpp:389
+-msgid "Unknown type of XML markup received"
+-msgstr "Ukjent type XML-kode mottatt"
+\ No newline at end of file
+Index: plasma-workspace-5.2.2/po/nds/libkxmlrpcclient5.po
+===================================================================
+--- plasma-workspace-5.2.2.orig/po/nds/libkxmlrpcclient5.po
++++ /dev/null
+@@ -1,29 +0,0 @@
+-# Translation of libkxmlrpcclient.po to Low Saxon
+-# translation of libkxmlrpcclient.po to Low Saxon
+-# Copyright (C) YEAR This_file_is_part_of_KDE
+-# This file is distributed under the same license as the PACKAGE package.
+-# Sönke Dibbern <s_dibbern@web.de>, 2007.
+-#
+-msgid ""
+-msgstr ""
+-"Project-Id-Version: libkxmlrpcclient\n"
+-"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+-"POT-Creation-Date: 2015-01-18 09:51+0000\n"
+-"PO-Revision-Date: 2007-11-19 01:20+0100\n"
+-"Last-Translator: Sönke Dibbern <s_dibbern@web.de>\n"
+-"Language-Team: Low Saxon <kde-i18n-nds@kde.org>\n"
+-"Language: nds\n"
+-"MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=UTF-8\n"
+-"Content-Transfer-Encoding: 8bit\n"
+-"X-Generator: KBabel 1.11.4\n"
+-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+-
+-#: query.cpp:375
+-#, kde-format
+-msgid "Received invalid XML markup: %1 at %2:%3"
+-msgstr "Leeg XML kregen: %1 bi %2:%3"
+-
+-#: query.cpp:389
+-msgid "Unknown type of XML markup received"
+-msgstr "Nich begäng XML-Typ kregen"
+\ No newline at end of file
+Index: plasma-workspace-5.2.2/po/nl/libkxmlrpcclient5.po
+===================================================================
+--- plasma-workspace-5.2.2.orig/po/nl/libkxmlrpcclient5.po
++++ /dev/null
+@@ -1,27 +0,0 @@
+-# Copyright (C) YEAR This_file_is_part_of_KDE
+-# This file is distributed under the same license as the PACKAGE package.
+-#
+-# Freek de Kruijf <freekdekruijf@kde.nl>, 2014.
+-msgid ""
+-msgstr ""
+-"Project-Id-Version: \n"
+-"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+-"POT-Creation-Date: 2015-01-18 09:51+0000\n"
+-"PO-Revision-Date: 2014-07-11 11:42+0200\n"
+-"Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
+-"Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
+-"Language: nl\n"
+-"MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=UTF-8\n"
+-"Content-Transfer-Encoding: 8bit\n"
+-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+-"X-Generator: Lokalize 1.5\n"
+-
+-#: query.cpp:375
+-#, kde-format
+-msgid "Received invalid XML markup: %1 at %2:%3"
+-msgstr "Ongeldige XML-opmaak ontvangen: %1 bij %2:%3"
+-
+-#: query.cpp:389
+-msgid "Unknown type of XML markup received"
+-msgstr "Onbekend type van XML-opmaak ontvangen"
+\ No newline at end of file
+Index: plasma-workspace-5.2.2/po/nn/libkxmlrpcclient5.po
+===================================================================
+--- plasma-workspace-5.2.2.orig/po/nn/libkxmlrpcclient5.po
++++ /dev/null
+@@ -1,30 +0,0 @@
+-# Translation of libkxmlrpcclient5 to Norwegian Nynorsk
+-#
+-# Karl Ove Hufthammer <karl@huftis.org>, 2008.
+-# Eirik U. Birkeland <eirbir@gmail.com>, 2008.
+-msgid ""
+-msgstr ""
+-"Project-Id-Version: libkxmlrpcclient\n"
+-"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+-"POT-Creation-Date: 2015-01-18 09:51+0000\n"
+-"PO-Revision-Date: 2008-08-07 23:40+0200\n"
+-"Last-Translator: Eirik U. Birkeland <eirbir@gmail.com>\n"
+-"Language-Team: Norwegian Nynorsk <i18n-nn@lister.ping.uio.no>\n"
+-"Language: nn\n"
+-"MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=UTF-8\n"
+-"Content-Transfer-Encoding: 8bit\n"
+-"X-Generator: KBabel 1.11.4\n"
+-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+-"X-Environment: kde\n"
+-"X-Accelerator-Marker: &\n"
+-"X-Text-Markup: kde4\n"
+-
+-#: query.cpp:375
+-#, kde-format
+-msgid "Received invalid XML markup: %1 at %2:%3"
+-msgstr "Tok imot ugyldig XML-oppmerking: %1 ved %2:%3"
+-
+-#: query.cpp:389
+-msgid "Unknown type of XML markup received"
+-msgstr "Ukjend type XML-kode motteke"
+\ No newline at end of file
+Index: plasma-workspace-5.2.2/po/pl/libkxmlrpcclient5.po
+===================================================================
+--- plasma-workspace-5.2.2.orig/po/pl/libkxmlrpcclient5.po
++++ /dev/null
+@@ -1,28 +0,0 @@
+-# Copyright (C) YEAR This_file_is_part_of_KDE
+-# This file is distributed under the same license as the PACKAGE package.
+-#
+-# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2014.
+-msgid ""
+-msgstr ""
+-"Project-Id-Version: \n"
+-"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+-"POT-Creation-Date: 2015-01-18 09:51+0000\n"
+-"PO-Revision-Date: 2014-07-11 18:52+0200\n"
+-"Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
+-"Language-Team: Polish <kde-i18n-doc@kde.org>\n"
+-"Language: pl\n"
+-"MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=UTF-8\n"
+-"Content-Transfer-Encoding: 8bit\n"
+-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+-"|| n%100>=20) ? 1 : 2);\n"
+-"X-Generator: Lokalize 1.5\n"
+-
+-#: query.cpp:375
+-#, kde-format
+-msgid "Received invalid XML markup: %1 at %2:%3"
+-msgstr "Otrzymano nieprawidłowe oznaczenie XML: %1 w %2:%3"
+-
+-#: query.cpp:389
+-msgid "Unknown type of XML markup received"
+-msgstr "Otrzymano nieznany rodzaj oznaczenia XML"
+\ No newline at end of file
+Index: plasma-workspace-5.2.2/po/pt/libkxmlrpcclient5.po
+===================================================================
+--- plasma-workspace-5.2.2.orig/po/pt/libkxmlrpcclient5.po
++++ /dev/null
+@@ -1,27 +0,0 @@
+-# SOME DESCRIPTIVE TITLE.
+-# Copyright (C) YEAR This_file_is_part_of_KDE
+-# This file is distributed under the same license as the PACKAGE package.
+-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+-#
+-msgid ""
+-msgstr ""
+-"Project-Id-Version: libkxmlrpcclient5\n"
+-"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+-"POT-Creation-Date: 2015-01-18 09:51+0000\n"
+-"PO-Revision-Date: 2014-07-11 09:57+0000\n"
+-"Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
+-"Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
+-"Language: \n"
+-"MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=UTF-8\n"
+-"Content-Transfer-Encoding: 8bit\n"
+-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+-
+-#: query.cpp:375
+-#, kde-format
+-msgid "Received invalid XML markup: %1 at %2:%3"
+-msgstr "Recebidas marcas XML inválidas: %1 em %2:%3"
+-
+-#: query.cpp:389
+-msgid "Unknown type of XML markup received"
+-msgstr "Foi recebido um tipo de marca de XML desconhecido"
+\ No newline at end of file
+Index: plasma-workspace-5.2.2/po/pt_BR/libkxmlrpcclient5.po
+===================================================================
+--- plasma-workspace-5.2.2.orig/po/pt_BR/libkxmlrpcclient5.po
++++ /dev/null
+@@ -1,28 +0,0 @@
+-# Translation of libkxmlrpcclient5.po to Brazilian Portuguese
+-# Copyright (C) 2014 This_file_is_part_of_KDE
+-# This file is distributed under the same license as the PACKAGE package.
+-#
+-# André Marcelo Alvarenga <alvarenga@kde.org>, 2014.
+-msgid ""
+-msgstr ""
+-"Project-Id-Version: libkxmlrpcclient5\n"
+-"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+-"POT-Creation-Date: 2015-01-18 09:51+0000\n"
+-"PO-Revision-Date: 2014-07-11 08:07-0300\n"
+-"Last-Translator: André Marcelo Alvarenga <alvarenga@kde.org>\n"
+-"Language-Team: Brazilian Portuguese <kde-i18n-pt_br@kde.org>\n"
+-"Language: pt_BR\n"
+-"MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=UTF-8\n"
+-"Content-Transfer-Encoding: 8bit\n"
+-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+-"X-Generator: Lokalize 1.5\n"
+-
+-#: query.cpp:375
+-#, kde-format
+-msgid "Received invalid XML markup: %1 at %2:%3"
+-msgstr "Recebida marcação XML inválida: %1 em %2:%3"
+-
+-#: query.cpp:389
+-msgid "Unknown type of XML markup received"
+-msgstr "Foi recebido um tipo de marcação XML desconhecido"
+\ No newline at end of file
+Index: plasma-workspace-5.2.2/po/ru/libkxmlrpcclient5.po
+===================================================================
+--- plasma-workspace-5.2.2.orig/po/ru/libkxmlrpcclient5.po
++++ /dev/null
+@@ -1,28 +0,0 @@
+-# Copyright (C) YEAR This_file_is_part_of_KDE
+-# This file is distributed under the same license as the PACKAGE package.
+-#
+-# Alexander Potashev <aspotashev@gmail.com>, 2014.
+-msgid ""
+-msgstr ""
+-"Project-Id-Version: \n"
+-"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+-"POT-Creation-Date: 2015-01-18 09:51+0000\n"
+-"PO-Revision-Date: 2014-08-27 05:27+0400\n"
+-"Last-Translator: Alexander Potashev <aspotashev@gmail.com>\n"
+-"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+-"Language: ru\n"
+-"MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=UTF-8\n"
+-"Content-Transfer-Encoding: 8bit\n"
+-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+-"X-Generator: Lokalize 1.5\n"
+-
+-#: query.cpp:375
+-#, kde-format
+-msgid "Received invalid XML markup: %1 at %2:%3"
+-msgstr "Получена некорректная разметка XML: %1 в позиции %2:%3"
+-
+-#: query.cpp:389
+-msgid "Unknown type of XML markup received"
+-msgstr "Получен неизвестный тип разметки XML"
+\ No newline at end of file
+Index: plasma-workspace-5.2.2/po/se/libkxmlrpcclient5.po
+===================================================================
+--- plasma-workspace-5.2.2.orig/po/se/libkxmlrpcclient5.po
++++ /dev/null
+@@ -1,29 +0,0 @@
+-# Translation of libkxmlrpcclient5 to Northern Sami
+-#
+-# Børre Gaup <boerre@skolelinux.no>, 2009.
+-msgid ""
+-msgstr ""
+-"Project-Id-Version: libkxmlrpcclient\n"
+-"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+-"POT-Creation-Date: 2015-01-18 09:51+0000\n"
+-"PO-Revision-Date: 2009-02-17 17:44+0100\n"
+-"Last-Translator: Børre Gaup <boerre@skolelinux.no>\n"
+-"Language-Team: Northern Sami <i18n-sme@lister.ping.uio.no>\n"
+-"Language: se\n"
+-"MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=UTF-8\n"
+-"Content-Transfer-Encoding: 8bit\n"
+-"X-Generator: Lokalize 0.3\n"
+-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+-"X-Environment: kde\n"
+-"X-Accelerator-Marker: &\n"
+-"X-Text-Markup: kde4\n"
+-
+-#: query.cpp:375
+-#, kde-format
+-msgid "Received invalid XML markup: %1 at %2:%3"
+-msgstr "Oaččui gustohis XML-merkema: %1 sajis %2:%3"
+-
+-#: query.cpp:389
+-msgid "Unknown type of XML markup received"
+-msgstr "Oaččui amas XML-merkema"
+\ No newline at end of file
+Index: plasma-workspace-5.2.2/po/sk/libkxmlrpcclient5.po
+===================================================================
+--- plasma-workspace-5.2.2.orig/po/sk/libkxmlrpcclient5.po
++++ /dev/null
+@@ -1,25 +0,0 @@
+-# translation of libkxmlrpcclient5.po to Slovak
+-# Roman Paholik <wizzardsk@gmail.com>, 2014.
+-msgid ""
+-msgstr ""
+-"Project-Id-Version: libkxmlrpcclient5\n"
+-"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+-"POT-Creation-Date: 2015-01-18 09:51+0000\n"
+-"PO-Revision-Date: 2014-07-16 21:25+0200\n"
+-"Last-Translator: Roman Paholík <wizzardsk@gmail.com>\n"
+-"Language-Team: Slovak <kde-sk@linux.sk>\n"
+-"Language: sk\n"
+-"MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=UTF-8\n"
+-"Content-Transfer-Encoding: 8bit\n"
+-"X-Generator: Lokalize 1.5\n"
+-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+-
+-#: query.cpp:375
+-#, kde-format
+-msgid "Received invalid XML markup: %1 at %2:%3"
+-msgstr "Prijatá neplatná XML značka: %1 na %2:%3"
+-
+-#: query.cpp:389
+-msgid "Unknown type of XML markup received"
+-msgstr "Prijatý neznámy typ XML značky."
+\ No newline at end of file
+Index: plasma-workspace-5.2.2/po/sl/libkxmlrpcclient5.po
+===================================================================
+--- plasma-workspace-5.2.2.orig/po/sl/libkxmlrpcclient5.po
++++ /dev/null
+@@ -1,28 +0,0 @@
+-# Copyright (C) YEAR This_file_is_part_of_KDE
+-# This file is distributed under the same license as the PACKAGE package.
+-#
+-# Andrej Mernik <andrejm@ubuntu.si>, 2014.
+-msgid ""
+-msgstr ""
+-"Project-Id-Version: \n"
+-"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+-"POT-Creation-Date: 2015-01-18 09:51+0000\n"
+-"PO-Revision-Date: 2014-11-30 13:05+0100\n"
+-"Last-Translator: Andrej Mernik <andrejm@ubuntu.si>\n"
+-"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
+-"Language: sl\n"
+-"MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=UTF-8\n"
+-"Content-Transfer-Encoding: 8bit\n"
+-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+-"%100==4 ? 3 : 0);\n"
+-"X-Generator: Lokalize 1.5\n"
+-
+-#: query.cpp:375
+-#, kde-format
+-msgid "Received invalid XML markup: %1 at %2:%3"
+-msgstr "Prejeto je bilo neveljavno označevanje XML: %1 v %2;%3"
+-
+-#: query.cpp:389
+-msgid "Unknown type of XML markup received"
+-msgstr "Prejeta je bila neznana vrsta označevanja XML"
+\ No newline at end of file
+Index: plasma-workspace-5.2.2/po/sr/libkxmlrpcclient5.po
+===================================================================
+--- plasma-workspace-5.2.2.orig/po/sr/libkxmlrpcclient5.po
++++ /dev/null
+@@ -1,28 +0,0 @@
+-# Translation of libkxmlrpcclient.po to Serbian.
+-# Chusslove Illich <caslav.ilic@gmx.net>, 2007.
+-msgid ""
+-msgstr ""
+-"Project-Id-Version: libkxmlrpcclient\n"
+-"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+-"POT-Creation-Date: 2015-01-18 09:51+0000\n"
+-"PO-Revision-Date: 2008-01-01 12:00+0100\n"
+-"Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
+-"Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
+-"Language: sr\n"
+-"MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=UTF-8\n"
+-"Content-Transfer-Encoding: 8bit\n"
+-"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+-"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+-"X-Accelerator-Marker: &\n"
+-"X-Text-Markup: kde4\n"
+-"X-Environment: kde\n"
+-
+-#: query.cpp:375
+-#, kde-format
+-msgid "Received invalid XML markup: %1 at %2:%3"
+-msgstr "Примљен неисправан ИксМЛ: %1 код %2:%3"
+-
+-#: query.cpp:389
+-msgid "Unknown type of XML markup received"
+-msgstr "Примљен непознат тип ИксМЛ‑а"
+\ No newline at end of file
+Index: plasma-workspace-5.2.2/po/sr@ijekavian/libkxmlrpcclient5.po
+===================================================================
+--- plasma-workspace-5.2.2.orig/po/sr@ijekavian/libkxmlrpcclient5.po
++++ /dev/null
+@@ -1,28 +0,0 @@
+-# Translation of libkxmlrpcclient.po to Serbian.
+-# Chusslove Illich <caslav.ilic@gmx.net>, 2007.
+-msgid ""
+-msgstr ""
+-"Project-Id-Version: libkxmlrpcclient\n"
+-"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+-"POT-Creation-Date: 2015-01-18 09:51+0000\n"
+-"PO-Revision-Date: 2008-01-01 12:00+0100\n"
+-"Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
+-"Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
+-"Language: sr@ijekavian\n"
+-"MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=UTF-8\n"
+-"Content-Transfer-Encoding: 8bit\n"
+-"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+-"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+-"X-Accelerator-Marker: &\n"
+-"X-Text-Markup: kde4\n"
+-"X-Environment: kde\n"
+-
+-#: query.cpp:375
+-#, kde-format
+-msgid "Received invalid XML markup: %1 at %2:%3"
+-msgstr "Примљен неисправан ИксМЛ: %1 код %2:%3"
+-
+-#: query.cpp:389
+-msgid "Unknown type of XML markup received"
+-msgstr "Примљен непознат тип ИксМЛ‑а"
+\ No newline at end of file
+Index: plasma-workspace-5.2.2/po/sr@ijekavianlatin/libkxmlrpcclient5.po
+===================================================================
+--- plasma-workspace-5.2.2.orig/po/sr@ijekavianlatin/libkxmlrpcclient5.po
++++ /dev/null
+@@ -1,28 +0,0 @@
+-# Translation of libkxmlrpcclient.po to Serbian.
+-# Chusslove Illich <caslav.ilic@gmx.net>, 2007.
+-msgid ""
+-msgstr ""
+-"Project-Id-Version: libkxmlrpcclient\n"
+-"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+-"POT-Creation-Date: 2015-01-18 09:51+0000\n"
+-"PO-Revision-Date: 2008-01-01 12:00+0100\n"
+-"Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
+-"Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
+-"Language: sr@ijekavianlatin\n"
+-"MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=UTF-8\n"
+-"Content-Transfer-Encoding: 8bit\n"
+-"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+-"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+-"X-Accelerator-Marker: &\n"
+-"X-Text-Markup: kde4\n"
+-"X-Environment: kde\n"
+-
+-#: query.cpp:375
+-#, kde-format
+-msgid "Received invalid XML markup: %1 at %2:%3"
+-msgstr "Primljen neispravan XML: %1 kod %2:%3"
+-
+-#: query.cpp:389
+-msgid "Unknown type of XML markup received"
+-msgstr "Primljen nepoznat tip XML‑a"
+\ No newline at end of file
+Index: plasma-workspace-5.2.2/po/sr@latin/libkxmlrpcclient5.po
+===================================================================
+--- plasma-workspace-5.2.2.orig/po/sr@latin/libkxmlrpcclient5.po
++++ /dev/null
+@@ -1,28 +0,0 @@
+-# Translation of libkxmlrpcclient.po to Serbian.
+-# Chusslove Illich <caslav.ilic@gmx.net>, 2007.
+-msgid ""
+-msgstr ""
+-"Project-Id-Version: libkxmlrpcclient\n"
+-"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+-"POT-Creation-Date: 2015-01-18 09:51+0000\n"
+-"PO-Revision-Date: 2008-01-01 12:00+0100\n"
+-"Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
+-"Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
+-"Language: sr@latin\n"
+-"MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=UTF-8\n"
+-"Content-Transfer-Encoding: 8bit\n"
+-"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+-"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+-"X-Accelerator-Marker: &\n"
+-"X-Text-Markup: kde4\n"
+-"X-Environment: kde\n"
+-
+-#: query.cpp:375
+-#, kde-format
+-msgid "Received invalid XML markup: %1 at %2:%3"
+-msgstr "Primljen neispravan XML: %1 kod %2:%3"
+-
+-#: query.cpp:389
+-msgid "Unknown type of XML markup received"
+-msgstr "Primljen nepoznat tip XML‑a"
+\ No newline at end of file
+Index: plasma-workspace-5.2.2/po/sv/libkxmlrpcclient5.po
+===================================================================
+--- plasma-workspace-5.2.2.orig/po/sv/libkxmlrpcclient5.po
++++ /dev/null
+@@ -1,27 +0,0 @@
+-# Copyright (C) YEAR This_file_is_part_of_KDE
+-# This file is distributed under the same license as the PACKAGE package.
+-#
+-# Stefan Asserhäll <stefan.asserhall@bredband.net>, 2014.
+-msgid ""
+-msgstr ""
+-"Project-Id-Version: \n"
+-"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+-"POT-Creation-Date: 2015-01-18 09:51+0000\n"
+-"PO-Revision-Date: 2014-07-11 21:02+0200\n"
+-"Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
+-"Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
+-"Language: sv\n"
+-"MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=UTF-8\n"
+-"Content-Transfer-Encoding: 8bit\n"
+-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+-"X-Generator: Lokalize 1.4\n"
+-
+-#: query.cpp:375
+-#, kde-format
+-msgid "Received invalid XML markup: %1 at %2:%3"
+-msgstr "Tog emot ogiltiga XML-taggar: %1 på %2:%3"
+-
+-#: query.cpp:389
+-msgid "Unknown type of XML markup received"
+-msgstr "Okänd typ av XML-tagg mottagen"
+\ No newline at end of file
+Index: plasma-workspace-5.2.2/po/tr/libkxmlrpcclient5.po
+===================================================================
+--- plasma-workspace-5.2.2.orig/po/tr/libkxmlrpcclient5.po
++++ /dev/null
+@@ -1,27 +0,0 @@
+-# Copyright (C) YEAR This_file_is_part_of_KDE
+-# This file is distributed under the same license as the PACKAGE package.
+-#
+-# Volkan Gezer <volkangezer@gmail.com>, 2014.
+-msgid ""
+-msgstr ""
+-"Project-Id-Version: \n"
+-"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+-"POT-Creation-Date: 2015-01-18 09:51+0000\n"
+-"PO-Revision-Date: 2014-09-05 14:49+0200\n"
+-"Last-Translator: Volkan Gezer <volkangezer@gmail.com>\n"
+-"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+-"Language: tr\n"
+-"MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=UTF-8\n"
+-"Content-Transfer-Encoding: 8bit\n"
+-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+-"X-Generator: Lokalize 1.5\n"
+-
+-#: query.cpp:375
+-#, kde-format
+-msgid "Received invalid XML markup: %1 at %2:%3"
+-msgstr "Alınan geçersiz XML biçimlendirmesi: %1, %2:%3 üzerinde"
+-
+-#: query.cpp:389
+-msgid "Unknown type of XML markup received"
+-msgstr "Alınan XML biçimlendirmesi bilinmeyen türde"
+\ No newline at end of file
+Index: plasma-workspace-5.2.2/po/uk/libkxmlrpcclient5.po
+===================================================================
+--- plasma-workspace-5.2.2.orig/po/uk/libkxmlrpcclient5.po
++++ /dev/null
+@@ -1,30 +0,0 @@
+-# Translation of libkxmlrpcclient5.po to Ukrainian
+-# Copyright (C) 2014 This_file_is_part_of_KDE
+-# This file is distributed under the license LGPL version 2.1 or
+-# version 3 or later versions approved by the membership of KDE e.V.
+-#
+-# Yuri Chornoivan <yurchor@ukr.net>, 2014.
+-msgid ""
+-msgstr ""
+-"Project-Id-Version: libkxmlrpcclient5\n"
+-"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+-"POT-Creation-Date: 2015-01-18 09:51+0000\n"
+-"PO-Revision-Date: 2014-07-11 14:00+0300\n"
+-"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+-"Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+-"Language: uk\n"
+-"MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=UTF-8\n"
+-"Content-Transfer-Encoding: 8bit\n"
+-"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+-"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+-"X-Generator: Lokalize 1.5\n"
+-
+-#: query.cpp:375
+-#, kde-format
+-msgid "Received invalid XML markup: %1 at %2:%3"
+-msgstr "Отримано некоректну розмітку XML: %1 у позиції %2:%3"
+-
+-#: query.cpp:389
+-msgid "Unknown type of XML markup received"
+-msgstr "Отримано невідомий тип розмітки XML"
+\ No newline at end of file
+Index: plasma-workspace-5.2.2/po/zh_CN/libkxmlrpcclient5.po
+===================================================================
+--- plasma-workspace-5.2.2.orig/po/zh_CN/libkxmlrpcclient5.po
++++ /dev/null
+@@ -1,27 +0,0 @@
+-# Copyright (C) YEAR This_file_is_part_of_KDE
+-# This file is distributed under the same license as the PACKAGE package.
+-#
+-# Weng Xuetian <wengxt@gmail.com>, 2014.
+-msgid ""
+-msgstr ""
+-"Project-Id-Version: \n"
+-"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+-"POT-Creation-Date: 2015-01-18 09:51+0000\n"
+-"PO-Revision-Date: 2014-07-16 15:45-0400\n"
+-"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+-"Language-Team: Chinese Simplified <kde-i18n-doc@kde.org>\n"
+-"Language: zh_CN\n"
+-"MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=UTF-8\n"
+-"Content-Transfer-Encoding: 8bit\n"
+-"Plural-Forms: nplurals=1; plural=0;\n"
+-"X-Generator: Lokalize 1.5\n"
+-
+-#: query.cpp:375
+-#, kde-format
+-msgid "Received invalid XML markup: %1 at %2:%3"
+-msgstr "收到无效的 XML 标记：%1，于 %2:%3"
+-
+-#: query.cpp:389
+-msgid "Unknown type of XML markup received"
+-msgstr "收到未知的 XML 标记类型"
+\ No newline at end of file

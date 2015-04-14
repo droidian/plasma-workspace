@@ -1,3 +1,10 @@
+plasma-workspace (4:5.2.2-0ubuntu3) vivid; urgency=medium
+
+  * Add kubuntu_no-install-libkxmlrpcclient5.po.diff to remove
+    libkxmlrpcclient5.po now in xmlrpcclient from frameworks
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 14 Apr 2015 10:44:59 +0200
+
 plasma-workspace (4:5.2.2-0ubuntu2) vivid; urgency=medium
 
   * Add upstream_Workaround-the-lockscreen-password-field-focus-issue.patch
