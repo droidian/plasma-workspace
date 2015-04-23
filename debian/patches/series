@@ -3,3 +3,5 @@ upstream_gdb-7.8-fix.diff
 install_missing_header
 upstream_prison.diff
 kubuntu_default-systray-applets.diff
+upstream_Workaround-the-lockscreen-password-field-focus-issue.patch
+kubuntu_no-install-libkxmlrpcclient5.po.diff
