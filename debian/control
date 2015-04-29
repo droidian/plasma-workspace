@@ -126,6 +126,9 @@ Build-Depends: baloo-kf5-dev (>= 5.0.0),
                xcb-proto,
                xvfb
 Standards-Version: 3.9.6
+Homepage: https://projects.kde.org/projects/kde/workspace/plasma-workspace
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/plasma/plasma-workspace.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/plasma-workspace.git
 
 Package: plasma-workspace-dev
 Architecture: any
