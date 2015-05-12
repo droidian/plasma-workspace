@@ -1,3 +1,9 @@
+plasma-workspace (4:5.3.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (5.3.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 12 May 2015 20:11:22 +0200
+
 plasma-workspace (4:5.2.2-2) experimental; urgency=medium
 
   * Merge with kubuntu changes.
