@@ -60,7 +60,6 @@ usr/lib/*/qt5/plugins/plasma/dataengine/
 usr/lib/*/qt5/plugins/plasma/packagestructure/
 usr/lib/*/qt5/plugins/plasma_containmentactions_applauncher.so
 usr/lib/*/qt5/plugins/plasma_containmentactions_contextmenu.so
-usr/lib/*/qt5/plugins/plasma_containmentactions_minimalcontextmenu.so
 usr/lib/*/qt5/plugins/plasma_containmentactions_paste.so
 usr/lib/*/qt5/plugins/plasma_containmentactions_switchactivity.so
 usr/lib/*/qt5/plugins/plasma_containmentactions_switchdesktop.so
@@ -111,7 +110,6 @@ usr/share/kservices5/plasma-applet-org.kde.plasma.panelspacer.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.systemtray.desktop
 usr/share/kservices5/plasma-containmentactions-applauncher.desktop
 usr/share/kservices5/plasma-containmentactions-contextmenu.desktop
-usr/share/kservices5/plasma-containmentactions-minimalcontextmenu.desktop
 usr/share/kservices5/plasma-containmentactions-paste.desktop
 usr/share/kservices5/plasma-containmentactions-switchactivity.desktop
 usr/share/kservices5/plasma-containmentactions-switchdesktop.desktop
