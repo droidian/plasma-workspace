@@ -148,12 +148,6 @@ Description: Plasma Workspace for KF5 library
  .
  This package contains library files.
 
-Package: libkf5xmlrpcclientprivate5
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Library files needed by Drkonqi
- A simple XML-RPC client library used by Drkonqi.
-
 Package: libplasma-geolocation-interface5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -206,7 +200,7 @@ Package: plasma-workspace-dbg
 Section: debug
 Priority: extra
 Architecture: any
-Depends: plasma-workspace (= ${binary:Version}) | libweather-ion7 (= ${binary:Version}) | libplasma-geolocation-interface5 (= ${binary:Version}) | libkf5xmlrpcclientprivate5 (= ${binary:Version}) | libkworkspace5-5 (= ${binary:Version}),
+Depends: plasma-workspace (= ${binary:Version}) | libweather-ion7 (= ${binary:Version}) | libplasma-geolocation-interface5 (= ${binary:Version}) | libkworkspace5-5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Plasma Workspace for KF5
