@@ -38,6 +38,7 @@ usr/lib/*/qt5/plugins/kded_soliduiserver.so
 usr/lib/*/qt5/plugins/kded_statusnotifierwatcher.so
 usr/lib/*/qt5/plugins/kio_applications.so
 usr/lib/*/qt5/plugins/kio_remote.so
+usr/lib/*/qt5/plugins/kpackage/
 usr/lib/*/qt5/plugins/krunner_activities.so
 usr/lib/*/qt5/plugins/krunner_baloosearchrunner.so
 usr/lib/*/qt5/plugins/krunner_bookmarksrunner.so
@@ -58,6 +59,7 @@ usr/lib/*/qt5/plugins/plasma-geolocation-gps.so
 usr/lib/*/qt5/plugins/plasma-geolocation-ip.so
 usr/lib/*/qt5/plugins/plasma/dataengine/
 usr/lib/*/qt5/plugins/plasma/packagestructure/
+usr/lib/*/qt5/plugins/plasma_applet_notifications.so
 usr/lib/*/qt5/plugins/plasma_containmentactions_applauncher.so
 usr/lib/*/qt5/plugins/plasma_containmentactions_contextmenu.so
 usr/lib/*/qt5/plugins/plasma_containmentactions_paste.so
@@ -81,6 +83,8 @@ usr/share/dbus-1/services/org.kde.krunner.service
 usr/share/desktop-directories/
 usr/share/doc/HTML/*/klipper/
 usr/share/drkonqi/
+usr/share/kconf_update/kscreenlocker.upd
+usr/share/kconf_update/ksreenlocker_5_3_separate_autologin.pl
 usr/share/knotifications5/freespacenotifier.notifyrc
 usr/share/knotifications5/ksmserver.notifyrc
 usr/share/knotifications5/phonon.notifyrc
@@ -107,6 +111,7 @@ usr/share/kservices5/plasma-applet-org.kde.plasma.lock_logout.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.mediacontroller.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.notifications.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.panelspacer.desktop
+usr/share/kservices5/plasma-applet-org.kde.plasma.systemmonitor.*.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.systemtray.desktop
 usr/share/kservices5/plasma-containmentactions-applauncher.desktop
 usr/share/kservices5/plasma-containmentactions-contextmenu.desktop
@@ -209,6 +214,7 @@ usr/share/locale/*/*/plasma_applet_org.kde.plasma.lock_logout.mo
 usr/share/locale/*/*/plasma_applet_org.kde.plasma.mediacontroller.mo
 usr/share/locale/*/*/plasma_applet_org.kde.plasma.notifications.mo
 usr/share/locale/*/*/plasma_applet_org.kde.plasma.panelspacer.mo
+usr/share/locale/*/*/plasma_applet_org.kde.plasma.systemmonitor.*.mo
 usr/share/locale/*/*/plasma_applet_org.kde.plasma.systemtray.mo
 usr/share/locale/*/*/plasma_applet_quicklaunch.mo
 usr/share/locale/*/*/plasma_applet_system-monitor.mo
