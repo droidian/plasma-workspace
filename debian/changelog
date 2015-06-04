@@ -7,7 +7,10 @@ plasma-workspace (4:5.3.1-0ubuntu1) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * Vivid backport
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 27 May 2015 07:49:04 -0700
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 04 Jun 2015 20:36:03 +0200
 
 plasma-workspace (4:5.2.2-0ubuntu3) vivid; urgency=medium
 
