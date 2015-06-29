@@ -18,6 +18,26 @@ plasma-workspace (4:5.3.1-0ubuntu1) wily; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 05 Jun 2015 02:51:14 +0200
 
+plasma-workspace (4:5.3.1-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (5.3.0).
+  * New upstream release (5.3.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 05 Jun 2015 12:01:18 +0200
+
+plasma-workspace (4:5.2.2-2) experimental; urgency=medium
+
+  * Merge with kubuntu changes.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Apr 2015 14:54:20 +0200
+
+plasma-workspace (4:5.2.2-1) experimental; urgency=medium
+
+  * New upstream release (5.2.1).
+  * New upstream release (5.2.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 25 Mar 2015 23:18:03 +0100
+
 plasma-workspace (4:5.2.2-0ubuntu3) vivid; urgency=medium
 
   * Add kubuntu_no-install-libkxmlrpcclient5.po.diff to remove
@@ -63,6 +83,21 @@ plasma-workspace (4:5.2.1-0ubuntu1) vivid; urgency=medium
   * Add libglib2.0-dev to fix build with libqalculate-dev for krunner
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 23 Feb 2015 09:48:01 -0800
+
+plasma-workspace (4:5.2.0-1) experimental; urgency=medium
+
+  * Prepare initial Debian release.
+  * Add myself as Uploader.
+  * Add missing prerm.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+  * Update build dependencies to build against experimental and to
+    follow cmake.
+  * Update copyright information.
+  * Update install files.
+  * Add basic autopkgtests support.
+  * New patch: install_missing_header.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 10 Feb 2015 20:32:53 +0100
 
 plasma-workspace (4:5.2.0-0ubuntu2) vivid; urgency=medium
 

@@ -1,4 +1,3 @@
 version=3
-http://download.kde.org/unstable/plasma/([\d\.]+)/plasma-workspace-(.*)\.tar\.xz
-
-http://download.kde.org/stable/plasma/([\d\.]+)/plasma-workspace-(.*)\.tar\.xz
+http://download.kde.org/unstable/plasma/([\d.]+)/plasma-workspace-([\d.]+)\.tar\.xz
+http://download.kde.org/stable/plasma/([\d.]+)/plasma-workspace-([\d.]+)\.tar\.xz

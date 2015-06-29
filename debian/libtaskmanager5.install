@@ -1,1 +1,2 @@
-usr/lib/*/libtaskmanager.so.*
+usr/lib/*/libtaskmanager.so.5
+usr/lib/*/libtaskmanager.so.5.*
