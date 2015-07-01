@@ -221,6 +221,7 @@ usr/share/locale/*/*/plasma_applet_system-monitor.mo
 usr/share/locale/*/*/plasma_containmentactions_contextmenu.mo
 usr/share/locale/*/*/plasma_containmentactions_switchwindow.mo
 usr/share/locale/*/*/plasma_engine_applicationjobs.mo
+usr/share/locale/*/*/plasma_engine_devicenotifications.mo
 usr/share/locale/*/*/plasma_engine_keystate.mo
 usr/share/locale/*/*/plasma_engine_mpris2.mo
 usr/share/locale/*/*/plasma_engine_network.mo
