@@ -6,12 +6,6 @@ plasma-workspace (4:5.3.2-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 30 Jun 2015 12:28:13 +0200
 
-plasma-workspace (4:5.3.2-0ubuntu1) UNRELEASED; urgency=medium
-
-  * New upstream release
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 29 Jun 2015 17:37:47 +0200
-
 plasma-workspace (4:5.3.1-0ubuntu1) wily; urgency=medium
 
   [ Jonathan Riddell ]
@@ -76,7 +70,7 @@ plasma-workspace (4:5.2.1-0ubuntu1) vivid; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release
-  * Add new depend libkf5filemetadata 
+  * Add new depend libkf5filemetadata
 
   [ Jonathan Riddell ]
   * Add build-dep on libkf5prison-dev and upstream_prison.diff to build
@@ -140,18 +134,15 @@ plasma-workspace (4:5.1.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
+  [ Scarlett Clark ]
+  * Remove kubuntu_temp_fix_games_path.diff per shadeslayer.
+
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 15 Dec 2014 13:27:55 +0100
-
-plasma-workspace (4:5.1.1-0ubuntu3) UNRELEASED; urgency=medium
-
-  * Remove kubuntu_temp_fix_games_path.diff per shadeslayer. 
-
- -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 01 Dec 2014 06:14:46 -0800
 
 plasma-workspace (4:5.1.1-0ubuntu2) vivid; urgency=medium
 
   * Add kubuntu_temp_fix_path.diff to add usr/games to PATH.
-    This is a temp fix that really needs to be fixed.  
+    This is a temp fix that really needs to be fixed.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 19 Nov 2014 16:09:22 -0800
 
@@ -176,7 +167,7 @@ plasma-workspace (4:5.1.0.1-0ubuntu1) vivid; urgency=medium
   * New upstream release
 
   [ Scarlett Clark ]
-  * Remove libKF5XmlRpcClientPrivate.so from -dev as it no longer exists. 
+  * Remove libKF5XmlRpcClientPrivate.so from -dev as it no longer exists.
 
   [ Jonathan Riddell ]
   * New upstream release with fixed tar
@@ -245,9 +236,9 @@ plasma-workspace (4:4.98.0-0ubuntu1) utopic; urgency=medium
   * New upstream RC release
 
   [ Scarlett Clark ]
-  * Add baloo build depend 
-  * Fix filename in fix-perms and add new files to -data 
-  * add optional depends 
+  * Add baloo build depend
+  * Fix filename in fix-perms and add new files to -data
+  * add optional depends
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 07 Jul 2014 13:28:19 +0200
 
@@ -281,7 +272,7 @@ plasma-workspace (4:4.97.0-0ubuntu1) utopic; urgency=medium
     execute dpkg-architecture at runtime.
 
   [ Scarlett Clark ]
-  * add qml-module-qtgraphicaleffects runtime depend 
+  * add qml-module-qtgraphicaleffects runtime depend
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 09 Jun 2014 10:26:55 +0100
 
