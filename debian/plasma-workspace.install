@@ -80,6 +80,7 @@ usr/share/config.kcfg/freespacenotifier.kcfg
 usr/share/dbus-1/services/kf5_org.kde.kuiserver.service
 usr/share/dbus-1/services/org.kde.krunner.service
 usr/share/desktop-directories/
+usr/share/doc/HTML/*/kcontrol/
 usr/share/doc/HTML/*/klipper/
 usr/share/drkonqi/
 usr/share/kconf_update/kscreenlocker.upd
