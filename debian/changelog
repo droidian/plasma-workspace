@@ -1,4 +1,4 @@
-plasma-workspace (4:5.3.2-1~) UNRELEASED; urgency=medium
+plasma-workspace (4:5.3.2-1) unstable; urgency=medium
 
   * New upstream release (5.3.0).
   * New upstream release (5.3.1).
@@ -8,7 +8,7 @@ plasma-workspace (4:5.3.2-1~) UNRELEASED; urgency=medium
   * New upstream patch: plasma-workspace-upstream-
     replace_reference_to_license_with_the_bsd_license
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 01 Jul 2015 16:04:50 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 08 Jul 2015 10:32:46 +0200
 
 plasma-workspace (4:5.3.1-0ubuntu1) wily; urgency=medium
 
