@@ -138,9 +138,11 @@ Breaks: kde-window-manager (<= 4:5),
         kscreensaver-xsavers-webcollage,
         plasma-desktop (<= 4:5),
         plasma-desktopthemes-artwork,
-        ${kde-l10n:all}
+        ${kde-l10n:all},
+        kio-extras (<< 4:5.3.2+git20150710.0210),
+        kio-extras-data (<< 4:5.3.2+git20150710.0210)
 Conflicts: kde-workspace, kde-workspace-data, klipper
-Replaces: klipper, plasma-workspace-data, ${kde-l10n:all}
+Replaces: klipper, plasma-workspace-data, ${kde-l10n:all}, kio-extras (<< 4:5.3.2+git20150710.0210), kio-extras-data (<< 4:5.3.2+git20150710.0210)
 Recommends: libpam-kwallet5
 Description: Plasma Workspace for KF5
  Plasma Workspace for KF5. Workspaces provide

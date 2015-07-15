@@ -29,6 +29,7 @@ usr/lib/*/libkdeinit5_ksmserver.so
 usr/lib/*/libkdeinit5_kuiserver5.so
 usr/lib/*/qt5/plugins/kcm_krunner_kill.so
 usr/lib/*/qt5/plugins/kded_appmenu.so
+usr/lib/*/qt5/plugins/kded_desktopnotifier.so
 usr/lib/*/qt5/plugins/kded_freespacenotifier.so
 usr/lib/*/qt5/plugins/kded_ksysguard.so
 usr/lib/*/qt5/plugins/kded_ktimezoned.so
@@ -36,6 +37,7 @@ usr/lib/*/qt5/plugins/kded_remotedirnotify.so
 usr/lib/*/qt5/plugins/kded_solidautoeject.so
 usr/lib/*/qt5/plugins/kded_soliduiserver.so
 usr/lib/*/qt5/plugins/kded_statusnotifierwatcher.so
+usr/lib/*/qt5/plugins/kf5/kio/desktop.so
 usr/lib/*/qt5/plugins/kio_applications.so
 usr/lib/*/qt5/plugins/kio_remote.so
 usr/lib/*/qt5/plugins/kpackage/
@@ -85,12 +87,17 @@ usr/share/doc/HTML/*/klipper/
 usr/share/drkonqi/
 usr/share/kconf_update/kscreenlocker.upd
 usr/share/kconf_update/ksreenlocker_5_3_separate_autologin.pl
+usr/share/kio_desktop/DesktopLinks/Home.desktop
+usr/share/kio_desktop/directory.desktop
+usr/share/kio_desktop/directory.trash
 usr/share/knotifications5/freespacenotifier.notifyrc
 usr/share/knotifications5/ksmserver.notifyrc
 usr/share/knotifications5/phonon.notifyrc
 usr/share/kservices5/applications.protocol
+usr/share/kservices5/desktop.protocol
 usr/share/kservices5/ion-noaa.desktop
 usr/share/kservices5/kded/appmenu.desktop
+usr/share/kservices5/kded/desktopnotifier.desktop
 usr/share/kservices5/kded/freespacenotifier.desktop
 usr/share/kservices5/kded/ksysguard.desktop
 usr/share/kservices5/kded/ktimezoned.desktop
