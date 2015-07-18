@@ -1,3 +1,10 @@
+plasma-workspace (4:5.3.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Add kio to plasma-workspace depends (Closes: #792289)
+
+ -- Scott Kitterman <scott@kitterman.com>  Fri, 17 Jul 2015 23:18:50 -0400
+
 plasma-workspace (4:5.3.2-1) unstable; urgency=medium
 
   * New upstream release (5.3.0).
