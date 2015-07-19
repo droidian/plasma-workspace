@@ -1,0 +1,34 @@
+Description: Test if signals are defined before using them.
+Author: Felix Geyer <fgeyer@debian.org>
+Forwarded: https://git.reviewboard.kde.org/r/124395/
+
+--- plasma-workspace-5.3.2.orig/ksmserver/screenlocker/greeter/autotests/killtest.cpp
++++ plasma-workspace-5.3.2/ksmserver/screenlocker/greeter/autotests/killtest.cpp
+@@ -76,9 +76,13 @@ void KillTest::testKill_data()
+     //QTest::newRow("SIGPWR")    << SIGPWR;
+     QTest::newRow("SIGSYS")      << SIGSYS    << true << QProcess::CrashExit;
+ #ifdef Q_OS_LINUX
++#ifdef SIGUNUSED
+     QTest::newRow("SIGUNUSED")   << SIGUNUSED << true << QProcess::CrashExit;
++#endif
++#ifdef SIGSTKFLT
+     QTest::newRow("SIGSTKFLT")   << SIGSTKFLT << true  << QProcess::CrashExit;
+ #endif
++#endif
+ }
+ 
+ void KillTest::testKill()
+@@ -148,9 +152,13 @@ void KillTest::testImmediateKill_data()
+     //QTest::newRow("SIGPWR")    << SIGPWR;
+     QTest::newRow("SIGSYS")      << SIGSYS;
+ #ifdef Q_OS_LINUX
++#ifdef SIGSTKFLT
+     QTest::newRow("SIGSTKFLT")   << SIGSTKFLT;
++#endif
++#ifdef SIGUNUSED
+     QTest::newRow("SIGUNUSED")   << SIGUNUSED;
+ #endif
++#endif
+ }
+ 
+ void KillTest::testImmediateKill()
