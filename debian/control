@@ -131,7 +131,10 @@ Depends: dbus-x11,
          x11-xserver-utils,
          ${misc:Depends},
          ${shlibs:Depends}
-Breaks: ${kde-l10n:all}, plasma-desktop (<= 4:5)
+Breaks: ${kde-l10n:all}, plasma-desktop (<= 4:5),
+        kdeartwork-style, kdeartwork-theme-window, kscreensaver,
+        kscreensaver-xsavers, kscreensaver-xsavers-webcollage,
+        plasma-desktopthemes-artwork
 Conflicts: kde-window-manager, kde-workspace, kde-workspace-data, klipper
 Replaces: klipper, plasma-workspace-data,
           ${kde-l10n:all}
