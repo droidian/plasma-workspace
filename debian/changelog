@@ -1,4 +1,6 @@
-plasma-workspace (4:5.3.2-3~) UNRELEASED; urgency=medium
+plasma-workspace (4:5.3.2-3) unstable; urgency=medium
+
+  * Team upload.
 
   [ Maximiliano Curia ]
   * Add Breaks to kde4 version of plasma-desktop. (Closes: #792666) Thanks to
@@ -9,7 +11,7 @@ plasma-workspace (4:5.3.2-3~) UNRELEASED; urgency=medium
     - Add check_signals_defined.diff
   * Add breaks to old kdeartwork packages.
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 18 Jul 2015 18:26:10 +0200
+ -- Felix Geyer <fgeyer@debian.org>  Sun, 19 Jul 2015 17:26:14 +0200
 
 plasma-workspace (4:5.3.2-2) unstable; urgency=medium
 
