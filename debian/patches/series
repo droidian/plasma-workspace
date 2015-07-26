@@ -2,3 +2,4 @@ kubuntu_startkde-qtpath.diff
 install_missing_header
 plasma-workspace-upstream-replace_reference_to_license_with_the_bsd_license
 check_signals_defined.diff
+plasmoid_creation_fix_null_check.patch

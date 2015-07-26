@@ -1,0 +1,36 @@
+Description: Fix: dereference-before-null-check
+ The instance m_applet was dereferenced (which can be NULL if loadApplet fails)
+ a few lines before a NULL check to m_applet is done. Moving the NULL check before
+ the dereference to avoid crashing plasmashell.
+Author: Michael Musenbrock <redeamer@gmx.net>
+Bug-Debian: http://bugs.debian.org/792875
+
+--- plasma-workspace-5.3.2.orig/applets/systemtray/plugin/protocols/plasmoid/plasmoidtask.cpp
++++ plasma-workspace-5.3.2/applets/systemtray/plugin/protocols/plasmoid/plasmoidtask.cpp
+@@ -52,6 +52,13 @@ PlasmoidTask::PlasmoidTask(const QString
+     qCDebug(SYSTEMTRAY) << "Loading applet: " << packageName << appletId;
+ 
+     m_applet = Plasma::PluginLoader::self()->loadApplet(packageName, appletId);
++
++    if (!m_applet) {
++        qCDebug(SYSTEMTRAY) << "Invalid applet taskitem";
++        m_valid = false;
++        return;
++    }
++
+     cont->setImmutability(Plasma::Types::Mutable);
+     cont->addApplet(m_applet);
+     m_applet->setParent(cont);
+@@ -81,12 +88,6 @@ PlasmoidTask::PlasmoidTask(const QString
+     }
+ 
+ 
+-
+-    if (!m_applet) {
+-        qCDebug(SYSTEMTRAY) << "Invalid applet taskitem";
+-        m_valid = false;
+-        return;
+-    }
+     connect(m_applet, &Plasma::Applet::statusChanged, this, &PlasmoidTask::updateStatus);
+ 
+     if (pluginInfo().isValid()) {
