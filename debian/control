@@ -98,6 +98,18 @@ Description: Plasma Workspace for KF5 devel files
  .
  This package contains the development files.
 
+Package: plasma-workspace-wayland
+Architecture: any
+Depends: kwayland-integration,
+         kwin-wayland,
+         plasma-workspace (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Plasma Workspace for KF5 - Wayland integration
+ Plasma Workspace for KF5. Workspaces provide
+ support for KDE Plasma Widgets, integrated search,
+ hardware management and a high degree of customizability.
+
 Package: plasma-workspace
 Architecture: any
 Depends: dbus-x11,
