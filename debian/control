@@ -78,7 +78,6 @@ Build-Depends: baloo-kf5-dev (>= 5.1~),
                xcb-proto,
                xvfb
 Standards-Version: 3.9.6
-XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/kde/workspace/plasma-workspace
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/plasma/plasma-workspace.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/plasma-workspace.git
@@ -131,13 +130,17 @@ Depends: dbus-x11,
          x11-xserver-utils,
          ${misc:Depends},
          ${shlibs:Depends}
-Breaks: ${kde-l10n:all}, plasma-desktop (<= 4:5),
-        kdeartwork-style, kdeartwork-theme-window, kscreensaver,
-        kscreensaver-xsavers, kscreensaver-xsavers-webcollage,
-        plasma-desktopthemes-artwork, kde-window-manager (<= 4:5)
+Breaks: kde-window-manager (<= 4:5),
+        kdeartwork-style,
+        kdeartwork-theme-window,
+        kscreensaver,
+        kscreensaver-xsavers,
+        kscreensaver-xsavers-webcollage,
+        plasma-desktop (<= 4:5),
+        plasma-desktopthemes-artwork,
+        ${kde-l10n:all}
 Conflicts: kde-workspace, kde-workspace-data, klipper
-Replaces: klipper, plasma-workspace-data,
-          ${kde-l10n:all}
+Replaces: klipper, plasma-workspace-data, ${kde-l10n:all}
 Description: Plasma Workspace for KF5
  Plasma Workspace for KF5. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
