@@ -8,8 +8,7 @@ libpkgs_addsubst_allLibraries = plasma-workspace-dev
 include /usr/share/pkg-kde-tools/qt-kde-team/2/library-packages.mk
 
 override_dh_auto_test:
-	PYBUILD_TEST_ARGS="export `dbus-launch`"\
-	dh_auto_test
+	dbus-launch --exit-with-session dh_auto_test
 
 override_dh_strip:
 	$(overridden_command) --dbg-package=plasma-workspace-dbg
