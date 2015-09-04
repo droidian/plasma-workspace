@@ -3,6 +3,7 @@ plasma-workspace (4:5.4.0-1~) UNRELEASED; urgency=medium
   * New upstream release (5.4.0).
   * Refresh patches.
   * Remove upstream applied patches.
+  * Add Recomends to libpam-kwallet5.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 02 Sep 2015 23:54:38 +0200
 

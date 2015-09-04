@@ -141,6 +141,7 @@ Breaks: kde-window-manager (<= 4:5),
         ${kde-l10n:all}
 Conflicts: kde-workspace, kde-workspace-data, klipper
 Replaces: klipper, plasma-workspace-data, ${kde-l10n:all}
+Recommends: libpam-kwallet5
 Description: Plasma Workspace for KF5
  Plasma Workspace for KF5. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
