@@ -1,3 +1,4 @@
 kubuntu_startkde-qtpath.diff
 install_missing_header
 plasmoid_creation_fix_null_check.patch
+disable_incompatible_tests
