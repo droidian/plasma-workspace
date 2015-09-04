@@ -1,4 +1,4 @@
-plasma-workspace (4:5.4.0-1~) UNRELEASED; urgency=medium
+plasma-workspace (4:5.4.0-1) unstable; urgency=medium
 
   * New upstream release (5.4.0).
   * Refresh patches.
@@ -7,7 +7,7 @@ plasma-workspace (4:5.4.0-1~) UNRELEASED; urgency=medium
   * Update install files.
   * New patch: disable_incompatible_tests
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 02 Sep 2015 23:54:38 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 04 Sep 2015 13:17:29 +0200
 
 plasma-workspace (4:5.3.2-4) unstable; urgency=high
 
