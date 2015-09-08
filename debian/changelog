@@ -1,6 +1,6 @@
 plasma-workspace (4:5.4.0-3~) UNRELEASED; urgency=medium
 
-  * 
+  * Move auto test to autopkgtests.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Sep 2015 00:34:50 +0200
 

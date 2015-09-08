@@ -8,8 +8,8 @@ libpkgs_addsubst_allLibraries = plasma-workspace-dev
 include /usr/share/pkg-kde-tools/qt-kde-team/2/library-packages.mk
 
 override_dh_auto_test:
-	xvfb-run -a --server-args="-screen 0 1024x768x24" \
-	    dbus-launch --exit-with-session dh_auto_test
+	# Disable auto tests at build time
+	:
 
 override_dh_strip:
 	$(overridden_command) --dbg-package=plasma-workspace-dbg
