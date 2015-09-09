@@ -1,8 +1,9 @@
-plasma-workspace (4:5.4.0-3~) UNRELEASED; urgency=medium
+plasma-workspace (4:5.4.1-1~) UNRELEASED; urgency=medium
 
   * Move auto test to autopkgtests.
+  * New upstream release (5.4.1).
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Sep 2015 00:34:50 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Sep 2015 10:50:31 +0200
 
 plasma-workspace (4:5.4.0-2) experimental; urgency=medium
 
