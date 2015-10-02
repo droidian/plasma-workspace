@@ -3,6 +3,7 @@ plasma-workspace (4:5.4.2-1~) UNRELEASED; urgency=medium
   * Add missing provides notification-daemon. (Closes: #798377) Thanks
     to Zhang Jingqiang.
   * New upstream release (5.4.2).
+  * Drop upstream applied patch: plasmoid_creation_fix_null_check.patch
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 01 Oct 2015 17:14:39 +0200
 
