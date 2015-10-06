@@ -1,6 +1,6 @@
 plasma-workspace (4:5.4.2-2~) UNRELEASED; urgency=medium
 
-  * 
+  * Really add the Provides: notification-daemon. (Closes: #798377)
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 06 Oct 2015 20:21:26 +0200
 
