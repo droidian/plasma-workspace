@@ -1,3 +1,9 @@
+plasma-workspace (4:5.5.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (5.5.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 10 Dec 2015 14:11:35 +0100
+
 plasma-workspace (4:5.4.3-1) unstable; urgency=medium
 
   * Really add the Provides: notification-daemon. (Closes: #798377)
