@@ -1,2 +1,3 @@
 usr/bin/startplasmacompositor
 usr/lib/*/libexec/startplasma
+usr/share/wayland-sessions/plasmawayland.desktop
