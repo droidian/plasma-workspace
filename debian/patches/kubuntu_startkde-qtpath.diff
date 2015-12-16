@@ -4,8 +4,8 @@ Origin: vendor
 Author: Jonathan Riddell <jriddell@ubuntu.com>
 Index: plasma-workspace/startkde/startkde.cmake
 ===================================================================
---- plasma-workspace.orig/startkde/startkde.cmake	2015-09-04 09:36:58.624473064 +0200
-+++ plasma-workspace/startkde/startkde.cmake	2015-09-04 09:36:58.620473223 +0200
+--- plasma-workspace.orig/startkde/startkde.cmake	2015-12-16 14:57:10.226533877 +0100
++++ plasma-workspace/startkde/startkde.cmake	2015-12-16 14:57:10.214534378 +0100
 @@ -3,6 +3,8 @@
  #  DEFAULT KDE STARTUP SCRIPT ( @PROJECT_VERSION@ )
  #
@@ -15,7 +15,7 @@ Index: plasma-workspace/startkde/startkde.cmake
  if test "x$1" = x--failsafe; then
      KDE_FAILSAFE=1 # General failsafe flag
      KWIN_COMPOSE=N # Disable KWin's compositing
-@@ -19,7 +21,7 @@
+@@ -20,7 +22,7 @@
  # in case we have been started with full pathname spec without being in PATH
  bindir=`echo "$0" | sed -n 's,^\(/.*\)/[^/][^/]*$,\1,p'`
  if [ -n "$bindir" ]; then
@@ -24,7 +24,7 @@ Index: plasma-workspace/startkde/startkde.cmake
    qdbus=$qbindir/qdbus
    case $PATH in
      $bindir|$bindir:*|*:$bindir|*:$bindir:*) ;;
-@@ -201,7 +203,7 @@
+@@ -202,7 +204,7 @@
  # better use the Autostart folder.
  
  # TODO: Use GenericConfigLocation once we depend on Qt 5.4
@@ -35,8 +35,8 @@ Index: plasma-workspace/startkde/startkde.cmake
  for prefix in `echo $scriptpath`; do
 Index: plasma-workspace/startkde/CMakeLists.txt
 ===================================================================
---- plasma-workspace.orig/startkde/CMakeLists.txt	2015-09-04 09:36:58.624473064 +0200
-+++ plasma-workspace/startkde/CMakeLists.txt	2015-09-04 09:36:58.620473223 +0200
+--- plasma-workspace.orig/startkde/CMakeLists.txt	2015-12-16 14:57:10.226533877 +0100
++++ plasma-workspace/startkde/CMakeLists.txt	2015-12-16 14:57:10.222534044 +0100
 @@ -7,6 +7,8 @@
      set(EXPORT_XCURSOR_PATH "XCURSOR_PATH=${CMAKE_INSTALL_PREFIX}/share/icons:$XCURSOR_PATH\":~/.icons:/usr/share/icons:/usr/share/pixmaps:/usr/X11R6/lib/X11/icons\"; export XCURSOR_PATH")
  endif()
