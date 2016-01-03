@@ -3,16 +3,15 @@ plasma-workspace (4:5.8.0-1~3.gbp9f5c3e) UNRELEASED; urgency=medium
   ** SNAPSHOT build @9f5c3eaa2fc5a11350fc06529be66143c043b50b **
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @ced0b949240e22888ee23c81531692c462449c17 **
-
-  * Update build-deps and deps with the info from cmake
-  * Update build-deps and deps with the info from cmake
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
   * Add missing build dependency on plasma-framework
   * Drop liblegacytaskmanager5
   * Update install files
+
+  [ Bhushan Shah ]
+  * Add depend to libkf5sysguard-dev in plasma-workspace-dev
 
  -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 05 Oct 2016 13:21:38 +0200
 
