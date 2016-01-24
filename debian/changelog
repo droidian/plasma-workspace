@@ -1,11 +1,12 @@
-plasma-workspace (4:5.5.2-1~) UNRELEASED; urgency=medium
+plasma-workspace (4:5.5.3-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.5.0).
   * New upstream release (5.5.1).
   * New upstream release (5.5.1.1).
   * New upstream release (5.5.2).
+  * New upstream release (5.5.3).
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 04 Jan 2016 21:46:56 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 24 Jan 2016 18:54:53 +0100
 
 plasma-workspace (4:5.4.3-2) UNRELEASED; urgency=medium
 
