@@ -93,6 +93,8 @@ Depends: libkf5windowsystem-dev (>= 5.4.0),
          qtbase5-dev (>= 5.5.0~),
          ${allLibraries},
          ${misc:Depends}
+Breaks: kde-workspace-dev
+Replaces: kde-workspace-dev
 Conflicts: kde-workspace-dev
 Description: Plasma Workspace for KF5 devel files
  Plasma Workspace for KF5. Workspaces provide
@@ -147,20 +149,25 @@ Depends: dbus-x11,
          ${misc:Depends},
          ${shlibs:Depends}
 Breaks: kde-window-manager (<= 4:5),
+        kde-workspace-bin,
         kdeartwork-style,
         kdeartwork-theme-window,
         kio-extras (<< 4:5.3.2+git20150710.0210),
         kio-extras-data (<< 4:5.3.2+git20150710.0210),
+        klipper,
         kscreensaver,
         kscreensaver-xsavers,
         kscreensaver-xsavers-webcollage,
         plasma-desktop (<= 4:5),
         plasma-desktopthemes-artwork,
+        plasma-systray-legacy,
         ${kde-l10n:all}
 Conflicts: kde-workspace, kde-workspace-data, klipper
-Replaces: kio-extras (<< 4:5.3.2+git20150710.0210),
+Replaces: kde-workspace-bin,
+          kio-extras (<< 4:5.3.2+git20150710.0210),
           kio-extras-data (<< 4:5.3.2+git20150710.0210),
           klipper,
+          plasma-systray-legacy,
           plasma-workspace-data,
           ${kde-l10n:all}
 Provides: notification-daemon
