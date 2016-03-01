@@ -236,17 +236,3 @@ Description: Breeze SDDM theme
  Taskmanager library.
  .
  This package contains the files for the breeze SDDM theme.
-
-Package: plasma-workspace-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Depends: plasma-workspace (= ${binary:Version}) | libweather-ion7 (= ${binary:Version}) | libplasma-geolocation-interface5 (= ${binary:Version}) | libkworkspace5-5 (= ${binary:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: Plasma Workspace for KF5
- Plasma Workspace for KF5. Workspaces provide
- support for KDE Plasma Widgets, integrated search,
- hardware management and a high degree of customizability.
- .
- This package contains the debugging symbols.
