@@ -1,11 +1,12 @@
-plasma-workspace (4:5.5.5.1-1~) UNRELEASED; urgency=medium
+plasma-workspace (4:5.5.5.2-1~) UNRELEASED; urgency=medium
 
   * Drop libusb-dev build dependency. (Closes: #810453) Thanks to
     Aurelien Jarno
   * New upstream release (5.5.5).
   * New upstream release (5.5.5.1).
+  * New upstream release (5.5.5.2).
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Mar 2016 17:51:30 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 02 Mar 2016 15:15:45 +0100
 
 plasma-workspace (4:5.5.4-1) experimental; urgency=medium
 
