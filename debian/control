@@ -126,6 +126,7 @@ Architecture: any
 Depends: dbus-x11,
          frameworkintegration,
          gdb-minimal | gdb,
+         iso-codes,
          kactivitymanagerd,
          kde-cli-tools,
          kded5,
