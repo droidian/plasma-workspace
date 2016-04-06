@@ -1,7 +1,16 @@
-Index: plasma-workspace/kioslave/desktop/tests/CMakeLists.txt
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Wed, 6 Apr 2016 23:07:54 +0200
+Subject: disable_incompatible_tests
+
 ===================================================================
---- plasma-workspace.orig/kioslave/desktop/tests/CMakeLists.txt	2015-12-16 14:59:09.833538037 +0100
-+++ plasma-workspace/kioslave/desktop/tests/CMakeLists.txt	2015-12-16 14:59:09.833538037 +0100
+---
+ kioslave/desktop/tests/CMakeLists.txt | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/kioslave/desktop/tests/CMakeLists.txt b/kioslave/desktop/tests/CMakeLists.txt
+index efad1fb..3b7ac0f 100644
+--- a/kioslave/desktop/tests/CMakeLists.txt
++++ b/kioslave/desktop/tests/CMakeLists.txt
 @@ -1,6 +1,6 @@
  add_executable(testdesktop kio_desktop_test.cpp)
  target_link_libraries(testdesktop KF5::KIOWidgets KF5::Solid Qt5::Test KF5::KDELibs4Support)

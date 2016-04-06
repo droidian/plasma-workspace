@@ -1,11 +1,30 @@
-Description: set path to qtpath
-Forwarded: not-needed
-Origin: vendor
-Author: Jonathan Riddell <jriddell@ubuntu.com>
-Index: plasma-workspace/startkde/startkde.cmake
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Wed, 6 Apr 2016 23:07:54 +0200
+Subject: kubuntu_startkde-qtpath
+
 ===================================================================
---- plasma-workspace.orig/startkde/startkde.cmake	2015-12-16 14:57:10.226533877 +0100
-+++ plasma-workspace/startkde/startkde.cmake	2015-12-16 14:57:10.214534378 +0100
+---
+ startkde/CMakeLists.txt | 2 ++
+ startkde/startkde.cmake | 6 ++++--
+ 2 files changed, 6 insertions(+), 2 deletions(-)
+
+diff --git a/startkde/CMakeLists.txt b/startkde/CMakeLists.txt
+index 8513af1..957c131 100644
+--- a/startkde/CMakeLists.txt
++++ b/startkde/CMakeLists.txt
+@@ -7,6 +7,8 @@ if(NOT CMAKE_INSTALL_PREFIX STREQUAL "/usr")
+     set(EXPORT_XCURSOR_PATH "XCURSOR_PATH=${CMAKE_INSTALL_PREFIX}/share/icons:$XCURSOR_PATH\":~/.icons:/usr/share/icons:/usr/share/pixmaps:/usr/X11R6/lib/X11/icons\"; export XCURSOR_PATH")
+ endif()
+ 
++execute_process( COMMAND dpkg-architecture -qDEB_HOST_MULTIARCH OUTPUT_VARIABLE DEB_HOST_MULTIARCH OUTPUT_STRIP_TRAILING_WHITESPACE)
++
+ configure_file(startkde.cmake ${CMAKE_CURRENT_BINARY_DIR}/startkde  @ONLY)
+ configure_file(startplasmacompositor.cmake ${CMAKE_CURRENT_BINARY_DIR}/startplasmacompositor  @ONLY)
+ configure_file(startplasma.cmake ${CMAKE_CURRENT_BINARY_DIR}/startplasma  @ONLY)
+diff --git a/startkde/startkde.cmake b/startkde/startkde.cmake
+index 76221e5..baf0e45 100644
+--- a/startkde/startkde.cmake
++++ b/startkde/startkde.cmake
 @@ -3,6 +3,8 @@
  #  DEFAULT KDE STARTUP SCRIPT ( @PROJECT_VERSION@ )
  #
@@ -15,7 +34,7 @@ Index: plasma-workspace/startkde/startkde.cmake
  if test "x$1" = x--failsafe; then
      KDE_FAILSAFE=1 # General failsafe flag
      KWIN_COMPOSE=N # Disable KWin's compositing
-@@ -20,7 +22,7 @@
+@@ -20,7 +22,7 @@ unset DYLD_FORCE_FLAT_NAMESPACE
  # in case we have been started with full pathname spec without being in PATH
  bindir=`echo "$0" | sed -n 's,^\(/.*\)/[^/][^/]*$,\1,p'`
  if [ -n "$bindir" ]; then
@@ -24,7 +43,7 @@ Index: plasma-workspace/startkde/startkde.cmake
    qdbus=$qbindir/qdbus
    case $PATH in
      $bindir|$bindir:*|*:$bindir|*:$bindir:*) ;;
-@@ -202,7 +204,7 @@
+@@ -202,7 +204,7 @@ fi
  # better use the Autostart folder.
  
  # TODO: Use GenericConfigLocation once we depend on Qt 5.4
@@ -33,16 +52,3 @@ Index: plasma-workspace/startkde/startkde.cmake
  
  # Add /env/ to the directory to locate the scripts to be sourced
  for prefix in `echo $scriptpath`; do
-Index: plasma-workspace/startkde/CMakeLists.txt
-===================================================================
---- plasma-workspace.orig/startkde/CMakeLists.txt	2015-12-16 14:57:10.226533877 +0100
-+++ plasma-workspace/startkde/CMakeLists.txt	2015-12-16 14:57:10.222534044 +0100
-@@ -7,6 +7,8 @@
-     set(EXPORT_XCURSOR_PATH "XCURSOR_PATH=${CMAKE_INSTALL_PREFIX}/share/icons:$XCURSOR_PATH\":~/.icons:/usr/share/icons:/usr/share/pixmaps:/usr/X11R6/lib/X11/icons\"; export XCURSOR_PATH")
- endif()
- 
-+execute_process( COMMAND dpkg-architecture -qDEB_HOST_MULTIARCH OUTPUT_VARIABLE DEB_HOST_MULTIARCH OUTPUT_STRIP_TRAILING_WHITESPACE)
-+
- configure_file(startkde.cmake ${CMAKE_CURRENT_BINARY_DIR}/startkde  @ONLY)
- configure_file(startplasmacompositor.cmake ${CMAKE_CURRENT_BINARY_DIR}/startplasmacompositor  @ONLY)
- configure_file(startplasma.cmake ${CMAKE_CURRENT_BINARY_DIR}/startplasma  @ONLY)
