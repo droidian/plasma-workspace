@@ -92,7 +92,10 @@ usr/share/knotifications5/freespacenotifier.notifyrc
 usr/share/knotifications5/phonon.notifyrc
 usr/share/kservices5/applications.protocol
 usr/share/kservices5/desktop.protocol
+usr/share/kservices5/ion-bbcukmet.desktop
+usr/share/kservices5/ion-envcan.desktop
 usr/share/kservices5/ion-noaa.desktop
+usr/share/kservices5/ion-wettercom.desktop
 usr/share/kservices5/kuiserver.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.activitybar.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.analogclock.desktop
@@ -149,6 +152,7 @@ usr/share/kservices5/plasma-dataengine-statusnotifieritem.desktop
 usr/share/kservices5/plasma-dataengine-systemmonitor.desktop
 usr/share/kservices5/plasma-dataengine-tasks.desktop
 usr/share/kservices5/plasma-dataengine-time.desktop
+usr/share/kservices5/plasma-dataengine-weather.desktop
 usr/share/kservices5/plasma-geolocation-gps.desktop
 usr/share/kservices5/plasma-geolocation-ip.desktop
 usr/share/kservices5/plasma-lookandfeel-org.kde.breeze.desktop.desktop
