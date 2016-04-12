@@ -1,11 +1,12 @@
-plasma-workspace (4:5.6.2-1~1.gbp214cba) UNRELEASED; urgency=medium
+plasma-workspace (4:5.6.2-1~2.gbpa6a866) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @214cbaf0700c0cf332e0f61fd743191174cf9422 **
+  ** SNAPSHOT build @a6a866394e4eafcfb96c38f8cbd17cebacd07341 **
 
   * Update build-deps and deps with the info from cmake
   * Refresh patches
+  * Bump Standards-Version to 3.9.8
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 06 Apr 2016 23:07:58 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 12 Apr 2016 17:28:54 +0200
 
 plasma-workspace (4:5.5.4-1) experimental; urgency=medium
 
