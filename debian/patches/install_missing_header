@@ -1,8 +1,17 @@
-Index: plasma-workspace/CMakeLists.txt
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Wed, 6 Apr 2016 23:07:54 +0200
+Subject: install_missing_header
+
 ===================================================================
---- plasma-workspace.orig/CMakeLists.txt	2015-12-16 14:57:29.253739122 +0100
-+++ plasma-workspace/CMakeLists.txt	2015-12-16 14:57:29.249739289 +0100
-@@ -98,7 +98,10 @@
+---
+ CMakeLists.txt | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index b70a7d5..c8080d4 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -103,7 +103,10 @@ include_directories("${CMAKE_CURRENT_BINARY_DIR}")
  configure_file(config-workspace.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-workspace.h)
  configure_file(config-unix.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-unix.h )
  configure_file(config-X11.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-X11.h)
