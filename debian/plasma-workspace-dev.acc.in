@@ -6,7 +6,6 @@
 </version>
 
 <headers>
-    /usr/include/KDE/Plasma/Weather/Ion
     /usr/include/kworkspace5/
     /usr/include/plasma/geolocation/
     /usr/include/plasma/weather/
