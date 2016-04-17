@@ -1,6 +1,6 @@
-plasma-workspace (4:5.6.2-1~4.gbp8444b4) UNRELEASED; urgency=medium
+plasma-workspace (4:5.6.2-1~5.gbpe0327a) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @8444b41cb967d2b8e66fb226a074d37f72cfdb72 **
+  ** SNAPSHOT build @e0327a9baa34e4ef97391beef68694ad3a3bfa37 **
 
   * Update build-deps and deps with the info from cmake
   * Refresh patches
@@ -20,8 +20,9 @@ plasma-workspace (4:5.6.2-1~4.gbp8444b4) UNRELEASED; urgency=medium
   * Update install files
   * Install new files
   * UNRELEASED
+  * Add replaces for kde-workspace-data
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 12 Apr 2016 22:07:20 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 17 Apr 2016 14:04:46 +0200
 
 plasma-workspace (4:5.5.4-1) experimental; urgency=medium
 
