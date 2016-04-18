@@ -10,8 +10,7 @@ plasma-workspace (4:5.6.2-1~5.gbpe0327a) UNRELEASED; urgency=medium
   * Drop libusb-dev build dependency. (Closes: #810453) Thanks to
     Aurelien Jarno
   * Pre-release 4:5.5.4-2~
-  * Drop libusb-dev build dependency. (Closes: #810453)
-  * uscan no longer supports this kind of watch files.
+  * uscan no longer supports this kind of watch files. (Closes: #821187)
   * New upstream release (5.5.5).
   * New upstream release (5.5.5.1).
   * Automatic update with ddeb_migration3.py
@@ -19,7 +18,6 @@ plasma-workspace (4:5.6.2-1~5.gbpe0327a) UNRELEASED; urgency=medium
   * Add upstream metadata (DEP-12)
   * Update install files
   * Install new files
-  * UNRELEASED
   * Add replaces for kde-workspace-data
 
  -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 17 Apr 2016 14:04:46 +0200
