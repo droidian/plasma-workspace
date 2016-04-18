@@ -1,6 +1,6 @@
-plasma-workspace (4:5.6.2-1~6.gbp501570) UNRELEASED; urgency=medium
+plasma-workspace (4:5.6.2-1~7.gbp858f31) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @5015706d02256960b63fcd92d4fde0cf2f417167 **
+  ** SNAPSHOT build @858f31c2c856886827a67ae7d2e909b783cc61c8 **
 
   * Update build-deps and deps with the info from cmake
   * Refresh patches
@@ -20,8 +20,9 @@ plasma-workspace (4:5.6.2-1~6.gbp501570) UNRELEASED; urgency=medium
   * Install new files
   * Add replaces for kde-workspace-data
   * Uscan no longer supports more than one main upstream tarball being listed (Closes: #821187)
+  * Drop dependency on kactivities
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 18 Apr 2016 07:23:20 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 18 Apr 2016 12:07:16 +0200
 
 plasma-workspace (4:5.5.4-1) experimental; urgency=medium
 
