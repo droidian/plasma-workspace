@@ -1,6 +1,6 @@
-plasma-workspace (4:5.6.2-1~5.gbpe0327a) UNRELEASED; urgency=medium
+plasma-workspace (4:5.6.2-1~6.gbp501570) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @e0327a9baa34e4ef97391beef68694ad3a3bfa37 **
+  ** SNAPSHOT build @5015706d02256960b63fcd92d4fde0cf2f417167 **
 
   * Update build-deps and deps with the info from cmake
   * Refresh patches
@@ -19,8 +19,9 @@ plasma-workspace (4:5.6.2-1~5.gbpe0327a) UNRELEASED; urgency=medium
   * Update install files
   * Install new files
   * Add replaces for kde-workspace-data
+  * Uscan no longer supports more than one main upstream tarball being listed (Closes: #821187)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 17 Apr 2016 14:04:46 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 18 Apr 2016 07:23:20 +0200
 
 plasma-workspace (4:5.5.4-1) experimental; urgency=medium
 
