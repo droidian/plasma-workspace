@@ -1,6 +1,6 @@
-plasma-workspace (4:5.6.3-1~1.gbp621948) UNRELEASED; urgency=medium
+plasma-workspace (4:5.6.3-1~2.gbp32e7cd) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @6219487d60a9904be338fe3f614b6686d4e38de6 **
+  ** SNAPSHOT build @32e7cd68e3180af5cfebc123e9f2e77db2b7462c **
 
   * Update build-deps and deps with the info from cmake
   * Refresh patches
@@ -21,11 +21,12 @@ plasma-workspace (4:5.6.3-1~1.gbp621948) UNRELEASED; urgency=medium
   * Add replaces for kde-workspace-data
   * Uscan no longer supports more than one main upstream tarball being listed (Closes: #821187)
   * Drop dependency on kactivities
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
 
   [ Automatic packaging ]
   * Refresh patches
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 19 Apr 2016 15:08:04 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 12:07:34 +0200
 
 plasma-workspace (4:5.5.4-1) experimental; urgency=medium
 
