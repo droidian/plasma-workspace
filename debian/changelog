@@ -1,6 +1,6 @@
-plasma-workspace (4:5.6.3-1~2.gbp32e7cd) UNRELEASED; urgency=medium
+plasma-workspace (4:5.6.4-1~1.gbp69f243) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @32e7cd68e3180af5cfebc123e9f2e77db2b7462c **
+  ** SNAPSHOT build @69f2435dcc9d06b93c8cbf3f0213b3c686ec624f **
 
   * Update build-deps and deps with the info from cmake
   * Refresh patches
@@ -25,8 +25,9 @@ plasma-workspace (4:5.6.3-1~2.gbp32e7cd) UNRELEASED; urgency=medium
 
   [ Automatic packaging ]
   * Refresh patches
+  * Refresh patches
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 12:07:34 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 10 May 2016 21:07:57 +0200
 
 plasma-workspace (4:5.5.4-1) experimental; urgency=medium
 
