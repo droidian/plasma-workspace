@@ -1,20 +1,14 @@
-plasma-workspace (4:5.6.4-1~1.gbp69f243) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @69f2435dcc9d06b93c8cbf3f0213b3c686ec624f **
+plasma-workspace (4:5.6.4-1) experimental; urgency=medium
 
   * Update build-deps and deps with the info from cmake
   * Refresh patches
   * Bump Standards-Version to 3.9.8
+  * Refresh patches
 
   [ Maximiliano Curia ]
   * Drop libusb-dev build dependency. (Closes: #810453) Thanks to
     Aurelien Jarno
-  * Pre-release 4:5.5.4-2~
-  * uscan no longer supports this kind of watch files. (Closes: #821187)
-  * New upstream release (5.5.5).
-  * New upstream release (5.5.5.1).
   * Automatic update with ddeb_migration3.py
-  * New upstream release (5.5.5.2).
   * Add upstream metadata (DEP-12)
   * Update install files
   * Install new files
@@ -23,11 +17,7 @@ plasma-workspace (4:5.6.4-1~1.gbp69f243) UNRELEASED; urgency=medium
   * Drop dependency on kactivities
   * debian/control: Update Vcs-Browser and Vcs-Git fields
 
-  [ Automatic packaging ]
-  * Refresh patches
-  * Refresh patches
-
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 10 May 2016 21:07:57 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 30 May 2016 12:18:34 +0200
 
 plasma-workspace (4:5.5.4-1) experimental; urgency=medium
 
