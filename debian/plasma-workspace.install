@@ -72,6 +72,9 @@ usr/lib/*/qt5/plugins/plasma_containmentactions_paste.so
 usr/lib/*/qt5/plugins/plasma_containmentactions_switchactivity.so
 usr/lib/*/qt5/plugins/plasma_containmentactions_switchdesktop.so
 usr/lib/*/qt5/plugins/plasma_containmentactions_switchwindow.so
+usr/lib/*/qt5/plugins/plasmacalendarplugins/holidays/
+usr/lib/*/qt5/plugins/plasmacalendarplugins/holidaysevents.so
+usr/lib/*/qt5/qml/org/kde/holidayeventshelperplugin/
 usr/lib/*/qt5/qml/org/kde/plasma/private/digitalclock/
 usr/lib/*/qt5/qml/org/kde/plasma/private/icon/
 usr/lib/*/qt5/qml/org/kde/plasma/private/notifications/
