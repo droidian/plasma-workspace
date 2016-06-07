@@ -211,6 +211,17 @@ Description: Plasma Workspace for KF5 library
  .
  This package contains library files.
 
+Package: liblegacytaskmanager5
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Plasma Workspace for KF5 library
+ Plasma Workspace for KF5. Workspaces provide
+ support for KDE Plasma Widgets, integrated search,
+ hardware management and a high degree of customizability.
+ Taskmanager library.
+ .
+ This package contains library files.
+
 Package: libweather-ion7
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}

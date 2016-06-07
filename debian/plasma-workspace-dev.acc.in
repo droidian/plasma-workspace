@@ -8,12 +8,14 @@
 <headers>
     /usr/include/kworkspace5/
     /usr/include/plasma/geolocation/
+    /usr/include/legacytaskmanager/
     /usr/include/plasma/weather/
     /usr/include/taskmanager/
 </headers>
 
 <libs>
     /usr/lib/@@DEB_HOST_MULTIARCH@@/libkworkspace5.so
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/liblegacytaskmanager.so
     /usr/lib/@@DEB_HOST_MULTIARCH@@/libplasma-geolocation-interface.so
     /usr/lib/@@DEB_HOST_MULTIARCH@@/libtaskmanager.so
     /usr/lib/@@DEB_HOST_MULTIARCH@@/libweather_ion.so

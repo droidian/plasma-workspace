@@ -1,12 +1,15 @@
 usr/include/kworkspace5/
+usr/include/legacytaskmanager/
 usr/include/plasma/geolocation/
 usr/include/plasma/weather/
 usr/include/taskmanager/
 usr/lib/*/cmake/KRunnerAppDBusInterface/KRunnerAppDBusInterfaceConfig.cmake
 usr/lib/*/cmake/KSMServerDBusInterface/KSMServerDBusInterfaceConfig.cmake
 usr/lib/*/cmake/LibKWorkspace/
+usr/lib/*/cmake/LibLegacyTaskManager/
 usr/lib/*/cmake/LibTaskManager/
 usr/lib/*/libkworkspace5.so
+usr/lib/*/liblegacytaskmanager.so
 usr/lib/*/libplasma-geolocation-interface.so
 usr/lib/*/libtaskmanager.so
 usr/lib/*/libweather_ion.so
