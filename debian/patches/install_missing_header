@@ -8,7 +8,7 @@ Subject: install_missing_header
  1 file changed, 4 insertions(+), 1 deletion(-)
 
 diff --git a/CMakeLists.txt b/CMakeLists.txt
-index a3f80e8..9874962 100644
+index 174301f..b37b2d1 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
 @@ -103,7 +103,10 @@ include_directories("${CMAKE_CURRENT_BINARY_DIR}")
