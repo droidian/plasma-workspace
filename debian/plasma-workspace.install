@@ -62,6 +62,7 @@ usr/lib/*/qt5/plugins/plasma-geolocation-gps.so
 usr/lib/*/qt5/plugins/plasma-geolocation-ip.so
 usr/lib/*/qt5/plugins/plasma/applets/org.kde.plasma.private.systemtray.so
 usr/lib/*/qt5/plugins/plasma/applets/org.kde.plasma.systemtray.so
+usr/lib/*/qt5/plugins/plasma/applets/plasma_applet_calendar.so
 usr/lib/*/qt5/plugins/plasma/applets/plasma_applet_notifications.so
 usr/lib/*/qt5/plugins/plasma/dataengine/
 usr/lib/*/qt5/plugins/plasma/packagestructure/
