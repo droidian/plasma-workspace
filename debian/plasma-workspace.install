@@ -59,9 +59,9 @@ usr/lib/*/qt5/plugins/krunner_windows.so
 usr/lib/*/qt5/plugins/phonon_platform/kde.so
 usr/lib/*/qt5/plugins/plasma-geolocation-gps.so
 usr/lib/*/qt5/plugins/plasma-geolocation-ip.so
+usr/lib/*/qt5/plugins/plasma/applets/plasma_applet_notifications.so
 usr/lib/*/qt5/plugins/plasma/dataengine/
 usr/lib/*/qt5/plugins/plasma/packagestructure/
-usr/lib/*/qt5/plugins/plasma_applet_notifications.so
 usr/lib/*/qt5/plugins/plasma_containmentactions_applauncher.so
 usr/lib/*/qt5/plugins/plasma_containmentactions_contextmenu.so
 usr/lib/*/qt5/plugins/plasma_containmentactions_paste.so
