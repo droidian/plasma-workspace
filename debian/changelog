@@ -1,6 +1,6 @@
-plasma-workspace (4:5.6.5.1-2~~1.gbpa6e46c) UNRELEASED; urgency=medium
+plasma-workspace (4:5.6.5.1-2~~2.gbpa3c826) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @a6e46c4121159f9a35bea51889a689daef80749e **
+  ** SNAPSHOT build @a3c826e5e956655a07104df8bc400aabbaccb33b **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @7f68e124f741af3e3a2f762c029e7d6bccf7c282 **
@@ -8,11 +8,12 @@ plasma-workspace (4:5.6.5.1-2~~1.gbpa6e46c) UNRELEASED; urgency=medium
   * Add new libkdeinit5_kuiserver5.so lintian-override
   * New upstream release (5.6.5.1).
   * Update install files
+  * Bump kwin-dev build dependency version
 
   [ Automatic packaging ]
   * Refresh patches
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Thu, 16 Jun 2016 13:04:16 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 17 Jun 2016 16:07:20 +0200
 
 plasma-workspace (4:5.6.4-2) unstable; urgency=medium
 
