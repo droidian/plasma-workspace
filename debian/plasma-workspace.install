@@ -192,6 +192,7 @@ usr/share/kstyle/
 usr/share/locale/*/*/drkonqi.mo
 usr/share/locale/*/*/freespacenotifier.mo
 usr/share/locale/*/*/kcminit.mo
+usr/share/locale/*/*/kholidays_calendar_plugin.mo
 usr/share/locale/*/*/kio_applications.mo
 usr/share/locale/*/*/kio_remote.mo
 usr/share/locale/*/*/klipper.mo
@@ -213,6 +214,7 @@ usr/share/locale/*/*/plasma_applet_org.kde.plasma.lock_logout.mo
 usr/share/locale/*/*/plasma_applet_org.kde.plasma.mediacontroller.mo
 usr/share/locale/*/*/plasma_applet_org.kde.plasma.notifications.mo
 usr/share/locale/*/*/plasma_applet_org.kde.plasma.panelspacer.mo
+usr/share/locale/*/*/plasma_applet_org.kde.plasma.private.systemtray.mo
 usr/share/locale/*/*/plasma_applet_org.kde.plasma.systemmonitor.*.mo
 usr/share/locale/*/*/plasma_containmentactions_contextmenu.mo
 usr/share/locale/*/*/plasma_containmentactions_switchwindow.mo
