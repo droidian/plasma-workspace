@@ -22,7 +22,7 @@ index 8513af1..957c131 100644
  configure_file(startplasmacompositor.cmake ${CMAKE_CURRENT_BINARY_DIR}/startplasmacompositor  @ONLY)
  configure_file(startplasma.cmake ${CMAKE_CURRENT_BINARY_DIR}/startplasma  @ONLY)
 diff --git a/startkde/startkde.cmake b/startkde/startkde.cmake
-index 76221e5..baf0e45 100644
+index b320234..3508d86 100644
 --- a/startkde/startkde.cmake
 +++ b/startkde/startkde.cmake
 @@ -3,6 +3,8 @@
@@ -43,7 +43,7 @@ index 76221e5..baf0e45 100644
    qdbus=$qbindir/qdbus
    case $PATH in
      $bindir|$bindir:*|*:$bindir|*:$bindir:*) ;;
-@@ -202,7 +204,7 @@ fi
+@@ -206,7 +208,7 @@ fi
  # better use the Autostart folder.
  
  # TODO: Use GenericConfigLocation once we depend on Qt 5.4
