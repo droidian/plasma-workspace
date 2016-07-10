@@ -75,7 +75,6 @@ usr/lib/*/qt5/qml/org/kde/plasma/private/sessions/
 usr/lib/*/qt5/qml/org/kde/plasma/private/shell/
 usr/lib/*/qt5/qml/org/kde/plasma/wallpapers/image/
 usr/lib/*/qt5/qml/org/kde/plasma/workspace/
-usr/lib/*/qt5/qml/org/kde/private/systemtray/
 usr/share/applications/org.kde.klipper.desktop
 usr/share/applications/plasma-windowed.desktop
 usr/share/config.kcfg/freespacenotifier.kcfg
@@ -209,7 +208,6 @@ usr/share/locale/*/*/plasma_applet_org.kde.plasma.mediacontroller.mo
 usr/share/locale/*/*/plasma_applet_org.kde.plasma.notifications.mo
 usr/share/locale/*/*/plasma_applet_org.kde.plasma.panelspacer.mo
 usr/share/locale/*/*/plasma_applet_org.kde.plasma.systemmonitor.*.mo
-usr/share/locale/*/*/plasma_applet_org.kde.plasma.systemtray.mo
 usr/share/locale/*/*/plasma_containmentactions_contextmenu.mo
 usr/share/locale/*/*/plasma_containmentactions_switchwindow.mo
 usr/share/locale/*/*/plasma_engine_applicationjobs.mo

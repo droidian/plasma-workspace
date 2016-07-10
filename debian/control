@@ -200,7 +200,7 @@ Description: Plasma Workspace for KF5 library
  .
  This package contains library files.
 
-Package: libtaskmanager5
+Package: libtaskmanager6
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Plasma Workspace for KF5 library
