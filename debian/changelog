@@ -1,11 +1,17 @@
-plasma-workspace (4:5.7.0-1~1.gbpe06d90) UNRELEASED; urgency=medium
+plasma-workspace (4:5.7.0-1~2.gbp2fa1bf) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @2fa1bf128e2fa8dea7a5baa72c1f50e27299b85f **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @e06d9021f40efb72ca51e496a5d19f6d3a94d841 **
 
   * Update build-deps and deps with the info from cmake
   * Refresh patches
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 05 Jul 2016 15:07:50 +0200
+  [ Maximiliano Curia ]
+  * Follow upstream libtaskmanager soversion bump
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Jul 2016 09:28:37 +0200
 
 plasma-workspace (4:5.6.5.1-1) unstable; urgency=medium
 
