@@ -113,6 +113,7 @@ usr/share/kservices5/plasma-applet-org.kde.plasma.lock_logout.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.mediacontroller.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.notifications.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.panelspacer.desktop
+usr/share/kservices5/plasma-applet-org.kde.plasma.private.systemtray.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.systemmonitor.*.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.systemtray.desktop
 usr/share/kservices5/plasma-containmentactions-applauncher.desktop
