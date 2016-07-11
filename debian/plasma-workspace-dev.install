@@ -19,3 +19,4 @@ usr/share/dbus-1/interfaces/org.kde.KSplash.xml
 usr/share/dbus-1/interfaces/org.kde.PlasmaShell.xml
 usr/share/dbus-1/interfaces/org.kde.kappmenu.xml
 usr/share/dbus-1/interfaces/org.kde.krunner.App.xml
+usr/share/kdevappwizard/templates/ion-dataengine.tar.bz2
