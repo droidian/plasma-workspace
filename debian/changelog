@@ -1,6 +1,6 @@
-plasma-workspace (4:5.7.0-1~3.gbpdbed40) UNRELEASED; urgency=medium
+plasma-workspace (4:5.7.0-1~4.gbpe96d33) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @dbed402ee034139d9c6006dd2494674c178d6cd1 **
+  ** SNAPSHOT build @e96d333e17f20954192c70f2ae955bff9a2a0dbc **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @e06d9021f40efb72ca51e496a5d19f6d3a94d841 **
@@ -10,11 +10,17 @@ plasma-workspace (4:5.7.0-1~3.gbpdbed40) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * Follow upstream libtaskmanager soversion bump
+  * Install ion-dataengine template
 
   [ Harald Sitter ]
   * add new liblegacytaskmanager
+  * install new data
 
- -- Harald Sitter <sitter@kde.org>  Mon, 11 Jul 2016 10:22:22 +0200
+  [ Jonathan Riddell ]
+  * add missing file
+  * new .mo files
+
+ -- Harald Sitter <sitter@kde.org>  Mon, 11 Jul 2016 19:24:53 +0200
 
 plasma-workspace (4:5.6.5.1-1) unstable; urgency=medium
 
