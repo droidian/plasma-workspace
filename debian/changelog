@@ -3,8 +3,6 @@ plasma-workspace (4:5.7.2-1~1.gbp193bf7) UNRELEASED; urgency=medium
   ** SNAPSHOT build @193bf79533c870e58f2e95b493b575ebd7ceeb22 **
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @e06d9021f40efb72ca51e496a5d19f6d3a94d841 **
-
   * Update build-deps and deps with the info from cmake
   * Refresh patches
 
@@ -15,8 +13,6 @@ plasma-workspace (4:5.7.2-1~1.gbp193bf7) UNRELEASED; urgency=medium
   [ Harald Sitter ]
   * add new liblegacytaskmanager
   * install new data
-  * UNRELEASED
-  * UNRELEASED
 
   [ Jonathan Riddell ]
   * add missing file
