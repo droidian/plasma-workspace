@@ -25,4 +25,4 @@ plasma-workspace: shlib-without-versioned-soname usr/lib/*/libkdeinit5_kuiserver
 plasma-workspace: shlib-without-versioned-soname usr/lib/*/libkdeinit5_ksmserver.so libkdeinit5_ksmserver.so
 plasma-workspace: pkg-has-shlibs-control-file-but-no-actual-shared-libs
 plasma-workspace: postinst-must-call-ldconfig usr/lib/*/libkdeinit5_*.so
-plasma-workspace: package-must-activate-ldconfig-trigger usr/lib/*/libkdeinit5_kuiserver5.so
+plasma-workspace: package-must-activate-ldconfig-trigger usr/lib/*/libkdeinit5_*.so
