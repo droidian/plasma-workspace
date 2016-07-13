@@ -13,6 +13,11 @@
     /usr/include/taskmanager/
 </headers>
 
+<!-- Incompatable definitions among legacytaskmanager and taskmanager -->
+<skip_headers>
+    /usr/include/legacytaskmanager/
+</skip_headers>
+
 <libs>
     /usr/lib/@@DEB_HOST_MULTIARCH@@/libkworkspace5.so
     /usr/lib/@@DEB_HOST_MULTIARCH@@/liblegacytaskmanager.so
