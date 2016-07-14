@@ -87,7 +87,8 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/plasma/plasma-workspace.git
 
 Package: plasma-workspace-dev
 Architecture: any
-Depends: libkf5windowsystem-dev (>= 5.4.0),
+Depends: libkf5itemmodels-dev,
+         libkf5windowsystem-dev (>= 5.4.0),
          plasma-framework-dev (>= 5.18.0~),
          plasma-workspace (= ${binary:Version}),
          qtbase5-dev (>= 5.6.1~),
