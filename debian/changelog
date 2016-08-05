@@ -1,6 +1,6 @@
-plasma-workspace (4:5.7.2-1~2.gbp7bc84a) UNRELEASED; urgency=medium
+plasma-workspace (4:5.7.3-1~1.gbpd5f0b0) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @7bc84aab9da7b2d95b9763312fdbef4710b6dcf6 **
+  ** SNAPSHOT build @d5f0b0db4511edacb837803b65bcd49f2063b564 **
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
@@ -12,6 +12,7 @@ plasma-workspace (4:5.7.2-1~2.gbp7bc84a) UNRELEASED; urgency=medium
   * Update changelog for 4:5.7.0-1 release
   * Add kholidays build-dependency
   * Add missing dev dependency (thanks to the acc headers check)
+  * UNRELEASED
 
   [ Harald Sitter ]
   * add new liblegacytaskmanager
@@ -22,7 +23,7 @@ plasma-workspace (4:5.7.2-1~2.gbp7bc84a) UNRELEASED; urgency=medium
   * add missing file
   * new .mo files
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 05 Aug 2016 11:29:07 +0200
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Fri, 05 Aug 2016 13:09:13 +0200
 
 plasma-workspace (4:5.6.5.1-1) unstable; urgency=medium
 
