@@ -1,6 +1,4 @@
-plasma-workspace (4:5.7.4-1~2.gbp02e0aa) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @02e0aad33ee9711a8a7da6db4a72cdc24d215f7a **
+plasma-workspace (4:5.7.4-1) unstable; urgency=medium
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
@@ -9,11 +7,9 @@ plasma-workspace (4:5.7.4-1~2.gbp02e0aa) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * Follow upstream libtaskmanager soversion bump
   * Install ion-dataengine template
-  * Update changelog for 4:5.7.0-1 release
   * Add kholidays build-dependency
   * Add missing dev dependency (thanks to the acc headers check)
-  * UNRELEASED
-  * UNRELEASED
+  * New upstream release (5.7.4)
   * Bump group breaks (5.7)
 
   [ Harald Sitter ]
@@ -25,7 +21,7 @@ plasma-workspace (4:5.7.4-1~2.gbp02e0aa) UNRELEASED; urgency=medium
   * add missing file
   * new .mo files
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 26 Aug 2016 11:07:15 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 27 Aug 2016 17:27:03 +0200
 
 plasma-workspace (4:5.6.5.1-1) unstable; urgency=medium
 
