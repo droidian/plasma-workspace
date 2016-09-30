@@ -21,6 +21,7 @@ usr/bin/plasmawindowed
 usr/bin/startkde
 usr/bin/systemmonitor
 usr/bin/xembedsniproxy
+usr/lib/*/kconf_update_bin/krunnerplugins
 usr/lib/*/libexec/drkonqi
 usr/lib/*/libexec/ksmserver-logout-greeter
 usr/lib/*/libexec/ksyncdbusenv
@@ -91,6 +92,7 @@ usr/share/desktop-directories/
 usr/share/doc/HTML/*/kcontrol/
 usr/share/doc/HTML/*/klipper/
 usr/share/drkonqi/
+usr/share/kconf_update/krunnerplugins.upd
 usr/share/kio_desktop/DesktopLinks/Home.desktop
 usr/share/kio_desktop/directory.desktop
 usr/share/kio_desktop/directory.trash
