@@ -15,7 +15,7 @@ override_dh_strip:
 	$(overridden_command) --dbgsym-migration='plasma-workspace-dbg (<= 4:5.5.5.1-1~~)'
 
 override_dh_fixperms:
-	chmod -x debian/plasma-workspace/etc/xdg/autostart/org.kde.klipper.desktop
+	chmod -x debian/plasma-workspace/etc/xdg/autostart/klipper.desktop
 	$(overridden_command)
 
 override_dh_install:
