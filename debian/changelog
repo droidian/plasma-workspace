@@ -1,11 +1,18 @@
-plasma-workspace (4:5.8.0-1~1.gbpced0b9) UNRELEASED; urgency=medium
+plasma-workspace (4:5.8.0-1~2.gbp7ecb0f) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @7ecb0faaf6a84095e9b998d9125d32b10ae1090c **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @ced0b949240e22888ee23c81531692c462449c17 **
 
   * Update build-deps and deps with the info from cmake
   * Update build-deps and deps with the info from cmake
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 04 Oct 2016 13:47:20 +0200
+  [ Maximiliano Curia ]
+  * Add missing build dependency on plasma-framework
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 04 Oct 2016 16:46:46 +0200
 
 plasma-workspace (4:5.7.4-1) unstable; urgency=medium
 
