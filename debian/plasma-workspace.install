@@ -1,8 +1,6 @@
 etc/xdg/autostart/krunner.desktop
-etc/xdg/autostart/org.kde.klipper.desktop
 etc/xdg/autostart/plasmashell.desktop
 etc/xdg/autostart/xembedsniproxy.desktop
-etc/xdg/legacytaskmanagerrulesrc
 etc/xdg/plasmoids.knsrc
 etc/xdg/taskmanagerrulesrc
 etc/xdg/wallpaper.knsrc
@@ -158,7 +156,6 @@ usr/share/kservices5/plasma-dataengine-share.desktop
 usr/share/kservices5/plasma-dataengine-soliddevice.desktop
 usr/share/kservices5/plasma-dataengine-statusnotifieritem.desktop
 usr/share/kservices5/plasma-dataengine-systemmonitor.desktop
-usr/share/kservices5/plasma-dataengine-tasks.desktop
 usr/share/kservices5/plasma-dataengine-time.desktop
 usr/share/kservices5/plasma-dataengine-weather.desktop
 usr/share/kservices5/plasma-geolocation-gps.desktop
@@ -203,7 +200,6 @@ usr/share/locale/*/*/krunner.mo
 usr/share/locale/*/*/ksmserver.mo
 usr/share/locale/*/*/kuiserver5.mo
 usr/share/locale/*/*/libkworkspace.mo
-usr/share/locale/*/*/libtaskmanager.mo
 usr/share/locale/*/*/phonon_kde.mo
 usr/share/locale/*/*/plasma_applet_org.kde.color.mo
 usr/share/locale/*/*/plasma_applet_org.kde.image.mo
