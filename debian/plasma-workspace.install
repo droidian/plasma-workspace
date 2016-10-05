@@ -1,3 +1,4 @@
+etc/xdg/autostart/klipper.desktop
 etc/xdg/autostart/krunner.desktop
 etc/xdg/autostart/plasmashell.desktop
 etc/xdg/autostart/xembedsniproxy.desktop
@@ -20,6 +21,7 @@ usr/bin/startkde
 usr/bin/systemmonitor
 usr/bin/xembedsniproxy
 usr/lib/*/libexec/drkonqi
+usr/lib/*/libexec/ksmserver-logout-greeter
 usr/lib/*/libexec/ksyncdbusenv
 usr/lib/*/libkdeinit5_kcminit.so
 usr/lib/*/libkdeinit5_kcminit_startup.so
@@ -251,6 +253,21 @@ usr/share/locale/*/*/plasmashell.mo
 usr/share/locale/*/*/plasmashellprivateplugin.mo
 usr/share/locale/*/*/soliduiserver.mo
 usr/share/locale/*/*/systemmonitor.mo
+usr/share/metainfo/org.kde.plasma.activitybar.appdata.xml
+usr/share/metainfo/org.kde.plasma.analogclock.appdata.xml
+usr/share/metainfo/org.kde.plasma.battery.appdata.xml
+usr/share/metainfo/org.kde.plasma.calendar.appdata.xml
+usr/share/metainfo/org.kde.plasma.clipboard.appdata.xml
+usr/share/metainfo/org.kde.plasma.devicenotifier.appdata.xml
+usr/share/metainfo/org.kde.plasma.digitalclock.appdata.xml
+usr/share/metainfo/org.kde.plasma.icon.appdata.xml
+usr/share/metainfo/org.kde.plasma.lock_logout.appdata.xml
+usr/share/metainfo/org.kde.plasma.mediacontroller.appdata.xml
+usr/share/metainfo/org.kde.plasma.notifications.appdata.xml
+usr/share/metainfo/org.kde.plasma.panelspacer.appdata.xml
+usr/share/metainfo/org.kde.plasma.private.systemtray.appdata.xml
+usr/share/metainfo/org.kde.plasma.systemmonitor.*.appdata.xml
+usr/share/metainfo/org.kde.plasma.systemtray.appdata.xml
 usr/share/plasma/look-and-feel/
 usr/share/plasma/plasmoids/
 usr/share/plasma/services/
