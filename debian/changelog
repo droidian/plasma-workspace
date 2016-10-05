@@ -1,6 +1,6 @@
-plasma-workspace (4:5.8.0-1~2.gbp7ecb0f) UNRELEASED; urgency=medium
+plasma-workspace (4:5.8.0-1~3.gbp9f5c3e) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @7ecb0faaf6a84095e9b998d9125d32b10ae1090c **
+  ** SNAPSHOT build @9f5c3eaa2fc5a11350fc06529be66143c043b50b **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @ced0b949240e22888ee23c81531692c462449c17 **
@@ -11,8 +11,10 @@ plasma-workspace (4:5.8.0-1~2.gbp7ecb0f) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * Add missing build dependency on plasma-framework
+  * Drop liblegacytaskmanager5
+  * Update install files
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 04 Oct 2016 16:46:46 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 05 Oct 2016 13:21:38 +0200
 
 plasma-workspace (4:5.7.4-1) unstable; urgency=medium
 
