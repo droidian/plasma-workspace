@@ -1,6 +1,6 @@
-plasma-workspace (4:5.8.0-1~3.gbp9f5c3e) UNRELEASED; urgency=medium
+plasma-workspace (4:5.8.0-1~4.gbp78f3b0) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @9f5c3eaa2fc5a11350fc06529be66143c043b50b **
+  ** SNAPSHOT build @78f3b06d34d7b1d035db80cd3369c429d08ac5d4 **
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
@@ -9,11 +9,23 @@ plasma-workspace (4:5.8.0-1~3.gbp9f5c3e) UNRELEASED; urgency=medium
   * Add missing build dependency on plasma-framework
   * Drop liblegacytaskmanager5
   * Update install files
+  * Add missing qml dependencies
+  * Replace dbus-launch with dbus-run-session in tests
 
   [ Bhushan Shah ]
   * Add depend to libkf5sysguard-dev in plasma-workspace-dev
+  * Add depend to libkf5sysguard-dev in plasma-workspace-dev
+  * Add dep to kactivitymanagerd for plasma-workspace
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 05 Oct 2016 13:21:38 +0200
+  [ Harald Sitter ]
+  * martin says this needs qtwayland at runtime
+  * depend on iso-codes as per runtime dependency list also ignore the warning
+
+  [ Jonathan Riddell ]
+  * depend on new plasma-integration package
+  * BUG:361222 add dep on qml-module-qtqml-models2 for new systray
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Thu, 06 Oct 2016 10:07:33 +0200
 
 plasma-workspace (4:5.7.4-1) unstable; urgency=medium
 
