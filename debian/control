@@ -227,6 +227,7 @@ Description: Plasma Workspace for KF5 library
  Taskmanager library.
  .
  This package contains library files.
+Breaks: plasma-desktop (<< 4:5.7)
 
 Package: libweather-ion7
 Architecture: any
