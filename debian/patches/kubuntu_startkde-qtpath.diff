@@ -31,24 +31,15 @@ index ddd3663..fa134c8 100644
  
 +QTPATHS=/usr/lib/@DEB_HOST_MULTIARCH@/qt5/bin/qtpaths
 +
- if test "x$1" = x--failsafe; then
-     KDE_FAILSAFE=1 # General failsafe flag
-     KWIN_COMPOSE=N # Disable KWin's compositing
-@@ -20,7 +22,7 @@ unset DYLD_FORCE_FLAT_NAMESPACE
- # in case we have been started with full pathname spec without being in PATH
- bindir=`echo "$0" | sed -n 's,^\(/.*\)/[^/][^/]*$,\1,p'`
- if [ -n "$bindir" ]; then
--  qbindir=`qtpaths --binaries-dir`
-+  qbindir=`${QTPATHS} --binaries-dir`
-   qdbus=$qbindir/qdbus
-   case $PATH in
-     $bindir|$bindir:*|*:$bindir|*:$bindir:*) ;;
-@@ -206,7 +208,7 @@ fi
+ # When the X server dies we get a HUP signal from xinit. We must ignore it
+ # because we still need to do some cleanup.
+ trap 'echo GOT SIGHUP' HUP
+@@ -150,7 +152,7 @@
+ # For anything else (that doesn't set env vars, or that needs a window manager),
  # better use the Autostart folder.
  
- # TODO: Use GenericConfigLocation once we depend on Qt 5.4
--scriptpath=`qtpaths --paths ConfigLocation | tr ':' '\n' | sed 's,$,/plasma-workspace,g'`
-+scriptpath=`${QTPATHS} --paths ConfigLocation | tr ':' '\n' | sed 's,$,/plasma-workspace,g'`
+-scriptpath=`qtpaths --locate-dirs GenericConfigLocation plasma-workspace | tr ':' '\n'`
++scriptpath=`${QTPATHS} --locate-dirs GenericConfigLocation plasma-workspace | tr ':' '\n'`
  
  # Add /env/ to the directory to locate the scripts to be sourced
  for prefix in `echo $scriptpath`; do
