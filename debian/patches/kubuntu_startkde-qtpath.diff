@@ -22,7 +22,7 @@ index 8513af1..957c131 100644
  configure_file(startplasmacompositor.cmake ${CMAKE_CURRENT_BINARY_DIR}/startplasmacompositor  @ONLY)
  configure_file(startplasma.cmake ${CMAKE_CURRENT_BINARY_DIR}/startplasma  @ONLY)
 diff --git a/startkde/startkde.cmake b/startkde/startkde.cmake
-index b320234..3508d86 100644
+index ddd3663..fa134c8 100644
 --- a/startkde/startkde.cmake
 +++ b/startkde/startkde.cmake
 @@ -3,6 +3,8 @@
