@@ -1,17 +1,18 @@
-plasma-workspace (4:5.8.1-1~1.gbp61c302) UNRELEASED; urgency=medium
+plasma-workspace (4:5.8.1-1~2.gbpa6b26c) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @61c3025238c9e1c74cc973c4ee3fa78ac35d4842 **
+  ** SNAPSHOT build @a6b26c72745849f16d9222a24080224cff15890c **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @0d507b398adf68c1394b021e3c20b77a0f6b0026 **
 
   * Drop old conffile legacytaskmanagerrulesrc.
     Thanks to shirish for the report (Closes: #840629)
+  * Add symbols files
 
   [ Automatic packaging ]
   * Refresh patches
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 13 Oct 2016 21:08:43 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sat, 15 Oct 2016 11:21:51 +0200
 
 plasma-workspace (4:5.8.0-1) unstable; urgency=medium
 
