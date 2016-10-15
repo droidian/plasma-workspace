@@ -1,6 +1,6 @@
-plasma-workspace (4:5.8.1-1~2.gbpa6b26c) UNRELEASED; urgency=medium
+plasma-workspace (4:5.8.1-1~3.gbpb16001) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @a6b26c72745849f16d9222a24080224cff15890c **
+  ** SNAPSHOT build @b160016a31660b72345b3fca18d03d62e9945a36 **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @0d507b398adf68c1394b021e3c20b77a0f6b0026 **
@@ -11,8 +11,9 @@ plasma-workspace (4:5.8.1-1~2.gbpa6b26c) UNRELEASED; urgency=medium
 
   [ Automatic packaging ]
   * Refresh patches
+  * Update symbols files.
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sat, 15 Oct 2016 11:21:51 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 15 Oct 2016 15:17:10 +0200
 
 plasma-workspace (4:5.8.0-1) unstable; urgency=medium
 
