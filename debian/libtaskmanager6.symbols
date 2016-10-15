@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.8.1 amd64
+# SymbolsHelper-Confirmed: 4:5.8.1 amd64 armhf i386
 libtaskmanager.so.6 libtaskmanager6 #MINVER#
  _ZN11TaskManager10TasksModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.8.1
  _ZN11TaskManager10TasksModel11qt_metacastEPKc@Base 4:5.8.1
@@ -157,23 +157,23 @@ libtaskmanager.so.6 libtaskmanager6 #MINVER#
  _ZN11TaskManager17XWindowTasksModel22requestToggleMinimizedERK11QModelIndex@Base 4:5.8.1
  _ZN11TaskManager17XWindowTasksModel23requestToggleFullScreenERK11QModelIndex@Base 4:5.8.1
  _ZN11TaskManager17XWindowTasksModel30requestPublishDelegateGeometryERK11QModelIndexRK5QRectP7QObject@Base 4:5.8.1
- _ZN11TaskManager17XWindowTasksModel7Private10activitiesEy@Base 4:5.8.1
+ (subst)_ZN11TaskManager17XWindowTasksModel7Private10activitiesE{quintptr}@Base 4:5.8.1
  _ZN11TaskManager17XWindowTasksModel7Private10serviceUrlEiRK7QStringRK11QStringList@Base 4:5.8.1
- _ZN11TaskManager17XWindowTasksModel7Private10windowInfoEy@Base 4:5.8.1
- _ZN11TaskManager17XWindowTasksModel7Private11dataChangedEyRK7QVectorIiE@Base 4:5.8.1
- _ZN11TaskManager17XWindowTasksModel7Private11launcherUrlEyb@Base 4:5.8.1
- _ZN11TaskManager17XWindowTasksModel7Private12removeWindowEy@Base 4:5.8.1
+ (subst)_ZN11TaskManager17XWindowTasksModel7Private10windowInfoE{quintptr}@Base 4:5.8.1
+ (subst)_ZN11TaskManager17XWindowTasksModel7Private11dataChangedE{quintptr}RK7QVectorIiE@Base 4:5.8.1
+ (subst)_ZN11TaskManager17XWindowTasksModel7Private11launcherUrlE{quintptr}b@Base 4:5.8.1
+ (subst)_ZN11TaskManager17XWindowTasksModel7Private12removeWindowE{quintptr}@Base 4:5.8.1
  _ZN11TaskManager17XWindowTasksModel7Private13groupMimeTypeEv@Base 4:5.8.1
- _ZN11TaskManager17XWindowTasksModel7Private13windowChangedEy6QFlagsIN3NET8PropertyEES2_INS3_9Property2EE@Base 4:5.8.1
+ (subst)_ZN11TaskManager17XWindowTasksModel7Private13windowChangedE{quintptr}6QFlagsIN3NET8PropertyEES2_INS3_9Property2EE@Base 4:5.8.1
  _ZN11TaskManager17XWindowTasksModel7Private15servicesFromPidEi@Base 4:5.8.1
- _ZN11TaskManager17XWindowTasksModel7Private16demandsAttentionEy@Base 4:5.8.1
- _ZN11TaskManager17XWindowTasksModel7Private16transientChangedEy6QFlagsIN3NET8PropertyEES2_INS3_9Property2EE@Base 4:5.8.1
- _ZN11TaskManager17XWindowTasksModel7Private4iconEy@Base 4:5.8.1
+ (subst)_ZN11TaskManager17XWindowTasksModel7Private16demandsAttentionE{quintptr}@Base 4:5.8.1
+ (subst)_ZN11TaskManager17XWindowTasksModel7Private16transientChangedE{quintptr}6QFlagsIN3NET8PropertyEES2_INS3_9Property2EE@Base 4:5.8.1
+ (subst)_ZN11TaskManager17XWindowTasksModel7Private4iconE{quintptr}@Base 4:5.8.1
  _ZN11TaskManager17XWindowTasksModel7Private4initEv@Base 4:5.8.1
- _ZN11TaskManager17XWindowTasksModel7Private7appDataEy@Base 4:5.8.1
+ (subst)_ZN11TaskManager17XWindowTasksModel7Private7appDataE{quintptr}@Base 4:5.8.1
  _ZN11TaskManager17XWindowTasksModel7Private8mimeTypeEv@Base 4:5.8.1
- _ZN11TaskManager17XWindowTasksModel7Private9addWindowEy@Base 4:5.8.1
- _ZN11TaskManager17XWindowTasksModel7Private9windowUrlEy@Base 4:5.8.1
+ (subst)_ZN11TaskManager17XWindowTasksModel7Private9addWindowE{quintptr}@Base 4:5.8.1
+ (subst)_ZN11TaskManager17XWindowTasksModel7Private9windowUrlE{quintptr}@Base 4:5.8.1
  _ZN11TaskManager17XWindowTasksModel7PrivateC1EPS0_@Base 4:5.8.1
  _ZN11TaskManager17XWindowTasksModel7PrivateC2EPS0_@Base 4:5.8.1
  _ZN11TaskManager17XWindowTasksModel7PrivateD1Ev@Base 4:5.8.1
