@@ -1,0 +1,24 @@
+# SymbolsHelper-Confirmed: 4:5.8.1 amd64
+libkworkspace5.so.5 libkworkspace5-5 #MINVER#
+ _ZN10KWorkSpace11canShutDownENS_15ShutdownConfirmENS_12ShutdownTypeENS_12ShutdownModeE@Base 4:5.8.1
+ _ZN10KWorkSpace14isShuttingDownEv@Base 4:5.8.1
+ _ZN10KWorkSpace15requestShutDownENS_15ShutdownConfirmENS_12ShutdownTypeENS_12ShutdownModeE@Base 4:5.8.1
+ _ZN10KWorkSpace23propagateSessionManagerEv@Base 4:5.8.1
+ _ZN15KDisplayManager10numReserveEv@Base 4:5.8.1
+ _ZN15KDisplayManager11bootOptionsER11QStringListRiS2_@Base 4:5.8.1
+ _ZN15KDisplayManager11canShutdownEv@Base 4:5.8.1
+ _ZN15KDisplayManager12isSwitchableEv@Base 4:5.8.1
+ _ZN15KDisplayManager12lockSwitchVTEi@Base 4:5.8.1
+ _ZN15KDisplayManager12startReserveEv@Base 4:5.8.1
+ _ZN15KDisplayManager13localSessionsER5QListI7SessEntE@Base 4:5.8.1
+ _ZN15KDisplayManager15GDMAuthenticateEv@Base 4:5.8.1
+ _ZN15KDisplayManager4execEPKc@Base 4:5.8.1
+ _ZN15KDisplayManager4execEPKcR10QByteArray@Base 4:5.8.1
+ _ZN15KDisplayManager8sess2StrERK7SessEnt@Base 4:5.8.1
+ _ZN15KDisplayManager8shutdownEN10KWorkSpace12ShutdownTypeENS0_12ShutdownModeERK7QString@Base 4:5.8.1
+ _ZN15KDisplayManager8switchVTEi@Base 4:5.8.1
+ _ZN15KDisplayManager9sess2Str2ERK7SessEntR7QStringS4_@Base 4:5.8.1
+ _ZN15KDisplayManagerC1Ev@Base 4:5.8.1
+ _ZN15KDisplayManagerC2Ev@Base 4:5.8.1
+ _ZN15KDisplayManagerD1Ev@Base 4:5.8.1
+ _ZN15KDisplayManagerD2Ev@Base 4:5.8.1

@@ -1,0 +1,613 @@
+# SymbolsHelper-Confirmed: 4:5.8.1 amd64
+libtaskmanager.so.6 libtaskmanager6 #MINVER#
+ _ZN11TaskManager10TasksModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel11qt_metacastEPKc@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel11requestMoveERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel11setActivityERK7QString@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel11setSortModeENS0_8SortModeE@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel12requestCloseERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel12setGroupModeENS0_9GroupModeE@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel13requestResizeERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel13syncLaunchersEv@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel14setGroupInlineEb@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel15requestActivateERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel15requestOpenUrlsERK11QModelIndexRK5QListI4QUrlE@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel15setLauncherListERK11QStringList@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel16setLaunchInPlaceEb@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel16staticMetaObjectE@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel17requestActivitiesERK11QModelIndexRK11QStringList@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel17setFilterByScreenEb@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel17setScreenGeometryERK5QRect@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel17setVirtualDesktopEi@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel18requestAddLauncherERK4QUrl@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel18requestNewInstanceERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel19requestToggleShadedERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel19setFilterByActivityEb@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel19updateLauncherCountEv@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel20setSeparateLaunchersEb@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel21requestRemoveLauncherERK4QUrl@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel21requestToggleGroupingERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel21requestVirtualDesktopERK11QModelIndexi@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel21setFilterNotMinimizedEb@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel22requestToggleKeepAboveERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel22requestToggleKeepBelowERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel22requestToggleMaximizedERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel22requestToggleMinimizedERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel23requestToggleFullScreenERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel25setFilterByVirtualDesktopEb@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel25setGroupingAppIdBlacklistERK11QStringList@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel30requestPublishDelegateGeometryERK11QModelIndexRK5QRectP7QObject@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel31setGroupingLauncherUrlBlacklistERK11QStringList@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel31setGroupingWindowTasksThresholdEi@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel4moveEii@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel7Private10initModelsEv@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel7Private11forceResortEv@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel7Private12activityInfoE@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel7Private13instanceCountE@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel7Private16windowTasksModelE@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel7Private17activityInfoUsersE@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel7Private17startupTasksModelE@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel7Private17updateGroupInlineEv@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel7Private19updateManualSortMapEv@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel7Private22initLauncherTasksModelEv@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel7Private24updateActivityTaskCountsEv@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel7Private29updateAnyTaskDemandsAttentionEv@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel7Private32consolidateManualSortMapForGroupERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel7PrivateC1EPS0_@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel7PrivateC2EPS0_@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel7PrivateD1Ev@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel7PrivateD2Ev@Base 4:5.8.1
+ _ZN11TaskManager10TasksModelC1EP7QObject@Base 4:5.8.1
+ _ZN11TaskManager10TasksModelC2EP7QObject@Base 4:5.8.1
+ _ZN11TaskManager10TasksModelD0Ev@Base 4:5.8.1
+ _ZN11TaskManager10TasksModelD1Ev@Base 4:5.8.1
+ _ZN11TaskManager10TasksModelD2Ev@Base 4:5.8.1
+ _ZN11TaskManager12ActivityInfo11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.8.1
+ _ZN11TaskManager12ActivityInfo11qt_metacastEPKc@Base 4:5.8.1
+ _ZN11TaskManager12ActivityInfo12activityNameERK7QString@Base 4:5.8.1
+ _ZN11TaskManager12ActivityInfo16staticMetaObjectE@Base 4:5.8.1
+ _ZN11TaskManager12ActivityInfo7Private13instanceCountE@Base 4:5.8.1
+ _ZN11TaskManager12ActivityInfo7Private16activityConsumerE@Base 4:5.8.1
+ _ZN11TaskManager12ActivityInfo7PrivateC1EPS0_@Base 4:5.8.1
+ _ZN11TaskManager12ActivityInfo7PrivateC2EPS0_@Base 4:5.8.1
+ _ZN11TaskManager12ActivityInfo7PrivateD1Ev@Base 4:5.8.1
+ _ZN11TaskManager12ActivityInfo7PrivateD2Ev@Base 4:5.8.1
+ _ZN11TaskManager12ActivityInfoC1EP7QObject@Base 4:5.8.1
+ _ZN11TaskManager12ActivityInfoC2EP7QObject@Base 4:5.8.1
+ _ZN11TaskManager12ActivityInfoD0Ev@Base 4:5.8.1
+ _ZN11TaskManager12ActivityInfoD1Ev@Base 4:5.8.1
+ _ZN11TaskManager12ActivityInfoD2Ev@Base 4:5.8.1
+ _ZN11TaskManager14appDataFromUrlERK4QUrlRK5QIcon@Base 4:5.8.1
+ _ZN11TaskManager14screenGeometryERK6QPoint@Base 4:5.8.1
+ _ZN11TaskManager16WindowTasksModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.8.1
+ _ZN11TaskManager16WindowTasksModel11qt_metacastEPKc@Base 4:5.8.1
+ _ZN11TaskManager16WindowTasksModel16staticMetaObjectE@Base 4:5.8.1
+ _ZN11TaskManager16WindowTasksModel7Private13instanceCountE@Base 4:5.8.1
+ _ZN11TaskManager16WindowTasksModel7Private16sourceTasksModelE@Base 4:5.8.1
+ _ZN11TaskManager16WindowTasksModel7Private20initSourceTasksModelEv@Base 4:5.8.1
+ _ZN11TaskManager16WindowTasksModel7PrivateC1EPS0_@Base 4:5.8.1
+ _ZN11TaskManager16WindowTasksModel7PrivateC2EPS0_@Base 4:5.8.1
+ _ZN11TaskManager16WindowTasksModel7PrivateD1Ev@Base 4:5.8.1
+ _ZN11TaskManager16WindowTasksModel7PrivateD2Ev@Base 4:5.8.1
+ _ZN11TaskManager16WindowTasksModelC1EP7QObject@Base 4:5.8.1
+ _ZN11TaskManager16WindowTasksModelC2EP7QObject@Base 4:5.8.1
+ _ZN11TaskManager16WindowTasksModelD0Ev@Base 4:5.8.1
+ _ZN11TaskManager16WindowTasksModelD1Ev@Base 4:5.8.1
+ _ZN11TaskManager16WindowTasksModelD2Ev@Base 4:5.8.1
+ _ZN11TaskManager17StartupTasksModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.8.1
+ _ZN11TaskManager17StartupTasksModel11qt_metacastEPKc@Base 4:5.8.1
+ _ZN11TaskManager17StartupTasksModel16staticMetaObjectE@Base 4:5.8.1
+ _ZN11TaskManager17StartupTasksModel18requestNewInstanceERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager17StartupTasksModel7Private10loadConfigEv@Base 4:5.8.1
+ _ZN11TaskManager17StartupTasksModel7Private11launcherUrlERK16KStartupInfoData@Base 4:5.8.1
+ _ZN11TaskManager17StartupTasksModel7Private4initEv@Base 4:5.8.1
+ _ZN11TaskManager17StartupTasksModel7PrivateC1EPS0_@Base 4:5.8.1
+ _ZN11TaskManager17StartupTasksModel7PrivateC2EPS0_@Base 4:5.8.1
+ _ZN11TaskManager17StartupTasksModelC1EP7QObject@Base 4:5.8.1
+ _ZN11TaskManager17StartupTasksModelC2EP7QObject@Base 4:5.8.1
+ _ZN11TaskManager17StartupTasksModelD0Ev@Base 4:5.8.1
+ _ZN11TaskManager17StartupTasksModelD1Ev@Base 4:5.8.1
+ _ZN11TaskManager17StartupTasksModelD2Ev@Base 4:5.8.1
+ _ZN11TaskManager17WaylandTasksModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.8.1
+ _ZN11TaskManager17WaylandTasksModel11qt_metacastEPKc@Base 4:5.8.1
+ _ZN11TaskManager17WaylandTasksModel11requestMoveERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager17WaylandTasksModel12requestCloseERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager17WaylandTasksModel13requestResizeERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager17WaylandTasksModel15requestActivateERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager17WaylandTasksModel15requestOpenUrlsERK11QModelIndexRK5QListI4QUrlE@Base 4:5.8.1
+ _ZN11TaskManager17WaylandTasksModel16staticMetaObjectE@Base 4:5.8.1
+ _ZN11TaskManager17WaylandTasksModel17requestActivitiesERK11QModelIndexRK11QStringList@Base 4:5.8.1
+ _ZN11TaskManager17WaylandTasksModel18requestNewInstanceERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager17WaylandTasksModel19requestToggleShadedERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager17WaylandTasksModel21requestVirtualDesktopERK11QModelIndexi@Base 4:5.8.1
+ _ZN11TaskManager17WaylandTasksModel22requestToggleKeepAboveERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager17WaylandTasksModel22requestToggleKeepBelowERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager17WaylandTasksModel22requestToggleMaximizedERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager17WaylandTasksModel22requestToggleMinimizedERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager17WaylandTasksModel23requestToggleFullScreenERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager17WaylandTasksModel30requestPublishDelegateGeometryERK11QModelIndexRK5QRectP7QObject@Base 4:5.8.1
+ _ZN11TaskManager17WaylandTasksModel7Private11dataChangedEPN8KWayland6Client12PlasmaWindowERK7QVectorIiE@Base 4:5.8.1
+ _ZN11TaskManager17WaylandTasksModel7Private11dataChangedEPN8KWayland6Client12PlasmaWindowEi@Base 4:5.8.1
+ _ZN11TaskManager17WaylandTasksModel7Private11initWaylandEv@Base 4:5.8.1
+ _ZN11TaskManager17WaylandTasksModel7Private9addWindowEPN8KWayland6Client12PlasmaWindowE@Base 4:5.8.1
+ _ZN11TaskManager17WaylandTasksModel7PrivateC1EPS0_@Base 4:5.8.1
+ _ZN11TaskManager17WaylandTasksModel7PrivateC2EPS0_@Base 4:5.8.1
+ _ZN11TaskManager17WaylandTasksModelC1EP7QObject@Base 4:5.8.1
+ _ZN11TaskManager17WaylandTasksModelC2EP7QObject@Base 4:5.8.1
+ _ZN11TaskManager17WaylandTasksModelD0Ev@Base 4:5.8.1
+ _ZN11TaskManager17WaylandTasksModelD1Ev@Base 4:5.8.1
+ _ZN11TaskManager17WaylandTasksModelD2Ev@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel11qt_metacastEPKc@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel11requestMoveERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel12requestCloseERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel13requestResizeERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel15requestActivateERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel15requestOpenUrlsERK11QModelIndexRK5QListI4QUrlE@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel16staticMetaObjectE@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel17requestActivitiesERK11QModelIndexRK11QStringList@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel17winIdFromMimeDataEPK9QMimeDataPb@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel18requestNewInstanceERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel18winIdsFromMimeDataEPK9QMimeDataPb@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel19requestToggleShadedERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel21requestVirtualDesktopERK11QModelIndexi@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel22requestToggleKeepAboveERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel22requestToggleKeepBelowERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel22requestToggleMaximizedERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel22requestToggleMinimizedERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel23requestToggleFullScreenERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel30requestPublishDelegateGeometryERK11QModelIndexRK5QRectP7QObject@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel7Private10activitiesEy@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel7Private10serviceUrlEiRK7QStringRK11QStringList@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel7Private10windowInfoEy@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel7Private11dataChangedEyRK7QVectorIiE@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel7Private11launcherUrlEyb@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel7Private12removeWindowEy@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel7Private13groupMimeTypeEv@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel7Private13windowChangedEy6QFlagsIN3NET8PropertyEES2_INS3_9Property2EE@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel7Private15servicesFromPidEi@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel7Private16demandsAttentionEy@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel7Private16transientChangedEy6QFlagsIN3NET8PropertyEES2_INS3_9Property2EE@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel7Private4iconEy@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel7Private4initEv@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel7Private7appDataEy@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel7Private8mimeTypeEv@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel7Private9addWindowEy@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel7Private9windowUrlEy@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel7PrivateC1EPS0_@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel7PrivateC2EPS0_@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel7PrivateD1Ev@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModel7PrivateD2Ev@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModelC1EP7QObject@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModelC2EP7QObject@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModelD0Ev@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModelD1Ev@Base 4:5.8.1
+ _ZN11TaskManager17XWindowTasksModelD2Ev@Base 4:5.8.1
+ _ZN11TaskManager17launcherUrlsMatchERK4QUrlS2_NS_17UrlComparisonModeE@Base 4:5.8.1
+ _ZN11TaskManager18AbstractTasksModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.8.1
+ _ZN11TaskManager18AbstractTasksModel11qt_metacastEPKc@Base 4:5.8.1
+ _ZN11TaskManager18AbstractTasksModel11requestMoveERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager18AbstractTasksModel12requestCloseERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager18AbstractTasksModel13requestResizeERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager18AbstractTasksModel15requestActivateERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager18AbstractTasksModel15requestOpenUrlsERK11QModelIndexRK5QListI4QUrlE@Base 4:5.8.1
+ _ZN11TaskManager18AbstractTasksModel16staticMetaObjectE@Base 4:5.8.1
+ _ZN11TaskManager18AbstractTasksModel17requestActivitiesERK11QModelIndexRK11QStringList@Base 4:5.8.1
+ _ZN11TaskManager18AbstractTasksModel18requestNewInstanceERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager18AbstractTasksModel19requestToggleShadedERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager18AbstractTasksModel21requestVirtualDesktopERK11QModelIndexi@Base 4:5.8.1
+ _ZN11TaskManager18AbstractTasksModel22requestToggleKeepAboveERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager18AbstractTasksModel22requestToggleKeepBelowERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager18AbstractTasksModel22requestToggleMaximizedERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager18AbstractTasksModel22requestToggleMinimizedERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager18AbstractTasksModel23requestToggleFullScreenERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager18AbstractTasksModel30requestPublishDelegateGeometryERK11QModelIndexRK5QRectP7QObject@Base 4:5.8.1
+ _ZN11TaskManager18AbstractTasksModelC1EP7QObject@Base 4:5.8.1
+ _ZN11TaskManager18AbstractTasksModelC2EP7QObject@Base 4:5.8.1
+ _ZN11TaskManager18AbstractTasksModelD0Ev@Base 4:5.8.1
+ _ZN11TaskManager18AbstractTasksModelD1Ev@Base 4:5.8.1
+ _ZN11TaskManager18AbstractTasksModelD2Ev@Base 4:5.8.1
+ _ZN11TaskManager18LauncherTasksModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.8.1
+ _ZN11TaskManager18LauncherTasksModel11qt_metacastEPKc@Base 4:5.8.1
+ _ZN11TaskManager18LauncherTasksModel15requestActivateERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager18LauncherTasksModel15requestOpenUrlsERK11QModelIndexRK5QListI4QUrlE@Base 4:5.8.1
+ _ZN11TaskManager18LauncherTasksModel15setLauncherListERK11QStringList@Base 4:5.8.1
+ _ZN11TaskManager18LauncherTasksModel16staticMetaObjectE@Base 4:5.8.1
+ _ZN11TaskManager18LauncherTasksModel18requestAddLauncherERK4QUrl@Base 4:5.8.1
+ _ZN11TaskManager18LauncherTasksModel18requestNewInstanceERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager18LauncherTasksModel21requestRemoveLauncherERK4QUrl@Base 4:5.8.1
+ _ZN11TaskManager18LauncherTasksModel7Private4initEv@Base 4:5.8.1
+ _ZN11TaskManager18LauncherTasksModel7Private7appDataERK4QUrl@Base 4:5.8.1
+ _ZN11TaskManager18LauncherTasksModel7PrivateC1EPS0_@Base 4:5.8.1
+ _ZN11TaskManager18LauncherTasksModel7PrivateC2EPS0_@Base 4:5.8.1
+ _ZN11TaskManager18LauncherTasksModelC1EP7QObject@Base 4:5.8.1
+ _ZN11TaskManager18LauncherTasksModelC2EP7QObject@Base 4:5.8.1
+ _ZN11TaskManager18LauncherTasksModelD0Ev@Base 4:5.8.1
+ _ZN11TaskManager18LauncherTasksModelD1Ev@Base 4:5.8.1
+ _ZN11TaskManager18LauncherTasksModelD2Ev@Base 4:5.8.1
+ _ZN11TaskManager18VirtualDesktopInfo11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.8.1
+ _ZN11TaskManager18VirtualDesktopInfo11qt_metacastEPKc@Base 4:5.8.1
+ _ZN11TaskManager18VirtualDesktopInfo16staticMetaObjectE@Base 4:5.8.1
+ _ZN11TaskManager18VirtualDesktopInfoC1EP7QObject@Base 4:5.8.1
+ _ZN11TaskManager18VirtualDesktopInfoC2EP7QObject@Base 4:5.8.1
+ _ZN11TaskManager18VirtualDesktopInfoD0Ev@Base 4:5.8.1
+ _ZN11TaskManager18VirtualDesktopInfoD1Ev@Base 4:5.8.1
+ _ZN11TaskManager18VirtualDesktopInfoD2Ev@Base 4:5.8.1
+ _ZN11TaskManager18defaultApplicationERK4QUrl@Base 4:5.8.1
+ _ZN11TaskManager20TaskFilterProxyModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.8.1
+ _ZN11TaskManager20TaskFilterProxyModel11qt_metacastEPKc@Base 4:5.8.1
+ _ZN11TaskManager20TaskFilterProxyModel11setActivityERK7QString@Base 4:5.8.1
+ _ZN11TaskManager20TaskFilterProxyModel14setSourceModelEP18QAbstractItemModel@Base 4:5.8.1
+ _ZN11TaskManager20TaskFilterProxyModel16staticMetaObjectE@Base 4:5.8.1
+ _ZN11TaskManager20TaskFilterProxyModel17setFilterByScreenEb@Base 4:5.8.1
+ _ZN11TaskManager20TaskFilterProxyModel17setScreenGeometryERK5QRect@Base 4:5.8.1
+ _ZN11TaskManager20TaskFilterProxyModel17setVirtualDesktopEj@Base 4:5.8.1
+ _ZN11TaskManager20TaskFilterProxyModel18setFilterSkipPagerEb@Base 4:5.8.1
+ _ZN11TaskManager20TaskFilterProxyModel19setFilterByActivityEb@Base 4:5.8.1
+ _ZN11TaskManager20TaskFilterProxyModel20setFilterSkipTaskbarEb@Base 4:5.8.1
+ _ZN11TaskManager20TaskFilterProxyModel21setFilterNotMinimizedEb@Base 4:5.8.1
+ _ZN11TaskManager20TaskFilterProxyModel25setFilterByVirtualDesktopEb@Base 4:5.8.1
+ _ZN11TaskManager20TaskFilterProxyModel33setDemandingAttentionSkipsFiltersEb@Base 4:5.8.1
+ _ZN11TaskManager20TaskFilterProxyModel7PrivateC1EPS0_@Base 4:5.8.1
+ _ZN11TaskManager20TaskFilterProxyModel7PrivateC2EPS0_@Base 4:5.8.1
+ _ZN11TaskManager20TaskFilterProxyModelC1EP7QObject@Base 4:5.8.1
+ _ZN11TaskManager20TaskFilterProxyModelC2EP7QObject@Base 4:5.8.1
+ _ZN11TaskManager20TaskFilterProxyModelD0Ev@Base 4:5.8.1
+ _ZN11TaskManager20TaskFilterProxyModelD1Ev@Base 4:5.8.1
+ _ZN11TaskManager20TaskFilterProxyModelD2Ev@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel11qt_metacastEPKc@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel11requestMoveERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel12requestCloseERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel12setGroupModeENS_10TasksModel9GroupModeE@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel13requestResizeERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel14setSourceModelEP18QAbstractItemModel@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel15requestActivateERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel15requestOpenUrlsERK11QModelIndexRK5QListI4QUrlE@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel16staticMetaObjectE@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel17requestActivitiesERK11QModelIndexRK11QStringList@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel18requestNewInstanceERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel19requestToggleShadedERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel20setBlacklistedAppIdsERK11QStringList@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel21requestToggleGroupingERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel21requestVirtualDesktopERK11QModelIndexi@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel22requestToggleKeepAboveERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel22requestToggleKeepBelowERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel22requestToggleMaximizedERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel22requestToggleMinimizedERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel23requestToggleFullScreenERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel23setWindowTasksThresholdEi@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel26setBlacklistedLauncherUrlsERK11QStringList@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel26setGroupDemandingAttentionEb@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel30requestPublishDelegateGeometryERK11QModelIndexRK5QRectP7QObject@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel7Private10rebuildMapEv@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel7Private10tryToGroupERK11QModelIndexb@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel7Private12formGroupForERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel7Private13breakGroupForERK11QModelIndexb@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel7Private13checkGroupingEb@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel7Private13isBlacklistedERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel7Private16shouldGroupTasksEv@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel7Private16sourceModelResetEv@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel7Private17sourceDataChangedE11QModelIndexS2_RK7QVectorIiE@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel7Private17sourceRowsRemovedERK11QModelIndexii@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel7Private18sourceRowsInsertedERK11QModelIndexii@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel7Private25sourceModelAboutToBeResetEv@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel7Private26sourceRowsAboutToBeRemovedERK11QModelIndexii@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel7Private27sourceRowsAboutToBeInsertedERK11QModelIndexii@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel7Private3allERK11QModelIndexi@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel7Private3anyERK11QModelIndexi@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel7Private7isGroupEi@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel7Private9adjustMapEii@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel7PrivateC1EPS0_@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModel7PrivateC2EPS0_@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModelC1EP7QObject@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModelC2EP7QObject@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModelD0Ev@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModelD1Ev@Base 4:5.8.1
+ _ZN11TaskManager22TaskGroupingProxyModelD2Ev@Base 4:5.8.1
+ _ZN11TaskManager26ConcatenateTasksProxyModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.8.1
+ _ZN11TaskManager26ConcatenateTasksProxyModel11qt_metacastEPKc@Base 4:5.8.1
+ _ZN11TaskManager26ConcatenateTasksProxyModel16staticMetaObjectE@Base 4:5.8.1
+ _ZN11TaskManager26ConcatenateTasksProxyModelC1EP7QObject@Base 4:5.8.1
+ _ZN11TaskManager26ConcatenateTasksProxyModelC2EP7QObject@Base 4:5.8.1
+ _ZN11TaskManager26ConcatenateTasksProxyModelD0Ev@Base 4:5.8.1
+ _ZN11TaskManager26ConcatenateTasksProxyModelD1Ev@Base 4:5.8.1
+ _ZN11TaskManager26ConcatenateTasksProxyModelD2Ev@Base 4:5.8.1
+ _ZN11TaskManager27FlattenTaskGroupsProxyModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.8.1
+ _ZN11TaskManager27FlattenTaskGroupsProxyModel11qt_metacastEPKc@Base 4:5.8.1
+ _ZN11TaskManager27FlattenTaskGroupsProxyModel14setSourceModelEP18QAbstractItemModel@Base 4:5.8.1
+ _ZN11TaskManager27FlattenTaskGroupsProxyModel16staticMetaObjectE@Base 4:5.8.1
+ _ZN11TaskManager27FlattenTaskGroupsProxyModel7PrivateC1EPS0_@Base 4:5.8.1
+ _ZN11TaskManager27FlattenTaskGroupsProxyModel7PrivateC2EPS0_@Base 4:5.8.1
+ _ZN11TaskManager27FlattenTaskGroupsProxyModelC1EP7QObject@Base 4:5.8.1
+ _ZN11TaskManager27FlattenTaskGroupsProxyModelC2EP7QObject@Base 4:5.8.1
+ _ZN11TaskManager27FlattenTaskGroupsProxyModelD0Ev@Base 4:5.8.1
+ _ZN11TaskManager27FlattenTaskGroupsProxyModelD1Ev@Base 4:5.8.1
+ _ZN11TaskManager27FlattenTaskGroupsProxyModelD2Ev@Base 4:5.8.1
+ _ZN11TaskManager28AbstractTasksProxyModelIface11requestMoveERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager28AbstractTasksProxyModelIface12requestCloseERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager28AbstractTasksProxyModelIface13requestResizeERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager28AbstractTasksProxyModelIface15requestActivateERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager28AbstractTasksProxyModelIface15requestOpenUrlsERK11QModelIndexRK5QListI4QUrlE@Base 4:5.8.1
+ _ZN11TaskManager28AbstractTasksProxyModelIface17requestActivitiesERK11QModelIndexRK11QStringList@Base 4:5.8.1
+ _ZN11TaskManager28AbstractTasksProxyModelIface18requestNewInstanceERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager28AbstractTasksProxyModelIface19requestToggleShadedERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager28AbstractTasksProxyModelIface21requestVirtualDesktopERK11QModelIndexi@Base 4:5.8.1
+ _ZN11TaskManager28AbstractTasksProxyModelIface22requestToggleKeepAboveERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager28AbstractTasksProxyModelIface22requestToggleKeepBelowERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager28AbstractTasksProxyModelIface22requestToggleMaximizedERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager28AbstractTasksProxyModelIface22requestToggleMinimizedERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager28AbstractTasksProxyModelIface23requestToggleFullScreenERK11QModelIndex@Base 4:5.8.1
+ _ZN11TaskManager28AbstractTasksProxyModelIface30requestPublishDelegateGeometryERK11QModelIndexRK5QRectP7QObject@Base 4:5.8.1
+ _ZN11TaskManager9appsMatchERK11QModelIndexS2_@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel10activeTaskEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel10metaObjectEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel11groupInlineEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel12countChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel12launcherListEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel13launchInPlaceEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel13launcherCountEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel14filterByScreenEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel14makeModelIndexEii@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel14screenGeometryEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel14virtualDesktopEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel15activityChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel15sortModeChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel16filterAcceptsRowEiRK11QModelIndex@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel16filterByActivityEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel16groupModeChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel16launcherPositionERK4QUrl@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel17activeTaskChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel17separateLaunchersEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel18filterNotMinimizedEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel18groupInlineChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel19launcherListChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel20launchInPlaceChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel20launcherCountChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel21filterByScreenChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel21screenGeometryChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel21virtualDesktopChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel22filterByVirtualDesktopEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel22groupingAppIdBlacklistEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel23anyTaskDemandsAttentionEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel23filterByActivityChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel24separateLaunchersChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel25filterNotMinimizedChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel28groupingLauncherUrlBlacklistEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel28groupingWindowTasksThresholdEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel29filterByVirtualDesktopChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel29groupingAppIdBlacklistChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel30anyTaskDemandsAttentionChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel35groupingLauncherUrlBlacklistChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel35groupingWindowTasksThresholdChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel4dataERK11QModelIndexi@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel7Private14preFilterIndexERK11QModelIndex@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel7Private8lessThanERK11QModelIndexS4_b@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel8activityEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel8lessThanERK11QModelIndexS3_@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel8rowCountERK11QModelIndex@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel8sortModeEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel9groupModeEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel9roleNamesEv@Base 4:5.8.1
+ _ZNK11TaskManager12ActivityInfo10metaObjectEv@Base 4:5.8.1
+ _ZNK11TaskManager12ActivityInfo15currentActivityEv@Base 4:5.8.1
+ _ZNK11TaskManager12ActivityInfo17runningActivitiesEv@Base 4:5.8.1
+ _ZNK11TaskManager12ActivityInfo22currentActivityChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager12ActivityInfo25numberOfRunningActivitiesEv@Base 4:5.8.1
+ _ZNK11TaskManager12ActivityInfo32numberOfRunningActivitiesChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager16WindowTasksModel10metaObjectEv@Base 4:5.8.1
+ _ZNK11TaskManager16WindowTasksModel16mapIfaceToSourceERK11QModelIndex@Base 4:5.8.1
+ _ZNK11TaskManager16WindowTasksModel9roleNamesEv@Base 4:5.8.1
+ _ZNK11TaskManager17StartupTasksModel10metaObjectEv@Base 4:5.8.1
+ _ZNK11TaskManager17StartupTasksModel4dataERK11QModelIndexi@Base 4:5.8.1
+ _ZNK11TaskManager17StartupTasksModel8rowCountERK11QModelIndex@Base 4:5.8.1
+ _ZNK11TaskManager17WaylandTasksModel10metaObjectEv@Base 4:5.8.1
+ _ZNK11TaskManager17WaylandTasksModel4dataERK11QModelIndexi@Base 4:5.8.1
+ _ZNK11TaskManager17WaylandTasksModel5indexEiiRK11QModelIndex@Base 4:5.8.1
+ _ZNK11TaskManager17WaylandTasksModel8rowCountERK11QModelIndex@Base 4:5.8.1
+ _ZNK11TaskManager17XWindowTasksModel10metaObjectEv@Base 4:5.8.1
+ _ZNK11TaskManager17XWindowTasksModel4dataERK11QModelIndexi@Base 4:5.8.1
+ _ZNK11TaskManager17XWindowTasksModel8rowCountERK11QModelIndex@Base 4:5.8.1
+ _ZNK11TaskManager18AbstractTasksModel10metaObjectEv@Base 4:5.8.1
+ _ZNK11TaskManager18AbstractTasksModel5indexEiiRK11QModelIndex@Base 4:5.8.1
+ _ZNK11TaskManager18AbstractTasksModel9roleNamesEv@Base 4:5.8.1
+ _ZNK11TaskManager18LauncherTasksModel10metaObjectEv@Base 4:5.8.1
+ _ZNK11TaskManager18LauncherTasksModel12launcherListEv@Base 4:5.8.1
+ _ZNK11TaskManager18LauncherTasksModel16launcherPositionERK4QUrl@Base 4:5.8.1
+ _ZNK11TaskManager18LauncherTasksModel19launcherListChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager18LauncherTasksModel4dataERK11QModelIndexi@Base 4:5.8.1
+ _ZNK11TaskManager18LauncherTasksModel8rowCountERK11QModelIndex@Base 4:5.8.1
+ _ZNK11TaskManager18VirtualDesktopInfo10metaObjectEv@Base 4:5.8.1
+ _ZNK11TaskManager18VirtualDesktopInfo12desktopNamesEv@Base 4:5.8.1
+ _ZNK11TaskManager18VirtualDesktopInfo14currentDesktopEv@Base 4:5.8.1
+ _ZNK11TaskManager18VirtualDesktopInfo16numberOfDesktopsEv@Base 4:5.8.1
+ _ZNK11TaskManager18VirtualDesktopInfo17desktopLayoutRowsEv@Base 4:5.8.1
+ _ZNK11TaskManager18VirtualDesktopInfo19desktopNamesChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager18VirtualDesktopInfo21currentDesktopChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager18VirtualDesktopInfo23numberOfDesktopsChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager18VirtualDesktopInfo24desktopLayoutRowsChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager20TaskFilterProxyModel10metaObjectEv@Base 4:5.8.1
+ _ZNK11TaskManager20TaskFilterProxyModel14filterByScreenEv@Base 4:5.8.1
+ _ZNK11TaskManager20TaskFilterProxyModel14screenGeometryEv@Base 4:5.8.1
+ _ZNK11TaskManager20TaskFilterProxyModel14virtualDesktopEv@Base 4:5.8.1
+ _ZNK11TaskManager20TaskFilterProxyModel15activityChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager20TaskFilterProxyModel15filterSkipPagerEv@Base 4:5.8.1
+ _ZNK11TaskManager20TaskFilterProxyModel16filterAcceptsRowEiRK11QModelIndex@Base 4:5.8.1
+ _ZNK11TaskManager20TaskFilterProxyModel16filterByActivityEv@Base 4:5.8.1
+ _ZNK11TaskManager20TaskFilterProxyModel16mapIfaceToSourceERK11QModelIndex@Base 4:5.8.1
+ _ZNK11TaskManager20TaskFilterProxyModel17filterSkipTaskbarEv@Base 4:5.8.1
+ _ZNK11TaskManager20TaskFilterProxyModel18filterNotMinimizedEv@Base 4:5.8.1
+ _ZNK11TaskManager20TaskFilterProxyModel21filterByScreenChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager20TaskFilterProxyModel21screenGeometryChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager20TaskFilterProxyModel21virtualDesktopChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager20TaskFilterProxyModel22filterByVirtualDesktopEv@Base 4:5.8.1
+ _ZNK11TaskManager20TaskFilterProxyModel22filterSkipPagerChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager20TaskFilterProxyModel23filterByActivityChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager20TaskFilterProxyModel24filterSkipTaskbarChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager20TaskFilterProxyModel25filterNotMinimizedChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager20TaskFilterProxyModel29filterByVirtualDesktopChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager20TaskFilterProxyModel30demandingAttentionSkipsFiltersEv@Base 4:5.8.1
+ _ZNK11TaskManager20TaskFilterProxyModel37demandingAttentionSkipsFiltersChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager20TaskFilterProxyModel8activityEv@Base 4:5.8.1
+ _ZNK11TaskManager22TaskGroupingProxyModel10metaObjectEv@Base 4:5.8.1
+ _ZNK11TaskManager22TaskGroupingProxyModel11columnCountERK11QModelIndex@Base 4:5.8.1
+ _ZNK11TaskManager22TaskGroupingProxyModel11hasChildrenERK11QModelIndex@Base 4:5.8.1
+ _ZNK11TaskManager22TaskGroupingProxyModel11mapToSourceERK11QModelIndex@Base 4:5.8.1
+ _ZNK11TaskManager22TaskGroupingProxyModel13mapFromSourceERK11QModelIndex@Base 4:5.8.1
+ _ZNK11TaskManager22TaskGroupingProxyModel16groupModeChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager22TaskGroupingProxyModel17blacklistedAppIdsEv@Base 4:5.8.1
+ _ZNK11TaskManager22TaskGroupingProxyModel20windowTasksThresholdEv@Base 4:5.8.1
+ _ZNK11TaskManager22TaskGroupingProxyModel23blacklistedLauncherUrlsEv@Base 4:5.8.1
+ _ZNK11TaskManager22TaskGroupingProxyModel23groupDemandingAttentionEv@Base 4:5.8.1
+ _ZNK11TaskManager22TaskGroupingProxyModel24blacklistedAppIdsChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager22TaskGroupingProxyModel27windowTasksThresholdChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager22TaskGroupingProxyModel30blacklistedLauncherUrlsChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager22TaskGroupingProxyModel30groupDemandingAttentionChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager22TaskGroupingProxyModel4dataERK11QModelIndexi@Base 4:5.8.1
+ _ZNK11TaskManager22TaskGroupingProxyModel5indexEiiRK11QModelIndex@Base 4:5.8.1
+ _ZNK11TaskManager22TaskGroupingProxyModel6parentERK11QModelIndex@Base 4:5.8.1
+ _ZNK11TaskManager22TaskGroupingProxyModel8rowCountERK11QModelIndex@Base 4:5.8.1
+ _ZNK11TaskManager22TaskGroupingProxyModel9groupModeEv@Base 4:5.8.1
+ _ZNK11TaskManager26ConcatenateTasksProxyModel10metaObjectEv@Base 4:5.8.1
+ _ZNK11TaskManager26ConcatenateTasksProxyModel16mapIfaceToSourceERK11QModelIndex@Base 4:5.8.1
+ _ZNK11TaskManager27FlattenTaskGroupsProxyModel10metaObjectEv@Base 4:5.8.1
+ _ZNK11TaskManager27FlattenTaskGroupsProxyModel16mapIfaceToSourceERK11QModelIndex@Base 4:5.8.1
+ _ZTIN11TaskManager10TasksModelE@Base 4:5.8.1
+ _ZTIN11TaskManager12ActivityInfoE@Base 4:5.8.1
+ _ZTIN11TaskManager16WindowTasksModelE@Base 4:5.8.1
+ _ZTIN11TaskManager17StartupTasksModelE@Base 4:5.8.1
+ _ZTIN11TaskManager17WaylandTasksModelE@Base 4:5.8.1
+ _ZTIN11TaskManager17XWindowTasksModelE@Base 4:5.8.1
+ _ZTIN11TaskManager18AbstractTasksModelE@Base 4:5.8.1
+ _ZTIN11TaskManager18LauncherTasksModelE@Base 4:5.8.1
+ _ZTIN11TaskManager18VirtualDesktopInfoE@Base 4:5.8.1
+ _ZTIN11TaskManager20TaskFilterProxyModelE@Base 4:5.8.1
+ _ZTIN11TaskManager22TaskGroupingProxyModelE@Base 4:5.8.1
+ _ZTIN11TaskManager23AbstractTasksModelIfaceE@Base 4:5.8.1
+ _ZTIN11TaskManager26ConcatenateTasksProxyModelE@Base 4:5.8.1
+ _ZTIN11TaskManager27FlattenTaskGroupsProxyModelE@Base 4:5.8.1
+ _ZTIN11TaskManager28AbstractTasksProxyModelIfaceE@Base 4:5.8.1
+ _ZTSN11TaskManager10TasksModelE@Base 4:5.8.1
+ _ZTSN11TaskManager12ActivityInfoE@Base 4:5.8.1
+ _ZTSN11TaskManager16WindowTasksModelE@Base 4:5.8.1
+ _ZTSN11TaskManager17StartupTasksModelE@Base 4:5.8.1
+ _ZTSN11TaskManager17WaylandTasksModelE@Base 4:5.8.1
+ _ZTSN11TaskManager17XWindowTasksModelE@Base 4:5.8.1
+ _ZTSN11TaskManager18AbstractTasksModelE@Base 4:5.8.1
+ _ZTSN11TaskManager18LauncherTasksModelE@Base 4:5.8.1
+ _ZTSN11TaskManager18VirtualDesktopInfoE@Base 4:5.8.1
+ _ZTSN11TaskManager20TaskFilterProxyModelE@Base 4:5.8.1
+ _ZTSN11TaskManager22TaskGroupingProxyModelE@Base 4:5.8.1
+ _ZTSN11TaskManager23AbstractTasksModelIfaceE@Base 4:5.8.1
+ _ZTSN11TaskManager26ConcatenateTasksProxyModelE@Base 4:5.8.1
+ _ZTSN11TaskManager27FlattenTaskGroupsProxyModelE@Base 4:5.8.1
+ _ZTSN11TaskManager28AbstractTasksProxyModelIfaceE@Base 4:5.8.1
+ _ZTVN11TaskManager10TasksModelE@Base 4:5.8.1
+ _ZTVN11TaskManager12ActivityInfoE@Base 4:5.8.1
+ _ZTVN11TaskManager16WindowTasksModelE@Base 4:5.8.1
+ _ZTVN11TaskManager17StartupTasksModelE@Base 4:5.8.1
+ _ZTVN11TaskManager17WaylandTasksModelE@Base 4:5.8.1
+ _ZTVN11TaskManager17XWindowTasksModelE@Base 4:5.8.1
+ _ZTVN11TaskManager18AbstractTasksModelE@Base 4:5.8.1
+ _ZTVN11TaskManager18LauncherTasksModelE@Base 4:5.8.1
+ _ZTVN11TaskManager18VirtualDesktopInfoE@Base 4:5.8.1
+ _ZTVN11TaskManager20TaskFilterProxyModelE@Base 4:5.8.1
+ _ZTVN11TaskManager22TaskGroupingProxyModelE@Base 4:5.8.1
+ _ZTVN11TaskManager26ConcatenateTasksProxyModelE@Base 4:5.8.1
+ _ZTVN11TaskManager27FlattenTaskGroupsProxyModelE@Base 4:5.8.1
+ _ZTVN11TaskManager28AbstractTasksProxyModelIfaceE@Base 4:5.8.1
+ _ZZZN15KMimeTypeTrader16preferredServiceERK7QStringS2_Ed_NKUlvE_clEvE15qstring_literal@Base 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::AbstractTasksModel::requestActivate(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::AbstractTasksModel::requestActivities(QModelIndex const&, QStringList const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::AbstractTasksModel::requestClose(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::AbstractTasksModel::requestMove(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::AbstractTasksModel::requestNewInstance(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::AbstractTasksModel::requestOpenUrls(QModelIndex const&, QList<QUrl> const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::AbstractTasksModel::requestPublishDelegateGeometry(QModelIndex const&, QRect const&, QObject*)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::AbstractTasksModel::requestResize(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::AbstractTasksModel::requestToggleFullScreen(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::AbstractTasksModel::requestToggleKeepAbove(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::AbstractTasksModel::requestToggleKeepBelow(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::AbstractTasksModel::requestToggleMaximized(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::AbstractTasksModel::requestToggleMinimized(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::AbstractTasksModel::requestToggleShaded(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::AbstractTasksModel::requestVirtualDesktop(QModelIndex const&, int)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::AbstractTasksModel::~AbstractTasksModel()@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::ConcatenateTasksProxyModel::mapIfaceToSource(QModelIndex const&) const@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::ConcatenateTasksProxyModel::~ConcatenateTasksProxyModel()@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::FlattenTaskGroupsProxyModel::mapIfaceToSource(QModelIndex const&) const@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::FlattenTaskGroupsProxyModel::~FlattenTaskGroupsProxyModel()@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::LauncherTasksModel::requestActivate(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::LauncherTasksModel::requestNewInstance(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::LauncherTasksModel::requestOpenUrls(QModelIndex const&, QList<QUrl> const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::LauncherTasksModel::~LauncherTasksModel()@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::StartupTasksModel::requestNewInstance(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::StartupTasksModel::~StartupTasksModel()@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::TaskFilterProxyModel::mapIfaceToSource(QModelIndex const&) const@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::TaskFilterProxyModel::~TaskFilterProxyModel()@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::TaskGroupingProxyModel::requestActivate(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::TaskGroupingProxyModel::requestActivities(QModelIndex const&, QStringList const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::TaskGroupingProxyModel::requestClose(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::TaskGroupingProxyModel::requestMove(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::TaskGroupingProxyModel::requestNewInstance(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::TaskGroupingProxyModel::requestOpenUrls(QModelIndex const&, QList<QUrl> const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::TaskGroupingProxyModel::requestPublishDelegateGeometry(QModelIndex const&, QRect const&, QObject*)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::TaskGroupingProxyModel::requestResize(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::TaskGroupingProxyModel::requestToggleFullScreen(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::TaskGroupingProxyModel::requestToggleKeepAbove(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::TaskGroupingProxyModel::requestToggleKeepBelow(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::TaskGroupingProxyModel::requestToggleMaximized(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::TaskGroupingProxyModel::requestToggleMinimized(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::TaskGroupingProxyModel::requestToggleShaded(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::TaskGroupingProxyModel::requestVirtualDesktop(QModelIndex const&, int)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::TaskGroupingProxyModel::~TaskGroupingProxyModel()@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::TasksModel::requestActivate(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::TasksModel::requestActivities(QModelIndex const&, QStringList const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::TasksModel::requestClose(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::TasksModel::requestMove(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::TasksModel::requestNewInstance(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::TasksModel::requestOpenUrls(QModelIndex const&, QList<QUrl> const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::TasksModel::requestPublishDelegateGeometry(QModelIndex const&, QRect const&, QObject*)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::TasksModel::requestResize(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::TasksModel::requestToggleFullScreen(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::TasksModel::requestToggleKeepAbove(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::TasksModel::requestToggleKeepBelow(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::TasksModel::requestToggleMaximized(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::TasksModel::requestToggleMinimized(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::TasksModel::requestToggleShaded(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::TasksModel::requestVirtualDesktop(QModelIndex const&, int)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::TasksModel::~TasksModel()@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::WaylandTasksModel::requestActivate(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::WaylandTasksModel::requestActivities(QModelIndex const&, QStringList const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::WaylandTasksModel::requestClose(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::WaylandTasksModel::requestMove(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::WaylandTasksModel::requestNewInstance(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::WaylandTasksModel::requestOpenUrls(QModelIndex const&, QList<QUrl> const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::WaylandTasksModel::requestPublishDelegateGeometry(QModelIndex const&, QRect const&, QObject*)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::WaylandTasksModel::requestResize(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::WaylandTasksModel::requestToggleFullScreen(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::WaylandTasksModel::requestToggleKeepAbove(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::WaylandTasksModel::requestToggleKeepBelow(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::WaylandTasksModel::requestToggleMaximized(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::WaylandTasksModel::requestToggleMinimized(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::WaylandTasksModel::requestToggleShaded(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::WaylandTasksModel::requestVirtualDesktop(QModelIndex const&, int)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::WaylandTasksModel::~WaylandTasksModel()@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::WindowTasksModel::mapIfaceToSource(QModelIndex const&) const@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::WindowTasksModel::~WindowTasksModel()@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::XWindowTasksModel::requestActivate(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::XWindowTasksModel::requestActivities(QModelIndex const&, QStringList const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::XWindowTasksModel::requestClose(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::XWindowTasksModel::requestMove(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::XWindowTasksModel::requestNewInstance(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::XWindowTasksModel::requestOpenUrls(QModelIndex const&, QList<QUrl> const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::XWindowTasksModel::requestPublishDelegateGeometry(QModelIndex const&, QRect const&, QObject*)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::XWindowTasksModel::requestResize(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::XWindowTasksModel::requestToggleFullScreen(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::XWindowTasksModel::requestToggleKeepAbove(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::XWindowTasksModel::requestToggleKeepBelow(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::XWindowTasksModel::requestToggleMaximized(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::XWindowTasksModel::requestToggleMinimized(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::XWindowTasksModel::requestToggleShaded(QModelIndex const&)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::XWindowTasksModel::requestVirtualDesktop(QModelIndex const&, int)@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::XWindowTasksModel::~XWindowTasksModel()@Base" 4:5.8.1
