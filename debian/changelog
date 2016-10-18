@@ -1,3 +1,11 @@
+plasma-workspace (4:5.8.2-1~1.gbp950e14) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @950e1423f1632e3c65800b3cdae6205547eff186 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 18 Oct 2016 21:08:33 +0200
+
 plasma-workspace (4:5.8.1-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
