@@ -1,2 +1,3 @@
 kubuntu_startkde-qtpath.diff
 disable_incompatible_tests
+Fix-Unable-to-assign-undefined-to-int-log.patch

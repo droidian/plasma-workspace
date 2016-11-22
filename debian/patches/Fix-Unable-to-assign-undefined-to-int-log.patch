@@ -1,0 +1,41 @@
+From: Maximiliano Curia <maxy@gnuservers.com.ar>
+Date: Thu, 17 Nov 2016 10:01:49 +0100
+Subject: Fix "Unable to assign [undefined] to int" log
+
+The sddm breeze theme battery icon is trying to access the battery
+percent. In a batteryless system it produces the syslog message:
+Nov 14 22:28:23 samd sddm-greeter[3210]: file:///usr/share/sddm/themes/breeze/components/Battery.qml:39:18: Unable to assign [undefined] to int
+
+Based on https://gist.github.com/Zren/4e5709d842965227088f6e1d3fd42016
+
+Debian-Bug: https://bugs.debian.org/844194
+---
+ lookandfeel/contents/components/Battery.qml | 13 +++++++++++--
+ 1 file changed, 11 insertions(+), 2 deletions(-)
+
+diff --git a/lookandfeel/contents/components/Battery.qml b/lookandfeel/contents/components/Battery.qml
+index c4a94eb..c1bbf73 100644
+--- a/lookandfeel/contents/components/Battery.qml
++++ b/lookandfeel/contents/components/Battery.qml
+@@ -33,10 +33,19 @@ Row {
+         connectedSources: ["Battery", "AC Adapter"]
+     }
+ 
++    function getBatteryData(key, def) {
++        var value = pmSource.data.Battery[key]
++        if (typeof value === "undefined") {
++            return def;
++        } else {
++            return value;
++        }
++    }
++
+     PW.BatteryIcon {
+         id: battery
+-        hasBattery: true
+-        percent: pmSource.data["Battery"]["Percent"]
++        hasBattery: getBatteryData("Has Battery", false)
++        percent: getBatteryData("Percent", 100)
+         pluggedIn: pmSource.data["AC Adapter"] ? pmSource.data["AC Adapter"]["Plugged in"] : false
+ 
+         height: batteryLabel.height
