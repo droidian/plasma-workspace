@@ -1,9 +1,11 @@
-plasma-workspace (4:5.8.3-1~2.gbpa6fe56) UNRELEASED; urgency=medium
+plasma-workspace (4:5.8.3-1~3.gbpae76a9) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @a6fe56b78034b572fd8058be18ced5920935eb08 **
+  ** SNAPSHOT build @ae76a9e3b63cd9a6420d69d82c57d6262777072a **
 
   * UNRELEASED
   * Bump qt version build deps and deps to 5.7
+  * Add new patch: Fix-Unable-to-assign-undefined-to-int-log.patch.
+    Thanks to Helge Kreutzmann for reporting and testing this (Closes: 844194)
 
  -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 01 Nov 2016 17:08:50 +0100
 
