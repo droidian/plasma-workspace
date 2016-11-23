@@ -1,14 +1,11 @@
-plasma-workspace (4:5.8.4-1~1.gbp5d0073) UNRELEASED; urgency=medium
+plasma-workspace (4:5.8.4-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @5d00731079012c038c99022fb8ec623a29cb69c7 **
-
-  * UNRELEASED
+  * New upstream release (5.8.4)
   * Bump qt version build deps and deps to 5.7
   * Add new patch: Fix-Unable-to-assign-undefined-to-int-log.patch.
     Thanks to Helge Kreutzmann for reporting and testing this (Closes: 844194)
-  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 22 Nov 2016 15:09:58 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 23 Nov 2016 18:38:24 +0100
 
 plasma-workspace (4:5.8.2-1) unstable; urgency=medium
 
