@@ -254,3 +254,24 @@ Description: Breeze SDDM theme
  Taskmanager library.
  .
  This package contains the files for the breeze SDDM theme.
+
+Package: sddm-theme-debian-breeze
+Architecture: any
+Depends: plasma-framework,
+         plasma-workspace,
+         sddm-theme-breeze,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Recommends: sddm,
+            desktop-base (>= 9.0.0~)
+Provides: sddm-theme
+Breaks: plasma-workspace (<< 4:5.0.2-0ubuntu1~ubuntu14.10~ppa5)
+Replaces: plasma-workspace (<< 4:5.0.2-0ubuntu1~ubuntu14.10~ppa5)
+Description: Debian Breeze SDDM theme
+ Plasma Workspace for KF5. Workspaces provide
+ support for KDE Plasma Widgets, integrated search,
+ hardware management and a high degree of customizability.
+ Taskmanager library.
+ .
+ This package contains the files for the breeze SDDM theme adapted
+ to use the active desktop-base theme for the background.

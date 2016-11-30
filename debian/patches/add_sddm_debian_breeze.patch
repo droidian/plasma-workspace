@@ -1,0 +1,51 @@
+Index: plasma-workspace/CMakeLists.txt
+===================================================================
+--- plasma-workspace.orig/CMakeLists.txt	2016-12-01 00:31:20.000000000 +0100
++++ plasma-workspace/CMakeLists.txt	2016-12-01 00:42:40.883970067 +0100
+@@ -122,6 +122,17 @@
+     #NOTE this trailing slash is important to rename the directory
+     install(DIRECTORY sddm-theme/ DESTINATION ${KDE_INSTALL_FULL_DATADIR}/sddm/themes/breeze PATTERN "README.txt" EXCLUDE PATTERN "components" EXCLUDE PATTERN "dummydata" EXCLUDE)
+     install(DIRECTORY lookandfeel/contents/components DESTINATION ${KDE_INSTALL_FULL_DATADIR}/sddm/themes/breeze PATTERN "README.txt" EXCLUDE)
++
++# Install Debian-themed SDDM theme
++    file(COPY "sddm-theme/Main.qml" DESTINATION "${CMAKE_CURRENT_SOURCE_DIR}/sddm-theme-debian")
++    set(SED_EXPR "s=^[[:space:]]*import[[:space:]]*\\\"components\\\"[[:space:]]*$=import \\\"../breeze\\\"\\nimport \\\"../breeze/components\\\"=")
++    execute_process(COMMAND sed -i -e "${SED_EXPR}" "${CMAKE_CURRENT_SOURCE_DIR}/sddm-theme-debian/Main.qml" RESULT_VARIABLE SED_RES OUTPUT_VARIABLE SED_OUT ERROR_VARIABLE SED_ERR)
++    message("Result of sed replacement for debian-breeze imports in Main.qml: (Res: ${SED_RES}, Out: ${SED_OUT}, Err: ${SED_ERR})")
++
++    #NOTE this trailing slash is important to rename the directory
++    install(DIRECTORY sddm-theme-debian/ DESTINATION ${KDE_INSTALL_FULL_DATADIR}/sddm/themes/debian-breeze)
++    # Patch Main.qml to directly use ../breeze qml files
++
+ endif()
+ 
+ add_definitions(-DQT_NO_URL_CAST_FROM_STRING)
+Index: plasma-workspace/sddm-theme-debian/metadata.desktop
+===================================================================
+--- /dev/null	1970-01-01 00:00:00.000000000 +0000
++++ plasma-workspace/sddm-theme-debian/metadata.desktop	2016-12-01 00:31:24.000000000 +0100
+@@ -0,0 +1,17 @@
++[SddmGreeterTheme]
++Name=Debian Breeze
++Description=Breeze Theme using Debian artwork
++Description[fr]=Thème brise utilisant l’apparence Debian
++Author=David Edmundson
++Copyright=(c) 2014, David Edmundson
++License=CC-BY-SA
++Type=sddm-theme
++Version=0.1
++Website=https://github.com/sddm/sddm
++Screenshot=preview.png
++MainScript=Main.qml
++ConfigFile=theme.conf
++TranslationsDirectory=translations
++Email=davidedmundson@kde.org
++Theme-Id=debian-breeze
++Theme-API=2.0
+Index: plasma-workspace/sddm-theme-debian/theme.conf
+===================================================================
+--- /dev/null	1970-01-01 00:00:00.000000000 +0000
++++ plasma-workspace/sddm-theme-debian/theme.conf	2016-12-01 00:31:24.000000000 +0100
+@@ -0,0 +1,2 @@
++[General]
++background=/usr/share/desktop-base/active-theme/login/background.svg
