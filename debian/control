@@ -262,11 +262,8 @@ Depends: plasma-framework,
          sddm-theme-breeze,
          ${misc:Depends},
          ${shlibs:Depends}
-Recommends: sddm,
-            desktop-base (>= 9.0.0~)
+Recommends: desktop-base (>= 9.0.0~), sddm
 Provides: sddm-theme
-Breaks: plasma-workspace (<< 4:5.0.2-0ubuntu1~ubuntu14.10~ppa5)
-Replaces: plasma-workspace (<< 4:5.0.2-0ubuntu1~ubuntu14.10~ppa5)
 Description: Debian Breeze SDDM theme
  Plasma Workspace for KF5. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
