@@ -194,6 +194,7 @@ usr/share/kservices5/programs.protocol
 usr/share/kservices5/recentdocuments.desktop
 usr/share/kservicetypes5/phononbackend.desktop
 usr/share/kservicetypes5/plasma-geolocationprovider.desktop
+usr/share/kservicetypes5/plasma-layouttemplate.desktop
 usr/share/kservicetypes5/plasma_shareprovider.desktop
 usr/share/ksmserver/
 usr/share/ksplash/
