@@ -1,11 +1,11 @@
-plasma-workspace (4:5.8.5-1~) UNRELEASED; urgency=medium
+plasma-workspace (4:5.8.5-1) experimental; urgency=medium
 
   * New upstream release (5.8.5).
   * Drop upstream applied patch: Fix-Unable-to-assign-undefined-to-int-
     log.patch
   * Update symbols files.
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 28 Dec 2016 15:24:52 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 30 Dec 2016 18:46:22 +0100
 
 plasma-workspace (4:5.8.4-1) unstable; urgency=medium
 
