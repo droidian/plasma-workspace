@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.8.1 amd64 armhf i386
+# SymbolsHelper-Confirmed: 4:5.8.5 amd64
 libtaskmanager.so.6 libtaskmanager6 #MINVER#
  _ZN11TaskManager10TasksModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.8.1
  _ZN11TaskManager10TasksModel11qt_metacastEPKc@Base 4:5.8.1
@@ -305,6 +305,14 @@ libtaskmanager.so.6 libtaskmanager6 #MINVER#
  _ZN11TaskManager22TaskGroupingProxyModelD0Ev@Base 4:5.8.1
  _ZN11TaskManager22TaskGroupingProxyModelD1Ev@Base 4:5.8.1
  _ZN11TaskManager22TaskGroupingProxyModelD2Ev@Base 4:5.8.1
+ _ZN11TaskManager24AbstractWindowTasksModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.8.5
+ _ZN11TaskManager24AbstractWindowTasksModel11qt_metacastEPKc@Base 4:5.8.5
+ _ZN11TaskManager24AbstractWindowTasksModel16staticMetaObjectE@Base 4:5.8.5
+ _ZN11TaskManager24AbstractWindowTasksModelC1EP7QObject@Base 4:5.8.5
+ _ZN11TaskManager24AbstractWindowTasksModelC2EP7QObject@Base 4:5.8.5
+ _ZN11TaskManager24AbstractWindowTasksModelD0Ev@Base 4:5.8.5
+ _ZN11TaskManager24AbstractWindowTasksModelD1Ev@Base 4:5.8.5
+ _ZN11TaskManager24AbstractWindowTasksModelD2Ev@Base 4:5.8.5
  _ZN11TaskManager26ConcatenateTasksProxyModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.8.1
  _ZN11TaskManager26ConcatenateTasksProxyModel11qt_metacastEPKc@Base 4:5.8.1
  _ZN11TaskManager26ConcatenateTasksProxyModel16staticMetaObjectE@Base 4:5.8.1
@@ -468,6 +476,7 @@ libtaskmanager.so.6 libtaskmanager6 #MINVER#
  _ZNK11TaskManager22TaskGroupingProxyModel6parentERK11QModelIndex@Base 4:5.8.1
  _ZNK11TaskManager22TaskGroupingProxyModel8rowCountERK11QModelIndex@Base 4:5.8.1
  _ZNK11TaskManager22TaskGroupingProxyModel9groupModeEv@Base 4:5.8.1
+ _ZNK11TaskManager24AbstractWindowTasksModel10metaObjectEv@Base 4:5.8.5
  _ZNK11TaskManager26ConcatenateTasksProxyModel10metaObjectEv@Base 4:5.8.1
  _ZNK11TaskManager26ConcatenateTasksProxyModel16mapIfaceToSourceERK11QModelIndex@Base 4:5.8.1
  _ZNK11TaskManager27FlattenTaskGroupsProxyModel10metaObjectEv@Base 4:5.8.1
@@ -484,6 +493,7 @@ libtaskmanager.so.6 libtaskmanager6 #MINVER#
  _ZTIN11TaskManager20TaskFilterProxyModelE@Base 4:5.8.1
  _ZTIN11TaskManager22TaskGroupingProxyModelE@Base 4:5.8.1
  _ZTIN11TaskManager23AbstractTasksModelIfaceE@Base 4:5.8.1
+ _ZTIN11TaskManager24AbstractWindowTasksModelE@Base 4:5.8.5
  _ZTIN11TaskManager26ConcatenateTasksProxyModelE@Base 4:5.8.1
  _ZTIN11TaskManager27FlattenTaskGroupsProxyModelE@Base 4:5.8.1
  _ZTIN11TaskManager28AbstractTasksProxyModelIfaceE@Base 4:5.8.1
@@ -499,6 +509,7 @@ libtaskmanager.so.6 libtaskmanager6 #MINVER#
  _ZTSN11TaskManager20TaskFilterProxyModelE@Base 4:5.8.1
  _ZTSN11TaskManager22TaskGroupingProxyModelE@Base 4:5.8.1
  _ZTSN11TaskManager23AbstractTasksModelIfaceE@Base 4:5.8.1
+ _ZTSN11TaskManager24AbstractWindowTasksModelE@Base 4:5.8.5
  _ZTSN11TaskManager26ConcatenateTasksProxyModelE@Base 4:5.8.1
  _ZTSN11TaskManager27FlattenTaskGroupsProxyModelE@Base 4:5.8.1
  _ZTSN11TaskManager28AbstractTasksProxyModelIfaceE@Base 4:5.8.1
@@ -513,6 +524,7 @@ libtaskmanager.so.6 libtaskmanager6 #MINVER#
  _ZTVN11TaskManager18VirtualDesktopInfoE@Base 4:5.8.1
  _ZTVN11TaskManager20TaskFilterProxyModelE@Base 4:5.8.1
  _ZTVN11TaskManager22TaskGroupingProxyModelE@Base 4:5.8.1
+ _ZTVN11TaskManager24AbstractWindowTasksModelE@Base 4:5.8.5
  _ZTVN11TaskManager26ConcatenateTasksProxyModelE@Base 4:5.8.1
  _ZTVN11TaskManager27FlattenTaskGroupsProxyModelE@Base 4:5.8.1
  _ZTVN11TaskManager28AbstractTasksProxyModelIfaceE@Base 4:5.8.1
@@ -533,6 +545,7 @@ libtaskmanager.so.6 libtaskmanager6 #MINVER#
  (c++)"non-virtual thunk to TaskManager::AbstractTasksModel::requestToggleShaded(QModelIndex const&)@Base" 4:5.8.1
  (c++)"non-virtual thunk to TaskManager::AbstractTasksModel::requestVirtualDesktop(QModelIndex const&, int)@Base" 4:5.8.1
  (c++)"non-virtual thunk to TaskManager::AbstractTasksModel::~AbstractTasksModel()@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::AbstractWindowTasksModel::~AbstractWindowTasksModel()@Base" 4:5.8.5
  (c++)"non-virtual thunk to TaskManager::ConcatenateTasksProxyModel::mapIfaceToSource(QModelIndex const&) const@Base" 4:5.8.1
  (c++)"non-virtual thunk to TaskManager::ConcatenateTasksProxyModel::~ConcatenateTasksProxyModel()@Base" 4:5.8.1
  (c++)"non-virtual thunk to TaskManager::FlattenTaskGroupsProxyModel::mapIfaceToSource(QModelIndex const&) const@Base" 4:5.8.1

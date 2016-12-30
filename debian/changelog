@@ -3,6 +3,7 @@ plasma-workspace (4:5.8.5-1~) UNRELEASED; urgency=medium
   * New upstream release (5.8.5).
   * Drop upstream applied patch: Fix-Unable-to-assign-undefined-to-int-
     log.patch
+  * Update symbols files.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 28 Dec 2016 15:24:52 +0100
 
