@@ -184,7 +184,7 @@ Replaces: kde-workspace-bin,
           plasma-systray-legacy,
           plasma-workspace-data,
           ${kde-l10n:all}
-Provides: notification-daemon
+Provides: notification-daemon, x-session-manager
 Recommends: kio-extras, libpam-kwallet5
 Description: Plasma Workspace for KF5
  Plasma Workspace for KF5. Workspaces provide
