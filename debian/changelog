@@ -1,4 +1,4 @@
-plasma-workspace (4:5.8.6-1~) UNRELEASED; urgency=medium
+plasma-workspace (4:5.8.6-1) experimental; urgency=medium
 
   * New upstream release (5.8.6) (Closes: 844707)
   * Add missing runtime dependency qml-module-org-kde-kholidays.
@@ -9,7 +9,7 @@ plasma-workspace (4:5.8.6-1~) UNRELEASED; urgency=medium
   * Recommend powerdevil.
     Thanks to Salvo Tomaselli for reporting (Closes: 793463)
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 07 Mar 2017 10:49:06 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 08 Mar 2017 19:10:29 +0100
 
 plasma-workspace (4:5.8.5-1) experimental; urgency=medium
 
