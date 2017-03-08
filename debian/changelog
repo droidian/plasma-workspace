@@ -1,6 +1,11 @@
 plasma-workspace (4:5.8.6-1~) UNRELEASED; urgency=medium
 
-  * 
+  * New upstream release (5.8.6) (Closes: 844707)
+  * Add missing runtime dependency qml-module-org-kde-kholidays.
+    Thanks to Ignacio R. Morelle and YOSHINO Yoshihito for the report
+    (Closes: 836241)
+  * Add missing provides for x-session-manager.
+    Thanks to Wolfgang Schweer for reporting (Closes: 853885)
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 07 Mar 2017 10:49:06 +0100
 
