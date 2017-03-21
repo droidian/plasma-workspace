@@ -15,6 +15,7 @@ usr/bin/ksmserver
 usr/bin/ksplashqml
 usr/bin/kstartupconfig5
 usr/bin/kuiserver5
+usr/bin/plasma_waitforname
 usr/bin/plasmashell
 usr/bin/plasmawindowed
 usr/bin/startkde
@@ -84,6 +85,7 @@ usr/share/applications/org.kde.klipper.desktop
 usr/share/applications/plasma-windowed.desktop
 usr/share/config.kcfg/freespacenotifier.kcfg
 usr/share/dbus-1/services/kf5_org.kde.kuiserver.service
+usr/share/dbus-1/services/org.freedesktop.Notifications.service
 usr/share/dbus-1/services/org.kde.krunner.service
 usr/share/desktop-directories/
 usr/share/doc/HTML/*/kcontrol/
