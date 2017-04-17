@@ -31,6 +31,7 @@ usr/lib/*/libkdeinit5_kcminit_startup.so
 usr/lib/*/libkdeinit5_klipper.so
 usr/lib/*/libkdeinit5_ksmserver.so
 usr/lib/*/libkdeinit5_kuiserver5.so
+usr/lib/*/qt5/plugins/appstreamrunner.so
 usr/lib/*/qt5/plugins/kcm_krunner_kill.so
 usr/lib/*/qt5/plugins/kf5/kded/appmenu.so
 usr/lib/*/qt5/plugins/kf5/kded/desktopnotifier.so
@@ -100,6 +101,7 @@ usr/share/kio_desktop/directory.trash
 usr/share/knotifications5/freespacenotifier.notifyrc
 usr/share/knotifications5/phonon.notifyrc
 usr/share/kservices5/applications.protocol
+usr/share/kservices5/appstreamrunner.desktop
 usr/share/kservices5/desktop.protocol
 usr/share/kservices5/ion-bbcukmet.desktop
 usr/share/kservices5/ion-envcan.desktop
