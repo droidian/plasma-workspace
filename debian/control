@@ -93,6 +93,7 @@ Package: plasma-workspace-dev
 Architecture: any
 Depends: libkf5itemmodels-dev,
          libkf5plasma-dev (>= 5.34.0~),
+         kwin-common,
          libkf5sysguard-dev,
          libkf5windowsystem-dev (>= 5.4.0),
          plasma-workspace (= ${binary:Version}),
