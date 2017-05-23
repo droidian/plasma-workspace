@@ -200,6 +200,9 @@ usr/share/ksmserver/
 usr/share/ksplash/
 usr/share/kstyle/
 usr/share/locale/
+usr/share/metainfo/org.kde.breeze.desktop.appdata.xml
+usr/share/metainfo/org.kde.color.appdata.xml
+usr/share/metainfo/org.kde.image.appdata.xml
 usr/share/metainfo/org.kde.plasma.activitybar.appdata.xml
 usr/share/metainfo/org.kde.plasma.analogclock.appdata.xml
 usr/share/metainfo/org.kde.plasma.appmenu.appdata.xml
@@ -216,6 +219,7 @@ usr/share/metainfo/org.kde.plasma.panelspacer.appdata.xml
 usr/share/metainfo/org.kde.plasma.private.systemtray.appdata.xml
 usr/share/metainfo/org.kde.plasma.systemmonitor.*.appdata.xml
 usr/share/metainfo/org.kde.plasma.systemtray.appdata.xml
+usr/share/metainfo/org.kde.slideshow.appdata.xml
 usr/share/plasma/look-and-feel/
 usr/share/plasma/plasmoids/
 usr/share/plasma/services/
