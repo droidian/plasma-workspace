@@ -1,3 +1,4 @@
 kubuntu_startkde-qtpath.diff
 disable_incompatible_tests
 add_sddm_debian_breeze.patch
+replace-fds.patch
