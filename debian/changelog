@@ -90,7 +90,7 @@ plasma-workspace (4:5.8.7-1~) UNRELEASED; urgency=medium
         and finally QProcess simply eats all stdout/stderr of all such processes
         (which, when daemonized, can lead even to the processes getting SIGPIPE'd).
         If the application to start is a KService, simply launch it as such.
-        Fixes KDE#369391,  KDE#370528
+        Fixes KDE#369391,  KDE#370528 (Closes: 840478)
       + use KProcess instead of QProcess to launch apps in ksmserver
         Follow-up to the previous commit. KProcess has saner defaults for simply
         launching an app and being done with it, no lost stdout/stderr or even SIGPIPE.
