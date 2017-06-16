@@ -1,3 +1,139 @@
+plasma-workspace (4:5.8.7-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (5.8.7)
+      + [Logout Screen] Show suspend button only if supported
+        Fixes KDE#376601
+      + try harder to make the selected wallpaper visible
+        qml gridview don't have an official way to ensure the
+        current index is visible when the view is first instantiated,
+        the only way we have is to do positionViewAtIndex when we know the
+        proper space has already been allocated (Component.onCompleted
+        is way too early) we used to do that on onCountChanged, but that
+        too seems to early sometimes, as the selected wallpaper
+        is visible only sometimes, attaching it to onContentHeightChanged
+        seems to be more reliable (for all branches)
+      + Ignore NoDisplay=true .desktop entries when matching by Name.
+        We currently match Krita by Name. It's classClass is "krita",
+        but its DesktopEntryName is org.kde.krita.desktop. However,
+        Krita also installs numerous additional .desktop entries to
+        associate more file types by itself, all of which match by
+        name, and the first one in the list isn't the right one. All
+        of those extra .desktop files are NoDisplay=true however, so
+        we can filter them out, which brings the match list down to
+        the one and only .desktop file we care for.
+      + try proper order of corona()->availableScreenRect()
+        connect to Plasma::Corona::availableScreenRectChanged
+        instead of using kscreen, this way we should be more sure
+        that signal is emitted when it's safe to call
+        corona()->availableScreenRect() as the change of rect
+        may happen after a screen removal, so may mean
+        accessing a desktop view while being deleted
+        Fixes KDE#377298
+      + don't emit availableScreenRectChanged when quitting
+        if applets react to it it can cause a crash, because the corona
+        may not be valid anymore, and we don't want to relayout
+        things anyways when tearing down
+      + manage mouse events when out of the window
+        mouseareas must support event grabbing when the mouse is out of the window too
+        Fixes KDE#377545
+      + [OSD] Allow disabling OSD through config file
+      + [Calculator Runner] Use "approximate" approximation mode
+        The runner calculator isn't entitled for being a scientifically correct calculator.
+        This keeps seemingly innocent calculations such as "2^0.333333333" from eating all RAM until it crashes.
+        A hint is added to the result if it is only an approximation.
+        Fixes KDE#277011
+      + Fix TasksModel.anyTaskDemandsAttention not updating on window closure.
+        Previously we updated the prop after checking for
+        AbstractTasksModel::IsDemandingAttention on window closure, but
+        as the window is gone, we can't actually get state for it anymore,
+        so we always need to update.
+        To make up for it, this patch also optimizes the prop updates to occur
+        only once per insert/remove batch - this is a bit academic because
+        the source models currently only insert single rows at a time, but
+        it's good hygiene.
+        Fixes KDE#378254
+      + Correctly handle when a new primary screen displaces the old
+        this is for the following setup:
+        the primary screen is at position 0,0 and gets disconnected.
+        the other screen will be moved at 0,0 and becomes primary
+        the screen is reconnected, the events arrive in the followin order:
+        1) a new screen gets added, at 0,0 position
+           (not primary yet, it may be markedredundant)
+        2) the screen becomes primary, both screens still at 0,0
+        3) the old screen gets moved out of the way
+        in the end result none of the two need to be redundant.
+        adding the old one in the redundant list, will cause reconsideroutputs
+        to consider it and create a view for it.
+      + When deleting the panel the notifications applet is in, the containment is being destroyed but the corona
+        is still there and rightfully emits availableScreenRectChanged.
+        This will cause us to crash when we try to access the no-longer existing containment.
+        Related to KDE#378508
+      + [Media Controller] Use double for length instead of int
+        Length is in microseconds, so watching a long video (in excess of 33.3 minutes) will break the slider.
+        CHANGELOG: Media Controller can now properly handle and seek long tracks (> 30 minutes)
+        Fixes KDE#377623
+      + Fix off-by-one.
+        Related to KDE#373075
+      + [Media Controller] Enforce PlainText format
+        Unfortunately doesn't apply to toolTipMainText
+      + recognize the WM even if given with a full path
+        Normally kWin is launched simply as "kwin" ("kwin_x11", whatever), but
+        in some cases it's restart command may be "/usr/bin/kwin", most notably
+        when KWin restarts itself after a crash. Failing to recognize this client
+        as the WM leads to KWin starting without any session management restoring.
+        Related to KDE#377756
+      + launch autostart apps in ksmserver using KRun, not QProcess
+        The "move" (copy in fact) of the autostart code from klauncher simply
+        switched to QProcess. This resulted in a number of problems, as the incorrect
+        handling of .desktop file command if it had placeholders (worked around
+        already), kdeinit is no longer used (not sure how much that matters nowadays)
+        and finally QProcess simply eats all stdout/stderr of all such processes
+        (which, when daemonized, can lead even to the processes getting SIGPIPE'd).
+        If the application to start is a KService, simply launch it as such.
+        Fixes KDE#369391,  KDE#370528
+      + use KProcess instead of QProcess to launch apps in ksmserver
+        Follow-up to the previous commit. KProcess has saner defaults for simply
+        launching an app and being done with it, no lost stdout/stderr or even SIGPIPE.
+        Related to KDE#369391, KDE#370528
+      + selecting the topmost klipper item should always set it as clipboard contents
+        Without this, that wasn't always the case if the top item was only the mouse
+        selection. This was presumably broken by 2e47d84772.
+        Also explicitly check the popup item, since it's now owned by Klipper.
+        Fixes KDE#348390, KDE#251222
+      + Revert "launch autostart apps in ksmserver using KRun"
+        KRun::runApplication will show blocking error dialogs if it fails to
+        find the executable
+        This means we don't autostart the next app, which could be fatal if it
+        comes before...
+        ...kwin/plasma
+        We shouldn't be having blocking calls in ksmserver it can deadlock
+        And even in the best case we'd still end up blocking ksplash for 30
+        seconds
+        We then port to KProcess which was part of the motivation behind the
+        patch as it
+        has better stdout handling
+        This reverts commit 0f19e92f3e85d064de9cebf280fa8e085485c2e0.
+        Fixes KDE#379254
+        Also added port of autostarting applications to KProcess
+        It has better stdout handling
+      + Update unit test to match change to reselecting top entry
+        37014e643cec4ee9aed54421f66c675e1bc91b70 introduced a change in the
+        behaviour of what happens when you select the top entry in the list.
+        Change makes some sense. Unit test was not updated, it therefore failed.
+      + [Weather] Fix lookup of bbcukmet translations strings, stored in lowercase
+      + [Weather] Remove duplicated/bad strings from bbcukmet data db
+      + [Weather] Add missing strings from bbcukmet data db
+      + [Weather] Fix term used for thunderstorm in bbcukmet data db
+      + don't check for panel visible during startup
+        if any kscreen related activities occurred
+        during startup, the panel wouldn't be visible
+        yet, and this would assert. This often happens
+        when a screen gets disabled at startup
+        Related to KDE#377280
+      + remove useless debug
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 16 Jun 2017 15:02:49 +0200
+
 plasma-workspace (4:5.8.6-2.1) unstable; urgency=medium
 
   * Non-maintainer upload.
