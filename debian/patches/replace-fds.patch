@@ -1,7 +1,10 @@
-Description: Not close stdin,stdout,stderr, and redirects stdin,stdout,stderr to /dev/null
- This fix a bug in ksplashqml. An upstream commit
- https://cgit.kde.org/plasma-workspace.git/commit/?id=56d2c15b9acb9c4b57398b281685807c3191f622
- has caused this problem.
+From: YOSHINO Yoshihito <yy.y.ja.jp@gmail.com>
+Date: Fri, 16 Jun 2017 15:09:35 +0200
+Subject: Not close stdin,stdout,stderr, and redirects stdin,stdout,stderr
+
+This fix a bug in ksplashqml. An upstream commit
+https://cgit.kde.org/plasma-workspace.git/commit/?id=56d2c15b9acb9c4b57398b281685807c3191f622
+has caused this problem.
 
  x-session-manag,133,kdetest /usr/bin/x-session-manager
    +-(ksplashqml,232)
@@ -76,9 +79,14 @@ Forwarded: https://bugs.kde.org/show_bug.cgi?id=380495
 Bug-Debian: https://bugs.debian.org/862558
 Author: YOSHINO Yoshihito <yy.y.ja.jp@gmail.com>
 Last-Update: 2017-06-02
+---
+ ksplash/ksplashqml/main.cpp | 20 +++++++++++++-------
+ 1 file changed, 13 insertions(+), 7 deletions(-)
 
---- plasma-workspace-5.8.6.orig/ksplash/ksplashqml/main.cpp
-+++ plasma-workspace-5.8.6/ksplash/ksplashqml/main.cpp
+diff --git a/ksplash/ksplashqml/main.cpp b/ksplash/ksplashqml/main.cpp
+index 25faacd..03c9e08 100644
+--- a/ksplash/ksplashqml/main.cpp
++++ b/ksplash/ksplashqml/main.cpp
 @@ -24,6 +24,9 @@
  #include <QTextStream>
  

@@ -1,8 +1,21 @@
-Index: plasma-workspace/CMakeLists.txt
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Fri, 16 Jun 2017 15:09:35 +0200
+Subject: add_sddm_debian_breeze
+
 ===================================================================
---- plasma-workspace.orig/CMakeLists.txt	2016-12-01 00:31:20.000000000 +0100
-+++ plasma-workspace/CMakeLists.txt	2016-12-01 00:42:40.883970067 +0100
-@@ -122,6 +122,17 @@
+---
+ CMakeLists.txt                     | 11 +++++++++++
+ sddm-theme-debian/metadata.desktop | 17 +++++++++++++++++
+ sddm-theme-debian/theme.conf       |  2 ++
+ 3 files changed, 30 insertions(+)
+ create mode 100644 sddm-theme-debian/metadata.desktop
+ create mode 100644 sddm-theme-debian/theme.conf
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index caec7bd..e7a310c 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -122,6 +122,17 @@ if (INSTALL_SDDM_THEME)
      #NOTE this trailing slash is important to rename the directory
      install(DIRECTORY sddm-theme/ DESTINATION ${KDE_INSTALL_FULL_DATADIR}/sddm/themes/breeze PATTERN "README.txt" EXCLUDE PATTERN "components" EXCLUDE PATTERN "dummydata" EXCLUDE)
      install(DIRECTORY lookandfeel/contents/components DESTINATION ${KDE_INSTALL_FULL_DATADIR}/sddm/themes/breeze PATTERN "README.txt" EXCLUDE)
@@ -20,10 +33,11 @@ Index: plasma-workspace/CMakeLists.txt
  endif()
  
  add_definitions(-DQT_NO_URL_CAST_FROM_STRING)
-Index: plasma-workspace/sddm-theme-debian/metadata.desktop
-===================================================================
---- /dev/null	1970-01-01 00:00:00.000000000 +0000
-+++ plasma-workspace/sddm-theme-debian/metadata.desktop	2016-12-01 00:31:24.000000000 +0100
+diff --git a/sddm-theme-debian/metadata.desktop b/sddm-theme-debian/metadata.desktop
+new file mode 100644
+index 0000000..e54529c
+--- /dev/null
++++ b/sddm-theme-debian/metadata.desktop
 @@ -0,0 +1,17 @@
 +[SddmGreeterTheme]
 +Name=Debian Breeze
@@ -42,10 +56,11 @@ Index: plasma-workspace/sddm-theme-debian/metadata.desktop
 +Email=davidedmundson@kde.org
 +Theme-Id=debian-breeze
 +Theme-API=2.0
-Index: plasma-workspace/sddm-theme-debian/theme.conf
-===================================================================
---- /dev/null	1970-01-01 00:00:00.000000000 +0000
-+++ plasma-workspace/sddm-theme-debian/theme.conf	2016-12-01 00:31:24.000000000 +0100
+diff --git a/sddm-theme-debian/theme.conf b/sddm-theme-debian/theme.conf
+new file mode 100644
+index 0000000..c4bf093
+--- /dev/null
++++ b/sddm-theme-debian/theme.conf
 @@ -0,0 +1,2 @@
 +[General]
 +background=/usr/share/desktop-base/active-theme/login/background.svg
