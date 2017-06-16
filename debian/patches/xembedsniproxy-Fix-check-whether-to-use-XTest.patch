@@ -1,0 +1,262 @@
+From: Wolfgang Bauer <wbauer@tmo.at>
+Date: Wed, 31 May 2017 13:36:59 +0200
+Subject: [xembedsniproxy] Fix check whether to use XTest
+
+Because of C++'s operator precedence, '!' logically negated
+all_event_masks only instead of the whole expression.
+This resulted in the condition always being false and XTest never being
+used.
+
+Adding a pair of brackets fixes it.
+
+BUG: 362941
+BUG: 375017
+FIXED-IN: 5.10.1
+Differential Revision: https://phabricator.kde.org/D6048
+---
+ xembed-sni-proxy/CMakeLists.txt         |  8 +++-----
+ xembed-sni-proxy/sniproxy.cpp           | 27 +++++++++++++++++++++++++--
+ xembed-sni-proxy/sniproxy.h             |  7 +++++++
+ xembed-sni-proxy/xembedsniproxy.desktop |  3 ++-
+ xembed-sni-proxy/xtestsender.cpp        | 32 ++++++++++++++++++++++++++++++++
+ xembed-sni-proxy/xtestsender.h          | 28 ++++++++++++++++++++++++++++
+ 6 files changed, 97 insertions(+), 8 deletions(-)
+ create mode 100644 xembed-sni-proxy/xtestsender.cpp
+ create mode 100644 xembed-sni-proxy/xtestsender.h
+
+diff --git a/xembed-sni-proxy/CMakeLists.txt b/xembed-sni-proxy/CMakeLists.txt
+index aec248f..1a5322a 100644
+--- a/xembed-sni-proxy/CMakeLists.txt
++++ b/xembed-sni-proxy/CMakeLists.txt
+@@ -1,5 +1,3 @@
+-project(xembedsniproxy)
+-
+ add_definitions(-DQT_NO_CAST_TO_ASCII
+ -DQT_NO_CAST_FROM_ASCII
+ -DQT_NO_URL_CAST_FROM_STRING
+@@ -28,14 +26,13 @@ set(XCB_LIBS
+     XCB::IMAGE
+ )
+ 
+-
+-
+ set(XEMBED_SNI_PROXY_SOURCES
+     main.cpp
+     fdoselectionmanager.cpp
+     snidbus.cpp
+     sniproxy.cpp
+-)
++    xtestsender.cpp
++ )
+ 
+ qt5_add_dbus_adaptor(XEMBED_SNI_PROXY_SOURCES org.kde.StatusNotifierItem.xml
+                      sniproxy.h SNIProxy)
+@@ -61,6 +58,7 @@ target_link_libraries(xembedsniproxy
+     Qt5::DBus
+     KF5::WindowSystem
+     ${XCB_LIBS}
++    Xtst
+ )
+ 
+ install(TARGETS xembedsniproxy ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
+diff --git a/xembed-sni-proxy/sniproxy.cpp b/xembed-sni-proxy/sniproxy.cpp
+index c935c9e..5974baf 100644
+--- a/xembed-sni-proxy/sniproxy.cpp
++++ b/xembed-sni-proxy/sniproxy.cpp
+@@ -41,6 +41,10 @@
+ #include "statusnotifieritemadaptor.h"
+ #include "statusnotifierwatcher_interface.h"
+ 
++#include "xtestsender.h"
++
++//#define VISUAL_DEBUG
++
+ #define SNI_WATCHER_SERVICE_NAME "org.kde.StatusNotifierWatcher"
+ #define SNI_WATCHER_PATH "/StatusNotifierWatcher"
+ 
+@@ -72,7 +76,8 @@ SNIProxy::SNIProxy(xcb_window_t wid, QObject* parent):
+     //there is an undocumented feature that you can register an SNI by path, however it doesn't detect an object on a service being removed, only the entire service closing
+     //instead lets use one DBus connection per SNI
+     m_dbus(QDBusConnection::connectToBus(QDBusConnection::SessionBus, QStringLiteral("XembedSniProxy%1").arg(s_serviceCount++))),
+-    m_windowId(wid)
++    m_windowId(wid),
++    m_injectMode(Direct)
+ {
+     //create new SNI
+     new StatusNotifierItemAdaptor(this);
+@@ -195,6 +200,19 @@ SNIProxy::SNIProxy(xcb_window_t wid, QObject* parent):
+ 
+     xcb_flush(c);
+ 
++    //guess which input injection method to use
++    //we can either send an X event to the client or XTest
++    //some don't support direct X events (GTK3/4), and some don't support XTest because reasons
++    //note also some clients might not have the XTest extension. We may as well assume it does and just fail to send later.
++
++    //we query if the client selected button presses in the event mask
++    //if the client does supports that we send directly, otherwise we'll use xtest
++    auto waCookie = xcb_get_window_attributes(c, wid);
++    auto windowAttributes = xcb_get_window_attributes_reply(c, waCookie, nullptr);
++    if (! (windowAttributes->all_event_masks & XCB_EVENT_MASK_BUTTON_PRESS)) {
++        m_injectMode = XTest;
++    }
++
+     //there's no damage event for the first paint, and sometimes it's not drawn immediately
+     //not ideal, but it works better than nothing
+     //test with xchat before changing
+@@ -470,7 +488,7 @@ void SNIProxy::sendClick(uint8_t mouseButton, int x, int y)
+     xcb_configure_window(c, m_containerWid, XCB_CONFIG_WINDOW_STACK_MODE, stackAboveData);
+ 
+     //mouse down
+-    {
++    if (m_injectMode == Direct) {
+         xcb_button_press_event_t* event = new xcb_button_press_event_t;
+         memset(event, 0x00, sizeof(xcb_button_press_event_t));
+         event->response_type = XCB_BUTTON_PRESS;
+@@ -488,9 +506,12 @@ void SNIProxy::sendClick(uint8_t mouseButton, int x, int y)
+ 
+         xcb_send_event(c, false, m_windowId, XCB_EVENT_MASK_BUTTON_PRESS, (char *) event);
+         delete event;
++    } else {
++        sendXTestPressed(QX11Info::display(), mouseButton);
+     }
+ 
+     //mouse up
++    if (m_injectMode == Direct)
+     {
+         xcb_button_release_event_t* event = new xcb_button_release_event_t;
+         memset(event, 0x00, sizeof(xcb_button_release_event_t));
+@@ -509,6 +530,8 @@ void SNIProxy::sendClick(uint8_t mouseButton, int x, int y)
+ 
+         xcb_send_event(c, false, m_windowId, XCB_EVENT_MASK_BUTTON_RELEASE, (char *) event);
+         delete event;
++    } else {
++        sendXTestReleased(QX11Info::display(), mouseButton);
+     }
+ 
+ #ifndef VISUAL_DEBUG
+diff --git a/xembed-sni-proxy/sniproxy.h b/xembed-sni-proxy/sniproxy.h
+index 7366c67..e897a92 100644
+--- a/xembed-sni-proxy/sniproxy.h
++++ b/xembed-sni-proxy/sniproxy.h
+@@ -140,6 +140,11 @@ Q_SIGNALS:
+     void NewStatus(const QString &status);
+ 
+ private:
++    enum InjectMode {
++        Direct,
++        XTest
++    };
++
+     void sendClick(uint8_t mouseButton, int x, int y);
+     QImage getImageNonComposite() const;
+     bool isTransparentImage(const QImage &image) const;
+@@ -150,6 +155,8 @@ private:
+     xcb_window_t m_containerWid;
+     static int s_serviceCount;
+     QPixmap m_pixmap;
++
++    InjectMode m_injectMode;
+ };
+ 
+ #endif // SNIPROXY_H
+diff --git a/xembed-sni-proxy/xembedsniproxy.desktop b/xembed-sni-proxy/xembedsniproxy.desktop
+index ff08628..ceabda1 100644
+--- a/xembed-sni-proxy/xembedsniproxy.desktop
++++ b/xembed-sni-proxy/xembedsniproxy.desktop
+@@ -1,7 +1,6 @@
+ [Desktop Entry]
+ Exec=xembedsniproxy
+ Name=XembedSniProxy
+-Name[ast]=XembedSniProxy
+ Name[ca]=XembedSniProxy
+ Name[ca@valencia]=XembedSniProxy
+ Name[cs]=XembedSniProxy
+@@ -15,6 +14,7 @@ Name[eu]=XembedSniProxy
+ Name[fi]=XembedSniProxy
+ Name[fr]=XembedSniProxy
+ Name[gl]=XembedSniProxy
++Name[hu]=XembedSniProxy
+ Name[is]=XembedSniProxy
+ Name[it]=XembedSniProxy
+ Name[ko]=XembedSniProxy
+@@ -33,6 +33,7 @@ Name[sr@ijekavian]=Иксембед‑сни‑прокси
+ Name[sr@ijekavianlatin]=XembedSniProxy
+ Name[sr@latin]=XembedSniProxy
+ Name[sv]=XembedSniProxy
++Name[tr]=XembedSniProxy
+ Name[uk]=XembedSniProxy
+ Name[x-test]=xxXembedSniProxyxx
+ Name[zh_CN]=XembedSniProxy
+diff --git a/xembed-sni-proxy/xtestsender.cpp b/xembed-sni-proxy/xtestsender.cpp
+new file mode 100644
+index 0000000..112f0aa
+--- /dev/null
++++ b/xembed-sni-proxy/xtestsender.cpp
+@@ -0,0 +1,32 @@
++/* Wrap XLIB code in a new file as it defines keywords that conflict with Qt
++ *
++ * Copyright (C) 2017 <davidedmundson@kde.org> David Edmundson
++ *
++ * This library is free software; you can redistribute it and/or
++ * modify it under the terms of the GNU Lesser General Public
++ * License as published by the Free Software Foundation; either
++ * version 2.1 of the License, or (at your option) any later version.
++ *
++ * This library is distributed in the hope that it will be useful,
++ * but WITHOUT ANY WARRANTY; without even the implied warranty of
++ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
++ * Lesser General Public License for more details.
++ *
++ * You should have received a copy of the GNU Lesser General Public
++ * License along with this library; if not, write to the Free Software
++ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
++ *
++ */
++
++#include <X11/extensions/XTest.h>
++#include "xtestsender.h"
++
++void sendXTestPressed(Display *display, int button)
++{
++    XTestFakeButtonEvent(display, button, true, 0);
++}
++
++void sendXTestReleased(Display *display, int button)
++{
++    XTestFakeButtonEvent(display, button, false, 0);
++}
+diff --git a/xembed-sni-proxy/xtestsender.h b/xembed-sni-proxy/xtestsender.h
+new file mode 100644
+index 0000000..d058d6b
+--- /dev/null
++++ b/xembed-sni-proxy/xtestsender.h
+@@ -0,0 +1,28 @@
++/* Wrap XLIB code in a new file as it defines keywords that conflict with Qt
++ *
++ * Copyright (C) 2017 <davidedmundson@kde.org> David Edmundson
++ *
++ * This library is free software; you can redistribute it and/or
++ * modify it under the terms of the GNU Lesser General Public
++ * License as published by the Free Software Foundation; either
++ * version 2.1 of the License, or (at your option) any later version.
++ *
++ * This library is distributed in the hope that it will be useful,
++ * but WITHOUT ANY WARRANTY; without even the implied warranty of
++ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
++ * Lesser General Public License for more details.
++ *
++ * You should have received a copy of the GNU Lesser General Public
++ * License along with this library; if not, write to the Free Software
++ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
++ *
++ */
++#ifndef XTEST_SENDER_H
++#define XTEST_SENDER_H
++
++typedef _XDisplay Display;
++
++void sendXTestPressed(Display *display, int button);
++void sendXTestReleased(Display *display, int button);
++
++#endif
