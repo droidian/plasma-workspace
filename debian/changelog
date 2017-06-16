@@ -131,8 +131,10 @@ plasma-workspace (4:5.8.7-1~) UNRELEASED; urgency=medium
         when a screen gets disabled at startup
         Related to KDE#377280
       + remove useless debug
+  * Add new upstream patch: xembedsniproxy-Fix-check-whether-to-use-XTest.patch
+  * Add missing build dependency (libxtst-dev)
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 16 Jun 2017 15:02:49 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 16 Jun 2017 15:44:22 +0200
 
 plasma-workspace (4:5.8.6-2.1) unstable; urgency=medium
 
