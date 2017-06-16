@@ -133,6 +133,8 @@ plasma-workspace (4:5.8.7-1~) UNRELEASED; urgency=medium
       + remove useless debug
   * Add new upstream patch: xembedsniproxy-Fix-check-whether-to-use-XTest.patch
   * Add missing build dependency (libxtst-dev)
+  * Add explicit libkf5plasma5 versioned dependency (Closes: 829614)
+    Thanks to Gard Spreemann and others for reporting and the updates
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 16 Jun 2017 15:44:22 +0200
 
