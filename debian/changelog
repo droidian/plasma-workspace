@@ -1,4 +1,4 @@
-plasma-workspace (4:5.8.7-1~) UNRELEASED; urgency=medium
+plasma-workspace (4:5.8.7-1) unstable; urgency=medium
 
   * New upstream release (5.8.7)
       + [Logout Screen] Show suspend button only if supported
@@ -136,7 +136,7 @@ plasma-workspace (4:5.8.7-1~) UNRELEASED; urgency=medium
   * Add explicit libkf5plasma5 versioned dependency (Closes: 829614)
     Thanks to Gard Spreemann and others for reporting and the updates
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 16 Jun 2017 15:44:22 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 16 Jun 2017 18:13:01 +0200
 
 plasma-workspace (4:5.8.6-2.1) unstable; urgency=medium
 
