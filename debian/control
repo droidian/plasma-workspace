@@ -165,18 +165,18 @@ Breaks: kde-window-manager (<= 4:5),
         kde-workspace-bin,
         kdeartwork-style,
         kdeartwork-theme-window,
-        kinfocenter (<< 4:5.8),
+        kinfocenter (<< 4:5.10),
         kio-extras (<< 4:5.3.2+git20150710.0210),
         kio-extras-data (<< 4:5.3.2+git20150710.0210),
         klipper,
         kscreensaver,
         kscreensaver-xsavers,
         kscreensaver-xsavers-webcollage,
-        plasma-desktop (<< 4:5.8),
+        plasma-desktop (<< 4:5.10),
         plasma-desktopthemes-artwork,
         plasma-mediacenter (<< 5.7),
         plasma-systray-legacy,
-        plasma-widgets-addons (<< 4:5.8),
+        plasma-widgets-addons (<< 4:5.10),
         ${kde-l10n:all}
 Conflicts: kde-workspace, kde-workspace-data, klipper
 Replaces: kde-workspace-bin,
@@ -206,9 +206,9 @@ Description: Plasma Workspace for KF5 library
  Kworkspace library.
  .
  This package contains library files.
-Breaks: khotkeys (<< 4:5.8),
-        libpowerdevilcore2 (<< 4:5.8),
-        plasma-desktop (<< 4:5.8)
+Breaks: khotkeys (<< 4:5.10),
+        libpowerdevilcore2 (<< 4:5.10),
+        plasma-desktop (<< 4:5.10)
 
 Package: libplasma-geolocation-interface5
 Architecture: any
@@ -231,7 +231,7 @@ Description: Plasma Workspace for KF5 library
  Taskmanager library.
  .
  This package contains library files.
-Breaks: plasma-desktop (<< 4:5.8)
+Breaks: plasma-desktop (<< 4:5.10)
 
 Package: libweather-ion7
 Architecture: any
