@@ -12,10 +12,10 @@ Subject: add_sddm_debian_breeze
  create mode 100644 sddm-theme-debian/theme.conf
 
 diff --git a/CMakeLists.txt b/CMakeLists.txt
-index caec7bd..e7a310c 100644
+index cd0ff0c..7a3ba7f 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -122,6 +122,17 @@ if (INSTALL_SDDM_THEME)
+@@ -127,6 +127,17 @@ if (INSTALL_SDDM_THEME)
      #NOTE this trailing slash is important to rename the directory
      install(DIRECTORY sddm-theme/ DESTINATION ${KDE_INSTALL_FULL_DATADIR}/sddm/themes/breeze PATTERN "README.txt" EXCLUDE PATTERN "components" EXCLUDE PATTERN "dummydata" EXCLUDE)
      install(DIRECTORY lookandfeel/contents/components DESTINATION ${KDE_INSTALL_FULL_DATADIR}/sddm/themes/breeze PATTERN "README.txt" EXCLUDE)
