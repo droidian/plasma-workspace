@@ -1,8 +1,36 @@
-plasma-workspace (4:5.10.3-1~) UNRELEASED; urgency=medium
+plasma-workspace (4:5.10.3-1~1) UNRELEASED; urgency=medium
 
+  [ Maximiliano Curia ]
   * New upstream release (5.10.3).
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 4.0.0.
+  * Drop upstream patches
+  * Update upstream metadata
+  * Bump group breaks (5.10)
+  * Refresh patches
+  * Add optional libkf5prison-dev build dep
+  * Update install files
+  * Update symbols files
+  * Install all the locale files in plasma-workspace
+  * Update patch: add_sddm_debian_breeze.patch
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Jul 2017 11:57:16 +0200
+  [ Raymond Wooninck ]
+  * Update debian patch
+  * Fix install list
+
+  [ Jonathan Riddell ]
+  * add gpg keyring
+  * plasma-desktop dep on kwin-common for qml modules
+  * qmllint
+  * update .install
+  * new files in plasma-workspace
+  * appstream files
+
+  [ Rik Mills ]
+  * add b-d on libappstreamqt-dev
+  * install appstream runner
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 17 Jul 2017 18:02:52 +0200
 
 plasma-workspace (4:5.8.7-1) unstable; urgency=medium
 
