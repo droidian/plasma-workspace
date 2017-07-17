@@ -1,28 +1,32 @@
 From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Date: Fri, 16 Jun 2017 15:09:35 +0200
-Subject: add_sddm_debian_breeze
+Subject: Add sddm's debian-breeze theme
 
-===================================================================
+Breeze with Debian's default background
 ---
- CMakeLists.txt                     | 11 +++++++++++
+ CMakeLists.txt                     | 15 +++++++++++++++
  sddm-theme-debian/metadata.desktop | 17 +++++++++++++++++
- sddm-theme-debian/theme.conf       |  2 ++
- 3 files changed, 30 insertions(+)
+ sddm-theme-debian/theme.conf       |  4 ++++
+ 3 files changed, 36 insertions(+)
  create mode 100644 sddm-theme-debian/metadata.desktop
  create mode 100644 sddm-theme-debian/theme.conf
 
 diff --git a/CMakeLists.txt b/CMakeLists.txt
-index cd0ff0c..7a3ba7f 100644
+index cd0ff0c..ddd2b83 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -127,6 +127,17 @@ if (INSTALL_SDDM_THEME)
+@@ -127,6 +127,21 @@ if (INSTALL_SDDM_THEME)
      #NOTE this trailing slash is important to rename the directory
      install(DIRECTORY sddm-theme/ DESTINATION ${KDE_INSTALL_FULL_DATADIR}/sddm/themes/breeze PATTERN "README.txt" EXCLUDE PATTERN "components" EXCLUDE PATTERN "dummydata" EXCLUDE)
      install(DIRECTORY lookandfeel/contents/components DESTINATION ${KDE_INSTALL_FULL_DATADIR}/sddm/themes/breeze PATTERN "README.txt" EXCLUDE)
 +
 +# Install Debian-themed SDDM theme
 +    file(COPY "sddm-theme/Main.qml" DESTINATION "${CMAKE_CURRENT_SOURCE_DIR}/sddm-theme-debian")
-+    set(SED_EXPR "s=^[[:space:]]*import[[:space:]]*\\\"components\\\"[[:space:]]*$=import \\\"../breeze\\\"\\nimport \\\"../breeze/components\\\"=")
++    string(CONCAT SED_EXPR
++      "s=^[[:space:]]*import[[:space:]]*\\\"components\\\"[[:space:]]*$"
++      "=import \\\"../breeze\\\"\\nimport \\\"../breeze/components\\\"=;"
++      "s=source:[[:space:]]*\\\"components/=source: \\\"../breeze/components/="
++      )
 +    execute_process(COMMAND sed -i -e "${SED_EXPR}" "${CMAKE_CURRENT_SOURCE_DIR}/sddm-theme-debian/Main.qml" RESULT_VARIABLE SED_RES OUTPUT_VARIABLE SED_OUT ERROR_VARIABLE SED_ERR)
 +    message("Result of sed replacement for debian-breeze imports in Main.qml: (Res: ${SED_RES}, Out: ${SED_OUT}, Err: ${SED_ERR})")
 +
@@ -58,9 +62,11 @@ index 0000000..e54529c
 +Theme-API=2.0
 diff --git a/sddm-theme-debian/theme.conf b/sddm-theme-debian/theme.conf
 new file mode 100644
-index 0000000..c4bf093
+index 0000000..8c04845
 --- /dev/null
 +++ b/sddm-theme-debian/theme.conf
-@@ -0,0 +1,2 @@
+@@ -0,0 +1,4 @@
 +[General]
++type=image
++color=#1d99f3
 +background=/usr/share/desktop-base/active-theme/login/background.svg
