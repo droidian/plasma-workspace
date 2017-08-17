@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.10.3 amd64
+# SymbolsHelper-Confirmed: 4:5.10.4 amd64
 libtaskmanager.so.6 libtaskmanager6 #MINVER#
  _ZN11TaskManager10TasksModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.8.1
  _ZN11TaskManager10TasksModel11qt_metacastEPKc@Base 4:5.8.1
@@ -358,6 +358,7 @@ libtaskmanager.so.6 libtaskmanager6 #MINVER#
  _ZN11TaskManager28AbstractTasksProxyModelIface30requestPublishDelegateGeometryERK11QModelIndexRK5QRectP7QObject@Base 4:5.8.1
  _ZN11TaskManager6runAppERKNS_7AppDataERK5QListI4QUrlE@Base 4:5.10.3
  _ZN11TaskManager9appsMatchERK11QModelIndexS2_@Base 4:5.8.1
+ (optional=templinst)_ZN7QObject7connectIMN11TaskManager20TaskFilterProxyModelEKFvvEMNS1_10TasksModelEKFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:5.10.4
  _ZNK11TaskManager10TasksModel10activeTaskEv@Base 4:5.8.1
  _ZNK11TaskManager10TasksModel10metaObjectEv@Base 4:5.8.1
  _ZNK11TaskManager10TasksModel11groupInlineEv@Base 4:5.8.1
