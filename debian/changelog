@@ -1,4 +1,4 @@
-plasma-workspace (4:5.10.3-1~2) UNRELEASED; urgency=medium
+plasma-workspace (4:5.10.4-1~) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.10.3).
@@ -13,6 +13,7 @@ plasma-workspace (4:5.10.3-1~2) UNRELEASED; urgency=medium
   * Update symbols files
   * Install all the locale files in plasma-workspace
   * Update patch: add_sddm_debian_breeze.patch
+  * New upstream release (5.10.4).
 
   [ Raymond Wooninck ]
   * Update debian patch
@@ -30,7 +31,7 @@ plasma-workspace (4:5.10.3-1~2) UNRELEASED; urgency=medium
   * add b-d on libappstreamqt-dev
   * install appstream runner
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 17 Jul 2017 20:13:12 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 17 Aug 2017 11:26:03 +0200
 
 plasma-workspace (4:5.8.7-1) unstable; urgency=medium
 
