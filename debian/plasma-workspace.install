@@ -92,8 +92,8 @@ usr/share/applications/org.kde.klipper.desktop
 usr/share/applications/plasma-windowed.desktop
 usr/share/config.kcfg/freespacenotifier.kcfg
 usr/share/dbus-1/services/kf5_org.kde.kuiserver.service
-usr/share/dbus-1/services/org.kde.plasma.Notifications.service
 usr/share/dbus-1/services/org.kde.krunner.service
+usr/share/dbus-1/services/org.kde.plasma.Notifications.service
 usr/share/desktop-directories/
 usr/share/doc/HTML/*/kcontrol/
 usr/share/doc/HTML/*/klipper/

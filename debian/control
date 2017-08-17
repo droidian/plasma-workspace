@@ -25,6 +25,7 @@ Build-Depends: baloo-kf5-dev (>= 5.13~),
                libkf5holidays-dev,
                libkf5i18n-dev (>= 5.2.0),
                libkf5idletime-dev (>= 5.34.0~),
+               libkf5itemmodels-dev (>= 5.37.0~),
                libkf5jsembed-dev (>= 5.34.0~),
                libkf5kcmutils-dev (>= 5.34.0~),
                libkf5kdelibs4support-dev (>= 5.34.0~),
@@ -217,7 +218,7 @@ Description: Plasma Workspace for KF5
 Package: plasma-workspace-dev
 Architecture: any
 Depends: kwin-common,
-         libkf5itemmodels-dev,
+         libkf5itemmodels-dev (>= 5.37.0~),
          libkf5plasma-dev (>= 5.34.0~),
          libkf5sysguard-dev,
          libkf5windowsystem-dev (>= 5.4.0),
