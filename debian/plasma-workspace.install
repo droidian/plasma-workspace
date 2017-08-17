@@ -211,12 +211,9 @@ usr/share/metainfo/org.kde.plasma.calendar.appdata.xml
 usr/share/metainfo/org.kde.plasma.clipboard.appdata.xml
 usr/share/metainfo/org.kde.plasma.devicenotifier.appdata.xml
 usr/share/metainfo/org.kde.plasma.digitalclock.appdata.xml
-usr/share/metainfo/org.kde.plasma.icon.appdata.xml
 usr/share/metainfo/org.kde.plasma.lock_logout.appdata.xml
 usr/share/metainfo/org.kde.plasma.mediacontroller.appdata.xml
 usr/share/metainfo/org.kde.plasma.notifications.appdata.xml
-usr/share/metainfo/org.kde.plasma.panelspacer.appdata.xml
-usr/share/metainfo/org.kde.plasma.private.systemtray.appdata.xml
 usr/share/metainfo/org.kde.plasma.systemmonitor.*.appdata.xml
 usr/share/metainfo/org.kde.plasma.systemtray.appdata.xml
 usr/share/metainfo/org.kde.slideshow.appdata.xml
