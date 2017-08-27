@@ -11,11 +11,9 @@ Breeze with Debian's default background
  create mode 100644 sddm-theme-debian/metadata.desktop
  create mode 100644 sddm-theme-debian/theme.conf
 
-diff --git a/CMakeLists.txt b/CMakeLists.txt
-index cd0ff0c..ddd2b83 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -127,6 +127,21 @@ if (INSTALL_SDDM_THEME)
+@@ -127,6 +127,21 @@
      #NOTE this trailing slash is important to rename the directory
      install(DIRECTORY sddm-theme/ DESTINATION ${KDE_INSTALL_FULL_DATADIR}/sddm/themes/breeze PATTERN "README.txt" EXCLUDE PATTERN "components" EXCLUDE PATTERN "dummydata" EXCLUDE)
      install(DIRECTORY lookandfeel/contents/components DESTINATION ${KDE_INSTALL_FULL_DATADIR}/sddm/themes/breeze PATTERN "README.txt" EXCLUDE)
@@ -37,9 +35,6 @@ index cd0ff0c..ddd2b83 100644
  endif()
  
  add_definitions(-DQT_NO_URL_CAST_FROM_STRING)
-diff --git a/sddm-theme-debian/metadata.desktop b/sddm-theme-debian/metadata.desktop
-new file mode 100644
-index 0000000..e54529c
 --- /dev/null
 +++ b/sddm-theme-debian/metadata.desktop
 @@ -0,0 +1,17 @@
@@ -60,9 +55,6 @@ index 0000000..e54529c
 +Email=davidedmundson@kde.org
 +Theme-Id=debian-breeze
 +Theme-API=2.0
-diff --git a/sddm-theme-debian/theme.conf b/sddm-theme-debian/theme.conf
-new file mode 100644
-index 0000000..8c04845
 --- /dev/null
 +++ b/sddm-theme-debian/theme.conf
 @@ -0,0 +1,4 @@
