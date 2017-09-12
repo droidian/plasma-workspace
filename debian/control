@@ -86,7 +86,7 @@ Build-Depends: baloo-kf5-dev (>= 5.13~),
                qtscript5-dev (>= 5.7.0~),
                qttools5-dev (>= 5.7~),
                xcb-proto,
-Standards-Version: 4.0.0
+Standards-Version: 4.1.0
 Homepage: https://projects.kde.org/projects/kde/workspace/plasma-workspace
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/plasma/plasma-workspace.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/plasma/plasma-workspace.git
