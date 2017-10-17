@@ -1,5 +1,8 @@
 plasma-workspace (4:5.10.5-2) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Drop kubuntu_startkde-qtpath.diff, not needed with qtchooser 52-gae5eeef
+    and newer which has fallback support for qtpaths.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 17 Oct 2017 14:27:49 +0300
 
