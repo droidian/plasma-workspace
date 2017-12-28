@@ -1,6 +1,5 @@
 etc/xdg/autostart/klipper.desktop
 etc/xdg/autostart/krunner.desktop
-etc/xdg/autostart/plasmashell.desktop
 etc/xdg/autostart/xembedsniproxy.desktop
 etc/xdg/plasmoids.knsrc
 etc/xdg/taskmanagerrulesrc
@@ -22,7 +21,6 @@ usr/bin/startkde
 usr/bin/systemmonitor
 usr/bin/xembedsniproxy
 usr/lib/*/kconf_update_bin/krunnerplugins
-usr/lib/*/libexec/drkonqi
 usr/lib/*/libexec/ksmserver-logout-greeter
 usr/lib/*/libexec/ksmserver-switchuser-greeter
 usr/lib/*/libexec/ksyncdbusenv
@@ -45,7 +43,6 @@ usr/lib/*/qt5/plugins/kf5/kio/desktop.so
 usr/lib/*/qt5/plugins/kio_applications.so
 usr/lib/*/qt5/plugins/kpackage/
 usr/lib/*/qt5/plugins/krunner_activities.so
-usr/lib/*/qt5/plugins/krunner_baloosearchrunner.so
 usr/lib/*/qt5/plugins/krunner_bookmarksrunner.so
 usr/lib/*/qt5/plugins/krunner_calculatorrunner.so
 usr/lib/*/qt5/plugins/krunner_kill.so
@@ -97,7 +94,6 @@ usr/share/dbus-1/services/org.kde.plasma.Notifications.service
 usr/share/desktop-directories/
 usr/share/doc/HTML/*/kcontrol/
 usr/share/doc/HTML/*/klipper/
-usr/share/drkonqi/
 usr/share/kconf_update/krunnerplugins.upd
 usr/share/kio_desktop/DesktopLinks/Home.desktop
 usr/share/kio_desktop/directory.desktop
