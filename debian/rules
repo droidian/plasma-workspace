@@ -1,24 +1,29 @@
 #!/usr/bin/make -f
 
 l10npkgs_firstversion_ok := 4:4.14.0-2
-
-include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 include /usr/share/pkg-kde-tools/qt-kde-team/2/l10n-packages.mk
+
 libpkgs_addsubst_allLibraries = plasma-workspace-dev
 include /usr/share/pkg-kde-tools/qt-kde-team/2/library-packages.mk
+
+%:
+	dh $@ --with kf5,pkgkde_symbolshelper --buildsystem kf5
 
 override_dh_auto_test:
 	# Disable auto tests at build time
 	:
 
 override_dh_strip:
-	$(overridden_command) --dbgsym-migration='plasma-workspace-dbg (<= 4:5.5.5.1-1~~)'
+	dh_strip --dbgsym-migration='plasma-workspace-dbg (<= 4:5.5.5.1-1~~)'
 
 override_dh_fixperms:
 	chmod -x debian/plasma-workspace/etc/xdg/autostart/klipper.desktop
-	$(overridden_command)
+	dh_fixperms
 
 override_dh_install:
 	mkdir -p debian/plasma-workspace/usr/share/lightdm/lightdm.conf.d/
 	cp debian/40-kde-plasma-kf5.conf debian/plasma-workspace/usr/share/lightdm/lightdm.conf.d/
 	dh_install
+
+override_dh_gencontrol: l10npkgs_firstversion_ok
+	dh_gencontrol
