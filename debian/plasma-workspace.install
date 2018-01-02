@@ -1,6 +1,8 @@
 etc/xdg/autostart/klipper.desktop
 etc/xdg/autostart/krunner.desktop
+etc/xdg/autostart/org.kde.plasmashell.desktop
 etc/xdg/autostart/xembedsniproxy.desktop
+etc/xdg/kuiserver.categories
 etc/xdg/plasmoids.knsrc
 etc/xdg/taskmanagerrulesrc
 etc/xdg/wallpaper.knsrc
@@ -21,6 +23,7 @@ usr/bin/startkde
 usr/bin/systemmonitor
 usr/bin/xembedsniproxy
 usr/lib/*/kconf_update_bin/krunnerplugins
+usr/lib/*/libexec/baloorunner
 usr/lib/*/libexec/ksmserver-logout-greeter
 usr/lib/*/libexec/ksmserver-switchuser-greeter
 usr/lib/*/libexec/ksyncdbusenv
@@ -86,12 +89,15 @@ usr/lib/*/qt5/qml/org/kde/plasma/wallpapers/image/
 usr/lib/*/qt5/qml/org/kde/plasma/workspace/
 usr/lib/*/qt5/qml/org/kde/taskmanager/
 usr/share/applications/org.kde.klipper.desktop
+usr/share/applications/org.kde.plasmashell.desktop
 usr/share/applications/plasma-windowed.desktop
 usr/share/config.kcfg/freespacenotifier.kcfg
 usr/share/dbus-1/services/kf5_org.kde.kuiserver.service
+usr/share/dbus-1/services/org.kde.baloorunner.service
 usr/share/dbus-1/services/org.kde.krunner.service
 usr/share/dbus-1/services/org.kde.plasma.Notifications.service
 usr/share/desktop-directories/
+usr/share/doc/HTML/*/PolicyKit-kde/
 usr/share/doc/HTML/*/kcontrol/
 usr/share/doc/HTML/*/klipper/
 usr/share/kconf_update/krunnerplugins.upd
