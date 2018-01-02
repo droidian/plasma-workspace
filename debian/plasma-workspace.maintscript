@@ -1,3 +1,3 @@
 rm_conffile /etc/xdg/autostart/org.kde.klipper.desktop 4:5.8.0-1~
-rm_conffile /etc/xdg/legacytaskmanagerrulesrc 4:5.8.0-2~
 rm_conffile /etc/xdg/autostart/plasmashell.desktop 4:5.11.4-1~
+rm_conffile /etc/xdg/legacytaskmanagerrulesrc 4:5.8.0-2~
