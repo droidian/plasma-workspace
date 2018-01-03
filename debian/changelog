@@ -1,4 +1,4 @@
-plasma-workspace (4:5.11.4-1~) UNRELEASED; urgency=medium
+plasma-workspace (4:5.11.4-1) experimental; urgency=medium
 
   [ Dmitry Shachnev ]
   * Drop kubuntu_startkde-qtpath.diff, not needed with qtchooser 52-gae5eeef
@@ -10,8 +10,15 @@ plasma-workspace (4:5.11.4-1~) UNRELEASED; urgency=medium
   * Update changelog for 4:5.10.5-2 release
   * Bump Standards-Version to 4.1.0.
   * New upstream release (5.11.4).
+  * Bump Standards-Version to 4.1.2.
+  * Update install files
+  * Add runtime dependency to drkonqi
+  * Update symbols files
+  * Add build dependency kgendesignerplugin
+  * Update install files
+  * Release to experimental
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Dec 2017 15:47:39 -0300
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 03 Jan 2018 16:49:19 -0300
 
 plasma-workspace (4:5.10.5-2) sid; urgency=medium
 
