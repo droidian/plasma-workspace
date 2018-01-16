@@ -25,5 +25,5 @@ override_dh_install:
 	cp debian/40-kde-plasma-kf5.conf debian/plasma-workspace/usr/share/lightdm/lightdm.conf.d/
 	dh_install
 
-override_dh_gencontrol: l10npkgs_firstversion_ok
+override_dh_gencontrol: l10npkgs_firstversion_ok libpkgs_addsubst_allLibraries
 	dh_gencontrol
