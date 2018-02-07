@@ -35,6 +35,7 @@ usr/lib/*/libkdeinit5_kuiserver5.so
 usr/lib/*/qt5/plugins/appstreamrunner.so
 usr/lib/*/qt5/plugins/kcm_krunner_kill.so
 usr/lib/*/qt5/plugins/kf5/kded/appmenu.so
+usr/lib/*/qt5/plugins/kf5/kded/colorcorrectlocationupdater.so
 usr/lib/*/qt5/plugins/kf5/kded/desktopnotifier.so
 usr/lib/*/qt5/plugins/kf5/kded/freespacenotifier.so
 usr/lib/*/qt5/plugins/kf5/kded/ksysguard.so
@@ -90,6 +91,7 @@ usr/lib/*/qt5/qml/org/kde/plasma/workspace/
 usr/lib/*/qt5/qml/org/kde/taskmanager/
 usr/share/applications/org.kde.klipper.desktop
 usr/share/applications/org.kde.plasmashell.desktop
+usr/share/applications/org.kde.systemmonitor.desktop
 usr/share/applications/plasma-windowed.desktop
 usr/share/config.kcfg/freespacenotifier.kcfg
 usr/share/dbus-1/services/kf5_org.kde.kuiserver.service
