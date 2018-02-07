@@ -1,5 +1,6 @@
-# SymbolsHelper-Confirmed: 4:5.11.4 amd64
+# SymbolsHelper-Confirmed: 4:5.12.0 amd64
 libtaskmanager.so.6 libtaskmanager6 #MINVER#
+ _ZN11TaskManager10TasksModel10classBeginEv@Base 4:5.12.0
  _ZN11TaskManager10TasksModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.8.1
  _ZN11TaskManager10TasksModel11qt_metacastEPKc@Base 4:5.8.1
  _ZN11TaskManager10TasksModel11requestMoveERK11QModelIndex@Base 4:5.8.1
@@ -15,6 +16,7 @@ libtaskmanager.so.6 libtaskmanager6 #MINVER#
  _ZN11TaskManager10TasksModel15setLauncherListERK11QStringList@Base 4:5.8.1
  _ZN11TaskManager10TasksModel16setLaunchInPlaceEb@Base 4:5.8.1
  _ZN11TaskManager10TasksModel16staticMetaObjectE@Base 4:5.8.1
+ _ZN11TaskManager10TasksModel17componentCompleteEv@Base 4:5.12.0
  _ZN11TaskManager10TasksModel17requestActivitiesERK11QModelIndexRK11QStringList@Base 4:5.8.1
  _ZN11TaskManager10TasksModel17setFilterByScreenEb@Base 4:5.8.1
  _ZN11TaskManager10TasksModel17setScreenGeometryERK5QRect@Base 4:5.8.1
@@ -70,6 +72,7 @@ libtaskmanager.so.6 libtaskmanager6 #MINVER#
  _ZN11TaskManager12ActivityInfo12activityNameERK7QString@Base 4:5.8.1
  _ZN11TaskManager12ActivityInfo16staticMetaObjectE@Base 4:5.8.1
  _ZN11TaskManager12ActivityInfo7Private13instanceCountE@Base 4:5.8.1
+ _ZN11TaskManager12ActivityInfo7Private15activitiesModelE@Base 4:5.12.0
  _ZN11TaskManager12ActivityInfo7Private16activityConsumerE@Base 4:5.8.1
  _ZN11TaskManager12ActivityInfo7PrivateC1EPS0_@Base 4:5.8.1
  _ZN11TaskManager12ActivityInfo7PrivateC2EPS0_@Base 4:5.8.1
@@ -416,6 +419,7 @@ libtaskmanager.so.6 libtaskmanager6 #MINVER#
  _ZNK11TaskManager12ActivityInfo17runningActivitiesEv@Base 4:5.8.1
  _ZNK11TaskManager12ActivityInfo22currentActivityChangedEv@Base 4:5.8.1
  _ZNK11TaskManager12ActivityInfo25numberOfRunningActivitiesEv@Base 4:5.8.1
+ _ZNK11TaskManager12ActivityInfo31namesOfRunningActivitiesChangedEv@Base 4:5.12.0
  _ZNK11TaskManager12ActivityInfo32numberOfRunningActivitiesChangedEv@Base 4:5.8.1
  _ZNK11TaskManager16WindowTasksModel10metaObjectEv@Base 4:5.8.1
  _ZNK11TaskManager16WindowTasksModel16mapIfaceToSourceERK11QModelIndex@Base 4:5.8.1
@@ -539,6 +543,7 @@ libtaskmanager.so.6 libtaskmanager6 #MINVER#
  _ZTVN11TaskManager18VirtualDesktopInfoE@Base 4:5.8.1
  _ZTVN11TaskManager20TaskFilterProxyModelE@Base 4:5.8.1
  _ZTVN11TaskManager22TaskGroupingProxyModelE@Base 4:5.8.1
+ _ZTVN11TaskManager23AbstractTasksModelIfaceE@Base 4:5.12.0
  _ZTVN11TaskManager24AbstractWindowTasksModelE@Base 4:5.8.5
  _ZTVN11TaskManager26ConcatenateTasksProxyModelE@Base 4:5.8.1
  _ZTVN11TaskManager27FlattenTaskGroupsProxyModelE@Base 4:5.8.1
@@ -589,6 +594,8 @@ libtaskmanager.so.6 libtaskmanager6 #MINVER#
  (c++)"non-virtual thunk to TaskManager::TaskGroupingProxyModel::requestToggleShaded(QModelIndex const&)@Base" 4:5.8.1
  (c++)"non-virtual thunk to TaskManager::TaskGroupingProxyModel::requestVirtualDesktop(QModelIndex const&, int)@Base" 4:5.8.1
  (c++)"non-virtual thunk to TaskManager::TaskGroupingProxyModel::~TaskGroupingProxyModel()@Base" 4:5.8.1
+ (c++)"non-virtual thunk to TaskManager::TasksModel::classBegin()@Base" 4:5.12.0
+ (c++)"non-virtual thunk to TaskManager::TasksModel::componentComplete()@Base" 4:5.12.0
  (c++)"non-virtual thunk to TaskManager::TasksModel::requestActivate(QModelIndex const&)@Base" 4:5.8.1
  (c++)"non-virtual thunk to TaskManager::TasksModel::requestActivities(QModelIndex const&, QStringList const&)@Base" 4:5.8.1
  (c++)"non-virtual thunk to TaskManager::TasksModel::requestClose(QModelIndex const&)@Base" 4:5.8.1
