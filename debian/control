@@ -92,6 +92,17 @@ Homepage: https://projects.kde.org/projects/kde/workspace/plasma-workspace
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/plasma/plasma-workspace.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/plasma/plasma-workspace.git
 
+Package: libcolorcorrect5
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Plasma Workspace for KF5 library
+ Plasma Workspace for KF5. Workspaces provide
+ support for KDE Plasma Widgets, integrated search,
+ hardware management and a high degree of customizability.
+ ColorCorrect library.
+ .
+ This package contains library files.
+
 Package: libkworkspace5-5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}

@@ -6,6 +6,7 @@
 </version>
 
 <headers>
+    /usr/include/colorcorrect/
     /usr/include/kworkspace5/
     /usr/include/plasma/geolocation/
     /usr/include/legacytaskmanager/
@@ -19,6 +20,7 @@
 </skip_headers>
 
 <libs>
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libcolorcorrect.so
     /usr/lib/@@DEB_HOST_MULTIARCH@@/libkworkspace5.so
     /usr/lib/@@DEB_HOST_MULTIARCH@@/liblegacytaskmanager.so
     /usr/lib/@@DEB_HOST_MULTIARCH@@/libplasma-geolocation-interface.so
