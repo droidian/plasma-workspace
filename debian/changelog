@@ -1,9 +1,9 @@
-plasma-workspace (4:5.12.0-2~) UNRELEASED; urgency=medium
+plasma-workspace (4:5.12.0-2~1) UNRELEASED; urgency=medium
 
   * New revision
   * Drop qml-module-org-kde-extensionplugin transitional package dependency
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 12 Feb 2018 09:12:12 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 12 Feb 2018 16:02:16 +0100
 
 plasma-workspace (4:5.12.0-1) experimental; urgency=medium
 
