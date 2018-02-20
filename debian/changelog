@@ -1,3 +1,15 @@
+plasma-workspace (4:5.12.1-1~) UNRELEASED; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * Use dash instead of bash for themes postinst as bash is not needed
+  * Remove redundant sh -e / set -e in themes prerm
+
+  [ Maximiliano Curia ]
+  * Use the salsa canonical urls
+  * New upstream release (5.12.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 20 Feb 2018 08:37:32 +0100
+
 plasma-workspace (4:5.12.0-2) sid; urgency=medium
 
   * New revision
