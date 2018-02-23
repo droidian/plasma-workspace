@@ -110,7 +110,6 @@ usr/share/kio_desktop/directory.trash
 usr/share/knotifications5/freespacenotifier.notifyrc
 usr/share/knotifications5/phonon.notifyrc
 usr/share/kservices5/applications.protocol
-usr/share/kservices5/appstreamrunner.desktop
 usr/share/kservices5/desktop.protocol
 usr/share/kservices5/ion-bbcukmet.desktop
 usr/share/kservices5/ion-envcan.desktop
@@ -178,6 +177,7 @@ usr/share/kservices5/plasma-geolocation-gps.desktop
 usr/share/kservices5/plasma-geolocation-ip.desktop
 usr/share/kservices5/plasma-lookandfeel-org.kde.breeze.desktop.desktop
 usr/share/kservices5/plasma-runner-activityrunner.desktop
+usr/share/kservices5/plasma-runner-appstream.desktop
 usr/share/kservices5/plasma-runner-baloosearch.desktop
 usr/share/kservices5/plasma-runner-bookmarks.desktop
 usr/share/kservices5/plasma-runner-calculator.desktop
@@ -186,6 +186,7 @@ usr/share/kservices5/plasma-runner-kill_config.desktop
 usr/share/kservices5/plasma-runner-locations.desktop
 usr/share/kservices5/plasma-runner-places.desktop
 usr/share/kservices5/plasma-runner-powerdevil.desktop
+usr/share/kservices5/plasma-runner-recentdocuments.desktop
 usr/share/kservices5/plasma-runner-services.desktop
 usr/share/kservices5/plasma-runner-sessions.desktop
 usr/share/kservices5/plasma-runner-shell.desktop
@@ -196,7 +197,6 @@ usr/share/kservices5/plasma-wallpaper-org.kde.color.desktop
 usr/share/kservices5/plasma-wallpaper-org.kde.image.desktop
 usr/share/kservices5/plasma-wallpaper-org.kde.slideshow.desktop
 usr/share/kservices5/programs.protocol
-usr/share/kservices5/recentdocuments.desktop
 usr/share/kservicetypes5/phononbackend.desktop
 usr/share/kservicetypes5/plasma-geolocationprovider.desktop
 usr/share/kservicetypes5/plasma-layouttemplate.desktop
