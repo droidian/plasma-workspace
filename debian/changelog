@@ -1,3 +1,9 @@
+plasma-workspace (4:5.8.6-2.1+deb9u1) stretch-security; urgency=medium
+
+  * CVE-2018-6791
+
+ -- Moritz Mühlenhoff <jmm@debian.org>  Wed, 14 Feb 2018 00:03:33 +0100
+
 plasma-workspace (4:5.8.6-2.1) unstable; urgency=medium
 
   * Non-maintainer upload.
