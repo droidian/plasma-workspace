@@ -1,8 +1,9 @@
-plasma-workspace (4:5.12.2-1~) UNRELEASED; urgency=medium
+plasma-workspace (4:5.12.2-1) sid; urgency=medium
 
   * New upstream release (5.12.2).
+  * Release to sid
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 22 Feb 2018 09:20:47 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 24 Feb 2018 09:47:56 +0100
 
 plasma-workspace (4:5.12.1-1) sid; urgency=medium
 
