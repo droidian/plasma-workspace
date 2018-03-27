@@ -1,5 +1,7 @@
 plasma-workspace (4:5.12.3-2) UNRELEASED; urgency=medium
 
+  * Remove qttools5-dev-tools from plasma-workspace runtime dependencies.
+    startkde no longer uses qtpath to figure out configuration paths.
 
  -- Scarlett Clark <sgclark@kde.org>  Tue, 27 Mar 2018 10:04:51 -0700
 
