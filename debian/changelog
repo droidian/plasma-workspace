@@ -1,4 +1,4 @@
-plasma-workspace (4:5.12.4-1~) UNRELEASED; urgency=medium
+plasma-workspace (4:5.12.4-1) unstable; urgency=medium
 
   [ Scarlett Clark ]
   * Remove qttools5-dev-tools from plasma-workspace runtime dependencies.
@@ -6,8 +6,9 @@ plasma-workspace (4:5.12.4-1~) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.12.4).
+  * Release to unstable
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 28 Mar 2018 13:56:53 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 28 Mar 2018 18:12:55 +0200
 
 plasma-workspace (4:5.12.3-1) sid; urgency=medium
 
