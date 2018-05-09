@@ -7,6 +7,8 @@ Subject: disable_incompatible_tests
  kioslave/desktop/tests/CMakeLists.txt | 4 ++--
  1 file changed, 2 insertions(+), 2 deletions(-)
 
+diff --git a/kioslave/desktop/tests/CMakeLists.txt b/kioslave/desktop/tests/CMakeLists.txt
+index 1784f50..923c22b 100644
 --- a/kioslave/desktop/tests/CMakeLists.txt
 +++ b/kioslave/desktop/tests/CMakeLists.txt
 @@ -1,6 +1,6 @@

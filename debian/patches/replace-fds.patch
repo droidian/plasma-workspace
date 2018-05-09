@@ -83,6 +83,8 @@ Last-Update: 2017-06-02
  ksplash/ksplashqml/main.cpp | 20 +++++++++++++-------
  1 file changed, 13 insertions(+), 7 deletions(-)
 
+diff --git a/ksplash/ksplashqml/main.cpp b/ksplash/ksplashqml/main.cpp
+index 25faacd..03c9e08 100644
 --- a/ksplash/ksplashqml/main.cpp
 +++ b/ksplash/ksplashqml/main.cpp
 @@ -24,6 +24,9 @@
@@ -95,7 +97,7 @@ Last-Update: 2017-06-02
  #include <unistd.h>
  
  void logMessageHandler(QtMsgType type, const char *msg)
-@@ -83,6 +86,16 @@
+@@ -83,6 +86,16 @@ int main(int argc, char **argv)
  
              return 0;
          }
@@ -112,7 +114,7 @@ Last-Update: 2017-06-02
      }
  
      //enable to send log output to /tmp/ksplash
-@@ -91,13 +104,6 @@
+@@ -91,13 +104,6 @@ int main(int argc, char **argv)
      QQuickWindow::setDefaultAlphaBuffer(true);
      SplashApp app(argc, argv);
  
