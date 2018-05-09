@@ -1,8 +1,15 @@
-plasma-workspace (4:5.12.5-1~) UNRELEASED; urgency=medium
+plasma-workspace (4:5.12.5-1) unstable; urgency=medium
 
   * New upstream release (5.12.5).
+  * Add libkf5config-bin dependency.
+    kreadconfig5 is used in the startkde script
+  * Bump Standards-Version to 4.1.4.
+  * Use https for the debian/copyright
+  * Add missing -dev dependency
+  * Add patch: Avoid-including-the-generated-config-X11-private-header.patch
+  * Release to unstable
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 02 May 2018 08:56:25 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 09 May 2018 13:24:11 +0200
 
 plasma-workspace (4:5.12.4-1) unstable; urgency=medium
 
