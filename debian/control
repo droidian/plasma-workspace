@@ -237,6 +237,7 @@ Depends: kwin-common,
          libkf5windowsystem-dev (>= 5.4.0),
          plasma-workspace (= ${binary:Version}),
          qtbase5-dev (>= 5.9.0~),
+         qtdeclarative5-dev (>= 5.9.0~),
          ${allLibraries},
          ${misc:Depends},
 Breaks: kde-workspace-dev
