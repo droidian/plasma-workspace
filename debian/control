@@ -220,7 +220,7 @@ Replaces: kde-workspace-bin,
           plasma-workspace-data,
           ${kde-l10n:all},
 Provides: notification-daemon, x-session-manager
-Recommends: kio-extras, libpam-kwallet5, powerdevil
+Recommends: kio-extras, ksysguardd, libpam-kwallet5, powerdevil
 Description: Plasma Workspace for KF5
  Plasma Workspace for KF5. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
