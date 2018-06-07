@@ -154,7 +154,7 @@ Description: Plasma Workspace for KF5 library
 
 Package: plasma-workspace
 Architecture: any
-Depends: dbus-x11,
+Depends: default-dbus-session-bus | dbus-session-bus,
          drkonqi,
          frameworkintegration,
          gdb-minimal | gdb,
