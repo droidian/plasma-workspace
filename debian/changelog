@@ -1,3 +1,12 @@
+plasma-workspace (4:5.12.5-2~) UNRELEASED; urgency=medium
+
+  * New revision
+  * Add ksysguardd recommends
+  * Switch to default-dbus-session-bus | dbus-session-bus.
+    Thanks to Zhang Jingqiang for the report (Closes: 852680)
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 07 Jun 2018 12:56:35 +0200
+
 plasma-workspace (4:5.12.5-1) unstable; urgency=medium
 
   * New upstream release (5.12.5).
