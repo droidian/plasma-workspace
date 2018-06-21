@@ -32,7 +32,6 @@ usr/lib/*/libkdeinit5_kcminit_startup.so
 usr/lib/*/libkdeinit5_klipper.so
 usr/lib/*/libkdeinit5_ksmserver.so
 usr/lib/*/libkdeinit5_kuiserver5.so
-usr/lib/*/qt5/plugins/appstreamrunner.so
 usr/lib/*/qt5/plugins/kcm_krunner_kill.so
 usr/lib/*/qt5/plugins/kf5/kded/appmenu.so
 usr/lib/*/qt5/plugins/kf5/kded/colorcorrectlocationupdater.so
@@ -104,7 +103,6 @@ usr/share/doc/HTML/*/PolicyKit-kde/
 usr/share/doc/HTML/*/kcontrol/
 usr/share/doc/HTML/*/klipper/
 usr/share/kconf_update/krunnerplugins.upd
-usr/share/kio_desktop/DesktopLinks/Home.desktop
 usr/share/kio_desktop/directory.desktop
 usr/share/kio_desktop/directory.trash
 usr/share/knotifications5/freespacenotifier.notifyrc
