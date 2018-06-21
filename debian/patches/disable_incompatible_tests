@@ -7,8 +7,6 @@ Subject: disable_incompatible_tests
  kioslave/desktop/tests/CMakeLists.txt | 4 ++--
  1 file changed, 2 insertions(+), 2 deletions(-)
 
-diff --git a/kioslave/desktop/tests/CMakeLists.txt b/kioslave/desktop/tests/CMakeLists.txt
-index 1784f50..923c22b 100644
 --- a/kioslave/desktop/tests/CMakeLists.txt
 +++ b/kioslave/desktop/tests/CMakeLists.txt
 @@ -1,6 +1,6 @@
@@ -16,7 +14,7 @@ index 1784f50..923c22b 100644
  target_link_libraries(testdesktop KF5::KIOWidgets KF5::Solid Qt5::Test Qt5::DBus)
  
 -ecm_mark_as_test(testdesktop)
--add_test(testdesktop testdesktop)
+-add_test(NAME testdesktop COMMAND testdesktop)
 +# ecm_mark_as_test(testdesktop)
-+# add_test(testdesktop testdesktop)
++# add_test(NAME testdesktop COMMAND testdesktop)
  

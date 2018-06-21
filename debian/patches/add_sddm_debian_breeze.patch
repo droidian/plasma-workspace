@@ -11,15 +11,12 @@ Breeze with Debian's default background
  create mode 100644 sddm-theme-debian/metadata.desktop
  create mode 100644 sddm-theme-debian/theme.conf
 
-diff --git a/CMakeLists.txt b/CMakeLists.txt
-index 4e85c09..0e5c940 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -126,6 +126,21 @@ if (INSTALL_SDDM_THEME)
-     #NOTE this trailing slash is important to rename the directory
-     install(DIRECTORY sddm-theme/ DESTINATION ${KDE_INSTALL_FULL_DATADIR}/sddm/themes/breeze PATTERN "README.txt" EXCLUDE PATTERN "components" EXCLUDE PATTERN "dummydata" EXCLUDE)
+@@ -131,6 +131,20 @@
+     install(FILES ${CMAKE_CURRENT_BINARY_DIR}/sddm-theme/theme.conf DESTINATION ${KDE_INSTALL_FULL_DATADIR}/sddm/themes/breeze)
      install(DIRECTORY lookandfeel/contents/components DESTINATION ${KDE_INSTALL_FULL_DATADIR}/sddm/themes/breeze PATTERN "README.txt" EXCLUDE)
-+
+ 
 +# Install Debian-themed SDDM theme
 +    file(COPY "sddm-theme/Main.qml" DESTINATION "${CMAKE_CURRENT_SOURCE_DIR}/sddm-theme-debian")
 +    string(CONCAT SED_EXPR
@@ -27,19 +24,16 @@ index 4e85c09..0e5c940 100644
 +      "=import \\\"../breeze\\\"\\nimport \\\"../breeze/components\\\"=;"
 +      "s=source:[[:space:]]*\\\"components/=source: \\\"../breeze/components/="
 +      )
++    # Patch Main.qml to directly use ../breeze qml files
 +    execute_process(COMMAND sed -i -e "${SED_EXPR}" "${CMAKE_CURRENT_SOURCE_DIR}/sddm-theme-debian/Main.qml" RESULT_VARIABLE SED_RES OUTPUT_VARIABLE SED_OUT ERROR_VARIABLE SED_ERR)
 +    message("Result of sed replacement for debian-breeze imports in Main.qml: (Res: ${SED_RES}, Out: ${SED_OUT}, Err: ${SED_ERR})")
 +
 +    #NOTE this trailing slash is important to rename the directory
 +    install(DIRECTORY sddm-theme-debian/ DESTINATION ${KDE_INSTALL_FULL_DATADIR}/sddm/themes/debian-breeze)
-+    # Patch Main.qml to directly use ../breeze qml files
 +
  endif()
  
  add_definitions(-DQT_NO_URL_CAST_FROM_STRING)
-diff --git a/sddm-theme-debian/metadata.desktop b/sddm-theme-debian/metadata.desktop
-new file mode 100644
-index 0000000..e54529c
 --- /dev/null
 +++ b/sddm-theme-debian/metadata.desktop
 @@ -0,0 +1,17 @@
@@ -60,9 +54,6 @@ index 0000000..e54529c
 +Email=davidedmundson@kde.org
 +Theme-Id=debian-breeze
 +Theme-API=2.0
-diff --git a/sddm-theme-debian/theme.conf b/sddm-theme-debian/theme.conf
-new file mode 100644
-index 0000000..8c04845
 --- /dev/null
 +++ b/sddm-theme-debian/theme.conf
 @@ -0,0 +1,4 @@
