@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.12.0 amd64
+# SymbolsHelper-Confirmed: 4:5.13.1 amd64
 libtaskmanager.so.6 libtaskmanager6 #MINVER#
  _ZN11TaskManager10TasksModel10classBeginEv@Base 4:5.12.0
  _ZN11TaskManager10TasksModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.8.1
@@ -45,23 +45,6 @@ libtaskmanager.so.6 libtaskmanager6 #MINVER#
  _ZN11TaskManager10TasksModel31setGroupingWindowTasksThresholdEi@Base 4:5.8.1
  _ZN11TaskManager10TasksModel33requestRemoveLauncherFromActivityERK4QUrlRK7QString@Base 4:5.10.3
  _ZN11TaskManager10TasksModel4moveEiiRK11QModelIndex@Base 4:5.11.4
- _ZN11TaskManager10TasksModel7Private10initModelsEv@Base 4:5.8.1
- _ZN11TaskManager10TasksModel7Private11forceResortEv@Base 4:5.8.1
- _ZN11TaskManager10TasksModel7Private12activityInfoE@Base 4:5.8.1
- _ZN11TaskManager10TasksModel7Private13instanceCountE@Base 4:5.8.1
- _ZN11TaskManager10TasksModel7Private16windowTasksModelE@Base 4:5.8.1
- _ZN11TaskManager10TasksModel7Private17activityInfoUsersE@Base 4:5.8.1
- _ZN11TaskManager10TasksModel7Private17startupTasksModelE@Base 4:5.8.1
- _ZN11TaskManager10TasksModel7Private17updateGroupInlineEv@Base 4:5.8.1
- _ZN11TaskManager10TasksModel7Private19updateManualSortMapEv@Base 4:5.8.1
- _ZN11TaskManager10TasksModel7Private22initLauncherTasksModelEv@Base 4:5.8.1
- _ZN11TaskManager10TasksModel7Private24updateActivityTaskCountsEv@Base 4:5.8.1
- _ZN11TaskManager10TasksModel7Private29updateAnyTaskDemandsAttentionEv@Base 4:5.8.1
- _ZN11TaskManager10TasksModel7Private32consolidateManualSortMapForGroupERK11QModelIndex@Base 4:5.8.1
- _ZN11TaskManager10TasksModel7PrivateC1EPS0_@Base 4:5.8.1
- _ZN11TaskManager10TasksModel7PrivateC2EPS0_@Base 4:5.8.1
- _ZN11TaskManager10TasksModel7PrivateD1Ev@Base 4:5.8.1
- _ZN11TaskManager10TasksModel7PrivateD2Ev@Base 4:5.8.1
  _ZN11TaskManager10TasksModelC1EP7QObject@Base 4:5.8.1
  _ZN11TaskManager10TasksModelC2EP7QObject@Base 4:5.8.1
  _ZN11TaskManager10TasksModelD0Ev@Base 4:5.8.1
@@ -71,13 +54,6 @@ libtaskmanager.so.6 libtaskmanager6 #MINVER#
  _ZN11TaskManager12ActivityInfo11qt_metacastEPKc@Base 4:5.8.1
  _ZN11TaskManager12ActivityInfo12activityNameERK7QString@Base 4:5.8.1
  _ZN11TaskManager12ActivityInfo16staticMetaObjectE@Base 4:5.8.1
- _ZN11TaskManager12ActivityInfo7Private13instanceCountE@Base 4:5.8.1
- _ZN11TaskManager12ActivityInfo7Private15activitiesModelE@Base 4:5.12.0
- _ZN11TaskManager12ActivityInfo7Private16activityConsumerE@Base 4:5.8.1
- _ZN11TaskManager12ActivityInfo7PrivateC1EPS0_@Base 4:5.8.1
- _ZN11TaskManager12ActivityInfo7PrivateC2EPS0_@Base 4:5.8.1
- _ZN11TaskManager12ActivityInfo7PrivateD1Ev@Base 4:5.8.1
- _ZN11TaskManager12ActivityInfo7PrivateD2Ev@Base 4:5.8.1
  _ZN11TaskManager12ActivityInfoC1EP7QObject@Base 4:5.8.1
  _ZN11TaskManager12ActivityInfoC2EP7QObject@Base 4:5.8.1
  _ZN11TaskManager12ActivityInfoD0Ev@Base 4:5.8.1
@@ -89,13 +65,6 @@ libtaskmanager.so.6 libtaskmanager6 #MINVER#
  _ZN11TaskManager16WindowTasksModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.8.1
  _ZN11TaskManager16WindowTasksModel11qt_metacastEPKc@Base 4:5.8.1
  _ZN11TaskManager16WindowTasksModel16staticMetaObjectE@Base 4:5.8.1
- _ZN11TaskManager16WindowTasksModel7Private13instanceCountE@Base 4:5.8.1
- _ZN11TaskManager16WindowTasksModel7Private16sourceTasksModelE@Base 4:5.8.1
- _ZN11TaskManager16WindowTasksModel7Private20initSourceTasksModelEv@Base 4:5.8.1
- _ZN11TaskManager16WindowTasksModel7PrivateC1EPS0_@Base 4:5.8.1
- _ZN11TaskManager16WindowTasksModel7PrivateC2EPS0_@Base 4:5.8.1
- _ZN11TaskManager16WindowTasksModel7PrivateD1Ev@Base 4:5.8.1
- _ZN11TaskManager16WindowTasksModel7PrivateD2Ev@Base 4:5.8.1
  _ZN11TaskManager16WindowTasksModelC1EP7QObject@Base 4:5.8.1
  _ZN11TaskManager16WindowTasksModelC2EP7QObject@Base 4:5.8.1
  _ZN11TaskManager16WindowTasksModelD0Ev@Base 4:5.8.1
@@ -105,11 +74,6 @@ libtaskmanager.so.6 libtaskmanager6 #MINVER#
  _ZN11TaskManager17StartupTasksModel11qt_metacastEPKc@Base 4:5.8.1
  _ZN11TaskManager17StartupTasksModel16staticMetaObjectE@Base 4:5.8.1
  _ZN11TaskManager17StartupTasksModel18requestNewInstanceERK11QModelIndex@Base 4:5.8.1
- _ZN11TaskManager17StartupTasksModel7Private10loadConfigEv@Base 4:5.8.1
- _ZN11TaskManager17StartupTasksModel7Private11launcherUrlERK16KStartupInfoData@Base 4:5.8.1
- _ZN11TaskManager17StartupTasksModel7Private4initEv@Base 4:5.8.1
- _ZN11TaskManager17StartupTasksModel7PrivateC1EPS0_@Base 4:5.8.1
- _ZN11TaskManager17StartupTasksModel7PrivateC2EPS0_@Base 4:5.8.1
  _ZN11TaskManager17StartupTasksModelC1EP7QObject@Base 4:5.8.1
  _ZN11TaskManager17StartupTasksModelC2EP7QObject@Base 4:5.8.1
  _ZN11TaskManager17StartupTasksModelD0Ev@Base 4:5.8.1
@@ -133,15 +97,6 @@ libtaskmanager.so.6 libtaskmanager6 #MINVER#
  _ZN11TaskManager17WaylandTasksModel22requestToggleMinimizedERK11QModelIndex@Base 4:5.8.1
  _ZN11TaskManager17WaylandTasksModel23requestToggleFullScreenERK11QModelIndex@Base 4:5.8.1
  _ZN11TaskManager17WaylandTasksModel30requestPublishDelegateGeometryERK11QModelIndexRK5QRectP7QObject@Base 4:5.8.1
- _ZN11TaskManager17WaylandTasksModel7Private11dataChangedEPN8KWayland6Client12PlasmaWindowERK7QVectorIiE@Base 4:5.8.1
- _ZN11TaskManager17WaylandTasksModel7Private11dataChangedEPN8KWayland6Client12PlasmaWindowEi@Base 4:5.8.1
- _ZN11TaskManager17WaylandTasksModel7Private11initWaylandEv@Base 4:5.8.1
- _ZN11TaskManager17WaylandTasksModel7Private4iconEPN8KWayland6Client12PlasmaWindowE@Base 4:5.11.4
- _ZN11TaskManager17WaylandTasksModel7Private4initEv@Base 4:5.11.4
- _ZN11TaskManager17WaylandTasksModel7Private7appDataEPN8KWayland6Client12PlasmaWindowE@Base 4:5.10.3
- _ZN11TaskManager17WaylandTasksModel7Private9addWindowEPN8KWayland6Client12PlasmaWindowE@Base 4:5.8.1
- _ZN11TaskManager17WaylandTasksModel7PrivateC1EPS0_@Base 4:5.8.1
- _ZN11TaskManager17WaylandTasksModel7PrivateC2EPS0_@Base 4:5.8.1
  _ZN11TaskManager17WaylandTasksModelC1EP7QObject@Base 4:5.8.1
  _ZN11TaskManager17WaylandTasksModelC2EP7QObject@Base 4:5.8.1
  _ZN11TaskManager17WaylandTasksModelD0Ev@Base 4:5.8.1
@@ -167,24 +122,6 @@ libtaskmanager.so.6 libtaskmanager6 #MINVER#
  _ZN11TaskManager17XWindowTasksModel22requestToggleMinimizedERK11QModelIndex@Base 4:5.8.1
  _ZN11TaskManager17XWindowTasksModel23requestToggleFullScreenERK11QModelIndex@Base 4:5.8.1
  _ZN11TaskManager17XWindowTasksModel30requestPublishDelegateGeometryERK11QModelIndexRK5QRectP7QObject@Base 4:5.8.1
- (subst)_ZN11TaskManager17XWindowTasksModel7Private10windowInfoE{quintptr}@Base 4:5.8.1
- (subst)_ZN11TaskManager17XWindowTasksModel7Private11dataChangedE{quintptr}RK7QVectorIiE@Base 4:5.8.1
- (subst)_ZN11TaskManager17XWindowTasksModel7Private11launcherUrlE{quintptr}b@Base 4:5.8.1
- (subst)_ZN11TaskManager17XWindowTasksModel7Private12removeWindowE{quintptr}@Base 4:5.8.1
- _ZN11TaskManager17XWindowTasksModel7Private13groupMimeTypeEv@Base 4:5.8.1
- (subst)_ZN11TaskManager17XWindowTasksModel7Private13windowChangedE{quintptr}6QFlagsIN3NET8PropertyEES2_INS3_9Property2EE@Base 4:5.8.1
- (subst)_ZN11TaskManager17XWindowTasksModel7Private16demandsAttentionE{quintptr}@Base 4:5.8.1
- (subst)_ZN11TaskManager17XWindowTasksModel7Private16transientChangedE{quintptr}6QFlagsIN3NET8PropertyEES2_INS3_9Property2EE@Base 4:5.8.1
- (subst)_ZN11TaskManager17XWindowTasksModel7Private4iconE{quintptr}@Base 4:5.8.1
- _ZN11TaskManager17XWindowTasksModel7Private4initEv@Base 4:5.8.1
- (subst)_ZN11TaskManager17XWindowTasksModel7Private7appDataE{quintptr}@Base 4:5.8.1
- _ZN11TaskManager17XWindowTasksModel7Private8mimeTypeEv@Base 4:5.8.1
- (subst)_ZN11TaskManager17XWindowTasksModel7Private9addWindowE{quintptr}@Base 4:5.8.1
- (subst)_ZN11TaskManager17XWindowTasksModel7Private9windowUrlE{quintptr}@Base 4:5.8.1
- _ZN11TaskManager17XWindowTasksModel7PrivateC1EPS0_@Base 4:5.8.1
- _ZN11TaskManager17XWindowTasksModel7PrivateC2EPS0_@Base 4:5.8.1
- _ZN11TaskManager17XWindowTasksModel7PrivateD1Ev@Base 4:5.8.1
- _ZN11TaskManager17XWindowTasksModel7PrivateD2Ev@Base 4:5.8.1
  _ZN11TaskManager17XWindowTasksModelC1EP7QObject@Base 4:5.8.1
  _ZN11TaskManager17XWindowTasksModelC2EP7QObject@Base 4:5.8.1
  _ZN11TaskManager17XWindowTasksModelD0Ev@Base 4:5.8.1
@@ -225,12 +162,6 @@ libtaskmanager.so.6 libtaskmanager6 #MINVER#
  _ZN11TaskManager18LauncherTasksModel21requestRemoveLauncherERK4QUrl@Base 4:5.8.1
  _ZN11TaskManager18LauncherTasksModel28requestAddLauncherToActivityERK4QUrlRK7QString@Base 4:5.10.3
  _ZN11TaskManager18LauncherTasksModel33requestRemoveLauncherFromActivityERK4QUrlRK7QString@Base 4:5.10.3
- _ZN11TaskManager18LauncherTasksModel7Private30requestAddLauncherToActivitiesERK4QUrlRK11QStringList@Base 4:5.10.3
- _ZN11TaskManager18LauncherTasksModel7Private35requestRemoveLauncherFromActivitiesERK4QUrlRK11QStringList@Base 4:5.10.3
- _ZN11TaskManager18LauncherTasksModel7Private4initEv@Base 4:5.8.1
- _ZN11TaskManager18LauncherTasksModel7Private7appDataERK4QUrl@Base 4:5.8.1
- _ZN11TaskManager18LauncherTasksModel7PrivateC1EPS0_@Base 4:5.8.1
- _ZN11TaskManager18LauncherTasksModel7PrivateC2EPS0_@Base 4:5.8.1
  _ZN11TaskManager18LauncherTasksModelC1EP7QObject@Base 4:5.8.1
  _ZN11TaskManager18LauncherTasksModelC2EP7QObject@Base 4:5.8.1
  _ZN11TaskManager18LauncherTasksModelD0Ev@Base 4:5.8.1
@@ -260,8 +191,6 @@ libtaskmanager.so.6 libtaskmanager6 #MINVER#
  _ZN11TaskManager20TaskFilterProxyModel21setFilterNotMinimizedEb@Base 4:5.8.1
  _ZN11TaskManager20TaskFilterProxyModel25setFilterByVirtualDesktopEb@Base 4:5.8.1
  _ZN11TaskManager20TaskFilterProxyModel33setDemandingAttentionSkipsFiltersEb@Base 4:5.8.1
- _ZN11TaskManager20TaskFilterProxyModel7PrivateC1EPS0_@Base 4:5.8.1
- _ZN11TaskManager20TaskFilterProxyModel7PrivateC2EPS0_@Base 4:5.8.1
  _ZN11TaskManager20TaskFilterProxyModelC1EP7QObject@Base 4:5.8.1
  _ZN11TaskManager20TaskFilterProxyModelC2EP7QObject@Base 4:5.8.1
  _ZN11TaskManager20TaskFilterProxyModelD0Ev@Base 4:5.8.1
@@ -293,28 +222,6 @@ libtaskmanager.so.6 libtaskmanager6 #MINVER#
  _ZN11TaskManager22TaskGroupingProxyModel26setBlacklistedLauncherUrlsERK11QStringList@Base 4:5.8.1
  _ZN11TaskManager22TaskGroupingProxyModel26setGroupDemandingAttentionEb@Base 4:5.8.1
  _ZN11TaskManager22TaskGroupingProxyModel30requestPublishDelegateGeometryERK11QModelIndexRK5QRectP7QObject@Base 4:5.8.1
- _ZN11TaskManager22TaskGroupingProxyModel7Private10rebuildMapEv@Base 4:5.8.1
- _ZN11TaskManager22TaskGroupingProxyModel7Private10tryToGroupERK11QModelIndexb@Base 4:5.8.1
- _ZN11TaskManager22TaskGroupingProxyModel7Private12formGroupForERK11QModelIndex@Base 4:5.8.1
- _ZN11TaskManager22TaskGroupingProxyModel7Private13breakGroupForERK11QModelIndexb@Base 4:5.8.1
- _ZN11TaskManager22TaskGroupingProxyModel7Private13checkGroupingEb@Base 4:5.8.1
- _ZN11TaskManager22TaskGroupingProxyModel7Private13isBlacklistedERK11QModelIndex@Base 4:5.8.1
- _ZN11TaskManager22TaskGroupingProxyModel7Private16shouldGroupTasksEv@Base 4:5.8.1
- _ZN11TaskManager22TaskGroupingProxyModel7Private16sourceModelResetEv@Base 4:5.8.1
- _ZN11TaskManager22TaskGroupingProxyModel7Private17sourceDataChangedE11QModelIndexS2_RK7QVectorIiE@Base 4:5.8.1
- _ZN11TaskManager22TaskGroupingProxyModel7Private17sourceRowsRemovedERK11QModelIndexii@Base 4:5.8.1
- _ZN11TaskManager22TaskGroupingProxyModel7Private18sourceRowsInsertedERK11QModelIndexii@Base 4:5.8.1
- _ZN11TaskManager22TaskGroupingProxyModel7Private25sourceModelAboutToBeResetEv@Base 4:5.8.1
- _ZN11TaskManager22TaskGroupingProxyModel7Private26sourceRowsAboutToBeRemovedERK11QModelIndexii@Base 4:5.8.1
- _ZN11TaskManager22TaskGroupingProxyModel7Private27sourceRowsAboutToBeInsertedERK11QModelIndexii@Base 4:5.8.1
- _ZN11TaskManager22TaskGroupingProxyModel7Private3allERK11QModelIndexi@Base 4:5.8.1
- _ZN11TaskManager22TaskGroupingProxyModel7Private3anyERK11QModelIndexi@Base 4:5.8.1
- _ZN11TaskManager22TaskGroupingProxyModel7Private7isGroupEi@Base 4:5.8.1
- _ZN11TaskManager22TaskGroupingProxyModel7Private9adjustMapEii@Base 4:5.8.1
- _ZN11TaskManager22TaskGroupingProxyModel7PrivateC1EPS0_@Base 4:5.8.1
- _ZN11TaskManager22TaskGroupingProxyModel7PrivateC2EPS0_@Base 4:5.8.1
- _ZN11TaskManager22TaskGroupingProxyModel7PrivateD1Ev@Base 4:5.11.4
- _ZN11TaskManager22TaskGroupingProxyModel7PrivateD2Ev@Base 4:5.11.4
  _ZN11TaskManager22TaskGroupingProxyModelC1EP7QObject@Base 4:5.8.1
  _ZN11TaskManager22TaskGroupingProxyModelC2EP7QObject@Base 4:5.8.1
  _ZN11TaskManager22TaskGroupingProxyModelD0Ev@Base 4:5.8.1
@@ -340,8 +247,6 @@ libtaskmanager.so.6 libtaskmanager6 #MINVER#
  _ZN11TaskManager27FlattenTaskGroupsProxyModel11qt_metacastEPKc@Base 4:5.8.1
  _ZN11TaskManager27FlattenTaskGroupsProxyModel14setSourceModelEP18QAbstractItemModel@Base 4:5.8.1
  _ZN11TaskManager27FlattenTaskGroupsProxyModel16staticMetaObjectE@Base 4:5.8.1
- _ZN11TaskManager27FlattenTaskGroupsProxyModel7PrivateC1EPS0_@Base 4:5.8.1
- _ZN11TaskManager27FlattenTaskGroupsProxyModel7PrivateC2EPS0_@Base 4:5.8.1
  _ZN11TaskManager27FlattenTaskGroupsProxyModelC1EP7QObject@Base 4:5.8.1
  _ZN11TaskManager27FlattenTaskGroupsProxyModelC2EP7QObject@Base 4:5.8.1
  _ZN11TaskManager27FlattenTaskGroupsProxyModelD0Ev@Base 4:5.8.1
@@ -396,6 +301,7 @@ libtaskmanager.so.6 libtaskmanager6 #MINVER#
  _ZNK11TaskManager10TasksModel22groupingAppIdBlacklistEv@Base 4:5.8.1
  _ZNK11TaskManager10TasksModel23anyTaskDemandsAttentionEv@Base 4:5.8.1
  _ZNK11TaskManager10TasksModel23filterByActivityChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager10TasksModel24makePersistentModelIndexEii@Base 4:5.13.1
  _ZNK11TaskManager10TasksModel24separateLaunchersChangedEv@Base 4:5.8.1
  _ZNK11TaskManager10TasksModel25filterNotMinimizedChangedEv@Base 4:5.8.1
  _ZNK11TaskManager10TasksModel28groupingLauncherUrlBlacklistEv@Base 4:5.8.1
@@ -406,8 +312,6 @@ libtaskmanager.so.6 libtaskmanager6 #MINVER#
  _ZNK11TaskManager10TasksModel35groupingLauncherUrlBlacklistChangedEv@Base 4:5.8.1
  _ZNK11TaskManager10TasksModel35groupingWindowTasksThresholdChangedEv@Base 4:5.8.1
  _ZNK11TaskManager10TasksModel4dataERK11QModelIndexi@Base 4:5.8.1
- _ZNK11TaskManager10TasksModel7Private14preFilterIndexERK11QModelIndex@Base 4:5.8.1
- _ZNK11TaskManager10TasksModel7Private8lessThanERK11QModelIndexS4_b@Base 4:5.8.1
  _ZNK11TaskManager10TasksModel8activityEv@Base 4:5.8.1
  _ZNK11TaskManager10TasksModel8lessThanERK11QModelIndexS3_@Base 4:5.8.1
  _ZNK11TaskManager10TasksModel8rowCountERK11QModelIndex@Base 4:5.8.1
