@@ -113,10 +113,12 @@ Description: Plasma Workspace for KF5 library
  Kworkspace library.
  .
  This package contains library files.
-Breaks: khotkeys (<< 4:5.12),
-        libpowerdevilcore2 (<< 4:5.12),
-        plasma-desktop (<< 4:5.12),
-        powerdevil (<< 4:5.12),
+Breaks: kde-cli-tools (<< 4:5.13),
+        khotkeys (<< 4:5.13),
+        libpowerdevilcore2 (<< 4:5.13),
+        plasma-desktop (<< 4:5.13),
+        powerdevil (<< 4:5.13),
+        systemsettings (<< 4:5.13),
 
 Package: libplasma-geolocation-interface5
 Architecture: any
@@ -139,7 +141,7 @@ Description: Plasma Workspace for KF5 library
  Taskmanager library.
  .
  This package contains library files.
-Breaks: plasma-desktop (<< 4:5.12)
+Breaks: plasma-desktop (<< 4:5.13)
 
 Package: libweather-ion7
 Architecture: any
@@ -155,23 +157,23 @@ Description: Plasma Workspace for KF5 library
 Package: plasma-workspace
 Architecture: any
 Depends: default-dbus-session-bus | dbus-session-bus,
-         drkonqi,
+         drkonqi (>= 5.13),
          frameworkintegration,
          gdb-minimal | gdb,
          iso-codes,
-         kactivitymanagerd,
-         kde-cli-tools,
+         kactivitymanagerd (>= 5.13),
+         kde-cli-tools (>= 4:5.13),
          kded5,
          kinit,
          kio,
-         kwin-common,
+         kwin-common (>= 4:5.13),
          libkf5config-bin,
          libkf5globalaccel-bin (>= 5.7.0),
          libkf5plasma5 (>= 5.26.0~),
          libkf5service-bin,
-         milou,
+         milou (>= 4:5.13),
          plasma-framework,
-         plasma-integration,
+         plasma-integration (>= 5.13),
          qdbus-qt5,
          qml-module-org-kde-draganddrop,
          qml-module-org-kde-kcoreaddons,
@@ -197,18 +199,18 @@ Breaks: kde-window-manager (<= 4:5),
         kde-workspace-bin,
         kdeartwork-style,
         kdeartwork-theme-window,
-        kinfocenter (<< 4:5.12),
+        kinfocenter (<< 4:5.13),
         kio-extras (<< 4:5.3.2+git20150710.0210),
         kio-extras-data (<< 4:5.3.2+git20150710.0210),
         klipper,
         kscreensaver,
         kscreensaver-xsavers,
         kscreensaver-xsavers-webcollage,
-        plasma-desktop (<< 4:5.12),
+        plasma-desktop (<< 4:5.13),
         plasma-desktopthemes-artwork,
         plasma-mediacenter (<< 5.7),
         plasma-systray-legacy,
-        plasma-widgets-addons (<< 4:5.12),
+        plasma-widgets-addons (<< 4:5.13),
         ${kde-l10n:all},
 Conflicts: kde-workspace, kde-workspace-data, klipper
 Replaces: kde-workspace-bin,
@@ -220,7 +222,10 @@ Replaces: kde-workspace-bin,
           plasma-workspace-data,
           ${kde-l10n:all},
 Provides: notification-daemon, x-session-manager
-Recommends: kio-extras, ksysguardd, libpam-kwallet5, powerdevil
+Recommends: kio-extras,
+            ksysguardd (>= 4:5.13),
+            libpam-kwallet5 (>= 5.13),
+            powerdevil (>= 4:5.13),
 Description: Plasma Workspace for KF5
  Plasma Workspace for KF5. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
@@ -230,10 +235,10 @@ Description: Plasma Workspace for KF5
 
 Package: plasma-workspace-dev
 Architecture: any
-Depends: kwin-common,
+Depends: kwin-common (>= 4:5.13),
          libkf5itemmodels-dev (>= 5.37.0~),
          libkf5plasma-dev (>= 5.45.0~),
-         libkf5sysguard-dev,
+         libkf5sysguard-dev (>= 4:5.13),
          libkf5windowsystem-dev (>= 5.4.0),
          plasma-workspace (= ${binary:Version}),
          qtbase5-dev (>= 5.9.0~),
@@ -252,8 +257,8 @@ Description: Plasma Workspace for KF5 devel files
 
 Package: plasma-workspace-wayland
 Architecture: any
-Depends: kwayland-integration,
-         kwin-wayland,
+Depends: kwayland-integration (>= 5.13),
+         kwin-wayland (>= 4:5.13),
          plasma-workspace (= ${binary:Version}),
          qtwayland5,
          ${misc:Depends},
