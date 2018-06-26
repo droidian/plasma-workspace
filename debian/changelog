@@ -1,12 +1,19 @@
-plasma-workspace (4:5.13.1-1~) UNRELEASED; urgency=medium
+plasma-workspace (4:5.13.1-1) unstable; urgency=medium
 
   * New revision
   * Add ksysguardd recommends
   * Switch to default-dbus-session-bus | dbus-session-bus.
     Thanks to Zhang Jingqiang for the report (Closes: 852680)
   * New upstream release (5.13.1).
+  * Update build-deps and deps with the info from cmake
+  * Force building against the new version of libprocesscore7
+  * Refresh patches, drop upstream applied
+  * Update install files
+  * Update symbols files
+  * Bump group breaks (4:5.13)
+  * Release to unstable
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 20 Jun 2018 13:32:08 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 26 Jun 2018 13:43:24 +0200
 
 plasma-workspace (4:5.12.5-1) unstable; urgency=medium
 
