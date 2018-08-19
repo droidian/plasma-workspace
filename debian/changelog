@@ -1,8 +1,10 @@
-plasma-workspace (4:5.13.4-1~) UNRELEASED; urgency=medium
+plasma-workspace (4:5.13.4-1) unstable; urgency=medium
 
   * New upstream release (5.13.4).
+  * Update install files
+  * Release to unstable
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 18 Aug 2018 12:02:30 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 19 Aug 2018 23:18:21 +0200
 
 plasma-workspace (4:5.13.2-1) unstable; urgency=medium
 
