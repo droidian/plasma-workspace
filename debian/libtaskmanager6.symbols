@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.13.1 amd64
+# SymbolsHelper-Confirmed: 4:5.14.3 amd64
 libtaskmanager.so.6 libtaskmanager6 #MINVER#
  _ZN11TaskManager10TasksModel10classBeginEv@Base 4:5.12.0
  _ZN11TaskManager10TasksModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.8.1
@@ -357,6 +357,7 @@ libtaskmanager.so.6 libtaskmanager6 #MINVER#
  _ZNK11TaskManager18VirtualDesktopInfo21currentDesktopChangedEv@Base 4:5.8.1
  _ZNK11TaskManager18VirtualDesktopInfo23numberOfDesktopsChangedEv@Base 4:5.8.1
  _ZNK11TaskManager18VirtualDesktopInfo24desktopLayoutRowsChangedEv@Base 4:5.8.1
+ _ZNK11TaskManager20TaskFilterProxyModel10acceptsRowEi@Base 4:5.14.3
  _ZNK11TaskManager20TaskFilterProxyModel10metaObjectEv@Base 4:5.8.1
  _ZNK11TaskManager20TaskFilterProxyModel14filterByScreenEv@Base 4:5.8.1
  _ZNK11TaskManager20TaskFilterProxyModel14screenGeometryEv@Base 4:5.8.1
