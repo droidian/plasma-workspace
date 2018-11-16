@@ -29,7 +29,6 @@ usr/bin/xembedsniproxy
 usr/lib/*/kconf_update_bin/krunnerplugins
 usr/lib/*/libexec/baloorunner
 usr/lib/*/libexec/ksmserver-logout-greeter
-usr/lib/*/libexec/ksmserver-switchuser-greeter
 usr/lib/*/libexec/ksyncdbusenv
 usr/lib/*/libkdeinit5_kcminit.so
 usr/lib/*/libkdeinit5_kcminit_startup.so
@@ -43,7 +42,6 @@ usr/lib/*/qt5/plugins/kf5/kded/desktopnotifier.so
 usr/lib/*/qt5/plugins/kf5/kded/freespacenotifier.so
 usr/lib/*/qt5/plugins/kf5/kded/ksysguard.so
 usr/lib/*/qt5/plugins/kf5/kded/ktimezoned.so
-usr/lib/*/qt5/plugins/kf5/kded/solidautoeject.so
 usr/lib/*/qt5/plugins/kf5/kded/soliduiserver.so
 usr/lib/*/qt5/plugins/kf5/kded/statusnotifierwatcher.so
 usr/lib/*/qt5/plugins/kf5/kio/desktop.so
