@@ -192,6 +192,7 @@ usr/share/kservices5/plasma-runner-services.desktop
 usr/share/kservices5/plasma-runner-sessions.desktop
 usr/share/kservices5/plasma-runner-shell.desktop
 usr/share/kservices5/plasma-runner-webshortcuts.desktop
+usr/share/kservices5/plasma-runner-webshortcuts_config.desktop
 usr/share/kservices5/plasma-runner-windowedwidgets.desktop
 usr/share/kservices5/plasma-runner-windows.desktop
 usr/share/kservices5/plasma-wallpaper-org.kde.color.desktop
