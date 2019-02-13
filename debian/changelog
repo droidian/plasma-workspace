@@ -1,3 +1,32 @@
+plasma-workspace (4:5.14.5.1-1) UNRELEASED; urgency=medium
+
+  * New upstream bugfix release (5.14.5.1).
+    - [weather dataengine] bbc,envcan,noaa: fix day/night calculation for
+      observe (03e13b10)
+    - [weather dataengine] envcan: fix forecast icons to match "ice pellets"
+      (28d0af67)
+    - Fix System Tray popup interactivity after echanging item visiblity
+      (6fcf9a5e)
+      Fixes upstream bug 393630 (https://bugs.kde.org/show_bug.cgi?id=393630)
+    - weather dataengine] noaa: another forecast string found in use
+      (ed7c5796)
+    - [kio_applications] Fix last dir item being shown twice (3431ea6d)
+    - [plasmawindowed] Pick up KQuickAddons::QtQuickSettings (ddde180a)
+    - weather dataengine] noaa: support more "Slight Chance *" forecast
+      strings (182ef20a)
+    - [weather dataengine] Remove duplicated condition/forecast strings
+      (6b4e2500)
+    - Translation updates (679aabe9, ec7f62b7, 4434af77)
+    - StatusItemNotifier: fix overlays by name with icons by name (65f3a961)
+    - [weather dataengine] noaa: add another forecast string found in use
+      (91633c6c)
+    - [weather dataengine] bbc: use night icons for forecast "Tonight"
+      (458fdeac)
+    - Useful error output when shell loading is aborted due to
+    kactivitymanagerd not being activatable (6d16583e)
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 13 Feb 2019 21:06:30 +0100
+
 plasma-workspace (4:5.14.5-1) unstable; urgency=medium
 
   * New upstream release (5.14.5).
