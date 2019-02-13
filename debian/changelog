@@ -1,4 +1,4 @@
-plasma-workspace (4:5.14.5.1-1) UNRELEASED; urgency=medium
+plasma-workspace (4:5.14.5.1-1) unstable; urgency=medium
 
   * New upstream bugfix release (5.14.5.1).
     - [weather dataengine] bbc,envcan,noaa: fix day/night calculation for
@@ -23,7 +23,7 @@ plasma-workspace (4:5.14.5.1-1) UNRELEASED; urgency=medium
     - [weather dataengine] bbc: use night icons for forecast "Tonight"
       (458fdeac)
     - Useful error output when shell loading is aborted due to
-    kactivitymanagerd not being activatable (6d16583e)
+      kactivitymanagerd not being activatable (6d16583e)
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 13 Feb 2019 21:06:30 +0100
 
