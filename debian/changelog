@@ -16,6 +16,7 @@ plasma-workspace (4:5.14.5.1-2) UNRELEASED; urgency=medium
     patches upstream_Add-missing-include.patch,
     upstream_Fix-compilation.patch, and
     upstream_Add-missing-include-QJsonArray-to-fix-compilation-wi.patch.
+  * Update symbols files.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 01 Oct 2019 19:36:41 +0200
 

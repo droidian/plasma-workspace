@@ -1,5 +1,6 @@
 # SymbolsHelper-Confirmed: 4:5.8.1 amd64
 libweather_ion.so.7 libweather-ion7 #MINVER#
+* Build-Depends-Package: plasma-workspace-dev
  _ZN12IonInterface11forceUpdateEPS_RK7QString@Base 4:5.8.1
  _ZN12IonInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.8.1
  _ZN12IonInterface11qt_metacastEPKc@Base 4:5.8.1
