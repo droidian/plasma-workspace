@@ -3,6 +3,13 @@ plasma-workspace (4:5.16.5-1~) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * New upstream release (5.16.5).
 
+  [ Pino Toscano ]
+  * Update the patches:
+    - upstream_Add-missing-include.patch: drop, backported from upstream
+    - upstream_Fix-compilation.patch: drop, backported from upstream
+    - upstream_Add-missing-include-QJsonArray-to-fix-compilation-wi.patch:
+      drop, backported from upstream
+
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 13 Sep 2019 14:56:17 +0100
 
 plasma-workspace (4:5.14.5.1-2) unstable; urgency=medium
