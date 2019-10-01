@@ -1,2 +1,5 @@
 add_sddm_debian_breeze.patch
 replace-fds.patch
+upstream_Add-missing-include.patch
+upstream_Fix-compilation.patch
+upstream_Add-missing-include-QJsonArray-to-fix-compilation-wi.patch

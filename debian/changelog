@@ -10,6 +10,12 @@ plasma-workspace (4:5.14.5.1-2) UNRELEASED; urgency=medium
   * Remove unused debian/meta stuff.
   * Drop the migration from plasma-workspace-dbg, no more needed after two
     Debian stable releases.
+  * Backport upstream commits a788ab3d08a8a68ed232f81a2110f447080451ec,
+    0c4ec1c4af05aa1f6e36c934881cf6f427f7241a, and
+    eaa5e74c04c56d035cfb307fc292f585ad530275 to fix build with newer KF;
+    patches upstream_Add-missing-include.patch,
+    upstream_Fix-compilation.patch, and
+    upstream_Add-missing-include-QJsonArray-to-fix-compilation-wi.patch.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 01 Oct 2019 19:36:41 +0200
 
