@@ -1,5 +1,6 @@
 # SymbolsHelper-Confirmed: 4:5.13.1 amd64
 libcolorcorrect.so.5 libcolorcorrect5 #MINVER#
+* Build-Depends-Package: plasma-workspace-dev
  _ZN12ColorCorrect10Geolocator11dataUpdatedERK7QStringRK4QMapIS1_8QVariantE@Base 4:5.12.0
  _ZN12ColorCorrect10Geolocator11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.12.0
  _ZN12ColorCorrect10Geolocator11qt_metacastEPKc@Base 4:5.12.0

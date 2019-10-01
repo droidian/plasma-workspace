@@ -11,12 +11,12 @@ include /usr/share/pkg-kde-tools/qt-kde-team/2/library-packages.mk
 %:
 	dh $@ --with kf5,pkgkde_symbolshelper --buildsystem kf5 --without build_stamp
 
+override_dh_auto_configure:
+	dh_auto_configure -Skf5 -- -DBUILD_TESTING=OFF
+
 override_dh_auto_test:
 	# Disable auto tests at build time
 	:
-
-override_dh_strip:
-	dh_strip --dbgsym-migration='plasma-workspace-dbg (<= 4:5.5.5.1-1~~)'
 
 override_dh_fixperms:
 	chmod -x debian/plasma-workspace/etc/xdg/autostart/klipper.desktop

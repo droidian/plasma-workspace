@@ -4,6 +4,30 @@ plasma-workspace (4:5.16.5-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 13 Sep 2019 14:56:17 +0100
 
+plasma-workspace (4:5.14.5.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Bump Standards-Version to 4.4.1, no changes required.
+  * Pass -DBUILD_TESTING=OFF to cmake to disable the build of tests, as they
+    are not run at build time anyway.
+  * Drop the 'testsuite' autopkgtest, as it does not test the installed
+    packages
+    - drop patch disable_incompatible_tests, no more needed now
+  * Remove unused debian/meta stuff.
+  * Drop the migration from plasma-workspace-dbg, no more needed after two
+    Debian stable releases.
+  * Backport upstream commits a788ab3d08a8a68ed232f81a2110f447080451ec,
+    0c4ec1c4af05aa1f6e36c934881cf6f427f7241a, and
+    eaa5e74c04c56d035cfb307fc292f585ad530275 to fix build with newer KF;
+    patches upstream_Add-missing-include.patch,
+    upstream_Fix-compilation.patch, and
+    upstream_Add-missing-include-QJsonArray-to-fix-compilation-wi.patch.
+  * Update symbols files.
+  * Switch the section of the libraries to libs, and the -dev packages to
+    libdevel.
+
+ -- Pino Toscano <pino@debian.org>  Tue, 01 Oct 2019 20:43:23 +0200
+
 plasma-workspace (4:5.14.5.1-1) unstable; urgency=medium
 
   * New upstream bugfix release (5.14.5.1).

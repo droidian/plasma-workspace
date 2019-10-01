@@ -1,5 +1,6 @@
 # SymbolsHelper-Confirmed: 4:5.13.1 amd64
 libkworkspace5.so.5 libkworkspace5-5 #MINVER#
+* Build-Depends-Package: plasma-workspace-dev
  _ZN10KWorkSpace11canShutDownENS_15ShutdownConfirmENS_12ShutdownTypeENS_12ShutdownModeE@Base 4:5.8.1
  _ZN10KWorkSpace14detectPlatformEiPPc@Base 4:5.13.1
  _ZN10KWorkSpace14isShuttingDownEv@Base 4:5.8.1

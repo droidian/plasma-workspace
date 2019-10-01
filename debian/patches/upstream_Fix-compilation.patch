@@ -1,0 +1,49 @@
+From 0c4ec1c4af05aa1f6e36c934881cf6f427f7241a Mon Sep 17 00:00:00 2001
+From: Nate Graham <nate@kde.org>
+Date: Tue, 6 Aug 2019 13:29:56 -0600
+Subject: [PATCH] Fix compilation
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Summary:
+Without this patch, plasma-workspace fails to compile for me with the following error:
+```
+In file included from /home/nate/kde/build/plasma-workspace/runners/windows/krunner_windows_autogen/EWIEGA46WW/moc_windowsrunner.cpp:10,
+                 from /home/nate/kde/build/plasma-workspace/runners/windows/krunner_windows_autogen/mocs_compilation.cpp:2:
+/home/nate/kde/build/plasma-workspace/runners/windows/krunner_windows_autogen/EWIEGA46WW/../../../../../../src/plasma-workspace/runners/windows/windowsrunner.h:61:9: error: ‘QMutex’ does not name a type
+   61 |         QMutex m_mutex;
+      |         ^~~~~~
+```
+
+Test Plan: It compiles now
+
+Reviewers: #plasma, aacid
+
+Reviewed By: aacid
+
+Subscribers: plasma-devel
+
+Tags: #plasma
+
+Differential Revision: https://phabricator.kde.org/D22976
+---
+ runners/windows/windowsrunner.h | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/runners/windows/windowsrunner.h b/runners/windows/windowsrunner.h
+index 016b7c40f..a106af8b0 100644
+--- a/runners/windows/windowsrunner.h
++++ b/runners/windows/windowsrunner.h
+@@ -21,6 +21,8 @@
+ 
+ #include <KRunner/AbstractRunner>
+ 
++#include <QMutex>
++
+ class KWindowInfo;
+ 
+ class WindowsRunner : public Plasma::AbstractRunner
+-- 
+2.23.0
+

@@ -1,5 +1,6 @@
 # SymbolsHelper-Confirmed: 4:5.8.1 amd64
 libplasma-geolocation-interface.so.5 libplasma-geolocation-interface5 #MINVER#
+* Build-Depends-Package: plasma-workspace-dev
  _ZN19GeolocationProvider11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.8.1
  _ZN19GeolocationProvider11qt_metacastEPKc@Base 4:5.8.1
  _ZN19GeolocationProvider11setAccuracyEi@Base 4:5.8.1

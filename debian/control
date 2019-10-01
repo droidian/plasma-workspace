@@ -88,13 +88,14 @@ Build-Depends: baloo-kf5-dev (>= 5.13~),
                qtscript5-dev (>= 5.9.0~),
                qttools5-dev (>= 5.7~),
                xcb-proto,
-Standards-Version: 4.1.4
+Standards-Version: 4.4.1
 Homepage: https://projects.kde.org/projects/kde/workspace/plasma-workspace
 Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/plasma-workspace
 Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/plasma-workspace.git
 
 Package: libcolorcorrect5
 Architecture: any
+Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Plasma Workspace for KF5 library
  Plasma Workspace for KF5. Workspaces provide
@@ -106,6 +107,7 @@ Description: Plasma Workspace for KF5 library
 
 Package: libkworkspace5-5
 Architecture: any
+Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Plasma Workspace for KF5 library
  Plasma Workspace for KF5. Workspaces provide
@@ -123,6 +125,7 @@ Breaks: kde-cli-tools (<< 4:5.14),
 
 Package: libplasma-geolocation-interface5
 Architecture: any
+Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Plasma Workspace for KF5 library
  Plasma Workspace for KF5. Workspaces provide
@@ -134,6 +137,7 @@ Description: Plasma Workspace for KF5 library
 
 Package: libtaskmanager6
 Architecture: any
+Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Plasma Workspace for KF5 library
  Plasma Workspace for KF5. Workspaces provide
@@ -146,6 +150,7 @@ Breaks: plasma-desktop (<< 4:5.14)
 
 Package: libweather-ion7
 Architecture: any
+Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Plasma Workspace for KF5 library
  Plasma Workspace for KF5. Workspaces provide
@@ -236,6 +241,7 @@ Description: Plasma Workspace for KF5
 
 Package: plasma-workspace-dev
 Architecture: any
+Section: libdevel
 Depends: kwin-common (>= 4:5.14),
          libkf5itemmodels-dev (>= 5.37.0~),
          libkf5plasma-dev (>= 5.58.0~),
