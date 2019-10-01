@@ -7,6 +7,7 @@ plasma-workspace (4:5.14.5.1-2) UNRELEASED; urgency=medium
   * Drop the 'testsuite' autopkgtest, as it does not test the installed
     packages
     - drop patch disable_incompatible_tests, no more needed now
+  * Remove unused debian/meta stuff.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 01 Oct 2019 19:36:41 +0200
 
