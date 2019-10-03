@@ -5,11 +5,10 @@ export DEB_LDFLAGS_MAINT_APPEND := -Wl,--as-needed
 l10npkgs_firstversion_ok := 4:4.14.0-2
 include /usr/share/pkg-kde-tools/qt-kde-team/2/l10n-packages.mk
 
-libpkgs_addsubst_allLibraries = plasma-workspace-dev
 include /usr/share/pkg-kde-tools/qt-kde-team/2/library-packages.mk
 
 %:
-	dh $@ --with kf5,pkgkde_symbolshelper --buildsystem kf5 --without build_stamp
+	dh $@ --with kf5,pkgkde_symbolshelper,sodeps --buildsystem kf5 --without build_stamp
 
 override_dh_auto_configure:
 	dh_auto_configure -Skf5 -- -DBUILD_TESTING=OFF
@@ -27,5 +26,5 @@ override_dh_install:
 	cp debian/40-kde-plasma-kf5.conf debian/plasma-workspace/usr/share/lightdm/lightdm.conf.d/
 	dh_install
 
-override_dh_gencontrol: l10npkgs_firstversion_ok libpkgs_addsubst_allLibraries
+override_dh_gencontrol: l10npkgs_firstversion_ok
 	dh_gencontrol

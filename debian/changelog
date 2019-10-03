@@ -1,5 +1,11 @@
 plasma-workspace (4:5.14.5.1-3) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Simplify the dependencies of plasma-workspace-dev:
+    - remove kwin-common, and plasma-workspace, which are not needed (it is
+      a package only with development libraries)
+    - use the sodeps addon instead of the custom dhmk target to get the
+      dependencies for all the so symlinks shipped
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 03 Oct 2019 06:06:16 +0200
 
