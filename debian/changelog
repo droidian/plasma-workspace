@@ -7,6 +7,8 @@ plasma-workspace (4:5.14.5.1-3) UNRELEASED; urgency=medium
     - use the sodeps addon instead of the custom dhmk target to get the
       dependencies for all the so symlinks shipped
   * Tighten library dependencies.
+  * Install 40-kde-plasma-kf5.conf using plasma-workspace.install, instead of
+    copying it manually.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 03 Oct 2019 06:06:16 +0200
 

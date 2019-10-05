@@ -1,3 +1,4 @@
+debian/40-kde-plasma-kf5.conf usr/share/lightdm/lightdm.conf.d/
 etc/xdg/autostart/gmenudbusmenuproxy.desktop
 etc/xdg/autostart/klipper.desktop
 etc/xdg/autostart/krunner.desktop
