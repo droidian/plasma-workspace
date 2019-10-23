@@ -4,7 +4,7 @@ plasma-workspace (4:5.14.5.1-4) unstable; urgency=medium
     recursion in Plasma notifications (Closes: #943344).
   * Refresh add_sddm_debian_breeze.patch.
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 23 Oct 2019 15:37:03 -0300
+ -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 23 Oct 2019 15:41:55 -0300
 
 plasma-workspace (4:5.14.5.1-3) unstable; urgency=medium
 
