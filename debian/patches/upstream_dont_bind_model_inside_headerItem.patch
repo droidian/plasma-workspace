@@ -1,0 +1,57 @@
+Description: Don't bind model inside headerItem
+ Since Qt 5.12.5 and newer this causes infinite recursion in component creation
+ as setting the model has ListView recreate its header item (among other things)
+ since https://code.qt.io/cgit/qt/qtdeclarative.git/commit/?h=5.12&id=692b2da77427259a3589cf8a1311075863f2f5ec
+ .
+ See also https://bugzilla.redhat.com/show_bug.cgi?id=1758263
+Author: Kai Uwe Broulik (broulik)
+Origin: https://phabricator.kde.org/D24654
+Bug-Debian: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=943344
+
+
+diff --git a/applets/notifications/package/contents/ui/Notifications.qml b/applets/notifications/package/contents/ui/Notifications.qml
+--- a/applets/notifications/package/contents/ui/Notifications.qml
++++ b/applets/notifications/package/contents/ui/Notifications.qml
+@@ -34,6 +34,7 @@
+ 
+     property alias count: notificationsRepeater.count
+     readonly property int historyCount: historyList.count
++    property alias historyModel: notificationsHistoryModel
+     
+     property bool showHistory: plasmoid.configuration.showHistory
+     
+@@ -276,13 +277,6 @@
+ 
+     // History stuff
+     // The history is shown outside in a ListView
+-    Binding {
+-        target: historyList
+-        property: "model"
+-        value: notificationsHistoryModel
+-        when: showHistory
+-    }
+-
+     Binding {
+         target: historyList
+         property: "delegate"
+diff --git a/applets/notifications/package/contents/ui/main.qml b/applets/notifications/package/contents/ui/main.qml
+--- a/applets/notifications/package/contents/ui/main.qml
++++ b/applets/notifications/package/contents/ui/main.qml
+@@ -117,7 +117,15 @@
+             id: historyList
+ 
+             // The history stuff is quite entangled with regular notifications, so
+-            // model and delegate are set by Bindings {} inside Notifications.qml
++            // we have to dive into the header item's notification loader to get it
++
++            // NOTE Previously this was done by a Binding {} in Notifications, however
++            // since Qt 5.12.5 changing the model causes ListView to recreate its header
++            // items (among other things) causing infinite recursion until it aborts
++            // item creation. Since the NotificationPopup {} is also created in Notifications
++            // this will then leave the NotificationsHelper try to access a null
++            // popup and crash.
++            model: headerItem && headerItem.notifications && headerItem.notifications.historyModel ? headerItem.notifications.historyModel : null
+ 
+             header: Column {
+                 property alias jobs: jobsLoader.item
+
