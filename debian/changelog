@@ -2,6 +2,7 @@ plasma-workspace (4:5.14.5.1-4) UNRELEASED; urgency=medium
 
   * Backport patch to avoid infinite recursion in Plasma notifications
     (Closes: #943344).
+  * Refresh add_sddm_debian_breeze.patch.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 23 Oct 2019 15:25:27 -0300
 
