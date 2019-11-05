@@ -1,4 +1,3 @@
 add_sddm_debian_breeze.patch
-replace-fds.patch
 #upstream_Dont_bind_model_inside_headerItem.patch
 upstream_Fix-build-with-gpsd-3.20.patch
