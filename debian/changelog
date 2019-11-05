@@ -21,6 +21,8 @@ plasma-workspace (4:5.17.5-0r1) UNRELEASED; urgency=medium
   * Update build-deps for 5.17
   * Introduce new library, libnotificationmanager1
   * Add new files and remove deleted ones
+  * Remove references to startkde
+    - startkde is now startplasma-*
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 13 Sep 2019 14:56:17 +0100
 

@@ -11,7 +11,7 @@ plasma-workspace: binary-without-manpage usr/bin/kstartupconfig5
 plasma-workspace: binary-without-manpage usr/bin/kuiserver5
 plasma-workspace: binary-without-manpage usr/bin/plasmashell
 plasma-workspace: binary-without-manpage usr/bin/plasmawindowed
-plasma-workspace: binary-without-manpage usr/bin/startkde
+plasma-workspace: binary-without-manpage usr/bin/startplasma-x11
 plasma-workspace: binary-without-manpage usr/bin/systemmonitor
 plasma-workspace: shlib-without-versioned-soname usr/lib/*/libkdeinit5_*.so libkdeinit5_*.so
 plasma-workspace: postinst-must-call-ldconfig usr/lib/*/libkdeinit5_*.so

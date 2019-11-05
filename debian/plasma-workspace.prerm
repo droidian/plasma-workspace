@@ -19,7 +19,7 @@ set -e
 
 case "$1" in
     remove)
-        update-alternatives --remove x-session-manager /usr/bin/startkde
+        update-alternatives --remove x-session-manager /usr/bin/startplasma-x11
     ;;
 
     upgrade|deconfigure)

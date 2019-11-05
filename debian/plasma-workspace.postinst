@@ -21,10 +21,10 @@ set -e
 case "$1" in
     configure)
         update-alternatives --install /usr/bin/x-session-manager \
-	x-session-manager /usr/bin/startkde 40 #\
-	# startkde doesn't have manpage right now
+	x-session-manager /usr/bin/startplasma-x11 40 #\
+	# startplasma-x11 doesn't have manpage right now
 	#--slave /usr/share/man/man1/x-session-manager.1.gz \
-	#x-session-manager.1.gz "/usr/share/man/man1/startkde.1.gz"
+	#x-session-manager.1.gz "/usr/share/man/man1/startplasma-x11.1.gz"
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
