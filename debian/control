@@ -284,6 +284,8 @@ Description: Plasma Workspace for KF5 - Wayland integration
  Plasma Workspace for KF5. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
  hardware management and a high degree of customizability.
+ .
+ This package contains the Wayland session.
 
 Package: sddm-theme-breeze
 Architecture: any
