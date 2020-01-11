@@ -5,3 +5,4 @@ upstream_Fix-compilation.patch
 upstream_Add-missing-include-QJsonArray-to-fix-compilation-wi.patch
 upstream_Dont_bind_model_inside_headerItem.patch
 upstream_Harmonize-usage-of-HAVE_X11-using-if-and-cmakedefine.patch
+upstream_Fix-build-with-gpsd-3.20.patch

@@ -4,6 +4,8 @@ plasma-workspace (4:5.14.5.1-5) UNRELEASED; urgency=medium
   * Backport upstream commit c534fdf1ba34d0ea8a08b9b5266384a3243271e0 to build
     with newer cmake; patch
     upstream_Harmonize-usage-of-HAVE_X11-using-if-and-cmakedefine.patch.
+  * Backport upstream commit 0c4974d68804cdaff2efb6317f7853a89d3a3d2b to fix
+    build with gpsd 3.20; patch upstream_Fix-build-with-gpsd-3.20.patch.
 
   [ Maximiliano Curia ]
   * Salsa CI automatic initialization by Tuco
