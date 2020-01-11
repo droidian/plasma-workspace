@@ -5,6 +5,9 @@ plasma-workspace (4:5.14.5.1-5) UNRELEASED; urgency=medium
     with newer cmake; patch
     upstream_Harmonize-usage-of-HAVE_X11-using-if-and-cmakedefine.patch.
 
+  [ Maximiliano Curia ]
+  * Salsa CI automatic initialization by Tuco
+
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 12 Jan 2020 00:38:48 +0100
 
 plasma-workspace (4:5.14.5.1-4) unstable; urgency=medium
