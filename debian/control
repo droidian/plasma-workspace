@@ -5,7 +5,7 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: baloo-kf5-dev (>= 5.13~),
                cmake (>= 3.0~),
-               debhelper (>= 11~),
+               debhelper-compat (= 12),
                extra-cmake-modules (>= 5.50.0~),
                kgendesignerplugin (>= 5.41~),
                kinit-dev,
