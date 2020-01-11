@@ -1,5 +1,9 @@
 plasma-workspace (4:5.14.5.1-5) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Backport upstream commit c534fdf1ba34d0ea8a08b9b5266384a3243271e0 to build
+    with newer cmake; patch
+    upstream_Harmonize-usage-of-HAVE_X11-using-if-and-cmakedefine.patch.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 12 Jan 2020 00:38:48 +0100
 
