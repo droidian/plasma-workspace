@@ -9,6 +9,8 @@ plasma-workspace (4:5.14.5.1-5) UNRELEASED; urgency=medium
   * Bump the debhelper compatibility to 12:
     - switch the debhelper build dependency to debhelper-compat 12
     - remove debian/compat
+  * Drop the kde-l10n breaks/replaces, no more needed after two Debian stable
+    releases.
 
   [ Maximiliano Curia ]
   * Salsa CI automatic initialization by Tuco
