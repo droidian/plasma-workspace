@@ -9,6 +9,10 @@ plasma-workspace (4:5.16.5-1~) UNRELEASED; urgency=medium
     - upstream_Fix-compilation.patch: drop, backported from upstream
     - upstream_Add-missing-include-QJsonArray-to-fix-compilation-wi.patch:
       drop, backported from upstream
+    - upstream_Dont_bind_model_inside_headerItem.patch: disable for now, as its
+      status is unclear
+    - upstream_Harmonize-usage-of-HAVE_X11-using-if-and-cmakedefine.patch:
+      drop, backported from upstream
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 13 Sep 2019 14:56:17 +0100
 
