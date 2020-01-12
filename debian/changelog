@@ -1,6 +1,6 @@
-plasma-workspace (4:5.14.5.1-5) UNRELEASED; urgency=medium
+plasma-workspace (4:5.14.5.1-5) unstable; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
   * Backport upstream commit c534fdf1ba34d0ea8a08b9b5266384a3243271e0 to build
     with newer cmake; patch
     upstream_Harmonize-usage-of-HAVE_X11-using-if-and-cmakedefine.patch.
@@ -15,7 +15,7 @@ plasma-workspace (4:5.14.5.1-5) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * Salsa CI automatic initialization by Tuco
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 12 Jan 2020 00:38:48 +0100
+ -- Pino Toscano <pino@debian.org>  Sun, 12 Jan 2020 09:57:44 +0100
 
 plasma-workspace (4:5.14.5.1-4) unstable; urgency=medium
 
