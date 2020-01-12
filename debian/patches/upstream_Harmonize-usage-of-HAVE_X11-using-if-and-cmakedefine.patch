@@ -1,0 +1,88 @@
+From c534fdf1ba34d0ea8a08b9b5266384a3243271e0 Mon Sep 17 00:00:00 2001
+From: David Faure <faure@kde.org>
+Date: Sun, 10 Feb 2019 20:21:57 +0100
+Subject: [PATCH] Harmonize usage of HAVE_X11, using #if and #cmakedefine01
+ everywhere
+
+I got "#define HAVE_X11 TRUE" and errors because of that where #if was
+used.
+
+This also obeys the logic that HAVE_X11 is set (in the toplevel
+CMakeLists.txt) not only when X11_FOUND but also when XCB is found.
+---
+ appmenu/appmenu.cpp                          | 2 +-
+ config-X11.h.cmake                           | 2 +-
+ libkworkspace/config-libkworkspace.h.cmake   | 2 +-
+ runners/windows/config-windowsrunner.h.cmake | 2 +-
+ shell/scripting/appinterface.cpp             | 2 +-
+ soliduiserver/soliduiserver.cpp              | 2 +-
+ 6 files changed, 6 insertions(+), 6 deletions(-)
+
+diff --git a/appmenu/appmenu.cpp b/appmenu/appmenu.cpp
+index 7c956c6e9..4ab710677 100644
+--- a/appmenu/appmenu.cpp
++++ b/appmenu/appmenu.cpp
+@@ -106,7 +106,7 @@ AppMenuModule::~AppMenuModule() = default;
+ 
+ void AppMenuModule::slotWindowRegistered(WId id, const QString &serviceName, const QDBusObjectPath &menuObjectPath)
+ {
+-#ifdef HAVE_X11
++#if HAVE_X11
+     if (KWindowSystem::isPlatformX11()) {
+         auto *c = QX11Info::connection();
+ 
+diff --git a/config-X11.h.cmake b/config-X11.h.cmake
+index 60286dd63..ae8978a08 100644
+--- a/config-X11.h.cmake
++++ b/config-X11.h.cmake
+@@ -41,4 +41,4 @@
+ #cmakedefine HAS_RANDR_1_3 1
+ 
+ /* Define if you have X11 at all */
+-#define HAVE_X11 ${X11_FOUND}
++#cmakedefine01 HAVE_X11
+diff --git a/libkworkspace/config-libkworkspace.h.cmake b/libkworkspace/config-libkworkspace.h.cmake
+index 36a826ee9..c3ae6d787 100644
+--- a/libkworkspace/config-libkworkspace.h.cmake
++++ b/libkworkspace/config-libkworkspace.h.cmake
+@@ -1,2 +1,2 @@
+ /* Define if you have X11 at all */
+-#define HAVE_X11 ${X11_FOUND}
++#cmakedefine01 HAVE_X11
+diff --git a/runners/windows/config-windowsrunner.h.cmake b/runners/windows/config-windowsrunner.h.cmake
+index 36a826ee9..c3ae6d787 100644
+--- a/runners/windows/config-windowsrunner.h.cmake
++++ b/runners/windows/config-windowsrunner.h.cmake
+@@ -1,2 +1,2 @@
+ /* Define if you have X11 at all */
+-#define HAVE_X11 ${X11_FOUND}
++#cmakedefine01 HAVE_X11
+diff --git a/shell/scripting/appinterface.cpp b/shell/scripting/appinterface.cpp
+index bd66cd2b1..a0ad73cf4 100644
+--- a/shell/scripting/appinterface.cpp
++++ b/shell/scripting/appinterface.cpp
+@@ -37,7 +37,7 @@
+ #include <windows.h>
+ #endif
+ 
+-#ifdef HAVE_X11
++#if HAVE_X11
+ #include <X11/Xlib.h>
+ #include <fixx11h.h>
+ #endif
+diff --git a/soliduiserver/soliduiserver.cpp b/soliduiserver/soliduiserver.cpp
+index 3ec09c066..d06a1e6a5 100644
+--- a/soliduiserver/soliduiserver.cpp
++++ b/soliduiserver/soliduiserver.cpp
+@@ -219,7 +219,7 @@ void SolidUiServer::reparentDialog(QWidget *dialog, WId wId, const QString &appI
+ 
+     KWindowSystem::setMainWindow(dialog, wId); // correct, set dialog parent
+ 
+-#ifdef HAVE_X11
++#if HAVE_X11
+     if (modal) {
+         KWindowSystem::setState(dialog->winId(), NET::Modal);
+     } else {
+-- 
+2.24.1
+

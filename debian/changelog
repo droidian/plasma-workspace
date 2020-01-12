@@ -12,6 +12,34 @@ plasma-workspace (4:5.16.5-1~) UNRELEASED; urgency=medium
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 13 Sep 2019 14:56:17 +0100
 
+plasma-workspace (4:5.14.5.1-5) unstable; urgency=medium
+
+  * Team upload.
+  * Backport upstream commit c534fdf1ba34d0ea8a08b9b5266384a3243271e0 to build
+    with newer cmake; patch
+    upstream_Harmonize-usage-of-HAVE_X11-using-if-and-cmakedefine.patch.
+  * Backport upstream commit 0c4974d68804cdaff2efb6317f7853a89d3a3d2b to fix
+    build with gpsd 3.20; patch upstream_Fix-build-with-gpsd-3.20.patch.
+  * Bump the debhelper compatibility to 12:
+    - switch the debhelper build dependency to debhelper-compat 12
+    - remove debian/compat
+  * Drop the kde-l10n breaks/replaces, no more needed after two Debian stable
+    releases.
+
+  [ Maximiliano Curia ]
+  * Salsa CI automatic initialization by Tuco
+
+ -- Pino Toscano <pino@debian.org>  Sun, 12 Jan 2020 09:57:44 +0100
+
+plasma-workspace (4:5.14.5.1-4) unstable; urgency=medium
+
+  * Team upload.
+  * Backport upstream_dont_bind_model_inside_headerItem.patch to avoid infinite
+    recursion in Plasma notifications (Closes: #943344).
+  * Refresh add_sddm_debian_breeze.patch.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 23 Oct 2019 15:45:35 -0300
+
 plasma-workspace (4:5.14.5.1-3) unstable; urgency=medium
 
   * Team upload.
