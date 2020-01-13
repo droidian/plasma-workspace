@@ -2,6 +2,8 @@ plasma-workspace (4:5.16.5-1~) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.16.5).
+  * Update build-deps and deps with the info from cmake
+  * Salsa CI automatic initialization by Tuco
 
   [ Pino Toscano ]
   * Update the patches:
