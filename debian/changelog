@@ -1,4 +1,4 @@
-plasma-workspace (4:5.16.5-1~) UNRELEASED; urgency=medium
+plasma-workspace (4:5.17.5-0r1) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.16.5).
@@ -6,6 +6,7 @@ plasma-workspace (4:5.16.5-1~) UNRELEASED; urgency=medium
   * Salsa CI automatic initialization by Tuco
 
   [ Pino Toscano ]
+  * New upstream release.
   * Update the patches:
     - upstream_Add-missing-include.patch: drop, backported from upstream
     - upstream_Fix-compilation.patch: drop, backported from upstream
