@@ -8,4 +8,3 @@ rm_conffile /etc/xdg/plasma-workspace.categories 4:5.17.1-1~
 rm_conffile /etc/xdg/plasmoids.knsrc 4:5.17.1-1~
 rm_conffile /etc/xdg/wallpaper.knsrc 4:5.17.1-1~
 mv_conffile /etc/xdg/autostart/plasmashell.desktop /etc/xdg/autostart/org.kde.plasmashell.desktop 4:5.17.1-1~
-
