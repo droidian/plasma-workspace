@@ -217,22 +217,17 @@ Breaks: kde-window-manager (<= 4:5),
         kdeartwork-style,
         kdeartwork-theme-window,
         kinfocenter (<< 4:5.14),
-        kio-extras (<< 4:5.3.2+git20150710.0210),
-        kio-extras-data (<< 4:5.3.2+git20150710.0210),
         klipper,
         kscreensaver,
         kscreensaver-xsavers,
         kscreensaver-xsavers-webcollage,
         plasma-desktop (<< 4:5.14),
         plasma-desktopthemes-artwork,
-        plasma-mediacenter (<< 5.7),
         plasma-systray-legacy,
         plasma-widgets-addons (<< 4:5.14),
 Conflicts: kde-workspace, kde-workspace-data, klipper
 Replaces: kde-workspace-bin,
           kde-workspace-data,
-          kio-extras (<< 4:5.3.2+git20150710.0210),
-          kio-extras-data (<< 4:5.3.2+git20150710.0210),
           klipper,
           plasma-systray-legacy,
           plasma-workspace-data,
@@ -288,8 +283,6 @@ Architecture: any
 Depends: plasma-framework, plasma-workspace, ${misc:Depends}, ${shlibs:Depends}
 Recommends: sddm
 Provides: sddm-theme
-Breaks: plasma-workspace (<< 4:5.0.2-0ubuntu1~ubuntu14.10~ppa5)
-Replaces: plasma-workspace (<< 4:5.0.2-0ubuntu1~ubuntu14.10~ppa5)
 Description: Breeze SDDM theme
  Plasma Workspace for KF5. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
