@@ -1,14 +1,10 @@
-plasma-workspace: package-name-doesnt-match-sonames libkdeinit5-kcminit libkdeinit5-kcminit-startup libkdeinit5-klipper libkdeinit5-ksmserver libkdeinit5-kuiserver5
-plasma-workspace: binary-without-manpage usr/bin/kcheckrunning
+plasma-workspace: package-name-doesnt-match-sonames libkdeinit5-kcminit libkdeinit5-kcminit-startup libkdeinit5-klipper libkdeinit5-ksmserver
 plasma-workspace: binary-without-manpage usr/bin/kcminit
 plasma-workspace: binary-without-manpage usr/bin/kcminit_startup
-plasma-workspace: binary-without-manpage usr/bin/kdostartupconfig5
 plasma-workspace: binary-without-manpage usr/bin/klipper
 plasma-workspace: binary-without-manpage usr/bin/krunner
 plasma-workspace: binary-without-manpage usr/bin/ksmserver
 plasma-workspace: binary-without-manpage usr/bin/ksplashqml
-plasma-workspace: binary-without-manpage usr/bin/kstartupconfig5
-plasma-workspace: binary-without-manpage usr/bin/kuiserver5
 plasma-workspace: binary-without-manpage usr/bin/plasmashell
 plasma-workspace: binary-without-manpage usr/bin/plasmawindowed
 plasma-workspace: binary-without-manpage usr/bin/startplasma-x11
