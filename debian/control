@@ -194,6 +194,7 @@ Depends: default-dbus-session-bus | dbus-session-bus,
          milou (>= 4:5.14),
          plasma-framework,
          plasma-integration (>= 5.14),
+         plasma-workspace-data (>= ${source:Version}),
          qdbus-qt5,
          qml-module-org-kde-draganddrop,
          qml-module-org-kde-kcoreaddons,
@@ -233,7 +234,6 @@ Replaces: kde-workspace-bin,
           kde-workspace-data,
           klipper,
           plasma-systray-legacy,
-          plasma-workspace-data,
 Provides: notification-daemon, x-session-manager
 Recommends: kde-cli-tools (>= 4:5.14),
             kio-extras,
@@ -246,6 +246,18 @@ Description: Plasma Workspace for KF5
  hardware management and a high degree of customizability.
  .
  THIS WILL REMOVE YOUR KDE Plasma 4.
+
+Package: plasma-workspace-data
+Architecture: all
+Depends: ${misc:Depends}
+Breaks: plasma-workspace (<< 4:5.17.5)
+Replaces: plasma-workspace (<< 4:5.17.5)
+Description: Plasma Workspace for KF5 - data files
+ Plasma Workspace for KF5. Workspaces provide
+ support for KDE Plasma Widgets, integrated search,
+ hardware management and a high degree of customizability.
+ .
+ This contains the data files for the Plasma workspace.
 
 Package: plasma-workspace-dev
 Architecture: any
