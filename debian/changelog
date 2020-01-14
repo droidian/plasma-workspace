@@ -26,6 +26,10 @@ plasma-workspace (4:5.17.5-0r1) UNRELEASED; urgency=medium
   * Apply the overrides of dh_fixperms, and dh_gencontrol only in arch builds,
     as they work on arch:any packages.
   * Split plasma-workspace-data out of plasma-workspace.
+  * Remove unused build dependencies: kgendesignerplugin, libboost-dev,
+    libkf5webkit-dev, libkf5xmlrpcclient-dev, libnm-dev, libpam0g-dev,
+    libqt5sensors5-dev, libraw1394-dev, libxapian-dev, lm-sensors, and
+    qtscript5-dev.
 
   [ Jiří Paleček ]
   * Update build-deps for 5.17
