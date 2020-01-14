@@ -1,10 +1,10 @@
 rm_conffile /etc/xdg/autostart/org.kde.klipper.desktop 4:5.8.0-1~
 rm_conffile /etc/xdg/autostart/plasmashell.desktop 4:5.11.4-1~
 rm_conffile /etc/xdg/legacytaskmanagerrulesrc 4:5.8.0-2~
-rm_conffile /etc/xdg/autostart/krunner.desktop 4:5.17.1-1~
-rm_conffile /etc/xdg/klipper.categories 4:5.17.1-1~
-rm_conffile /etc/xdg/kuiserver.categories 4:5.17.1-1~
-rm_conffile /etc/xdg/plasma-workspace.categories 4:5.17.1-1~
-rm_conffile /etc/xdg/plasmoids.knsrc 4:5.17.1-1~
-rm_conffile /etc/xdg/wallpaper.knsrc 4:5.17.1-1~
-mv_conffile /etc/xdg/autostart/plasmashell.desktop /etc/xdg/autostart/org.kde.plasmashell.desktop 4:5.17.1-1~
+rm_conffile /etc/xdg/autostart/krunner.desktop 4:5.17.5~
+rm_conffile /etc/xdg/klipper.categories 4:5.17.5~
+rm_conffile /etc/xdg/kuiserver.categories 4:5.17.5~
+rm_conffile /etc/xdg/plasma-workspace.categories 4:5.17.5~
+rm_conffile /etc/xdg/plasmoids.knsrc 4:5.17.5~
+rm_conffile /etc/xdg/wallpaper.knsrc 4:5.17.5~
+mv_conffile /etc/xdg/autostart/plasmashell.desktop /etc/xdg/autostart/org.kde.plasmashell.desktop 4:5.17.5~
