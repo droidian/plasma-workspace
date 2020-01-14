@@ -21,6 +21,7 @@ plasma-workspace (4:5.17.5-0r1) UNRELEASED; urgency=medium
     oldstable.
   * Since libtaskmanager had an ABI break without an SONAME bump, use the
     DebianABIManager to rename libtaskmanager1 to libtaskmanager1abi1.
+  * Update symbols files.
 
   [ Jiří Paleček ]
   * Update build-deps for 5.17
