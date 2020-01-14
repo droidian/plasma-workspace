@@ -1,0 +1,8 @@
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -216,3 +216,5 @@ ki18n_install(po)
+   if(KF5DocTools_FOUND)
+     kdoctools_install(po)
+   endif()
++
++include(/usr/share/pkg-kde-tools/cmake/DebianABIManager.cmake)

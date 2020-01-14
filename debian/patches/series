@@ -1,2 +1,3 @@
 add_sddm_debian_breeze.patch
 #upstream_Dont_bind_model_inside_headerItem.patch
+enable_debianabimanager.diff

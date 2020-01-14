@@ -136,7 +136,9 @@ Description: Plasma Workspace for KF5 library
  .
  This package contains library files.
 
-Package: libtaskmanager6
+Package: libtaskmanager6abi1
+X-Debian-ABI: 1
+X-CMake-Target: taskmanager
 Architecture: any
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends}

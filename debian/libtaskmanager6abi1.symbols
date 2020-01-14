@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:5.14.5.1 amd64
-libtaskmanager.so.6 libtaskmanager6 #MINVER#
+libtaskmanager.so.6abi1 libtaskmanager6abi1 #MINVER#
 * Build-Depends-Package: plasma-workspace-dev
  _ZN11TaskManager10TasksModel10classBeginEv@Base 4:5.12.0
  _ZN11TaskManager10TasksModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.8.1

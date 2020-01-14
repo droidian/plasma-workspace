@@ -19,6 +19,8 @@ plasma-workspace (4:5.17.5-0r1) UNRELEASED; urgency=medium
     - upstream_Fix-build-with-gpsd-3.20.patch: drop, backported from upstream
   * Remove breaks/replaces, and conffile removals for versions older than
     oldstable.
+  * Since libtaskmanager had an ABI break without an SONAME bump, use the
+    DebianABIManager to rename libtaskmanager1 to libtaskmanager1abi1.
 
   [ Jiří Paleček ]
   * Update build-deps for 5.17
