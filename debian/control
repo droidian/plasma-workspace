@@ -153,6 +153,7 @@ Breaks: plasma-desktop (<< 4:5.14)
 
 Package: libnotificationmanager1
 Architecture: any
+Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Plasma Workspace for KF5 library
  Plasma Workspace for KF5. Workspaces provide
