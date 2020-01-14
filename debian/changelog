@@ -23,6 +23,8 @@ plasma-workspace (4:5.17.5-0r1) UNRELEASED; urgency=medium
     DebianABIManager to rename libtaskmanager1 to libtaskmanager1abi1.
   * Update symbols files.
   * Update lintian overrides.
+  * Apply the overrides of dh_fixperms, and dh_gencontrol only in arch builds,
+    as they work on arch:any packages.
 
   [ Jiří Paleček ]
   * Update build-deps for 5.17
