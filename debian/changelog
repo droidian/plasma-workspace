@@ -1,4 +1,6 @@
-plasma-workspace (4:5.17.5-0r1) UNRELEASED; urgency=medium
+plasma-workspace (4:5.17.5-1) experimental; urgency=medium
+
+  * Team upload.
 
   [ Maximiliano Curia ]
   * New upstream release (5.16.5).
@@ -39,7 +41,7 @@ plasma-workspace (4:5.17.5-0r1) UNRELEASED; urgency=medium
     - startkde is now startplasma-*
   * Drop d/p/replace-fds patch, should not be needed
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 13 Sep 2019 14:56:17 +0100
+ -- Pino Toscano <pino@debian.org>  Fri, 17 Jan 2020 21:00:39 +0100
 
 plasma-workspace (4:5.14.5.1-5) unstable; urgency=medium
 
