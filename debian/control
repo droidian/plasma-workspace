@@ -214,7 +214,7 @@ Breaks: kde-window-manager (<= 4:5),
         kscreensaver,
         kscreensaver-xsavers,
         kscreensaver-xsavers-webcollage,
-        plasma-desktop (<< 4:5.14),
+        plasma-desktop (<< 4:5.17.5~),
         plasma-desktopthemes-artwork,
         plasma-systray-legacy,
         plasma-widgets-addons (<< 4:5.14),
@@ -223,6 +223,7 @@ Replaces: kde-workspace-bin,
           kde-workspace-data,
           klipper,
           plasma-systray-legacy,
+          plasma-desktop (<< 4:5.17.5~),
 Provides: notification-daemon, x-session-manager
 Recommends: kde-cli-tools (>= 4:5.14),
             kio-extras,
@@ -239,8 +240,10 @@ Description: Plasma Workspace for KF5
 Package: plasma-workspace-data
 Architecture: all
 Depends: ${misc:Depends}
-Breaks: plasma-workspace (<< 4:5.17.5)
-Replaces: plasma-workspace (<< 4:5.17.5)
+Breaks: plasma-workspace (<< 4:5.17.5),
+        plasma-desktop-data (<< 4:5.17.5~)
+Replaces: plasma-workspace (<< 4:5.17.5),
+          plasma-desktop-data (<< 4:5.17.5~)
 Description: Plasma Workspace for KF5 - data files
  Plasma Workspace for KF5. Workspaces provide
  support for KDE Plasma Widgets, integrated search,

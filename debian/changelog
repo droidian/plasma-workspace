@@ -1,5 +1,8 @@
 plasma-workspace (4:5.17.5-2) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Add breaks/replaces with plasma-desktop & plasma-desktop-data < 5.17,
+    as some files were moved to plasma-workspace. (Closes: #949317)
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 19 Jan 2020 20:50:32 +0100
 
