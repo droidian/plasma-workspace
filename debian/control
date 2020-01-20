@@ -242,9 +242,9 @@ Description: Plasma Workspace for KF5
 Package: plasma-workspace-data
 Architecture: all
 Depends: ${misc:Depends}
-Breaks: plasma-workspace (<< 4:5.17.5),
+Breaks: plasma-workspace (<< 4:5.17.5~),
         plasma-desktop-data (<< 4:5.17.5~)
-Replaces: plasma-workspace (<< 4:5.17.5),
+Replaces: plasma-workspace (<< 4:5.17.5~),
           plasma-desktop-data (<< 4:5.17.5~)
 Description: Plasma Workspace for KF5 - data files
  Plasma Workspace for KF5. Workspaces provide
