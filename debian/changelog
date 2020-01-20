@@ -2,7 +2,8 @@ plasma-workspace (4:5.17.5-2) UNRELEASED; urgency=medium
 
   [ Pino Toscano ]
   * Add breaks/replaces with plasma-desktop & plasma-desktop-data < 5.17,
-    as some files were moved to plasma-workspace. (Closes: #949317, #949334)
+    as some files were moved to plasma-workspace. (Closes: #949317,
+    see #949334)
 
   [ John Scott ]
   * Add description to plasma-workspace-wayland
