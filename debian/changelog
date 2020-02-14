@@ -1,9 +1,10 @@
-plasma-workspace (4:5.17.5-4) UNRELEASED; urgency=medium
+plasma-workspace (4:5.17.5-4) unstable; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
+  * Upload to unstable.
   * Bump Standards-Version to 4.5.0, no changes required.
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 14 Feb 2020 21:04:14 +0100
+ -- Pino Toscano <pino@debian.org>  Fri, 14 Feb 2020 21:05:42 +0100
 
 plasma-workspace (4:5.17.5-3) experimental; urgency=medium
 
