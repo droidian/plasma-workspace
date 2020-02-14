@@ -1,3 +1,13 @@
+plasma-workspace (4:5.17.5-3) experimental; urgency=medium
+
+  * Team upload.
+
+  [ Aurélien COUDERC ]
+  * Fix tiny login font size in SDDM Debian Breeze theme due to upstream
+    changes.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Tue, 21 Jan 2020 17:15:57 +0100
+
 plasma-workspace (4:5.17.5-2) experimental; urgency=medium
 
   * Team upload.

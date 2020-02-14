@@ -13,7 +13,7 @@ Breeze with Debian's default background
 
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -130,6 +130,20 @@ if (INSTALL_SDDM_THEME)
+@@ -133,6 +133,20 @@
      install(FILES ${CMAKE_CURRENT_BINARY_DIR}/sddm-theme/theme.conf DESTINATION ${KDE_INSTALL_FULL_DATADIR}/sddm/themes/breeze)
      install(DIRECTORY lookandfeel/contents/components DESTINATION ${KDE_INSTALL_FULL_DATADIR}/sddm/themes/breeze PATTERN "README.txt" EXCLUDE)
  
@@ -41,7 +41,7 @@ Breeze with Debian's default background
 +Name=Debian Breeze
 +Description=Breeze Theme using Debian artwork
 +Description[fr]=Thème brise utilisant l’apparence Debian
-+Author=David Edmundson
++Author=KDE Visual Design Group
 +Copyright=(c) 2014, David Edmundson
 +License=CC-BY-SA
 +Type=sddm-theme
@@ -51,13 +51,14 @@ Breeze with Debian's default background
 +MainScript=Main.qml
 +ConfigFile=theme.conf
 +TranslationsDirectory=translations
-+Email=davidedmundson@kde.org
++Email=plasma-devel@kde.org
 +Theme-Id=debian-breeze
 +Theme-API=2.0
 --- /dev/null
 +++ b/sddm-theme-debian/theme.conf
-@@ -0,0 +1,4 @@
+@@ -0,0 +1,5 @@
 +[General]
 +type=image
 +color=#1d99f3
++fontSize=10
 +background=/usr/share/desktop-base/active-theme/login/background.svg
