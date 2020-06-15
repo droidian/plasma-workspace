@@ -6,7 +6,7 @@ Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: baloo-kf5-dev (>= 5.13~),
                cmake (>= 3.0~),
                debhelper-compat (= 13),
-               extra-cmake-modules (>= 5.62.0~),
+               extra-cmake-modules (>= 5.66.0~),
                iso-codes,
                kded5-dev,
                kinit-dev,
@@ -15,37 +15,37 @@ Build-Depends: baloo-kf5-dev (>= 5.13~),
                libappstreamqt-dev (>= 0.10.6~) [linux-any],
                libdbusmenu-qt5-dev,
                libgps-dev,
-               libkf5activities-dev (>= 5.62.0~),
-               libkf5activitiesstats-dev (>= 5.62.0~),
+               libkf5activities-dev (>= 5.66.0~),
+               libkf5activitiesstats-dev (>= 5.66.0~),
                libkf5config-dev (>= 5.2.0),
-               libkf5coreaddons-dev (>= 5.62.0~),
-               libkf5crash-dev (>= 5.62.0~),
-               libkf5dbusaddons-dev (>= 5.62.0~),
-               libkf5declarative-dev (>= 5.62.0~),
-               libkf5doctools-dev (>= 5.62.0~),
-               libkf5globalaccel-dev (>= 5.62.0~),
+               libkf5coreaddons-dev (>= 5.66.0~),
+               libkf5crash-dev (>= 5.66.0~),
+               libkf5dbusaddons-dev (>= 5.66.0~),
+               libkf5declarative-dev (>= 5.66.0~),
+               libkf5doctools-dev (>= 5.66.0~),
+               libkf5globalaccel-dev (>= 5.66.0~),
                libkf5holidays-dev,
-               libkf5i18n-dev (>= 5.58.0~),
-               libkf5idletime-dev (>= 5.62.0~),
-               libkf5kcmutils-dev (>= 5.62.0~),
-               libkf5kdelibs4support-dev (>= 5.62.0~),
+               libkf5i18n-dev (>= 5.66.0~),
+               libkf5idletime-dev (>= 5.66.0~),
+               libkf5kcmutils-dev (>= 5.66.0~),
+               libkf5kdelibs4support-dev (>= 5.66.0~),
                libkf5kio-dev (>= 5.4.0),
-               libkf5networkmanagerqt-dev (>= 5.62.0~),
-               libkf5newstuff-dev (>= 5.62.0~),
-               libkf5notifyconfig-dev (>= 5.62.0~),
+               libkf5networkmanagerqt-dev (>= 5.66.0~),
+               libkf5newstuff-dev (>= 5.66.0~),
+               libkf5notifyconfig-dev (>= 5.66.0~),
                libkf5package-dev,
-               libkf5people-dev (>= 5.62.0~),
-               libkf5plasma-dev (>= 5.62.0~),
-               libkf5prison-dev (>= 5.62.0~),
-               libkf5runner-dev (>= 5.62.0~),
+               libkf5people-dev (>= 5.66.0~),
+               libkf5plasma-dev (>= 5.66.0~),
+               libkf5prison-dev (>= 5.66.0~),
+               libkf5runner-dev (>= 5.66.0~),
                libkf5screen-dev (>= 4:5.6~),
                libkf5solid-dev (>= 5.2.0),
-               libkf5su-dev (>= 5.62.0~),
+               libkf5su-dev (>= 5.66.0~),
                libkf5sysguard-dev (>= 4:5.13),
                libkf5texteditor-dev (>= 5.2.0),
-               libkf5textwidgets-dev (>= 5.62.0~),
-               libkf5wallet-dev (>= 5.62.0~),
-               libkf5wayland-dev (>= 4:5.62.0~),
+               libkf5textwidgets-dev (>= 5.66.0~),
+               libkf5wallet-dev (>= 5.66.0~),
+               libkf5wayland-dev (>= 4:5.66.0~),
                libphonon4qt5-dev (>= 4:4.8.0-5),
                libphonon4qt5experimental-dev,
                libqalculate-dev,
@@ -77,7 +77,7 @@ Build-Depends: baloo-kf5-dev (>= 5.13~),
                qtdeclarative5-dev (>= 5.12.0~),
                qttools5-dev (>= 5.12.0~),
                xcb-proto,
-               zlib1g-dev,
+               zlib1g-dev
 Standards-Version: 4.5.0
 Homepage: https://projects.kde.org/projects/kde/workspace/plasma-workspace
 Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/plasma-workspace
@@ -112,7 +112,7 @@ Breaks: kde-cli-tools (<< 4:5.14),
         libpowerdevilcore2 (<< 4:5.14),
         plasma-desktop (<< 4:5.14),
         powerdevil (<< 4:5.14),
-        systemsettings (<< 4:5.14),
+        systemsettings (<< 4:5.14)
 
 Package: libnotificationmanager1
 Architecture: any
@@ -205,7 +205,7 @@ Depends: default-dbus-session-bus | dbus-session-bus,
          x11-utils,
          x11-xserver-utils,
          ${misc:Depends},
-         ${shlibs:Depends},
+         ${shlibs:Depends}
 Breaks: kde-window-manager (<= 4:5),
         kde-workspace-bin,
         kdeartwork-style,
@@ -219,20 +219,20 @@ Breaks: kde-window-manager (<= 4:5),
         plasma-desktop-data (<< 4:5.17.5~),
         plasma-desktopthemes-artwork,
         plasma-systray-legacy,
-        plasma-widgets-addons (<< 4:5.14),
+        plasma-widgets-addons (<< 4:5.14)
 Conflicts: kde-workspace, kde-workspace-data, klipper
 Replaces: kde-workspace-bin,
           kde-workspace-data,
           klipper,
           plasma-desktop (<< 4:5.17.5~),
           plasma-desktop-data (<< 4:5.17.5~),
-          plasma-systray-legacy,
+          plasma-systray-legacy
 Provides: notification-daemon, x-session-manager
 Recommends: kde-cli-tools (>= 4:5.14),
             kio-extras,
             ksysguardd (>= 4:5.14),
             libpam-kwallet5 (>= 5.14),
-            powerdevil (>= 4:5.14),
+            powerdevil (>= 4:5.14)
 Description: Plasma Workspace for KF5
  Plasma Workspace for KF5. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
@@ -256,13 +256,13 @@ Package: plasma-workspace-dev
 Architecture: any
 Section: libdevel
 Depends: libkf5itemmodels-dev (>= 5.37.0~),
-         libkf5plasma-dev (>= 5.62.0~),
+         libkf5plasma-dev (>= 5.66.0~),
          libkf5sysguard-dev (>= 4:5.14),
          libkf5windowsystem-dev (>= 5.4.0),
          qtbase5-dev (>= 5.12.0~),
          qtdeclarative5-dev (>= 5.12.0~),
          ${misc:Depends},
-         ${so:Depends},
+         ${so:Depends}
 Breaks: kde-workspace-dev
 Replaces: kde-workspace-dev
 Conflicts: kde-workspace-dev
@@ -280,7 +280,7 @@ Depends: kwayland-integration (>= 5.14),
          plasma-workspace (= ${binary:Version}),
          qtwayland5,
          ${misc:Depends},
-         ${shlibs:Depends},
+         ${shlibs:Depends}
 Description: Plasma Workspace for KF5 - Wayland integration
  Plasma Workspace for KF5. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
@@ -307,7 +307,7 @@ Depends: plasma-framework,
          plasma-workspace,
          sddm-theme-breeze,
          ${misc:Depends},
-         ${shlibs:Depends},
+         ${shlibs:Depends}
 Recommends: desktop-base (>= 9.0.0~), sddm
 Provides: sddm-theme
 Description: Debian Breeze SDDM theme

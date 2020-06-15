@@ -4,6 +4,7 @@ plasma-workspace (4:5.18.5) UNRELEASED; urgency=medium
   * Bump compat level to 13.
   * Add Rules-Requires-Root field to control.
   * New upstream release (5.18.5).
+  * Update build-deps and deps with the info from cmake.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Jun 2020 12:27:42 -0700
 
