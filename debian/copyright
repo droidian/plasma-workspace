@@ -2,6 +2,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: plasma-workspace
 Source: https://invent.kde.org/plasma/plasma-workspace
+Upstream-Contact: plasma-devel@kde.org
 
 Files: *
 Copyright: 2009, A. L. Spehr <spehr@kde.org>
