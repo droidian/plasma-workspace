@@ -2,6 +2,7 @@ plasma-workspace (4:5.17.5-5) UNRELEASED; urgency=medium
 
   [ Scarlett Moore ]
   * Bump compat level to 13.
+  * Add Rules-Requires-Root field to control.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Jun 2020 12:27:42 -0700
 
