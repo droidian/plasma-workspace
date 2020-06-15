@@ -8,6 +8,7 @@ plasma-workspace (4:5.18.5-1) UNRELEASED; urgency=medium
   * Delete not needed Breaks/Confilcts.
   * Add myself to Uploaders.
   * Remove not needed injection of linker flags.
+  * Update Homepage link to point to new invent.kde.org
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Jun 2020 12:27:42 -0700
 
