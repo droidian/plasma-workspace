@@ -77,7 +77,7 @@ Build-Depends: baloo-kf5-dev (>= 5.13~),
                qtdeclarative5-dev (>= 5.12.0~),
                qttools5-dev (>= 5.12.0~),
                xcb-proto,
-               zlib1g-dev
+               zlib1g-dev,
 Standards-Version: 4.5.0
 Homepage: https://projects.kde.org/projects/kde/workspace/plasma-workspace
 Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/plasma-workspace
@@ -107,12 +107,6 @@ Description: Plasma Workspace for KF5 library
  Kworkspace library.
  .
  This package contains library files.
-Breaks: kde-cli-tools (<< 4:5.14),
-        khotkeys (<< 4:5.14),
-        libpowerdevilcore2 (<< 4:5.14),
-        plasma-desktop (<< 4:5.14),
-        powerdevil (<< 4:5.14),
-        systemsettings (<< 4:5.14)
 
 Package: libnotificationmanager1
 Architecture: any
@@ -151,7 +145,6 @@ Description: Plasma Workspace for KF5 library
  Taskmanager library.
  .
  This package contains library files.
-Breaks: plasma-desktop (<< 4:5.14)
 
 Package: libweather-ion7
 Architecture: any
@@ -205,34 +198,13 @@ Depends: default-dbus-session-bus | dbus-session-bus,
          x11-utils,
          x11-xserver-utils,
          ${misc:Depends},
-         ${shlibs:Depends}
-Breaks: kde-window-manager (<= 4:5),
-        kde-workspace-bin,
-        kdeartwork-style,
-        kdeartwork-theme-window,
-        kinfocenter (<< 4:5.14),
-        klipper,
-        kscreensaver,
-        kscreensaver-xsavers,
-        kscreensaver-xsavers-webcollage,
-        plasma-desktop (<< 4:5.17.5~),
-        plasma-desktop-data (<< 4:5.17.5~),
-        plasma-desktopthemes-artwork,
-        plasma-systray-legacy,
-        plasma-widgets-addons (<< 4:5.14)
-Conflicts: kde-workspace, kde-workspace-data, klipper
-Replaces: kde-workspace-bin,
-          kde-workspace-data,
-          klipper,
-          plasma-desktop (<< 4:5.17.5~),
-          plasma-desktop-data (<< 4:5.17.5~),
-          plasma-systray-legacy
+         ${shlibs:Depends},
 Provides: notification-daemon, x-session-manager
 Recommends: kde-cli-tools (>= 4:5.14),
             kio-extras,
             ksysguardd (>= 4:5.14),
             libpam-kwallet5 (>= 5.14),
-            powerdevil (>= 4:5.14)
+            powerdevil (>= 4:5.14),
 Description: Plasma Workspace for KF5
  Plasma Workspace for KF5. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
@@ -243,8 +215,6 @@ Description: Plasma Workspace for KF5
 Package: plasma-workspace-data
 Architecture: all
 Depends: ${misc:Depends}
-Breaks: plasma-desktop-data (<< 4:5.17.5~), plasma-workspace (<< 4:5.17.5~)
-Replaces: plasma-desktop-data (<< 4:5.17.5~), plasma-workspace (<< 4:5.17.5~)
 Description: Plasma Workspace for KF5 - data files
  Plasma Workspace for KF5. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
@@ -262,10 +232,7 @@ Depends: libkf5itemmodels-dev (>= 5.37.0~),
          qtbase5-dev (>= 5.12.0~),
          qtdeclarative5-dev (>= 5.12.0~),
          ${misc:Depends},
-         ${so:Depends}
-Breaks: kde-workspace-dev
-Replaces: kde-workspace-dev
-Conflicts: kde-workspace-dev
+         ${so:Depends},
 Description: Plasma Workspace for KF5 devel files
  Plasma Workspace for KF5. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
@@ -280,7 +247,7 @@ Depends: kwayland-integration (>= 5.14),
          plasma-workspace (= ${binary:Version}),
          qtwayland5,
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Description: Plasma Workspace for KF5 - Wayland integration
  Plasma Workspace for KF5. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
@@ -307,7 +274,7 @@ Depends: plasma-framework,
          plasma-workspace,
          sddm-theme-breeze,
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Recommends: desktop-base (>= 9.0.0~), sddm
 Provides: sddm-theme
 Description: Debian Breeze SDDM theme
