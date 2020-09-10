@@ -19,6 +19,7 @@ plasma-workspace (4:5.19.4-1) UNRELEASED; urgency=medium
   * Update build-deps with the info from cmake.
   * Update symbols files.
   * Update list of installed files.
+  * Defuzzify patches.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Jun 2020 12:27:42 -0700
 
