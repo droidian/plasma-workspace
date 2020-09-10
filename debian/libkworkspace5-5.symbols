@@ -64,6 +64,15 @@ libkworkspace5.so.5 libkworkspace5-5 #MINVER#
  _ZN17SessionManagement9hibernateEv@Base 4:5.17.5
  _ZN17SessionManagementC1EP7QObject@Base 4:5.17.5
  _ZN17SessionManagementC2EP7QObject@Base 4:5.17.5
+ _ZN18UpdateLaunchEnvJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.19.2
+ _ZN18UpdateLaunchEnvJob11qt_metacastEPKc@Base 4:5.19.2
+ _ZN18UpdateLaunchEnvJob16staticMetaObjectE@Base 4:5.19.2
+ _ZN18UpdateLaunchEnvJob5startEv@Base 4:5.19.2
+ _ZN18UpdateLaunchEnvJobC1ERK7QStringS2_@Base 4:5.19.2
+ _ZN18UpdateLaunchEnvJobC2ERK7QStringS2_@Base 4:5.19.2
+ _ZN18UpdateLaunchEnvJobD0Ev@Base 4:5.19.2
+ _ZN18UpdateLaunchEnvJobD1Ev@Base 4:5.19.2
+ _ZN18UpdateLaunchEnvJobD2Ev@Base 4:5.19.2
  _ZNK14SessionBackend10metaObjectEv@Base 4:5.17.5
  _ZNK14SessionBackend13canSwitchUserEv@Base 4:5.17.5
  _ZNK14SessionBackend13confirmLogoutEv@Base 4:5.17.5
@@ -78,9 +87,13 @@ libkworkspace5.so.5 libkworkspace5-5 #MINVER#
  _ZNK17SessionManagement7canLockEv@Base 4:5.17.5
  _ZNK17SessionManagement9canLogoutEv@Base 4:5.17.5
  _ZNK17SessionManagement9canRebootEv@Base 4:5.17.5
+ _ZNK18UpdateLaunchEnvJob10metaObjectEv@Base 4:5.19.2
  _ZTI14SessionBackend@Base 4:5.17.5
  _ZTI17SessionManagement@Base 4:5.17.5
+ _ZTI18UpdateLaunchEnvJob@Base 4:5.19.2
  _ZTS14SessionBackend@Base 4:5.17.5
  _ZTS17SessionManagement@Base 4:5.17.5
+ _ZTS18UpdateLaunchEnvJob@Base 4:5.19.2
  _ZTV14SessionBackend@Base 4:5.17.5
  _ZTV17SessionManagement@Base 4:5.17.5
+ _ZTV18UpdateLaunchEnvJob@Base 4:5.19.2
