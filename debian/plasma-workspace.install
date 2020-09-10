@@ -16,6 +16,7 @@ usr/bin/plasma_session
 usr/bin/plasma_waitforname
 usr/bin/plasmashell
 usr/bin/plasmawindowed
+usr/bin/plasma-shutdown
 usr/bin/startplasma-x11
 usr/bin/systemmonitor
 usr/bin/xembedsniproxy
@@ -28,7 +29,6 @@ usr/lib/*/libexec/plasma-sourceenv.sh
 usr/lib/*/libkdeinit5_kcminit.so
 usr/lib/*/libkdeinit5_kcminit_startup.so
 usr/lib/*/libkdeinit5_klipper.so
-usr/lib/*/libkdeinit5_ksmserver.so
 usr/lib/*/qt5/plugins/
 usr/lib/*/qt5/qml/org/kde/colorcorrect/
 usr/lib/*/qt5/qml/org/kde/holidayeventshelperplugin/
@@ -51,6 +51,8 @@ usr/share/dbus-1/services/org.kde.LogoutPrompt.service
 usr/share/dbus-1/services/org.kde.baloorunner.service
 usr/share/dbus-1/services/org.kde.krunner.service
 usr/share/dbus-1/services/org.kde.plasma.Notifications.service
+usr/share/dbus-1/services/org.kde.KSplash.service
+usr/share/dbus-1/services/org.kde.Shutdown.service
 usr/share/kglobalaccel/krunner.desktop
 usr/share/kio_desktop/directory.desktop
 usr/share/kio_desktop/directory.trash
@@ -76,6 +78,7 @@ usr/share/kservices5/plasma-applet-org.kde.plasma.notifications.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.panelspacer.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.private.systemtray.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.systemmonitor.*.desktop
+usr/share/kservices5/plasma-applet-org.kde.plasma.systemmonitor.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.systemtray.desktop
 usr/share/kservices5/plasma-containmentactions-switchactivity.desktop
 usr/share/kservices5/plasma-dataengine-activities.desktop
@@ -143,6 +146,7 @@ usr/share/metainfo/org.kde.plasma.digitalclock.appdata.xml
 usr/share/metainfo/org.kde.plasma.lock_logout.appdata.xml
 usr/share/metainfo/org.kde.plasma.mediacontroller.appdata.xml
 usr/share/metainfo/org.kde.plasma.notifications.appdata.xml
+usr/share/metainfo/org.kde.plasma.systemmonitor.appdata.xml
 usr/share/metainfo/org.kde.plasma.systemmonitor.*.appdata.xml
 usr/share/metainfo/org.kde.plasma.systemtray.appdata.xml
 usr/share/metainfo/org.kde.slideshow.appdata.xml
