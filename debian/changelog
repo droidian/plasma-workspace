@@ -16,6 +16,7 @@ plasma-workspace (4:5.19.4-1) UNRELEASED; urgency=medium
   * New upstream release (5.19.4).
   * Remove Maximiliano from Uploaders as requested on IRC.
   * Change maintainer in d/control to Debian Qt/KDE Maintainers.
+  * Update build-deps with the info from cmake.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Jun 2020 12:27:42 -0700
 
