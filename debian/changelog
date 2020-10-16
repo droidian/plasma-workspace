@@ -1,4 +1,6 @@
-plasma-workspace (4:5.19.4-1) UNRELEASED; urgency=medium
+plasma-workspace (4:5.19.4-1) experimental; urgency=medium
+
+  * Team upload.
 
   [ Scarlett Moore ]
   * Bump compat level to 13.
@@ -25,7 +27,7 @@ plasma-workspace (4:5.19.4-1) UNRELEASED; urgency=medium
   * Tighten B-D for libkf5sysguard-dev, 5.17 does not suffice.
   * Remove exec permissions from plasma-sourceenv.sh.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Jun 2020 12:27:42 -0700
+ -- Norbert Preining <norbert@preining.info>  Fri, 16 Oct 2020 12:34:17 +0900
 
 plasma-workspace (4:5.17.5-4) unstable; urgency=medium
 
