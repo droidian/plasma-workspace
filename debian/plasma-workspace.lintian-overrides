@@ -1,4 +1,5 @@
-plasma-workspace: package-name-doesnt-match-sonames libkdeinit5-kcminit libkdeinit5-kcminit-startup libkdeinit5-klipper libkdeinit5-ksmserver
+plasma-workspace: package-name-doesnt-match-sonames libkdeinit5-kcminit libkdeinit5-kcminit-startup libkdeinit5-klipper
+plasma-workspace: binary-without-manpage usr/bin/gmenudbusmenuproxy
 plasma-workspace: binary-without-manpage usr/bin/kcminit
 plasma-workspace: binary-without-manpage usr/bin/kcminit_startup
 plasma-workspace: binary-without-manpage usr/bin/klipper
@@ -7,9 +8,12 @@ plasma-workspace: binary-without-manpage usr/bin/ksmserver
 plasma-workspace: binary-without-manpage usr/bin/ksplashqml
 plasma-workspace: binary-without-manpage usr/bin/plasmashell
 plasma-workspace: binary-without-manpage usr/bin/plasmawindowed
+plasma-workspace: binary-without-manpage usr/bin/plasma-shutdown
+plasma-workspace: binary-without-manpage usr/bin/plasma_session
+plasma-workspace: binary-without-manpage usr/bin/plasma_waitforname
 plasma-workspace: binary-without-manpage usr/bin/startplasma-x11
 plasma-workspace: binary-without-manpage usr/bin/systemmonitor
+plasma-workspace: binary-without-manpage usr/bin/xembedsniproxy
 plasma-workspace: shlib-without-versioned-soname usr/lib/*/libkdeinit5_*.so libkdeinit5_*.so
-plasma-workspace: postinst-must-call-ldconfig usr/lib/*/libkdeinit5_*.so
 plasma-workspace: package-must-activate-ldconfig-trigger usr/lib/*/libkdeinit5_*.so
 plasma-workspace: no-symbols-control-file usr/lib/*/libkdeinit5_*.so
