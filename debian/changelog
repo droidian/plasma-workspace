@@ -23,6 +23,7 @@ plasma-workspace (4:5.19.4-1) UNRELEASED; urgency=medium
   * Update lintian overrides.
   * Change Type in plasma.desktop to Application.
   * Tighten B-D for libkf5sysguard-dev, 5.17 does not suffice.
+  * Remove exec permissions from plasma-sourceenv.sh.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Jun 2020 12:27:42 -0700
 
