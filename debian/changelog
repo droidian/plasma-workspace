@@ -1,9 +1,11 @@
-plasma-workspace (4:5.19.4-2) UNRELEASED; urgency=medium
+plasma-workspace (4:5.19.4-2) experimental; urgency=medium
+
+  * Team upload.
 
   [ Norbert Preining ]
   * Fix arch-specific path in d/rules.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 18 Oct 2020 20:14:44 +0900
+ -- Norbert Preining <norbert@preining.info>  Sun, 18 Oct 2020 20:15:38 +0900
 
 plasma-workspace (4:5.19.4-1) experimental; urgency=medium
 
