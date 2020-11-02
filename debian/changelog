@@ -1,3 +1,9 @@
+plasma-workspace (4:5.19.5-2) experimental; urgency=medium
+
+  * Rebuild for Qt 5.15
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 02 Nov 2020 09:27:43 +0900
+
 plasma-workspace (4:5.19.5-1) experimental; urgency=medium
 
   * New upstream release (5.19.5).
