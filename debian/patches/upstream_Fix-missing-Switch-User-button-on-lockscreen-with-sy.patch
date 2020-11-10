@@ -1,0 +1,37 @@
+From f1393bc835ee28ceee54cdceb8d873622e36826a Mon Sep 17 00:00:00 2001
+From: Wolfgang Bauer <wbauer@tmo.at>
+Date: Mon, 9 Nov 2020 09:42:45 +0000
+Subject: [PATCH 530/530] Fix missing "Switch User" button on lockscreen with
+ systemd 246
+
+With newer systemd versions (since 246), getting the "CanMultiSession" property
+doesn't work anymore.
+
+It's hidden and always true, see https://github.com/systemd/systemd/commit/8f8cc84ba4612e74cd1e26898c6816e6e60fc4e9
+and https://github.com/systemd/systemd/commit/c2b178d3cacad52eadc30ecc349160bc02d32a9c
+
+So let's just assume that it's supported if the property is invalid.
+
+BUG: 427777
+FIXED-IN: 5.20.3
+---
+ libkworkspace/kdisplaymanager.cpp | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+
+--- a/libkworkspace/kdisplaymanager.cpp
++++ b/libkworkspace/kdisplaymanager.cpp
+@@ -621,6 +621,14 @@ KDisplayManager::isSwitchable()
+                 QVariant prop = SDseat.property("CanMultiSession");
+                 if (prop.isValid())
+                     return prop.toBool();
++                else {
++                    // Newer systemd versions (since 246) don't expose "CanMultiSession" anymore.
++                    // It's hidden and always true.
++                    // See https://github.com/systemd/systemd/commit/8f8cc84ba4612e74cd1e26898c6816e6e60fc4e9
++                    // and https://github.com/systemd/systemd/commit/c2b178d3cacad52eadc30ecc349160bc02d32a9c
++                    // So assume that it's supported if the property is invalid.
++                    return true;
++                }
+             }
+             CKSeat CKseat(currentSeat);
+             if (CKseat.isValid()) {

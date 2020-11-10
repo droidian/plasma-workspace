@@ -1,4 +1,11 @@
-plasma-workspace (4:5.19.5-5) UNRELEASED; urgency=medium
+plasma-workspace (4:5.19.5-5~) UNRELEASED; urgency=medium
+
+  [ Sandro Knauß ]
+  * Fix "No "Switch-User" with systemd V246" (Closes: #970742)
+    - add upstream patch:
+      upstream_libkworkspace-Fix-if-getCurrentSeat-needs-to-fallbac.patch
+      upstream_libkworkspace-Port-from-deprecated-GetSessionByPID.patch
+      upstream_Fix-missing-Switch-User-button-on-lockscreen-with-sy.patch
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 10 Nov 2020 14:50:46 +0100
 
