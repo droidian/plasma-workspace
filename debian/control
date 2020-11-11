@@ -222,8 +222,8 @@ Description: Plasma Workspace for KF5
 Package: plasma-workspace-data
 Architecture: all
 Depends: ${misc:Depends}
-Breaks: plasma-desktop-data (<< 4:5.19)
-Replaces: plasma-desktop-data (<< 4:5.19)
+Breaks: plasma-desktop-data (<< 4:5.14)
+Replaces: plasma-desktop-data (<< 4:5.14)
 Description: Plasma Workspace for KF5 - data files
  Plasma Workspace for KF5. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
