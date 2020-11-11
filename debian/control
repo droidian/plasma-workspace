@@ -252,8 +252,8 @@ Description: Plasma Workspace for KF5 devel files
 
 Package: plasma-workspace-wayland
 Architecture: any
-Depends: kwayland-integration (>= 5.14),
-         kwin-wayland (>= 4:5.14),
+Depends: kwayland-integration (>= 5.19),
+         kwin-wayland (>= 4:5.19),
          plasma-workspace (= ${binary:Version}),
          qtwayland5,
          ${misc:Depends},
