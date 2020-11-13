@@ -6,6 +6,7 @@ plasma-workspace (4:5.19.5-5) UNRELEASED; urgency=medium
   * Bump all build dependencies according to cmake.
     - Add build dependencies needed by kpackage metainfo generator.
   * Refresh symbol files. Removed 1 optional MISSING.
+  * Refresh install files.
 
   [ Sandro Knauß ]
   * Fix "No "Switch-User" with systemd V246" (Closes: #970742)

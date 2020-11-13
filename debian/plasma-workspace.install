@@ -63,6 +63,7 @@ usr/share/kservices5/ion-envcan.desktop
 usr/share/kservices5/ion-noaa.desktop
 usr/share/kservices5/ion-wettercom.desktop
 usr/share/kservices5/kcm_translations.desktop
+usr/share/kservices5/kcm_feedback.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.activitybar.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.analogclock.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.appmenu.desktop

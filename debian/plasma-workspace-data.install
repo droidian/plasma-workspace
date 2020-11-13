@@ -9,6 +9,7 @@ usr/share/knotifications5/freespacenotifier.notifyrc
 usr/share/knotifications5/phonon.notifyrc
 usr/share/knsrcfiles/
 usr/share/kpackage/kcms/kcm_translations/
+usr/share/kpackage/kcms/kcm_feedback/
 usr/share/ksplash/
 usr/share/kstyle/
 usr/share/locale/
