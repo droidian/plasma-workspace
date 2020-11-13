@@ -6,6 +6,7 @@ plasma-workspace (4:5.19.5-5) UNRELEASED; urgency=medium
   * Bump all build dependencies according to cmake.
     - Add build dependencies needed by kpackage metainfo
       generator.
+  * Refresh symbol files. Removed 1 optional MISSING.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 11 Nov 2020 07:41:32 -0700
 

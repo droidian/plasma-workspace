@@ -1,7 +1,6 @@
-# SymbolsHelper-Confirmed: 4:5.17.5 amd64
+# SymbolsHelper-Confirmed: 4:5.19.5 amd64
 libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
 * Build-Depends-Package: plasma-workspace-dev
- (optional=templinst)_ZN12KConfigGroup10writeEntryIbEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:5.17.5
  _ZN19NotificationManager10ServerInfo11nameChangedERK7QString@Base 4:5.18.3
  _ZN19NotificationManager10ServerInfo11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.18.3
  _ZN19NotificationManager10ServerInfo11qt_metacastEPKc@Base 4:5.18.3
