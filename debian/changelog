@@ -4,9 +4,15 @@ plasma-workspace (4:5.19.5-5) UNRELEASED; urgency=medium
   * Fix "Undefined symbols: Need rebuild ?" tighten dependencies with kwin*
     dependencies. (Closes: #974430)
   * Bump all build dependencies according to cmake.
-    - Add build dependencies needed by kpackage metainfo
-      generator.
+    - Add build dependencies needed by kpackage metainfo generator.
   * Refresh symbol files. Removed 1 optional MISSING.
+
+  [ Sandro Knauß ]
+  * Fix "No "Switch-User" with systemd V246" (Closes: #970742)
+    - add upstream patch:
+      upstream_libkworkspace-Fix-if-getCurrentSeat-needs-to-fallbac.patch
+      upstream_libkworkspace-Port-from-deprecated-GetSessionByPID.patch
+      upstream_Fix-missing-Switch-User-button-on-lockscreen-with-sy.patch
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 11 Nov 2020 07:41:32 -0700
 

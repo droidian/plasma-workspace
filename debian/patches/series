@@ -2,3 +2,6 @@ add_sddm_debian_breeze.patch
 #upstream_Dont_bind_model_inside_headerItem.patch
 enable_debianabimanager.diff
 fix-plasma-desktop-type
+upstream_libkworkspace-Port-from-deprecated-GetSessionByPID.patch
+upstream_libkworkspace-Fix-if-getCurrentSeat-needs-to-fallbac.patch
+upstream_Fix-missing-Switch-User-button-on-lockscreen-with-sy.patch
