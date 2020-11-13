@@ -12,11 +12,11 @@ usr/bin/klipper
 usr/bin/krunner
 usr/bin/ksmserver
 usr/bin/ksplashqml
+usr/bin/plasma-shutdown
 usr/bin/plasma_session
 usr/bin/plasma_waitforname
 usr/bin/plasmashell
 usr/bin/plasmawindowed
-usr/bin/plasma-shutdown
 usr/bin/startplasma-x11
 usr/bin/systemmonitor
 usr/bin/xembedsniproxy
@@ -47,12 +47,12 @@ usr/share/applications/org.kde.klipper.desktop
 usr/share/applications/org.kde.plasmashell.desktop
 usr/share/applications/org.kde.systemmonitor.desktop
 usr/share/applications/plasma-windowed.desktop
+usr/share/dbus-1/services/org.kde.KSplash.service
 usr/share/dbus-1/services/org.kde.LogoutPrompt.service
+usr/share/dbus-1/services/org.kde.Shutdown.service
 usr/share/dbus-1/services/org.kde.baloorunner.service
 usr/share/dbus-1/services/org.kde.krunner.service
 usr/share/dbus-1/services/org.kde.plasma.Notifications.service
-usr/share/dbus-1/services/org.kde.KSplash.service
-usr/share/dbus-1/services/org.kde.Shutdown.service
 usr/share/kglobalaccel/krunner.desktop
 usr/share/kio_desktop/directory.desktop
 usr/share/kio_desktop/directory.trash
@@ -62,8 +62,8 @@ usr/share/kservices5/ion-bbcukmet.desktop
 usr/share/kservices5/ion-envcan.desktop
 usr/share/kservices5/ion-noaa.desktop
 usr/share/kservices5/ion-wettercom.desktop
-usr/share/kservices5/kcm_translations.desktop
 usr/share/kservices5/kcm_feedback.desktop
+usr/share/kservices5/kcm_translations.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.activitybar.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.analogclock.desktop
 usr/share/kservices5/plasma-applet-org.kde.plasma.appmenu.desktop
@@ -147,8 +147,8 @@ usr/share/metainfo/org.kde.plasma.digitalclock.appdata.xml
 usr/share/metainfo/org.kde.plasma.lock_logout.appdata.xml
 usr/share/metainfo/org.kde.plasma.mediacontroller.appdata.xml
 usr/share/metainfo/org.kde.plasma.notifications.appdata.xml
-usr/share/metainfo/org.kde.plasma.systemmonitor.appdata.xml
 usr/share/metainfo/org.kde.plasma.systemmonitor.*.appdata.xml
+usr/share/metainfo/org.kde.plasma.systemmonitor.appdata.xml
 usr/share/metainfo/org.kde.plasma.systemtray.appdata.xml
 usr/share/metainfo/org.kde.slideshow.appdata.xml
 usr/share/solid/actions/test-predicate-openinwindow.desktop
