@@ -12,6 +12,7 @@ plasma-workspace (4:5.20.3-1) UNRELEASED; urgency=medium
   * Update symbols.
   * Update list of installed files.
   * Add Replaces/Breaks for files moved from plasma-desktop.
+  * Include plasma-desktop patch allow_uxterm_overrides.diff
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 17 Nov 2020 11:01:19 +0900
 
