@@ -252,8 +252,8 @@ Recommends: kde-cli-tools (>= 4:5.20~),
             ksysguardd (>= 4:5.20~),
             libpam-kwallet5 (>= 5.14),
             powerdevil (>= 4:5.14),
-Breaks: plasma-desktop-data (<< 4:5.20~)
-Replaces: plasma-desktop-data (<< 4:5.20~)
+Breaks: plasma-desktop-data (<< 4:5.20~), plasma-desktop (<< 4:5.20~)
+Replaces: plasma-desktop-data (<< 4:5.20~), plasma-desktop (<< 4:5.20~)
 Description: Plasma Workspace for KF5
  Plasma Workspace for KF5. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
@@ -285,6 +285,8 @@ Depends: kquickcharts-dev (>= 5.20~),
          qtdeclarative5-dev (>= 5.15.0~),
          ${misc:Depends},
          ${so:Depends},
+Breaks: plasma-desktop-dev (<< 4:5.20~)
+Replaces: plasma-desktop-dev (<< 4:5.20~)
 Description: Plasma Workspace for KF5 devel files
  Plasma Workspace for KF5. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
