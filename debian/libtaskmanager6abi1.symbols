@@ -469,7 +469,6 @@ libtaskmanager.so.6abi1 libtaskmanager6abi1 #MINVER#
  _ZTVN11TaskManager26ConcatenateTasksProxyModelE@ABI_6_1 4:5.17.5
  _ZTVN11TaskManager27FlattenTaskGroupsProxyModelE@ABI_6_1 4:5.17.5
  _ZTVN11TaskManager28AbstractTasksProxyModelIfaceE@ABI_6_1 4:5.17.5
- _ZZZN15KMimeTypeTrader16preferredServiceERK7QStringS2_Ed_NKUlvE_clEvE15qstring_literal@ABI_6_1 4:5.17.5
  (c++)"non-virtual thunk to TaskManager::AbstractTasksModel::requestActivate(QModelIndex const&)@ABI_6_1" 4:5.17.5
  (c++)"non-virtual thunk to TaskManager::AbstractTasksModel::requestActivities(QModelIndex const&, QStringList const&)@ABI_6_1" 4:5.17.5
  (c++)"non-virtual thunk to TaskManager::AbstractTasksModel::requestClose(QModelIndex const&)@ABI_6_1" 4:5.17.5

@@ -237,11 +237,13 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZN19NotificationManager3Job17percentageChangedEi@Base 4:5.17.5
  _ZN19NotificationManager3Job17totalBytesChangedEv@Base 4:5.17.5
  _ZN19NotificationManager3Job17totalFilesChangedEv@Base 4:5.17.5
+ _ZN19NotificationManager3Job17totalItemsChangedEv@Base 4:5.20.3
  _ZN19NotificationManager3Job18setApplicationNameERK7QString@Base 4:5.17.5
  _ZN19NotificationManager3Job18totalAmountChangedEv@Base 4:5.17.5
  _ZN19NotificationManager3Job21descriptionUrlChangedEv@Base 4:5.17.5
  _ZN19NotificationManager3Job21processedBytesChangedEv@Base 4:5.17.5
  _ZN19NotificationManager3Job21processedFilesChangedEv@Base 4:5.17.5
+ _ZN19NotificationManager3Job21processedItemsChangedEv@Base 4:5.20.3
  _ZN19NotificationManager3Job22processedAmountChangedEv@Base 4:5.17.5
  _ZN19NotificationManager3Job22setApplicationIconNameERK7QString@Base 4:5.17.5
  _ZN19NotificationManager3Job23totalDirectoriesChangedEv@Base 4:5.17.5
@@ -449,11 +451,13 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZNK19NotificationManager3Job10percentageEv@Base 4:5.17.5
  _ZNK19NotificationManager3Job10totalBytesEv@Base 4:5.17.5
  _ZNK19NotificationManager3Job10totalFilesEv@Base 4:5.17.5
+ _ZNK19NotificationManager3Job10totalItemsEv@Base 4:5.20.3
  _ZNK19NotificationManager3Job11suspendableEv@Base 4:5.17.5
  _ZNK19NotificationManager3Job12desktopEntryEv@Base 4:5.17.5
  _ZNK19NotificationManager3Job14descriptionUrlEv@Base 4:5.17.5
  _ZNK19NotificationManager3Job14processedBytesEv@Base 4:5.17.5
  _ZNK19NotificationManager3Job14processedFilesEv@Base 4:5.17.5
+ _ZNK19NotificationManager3Job14processedItemsEv@Base 4:5.20.3
  _ZNK19NotificationManager3Job15applicationNameEv@Base 4:5.17.5
  _ZNK19NotificationManager3Job16totalDirectoriesEv@Base 4:5.17.5
  _ZNK19NotificationManager3Job17descriptionLabel1Ev@Base 4:5.17.5

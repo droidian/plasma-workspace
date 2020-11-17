@@ -68,7 +68,9 @@ libkworkspace5.so.5 libkworkspace5-5 #MINVER#
  _ZN18UpdateLaunchEnvJob11qt_metacastEPKc@Base 4:5.19.2
  _ZN18UpdateLaunchEnvJob16staticMetaObjectE@Base 4:5.19.2
  _ZN18UpdateLaunchEnvJob5startEv@Base 4:5.19.2
+ _ZN18UpdateLaunchEnvJobC1ERK19QProcessEnvironment@Base 4:5.20.3
  _ZN18UpdateLaunchEnvJobC1ERK7QStringS2_@Base 4:5.19.2
+ _ZN18UpdateLaunchEnvJobC2ERK19QProcessEnvironment@Base 4:5.20.3
  _ZN18UpdateLaunchEnvJobC2ERK7QStringS2_@Base 4:5.19.2
  _ZN18UpdateLaunchEnvJobD0Ev@Base 4:5.19.2
  _ZN18UpdateLaunchEnvJobD1Ev@Base 4:5.19.2
