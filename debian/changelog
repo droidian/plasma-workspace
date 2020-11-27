@@ -1,5 +1,8 @@
 plasma-workspace (4:5.19.5-6) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Switch the transitional libxcb-util0-dev build dependency to
+    libxcb-util-dev.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 27 Nov 2020 22:32:06 +0100
 
