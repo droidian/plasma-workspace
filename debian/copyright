@@ -814,8 +814,7 @@ Copyright: 2015, <davidedmundson@kde.org> David Edmundson
            2013, Sebastian Kügler <sebas@kde.org>
 License: GPL-2+3+KDEeV
 
-Files: COPYING.LIB
-       applets/digital-clock/plugin/digitalclockplugin.cpp
+Files: applets/digital-clock/plugin/digitalclockplugin.cpp
        applets/digital-clock/plugin/digitalclockplugin.h
        applets/notifications/plugin/notificationshelper.cpp
        applets/notifications/plugin/notificationshelper.h
