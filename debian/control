@@ -73,7 +73,7 @@ Build-Depends: baloo-kf5-dev (>= 5.13~),
                libxcb-keysyms1-dev,
                libxcb-randr0-dev,
                libxcb-shm0-dev,
-               libxcb-util0-dev,
+               libxcb-util-dev,
                libxcb1-dev,
                libxcursor-dev,
                libxi-dev,
@@ -95,7 +95,7 @@ Build-Depends: baloo-kf5-dev (>= 5.13~),
                qtwayland5-dev-tools,
                xcb-proto,
                zlib1g-dev,
-Standards-Version: 4.5.0
+Standards-Version: 4.5.1
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/plasma-workspace
 Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/plasma-workspace.git

@@ -14,7 +14,16 @@ plasma-workspace (4:5.20.4-1) UNRELEASED; urgency=medium
   * Add Replaces/Breaks for files moved from plasma-desktop.
   * Include plasma-desktop patch allow_uxterm_overrides.diff
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 17 Nov 2020 11:01:19 +0900
+  [ Pino Toscano ]
+  * Switch the transitional libxcb-util0-dev build dependency to
+    libxcb-util-dev.
+  * Bump Standards-Version to 4.5.1, no changes required.
+  * Update renamed lintian tag names in lintian overrides.
+  * Remove listed license files (COPYING.LIB) from copyright.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata (already
+    present in machine-readable debian/copyright).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 27 Nov 2020 22:32:06 +0100
 
 plasma-workspace (4:5.19.5-5) unstable; urgency=medium
 

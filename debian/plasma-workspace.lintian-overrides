@@ -1,19 +1,19 @@
 plasma-workspace: package-name-doesnt-match-sonames libkdeinit5-kcminit libkdeinit5-kcminit-startup libkdeinit5-klipper
-plasma-workspace: binary-without-manpage usr/bin/gmenudbusmenuproxy
-plasma-workspace: binary-without-manpage usr/bin/kcminit
-plasma-workspace: binary-without-manpage usr/bin/kcminit_startup
-plasma-workspace: binary-without-manpage usr/bin/klipper
-plasma-workspace: binary-without-manpage usr/bin/krunner
-plasma-workspace: binary-without-manpage usr/bin/ksmserver
-plasma-workspace: binary-without-manpage usr/bin/ksplashqml
-plasma-workspace: binary-without-manpage usr/bin/plasmashell
-plasma-workspace: binary-without-manpage usr/bin/plasmawindowed
-plasma-workspace: binary-without-manpage usr/bin/plasma-shutdown
-plasma-workspace: binary-without-manpage usr/bin/plasma_session
-plasma-workspace: binary-without-manpage usr/bin/plasma_waitforname
-plasma-workspace: binary-without-manpage usr/bin/startplasma-x11
-plasma-workspace: binary-without-manpage usr/bin/systemmonitor
-plasma-workspace: binary-without-manpage usr/bin/xembedsniproxy
-plasma-workspace: shlib-without-versioned-soname usr/lib/*/libkdeinit5_*.so libkdeinit5_*.so
-plasma-workspace: package-must-activate-ldconfig-trigger usr/lib/*/libkdeinit5_*.so
+plasma-workspace: no-manual-page usr/bin/gmenudbusmenuproxy
+plasma-workspace: no-manual-page usr/bin/kcminit
+plasma-workspace: no-manual-page usr/bin/kcminit_startup
+plasma-workspace: no-manual-page usr/bin/klipper
+plasma-workspace: no-manual-page usr/bin/krunner
+plasma-workspace: no-manual-page usr/bin/ksmserver
+plasma-workspace: no-manual-page usr/bin/ksplashqml
+plasma-workspace: no-manual-page usr/bin/plasmashell
+plasma-workspace: no-manual-page usr/bin/plasmawindowed
+plasma-workspace: no-manual-page usr/bin/plasma-shutdown
+plasma-workspace: no-manual-page usr/bin/plasma_session
+plasma-workspace: no-manual-page usr/bin/plasma_waitforname
+plasma-workspace: no-manual-page usr/bin/startplasma-x11
+plasma-workspace: no-manual-page usr/bin/systemmonitor
+plasma-workspace: no-manual-page usr/bin/xembedsniproxy
+plasma-workspace: shared-library-lacks-version usr/lib/*/libkdeinit5_*.so libkdeinit5_*.so
+plasma-workspace: lacks-ldconfig-trigger usr/lib/*/libkdeinit5_*.so
 plasma-workspace: no-symbols-control-file usr/lib/*/libkdeinit5_*.so
