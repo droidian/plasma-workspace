@@ -1,4 +1,4 @@
-plasma-workspace (4:5.20.4-1) UNRELEASED; urgency=medium
+plasma-workspace (4:5.20.4-1) experimental; urgency=medium
 
   [ Norbert Preining ]
   * New upstream release (5.20.4).
@@ -23,7 +23,7 @@ plasma-workspace (4:5.20.4-1) UNRELEASED; urgency=medium
   * Remove obsolete fields Contact, Name from debian/upstream/metadata (already
     present in machine-readable debian/copyright).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 27 Nov 2020 22:32:06 +0100
+ -- Norbert Preining <norbert@preining.info>  Wed, 09 Dec 2020 14:17:33 +0900
 
 plasma-workspace (4:5.19.5-5) unstable; urgency=medium
 
