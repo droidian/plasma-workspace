@@ -1,3 +1,9 @@
+plasma-workspace (4:5.20.4-2) experimental; urgency=medium
+
+  * Rebuild for Qt transition.
+
+ -- Norbert Preining <norbert@preining.info>  Sun, 13 Dec 2020 00:41:38 +0900
+
 plasma-workspace (4:5.20.4-1) experimental; urgency=medium
 
   [ Norbert Preining ]
