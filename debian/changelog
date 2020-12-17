@@ -1,9 +1,10 @@
-plasma-workspace (4:5.20.4-3) UNRELEASED; urgency=medium
+plasma-workspace (4:5.20.4-3) experimental; urgency=medium
 
+  * Team upload.
   * Add missing runtime dependency to qml-module-org-kde-userfeedback for the
     user feedback KCM.
 
- -- Aurélien COUDERC <coucouf@debian.org>  Tue, 15 Dec 2020 16:44:27 +0100
+ -- Aurélien COUDERC <coucouf@debian.org>  Wed, 16 Dec 2020 10:14:30 +0100
 
 plasma-workspace (4:5.20.4-2) experimental; urgency=medium
 
