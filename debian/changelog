@@ -1,5 +1,9 @@
 plasma-workspace (4:5.20.4-3) UNRELEASED; urgency=medium
 
+  [ Sandro Knauß ]
+  * Add Breaks/Replaces for plasma-workspace-data against plasma-
+    desktop.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 18 Dec 2020 15:00:53 +0100
 
 plasma-workspace (4:5.20.4-2) experimental; urgency=medium
