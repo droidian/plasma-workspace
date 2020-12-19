@@ -1,4 +1,4 @@
-plasma-workspace (4:5.20.4-3) UNRELEASED; urgency=medium
+plasma-workspace (4:5.20.4-4) UNRELEASED; urgency=medium
 
   [ Sandro Knauß ]
   * Add Breaks/Replaces for plasma-workspace-data against plasma-
@@ -8,6 +8,14 @@ plasma-workspace (4:5.20.4-3) UNRELEASED; urgency=medium
   * Add qml-module-org-kde-prison to the deps of p-w.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 18 Dec 2020 15:00:53 +0100
+
+plasma-workspace (4:5.20.4-3) experimental; urgency=medium
+
+  * Team upload.
+  * Add missing runtime dependency to qml-module-org-kde-userfeedback for the
+    user feedback KCM.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Wed, 16 Dec 2020 10:14:30 +0100
 
 plasma-workspace (4:5.20.4-2) experimental; urgency=medium
 
