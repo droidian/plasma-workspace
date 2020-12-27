@@ -1,5 +1,7 @@
 plasma-workspace (4:5.20.4-6) UNRELEASED; urgency=medium
 
+  [ Norbert Preining ]
+  * Add breeze-dev to B-D (optional package).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 28 Dec 2020 08:47:47 +0900
 
