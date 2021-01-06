@@ -1,6 +1,8 @@
 plasma-workspace (4:5.20.5-1) UNRELEASED; urgency=medium
 
+  [ Norbert Preining ]
   * New upstream release (5.20.5).
+  * Update lintian overrides.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 06 Jan 2021 10:08:01 +0900
 

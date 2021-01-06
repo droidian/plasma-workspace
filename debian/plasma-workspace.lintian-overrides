@@ -14,6 +14,13 @@ plasma-workspace: no-manual-page usr/bin/plasma_waitforname
 plasma-workspace: no-manual-page usr/bin/startplasma-x11
 plasma-workspace: no-manual-page usr/bin/systemmonitor
 plasma-workspace: no-manual-page usr/bin/xembedsniproxy
+plasma-workspace: no-manual-page usr/bin/kcolorschemeeditor
+plasma-workspace: no-manual-page usr/bin/kde-systemd-start-condition
+plasma-workspace: no-manual-page usr/bin/kfontinst
+plasma-workspace: no-manual-page usr/bin/kfontview
+plasma-workspace: no-manual-page usr/bin/krdb
+plasma-workspace: no-manual-page usr/bin/lookandfeeltool
 plasma-workspace: shared-library-lacks-version usr/lib/*/libkdeinit5_*.so libkdeinit5_*.so
 plasma-workspace: lacks-ldconfig-trigger usr/lib/*/libkdeinit5_*.so
 plasma-workspace: no-symbols-control-file usr/lib/*/libkdeinit5_*.so
+plasma-workspace: desktop-entry-unknown-type usr/share/xsessions/plasma.desktop XSession
