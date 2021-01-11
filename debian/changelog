@@ -4,6 +4,7 @@ plasma-workspace (4:5.20.5-2) UNRELEASED; urgency=medium
     - [lookandfeel] Avoid rendering invisible contents (fixes random lockscreen
       100% usage issue).
     - [lookandfeel] Fix wake existing screensaver mode with key presses
+  * Build with hardening=+all build hardening flag.
 
  -- Aurélien COUDERC <coucouf@debian.org>  Mon, 11 Jan 2021 23:53:07 +0100
 
