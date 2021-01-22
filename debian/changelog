@@ -3,6 +3,7 @@ plasma-workspace (4:5.20.90-1) UNRELEASED; urgency=medium
   [ Norbert Preining ]
   * Update upstream metadata.
   * New upstream beta release (5.20.90).
+  * Update build-deps and deps with the info from cmake.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 22 Jan 2021 11:02:02 +0900
 
