@@ -1,9 +1,10 @@
-plasma-workspace (4:5.20.5-3) UNRELEASED; urgency=medium
+plasma-workspace (4:5.20.90-1) UNRELEASED; urgency=medium
 
   [ Norbert Preining ]
   * Update upstream metadata.
+  * New upstream beta release (5.20.90).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 20 Jan 2021 16:41:02 +0900
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 22 Jan 2021 11:02:02 +0900
 
 plasma-workspace (4:5.20.5-2) unstable; urgency=medium
 
