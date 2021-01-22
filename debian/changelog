@@ -1,10 +1,28 @@
-plasma-workspace (4:5.20.5-1) UNRELEASED; urgency=medium
+plasma-workspace (4:5.20.5-3) UNRELEASED; urgency=medium
+
+  [ Norbert Preining ]
+  * Update upstream metadata.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 20 Jan 2021 16:41:02 +0900
+
+plasma-workspace (4:5.20.5-2) unstable; urgency=medium
+
+  * Team upload.
+  * Backport upstream LTS bugfixes:
+    - [lookandfeel] Avoid rendering invisible contents (fixes random lockscreen
+      100% usage issue).
+    - [lookandfeel] Fix wake existing screensaver mode with key presses
+  * Build with hardening=+all build hardening flag.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Thu, 14 Jan 2021 10:09:30 +0100
+
+plasma-workspace (4:5.20.5-1) unstable; urgency=medium
 
   [ Norbert Preining ]
   * New upstream release (5.20.5).
   * Update lintian overrides.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 06 Jan 2021 10:08:01 +0900
+ -- Norbert Preining <norbert@preining.info>  Wed, 06 Jan 2021 23:50:53 +0900
 
 plasma-workspace (4:5.20.4-6) unstable; urgency=medium
 
