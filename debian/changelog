@@ -1,10 +1,9 @@
-plasma-workspace (4:5.20.5-3) UNRELEASED; urgency=medium
+plasma-workspace (4:5.20.5-3) unstable; urgency=medium
 
-  [ Norbert Preining ]
   * Update upstream metadata.
   * Rebuild against new e-c-m to fix broken template tar.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 20 Jan 2021 16:41:02 +0900
+ -- Norbert Preining <norbert@preining.info>  Sun, 24 Jan 2021 14:45:06 +0900
 
 plasma-workspace (4:5.20.5-2) unstable; urgency=medium
 
