@@ -1,8 +1,8 @@
-plasma-workspace (4:5.20.90-1) UNRELEASED; urgency=medium
+plasma-workspace (4:5.21.0-1) UNRELEASED; urgency=medium
 
   [ Norbert Preining ]
   * Update upstream metadata.
-  * New upstream beta release (5.20.90).
+  * New upstream release (5.21.0).
   * Update build-deps and deps with the info from cmake.
   * Drop upstream patches.
   * Update list of installed files.
