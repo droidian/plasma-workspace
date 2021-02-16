@@ -4,9 +4,9 @@
 
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -270,3 +270,5 @@ feature_summary(WHAT ALL INCLUDE_QUIET_P
- # add clang-format target for all our real source files
- file(GLOB_RECURSE ALL_CLANG_FORMAT_SOURCE_FILES *.cpp *.h)
- kde_clang_format(${ALL_CLANG_FORMAT_SOURCE_FILES})
+@@ -232,3 +232,5 @@ ki18n_install(po)
+   if(KF5DocTools_FOUND)
+     kdoctools_install(po)
+   endif()
 +
 +include(/usr/share/pkg-kde-tools/cmake/DebianABIManager.cmake)
