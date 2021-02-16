@@ -1,4 +1,4 @@
-plasma-workspace (4:5.21.0-1) UNRELEASED; urgency=medium
+plasma-workspace (4:5.21.0-1) experimental; urgency=medium
 
   [ Norbert Preining ]
   * Update upstream metadata.
@@ -8,7 +8,7 @@ plasma-workspace (4:5.21.0-1) UNRELEASED; urgency=medium
   * Update list of installed files.
   * Update symbols.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 22 Jan 2021 11:02:02 +0900
+ -- Norbert Preining <norbert@preining.info>  Wed, 17 Feb 2021 05:42:28 +0900
 
 plasma-workspace (4:5.20.5-2) unstable; urgency=medium
 
