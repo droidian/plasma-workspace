@@ -1,5 +1,8 @@
 plasma-workspace (4:5.20.5-4) UNRELEASED; urgency=medium
 
+  [ Norbert Preining ]
+  * Cherry-pick (and adjust) upstream fix for knsrc usage in wallpaper.knsrc
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 16 Feb 2021 09:23:29 +0900
 
 plasma-workspace (4:5.20.5-3) unstable; urgency=medium

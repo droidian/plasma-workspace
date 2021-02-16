@@ -1,0 +1,20 @@
+From 00fee3486ad2c21c58f765eabe9c983c26c0d720 Mon Sep 17 00:00:00 2001
+From: Dan Leinir Turthra Jensen <admin@leinir.dk>
+Date: Fri, 5 Feb 2021 21:45:14 +0000
+Subject: [PATCH] Fix the wallpaper knsrc use commands
+
+Prior to this change, the use commands would fail if the wallpaper
+download payload had a space in the filename (caused, paradoxically, by
+the method used to ensure the payload is escaped for shell use).
+---
+ wallpapers/image/wallpaper.knsrc.cmake |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+--- a/wallpapers/image/wallpaper.knsrc.cmake
++++ b/wallpapers/image/wallpaper.knsrc.cmake
+@@ -46,4 +46,4 @@ Categories=KDE Wallpaper 800x600,KDE Wal
+ StandardResource=wallpaper
+ Uncompress=archive
+ 
+-AdoptionCommand=@QtBinariesDir@/qdbus org.kde.plasmashell /PlasmaShell org.kde.PlasmaShell.evaluateScript 'for (var i in desktops()) { d = desktops()[i]; d.wallpaperPlugin = "org.kde.image"; d.currentConfigGroup = ["Wallpaper", "org.kde.image", "General"]; d.writeConfig("Image", "%f") }'
++AdoptionCommand=@QtBinariesDir@/qdbus org.kde.plasmashell /PlasmaShell org.kde.PlasmaShell.evaluateScript "for (var i in desktops()) { d = desktops()[i]; d.wallpaperPlugin = 'org.kde.image'; d.currentConfigGroup = ['Wallpaper', 'org.kde.image', 'General']; d.writeConfig('Image', %f) }"

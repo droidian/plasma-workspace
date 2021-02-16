@@ -4,3 +4,4 @@ enable_debianabimanager.diff
 allow_uxterm_overrides.diff
 upstream_5.21+lts_lookandfeel_Avoid_rendering_invisible_contents.patch
 upstream_5.21+lts_lookandfeel_Fix_wake_existing_screensaver_mode_with_key_presses.patch
+upstream-00fee348-fix-wallpaper-knsrc-use-command.patch
