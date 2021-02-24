@@ -1,4 +1,6 @@
-plasma-workspace (4:5.20.5-4) UNRELEASED; urgency=medium
+plasma-workspace (4:5.20.5-4) unstable; urgency=medium
+
+  * Team upload.
 
   [ Norbert Preining ]
   * Cherry-pick (and adjust) upstream fix for knsrc usage in wallpaper.knsrc
@@ -6,7 +8,7 @@ plasma-workspace (4:5.20.5-4) UNRELEASED; urgency=medium
   [ Aurélien COUDERC ]
   * Cherry-pick upstream fix for X11 variables setup in wayland startup.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 16 Feb 2021 09:23:29 +0900
+ -- Aurélien COUDERC <coucouf@debian.org>  Wed, 24 Feb 2021 13:34:53 +0100
 
 plasma-workspace (4:5.20.5-3) unstable; urgency=medium
 
