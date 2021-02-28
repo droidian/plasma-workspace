@@ -1,0 +1,22 @@
+Origin: upstream, https://invent.kde.org/plasma/plasma-workspace/commit/a3b017ccb56be918163fed350e181ec4fd57db73
+From: Alexander Lohnau <alexander.lohnau@gmx.de>
+Date: Thu, 18 Feb 2021 14:29:32 +0100
+Subject: [PATCH] calculatorrunner: Fix mixed hex+decimal calculations
+
+BUG: 431362
+FIXED-IN: 5.21.1
+---
+ runners/calculator/calculatorrunner.cpp | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+--- a/runners/calculator/calculatorrunner.cpp
++++ b/runners/calculator/calculatorrunner.cpp
+@@ -234,7 +234,7 @@
+ 
+     bool toHex = cmd.startsWith(QLatin1String("hex="));
+     bool startsWithEquals = !toHex && cmd[0] == QLatin1Char('=');
+-    const static QRegularExpression hexRegex(QStringLiteral("^=?0x.+"), QRegularExpression::CaseInsensitiveOption);
++    const static QRegularExpression hexRegex(QStringLiteral("0x[0-9a-f]+"), QRegularExpression::CaseInsensitiveOption);
+     const bool parseHex = cmd.contains(hexRegex);
+     if (!parseHex) {
+         userFriendlyMultiplication(cmd);
