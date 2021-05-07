@@ -2,6 +2,8 @@ plasma-workspace (4:5.21.5-1) UNRELEASED; urgency=medium
 
   [ Patrick Franz ]
   * New upstream release (5.21.5).
+  * Adjust breaks/replace for plasma-workspace-data because of a moved
+    translation-file.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 07 May 2021 19:07:32 +0200
 
