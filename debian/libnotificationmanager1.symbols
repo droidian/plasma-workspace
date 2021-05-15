@@ -27,12 +27,15 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZN19NotificationManager11JobSettingsD1Ev@Base 4:5.19.2
  _ZN19NotificationManager11JobSettingsD2Ev@Base 4:5.19.2
  _ZN19NotificationManager12Notification10setActionsERK11QStringList@Base 4:5.17.5
+ _ZN19NotificationManager12Notification10setCreatedERK9QDateTime@Base 4:5.21.90
  _ZN19NotificationManager12Notification10setExpiredEb@Base 4:5.17.5
  _ZN19NotificationManager12Notification10setSummaryERK7QString@Base 4:5.17.5
  _ZN19NotificationManager12Notification10setTimeoutEi@Base 4:5.17.5
+ _ZN19NotificationManager12Notification11setResidentEb@Base 4:5.21.90
  _ZN19NotificationManager12Notification12processHintsERK4QMapI7QString8QVariantE@Base 4:5.17.5
  _ZN19NotificationManager12Notification12resetUpdatedEv@Base 4:5.17.5
  _ZN19NotificationManager12Notification12setDismissedEb@Base 4:5.17.5
+ _ZN19NotificationManager12Notification12setTransientEb@Base 4:5.21.90
  _ZN19NotificationManager12Notification14setDBusServiceERK7QString@Base 4:5.18.3
  _ZN19NotificationManager12Notification15setDesktopEntryERK7QString@Base 4:5.17.5
  _ZN19NotificationManager12Notification18setApplicationNameERK7QString@Base 4:5.17.5
@@ -156,6 +159,7 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZN19NotificationManager20DoNotDisturbSettings11qt_metacastEPKc@Base 4:5.19.2
  _ZN19NotificationManager20DoNotDisturbSettings12UntilChangedEv@Base 4:5.19.2
  _ZN19NotificationManager20DoNotDisturbSettings16staticMetaObjectE@Base 4:5.19.2
+ _ZN19NotificationManager20DoNotDisturbSettings24WhenScreenSharingChangedEv@Base 4:5.21.90
  _ZN19NotificationManager20DoNotDisturbSettings26WhenScreensMirroredChangedEv@Base 4:5.19.2
  _ZN19NotificationManager20DoNotDisturbSettings30NotificationSoundsMutedChangedEv@Base 4:5.19.2
  _ZN19NotificationManager20DoNotDisturbSettingsC1EP7QObject@Base 4:5.19.2
@@ -171,8 +175,8 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZN19NotificationManager20NotificationSettings20PopupPositionChangedEv@Base 4:5.19.2
  _ZN19NotificationManager20NotificationSettings24CriticalInDndModeChangedEv@Base 4:5.19.2
  _ZN19NotificationManager20NotificationSettings24LowPriorityPopupsChangedEv@Base 4:5.19.2
+ _ZN19NotificationManager20NotificationSettings24NormalAlwaysOnTopChangedEv@Base 4:5.21.90
  _ZN19NotificationManager20NotificationSettings25LowPriorityHistoryChangedEv@Base 4:5.19.2
- _ZN19NotificationManager20NotificationSettings26CriticalAlwaysOnTopChangedEv@Base 4:5.19.2
  _ZN19NotificationManager20NotificationSettingsC1EP7QObject@Base 4:5.19.2
  _ZN19NotificationManager20NotificationSettingsC2EP7QObject@Base 4:5.19.2
  _ZN19NotificationManager20NotificationSettingsD0Ev@Base 4:5.19.2
@@ -318,12 +322,13 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZN19NotificationManager8Settings22setJobsInNotificationsEb@Base 4:5.17.5
  _ZN19NotificationManager8Settings24knownApplicationsChangedEv@Base 4:5.17.5
  _ZN19NotificationManager8Settings24registerKnownApplicationERK7QString@Base 4:5.17.5
- _ZN19NotificationManager8Settings26setKeepCriticalAlwaysOnTopEb@Base 4:5.17.5
+ _ZN19NotificationManager8Settings24setKeepNormalAlwaysOnTopEb@Base 4:5.21.90
  _ZN19NotificationManager8Settings28revokeApplicationInhibitionsEv@Base 4:5.17.5
  _ZN19NotificationManager8Settings30setNotificationSoundsInhibitedEb@Base 4:5.17.5
  _ZN19NotificationManager8Settings30setNotificationsInhibitedUntilERK9QDateTime@Base 4:5.17.5
  _ZN19NotificationManager8Settings32resetNotificationsInhibitedUntilEv@Base 4:5.17.5
  _ZN19NotificationManager8Settings35setCriticalPopupsInDoNotDisturbModeEb@Base 4:5.17.5
+ _ZN19NotificationManager8Settings40setInhibitNotificationsWhenScreenSharingEb@Base 4:5.21.90
  _ZN19NotificationManager8Settings41notificationInhibitionApplicationsChangedEv@Base 4:5.17.5
  _ZN19NotificationManager8Settings42notificationsInhibitedByApplicationChangedEb@Base 4:5.17.5
  _ZN19NotificationManager8Settings42setInhibitNotificationsWhenScreensMirroredEb@Base 4:5.17.5
@@ -401,7 +406,9 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZNK19NotificationManager12Notification7updatedEv@Base 4:5.17.5
  _ZNK19NotificationManager12Notification7urgencyEv@Base 4:5.17.5
  _ZNK19NotificationManager12Notification8categoryEv@Base 4:5.20.90
+ _ZNK19NotificationManager12Notification8residentEv@Base 4:5.21.90
  _ZNK19NotificationManager12Notification9dismissedEv@Base 4:5.17.5
+ _ZNK19NotificationManager12Notification9transientEv@Base 4:5.21.90
  _ZNK19NotificationManager13BadgeSettings10metaObjectEv@Base 4:5.19.2
  _ZNK19NotificationManager13BadgeSettings32defaultInTaskManagerValue_helperEv@Base 4:5.19.2
  _ZNK19NotificationManager13Notifications10groupIndexERK11QModelIndex@Base 4:5.17.5
@@ -440,6 +447,7 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZNK19NotificationManager16BehaviorSettings32defaultShowInHistoryValue_helperEv@Base 4:5.19.2
  _ZNK19NotificationManager16BehaviorSettings38defaultShowPopupsInDndModeValue_helperEv@Base 4:5.19.2
  _ZNK19NotificationManager20DoNotDisturbSettings10metaObjectEv@Base 4:5.19.2
+ _ZNK19NotificationManager20DoNotDisturbSettings36defaultWhenScreenSharingValue_helperEv@Base 4:5.21.90
  _ZNK19NotificationManager20DoNotDisturbSettings38defaultWhenScreensMirroredValue_helperEv@Base 4:5.19.2
  _ZNK19NotificationManager20DoNotDisturbSettings42defaultNotificationSoundsMutedValue_helperEv@Base 4:5.19.2
  _ZNK19NotificationManager20NotificationSettings10metaObjectEv@Base 4:5.19.2
@@ -447,8 +455,8 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZNK19NotificationManager20NotificationSettings32defaultPopupPositionValue_helperEv@Base 4:5.19.2
  _ZNK19NotificationManager20NotificationSettings36defaultCriticalInDndModeValue_helperEv@Base 4:5.19.2
  _ZNK19NotificationManager20NotificationSettings36defaultLowPriorityPopupsValue_helperEv@Base 4:5.19.2
+ _ZNK19NotificationManager20NotificationSettings36defaultNormalAlwaysOnTopValue_helperEv@Base 4:5.21.90
  _ZNK19NotificationManager20NotificationSettings37defaultLowPriorityHistoryValue_helperEv@Base 4:5.19.2
- _ZNK19NotificationManager20NotificationSettings38defaultCriticalAlwaysOnTopValue_helperEv@Base 4:5.19.2
  _ZNK19NotificationManager25WatchedNotificationsModel10metaObjectEv@Base 4:5.19.2
  _ZNK19NotificationManager25WatchedNotificationsModel7Private10metaObjectEv@Base 4:5.19.2
  _ZNK19NotificationManager26AbstractNotificationsModel10metaObjectEv@Base 4:5.19.2
@@ -510,7 +518,7 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZNK19NotificationManager8Settings19applicationBehaviorERK7QString@Base 4:5.17.5
  _ZNK19NotificationManager8Settings19badgesInTaskManagerEv@Base 4:5.17.5
  _ZNK19NotificationManager8Settings19jobsInNotificationsEv@Base 4:5.17.5
- _ZNK19NotificationManager8Settings23keepCriticalAlwaysOnTopEv@Base 4:5.17.5
+ _ZNK19NotificationManager8Settings21keepNormalAlwaysOnTopEv@Base 4:5.21.90
  _ZNK19NotificationManager8Settings24popupBlacklistedServicesEv@Base 4:5.17.5
  _ZNK19NotificationManager8Settings26historyBlacklistedServicesEv@Base 4:5.17.5
  _ZNK19NotificationManager8Settings27notificationSoundsInhibitedEv@Base 4:5.17.5
@@ -523,6 +531,7 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZNK19NotificationManager8Settings34notificationInhibitionApplicationsEv@Base 4:5.17.5
  _ZNK19NotificationManager8Settings35notificationsInhibitedByApplicationEv@Base 4:5.17.5
  _ZNK19NotificationManager8Settings36doNotDisturbPopupWhitelistedServicesEv@Base 4:5.17.5
+ _ZNK19NotificationManager8Settings37inhibitNotificationsWhenScreenSharingEv@Base 4:5.21.90
  _ZNK19NotificationManager8Settings39inhibitNotificationsWhenScreensMirroredEv@Base 4:5.17.5
  _ZNK19NotificationManager8Settings40doNotDisturbPopupWhitelistedApplicationsEv@Base 4:5.17.5
  _ZNK19NotificationManager8Settings4liveEv@Base 4:5.17.5
@@ -591,14 +600,15 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZZZNK19NotificationManager16BehaviorSettings24isShowInHistoryImmutableEvENKUlvE_clEvE15qstring_literal@Base 4:5.19.2
  _ZZZNK19NotificationManager16BehaviorSettings30isShowPopupsInDndModeImmutableEvENKUlvE_clEvE15qstring_literal@Base 4:5.19.2
  _ZZZNK19NotificationManager20DoNotDisturbSettings16isUntilImmutableEvENKUlvE_clEvE15qstring_literal@Base 4:5.19.2
+ _ZZZNK19NotificationManager20DoNotDisturbSettings28isWhenScreenSharingImmutableEvENKUlvE_clEvE15qstring_literal@Base 4:5.21.90
  _ZZZNK19NotificationManager20DoNotDisturbSettings30isWhenScreensMirroredImmutableEvENKUlvE_clEvE15qstring_literal@Base 4:5.19.2
  _ZZZNK19NotificationManager20DoNotDisturbSettings34isNotificationSoundsMutedImmutableEvENKUlvE_clEvE15qstring_literal@Base 4:5.19.2
  _ZZZNK19NotificationManager20NotificationSettings23isPopupTimeoutImmutableEvENKUlvE_clEvE15qstring_literal@Base 4:5.19.2
  _ZZZNK19NotificationManager20NotificationSettings24isPopupPositionImmutableEvENKUlvE_clEvE15qstring_literal@Base 4:5.19.2
  _ZZZNK19NotificationManager20NotificationSettings28isCriticalInDndModeImmutableEvENKUlvE_clEvE15qstring_literal@Base 4:5.19.2
  _ZZZNK19NotificationManager20NotificationSettings28isLowPriorityPopupsImmutableEvENKUlvE_clEvE15qstring_literal@Base 4:5.19.2
+ _ZZZNK19NotificationManager20NotificationSettings28isNormalAlwaysOnTopImmutableEvENKUlvE_clEvE15qstring_literal@Base 4:5.21.90
  _ZZZNK19NotificationManager20NotificationSettings29isLowPriorityHistoryImmutableEvENKUlvE_clEvE15qstring_literal@Base 4:5.19.2
- _ZZZNK19NotificationManager20NotificationSettings30isCriticalAlwaysOnTopImmutableEvENKUlvE_clEvE15qstring_literal@Base 4:5.19.2
  (c++)"non-virtual thunk to NotificationManager::Notifications::classBegin()@Base" 4:5.17.5
  (c++)"non-virtual thunk to NotificationManager::Notifications::componentComplete()@Base" 4:5.17.5
  (c++)"non-virtual thunk to NotificationManager::Notifications::~Notifications()@Base" 4:5.17.5

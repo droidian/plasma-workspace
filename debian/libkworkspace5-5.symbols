@@ -75,6 +75,10 @@ libkworkspace5.so.5 libkworkspace5-5 #MINVER#
  _ZN18UpdateLaunchEnvJobD0Ev@Base 4:5.19.2
  _ZN18UpdateLaunchEnvJobD1Ev@Base 4:5.19.2
  _ZN18UpdateLaunchEnvJobD2Ev@Base 4:5.19.2
+ _ZN26AutostartScriptDesktopFile17autostartLocationEv@Base 4:5.21.90
+ _ZN26AutostartScriptDesktopFile17isAutostartScriptERK12KDesktopFile@Base 4:5.21.90
+ _ZN26AutostartScriptDesktopFileC1ERK7QStringS2_@Base 4:5.21.90
+ _ZN26AutostartScriptDesktopFileC2ERK7QStringS2_@Base 4:5.21.90
  _ZNK14SessionBackend10metaObjectEv@Base 4:5.17.5
  _ZNK14SessionBackend13canSwitchUserEv@Base 4:5.17.5
  _ZNK14SessionBackend13confirmLogoutEv@Base 4:5.17.5
@@ -93,9 +97,12 @@ libkworkspace5.so.5 libkworkspace5-5 #MINVER#
  _ZTI14SessionBackend@Base 4:5.17.5
  _ZTI17SessionManagement@Base 4:5.17.5
  _ZTI18UpdateLaunchEnvJob@Base 4:5.19.2
+ _ZTI26AutostartScriptDesktopFile@Base 4:5.21.90
  _ZTS14SessionBackend@Base 4:5.17.5
  _ZTS17SessionManagement@Base 4:5.17.5
  _ZTS18UpdateLaunchEnvJob@Base 4:5.19.2
+ _ZTS26AutostartScriptDesktopFile@Base 4:5.21.90
  _ZTV14SessionBackend@Base 4:5.17.5
  _ZTV17SessionManagement@Base 4:5.17.5
  _ZTV18UpdateLaunchEnvJob@Base 4:5.19.2
+ _ZTV26AutostartScriptDesktopFile@Base 4:5.21.90
