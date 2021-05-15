@@ -7,12 +7,12 @@ usr/share/doc/HTML/*/kcontrol/
 usr/share/doc/HTML/*/klipper/
 usr/share/icons/
 usr/share/kconf_update/
-usr/share/kcontrol/
 usr/share/kdisplay/
 usr/share/kfontinst/
 usr/share/konqsidebartng/virtual_folders/services/fonts.desktop
 usr/share/kpackage/
 usr/share/kxmlgui5/
+usr/share/knotifications5/devicenotifications.notifyrc
 usr/share/knotifications5/freespacenotifier.notifyrc
 usr/share/knotifications5/phonon.notifyrc
 usr/share/knsrcfiles/
