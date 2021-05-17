@@ -4,6 +4,7 @@ plasma-workspace (4:5.21.90-1) UNRELEASED; urgency=medium
   * New upstream release (5.21.90).
   * Update list of installed files.
   * Update symbols.
+  * Adjust Replaces/Breaks for file moves.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 14 May 2021 16:28:54 +0900
 
