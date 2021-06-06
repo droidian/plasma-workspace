@@ -15,6 +15,7 @@ libtaskmanager.so.6abi1 libtaskmanager6abi1 #MINVER#
  _ZN11TaskManager10TasksModel14setGroupInlineEb@ABI_6_1 4:5.17.5
  _ZN11TaskManager10TasksModel15requestActivateERK11QModelIndex@ABI_6_1 4:5.17.5
  _ZN11TaskManager10TasksModel15requestOpenUrlsERK11QModelIndexRK5QListI4QUrlE@ABI_6_1 4:5.17.5
+ _ZN11TaskManager10TasksModel15setFilterHiddenEb@ABI_6_1 4:5.22.0
  _ZN11TaskManager10TasksModel15setLauncherListERK11QStringList@ABI_6_1 4:5.17.5
  _ZN11TaskManager10TasksModel16setLaunchInPlaceEb@ABI_6_1 4:5.17.5
  _ZN11TaskManager10TasksModel16staticMetaObjectE@ABI_6_1 4:5.17.5
@@ -194,6 +195,7 @@ libtaskmanager.so.6abi1 libtaskmanager6abi1 #MINVER#
  _ZN11TaskManager20TaskFilterProxyModel11qt_metacastEPKc@ABI_6_1 4:5.17.5
  _ZN11TaskManager20TaskFilterProxyModel11setActivityERK7QString@ABI_6_1 4:5.17.5
  _ZN11TaskManager20TaskFilterProxyModel14setSourceModelEP18QAbstractItemModel@ABI_6_1 4:5.17.5
+ _ZN11TaskManager20TaskFilterProxyModel15setFilterHiddenEb@ABI_6_1 4:5.22.0
  _ZN11TaskManager20TaskFilterProxyModel16staticMetaObjectE@ABI_6_1 4:5.17.5
  _ZN11TaskManager20TaskFilterProxyModel17setFilterByScreenEb@ABI_6_1 4:5.17.5
  _ZN11TaskManager20TaskFilterProxyModel17setScreenGeometryERK5QRect@ABI_6_1 4:5.17.5
@@ -289,6 +291,7 @@ libtaskmanager.so.6abi1 libtaskmanager6abi1 #MINVER#
  _ZNK11TaskManager10TasksModel10metaObjectEv@ABI_6_1 4:5.17.5
  _ZNK11TaskManager10TasksModel11groupInlineEv@ABI_6_1 4:5.17.5
  _ZNK11TaskManager10TasksModel12countChangedEv@ABI_6_1 4:5.17.5
+ _ZNK11TaskManager10TasksModel12filterHiddenEv@ABI_6_1 4:5.22.0
  _ZNK11TaskManager10TasksModel12launcherListEv@ABI_6_1 4:5.17.5
  _ZNK11TaskManager10TasksModel13launchInPlaceEv@ABI_6_1 4:5.17.5
  _ZNK11TaskManager10TasksModel13launcherCountEv@ABI_6_1 4:5.17.5
@@ -307,6 +310,7 @@ libtaskmanager.so.6abi1 libtaskmanager6abi1 #MINVER#
  _ZNK11TaskManager10TasksModel18filterNotMaximizedEv@ABI_6_1 4:5.21.90
  _ZNK11TaskManager10TasksModel18filterNotMinimizedEv@ABI_6_1 4:5.17.5
  _ZNK11TaskManager10TasksModel18groupInlineChangedEv@ABI_6_1 4:5.17.5
+ _ZNK11TaskManager10TasksModel19filterHiddenChangedEv@ABI_6_1 4:5.22.0
  _ZNK11TaskManager10TasksModel19launcherListChangedEv@ABI_6_1 4:5.17.5
  _ZNK11TaskManager10TasksModel20launchInPlaceChangedEv@ABI_6_1 4:5.17.5
  _ZNK11TaskManager10TasksModel20launcherCountChangedEv@ABI_6_1 4:5.17.5
@@ -381,6 +385,7 @@ libtaskmanager.so.6abi1 libtaskmanager6abi1 #MINVER#
  _ZNK11TaskManager18VirtualDesktopInfo8positionERK8QVariant@ABI_6_1 4:5.17.5
  _ZNK11TaskManager20TaskFilterProxyModel10acceptsRowEi@ABI_6_1 4:5.17.5
  _ZNK11TaskManager20TaskFilterProxyModel10metaObjectEv@ABI_6_1 4:5.17.5
+ _ZNK11TaskManager20TaskFilterProxyModel12filterHiddenEv@ABI_6_1 4:5.22.0
  _ZNK11TaskManager20TaskFilterProxyModel14filterByScreenEv@ABI_6_1 4:5.17.5
  _ZNK11TaskManager20TaskFilterProxyModel14screenGeometryEv@ABI_6_1 4:5.17.5
  _ZNK11TaskManager20TaskFilterProxyModel14virtualDesktopEv@ABI_6_1 4:5.17.5
@@ -392,6 +397,7 @@ libtaskmanager.so.6abi1 libtaskmanager6abi1 #MINVER#
  _ZNK11TaskManager20TaskFilterProxyModel17filterSkipTaskbarEv@ABI_6_1 4:5.17.5
  _ZNK11TaskManager20TaskFilterProxyModel18filterNotMaximizedEv@ABI_6_1 4:5.21.90
  _ZNK11TaskManager20TaskFilterProxyModel18filterNotMinimizedEv@ABI_6_1 4:5.17.5
+ _ZNK11TaskManager20TaskFilterProxyModel19filterHiddenChangedEv@ABI_6_1 4:5.22.0
  _ZNK11TaskManager20TaskFilterProxyModel21filterByScreenChangedEv@ABI_6_1 4:5.17.5
  _ZNK11TaskManager20TaskFilterProxyModel21screenGeometryChangedEv@ABI_6_1 4:5.17.5
  _ZNK11TaskManager20TaskFilterProxyModel21virtualDesktopChangedEv@ABI_6_1 4:5.17.5
