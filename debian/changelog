@@ -3,10 +3,10 @@ plasma-workspace (4:5.22.0-1) UNRELEASED; urgency=medium
   [ Norbert Preining ]
   * New upstream release (5.22.0).
   * Update list of installed files.
-  * Update symbols.
   * Adjust Replaces/Breaks for file moves.
   * Update symbols.
   * Update lintian overrides.
+  * Cherry-pick upstream fix for fonts kcm not loading.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 06 Jun 2021 18:55:36 +0900
 
