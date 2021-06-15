@@ -1,4 +1,3 @@
 add_sddm_debian_breeze.patch
 enable_debianabimanager.diff
 allow_uxterm_overrides.diff
-upstream-f90d4d55-fix-fonts-kcm.patch
