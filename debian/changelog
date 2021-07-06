@@ -1,7 +1,7 @@
-plasma-workspace (4:5.22.2.1-1) UNRELEASED; urgency=medium
+plasma-workspace (4:5.22.3-1) UNRELEASED; urgency=medium
 
   [ Norbert Preining ]
-  * New upstream release (5.22.2.1).
+  * New upstream release (5.22.3).
   * Update list of installed files.
   * Adjust Replaces/Breaks for file moves.
   * Update symbols.
