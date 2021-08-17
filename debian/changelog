@@ -1,3 +1,52 @@
+plasma-workspace (4:5.21.5-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (5.21.5).
+  * Adjust breaks/replace for plasma-workspace-data because of a moved
+    translation-file.
+
+ -- Patrick Franz <patfra71@gmail.com>  Fri, 07 May 2021 19:12:43 +0200
+
+plasma-workspace (4:5.21.4-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (5.21.4).
+
+ -- Patrick Franz <patfra71@gmail.com>  Tue, 06 Apr 2021 17:48:14 +0200
+
+plasma-workspace (4:5.21.3-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.21.3).
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 17 Mar 2021 05:49:43 +0900
+
+plasma-workspace (4:5.21.2-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (5.21.2).
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 03 Mar 2021 05:33:50 +0900
+
+plasma-workspace (4:5.21.1-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.21.1).
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 24 Feb 2021 14:36:41 +0900
+
+plasma-workspace (4:5.21.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * Update upstream metadata.
+  * New upstream release (5.21.0).
+  * Update build-deps and deps with the info from cmake.
+  * Drop upstream patches.
+  * Update list of installed files.
+  * Update symbols.
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 17 Feb 2021 05:42:28 +0900
+
 plasma-workspace (4:5.20.5-6) unstable; urgency=medium
 
   * Add breaks+replaces for plasma-workspace in plasma-workspace-data as
@@ -49,7 +98,9 @@ plasma-workspace (4:5.20.5-2) unstable; urgency=medium
 
 plasma-workspace (4:5.20.5-1) unstable; urgency=medium
 
+  [ Norbert Preining ]
   * New upstream release (5.20.5).
+  * Update lintian overrides.
 
  -- Norbert Preining <norbert@preining.info>  Wed, 06 Jan 2021 23:50:53 +0900
 

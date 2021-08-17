@@ -141,6 +141,16 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZN19NotificationManager16BehaviorSettingsD0Ev@Base 4:5.19.2
  _ZN19NotificationManager16BehaviorSettingsD1Ev@Base 4:5.19.2
  _ZN19NotificationManager16BehaviorSettingsD2Ev@Base 4:5.19.2
+ _ZN19NotificationManager18NotificationsModel12invokeActionEjRK7QString@Base 4:5.20.90
+ _ZN19NotificationManager18NotificationsModel19invokeDefaultActionEj@Base 4:5.20.90
+ _ZN19NotificationManager18NotificationsModel24createNotificationsModelEv@Base 4:5.20.90
+ _ZN19NotificationManager18NotificationsModel5closeEj@Base 4:5.20.90
+ _ZN19NotificationManager18NotificationsModel5replyEjRK7QString@Base 4:5.20.90
+ _ZN19NotificationManager18NotificationsModel6expireEj@Base 4:5.20.90
+ _ZN19NotificationManager18NotificationsModel9configureERK7QStringS3_S3_@Base 4:5.20.90
+ _ZN19NotificationManager18NotificationsModel9configureEj@Base 4:5.20.90
+ _ZN19NotificationManager18NotificationsModelC1Ev@Base 4:5.20.90
+ _ZN19NotificationManager18NotificationsModelC2Ev@Base 4:5.20.90
  _ZN19NotificationManager20DoNotDisturbSettings11itemChangedEy@Base 4:5.19.2
  _ZN19NotificationManager20DoNotDisturbSettings11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.19.2
  _ZN19NotificationManager20DoNotDisturbSettings11qt_metacastEPKc@Base 4:5.19.2
@@ -390,6 +400,7 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZNK19NotificationManager12Notification7timeoutEv@Base 4:5.17.5
  _ZNK19NotificationManager12Notification7updatedEv@Base 4:5.17.5
  _ZNK19NotificationManager12Notification7urgencyEv@Base 4:5.17.5
+ _ZNK19NotificationManager12Notification8categoryEv@Base 4:5.20.90
  _ZNK19NotificationManager12Notification9dismissedEv@Base 4:5.17.5
  _ZNK19NotificationManager13BadgeSettings10metaObjectEv@Base 4:5.19.2
  _ZNK19NotificationManager13BadgeSettings32defaultInTaskManagerValue_helperEv@Base 4:5.19.2
@@ -528,6 +539,7 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZTIN19NotificationManager13BadgeSettingsE@Base 4:5.19.2
  _ZTIN19NotificationManager13NotificationsE@Base 4:5.17.5
  _ZTIN19NotificationManager16BehaviorSettingsE@Base 4:5.19.2
+ _ZTIN19NotificationManager18NotificationsModelE@Base 4:5.20.90
  _ZTIN19NotificationManager20DoNotDisturbSettingsE@Base 4:5.19.2
  _ZTIN19NotificationManager20NotificationSettingsE@Base 4:5.19.2
  _ZTIN19NotificationManager25WatchedNotificationsModel7PrivateE@Base 4:5.19.2
@@ -544,6 +556,7 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZTSN19NotificationManager13BadgeSettingsE@Base 4:5.19.2
  _ZTSN19NotificationManager13NotificationsE@Base 4:5.17.5
  _ZTSN19NotificationManager16BehaviorSettingsE@Base 4:5.19.2
+ _ZTSN19NotificationManager18NotificationsModelE@Base 4:5.20.90
  _ZTSN19NotificationManager20DoNotDisturbSettingsE@Base 4:5.19.2
  _ZTSN19NotificationManager20NotificationSettingsE@Base 4:5.19.2
  _ZTSN19NotificationManager25WatchedNotificationsModel7PrivateE@Base 4:5.19.2
@@ -559,6 +572,7 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZTVN19NotificationManager13BadgeSettingsE@Base 4:5.19.2
  _ZTVN19NotificationManager13NotificationsE@Base 4:5.17.5
  _ZTVN19NotificationManager16BehaviorSettingsE@Base 4:5.19.2
+ _ZTVN19NotificationManager18NotificationsModelE@Base 4:5.20.90
  _ZTVN19NotificationManager20DoNotDisturbSettingsE@Base 4:5.19.2
  _ZTVN19NotificationManager20NotificationSettingsE@Base 4:5.19.2
  _ZTVN19NotificationManager25WatchedNotificationsModel7PrivateE@Base 4:5.19.2

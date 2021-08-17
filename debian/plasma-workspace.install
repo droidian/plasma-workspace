@@ -27,7 +27,7 @@ usr/bin/startplasma-x11
 usr/bin/systemmonitor
 usr/bin/xembedsniproxy
 usr/lib/*/kconf_update_bin/krunnerglobalshortcuts
-usr/lib/*/kconf_update_bin/krunnerplugins
+usr/lib/*/kconf_update_bin/krunnerhistory
 usr/lib/*/kconf_update_bin/krdb_clearlibrarypath
 usr/lib/*/libexec/baloorunner
 usr/lib/*/libexec/kfontprint
@@ -55,6 +55,7 @@ usr/lib/*/qt5/qml/org/kde/taskmanager/
 usr/lib/kauth/libexec/fontinst
 usr/lib/kauth/libexec/fontinst_helper
 usr/lib/kauth/libexec/fontinst_x11
+usr/lib/systemd/user/
 usr/share/applications/
 usr/share/dbus-1/services/
 usr/share/kglobalaccel/krunner.desktop
