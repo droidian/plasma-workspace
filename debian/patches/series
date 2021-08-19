@@ -1,3 +1,4 @@
 add_sddm_debian_breeze.patch
 enable_debianabimanager.diff
 allow_uxterm_overrides.diff
+fix-fontconfig-linking
