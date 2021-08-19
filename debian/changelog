@@ -1,9 +1,9 @@
-plasma-workspace (4:5.21.5-3) UNRELEASED; urgency=medium
+plasma-workspace (4:5.21.5-3) unstable; urgency=medium
 
   [ Norbert Preining ]
   * Fix missing fontconfig libraries during link stage.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 19 Aug 2021 16:27:18 +0900
+ -- Norbert Preining <norbert@preining.info>  Thu, 19 Aug 2021 16:29:40 +0900
 
 plasma-workspace (4:5.21.5-2) unstable; urgency=medium
 
