@@ -1,11 +1,13 @@
-plasma-workspace (4:5.21.90-1) experimental; urgency=medium
+plasma-workspace (4:5.22.4-1) UNRELEASED; urgency=medium
 
   [ Norbert Preining ]
-  * New upstream release (5.21.90).
+  * New upstream release (5.22.4).
   * Update list of installed files.
+  * Adjust Replaces/Breaks for file moves.
   * Update symbols.
+  * Update lintian overrides.
 
- -- Norbert Preining <norbert@preining.info>  Sat, 15 May 2021 23:43:16 +0900
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 06 Jun 2021 18:55:36 +0900
 
 plasma-workspace (4:5.21.5-3) unstable; urgency=medium
 
