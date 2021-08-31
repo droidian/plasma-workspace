@@ -7,6 +7,20 @@ plasma-workspace (4:5.21.90-1) experimental; urgency=medium
 
  -- Norbert Preining <norbert@preining.info>  Sat, 15 May 2021 23:43:16 +0900
 
+plasma-workspace (4:5.21.5-3) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * Fix missing fontconfig libraries during link stage.
+
+ -- Norbert Preining <norbert@preining.info>  Thu, 19 Aug 2021 16:29:40 +0900
+
+plasma-workspace (4:5.21.5-2) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * Release to unstable.
+
+ -- Patrick Franz <deltaone@debian.org>  Tue, 17 Aug 2021 15:56:35 +0200
+
 plasma-workspace (4:5.21.5-1) experimental; urgency=medium
 
   [ Patrick Franz ]
@@ -55,6 +69,44 @@ plasma-workspace (4:5.21.0-1) experimental; urgency=medium
   * Update symbols.
 
  -- Norbert Preining <norbert@preining.info>  Wed, 17 Feb 2021 05:42:28 +0900
+
+plasma-workspace (4:5.20.5-6) unstable; urgency=medium
+
+  * Add breaks+replaces for plasma-workspace in plasma-workspace-data as
+    this can cause files to disappear on an buster->bullseye upgrade.
+    Thx to Andreas Beckmann (Closes: #988098).
+
+ -- Patrick Franz <patfra71@gmail.com>  Fri, 07 May 2021 20:58:22 +0200
+
+plasma-workspace (4:5.20.5-5) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Aurélien COUDERC ]
+  * Cherry-pick upstream calculator fixes for KRunner:
+    - Single digit factorials.
+    - Parsing of hexadecimal numbers.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Mon, 01 Mar 2021 00:13:07 +0100
+
+plasma-workspace (4:5.20.5-4) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Norbert Preining ]
+  * Cherry-pick (and adjust) upstream fix for knsrc usage in wallpaper.knsrc
+
+  [ Aurélien COUDERC ]
+  * Cherry-pick upstream fix for X11 variables setup in wayland startup.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Wed, 24 Feb 2021 13:34:53 +0100
+
+plasma-workspace (4:5.20.5-3) unstable; urgency=medium
+
+  * Update upstream metadata.
+  * Rebuild against new e-c-m to fix broken template tar.
+
+ -- Norbert Preining <norbert@preining.info>  Sun, 24 Jan 2021 14:45:06 +0900
 
 plasma-workspace (4:5.20.5-2) unstable; urgency=medium
 
