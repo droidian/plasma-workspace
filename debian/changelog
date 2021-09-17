@@ -9,6 +9,7 @@ plasma-workspace (4:5.22.90-1) UNRELEASED; urgency=medium
   * Update patches, drop uxterm one.
   * Add breaks/replaces against breeze for moved files.
   * Update list of installed files.
+  * Update symbols.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 06 Jun 2021 18:55:36 +0900
 

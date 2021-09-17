@@ -78,7 +78,6 @@ libtaskmanager.so.6abi1 libtaskmanager6abi1 #MINVER#
  _ZN11TaskManager17StartupTasksModel11qt_metacallEN11QMetaObject4CallEiPPv@ABI_6_1 4:5.17.5
  _ZN11TaskManager17StartupTasksModel11qt_metacastEPKc@ABI_6_1 4:5.17.5
  _ZN11TaskManager17StartupTasksModel16staticMetaObjectE@ABI_6_1 4:5.17.5
- _ZN11TaskManager17StartupTasksModel18requestNewInstanceERK11QModelIndex@ABI_6_1 4:5.17.5
  _ZN11TaskManager17StartupTasksModelC1EP7QObject@ABI_6_1 4:5.17.5
  _ZN11TaskManager17StartupTasksModelC2EP7QObject@ABI_6_1 4:5.17.5
  _ZN11TaskManager17StartupTasksModelD0Ev@ABI_6_1 4:5.17.5
@@ -189,6 +188,14 @@ libtaskmanager.so.6abi1 libtaskmanager6abi1 #MINVER#
  _ZN11TaskManager18VirtualDesktopInfoD0Ev@ABI_6_1 4:5.17.5
  _ZN11TaskManager18VirtualDesktopInfoD1Ev@ABI_6_1 4:5.17.5
  _ZN11TaskManager18VirtualDesktopInfoD2Ev@ABI_6_1 4:5.17.5
+ _ZN11TaskManager18XStartupTasksModel11qt_metacallEN11QMetaObject4CallEiPPv@ABI_6_1 4:5.22.90
+ _ZN11TaskManager18XStartupTasksModel11qt_metacastEPKc@ABI_6_1 4:5.22.90
+ _ZN11TaskManager18XStartupTasksModel16staticMetaObjectE@ABI_6_1 4:5.22.90
+ _ZN11TaskManager18XStartupTasksModelC1EP7QObject@ABI_6_1 4:5.22.90
+ _ZN11TaskManager18XStartupTasksModelC2EP7QObject@ABI_6_1 4:5.22.90
+ _ZN11TaskManager18XStartupTasksModelD0Ev@ABI_6_1 4:5.22.90
+ _ZN11TaskManager18XStartupTasksModelD1Ev@ABI_6_1 4:5.22.90
+ _ZN11TaskManager18XStartupTasksModelD2Ev@ABI_6_1 4:5.22.90
  _ZN11TaskManager18defaultApplicationERK4QUrl@ABI_6_1 4:5.17.5
  _ZN11TaskManager19servicesFromCmdLineERK7QStringS2_28QExplicitlySharedDataPointerI13KSharedConfigE@ABI_6_1 4:5.17.5
  _ZN11TaskManager20TaskFilterProxyModel11qt_metacallEN11QMetaObject4CallEiPPv@ABI_6_1 4:5.17.5
@@ -252,6 +259,14 @@ libtaskmanager.so.6abi1 libtaskmanager6abi1 #MINVER#
  _ZN11TaskManager24AbstractWindowTasksModelD0Ev@ABI_6_1 4:5.17.5
  _ZN11TaskManager24AbstractWindowTasksModelD1Ev@ABI_6_1 4:5.17.5
  _ZN11TaskManager24AbstractWindowTasksModelD2Ev@ABI_6_1 4:5.17.5
+ _ZN11TaskManager24WaylandStartupTasksModel11qt_metacallEN11QMetaObject4CallEiPPv@ABI_6_1 4:5.22.90
+ _ZN11TaskManager24WaylandStartupTasksModel11qt_metacastEPKc@ABI_6_1 4:5.22.90
+ _ZN11TaskManager24WaylandStartupTasksModel16staticMetaObjectE@ABI_6_1 4:5.22.90
+ _ZN11TaskManager24WaylandStartupTasksModelC1EP7QObject@ABI_6_1 4:5.22.90
+ _ZN11TaskManager24WaylandStartupTasksModelC2EP7QObject@ABI_6_1 4:5.22.90
+ _ZN11TaskManager24WaylandStartupTasksModelD0Ev@ABI_6_1 4:5.22.90
+ _ZN11TaskManager24WaylandStartupTasksModelD1Ev@ABI_6_1 4:5.22.90
+ _ZN11TaskManager24WaylandStartupTasksModelD2Ev@ABI_6_1 4:5.22.90
  _ZN11TaskManager26ConcatenateTasksProxyModel11qt_metacallEN11QMetaObject4CallEiPPv@ABI_6_1 4:5.17.5
  _ZN11TaskManager26ConcatenateTasksProxyModel11qt_metacastEPKc@ABI_6_1 4:5.17.5
  _ZN11TaskManager26ConcatenateTasksProxyModel16staticMetaObjectE@ABI_6_1 4:5.17.5
@@ -350,8 +365,8 @@ libtaskmanager.so.6abi1 libtaskmanager6abi1 #MINVER#
  _ZNK11TaskManager16WindowTasksModel16mapIfaceToSourceERK11QModelIndex@ABI_6_1 4:5.17.5
  _ZNK11TaskManager16WindowTasksModel9roleNamesEv@ABI_6_1 4:5.17.5
  _ZNK11TaskManager17StartupTasksModel10metaObjectEv@ABI_6_1 4:5.17.5
- _ZNK11TaskManager17StartupTasksModel4dataERK11QModelIndexi@ABI_6_1 4:5.17.5
- _ZNK11TaskManager17StartupTasksModel8rowCountERK11QModelIndex@ABI_6_1 4:5.17.5
+ _ZNK11TaskManager17StartupTasksModel16mapIfaceToSourceERK11QModelIndex@ABI_6_1 4:5.22.90
+ _ZNK11TaskManager17StartupTasksModel9roleNamesEv@ABI_6_1 4:5.22.90
  _ZNK11TaskManager17WaylandTasksModel10metaObjectEv@ABI_6_1 4:5.17.5
  _ZNK11TaskManager17WaylandTasksModel4dataERK11QModelIndexi@ABI_6_1 4:5.17.5
  _ZNK11TaskManager17WaylandTasksModel5indexEiiRK11QModelIndex@ABI_6_1 4:5.17.5
@@ -383,6 +398,9 @@ libtaskmanager.so.6abi1 libtaskmanager6abi1 #MINVER#
  _ZNK11TaskManager18VirtualDesktopInfo24navigationWrappingAroundEv@ABI_6_1 4:5.21.90
  _ZNK11TaskManager18VirtualDesktopInfo31navigationWrappingAroundChangedEv@ABI_6_1 4:5.21.90
  _ZNK11TaskManager18VirtualDesktopInfo8positionERK8QVariant@ABI_6_1 4:5.17.5
+ _ZNK11TaskManager18XStartupTasksModel10metaObjectEv@ABI_6_1 4:5.22.90
+ _ZNK11TaskManager18XStartupTasksModel4dataERK11QModelIndexi@ABI_6_1 4:5.22.90
+ _ZNK11TaskManager18XStartupTasksModel8rowCountERK11QModelIndex@ABI_6_1 4:5.22.90
  _ZNK11TaskManager20TaskFilterProxyModel10acceptsRowEi@ABI_6_1 4:5.17.5
  _ZNK11TaskManager20TaskFilterProxyModel10metaObjectEv@ABI_6_1 4:5.17.5
  _ZNK11TaskManager20TaskFilterProxyModel12filterHiddenEv@ABI_6_1 4:5.22.0
@@ -431,6 +449,9 @@ libtaskmanager.so.6abi1 libtaskmanager6abi1 #MINVER#
  _ZNK11TaskManager22TaskGroupingProxyModel8rowCountERK11QModelIndex@ABI_6_1 4:5.17.5
  _ZNK11TaskManager22TaskGroupingProxyModel9groupModeEv@ABI_6_1 4:5.17.5
  _ZNK11TaskManager24AbstractWindowTasksModel10metaObjectEv@ABI_6_1 4:5.17.5
+ _ZNK11TaskManager24WaylandStartupTasksModel10metaObjectEv@ABI_6_1 4:5.22.90
+ _ZNK11TaskManager24WaylandStartupTasksModel4dataERK11QModelIndexi@ABI_6_1 4:5.22.90
+ _ZNK11TaskManager24WaylandStartupTasksModel8rowCountERK11QModelIndex@ABI_6_1 4:5.22.90
  _ZNK11TaskManager26ConcatenateTasksProxyModel10metaObjectEv@ABI_6_1 4:5.17.5
  _ZNK11TaskManager26ConcatenateTasksProxyModel16mapIfaceToSourceERK11QModelIndex@ABI_6_1 4:5.17.5
  _ZNK11TaskManager27FlattenTaskGroupsProxyModel10metaObjectEv@ABI_6_1 4:5.17.5
@@ -444,10 +465,12 @@ libtaskmanager.so.6abi1 libtaskmanager6abi1 #MINVER#
  _ZTIN11TaskManager18AbstractTasksModelE@ABI_6_1 4:5.17.5
  _ZTIN11TaskManager18LauncherTasksModelE@ABI_6_1 4:5.17.5
  _ZTIN11TaskManager18VirtualDesktopInfoE@ABI_6_1 4:5.17.5
+ _ZTIN11TaskManager18XStartupTasksModelE@ABI_6_1 4:5.22.90
  _ZTIN11TaskManager20TaskFilterProxyModelE@ABI_6_1 4:5.17.5
  _ZTIN11TaskManager22TaskGroupingProxyModelE@ABI_6_1 4:5.17.5
  _ZTIN11TaskManager23AbstractTasksModelIfaceE@ABI_6_1 4:5.17.5
  _ZTIN11TaskManager24AbstractWindowTasksModelE@ABI_6_1 4:5.17.5
+ _ZTIN11TaskManager24WaylandStartupTasksModelE@ABI_6_1 4:5.22.90
  _ZTIN11TaskManager26ConcatenateTasksProxyModelE@ABI_6_1 4:5.17.5
  _ZTIN11TaskManager27FlattenTaskGroupsProxyModelE@ABI_6_1 4:5.17.5
  _ZTIN11TaskManager28AbstractTasksProxyModelIfaceE@ABI_6_1 4:5.17.5
@@ -460,10 +483,12 @@ libtaskmanager.so.6abi1 libtaskmanager6abi1 #MINVER#
  _ZTSN11TaskManager18AbstractTasksModelE@ABI_6_1 4:5.17.5
  _ZTSN11TaskManager18LauncherTasksModelE@ABI_6_1 4:5.17.5
  _ZTSN11TaskManager18VirtualDesktopInfoE@ABI_6_1 4:5.17.5
+ _ZTSN11TaskManager18XStartupTasksModelE@ABI_6_1 4:5.22.90
  _ZTSN11TaskManager20TaskFilterProxyModelE@ABI_6_1 4:5.17.5
  _ZTSN11TaskManager22TaskGroupingProxyModelE@ABI_6_1 4:5.17.5
  _ZTSN11TaskManager23AbstractTasksModelIfaceE@ABI_6_1 4:5.17.5
  _ZTSN11TaskManager24AbstractWindowTasksModelE@ABI_6_1 4:5.17.5
+ _ZTSN11TaskManager24WaylandStartupTasksModelE@ABI_6_1 4:5.22.90
  _ZTSN11TaskManager26ConcatenateTasksProxyModelE@ABI_6_1 4:5.17.5
  _ZTSN11TaskManager27FlattenTaskGroupsProxyModelE@ABI_6_1 4:5.17.5
  _ZTSN11TaskManager28AbstractTasksProxyModelIfaceE@ABI_6_1 4:5.17.5
@@ -476,13 +501,20 @@ libtaskmanager.so.6abi1 libtaskmanager6abi1 #MINVER#
  _ZTVN11TaskManager18AbstractTasksModelE@ABI_6_1 4:5.17.5
  _ZTVN11TaskManager18LauncherTasksModelE@ABI_6_1 4:5.17.5
  _ZTVN11TaskManager18VirtualDesktopInfoE@ABI_6_1 4:5.17.5
+ _ZTVN11TaskManager18XStartupTasksModelE@ABI_6_1 4:5.22.90
  _ZTVN11TaskManager20TaskFilterProxyModelE@ABI_6_1 4:5.17.5
  _ZTVN11TaskManager22TaskGroupingProxyModelE@ABI_6_1 4:5.17.5
  _ZTVN11TaskManager23AbstractTasksModelIfaceE@ABI_6_1 4:5.17.5
  _ZTVN11TaskManager24AbstractWindowTasksModelE@ABI_6_1 4:5.17.5
+ _ZTVN11TaskManager24WaylandStartupTasksModelE@ABI_6_1 4:5.22.90
  _ZTVN11TaskManager26ConcatenateTasksProxyModelE@ABI_6_1 4:5.17.5
  _ZTVN11TaskManager27FlattenTaskGroupsProxyModelE@ABI_6_1 4:5.17.5
  _ZTVN11TaskManager28AbstractTasksProxyModelIfaceE@ABI_6_1 4:5.17.5
+ _ZThn16_N11TaskManager18XStartupTasksModelD0Ev@ABI_6_1 4:5.22.90
+ _ZThn16_N11TaskManager18XStartupTasksModelD1Ev@ABI_6_1 4:5.22.90
+ _ZThn16_N11TaskManager24WaylandStartupTasksModelD0Ev@ABI_6_1 4:5.22.90
+ _ZThn16_N11TaskManager24WaylandStartupTasksModelD1Ev@ABI_6_1 4:5.22.90
+ _ZThn16_NK11TaskManager17StartupTasksModel16mapIfaceToSourceERK11QModelIndex@ABI_6_1 4:5.22.90
  (c++)"non-virtual thunk to TaskManager::AbstractTasksModel::requestActivate(QModelIndex const&)@ABI_6_1" 4:5.17.5
  (c++)"non-virtual thunk to TaskManager::AbstractTasksModel::requestActivities(QModelIndex const&, QStringList const&)@ABI_6_1" 4:5.17.5
  (c++)"non-virtual thunk to TaskManager::AbstractTasksModel::requestClose(QModelIndex const&)@ABI_6_1" 4:5.17.5
@@ -509,7 +541,6 @@ libtaskmanager.so.6abi1 libtaskmanager6abi1 #MINVER#
  (c++)"non-virtual thunk to TaskManager::LauncherTasksModel::requestNewInstance(QModelIndex const&)@ABI_6_1" 4:5.17.5
  (c++)"non-virtual thunk to TaskManager::LauncherTasksModel::requestOpenUrls(QModelIndex const&, QList<QUrl> const&)@ABI_6_1" 4:5.17.5
  (c++)"non-virtual thunk to TaskManager::LauncherTasksModel::~LauncherTasksModel()@ABI_6_1" 4:5.17.5
- (c++)"non-virtual thunk to TaskManager::StartupTasksModel::requestNewInstance(QModelIndex const&)@ABI_6_1" 4:5.17.5
  (c++)"non-virtual thunk to TaskManager::StartupTasksModel::~StartupTasksModel()@ABI_6_1" 4:5.17.5
  (c++)"non-virtual thunk to TaskManager::TaskFilterProxyModel::mapIfaceToSource(QModelIndex const&) const@ABI_6_1" 4:5.17.5
  (c++)"non-virtual thunk to TaskManager::TaskFilterProxyModel::~TaskFilterProxyModel()@ABI_6_1" 4:5.17.5
