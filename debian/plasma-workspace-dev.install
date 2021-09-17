@@ -19,4 +19,3 @@ usr/lib/*/libplasma-geolocation-interface.so
 usr/lib/*/libtaskmanager.so
 usr/lib/*/libweather_ion.so
 usr/share/dbus-1/interfaces/
-usr/share/kdevappwizard/templates/ion-dataengine.tar.bz2

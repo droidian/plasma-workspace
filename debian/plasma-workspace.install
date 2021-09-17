@@ -12,7 +12,6 @@ usr/bin/kcolorschemeeditor
 usr/bin/kde-systemd-start-condition
 usr/bin/kfontinst
 usr/bin/kfontview
-usr/bin/krdb
 usr/bin/klipper
 usr/bin/krunner
 usr/bin/ksmserver
@@ -23,6 +22,7 @@ usr/bin/plasma-apply-cursortheme
 usr/bin/plasma-apply-desktoptheme
 usr/bin/plasma-apply-lookandfeel
 usr/bin/plasma-apply-wallpaperimage
+usr/bin/plasma-interactiveconsole
 usr/bin/plasma-shutdown
 usr/bin/plasma_session
 usr/bin/plasma_waitforname
@@ -39,8 +39,6 @@ usr/lib/*/libexec/ksmserver-logout-greeter
 usr/lib/*/libexec/plasma-sourceenv.sh
 usr/lib/*/libexec/plasma-changeicons
 usr/lib/*/libexec/plasma-dbus-run-session-if-needed
-usr/lib/*/libkdeinit5_kcminit.so
-usr/lib/*/libkdeinit5_kcminit_startup.so
 usr/lib/*/libkrdb.so
 usr/lib/*/qt5/plugins/
 usr/lib/*/qt5/qml/org/kde/colorcorrect/
