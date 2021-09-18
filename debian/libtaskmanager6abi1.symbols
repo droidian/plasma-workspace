@@ -510,11 +510,11 @@ libtaskmanager.so.6abi1 libtaskmanager6abi1 #MINVER#
  _ZTVN11TaskManager26ConcatenateTasksProxyModelE@ABI_6_1 4:5.17.5
  _ZTVN11TaskManager27FlattenTaskGroupsProxyModelE@ABI_6_1 4:5.17.5
  _ZTVN11TaskManager28AbstractTasksProxyModelIfaceE@ABI_6_1 4:5.17.5
- _ZThn16_N11TaskManager18XStartupTasksModelD0Ev@ABI_6_1 4:5.22.90
- _ZThn16_N11TaskManager18XStartupTasksModelD1Ev@ABI_6_1 4:5.22.90
- _ZThn16_N11TaskManager24WaylandStartupTasksModelD0Ev@ABI_6_1 4:5.22.90
- _ZThn16_N11TaskManager24WaylandStartupTasksModelD1Ev@ABI_6_1 4:5.22.90
- _ZThn16_NK11TaskManager17StartupTasksModel16mapIfaceToSourceERK11QModelIndex@ABI_6_1 4:5.22.90
+ (c++)"non-virtual thunk to TaskManager::XStartupTasksModel::~XStartupTasksModel()@ABI_6_1" 4:5.22.90
+ (c++)"non-virtual thunk to TaskManager::XStartupTasksModel::~XStartupTasksModel()@ABI_6_1" 4:5.22.90
+ (c++)"non-virtual thunk to TaskManager::WaylandStartupTasksModel::~WaylandStartupTasksModel()@ABI_6_1" 4:5.22.90
+ (c++)"non-virtual thunk to TaskManager::WaylandStartupTasksModel::~WaylandStartupTasksModel()@ABI_6_1" 4:5.22.90
+ (c++)"non-virtual thunk to TaskManager::StartupTasksModel::mapIfaceToSource(QModelIndex const&) const@ABI_6_1" 4:5.22.90
  (c++)"non-virtual thunk to TaskManager::AbstractTasksModel::requestActivate(QModelIndex const&)@ABI_6_1" 4:5.17.5
  (c++)"non-virtual thunk to TaskManager::AbstractTasksModel::requestActivities(QModelIndex const&, QStringList const&)@ABI_6_1" 4:5.17.5
  (c++)"non-virtual thunk to TaskManager::AbstractTasksModel::requestClose(QModelIndex const&)@ABI_6_1" 4:5.17.5
