@@ -1,0 +1,129 @@
+From 82cd00504c6a2218426e7ff79573cd3339555910 Mon Sep 17 00:00:00 2001
+From: David Edmundson <kde@davidedmundson.co.uk>
+Date: Tue, 21 Sep 2021 23:52:54 +0100
+Subject: [PATCH] Revert "xembed: adapt to changes in KNotifications"
+
+The file org.kde.StatusNotifierItem was syncronised with up-to-date
+master, despite being previous edited to be only supported actions.
+
+Whilst it seems harmless the line:
++    <property name="Menu" type="o" access="read"/>
+means we now advertise this property.
+
+The default constructor for QDBusObjectPath is "/".
+
+Plasma-workspace "correctly" thinks we have a supported DBus menu and
+therefore don't want to receive context menu events.
+
+This reverts commit e782a1248d08adbaa9e3b4ef490c24765c6519c4.
+The XML file gains a comment at the top so this doesn't happen again.
+
+BUG: 442758
+---
+ .../org.kde.StatusNotifierItem.xml            | 42 ++-----------------
+ xembed-sni-proxy/sniproxy.cpp                 |  6 ---
+ xembed-sni-proxy/sniproxy.h                   |  2 -
+ 3 files changed, 3 insertions(+), 47 deletions(-)
+
+diff --git a/xembed-sni-proxy/org.kde.StatusNotifierItem.xml b/xembed-sni-proxy/org.kde.StatusNotifierItem.xml
+index 53989c7b1..0cd7edb1a 100644
+--- a/xembed-sni-proxy/org.kde.StatusNotifierItem.xml
++++ b/xembed-sni-proxy/org.kde.StatusNotifierItem.xml
+@@ -1,5 +1,7 @@
+ <!DOCTYPE node PUBLIC "-//freedesktop//DTD D-BUS Object Introspection 1.0//EN" "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+ <node>
++  <!-- This is a minimally cut down version of the interface only implementing the
++    methods and properties used by xembedsniproxy -->
+   <interface name="org.kde.StatusNotifierItem">
+ 
+     <property name="Category" type="s" access="read"/>
+@@ -8,48 +10,13 @@
+     <property name="Status" type="s" access="read"/>
+     <property name="WindowId" type="i" access="read"/>
+ 
+-    <!-- An additional path to add to the theme search path to find the icons specified above. -->
+-    <property name="IconThemePath" type="s" access="read"/>
+-    <property name="Menu" type="o" access="read"/>
+     <property name="ItemIsMenu" type="b" access="read"/>
+ 
+ 
+-    <!-- main icon -->
+-    <!-- names are preferred over pixmaps -->
+-    <property name="IconName" type="s" access="read"/>
+-
+-    <!--struct containing width, height and image data-->
+-    <property name="IconPixmap" type="a(iiay)" access="read">
+-      <annotation name="org.qtproject.QtDBus.QtTypeName" value="KDbusImageVector"/>
+-    </property>
+-
+-    <property name="OverlayIconName" type="s" access="read"/>
+-
+-    <property name="OverlayIconPixmap" type="a(iiay)" access="read">
+-      <annotation name="org.qtproject.QtDBus.QtTypeName" value="KDbusImageVector"/>
+-    </property>
+-
+-
+-    <!-- Requesting attention icon -->
+-    <property name="AttentionIconName" type="s" access="read"/>
+-
+-    <!--same definition as image-->
+-    <property name="AttentionIconPixmap" type="a(iiay)" access="read">
++    <property name="IconPixmap" type="(iiay)" access="read">
+       <annotation name="org.qtproject.QtDBus.QtTypeName" value="KDbusImageVector"/>
+     </property>
+ 
+-    <property name="AttentionMovieName" type="s" access="read"/>
+-
+-
+-
+-    <!-- tooltip data -->
+-
+-    <!--(iiay) is an image-->
+-    <property name="ToolTip" type="(sa(iiay)ss)" access="read">
+-      <annotation name="org.qtproject.QtDBus.QtTypeName" value="KDbusToolTipStruct"/>
+-    </property>
+-
+-
+     <!-- interaction: the systemtray wants the application to do something -->
+     <method name="ContextMenu">
+         <!-- we're passing the coordinates of the icon, so the app knows where to put the popup window -->
+@@ -85,9 +52,6 @@
+     <signal name="NewOverlayIcon">
+     </signal>
+ 
+-    <signal name="NewMenu">
+-    </signal>
+-
+     <signal name="NewToolTip">
+     </signal>
+ 
+diff --git a/xembed-sni-proxy/sniproxy.cpp b/xembed-sni-proxy/sniproxy.cpp
+index 9a6a7b5be..6faeb8e93 100644
+--- a/xembed-sni-proxy/sniproxy.cpp
++++ b/xembed-sni-proxy/sniproxy.cpp
+@@ -594,9 +594,3 @@ void SNIProxy::sendClick(uint8_t mouseButton, int x, int y)
+ 
+     sendingClickEvent = false;
+ }
+-
+-void SNIProxy::ProvideXdgActivationToken(const QString &token)
+-{
+-    // Skip, Xembed is well-known for being X
+-    Q_UNUSED(token);
+-}
+diff --git a/xembed-sni-proxy/sniproxy.h b/xembed-sni-proxy/sniproxy.h
+index 6ff115005..7d91c740b 100644
+--- a/xembed-sni-proxy/sniproxy.h
++++ b/xembed-sni-proxy/sniproxy.h
+@@ -80,8 +80,6 @@ public:
+      */
+     KDbusImageVector IconPixmap() const;
+ 
+-    void ProvideXdgActivationToken(const QString &token);
+-
+ public Q_SLOTS:
+     // interaction
+     /**
+-- 
+GitLab
+
