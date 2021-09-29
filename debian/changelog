@@ -11,6 +11,7 @@ plasma-workspace (4:5.22.90-1) UNRELEASED; urgency=medium
   * Update list of installed files.
   * Update symbols.
   * Cherry-pick upstream fix for missing context menu of tray icons.
+  * Cherry-pick upstream fix for install location of fontinst kcm.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 06 Jun 2021 18:55:36 +0900
 
