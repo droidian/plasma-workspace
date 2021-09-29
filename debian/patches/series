@@ -1,4 +1,3 @@
 add_sddm_debian_breeze.patch
 enable_debianabimanager.diff
 upstream-82cd0050-fix-context-menu-of-tray-icons.patch
-upstream-33c49295-fix-kcm-fontinst.patch
