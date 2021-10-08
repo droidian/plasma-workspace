@@ -10,7 +10,6 @@ plasma-workspace (4:5.23.0-1) UNRELEASED; urgency=medium
   * Add breaks/replaces against breeze for moved files.
   * Update list of installed files.
   * Update symbols.
-  * Cherry-pick upstream fix for missing context menu of tray icons.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 06 Jun 2021 18:55:36 +0900
 
