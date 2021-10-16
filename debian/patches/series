@@ -1,2 +1,3 @@
 add_sddm_debian_breeze.patch
 enable_debianabimanager.diff
+upstream-d5a3e749-sddm-missing-password-other.patch
