@@ -1,9 +1,9 @@
-plasma-workspace (4:5.23.0-3) UNRELEASED; urgency=medium
+plasma-workspace (4:5.23.0-3) unstable; urgency=medium
 
   [ Norbert Preining ]
   * Cherry-pick upstream fix for sddm login problem.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 16 Oct 2021 17:04:50 +0900
+ -- Norbert Preining <norbert@preining.info>  Sat, 16 Oct 2021 17:05:53 +0900
 
 plasma-workspace (4:5.23.0-2) unstable; urgency=medium
 
