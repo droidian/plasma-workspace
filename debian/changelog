@@ -1,3 +1,10 @@
+plasma-workspace (4:5.23.4-1) UNRELEASED; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.23.4).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 01 Dec 2021 03:51:09 +0900
+
 plasma-workspace (4:5.23.3-1) unstable; urgency=medium
 
   [ Norbert Preining ]
