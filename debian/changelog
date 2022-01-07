@@ -1,10 +1,10 @@
-plasma-workspace (4:5.23.5-1) UNRELEASED; urgency=medium
+plasma-workspace (4:5.23.5-1) unstable; urgency=medium
 
   [ Patrick Franz ]
   * New upstream release (5.23.5).
   * Update B-Ds.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 07 Jan 2022 12:58:10 +0100
+ -- Patrick Franz <deltaone@debian.org>  Fri, 07 Jan 2022 18:19:12 +0100
 
 plasma-workspace (4:5.23.4-2) unstable; urgency=medium
 
