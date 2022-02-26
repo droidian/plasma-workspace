@@ -1,3 +1,2 @@
 add_sddm_debian_breeze.patch
 enable_debianabimanager.diff
-plasma-workspace-notifier-mr1274.diff
