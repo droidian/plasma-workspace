@@ -36,14 +36,15 @@ usr/lib/*/kconf_update_bin/krunnerhistory
 usr/lib/*/libexec/baloorunner
 usr/lib/*/libexec/kfontprint
 usr/lib/*/libexec/ksmserver-logout-greeter
-usr/lib/*/libexec/plasma-sourceenv.sh
 usr/lib/*/libexec/plasma-changeicons
 usr/lib/*/libexec/plasma-dbus-run-session-if-needed
+usr/lib/*/libexec/plasma-sourceenv.sh
 usr/lib/*/libkrdb.so
 usr/lib/*/qt5/plugins/
 usr/lib/*/qt5/qml/org/kde/colorcorrect/
 usr/lib/*/qt5/qml/org/kde/holidayeventshelperplugin/
 usr/lib/*/qt5/qml/org/kde/notificationmanager/
+usr/lib/*/qt5/qml/org/kde/plasma/lookandfeel/
 usr/lib/*/qt5/qml/org/kde/plasma/private/appmenu/libappmenuplugin.so
 usr/lib/*/qt5/qml/org/kde/plasma/private/appmenu/qmldir
 usr/lib/*/qt5/qml/org/kde/plasma/private/containmentlayoutmanager/

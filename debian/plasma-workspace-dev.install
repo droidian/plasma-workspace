@@ -11,9 +11,9 @@ usr/lib/*/cmake/LibKWorkspace/
 usr/lib/*/cmake/LibNotificationManager/
 usr/lib/*/cmake/LibTaskManager/
 usr/lib/*/libcolorcorrect.so
-usr/lib/*/libkworkspace5.so
 usr/lib/*/libkfontinst.so
 usr/lib/*/libkfontinstui.so
+usr/lib/*/libkworkspace5.so
 usr/lib/*/libnotificationmanager.so
 usr/lib/*/libplasma-geolocation-interface.so
 usr/lib/*/libtaskmanager.so

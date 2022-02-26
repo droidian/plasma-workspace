@@ -1,3 +1,2 @@
 usr/bin/startplasma-wayland
-usr/lib/*/libexec/startplasma-waylandsession
 usr/share/wayland-sessions/plasmawayland.desktop
