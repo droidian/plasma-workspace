@@ -1,3 +1,7 @@
+plasma-workspace (4:5.24.2-1) UNRELEASED; urgency=medium
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 26 Feb 2022 16:59:59 +0100
+
 plasma-workspace (4:5.23.5-1) unstable; urgency=medium
 
   [ Patrick Franz ]
