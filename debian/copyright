@@ -129,8 +129,7 @@ Copyright: 2009, A. L. Spehr <spehr@kde.org>
            2006, Lukas Tinkl <ltinkl@suse.cz>
 License: GPL-2+
 
-Files: libcolorcorrect/autotests/qtest_dbus.h
-       libtaskmanager/abstracttasksmodel.cpp
+Files: libtaskmanager/abstracttasksmodel.cpp
        libtaskmanager/abstracttasksmodel.h
        libtaskmanager/abstracttasksmodeliface.h
        libtaskmanager/abstracttasksproxymodeliface.cpp
@@ -166,143 +165,6 @@ Files: libcolorcorrect/autotests/qtest_dbus.h
        libtaskmanager/windowtasksmodel.h
        libtaskmanager/xwindowtasksmodel.cpp
        libtaskmanager/xwindowtasksmodel.h
-       po/ca/freespacenotifier.po
-       po/ca/kcminit.po
-       po/ca/kholidays_calendar_plugin.po
-       po/ca/kio5_applications.po
-       po/ca/kio_desktop.po
-       po/ca/klipper.po
-       po/ca/krunner.po
-       po/ca/ksmserver.po
-       po/ca/kuiserver5.po
-       po/ca/libkworkspace.po
-       po/ca/phonon_kde_plugin.po
-       po/ca/plasma_applet_org.kde.color.po
-       po/ca/plasma_applet_org.kde.plasma.analogclock.po
-       po/ca/plasma_applet_org.kde.plasma.appmenu.po
-       po/ca/plasma_applet_org.kde.plasma.battery.po
-       po/ca/plasma_applet_org.kde.plasma.calendar.po
-       po/ca/plasma_applet_org.kde.plasma.clipboard.po
-       po/ca/plasma_applet_org.kde.plasma.devicenotifier.po
-       po/ca/plasma_applet_org.kde.plasma.digitalclock.po
-       po/ca/plasma_applet_org.kde.plasma.icon.po
-       po/ca/plasma_applet_org.kde.plasma.lock_logout.po
-       po/ca/plasma_applet_org.kde.plasma.mediacontroller.po
-       po/ca/plasma_applet_org.kde.plasma.notifications.po
-       po/ca/plasma_applet_org.kde.plasma.panelspacer.po
-       po/ca/plasma_applet_org.kde.plasma.private.systemtray.po
-       po/ca/plasma_applet_org.kde.plasma.systemmonitor.cpu.po
-       po/ca/plasma_applet_org.kde.plasma.systemmonitor.diskactivity.po
-       po/ca/plasma_applet_org.kde.plasma.systemmonitor.diskusage.po
-       po/ca/plasma_applet_org.kde.plasma.systemmonitor.memory.po
-       po/ca/plasma_applet_org.kde.plasma.systemmonitor.net.po
-       po/ca/plasma_containmentactions_applauncher.po
-       po/ca/plasma_containmentactions_contextmenu.po
-       po/ca/plasma_containmentactions_switchwindow.po
-       po/ca/plasma_engine_applicationjobs.po
-       po/ca/plasma_engine_devicenotifications.po
-       po/ca/plasma_engine_dict.po
-       po/ca/plasma_engine_keystate.po
-       po/ca/plasma_engine_mpris2.po
-       po/ca/plasma_engine_network.po
-       po/ca/plasma_engine_notifications.po
-       po/ca/plasma_engine_powermanagement.po
-       po/ca/plasma_engine_rss.po
-       po/ca/plasma_engine_share.po
-       po/ca/plasma_engine_soliddevice.po
-       po/ca/plasma_engine_time.po
-       po/ca/plasma_lookandfeel_org.kde.lookandfeel.po
-       po/ca/plasma_package_plasmashell.po
-       po/ca/plasma_runner_activities.po
-       po/ca/plasma_runner_baloosearch5.po
-       po/ca/plasma_runner_bookmarksrunner.po
-       po/ca/plasma_runner_calculatorrunner.po
-       po/ca/plasma_runner_kill.po
-       po/ca/plasma_runner_locations.po
-       po/ca/plasma_runner_placesrunner.po
-       po/ca/plasma_runner_powerdevil.po
-       po/ca/plasma_runner_recentdocuments.po
-       po/ca/plasma_runner_services.po
-       po/ca/plasma_runner_sessions.po
-       po/ca/plasma_runner_shell.po
-       po/ca/plasma_runner_solid.po
-       po/ca/plasma_runner_webshortcuts.po
-       po/ca/plasma_runner_windowedwidgets.po
-       po/ca/plasma_runner_windows.po
-       po/ca/plasmashell.po
-       po/ca/plasmashellprivateplugin.po
-       po/ca/soliduiserver5.po
-       po/ca/systemmonitor.po
-       po/ca@valencia/*
-       po/uk/freespacenotifier.po
-       po/uk/kcminit.po
-       po/uk/kholidays_calendar_plugin.po
-       po/uk/kio5_applications.po
-       po/uk/kio_desktop.po
-       po/uk/klipper.po
-       po/uk/krunner.po
-       po/uk/ksmserver.po
-       po/uk/kuiserver5.po
-       po/uk/libkworkspace.po
-       po/uk/phonon_kde_plugin.po
-       po/uk/plasma_applet_org.kde.color.po
-       po/uk/plasma_applet_org.kde.image.po
-       po/uk/plasma_applet_org.kde.plasma.analogclock.po
-       po/uk/plasma_applet_org.kde.plasma.appmenu.po
-       po/uk/plasma_applet_org.kde.plasma.battery.po
-       po/uk/plasma_applet_org.kde.plasma.calendar.po
-       po/uk/plasma_applet_org.kde.plasma.clipboard.po
-       po/uk/plasma_applet_org.kde.plasma.devicenotifier.po
-       po/uk/plasma_applet_org.kde.plasma.digitalclock.po
-       po/uk/plasma_applet_org.kde.plasma.icon.po
-       po/uk/plasma_applet_org.kde.plasma.lock_logout.po
-       po/uk/plasma_applet_org.kde.plasma.mediacontroller.po
-       po/uk/plasma_applet_org.kde.plasma.notifications.po
-       po/uk/plasma_applet_org.kde.plasma.panelspacer.po
-       po/uk/plasma_applet_org.kde.plasma.private.systemtray.po
-       po/uk/plasma_applet_org.kde.plasma.systemmonitor.cpu.po
-       po/uk/plasma_applet_org.kde.plasma.systemmonitor.diskactivity.po
-       po/uk/plasma_applet_org.kde.plasma.systemmonitor.diskusage.po
-       po/uk/plasma_applet_org.kde.plasma.systemmonitor.memory.po
-       po/uk/plasma_applet_org.kde.plasma.systemmonitor.net.po
-       po/uk/plasma_containmentactions_applauncher.po
-       po/uk/plasma_containmentactions_contextmenu.po
-       po/uk/plasma_containmentactions_switchwindow.po
-       po/uk/plasma_engine_applicationjobs.po
-       po/uk/plasma_engine_devicenotifications.po
-       po/uk/plasma_engine_dict.po
-       po/uk/plasma_engine_keystate.po
-       po/uk/plasma_engine_mpris2.po
-       po/uk/plasma_engine_network.po
-       po/uk/plasma_engine_notifications.po
-       po/uk/plasma_engine_powermanagement.po
-       po/uk/plasma_engine_rss.po
-       po/uk/plasma_engine_share.po
-       po/uk/plasma_engine_soliddevice.po
-       po/uk/plasma_engine_time.po
-       po/uk/plasma_engine_weather.po
-       po/uk/plasma_lookandfeel_org.kde.lookandfeel.po
-       po/uk/plasma_package_plasmashell.po
-       po/uk/plasma_runner_activities.po
-       po/uk/plasma_runner_baloosearch5.po
-       po/uk/plasma_runner_bookmarksrunner.po
-       po/uk/plasma_runner_calculatorrunner.po
-       po/uk/plasma_runner_kill.po
-       po/uk/plasma_runner_locations.po
-       po/uk/plasma_runner_placesrunner.po
-       po/uk/plasma_runner_powerdevil.po
-       po/uk/plasma_runner_recentdocuments.po
-       po/uk/plasma_runner_services.po
-       po/uk/plasma_runner_sessions.po
-       po/uk/plasma_runner_shell.po
-       po/uk/plasma_runner_solid.po
-       po/uk/plasma_runner_webshortcuts.po
-       po/uk/plasma_runner_windowedwidgets.po
-       po/uk/plasma_runner_windows.po
-       po/uk/plasmashell.po
-       po/uk/plasmashellprivateplugin.po
-       po/uk/soliduiserver5.po
-       po/uk/systemmonitor.po
        runners/kill/killrunner.cpp
        runners/kill/killrunner.h
        runners/kill/killrunner_config.cpp
@@ -324,15 +186,12 @@ License: LGPL-2.1+3+KDEeV
 
 Files: applets/analog-clock/contents/ui/Hand.qml
        applets/analog-clock/contents/ui/analogclock.qml
-       applets/batterymonitor/package/contents/code/*
        applets/batterymonitor/package/contents/ui/BatteryItem.qml
        applets/batterymonitor/package/contents/ui/BrightnessItem.qml
        applets/batterymonitor/package/contents/ui/CompactRepresentation.qml
        applets/batterymonitor/package/contents/ui/InhibitionHint.qml
        applets/batterymonitor/package/contents/ui/PopupDialog.qml
        applets/batterymonitor/package/contents/ui/PowerManagementItem.qml
-       applets/batterymonitor/package/contents/ui/batterymonitor.qml
-       applets/devicenotifier/package/contents/ui/ActionItem.qml
        applets/devicenotifier/package/contents/ui/DeviceItem.qml
        applets/devicenotifier/package/contents/ui/FullRepresentation.qml
        applets/devicenotifier/package/contents/ui/devicenotifier.qml
@@ -340,16 +199,7 @@ Files: applets/analog-clock/contents/ui/Hand.qml
        applets/lock_logout/contents/ui/lockout.qml
        applets/mediacontroller/contents/ui/ExpandedRepresentation.qml
        applets/mediacontroller/contents/ui/main.qml
-       applets/notifications/package/contents/code/*
        applets/notifications/package/contents/ui/*
-       applets/systemmonitor/common/contents/ui/Applet.qml
-       applets/systemmonitor/common/contents/ui/DoublePlotter.qml
-       applets/systemmonitor/common/contents/ui/SinglePlotter.qml
-       applets/systemmonitor/cpu/contents/ui/*
-       applets/systemmonitor/diskactivity/contents/ui/*
-       applets/systemmonitor/diskusage/contents/ui/*
-       applets/systemmonitor/memory/contents/ui/*
-       applets/systemmonitor/net/contents/ui/*
        applets/systemtray/container/package/contents/*
        applets/systemtray/package/contents/applet/*
        applets/systemtray/package/contents/ui/CurrentItemHighLight.qml
@@ -363,7 +213,6 @@ Files: applets/analog-clock/contents/ui/Hand.qml
        applets/systemtray/tests/statusnotifier/pumpjob.h
        applets/systemtray/tests/statusnotifier/statusnotifiertest.cpp
        applets/systemtray/tests/statusnotifier/statusnotifiertest.h
-       components/shellprivate/interactiveconsole/*
        components/shellprivate/widgetexplorer/kcategorizeditemsviewmodels.cpp
        components/shellprivate/widgetexplorer/kcategorizeditemsviewmodels_p.h
        components/shellprivate/widgetexplorer/openwidgetassistant.cpp
@@ -389,12 +238,6 @@ Files: applets/analog-clock/contents/ui/Hand.qml
        dataengines/activities/activityengine.h
        dataengines/activities/activityservice.cpp
        dataengines/activities/activityservice.h
-       dataengines/akonadi/akonadiengine.cpp
-       dataengines/akonadi/akonadiengine.h
-       dataengines/calendar/calendarengine.cpp
-       dataengines/calendar/calendarengine.h
-       dataengines/calendar/eventdatacontainer.cpp
-       dataengines/calendar/eventdatacontainer.h
        dataengines/devicenotifications/devicenotificationsengine.cpp
        dataengines/devicenotifications/devicenotificationsengine.h
        dataengines/favicons/faviconprovider.cpp
@@ -405,9 +248,6 @@ Files: applets/analog-clock/contents/ui/Hand.qml
        dataengines/hotplug/hotplugengine.h
        dataengines/keystate/keystate.cpp
        dataengines/keystate/keystate.h
-       dataengines/notifications/notifications_test.cpp
-       dataengines/notifications/notificationsanitizer.cpp
-       dataengines/notifications/notificationsanitizer.h
        dataengines/notifications/notificationsengine.cpp
        dataengines/notifications/notificationsengine.h
        dataengines/powermanagement/powermanagementservice.cpp
@@ -422,8 +262,6 @@ Files: applets/analog-clock/contents/ui/Hand.qml
        kioslave/desktop/kio_desktop.cpp
        kioslave/desktop/kio_desktop.h
        kioslave/desktop/tests/kio_desktop_test.cpp
-       klipper/klipper_debug.cpp
-       klipper/klipper_debug.h
        ktimezoned/ktimezoned.cpp
        ktimezoned/ktimezoned.h
        ktimezoned/ktimezoned_win.cpp
@@ -438,12 +276,10 @@ Files: applets/analog-clock/contents/ui/Hand.qml
        libdbusmenuqt/test/main.cpp
        libdbusmenuqt/utils.cpp
        libdbusmenuqt/utils_p.h
-       libkworkspace/interface_util.h
        libkworkspace/kdisplaymanager.cpp
        libkworkspace/kdisplaymanager.h
        libkworkspace/kworkspace.cpp
        libkworkspace/kworkspace.h
-       libkworkspace/kworkspace_p.h
        lookandfeel/contents/components/ActionButton.qml
        lookandfeel/contents/components/Battery.qml
        lookandfeel/contents/components/Clock.qml
@@ -458,7 +294,6 @@ Files: applets/analog-clock/contents/ui/Hand.qml
        runners/bookmarks/bookmarksrunner.cpp
        runners/bookmarks/bookmarksrunner.h
        runners/bookmarks/bookmarksrunner_defs.h
-       runners/bookmarks/browser.h
        runners/bookmarks/browserfactory.cpp
        runners/bookmarks/browserfactory.h
        runners/bookmarks/browsers/*
@@ -468,8 +303,6 @@ Files: applets/analog-clock/contents/ui/Hand.qml
        runners/bookmarks/faviconfromblob.h
        runners/bookmarks/fetchsqlite.cpp
        runners/bookmarks/fetchsqlite.h
-       runners/bookmarks/tests/testchromebookmarks.cpp
-       runners/bookmarks/tests/testchromebookmarks.h
        runners/calculator/qalculate_engine.cpp
        runners/calculator/qalculate_engine.h
        runners/places/placesrunner.cpp
@@ -477,7 +310,6 @@ Files: applets/analog-clock/contents/ui/Hand.qml
        runners/recentdocuments/recentdocuments.cpp
        runners/recentdocuments/recentdocuments.h
        sddm-theme/Background.qml
-       sddm-theme/Clock.qml
        sddm-theme/Main.qml
        sddm-theme/SessionButton.qml
        shell/alternativeshelper.cpp
@@ -511,8 +343,6 @@ Files: applets/analog-clock/contents/ui/Hand.qml
        shell/scripting/configgroup.h
        shell/scripting/containment.cpp
        shell/scripting/containment.h
-       shell/scripting/i18n.cpp
-       shell/scripting/i18n.h
        shell/scripting/panel.cpp
        shell/scripting/panel.h
        shell/scripting/scriptengine.cpp
@@ -523,8 +353,6 @@ Files: applets/analog-clock/contents/ui/Hand.qml
        shell/scripting/widget.h
        shell/shellcorona.cpp
        shell/shellcorona.h
-       templates/ion-dataengine/src/ion-%{APPNAMELC}.cpp
-       templates/ion-dataengine/src/ion-%{APPNAMELC}.h
        wallpapers/image/imageplugin.cpp
        wallpapers/image/imageplugin.h
 Copyright: 2005-2013, Aaron Seigo <aseigo@kde.org>
@@ -615,8 +443,6 @@ Files: dataengines/activities/activityjob.cpp
        dataengines/mouse/mouseengine.h
        dataengines/mpris2/mpris2engine.cpp
        dataengines/mpris2/mpris2engine.h
-       dataengines/network/networkengine.cpp
-       dataengines/network/networkengine.h
        dataengines/notifications/notificationaction.cpp
        dataengines/notifications/notificationaction.h
        dataengines/notifications/notificationservice.cpp
@@ -627,8 +453,6 @@ Files: dataengines/activities/activityjob.cpp
        dataengines/powermanagement/powermanagementengine.h
        dataengines/powermanagement/powermanagementjob.cpp
        dataengines/powermanagement/powermanagementjob.h
-       dataengines/rss/rss.cpp
-       dataengines/rss/rss.h
        dataengines/soliddevice/devicesignalmapmanager.cpp
        dataengines/soliddevice/devicesignalmapmanager.h
        dataengines/soliddevice/devicesignalmapper.cpp
@@ -649,27 +473,11 @@ Files: dataengines/activities/activityjob.cpp
        dataengines/systemmonitor/systemmonitor.h
        kioslave/desktop/desktopnotifier.cpp
        kioslave/desktop/desktopnotifier.h
-       kuiserver/main.cpp
-       kuiserver/progresslistdelegate.cpp
-       kuiserver/progresslistdelegate.h
-       kuiserver/progresslistdelegate_p.h
-       kuiserver/progresslistmodel.cpp
-       kuiserver/progresslistmodel.h
-       kuiserver/tests/kuiservertest.cpp
-       kuiserver/tests/kuiservertest.h
-       kuiserver/uiserver.cpp
-       kuiserver/uiserver.h
-       kuiserver/uiserver_p.h
        phonon/platform_kde/kdeplatformplugin.cpp
        phonon/platform_kde/kdeplatformplugin.h
        phonon/platform_kde/kiomediastream.cpp
        phonon/platform_kde/kiomediastream.h
        phonon/platform_kde/kiomediastream_p.h
-       po/ca/plasma_applet_org.kde.image.po
-       po/ca@valencia/plasma_applet_org.kde.plasma.devicenotifier.po
-       po/ca@valencia/plasma_engine_weather.po
-       runners/activities/activityrunner.cpp
-       runners/activities/activityrunner.h
        runners/calculator/calculatorrunner.cpp
        runners/calculator/calculatorrunner.h
        runners/locations/locationrunner.cpp
@@ -684,17 +492,8 @@ Files: dataengines/activities/activityjob.cpp
        runners/webshortcuts/webshortcutrunner.h
        runners/windowedwidgets/windowedwidgetsrunner.cpp
        runners/windowedwidgets/windowedwidgetsrunner.h
-       shell/scripting/rect.cpp
        solidautoeject/solidautoeject.cpp
        solidautoeject/solidautoeject.h
-       soliduiserver/deviceaction.cpp
-       soliduiserver/deviceaction.h
-       soliduiserver/deviceactionsdialog.cpp
-       soliduiserver/deviceactionsdialog.h
-       soliduiserver/devicenothingaction.cpp
-       soliduiserver/devicenothingaction.h
-       soliduiserver/deviceserviceaction.cpp
-       soliduiserver/deviceserviceaction.h
        soliduiserver/soliduiserver.cpp
        soliduiserver/soliduiserver.h
        startkde/waitforname/main.cpp
@@ -762,7 +561,6 @@ Files: applets/appmenu/lib/appmenuapplet.cpp
        applets/calendar/calendarapplet.cpp
        applets/calendar/calendarapplet.h
        applets/calendar/package/contents/config/config.qml
-       applets/calendar/package/contents/ui/configAgenda.qml
        applets/calendar/package/contents/ui/configGeneral.qml
        applets/digital-clock/package/contents/config/config.qml
        applets/digital-clock/package/contents/ui/configAppearance.qml
@@ -773,19 +571,12 @@ Files: applets/appmenu/lib/appmenuapplet.cpp
        applets/icon/iconapplet.cpp
        applets/icon/iconapplet.h
        applets/icon/package/contents/ui/*
-       applets/notifications/lib/notificationsapplet.cpp
-       applets/notifications/lib/notificationsapplet.h
-       applets/notifications/package/contents/config/config.qml
-       applets/notifications/package/contents/ui/ScreenPositionSelector.qml
-       applets/notifications/package/contents/ui/configNotifications.qml
-       applets/panelspacer/contents/ui/*
        dataengines/packagekit/packagekitengine.cpp
        dataengines/packagekit/packagekitengine.h
        dataengines/packagekit/packagekitjob.cpp
        dataengines/packagekit/packagekitjob.h
        dataengines/packagekit/packagekitservice.cpp
        dataengines/packagekit/packagekitservice.h
-       dataengines/share/backends/pasteubuntucom/contents/*
        plasma-windowed/main.cpp
        plasma-windowed/plasmawindowedcorona.cpp
        plasma-windowed/plasmawindowedcorona.h
@@ -796,7 +587,6 @@ Files: applets/appmenu/lib/appmenuapplet.cpp
        runners/appstream/appstreamrunner.h
        shell/standaloneappcorona.cpp
        shell/standaloneappcorona.h
-       startkde/ksyncdbusenv/ksyncdbusenv.cpp
        xembed-sni-proxy/snidbus.cpp
        xembed-sni-proxy/snidbus.h
 Copyright: 2015, <davidedmundson@kde.org> David Edmundson
@@ -816,12 +606,6 @@ License: GPL-2+3+KDEeV
 
 Files: applets/digital-clock/plugin/digitalclockplugin.cpp
        applets/digital-clock/plugin/digitalclockplugin.h
-       applets/notifications/plugin/notificationshelper.cpp
-       applets/notifications/plugin/notificationshelper.h
-       applets/notifications/plugin/notificationshelperplugin.cpp
-       applets/notifications/plugin/notificationshelperplugin.h
-       applets/notifications/plugin/thumbnailer.cpp
-       applets/notifications/plugin/thumbnailer.h
        components/keyboardlayout/keyboardlayout.cpp
        components/keyboardlayout/keyboardlayout.h
        dataengines/keystate/keyservice.h
@@ -900,8 +684,6 @@ Files: appmenu/appmenu.cpp
        components/shellprivate/shellprivateplugin.h
        libtaskmanager/tasksmodel.cpp
        libtaskmanager/tasksmodel.h
-       startkde/kstartupconfig/kdostartupconfig.cpp
-       startkde/kstartupconfig/kstartupconfig.cpp
 Copyright: 2010, Aaron Seigo <aseigo@kde.org>
            2010, Anton Kreuzkamp <akreuzkamp@web.de>
            2008, Christian Mollekopf <chrigi_1@hotmail.com>
@@ -923,27 +705,8 @@ Copyright: 2010, Aaron Seigo <aseigo@kde.org>
            2007, Urs Wolfer <uwolfer@kde.org>
 License: Expat
 
-Files: applets/lock_logout/metadata.desktop
-       dataengines/activities/plasma-dataengine-activities.desktop
-       dataengines/apps/plasma-dataengine-apps.desktop
-       dataengines/keystate/keyservice.cpp
-       dataengines/keystate/plasma-dataengine-keystate.desktop
-       dataengines/places/plasma-dataengine-places.desktop
-       dataengines/share/plasma-dataengine-share.desktop
-       dataengines/time/plasma-dataengine-time.desktop
-       runners/activities/plasma-runner-activityrunner.desktop
+Files: dataengines/keystate/keyservice.cpp
        runners/baloo/plasma-runner-baloosearch.desktop
-       runners/bookmarks/plasma-runner-bookmarks.desktop
-       runners/calculator/plasma-runner-calculator.desktop
-       runners/kill/plasma-runner-kill.desktop
-       runners/locations/plasma-runner-locations.desktop
-       runners/places/plasma-runner-places.desktop
-       runners/recentdocuments/recentdocuments.desktop
-       runners/services/plasma-runner-services.desktop
-       runners/sessions/plasma-runner-sessions.desktop
-       runners/shell/plasma-runner-shell.desktop
-       runners/webshortcuts/plasma-runner-webshortcuts.desktop
-       runners/windowedwidgets/plasma-runner-windowedwidgets.desktop
 Copyright: 2009, Aaron Seigo <aseigo@kde.org>
            Alex Merry <alex.merry@kdemail.net>
            Artur de Souza <asouza@kde.org>
@@ -977,19 +740,10 @@ Copyright: 1998, &Andrew.Stanley-Jones; <email
            2008-2009, Daniel Nicoletti
 License: GFDL-1.2+
 
-Files: ksmserver/autostart.cpp
-       ksmserver/autostart.h
-       ksmserver/tests/autostarttest.cpp
+Files: ksmserver/tests/autostarttest.cpp
 Copyright: 2014, Vishesh Handa <me@vhanda.in>
            2001, Waldo Bastian <bastian@kde.org>
 License: LGPL-2
-
-Files: ksmserver/kcheckrunning.cpp
-       ksmserver/ksmserver_debug.cpp
-       ksmserver/ksmserver_debug.h
-Copyright: 2014, Hrvoje Senjan <hrvoje.senjan@gmail.com>
-           2005, Lubos Lunak <l.lunak@kde.org>
-License: LGPL-2+
 
 Files: cmake/*
 Copyright: 2006, Alexander Neundorf <neundorf@kde.org>
@@ -997,26 +751,6 @@ Copyright: 2006, Alexander Neundorf <neundorf@kde.org>
            2016, Pino Toscano <pino@kde.org>
            2007, Vladimir Kuznetsov <ks.vladimir@gmail.com>
 License: BSD-3-clause
-
-Files: klipper/autotests/modeltest.cpp
-       klipper/autotests/modeltest.h
-Copyright: 2013, Digia Plc and/or its subsidiary(-ies)
-License: GPL-3_or_LGPL-2.1-QTexception-1.1
-
-Files: ksmserver/switchuserdialog.cpp
-       ksmserver/switchuserdialog.h
-Copyright: 2015, Kai Uwe Broulik <kde@privat.broulik.de>
-License: GPL-2+3+KDEeV
-
-Files: dataengines/systemmonitor/sensorclient.h
-Copyright: 1999-2000, Chris Schlaeger <cs@kde.org>
-           2006, John Tapsell <tapsell@kde.org>
-License: GPL-2
-
-Files: shell/scripting/backportglobal.h
-Copyright: 1992-2007, Trolltech ASA
-           1992-2007, Trolltech ASA. All rights reserved
-License: GPL-2-QTexception-1.0
 
 Files: debian/*
 Copyright: 2014, Jonathan Riddell <jriddell@ubuntu.com>
@@ -1081,23 +815,6 @@ License: GFDL-1.2+
  On Debian systems, the complete text of the GNU Free Documentation License
  version 1.2 can be found in `/usr/share/common-licenses/GFDL-1.2'.
 
-License: GPL-2
- This program is free software; you can redistribute it and/or
- modify it under the terms of version 2 of the GNU General Public
- License as published by the Free Software Foundation.
- .
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
- .
- You should have received a copy of the GNU General Public License
- along with this program; if not, write to the Free Software
- Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
- --
- On Debian systems, the complete text of the GNU General Public License
- version 2 can be found in `/usr/share/common-licenses/GPL-2'.
-
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -1136,77 +853,6 @@ License: GPL-2+3+KDEeV
  version 2 can be found in `/usr/share/common-licenses/GPL-2', likewise, the
  complete text of the GNU General Public License version 3 can be found in
  `/usr/share/common-licenses/GPL-3'.
-
-License: GPL-2-QTexception-1.0
- This file is part of the plugins of the Qt Toolkit.
- .
- This file may be used under the terms of the GNU General Public
- License version 2.0 as published by the Free Software Foundation
- and appearing in the file LICENSE.GPL included in the packaging of
- this file.  Please review the following information to ensure GNU
- General Public Licensing requirements will be met:
- http://trolltech.com/products/qt/licenses/licensing/opensource/
- .
- If you are unsure which license is appropriate for your use, please
- review the following information:
- http://trolltech.com/products/qt/licenses/licensing/licensingoverview
- or contact the sales department at sales@trolltech.com.
- .
- In addition, as a special exception, Trolltech gives you certain
- additional rights. These rights are described in the Trolltech GPL
- Exception version 1.0, which can be found at
- http://www.trolltech.com/products/qt/gplexception/ and in the file
- GPL_EXCEPTION.txt in this package.
- .
- In addition, as a special exception, Trolltech, as the sole copyright
- holder for Qt Designer, grants users of the Qt/Eclipse Integration
- plug-in the right for the Qt/Eclipse Integration to link to
- functionality provided by Qt Designer and its related libraries.
- .
- Trolltech reserves all rights not expressly granted herein.
- .
- Trolltech ASA (c) 2007
- .
- This file is provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING THE
- WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
-
-License: GPL-3_or_LGPL-2.1-QTexception-1.1
- * $QT_BEGIN_LICENSE:LGPL$
- * Commercial License Usage
- * Licensees holding valid commercial Qt licenses may use this file in
- * accordance with the commercial license agreement provided with the
- * Software or, alternatively, in accordance with the terms contained in
- * a written agreement between you and Digia.  For licensing terms and
- * conditions see http://qt.digia.com/licensing.  For further information
- * use the contact form at http://qt.digia.com/contact-us.
- *
- * GNU Lesser General Public License Usage
- * Alternatively, this file may be used under the terms of the GNU Lesser
- * General Public License version 2.1 as published by the Free Software
- * Foundation and appearing in the file LICENSE.LGPL included in the
- * packaging of this file.  Please review the following information to
- * ensure the GNU Lesser General Public License version 2.1 requirements
- * will be met: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html.
- *
- * In addition, as a special exception, Digia gives you certain additional
- * rights.  These rights are described in the Digia Qt LGPL Exception
- * version 1.1, included in the file LGPL_EXCEPTION.txt in this package.
- *
- * GNU General Public License Usage
- * Alternatively, this file may be used under the terms of the GNU
- * General Public License version 3.0 as published by the Free Software
- * Foundation and appearing in the file LICENSE.GPL included in the
- * packaging of this file.  Please review the following information to
- * ensure the GNU General Public License version 3.0 requirements will be
- * met: http://www.gnu.org/copyleft/gpl.html.
- *
- *
- * $QT_END_LICENSE$
- .
- On Debian systems, the complete text of the GNU General Public License
- version 3 can be found in "/usr/share/common-licenses/GPL-3", likewise, the
- complete text of the GNU Lesser General Public License version 2.1 can be
- found in "/usr/share/common-licenses/LGPL-2.1".
 
 License: LGPL
  This library is free software; you can redistribute it and/or
