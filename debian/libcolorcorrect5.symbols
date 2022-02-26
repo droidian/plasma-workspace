@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.13.1 amd64
+# SymbolsHelper-Confirmed: 4:5.24.2 amd64
 libcolorcorrect.so.5 libcolorcorrect5 #MINVER#
 * Build-Depends-Package: plasma-workspace-dev
  _ZN12ColorCorrect10Geolocator11dataUpdatedERK7QStringRK4QMapIS1_8QVariantE@Base 4:5.12.0
@@ -10,49 +10,16 @@ libcolorcorrect.so.5 libcolorcorrect5 #MINVER#
  _ZN12ColorCorrect10Geolocator16staticMetaObjectE@Base 4:5.12.0
  _ZN12ColorCorrect10GeolocatorC1EP7QObject@Base 4:5.12.0
  _ZN12ColorCorrect10GeolocatorC2EP7QObject@Base 4:5.12.0
- _ZN12ColorCorrect17CompositorAdaptor10reloadDataEv@Base 4:5.12.0
- _ZN12ColorCorrect17CompositorAdaptor11checkStagedEv@Base 4:5.12.0
- _ZN12ColorCorrect17CompositorAdaptor11dataUpdatedEv@Base 4:5.12.0
- _ZN12ColorCorrect17CompositorAdaptor11modeChangedEv@Base 4:5.12.0
  _ZN12ColorCorrect17CompositorAdaptor11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.12.0
  _ZN12ColorCorrect17CompositorAdaptor11qt_metacastEPKc@Base 4:5.12.0
  _ZN12ColorCorrect17CompositorAdaptor12errorChangedEv@Base 4:5.12.0
- _ZN12ColorCorrect17CompositorAdaptor13activeChangedEv@Base 4:5.12.0
- _ZN12ColorCorrect17CompositorAdaptor14checkStagedAllEv@Base 4:5.12.0
  _ZN12ColorCorrect17CompositorAdaptor14runningChangedEv@Base 4:5.12.0
- _ZN12ColorCorrect17CompositorAdaptor15compDataUpdatedERK5QHashI7QString8QVariantE@Base 4:5.13.1
- _ZN12ColorCorrect17CompositorAdaptor15stagedDataResetEv@Base 4:5.12.0
- _ZN12ColorCorrect17CompositorAdaptor16curColorTChangedEv@Base 4:5.12.0
  _ZN12ColorCorrect17CompositorAdaptor16errorTextChangedEv@Base 4:5.12.0
  _ZN12ColorCorrect17CompositorAdaptor16staticMetaObjectE@Base 4:5.12.0
- _ZN12ColorCorrect17CompositorAdaptor17modeStagedChangedEv@Base 4:5.12.0
- _ZN12ColorCorrect17CompositorAdaptor17sendConfigurationEv@Base 4:5.12.0
- _ZN12ColorCorrect17CompositorAdaptor18modeEnabledChangedEv@Base 4:5.12.0
- _ZN12ColorCorrect17CompositorAdaptor18resetDataAndStagedERK5QHashI7QString8QVariantE@Base 4:5.13.1
- _ZN12ColorCorrect17CompositorAdaptor19activeStagedChangedEv@Base 4:5.12.0
- _ZN12ColorCorrect17CompositorAdaptor19latitudeAutoChangedEv@Base 4:5.12.0
- _ZN12ColorCorrect17CompositorAdaptor20activeEnabledChangedEv@Base 4:5.12.0
- _ZN12ColorCorrect17CompositorAdaptor20latitudeFixedChangedEv@Base 4:5.12.0
- _ZN12ColorCorrect17CompositorAdaptor20longitudeAutoChangedEv@Base 4:5.12.0
- _ZN12ColorCorrect17CompositorAdaptor20sendConfigurationAllEv@Base 4:5.12.0
- _ZN12ColorCorrect17CompositorAdaptor21longitudeFixedChangedEv@Base 4:5.12.0
- _ZN12ColorCorrect17CompositorAdaptor21timingsEnabledChangedEv@Base 4:5.12.0
- _ZN12ColorCorrect17CompositorAdaptor21transitionTimeChangedEv@Base 4:5.12.0
- _ZN12ColorCorrect17CompositorAdaptor22locationEnabledChangedEv@Base 4:5.12.0
+ _ZN12ColorCorrect17CompositorAdaptor16updatePropertiesERK4QMapI7QString8QVariantE@Base 4:5.24.2
  _ZN12ColorCorrect17CompositorAdaptor22sendAutoLocationUpdateEdd@Base 4:5.12.0
- _ZN12ColorCorrect17CompositorAdaptor23nightTemperatureChangedEv@Base 4:5.12.0
- _ZN12ColorCorrect17CompositorAdaptor24eveningBeginFixedChangedEv@Base 4:5.12.0
- _ZN12ColorCorrect17CompositorAdaptor24morningBeginFixedChangedEv@Base 4:5.12.0
- _ZN12ColorCorrect17CompositorAdaptor26latitudeFixedStagedChangedEv@Base 4:5.12.0
- _ZN12ColorCorrect17CompositorAdaptor27longitudeFixedStagedChangedEv@Base 4:5.12.0
- _ZN12ColorCorrect17CompositorAdaptor27transitionTimeStagedChangedEv@Base 4:5.12.0
- _ZN12ColorCorrect17CompositorAdaptor29nightTemperatureStagedChangedEv@Base 4:5.12.0
- _ZN12ColorCorrect17CompositorAdaptor30eveningBeginFixedStagedChangedEv@Base 4:5.12.0
- _ZN12ColorCorrect17CompositorAdaptor30morningBeginFixedStagedChangedEv@Base 4:5.12.0
- _ZN12ColorCorrect17CompositorAdaptor30nightTemperatureEnabledChangedEv@Base 4:5.12.0
- _ZN12ColorCorrect17CompositorAdaptor7getDataEv@Base 4:5.12.0
+ _ZN12ColorCorrect17CompositorAdaptor23handlePropertiesChangedERK7QStringRK4QMapIS1_8QVariantERK11QStringList@Base 4:5.24.2
  _ZN12ColorCorrect17CompositorAdaptor8setErrorENS0_9ErrorCodeE@Base 4:5.12.0
- _ZN12ColorCorrect17CompositorAdaptor9resetDataERK5QHashI7QString8QVariantE@Base 4:5.13.1
  _ZN12ColorCorrect17CompositorAdaptorC1EP7QObject@Base 4:5.12.0
  _ZN12ColorCorrect17CompositorAdaptorC2EP7QObject@Base 4:5.12.0
  _ZN12ColorCorrect7SunCalc11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.12.0

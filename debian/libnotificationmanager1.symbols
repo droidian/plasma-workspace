@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.19.5 amd64
+# SymbolsHelper-Confirmed: 4:5.24.2 amd64
 libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
 * Build-Depends-Package: plasma-workspace-dev
  _ZN19NotificationManager10ServerInfo11nameChangedERK7QString@Base 4:5.18.3
@@ -76,7 +76,7 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZN19NotificationManager13Notifications11setSortModeENS0_8SortModeE@Base 4:5.17.5
  _ZN19NotificationManager13Notifications11stopTimeoutERK11QModelIndex@Base 4:5.17.5
  _ZN19NotificationManager13Notifications12countChangedEv@Base 4:5.17.5
- _ZN19NotificationManager13Notifications12invokeActionERK11QModelIndexRK7QString@Base 4:5.17.5
+ _ZN19NotificationManager13Notifications12invokeActionERK11QModelIndexRK7QStringNS0_14InvokeBehaviorE@Base 4:5.24.2
  _ZN19NotificationManager13Notifications12limitChangedEv@Base 4:5.17.5
  _ZN19NotificationManager13Notifications12setGroupModeENS0_9GroupModeE@Base 4:5.17.5
  _ZN19NotificationManager13Notifications12setSortOrderEN2Qt9SortOrderE@Base 4:5.19.2
@@ -100,7 +100,7 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZN19NotificationManager13Notifications17groupLimitChangedEv@Base 4:5.17.5
  _ZN19NotificationManager13Notifications18showExpiredChangedEv@Base 4:5.17.5
  _ZN19NotificationManager13Notifications19expandUnreadChangedEv@Base 4:5.17.5
- _ZN19NotificationManager13Notifications19invokeDefaultActionERK11QModelIndex@Base 4:5.17.5
+ _ZN19NotificationManager13Notifications19invokeDefaultActionERK11QModelIndexNS0_14InvokeBehaviorE@Base 4:5.24.2
  _ZN19NotificationManager13Notifications20setShowNotificationsEb@Base 4:5.17.5
  _ZN19NotificationManager13Notifications20showDismissedChangedEv@Base 4:5.17.5
  _ZN19NotificationManager13Notifications21jobsPercentageChangedEv@Base 4:5.17.5
@@ -119,7 +119,7 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZN19NotificationManager13Notifications32whitelistedDesktopEntriesChangedEv@Base 4:5.17.5
  _ZN19NotificationManager13Notifications5clearE6QFlagsINS0_9ClearFlagEE@Base 4:5.17.5
  _ZN19NotificationManager13Notifications5closeERK11QModelIndex@Base 4:5.17.5
- _ZN19NotificationManager13Notifications5replyERK11QModelIndexRK7QString@Base 4:5.18.3
+ _ZN19NotificationManager13Notifications5replyERK11QModelIndexRK7QStringNS0_14InvokeBehaviorE@Base 4:5.24.2
  _ZN19NotificationManager13Notifications6expireERK11QModelIndex@Base 4:5.17.5
  _ZN19NotificationManager13Notifications7killJobERK11QModelIndex@Base 4:5.17.5
  _ZN19NotificationManager13Notifications7setDataERK11QModelIndexRK8QVarianti@Base 4:5.17.5
@@ -144,11 +144,11 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZN19NotificationManager16BehaviorSettingsD0Ev@Base 4:5.19.2
  _ZN19NotificationManager16BehaviorSettingsD1Ev@Base 4:5.19.2
  _ZN19NotificationManager16BehaviorSettingsD2Ev@Base 4:5.19.2
- _ZN19NotificationManager18NotificationsModel12invokeActionEjRK7QString@Base 4:5.20.90
- _ZN19NotificationManager18NotificationsModel19invokeDefaultActionEj@Base 4:5.20.90
+ _ZN19NotificationManager18NotificationsModel12invokeActionEjRK7QStringNS_13Notifications14InvokeBehaviorE@Base 4:5.24.2
+ _ZN19NotificationManager18NotificationsModel19invokeDefaultActionEjNS_13Notifications14InvokeBehaviorE@Base 4:5.24.2
  _ZN19NotificationManager18NotificationsModel24createNotificationsModelEv@Base 4:5.20.90
  _ZN19NotificationManager18NotificationsModel5closeEj@Base 4:5.20.90
- _ZN19NotificationManager18NotificationsModel5replyEjRK7QString@Base 4:5.20.90
+ _ZN19NotificationManager18NotificationsModel5replyEjRK7QStringNS_13Notifications14InvokeBehaviorE@Base 4:5.24.2
  _ZN19NotificationManager18NotificationsModel6expireEj@Base 4:5.20.90
  _ZN19NotificationManager18NotificationsModel9configureERK7QStringS3_S3_@Base 4:5.20.90
  _ZN19NotificationManager18NotificationsModel9configureEj@Base 4:5.20.90
@@ -184,12 +184,12 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZN19NotificationManager20NotificationSettingsD2Ev@Base 4:5.19.2
  _ZN19NotificationManager25WatchedNotificationsModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.19.2
  _ZN19NotificationManager25WatchedNotificationsModel11qt_metacastEPKc@Base 4:5.19.2
- _ZN19NotificationManager25WatchedNotificationsModel12invokeActionEjRK7QString@Base 4:5.19.2
+ _ZN19NotificationManager25WatchedNotificationsModel12invokeActionEjRK7QStringNS_13Notifications14InvokeBehaviorE@Base 4:5.24.2
  _ZN19NotificationManager25WatchedNotificationsModel12validChangedEb@Base 4:5.19.2
  _ZN19NotificationManager25WatchedNotificationsModel16staticMetaObjectE@Base 4:5.19.2
- _ZN19NotificationManager25WatchedNotificationsModel19invokeDefaultActionEj@Base 4:5.19.2
+ _ZN19NotificationManager25WatchedNotificationsModel19invokeDefaultActionEjNS_13Notifications14InvokeBehaviorE@Base 4:5.24.2
  _ZN19NotificationManager25WatchedNotificationsModel5closeEj@Base 4:5.19.2
- _ZN19NotificationManager25WatchedNotificationsModel5replyEjRK7QString@Base 4:5.19.2
+ _ZN19NotificationManager25WatchedNotificationsModel5replyEjRK7QStringNS_13Notifications14InvokeBehaviorE@Base 4:5.24.2
  _ZN19NotificationManager25WatchedNotificationsModel5validEv@Base 4:5.19.2
  _ZN19NotificationManager25WatchedNotificationsModel6expireEj@Base 4:5.19.2
  _ZN19NotificationManager25WatchedNotificationsModel7Private11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.19.2
@@ -236,6 +236,7 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZN19NotificationManager3Job12resetUpdatedEv@Base 4:5.17.5
  _ZN19NotificationManager3Job12setDismissedEb@Base 4:5.17.5
  _ZN19NotificationManager3Job12setErrorTextERK7QString@Base 4:5.17.5
+ _ZN19NotificationManager3Job12setTransientEb@Base 4:5.24.2
  _ZN19NotificationManager3Job12speedChangedEv@Base 4:5.17.5
  _ZN19NotificationManager3Job12stateChangedENS_13Notifications8JobStateE@Base 4:5.17.5
  _ZN19NotificationManager3Job14destUrlChangedEv@Base 4:5.17.5
@@ -278,7 +279,7 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZN19NotificationManager3JobD2Ev@Base 4:5.17.5
  _ZN19NotificationManager6Server11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.17.5
  _ZN19NotificationManager6Server11qt_metacastEPKc@Base 4:5.17.5
- _ZN19NotificationManager6Server12invokeActionEjRK7QString@Base 4:5.17.5
+ _ZN19NotificationManager6Server12invokeActionEjRK7QStringS3_NS_13Notifications14InvokeBehaviorE@Base 4:5.24.2
  _ZN19NotificationManager6Server12setInhibitedEb@Base 4:5.17.5
  _ZN19NotificationManager6Server12validChangedEv@Base 4:5.18.3
  _ZN19NotificationManager6Server16clearInhibitionsEv@Base 4:5.17.5
@@ -294,7 +295,7 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZN19NotificationManager6Server3addERKNS_12NotificationE@Base 4:5.17.5
  _ZN19NotificationManager6Server4initEv@Base 4:5.17.5
  _ZN19NotificationManager6Server4selfEv@Base 4:5.17.5
- _ZN19NotificationManager6Server5replyERK7QStringjS3_@Base 4:5.18.3
+ _ZN19NotificationManager6Server5replyERK7QStringjS3_NS_13Notifications14InvokeBehaviorE@Base 4:5.24.2
  _ZN19NotificationManager6ServerC1EP7QObject@Base 4:5.17.5
  _ZN19NotificationManager6ServerC2EP7QObject@Base 4:5.17.5
  _ZN19NotificationManager6ServerD0Ev@Base 4:5.17.5
@@ -498,6 +499,7 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZNK19NotificationManager3Job8killableEv@Base 4:5.17.5
  _ZNK19NotificationManager3Job9dismissedEv@Base 4:5.17.5
  _ZNK19NotificationManager3Job9errorTextEv@Base 4:5.17.5
+ _ZNK19NotificationManager3Job9transientEv@Base 4:5.24.2
  _ZNK19NotificationManager6Server10metaObjectEv@Base 4:5.17.5
  _ZNK19NotificationManager6Server12currentOwnerEv@Base 4:5.18.3
  _ZNK19NotificationManager6Server17inhibitionReasonsEv@Base 4:5.17.5
