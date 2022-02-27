@@ -1,5 +1,8 @@
 plasma-workspace (4:5.24.2-2) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Bump the plasma-desktop-data breaks/replaces of plasma-workspace-data to
+    4:5.24.0. (Closes: #1006538)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 27 Feb 2022 09:54:21 +0100
 

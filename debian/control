@@ -282,10 +282,10 @@ Architecture: all
 Depends: ${misc:Depends}
 Breaks: breeze (<< 4:5.23.90~),
         plasma-desktop (<< 4:5.20~),
-        plasma-desktop-data (<< 4:5.22.90~),
+        plasma-desktop-data (<< 4:5.24.0~),
 Replaces: breeze (<< 4:5.23.90~),
           plasma-desktop (<< 4:5.20~),
-          plasma-desktop-data (<< 4:5.22.90~),
+          plasma-desktop-data (<< 4:5.24.0~),
 Description: Plasma Workspace for KF5 - data files
  Plasma Workspace for KF5. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
