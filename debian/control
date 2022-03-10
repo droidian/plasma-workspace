@@ -2,9 +2,10 @@ Source: plasma-workspace
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Scarlett Moore <sgmoore@kde.org>,
-           Patrick Franz <deltaone@debian.org>,
+Uploaders: Aurélien COUDERC <coucouf@debian.org>,
            Norbert Preining <norbert@preining.info>,
+           Patrick Franz <deltaone@debian.org>,
+           Scarlett Moore <sgmoore@kde.org>,
 Build-Depends: baloo-kf5-dev (>= 5.13~),
                breeze-dev (>= 4:5.24.3~),
                cmake (>= 3.16~),
