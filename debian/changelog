@@ -1,3 +1,10 @@
+plasma-workspace (4:5.24.90-1) UNRELEASED; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (5.24.90).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 20 May 2022 11:47:30 +0200
+
 plasma-workspace (4:5.24.5-2) unstable; urgency=medium
 
   [ Patrick Franz ]
