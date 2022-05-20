@@ -42,6 +42,7 @@ libtaskmanager.so.6abi1 libtaskmanager6abi1 #MINVER#
  _ZN11TaskManager10TasksModel22requestVirtualDesktopsERK11QModelIndexRK5QListI8QVariantE@ABI_6_1 4:5.17.5
  _ZN11TaskManager10TasksModel23requestToggleFullScreenERK11QModelIndex@ABI_6_1 4:5.17.5
  _ZN11TaskManager10TasksModel24requestNewVirtualDesktopERK11QModelIndex@ABI_6_1 4:5.17.5
+ _ZN11TaskManager10TasksModel24setTaskReorderingEnabledEb@ABI_6_1 4:5.24.90
  _ZN11TaskManager10TasksModel25setFilterByVirtualDesktopEb@ABI_6_1 4:5.17.5
  _ZN11TaskManager10TasksModel25setGroupingAppIdBlacklistERK11QStringList@ABI_6_1 4:5.17.5
  _ZN11TaskManager10TasksModel28requestAddLauncherToActivityERK4QUrlRK7QString@ABI_6_1 4:5.17.5
@@ -331,6 +332,7 @@ libtaskmanager.so.6abi1 libtaskmanager6abi1 #MINVER#
  _ZNK11TaskManager10TasksModel20launcherCountChangedEv@ABI_6_1 4:5.17.5
  _ZNK11TaskManager10TasksModel21filterByScreenChangedEv@ABI_6_1 4:5.17.5
  _ZNK11TaskManager10TasksModel21screenGeometryChangedEv@ABI_6_1 4:5.17.5
+ _ZNK11TaskManager10TasksModel21taskReorderingEnabledEv@ABI_6_1 4:5.24.90
  _ZNK11TaskManager10TasksModel21virtualDesktopChangedEv@ABI_6_1 4:5.17.5
  _ZNK11TaskManager10TasksModel22filterByVirtualDesktopEv@ABI_6_1 4:5.17.5
  _ZNK11TaskManager10TasksModel22groupingAppIdBlacklistEv@ABI_6_1 4:5.17.5
@@ -342,6 +344,7 @@ libtaskmanager.so.6abi1 libtaskmanager6abi1 #MINVER#
  _ZNK11TaskManager10TasksModel25filterNotMinimizedChangedEv@ABI_6_1 4:5.17.5
  _ZNK11TaskManager10TasksModel28groupingLauncherUrlBlacklistEv@ABI_6_1 4:5.17.5
  _ZNK11TaskManager10TasksModel28groupingWindowTasksThresholdEv@ABI_6_1 4:5.17.5
+ _ZNK11TaskManager10TasksModel28taskReorderingEnabledChangedEv@ABI_6_1 4:5.24.90
  _ZNK11TaskManager10TasksModel29filterByVirtualDesktopChangedEv@ABI_6_1 4:5.17.5
  _ZNK11TaskManager10TasksModel29groupingAppIdBlacklistChangedEv@ABI_6_1 4:5.17.5
  _ZNK11TaskManager10TasksModel30anyTaskDemandsAttentionChangedEv@ABI_6_1 4:5.17.5
