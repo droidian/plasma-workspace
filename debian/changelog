@@ -1,4 +1,4 @@
-plasma-workspace (4:5.24.90-1) UNRELEASED; urgency=medium
+plasma-workspace (4:5.24.90-1) experimental; urgency=medium
 
   [ Aurélien COUDERC ]
   * New upstream release (5.24.90).
@@ -9,7 +9,7 @@ plasma-workspace (4:5.24.90-1) UNRELEASED; urgency=medium
   * Refresh patch adding Debian theme for SDDM.
   * Drop patches applied upstream.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 20 May 2022 11:47:30 +0200
+ -- Aurélien COUDERC <coucouf@debian.org>  Fri, 20 May 2022 11:47:36 +0200
 
 plasma-workspace (4:5.24.5-2) unstable; urgency=medium
 
