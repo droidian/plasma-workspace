@@ -4,6 +4,8 @@ plasma-workspace (4:5.24.90-1) UNRELEASED; urgency=medium
   * New upstream release (5.24.90).
   * Update symbols from build for 5.24.90.
   * Add explicit build dependency to libicu-dev.
+  * Bump libkf5config-dev build-dependency to 5.94.0 to ensure we have
+    libkf5configqml available.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 20 May 2022 11:47:30 +0200
 
