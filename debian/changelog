@@ -2,6 +2,7 @@ plasma-workspace (4:5.24.5-2) UNRELEASED; urgency=medium
 
   [ Patrick Franz ]
   * Add patch to fix top-level menu text coloration.
+  * Add patch to find metadata in json format.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 27 May 2022 12:05:33 +0200
 

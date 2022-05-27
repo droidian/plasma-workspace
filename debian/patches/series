@@ -3,3 +3,4 @@ enable_debianabimanager.diff
 
 # Fixed in 5.24.6
 fix_top_level_menu_text_coloration.patch
+fix_metadata.patch
