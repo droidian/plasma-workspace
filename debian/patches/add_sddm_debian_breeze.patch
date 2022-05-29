@@ -23,7 +23,7 @@ Breeze with Debian's default background
 +    string(CONCAT SED_EXPR
 +      "s=^[[:space:]]*import[[:space:]]*\\\"components\\\"[[:space:]]*$"
 +      "=import \\\"../breeze\\\"\\nimport \\\"../breeze/components\\\"=;"
-+      "s=source:[[:space:]]*\\\"components/=source: \\\"../breeze/components/="
++      "s=\\\"components/=\\\"../breeze/components/=g"
 +      )
 +    # Patch Main.qml to directly use ../breeze qml files
 +    execute_process(COMMAND sed -i -e "${SED_EXPR}" "${CMAKE_CURRENT_SOURCE_DIR}/sddm-theme-debian/Main.qml" RESULT_VARIABLE SED_RES OUTPUT_VARIABLE SED_OUT ERROR_VARIABLE SED_ERR)
