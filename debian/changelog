@@ -2,6 +2,7 @@ plasma-workspace (4:5.25.0-1) UNRELEASED; urgency=medium
 
   * New upstream release (5.25.0).
   * Update build-deps and deps with the info from cmake.
+  * Tighten cross-plasma components dependencies.
 
  -- Aurélien COUDERC <coucouf@debian.org>  Fri, 10 Jun 2022 00:24:00 +0200
 
