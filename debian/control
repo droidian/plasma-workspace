@@ -5,9 +5,9 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Aurélien COUDERC <coucouf@debian.org>,
            Norbert Preining <norbert@preining.info>,
            Patrick Franz <deltaone@debian.org>,
-           Scarlett Moore <sgmoore@kde.org>,
+           Scarlett Moore <sgmoore@kde.org>
 Build-Depends: baloo-kf5-dev (>= 5.13~),
-               breeze-dev (>= 4:5.25.0~),
+               breeze-dev (>= 4:5.25.1~),
                cmake (>= 3.16~),
                debhelper-compat (= 13),
                extra-cmake-modules (>= 5.93~),
@@ -105,7 +105,7 @@ Build-Depends: baloo-kf5-dev (>= 5.13~),
                qtwayland5-dev-tools,
                qtwayland5-private-dev,
                xcb-proto,
-               zlib1g-dev,
+               zlib1g-dev
 Standards-Version: 4.6.1
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/plasma-workspace
@@ -260,19 +260,19 @@ Depends: default-dbus-session-bus | dbus-session-bus,
          x11-utils,
          x11-xserver-utils,
          ${misc:Depends},
-         ${shlibs:Depends},
+         ${shlibs:Depends}
 Provides: notification-daemon, x-session-manager
 Recommends: kde-cli-tools (>= 4:5.25~),
             kio-extras,
             ksystemstats (>= 5.25~),
             libpam-kwallet5 (>= 5.14),
-            powerdevil (>= 4:5.14),
+            powerdevil (>= 4:5.14)
 Breaks: breeze (<< 4:5.23.90~),
         plasma-desktop (<< 4:5.22.90~),
-        plasma-desktop-data (<< 4:5.22.90~),
+        plasma-desktop-data (<< 4:5.22.90~)
 Replaces: breeze (<< 4:5.23.90~),
           plasma-desktop (<< 4:5.22.90~),
-          plasma-desktop-data (<< 4:5.22.90~),
+          plasma-desktop-data (<< 4:5.22.90~)
 Description: Plasma Workspace for KF5
  Plasma Workspace for KF5. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
@@ -285,10 +285,10 @@ Architecture: all
 Depends: ${misc:Depends}
 Breaks: breeze (<< 4:5.23.90~),
         plasma-desktop (<< 4:5.20~),
-        plasma-desktop-data (<< 4:5.24.0~),
+        plasma-desktop-data (<< 4:5.24.0~)
 Replaces: breeze (<< 4:5.23.90~),
           plasma-desktop (<< 4:5.20~),
-          plasma-desktop-data (<< 4:5.24.0~),
+          plasma-desktop-data (<< 4:5.24.0~)
 Description: Plasma Workspace for KF5 - data files
  Plasma Workspace for KF5. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
@@ -307,7 +307,7 @@ Depends: kquickcharts-dev (>= 5.89~),
          qtbase5-dev (>= 5.15.0~),
          qtdeclarative5-dev (>= 5.15.0~),
          ${misc:Depends},
-         ${so:Depends},
+         ${so:Depends}
 Breaks: plasma-desktop-dev (<< 4:5.20~)
 Replaces: plasma-desktop-dev (<< 4:5.20~)
 Description: Plasma Workspace for KF5 devel files
@@ -324,7 +324,7 @@ Depends: kwayland-integration (>= 5.25~),
          plasma-workspace (= ${binary:Version}),
          qtwayland5,
          ${misc:Depends},
-         ${shlibs:Depends},
+         ${shlibs:Depends}
 Description: Plasma Workspace for KF5 - Wayland integration
  Plasma Workspace for KF5. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
@@ -351,7 +351,7 @@ Depends: plasma-framework,
          plasma-workspace,
          sddm-theme-breeze,
          ${misc:Depends},
-         ${shlibs:Depends},
+         ${shlibs:Depends}
 Recommends: desktop-base (>= 9.0.0~), sddm
 Provides: sddm-theme
 Description: Debian Breeze SDDM theme
