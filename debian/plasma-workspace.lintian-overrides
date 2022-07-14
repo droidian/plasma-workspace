@@ -28,3 +28,5 @@ plasma-workspace: no-manual-page [usr/bin/lookandfeeltool]
 plasma-workspace: shared-library-lacks-version usr/lib/*/libkrdb.so libkrdb.so
 plasma-workspace: lacks-ldconfig-trigger usr/lib/*/libkrdb.so
 plasma-workspace: desktop-entry-unknown-type XSession [usr/share/xsessions/plasma.desktop]
+# systemsettings5 executable required for the KCMs is provided by the Recommends: systemsettings dependency
+plasma-workspace: desktop-command-not-in-package systemsettings [usr/share/applications/kcm_*]
