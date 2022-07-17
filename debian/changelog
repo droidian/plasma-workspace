@@ -7,6 +7,7 @@ plasma-workspace (4:5.25.2-1) UNRELEASED; urgency=medium
   * Refresh lintian overrides.
   * Add a Recommends on systemsettings used to invoke KCMs.
   * Remove mentions of Plasma 4 from package description.
+  * Review copyright information.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 28 Jun 2022 16:01:06 +0200
 
