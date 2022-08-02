@@ -1,9 +1,9 @@
-plasma-workspace (4:5.25.4-1) UNRELEASED; urgency=medium
+plasma-workspace (4:5.25.4-1) unstable; urgency=medium
 
   [ Aurélien COUDERC ]
   * New upstream release (5.25.4).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 02 Aug 2022 17:34:50 +0200
+ -- Aurélien COUDERC <coucouf@debian.org>  Tue, 02 Aug 2022 17:34:53 +0200
 
 plasma-workspace (4:5.25.3.1-1) unstable; urgency=medium
 
