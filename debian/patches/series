@@ -1,2 +1,3 @@
 add_sddm_debian_breeze.patch
 enable_debianabimanager.diff
+upstream-e64c1372-Fix_systemmonitor_preferences_being_reset.patch
