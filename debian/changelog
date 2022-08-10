@@ -1,9 +1,9 @@
-plasma-workspace (4:5.25.4-2) UNRELEASED; urgency=medium
+plasma-workspace (4:5.25.4-2) unstable; urgency=medium
 
   * Backport upstream commit to fix systemmonitor applet preferences
     being reset.
 
- -- Aurélien COUDERC <coucouf@debian.org>  Wed, 10 Aug 2022 07:35:00 +0200
+ -- Aurélien COUDERC <coucouf@debian.org>  Wed, 10 Aug 2022 07:58:04 +0200
 
 plasma-workspace (4:5.25.4-1) unstable; urgency=medium
 
