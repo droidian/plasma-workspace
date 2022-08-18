@@ -1,10 +1,10 @@
-plasma-workspace (4:5.25.4-3) UNRELEASED; urgency=medium
+plasma-workspace (4:5.25.4-3) unstable; urgency=medium
 
   [ Aurélien COUDERC ]
   * Add missing Breaks/Replaces against plasma-desktop (<< 4:5.24.0~).
     (Closes: #1017580)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 18 Aug 2022 18:33:21 +0200
+ -- Aurélien COUDERC <coucouf@debian.org>  Thu, 18 Aug 2022 18:34:12 +0200
 
 plasma-workspace (4:5.25.4-2) unstable; urgency=medium
 
