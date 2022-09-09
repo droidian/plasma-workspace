@@ -3,6 +3,8 @@ plasma-workspace (4:5.25.5-1) UNRELEASED; urgency=medium
   [ Aurélien COUDERC ]
   * New upstream release (5.25.5).
   * Update build-deps and deps with the info from cmake.
+  * Drop patch upstream-e64c1372-
+    Fix_systemmonitor_preferences_being_reset.patch applied upstream.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 09 Sep 2022 22:19:52 +0200
 
