@@ -1,2 +1,3 @@
 add_sddm_debian_breeze.patch
 enable_debianabimanager.diff
+upstream_c7ba560c_widgetexplorer-Dont-recurse-into-applets-containments.patch
