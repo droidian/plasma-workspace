@@ -1,4 +1,4 @@
-plasma-workspace (4:5.25.5-1) UNRELEASED; urgency=medium
+plasma-workspace (4:5.25.5-1) unstable; urgency=medium
 
   [ Aurélien COUDERC ]
   * New upstream release (5.25.5).
@@ -7,7 +7,7 @@ plasma-workspace (4:5.25.5-1) UNRELEASED; urgency=medium
     Fix_systemmonitor_preferences_being_reset.patch applied upstream.
   * Backport upstream patch to fix some plasmashell crashes
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 09 Sep 2022 22:19:52 +0200
+ -- Aurélien COUDERC <coucouf@debian.org>  Fri, 09 Sep 2022 23:22:28 +0200
 
 plasma-workspace (4:5.25.4-3) unstable; urgency=medium
 
