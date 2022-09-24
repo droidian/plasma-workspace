@@ -4,7 +4,7 @@
 
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -305,3 +305,5 @@ kde_configure_git_pre_commit_hook(CHECKS
+@@ -415,3 +415,5 @@ kde_configure_git_pre_commit_hook(CHECKS
    if(KF5DocTools_FOUND)
      kdoctools_install(po)
    endif()

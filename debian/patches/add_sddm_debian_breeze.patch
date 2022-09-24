@@ -4,19 +4,19 @@ Subject: Add sddm's debian-breeze theme
 
 Breeze with Debian's default background
 ---
- CMakeLists.txt                     |   15 +++++++++++++++
+ lookandfeel/CMakeLists.txt         |   15 +++++++++++++++
  sddm-theme-debian/metadata.desktop |   17 +++++++++++++++++
  sddm-theme-debian/theme.conf       |    5 +++++
  3 files changed, 37 insertions(+)
  create mode 100644 sddm-theme-debian/metadata.desktop
  create mode 100644 sddm-theme-debian/theme.conf
 
---- a/CMakeLists.txt
-+++ b/CMakeLists.txt
-@@ -206,6 +206,21 @@ if (INSTALL_SDDM_THEME)
+--- a/lookandfeel/CMakeLists.txt
++++ b/lookandfeel/CMakeLists.txt
+@@ -12,4 +12,19 @@ if (INSTALL_SDDM_THEME)
      PATTERN "theme.conf.cmake" EXCLUDE)
      install(FILES ${CMAKE_CURRENT_BINARY_DIR}/sddm-theme/theme.conf DESTINATION ${KDE_INSTALL_FULL_DATADIR}/sddm/themes/breeze)
-     install(DIRECTORY lookandfeel/contents/components DESTINATION ${KDE_INSTALL_FULL_DATADIR}/sddm/themes/breeze PATTERN "README.txt" EXCLUDE)
+     install(DIRECTORY org.kde.breeze/contents/components DESTINATION ${KDE_INSTALL_FULL_DATADIR}/sddm/themes/breeze PATTERN "README.txt" EXCLUDE)
 +
 +# Install Debian-themed SDDM theme
 +    file(COPY "sddm-theme/Main.qml" DESTINATION "${CMAKE_CURRENT_SOURCE_DIR}/sddm-theme-debian")
@@ -33,8 +33,6 @@ Breeze with Debian's default background
 +    install(DIRECTORY sddm-theme-debian/ DESTINATION ${KDE_INSTALL_FULL_DATADIR}/sddm/themes/debian-breeze)
 +    
  endif()
- 
- if (INSTALL_SDDM_WAYLAND_SESSION)
 --- /dev/null
 +++ b/sddm-theme-debian/metadata.desktop
 @@ -0,0 +1,17 @@
