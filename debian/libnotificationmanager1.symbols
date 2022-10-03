@@ -212,7 +212,6 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZN19NotificationManager26AbstractNotificationsModel11qt_metacastEPKc@Base 4:5.19.2
  _ZN19NotificationManager26AbstractNotificationsModel11setLastReadERK9QDateTime@Base 4:5.19.2
  _ZN19NotificationManager26AbstractNotificationsModel11stopTimeoutEj@Base 4:5.19.2
- _ZN19NotificationManager26AbstractNotificationsModel12setInhibitedEb@Base 4:5.24.90
  _ZN19NotificationManager26AbstractNotificationsModel12startTimeoutEj@Base 4:5.19.2
  _ZN19NotificationManager26AbstractNotificationsModel13notificationsEv@Base 4:5.19.2
  _ZN19NotificationManager26AbstractNotificationsModel15lastReadChangedEv@Base 4:5.19.2
