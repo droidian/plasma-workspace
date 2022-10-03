@@ -24,6 +24,7 @@ usr/bin/plasma-apply-desktoptheme
 usr/bin/plasma-apply-lookandfeel
 usr/bin/plasma-apply-wallpaperimage
 usr/bin/plasma-interactiveconsole
+usr/bin/plasma-localegen-helper
 usr/bin/plasma-shutdown
 usr/bin/plasma_session
 usr/bin/plasma_waitforname
