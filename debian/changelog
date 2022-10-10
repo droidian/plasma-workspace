@@ -3,6 +3,7 @@ plasma-workspace (4:5.26.0-1) UNRELEASED; urgency=medium
   [ Aurélien COUDERC ]
   * New upstream release (5.26.0).
   * Update build-deps and deps with the info from cmake.
+  * Fix Debian-themed sddm login screen.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 09 Oct 2022 23:06:17 +0200
 
