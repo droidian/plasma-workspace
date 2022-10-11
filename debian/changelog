@@ -1,11 +1,12 @@
-plasma-workspace (4:5.26.0-1) UNRELEASED; urgency=medium
+plasma-workspace (4:5.26.0-1) unstable; urgency=medium
 
   [ Aurélien COUDERC ]
   * New upstream release (5.26.0).
   * Update build-deps and deps with the info from cmake.
   * Fix Debian-themed sddm login screen.
+  * Release to unstable.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 09 Oct 2022 23:06:17 +0200
+ -- Aurélien COUDERC <coucouf@debian.org>  Tue, 11 Oct 2022 15:44:24 +0200
 
 plasma-workspace (4:5.25.90-2) experimental; urgency=medium
 
