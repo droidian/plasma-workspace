@@ -55,7 +55,7 @@ Breeze with Debian's default background
 +Theme-API=2.0
 --- /dev/null
 +++ b/lookandfeel/sddm-theme-debian/theme.conf
-@@ -0,0 +1,5 @@
+@@ -0,0 +1,8 @@
 +[General]
 +showlogo=hidden
 +logo=/usr/share/sddm/themes/breeze/default-logo.svg
