@@ -1,10 +1,11 @@
-plasma-workspace (4:5.26.1-1) unstable; urgency=medium
+plasma-workspace (4:5.26.2-1) UNRELEASED; urgency=medium
 
   [ Aurélien COUDERC ]
   * New upstream release (5.26.1).
   * Update build-deps and deps with the info from cmake.
+  * New upstream release (5.26.2).
 
- -- Aurélien COUDERC <coucouf@debian.org>  Thu, 20 Oct 2022 21:59:04 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 27 Oct 2022 23:36:27 +0200
 
 plasma-workspace (4:5.26.0-2) unstable; urgency=medium
 
