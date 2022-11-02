@@ -1,4 +1,4 @@
-plasma-workspace (4:5.26.2-1) UNRELEASED; urgency=medium
+plasma-workspace (4:5.26.2-1) unstable; urgency=medium
 
   [ Aurélien COUDERC ]
   * New upstream release (5.26.1).
@@ -11,7 +11,7 @@ plasma-workspace (4:5.26.2-1) UNRELEASED; urgency=medium
     #1023174)
   * Backport upstream commit to fix scayling issues with XWayland.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 27 Oct 2022 23:36:27 +0200
+ -- Aurélien COUDERC <coucouf@debian.org>  Thu, 03 Nov 2022 00:41:59 +0100
 
 plasma-workspace (4:5.26.0-2) unstable; urgency=medium
 
