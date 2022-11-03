@@ -6,6 +6,7 @@ plasma-workspace (4:5.26.2-1) UNRELEASED; urgency=medium
   * New upstream release (5.26.2).
   * Update build-deps and deps with the info from cmake.
   * Tighten cross-plasma components dependencies.
+  * Add libkpipewire-dev as a build dependency
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 27 Oct 2022 23:36:27 +0200
 
