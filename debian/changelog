@@ -9,6 +9,7 @@ plasma-workspace (4:5.26.2-1) UNRELEASED; urgency=medium
   * Add libkpipewire-dev as a build dependency
   * Add qml-module-org-kde-pipewire as a runtime recommends. (Closes:
     #1023174)
+  * Backport upstream commit to fix scayling issues with XWayland.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 27 Oct 2022 23:36:27 +0200
 
