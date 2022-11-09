@@ -1,3 +1,10 @@
+plasma-workspace (4:5.26.3-2) UNRELEASED; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * Tighten dependency on breeze-dev.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 09 Nov 2022 23:13:37 +0100
+
 plasma-workspace (4:5.26.3-1) unstable; urgency=medium
 
   [ Aurélien COUDERC ]
