@@ -1,9 +1,9 @@
-plasma-workspace (4:5.26.3-3) UNRELEASED; urgency=medium
+plasma-workspace (4:5.26.3-3) unstable; urgency=medium
 
   [ Aurélien COUDERC ]
   * Backport upstream fix for a Wayland crasher.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 23 Nov 2022 22:23:57 +0100
+ -- Aurélien COUDERC <coucouf@debian.org>  Wed, 23 Nov 2022 22:40:05 +0100
 
 plasma-workspace (4:5.26.3-2) unstable; urgency=medium
 
