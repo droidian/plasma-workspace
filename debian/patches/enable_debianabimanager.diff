@@ -4,9 +4,9 @@
 
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -415,3 +415,5 @@ kde_configure_git_pre_commit_hook(CHECKS
-   if(KF5DocTools_FOUND)
-     kdoctools_install(po)
-   endif()
+@@ -411,3 +411,5 @@ kde_configure_git_pre_commit_hook(CHECKS
+ file(GLOB_RECURSE ALL_CLANG_FORMAT_SOURCE_FILES *.cpp *.h)
+ kde_clang_format(${ALL_CLANG_FORMAT_SOURCE_FILES})
+ kde_configure_git_pre_commit_hook(CHECKS CLANG_FORMAT)
 +
 +include(/usr/share/pkg-kde-tools/cmake/DebianABIManager.cmake)
