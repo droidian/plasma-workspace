@@ -1,3 +1,2 @@
 add_sddm_debian_breeze.patch
 enable_debianabimanager.diff
-upstream_0fff8798_shell-Use-the-basic-scene-graph-rendering-loop-on-wayland.patch
