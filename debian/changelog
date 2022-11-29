@@ -1,4 +1,4 @@
-plasma-workspace (4:5.26.4.1-1) UNRELEASED; urgency=medium
+plasma-workspace (4:5.26.4.1-1) unstable; urgency=medium
 
   [ Aurélien COUDERC ]
   * New upstream release (5.26.4.1).
@@ -7,7 +7,7 @@ plasma-workspace (4:5.26.4.1-1) UNRELEASED; urgency=medium
   * Drop backported upstream fix for a Wayland crasher, it seems to cause
     shell freezes.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 29 Nov 2022 16:07:29 +0100
+ -- Aurélien COUDERC <coucouf@debian.org>  Tue, 29 Nov 2022 16:09:02 +0100
 
 plasma-workspace (4:5.26.3-3) unstable; urgency=medium
 
