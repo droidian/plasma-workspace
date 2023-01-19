@@ -13,7 +13,7 @@ Breeze with Debian's default background
 
 --- a/lookandfeel/CMakeLists.txt
 +++ b/lookandfeel/CMakeLists.txt
-@@ -12,4 +12,19 @@ if (INSTALL_SDDM_THEME)
+@@ -12,6 +12,21 @@ if (INSTALL_SDDM_THEME)
      PATTERN "theme.conf.cmake" EXCLUDE)
      install(FILES ${CMAKE_CURRENT_BINARY_DIR}/sddm-theme/theme.conf DESTINATION ${KDE_INSTALL_FULL_DATADIR}/sddm/themes/breeze)
      install(DIRECTORY org.kde.breeze/contents/components DESTINATION ${KDE_INSTALL_FULL_DATADIR}/sddm/themes/breeze PATTERN "README.txt" EXCLUDE)
@@ -33,6 +33,8 @@ Breeze with Debian's default background
 +    install(DIRECTORY sddm-theme-debian/ DESTINATION ${KDE_INSTALL_FULL_DATADIR}/sddm/themes/debian-breeze)
 +    
  endif()
+ 
+ add_subdirectory(autotests/lockscreen)
 --- /dev/null
 +++ b/lookandfeel/sddm-theme-debian/metadata.desktop
 @@ -0,0 +1,17 @@
