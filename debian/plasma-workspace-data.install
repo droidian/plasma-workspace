@@ -29,3 +29,4 @@ usr/share/plasma/wallpapers/
 usr/share/polkit-1/actions/org.kde.fontinst.policy
 usr/share/polkit-1/actions/org.kde.localegenhelper.policy
 usr/share/qlogging-categories5/
+usr/share/zsh/site-functions/_plasmashell

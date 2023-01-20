@@ -35,6 +35,7 @@ usr/bin/systemmonitor
 usr/bin/xembedsniproxy
 usr/lib/*/kconf_update_bin/krunnerglobalshortcuts
 usr/lib/*/kconf_update_bin/krunnerhistory
+usr/lib/*/kconf_update_bin/plasmashell-5.27-use-panel-thickness-in-default-group
 usr/lib/*/libexec/baloorunner
 usr/lib/*/libexec/kfontprint
 usr/lib/*/libexec/ksmserver-logout-greeter
@@ -52,6 +53,7 @@ usr/lib/*/qt5/qml/org/kde/plasma/private/appmenu/qmldir
 usr/lib/*/qt5/qml/org/kde/plasma/private/containmentlayoutmanager/
 usr/lib/*/qt5/qml/org/kde/plasma/private/digitalclock/
 usr/lib/*/qt5/qml/org/kde/plasma/private/kicker/
+usr/lib/*/qt5/qml/org/kde/plasma/private/mediacontroller/
 usr/lib/*/qt5/qml/org/kde/plasma/private/sessions/
 usr/lib/*/qt5/qml/org/kde/plasma/private/shell/
 usr/lib/*/qt5/qml/org/kde/plasma/wallpapers/image/
