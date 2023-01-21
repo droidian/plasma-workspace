@@ -85,6 +85,7 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZN19NotificationManager13Notifications12startTimeoutEj@Base 4:5.17.5
  _ZN19NotificationManager13Notifications13resetLastReadEv@Base 4:5.17.5
  _ZN19NotificationManager13Notifications13setGroupLimitEi@Base 4:5.17.5
+ _ZN19NotificationManager13Notifications13windowChangedEP7QWindow@Base 4:5.26.90
  _ZN19NotificationManager13Notifications14setShowExpiredEb@Base 4:5.17.5
  _ZN19NotificationManager13Notifications15lastReadChangedEv@Base 4:5.17.5
  _ZN19NotificationManager13Notifications15setExpandUnreadEb@Base 4:5.17.5
@@ -126,6 +127,7 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZN19NotificationManager13Notifications8setLimitEi@Base 4:5.17.5
  _ZN19NotificationManager13Notifications9configureERK11QModelIndex@Base 4:5.17.5
  _ZN19NotificationManager13Notifications9resumeJobERK11QModelIndex@Base 4:5.17.5
+ _ZN19NotificationManager13Notifications9setWindowEP7QWindow@Base 4:5.26.90
  _ZN19NotificationManager13NotificationsC1EP7QObject@Base 4:5.17.5
  _ZN19NotificationManager13NotificationsC2EP7QObject@Base 4:5.17.5
  _ZN19NotificationManager13NotificationsD0Ev@Base 4:5.17.5
@@ -214,6 +216,7 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZN19NotificationManager26AbstractNotificationsModel11stopTimeoutEj@Base 4:5.19.2
  _ZN19NotificationManager26AbstractNotificationsModel12startTimeoutEj@Base 4:5.19.2
  _ZN19NotificationManager26AbstractNotificationsModel13notificationsEv@Base 4:5.19.2
+ _ZN19NotificationManager26AbstractNotificationsModel13windowChangedEP7QWindow@Base 4:5.26.90
  _ZN19NotificationManager26AbstractNotificationsModel15lastReadChangedEv@Base 4:5.19.2
  _ZN19NotificationManager26AbstractNotificationsModel16staticMetaObjectE@Base 4:5.19.2
  _ZN19NotificationManager26AbstractNotificationsModel19onNotificationAddedERKNS_12NotificationE@Base 4:5.19.2
@@ -222,6 +225,7 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZN19NotificationManager26AbstractNotificationsModel24setupNotificationTimeoutERKNS_12NotificationE@Base 4:5.19.2
  _ZN19NotificationManager26AbstractNotificationsModel5clearE6QFlagsINS_13Notifications9ClearFlagEE@Base 4:5.19.2
  _ZN19NotificationManager26AbstractNotificationsModel7setDataERK11QModelIndexRK8QVarianti@Base 4:5.19.2
+ _ZN19NotificationManager26AbstractNotificationsModel9setWindowEP7QWindow@Base 4:5.26.90
  _ZN19NotificationManager26AbstractNotificationsModelC1Ev@Base 4:5.19.2
  _ZN19NotificationManager26AbstractNotificationsModelC2Ev@Base 4:5.19.2
  _ZN19NotificationManager26AbstractNotificationsModelD0Ev@Base 4:5.19.2
@@ -279,7 +283,7 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZN19NotificationManager3JobD2Ev@Base 4:5.17.5
  _ZN19NotificationManager6Server11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.17.5
  _ZN19NotificationManager6Server11qt_metacastEPKc@Base 4:5.17.5
- _ZN19NotificationManager6Server12invokeActionEjRK7QStringS3_NS_13Notifications14InvokeBehaviorE@Base 4:5.24.2
+ _ZN19NotificationManager6Server12invokeActionEjRK7QStringS3_NS_13Notifications14InvokeBehaviorEP7QWindow@Base 4:5.26.90
  _ZN19NotificationManager6Server12setInhibitedEb@Base 4:5.17.5
  _ZN19NotificationManager6Server12validChangedEv@Base 4:5.18.3
  _ZN19NotificationManager6Server16clearInhibitionsEv@Base 4:5.17.5
@@ -433,6 +437,7 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZNK19NotificationManager13Notifications4dataERK11QModelIndexi@Base 4:5.17.5
  _ZNK19NotificationManager13Notifications5countEv@Base 4:5.17.5
  _ZNK19NotificationManager13Notifications5limitEv@Base 4:5.17.5
+ _ZNK19NotificationManager13Notifications6windowEv@Base 4:5.26.90
  _ZNK19NotificationManager13Notifications8lastReadEv@Base 4:5.17.5
  _ZNK19NotificationManager13Notifications8lessThanERK11QModelIndexS3_@Base 4:5.17.5
  _ZNK19NotificationManager13Notifications8rowCountERK11QModelIndex@Base 4:5.17.5
@@ -463,6 +468,7 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZNK19NotificationManager26AbstractNotificationsModel10metaObjectEv@Base 4:5.19.2
  _ZNK19NotificationManager26AbstractNotificationsModel17rowOfNotificationEj@Base 4:5.19.2
  _ZNK19NotificationManager26AbstractNotificationsModel4dataERK11QModelIndexi@Base 4:5.19.2
+ _ZNK19NotificationManager26AbstractNotificationsModel6windowEv@Base 4:5.26.90
  _ZNK19NotificationManager26AbstractNotificationsModel8lastReadEv@Base 4:5.19.2
  _ZNK19NotificationManager26AbstractNotificationsModel8rowCountERK11QModelIndex@Base 4:5.19.2
  _ZNK19NotificationManager26AbstractNotificationsModel9roleNamesEv@Base 4:5.19.2
