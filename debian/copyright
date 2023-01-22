@@ -15,9 +15,10 @@ Copyright: 2007-2009, Aaron Seigo <aseigo@kde.org>
            Andrew Stanley-Jones <asj@cban.com>
            2020, Andrey Butirsky <butirsky@gmail.com>
            2000-2016, Antonio Larrosa <larrosa@kde.org>
+           2022, Arjen Hiemstra <ahiemstra@heimr.nl>
            2007-2013, Aurélien Gâteau <agateau@kde.org>
            2019-2021, Benjamin Port <benjamin.port@enioka.com>
-           2021, Bharadwaj Raju <bharadwaj.raju777@protonmail.com>
+           2021-2022, Bharadwaj Raju <bharadwaj.raju777@protonmail.com>
            2013, Bhushan Shah <bhush94@gmail.com>
            2021, Carl Schwan <carlschwan@kde.org>
            2020, Carson Black <uhhadd@gmail.com>
@@ -37,16 +38,18 @@ Copyright: 2007-2009, Aaron Seigo <aseigo@kde.org>
            2021, Emily Ehlert
            2004-2009, Esben Mose Hansen <kde@mosehansen.dk>
            2003-2007, Fredrik Höglund <fredrik@kde.org>
-           2022, Fushan Wen <qydwhotmail@gmail.com>
+           2022-2023, Fushan Wen <qydwhotmail@gmail.com>
            2000, Geert Jansen <jansen@kde.org>
            2019, Guo Yunhe <i@guoyunhe.me>
            2021-2022, Han Young <hanyoung@protonmail.com>
            2022, Harald Sitter <sitter@kde.org>
            2013, Heena Mahour <heena393@gmail.com>
            2020, Henri Chain <henri.chain@enioka.com>
+           2022, ivan (@ratijas) tkachenko <me@ratijas.tk>
            2010-2011, Ivan Cukic <ivan.cukic(at)kde.org>
            2007, Ivan Cukic <ivan.cukic+kde@gmail.com>
            2016-2017, Ivan Cukic <ivan.cukic@kde.org>
+           2022, ivan tkachenko <me@ratijas.tk>
            2009, Ivo Anjo <knuckles@gmail.com>
            2010, Jacopo De Simoi <wilderkde@gmail.com>
            2021, Jan Blackquill <uhhadd@gmail.com>
@@ -62,7 +65,6 @@ Copyright: 2007-2009, Aaron Seigo <aseigo@kde.org>
            2008, Lubos Lunak <l.lunak@suse.cz>
            2006, Lukas Tinkl <ltinkl@suse.cz>
            2014, Lukáš Tinkl <ltinkl@redhat.com>
-           2017, Marco MArtin <mart@kde.org>
            2012-2020, Marco Martin <mart@kde.org>
            2009, Marco Martin <notmart@gmail.com>
            1998, Mark Donohoe
@@ -126,7 +128,8 @@ Copyright: 2008, Armenian KDE Translation Team
            2001, translate.org.za
 License: GPL-2.0-or-later
 
-Files: kcms/region_language/CMakeLists.txt
+Files: kcms/region_language/autotests/CMakeLists.txt
+       kcms/region_language/CMakeLists.txt
        kcms/region_language/localegenhelper/CMakeLists.txt
        runners/bookmarks/autotests/CMakeLists.txt
        runners/calculator/autotests/CMakeLists.txt
@@ -134,24 +137,26 @@ Copyright: 2021, Alexander Lohnau <alexander.lohnau@gmx.de>
            2022, Han Young <hanyoung@protonmail.com>
 License: BSD-2-Clause
 
-Files: cmake/FindAppMenuGtkModule.cmake
+Files: appiumtests/CMakeLists.txt
+       cmake/FindAppMenuGtkModule.cmake
        cmake/FindKIOExtras.cmake
        cmake/FindKIOFuse.cmake
        cmake/FindLibdrm.cmake
-       cmake/FindQalculate.cmake
+       kcms/fonts/autotests/CMakeLists.txt
        runners/services/autotests/CMakeLists.txt
        runners/shell/autotests/CMakeLists.txt
 Copyright: 2014, Alex Merry <alex.merry@kde.org>
            2021, Alexander Lohnau <alexander.lohnau@gmx.de>
            2021, Alexander Lohnau <alexander.lonau@gmx.de>
            2021, David Edmundson <kde@davidedmundson.co.uk>
-           2016-2020, Harald Sitter <sitter@kde.org>
+           2016-2022, Harald Sitter <sitter@kde.org>
            2018, Kai Uwe Broulik <kde@broulik.de>
            2014, Martin Gräßlin <mgraesslin@kde.org>
-           2007, Vladimir Kuznetsov <ks.vladimir@gmail.com>
 License: BSD-3-Clause
 
-Files: kcms/users/avatars/photos/Air?Balloon.png
+Files: .gitlab-ci.yml
+       kcms/fonts/autotests/fonts.conf
+       kcms/users/avatars/photos/Air?Balloon.png
        kcms/users/avatars/photos/Astronaut.png
        kcms/users/avatars/photos/Books.png
        kcms/users/avatars/photos/Brushes.png
@@ -171,13 +176,28 @@ Files: kcms/users/avatars/photos/Air?Balloon.png
        kcms/users/avatars/photos/Soccer.png
        kcms/users/avatars/photos/Sunflower.png
        kcms/users/avatars/photos/Sushi.png
+       kcms/users/package/contents/ui/hand-images/base.svg
+       kcms/users/package/contents/ui/hand-images/left-index-finger.svg
+       kcms/users/package/contents/ui/hand-images/left-little-finger.svg
+       kcms/users/package/contents/ui/hand-images/left-middle-finger.svg
+       kcms/users/package/contents/ui/hand-images/left-ring-finger.svg
+       kcms/users/package/contents/ui/hand-images/left-thumb.svg
+       kcms/users/package/contents/ui/hand-images/palm.svg
+       kcms/users/package/contents/ui/hand-images/right-index-finger.svg
+       kcms/users/package/contents/ui/hand-images/right-little-finger.svg
+       kcms/users/package/contents/ui/hand-images/right-middle-finger.svg
+       kcms/users/package/contents/ui/hand-images/right-ring-finger.svg
+       kcms/users/package/contents/ui/hand-images/right-thumb.svg
+       .kde-ci.yml
        krunner/qml/krunner.qrc
        libtaskmanager/autotests/data/applications/org.kde.dolphin.desktop
        libtaskmanager/autotests/data/applications/org.kde.konversation.desktop
        runners/bookmarks/autotests/firefox/firefox-config-home/atnsd8ae.testmekde/favicons.sqlite
        runners/bookmarks/autotests/firefox/firefox-config-home/atnsd8ae.testmekde/places.sqlite
        runners/bookmarks/autotests/firefox/firefox-config-home/profiles.ini
+       runners/services/autotests/fixtures/org.kde.kpat.desktop
 Copyright: 2021-2022, Alexander Lohnau <alexander.lohnau@gmx.de>
+           2022, Janet Blackquill <uhhadd@gmail.com>
            None
            none
            2015-2017, Pixabay <info@pixabay.com>
@@ -265,8 +285,6 @@ Files: applets/appmenu/lib/appmenuapplet.cpp
        applets/icon/iconapplet.cpp
        applets/icon/iconapplet.h
        applets/icon/package/contents/ui/main.qml
-       applets/mediacontroller/contents/config/config.qml
-       applets/mediacontroller/contents/ui/ConfigGeneral.qml
        applets/notifications/draghelper.cpp
        applets/notifications/draghelper.h
        applets/notifications/notificationapplet.cpp
@@ -303,6 +321,7 @@ Files: applets/appmenu/lib/appmenuapplet.cpp
        kcms/desktoptheme/filterproxymodel.h
        kcms/desktoptheme/themesmodel.cpp
        kcms/desktoptheme/themesmodel.h
+       kcms/fonts/autotests/kxftconfigtest.cpp
        kcms/icons/package/contents/ui/IconSizePopup.qml
        kcms/icons/package/contents/ui/main.qml
        kcms/notifications/filterproxymodel.cpp
@@ -337,6 +356,8 @@ Files: applets/appmenu/lib/appmenuapplet.cpp
        runners/appstream/appstreamrunner.h
        runners/bookmarks/autotests/bookmarksmatchtest.cpp
        runners/bookmarks/autotests/firefox/testfirefoxbookmarks.cpp
+       shell/kconf_update/CMakeLists.txt
+       shell/kconf_update/plasmashell-5.27-use-panel-thickness-in-default-group.upd
        shell/standaloneappcorona.cpp
        shell/standaloneappcorona.h
        xembed-sni-proxy/snidbus.cpp
@@ -348,9 +369,10 @@ Copyright: 2016, Aleix Pol Gonzalez <aleixpol@kde.org>
            2019-2020, Cyril Rossi <cyril.rossi@enioka.com>
            2015, David Edmundson <davidedmundson@kde.org>
            2019, David Redondo <kde@david-redondo.de>
-           2016, David Rosca <nowrep@gmail.com>
+           2022, Fushan Wen <qydwhotmail@gmail.com>
            2012, Gregor Taetzner <gregor@freenet.de>
-           2021, Harald Sitter <sitter@kde.org>
+           2021-2022, Harald Sitter <sitter@kde.org>
+           2022, ivan tkachenko <me@ratijas.tk>
            2007, Jeremy Whiting <jpwhiting@kde.org>
            2019-2022, Kai Uwe Broulik <kde@broulik.de>
            2019, Kai Uwe Broulik <kde@pbroulik.de>
@@ -364,9 +386,18 @@ Copyright: 2016, Aleix Pol Gonzalez <aleixpol@kde.org>
            2013, Sebastian Kügler <sebas@kde.org>
 License: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
 
-Files: applets/notifications/globalshortcuts.cpp
+Files: applets/mediacontroller/CMakeLists.txt
+       applets/mediacontroller/plugin/CMakeLists.txt
+       applets/mediacontroller/plugin/globalconfig.cpp
+       applets/mediacontroller/plugin/globalconfig.h
+       applets/mediacontroller/plugin/mediacontrollerplugin.cpp
+       applets/mediacontroller/plugin/mediacontrollerplugin.h
+       applets/mediacontroller/plugin/qmldir
+       applets/notifications/globalshortcuts.cpp
        applets/notifications/globalshortcuts.h
-Copyright: 2019, Kai Uwe Broulik <kde@broulik.de>
+       components/trianglemousefilter/CMakeLists.txt
+Copyright: 2022, Bharadwaj Raju <bharadwaj.raju777@protonmail.com>
+           2019, Kai Uwe Broulik <kde@broulik.de>
 License: GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
 
 Files: applets/systemtray/statusnotifieritemjob.cpp
@@ -393,8 +424,6 @@ Files: applets/systemtray/statusnotifieritemjob.cpp
        dataengines/dict/dictengine.h
        dataengines/executable/executable.cpp
        dataengines/executable/executable.h
-       dataengines/hotplug/deviceaction.cpp
-       dataengines/hotplug/deviceaction.h
        dataengines/hotplug/deviceserviceaction.cpp
        dataengines/hotplug/deviceserviceaction.h
        dataengines/hotplug/hotplugjob.cpp
@@ -437,7 +466,10 @@ Files: applets/systemtray/statusnotifieritemjob.cpp
        dataengines/systemmonitor/systemmonitor.h
        kcms/colors/colorsapplicator.h
        kcms/colors/plasma-apply-colorscheme.cpp
+       kcms/cursortheme/launchfeedbacksettings.kcfg
+       kcms/cursortheme/launchfeedbacksettings.kcfgc
        kcms/cursortheme/package/contents/ui/Delegate.qml
+       kcms/cursortheme/package/contents/ui/LaunchFeedbackDialog.qml
        kcms/cursortheme/package/contents/ui/main.qml
        kcms/cursortheme/plasma-apply-cursortheme.cpp
        kcms/cursortheme/xcursor/themeapplicator.cpp
@@ -457,8 +489,8 @@ Files: applets/systemtray/statusnotifieritemjob.cpp
        kcms/lookandfeel/package/contents/ui/main.qml
        kcms/lookandfeel/package/contents/ui/MoreOptions.qml
        kcms/lookandfeel/package/contents/ui/SimpleOptions.qml
-       kioslave/desktop/desktopnotifier.cpp
-       kioslave/desktop/desktopnotifier.h
+       kioworkers/desktop/desktopnotifier.cpp
+       kioworkers/desktop/desktopnotifier.h
        ksmserver/tests/autostarttest.cpp
        libkworkspace/login1_manager_interface.cpp
        phonon/platform_kde/kdeplatformplugin.cpp
@@ -504,13 +536,12 @@ Copyright: 2006-2007, Aaron Seigo <aseigo@kde.org>
            2008, Alain Boyer <alainboyer@gmail.com>
            2021, Aleix Pol Gonzalez <aleixpol@kde.org>
            2007-2012, Alex Merry <alex.merry@kdemail.net>
-           2021, Alexander Lohnau <alexander.lohnau@gmx.de>
+           2021-2022, Alexander Lohnau <alexander.lohnau@gmx.de>
            2020-2021, Alexander Lohnau <alexander.lonau@gmx.de>
            2007, Alexis Ménard <darktears31@gmail.com>
            2015, Antonis Tsiapaliokas <antonis.tsiapaliokas@kde.org>
            2007, Barış Metin <baris@pardus.org.tr>
            2019-2021, Benjamin Port <benjamin.port@enioka.com>
-           2020, Björn Ottosson
            2009, Chani Armitage <chani@kde.org>
            2007, Christopher Blauvelt <cblauvelt@gmail.com>
            2019, Cyril Rossi <cyril.rossi@enioka.com>
@@ -521,8 +552,10 @@ Copyright: 2006-2007, Aaron Seigo <aseigo@kde.org>
            2006, David Faure <faure@kde.org>
            2016, David Rosca <nowrep@gmail.com>
            2022, Dominic Hayes <ferenosdev@outlook.com>
+           2017, Eike Hein <hein@kde.org>
            2007-2009, Fredrik Höglund <fredrik@kde.org>
            2016-2020, Harald Sitter <sitter@kde.org>
+           2023, Ismael Asensio <isma.af@gmail.com>
            2005, Jean-Remy Falleri <jr.falleri@laposte.net>
            2007, Jeff Cooper <weirdsox11@gmail.com>
            2007-2010, John Tapsell <johnflux@gmail.com>
@@ -537,6 +570,7 @@ Copyright: 2006-2007, Aaron Seigo <aseigo@kde.org>
            2010, Matteo Agostinelli <agostinelli@gmail.com>
            2007-2008, Matthias Kretz <kretz@kde.org>
            2009, Matthieu Gallien <matthieu_gallien@yahoo.fr>
+           2022, Natalie Clarius <natalie_clarius@yahoo.de>
            2007-2008, Petri Damsten <damu@iki.fi>
            2007, Richard Moore <rich@kde.org>
            2008, Rob Scheepmaker <r.scheepmaker@student.utwente.nl>
@@ -626,11 +660,9 @@ Files: applets/analog-clock/contents/ui/analogclock.qml
        applets/devicenotifier/package/contents/ui/main.qml
        applets/digital-clock/package/contents/ui/Tooltip.qml
        applets/kicker/plugin/autotests/qmltest.cpp
-       applets/kicker/plugin/trianglemousefilter.cpp
-       applets/kicker/plugin/trianglemousefilter.h
        applets/lock_logout/contents/ui/lockout.qml
-       applets/mediacontroller/contents/ui/ExpandedRepresentation.qml
-       applets/mediacontroller/contents/ui/main.qml
+       applets/mediacontroller/package/contents/ui/ExpandedRepresentation.qml
+       applets/mediacontroller/package/contents/ui/main.qml
        applets/notifications/package/contents/ui/DraggableFileArea.qml
        applets/notifications/package/contents/ui/ThumbnailStrip.qml
        applets/systemmonitor/systemmonitor/package/contents/ui/CompactRepresentation.qml
@@ -687,6 +719,8 @@ Files: applets/analog-clock/contents/ui/analogclock.qml
        components/shellprivate/widgetexplorer/plasmaappletitemmodel_p.h
        components/shellprivate/widgetexplorer/widgetexplorer.cpp
        components/shellprivate/widgetexplorer/widgetexplorer.h
+       components/trianglemousefilter/trianglemousefilter.cpp
+       components/trianglemousefilter/trianglemousefilter.h
        components/workspace/BatteryIcon.qml
        containmentactions/applauncher/launch.cpp
        containmentactions/applauncher/launch.h
@@ -744,10 +778,10 @@ Files: applets/analog-clock/contents/ui/analogclock.qml
        kcms/kfontinst/kcmfontinst/FontFilterProxyStyle.h
        kcms/region_language/localegenerator.cpp
        kcms/region_language/localegenerator.h
-       kioslave/applications/kio_applications.cpp
-       kioslave/desktop/kio_desktop.cpp
-       kioslave/desktop/kio_desktop.h
-       kioslave/desktop/tests/kio_desktop_test.cpp
+       kioworkers/applications/kio_applications.cpp
+       kioworkers/desktop/kio_desktop.cpp
+       kioworkers/desktop/kio_desktop.h
+       kioworkers/desktop/tests/kio_desktop_test.cpp
        ktimezoned/ktimezonedbase.h
        ktimezoned/ktimezoned.cpp
        ktimezoned/ktimezoned.h
@@ -775,6 +809,7 @@ Files: applets/analog-clock/contents/ui/analogclock.qml
        libkworkspace/updatelaunchenvjob.cpp
        libkworkspace/updatelaunchenvjob.h
        libnotificationmanager/autotests/notifications_test.cpp
+       lookandfeel/autotests/lockscreen/main.cpp
        lookandfeel/org.kde.breeze/contents/components/ActionButton.qml
        lookandfeel/org.kde.breeze/contents/components/animation/RejectPasswordAnimation.qml
        lookandfeel/org.kde.breeze/contents/components/animation/RejectPasswordPathAnimation.qml
@@ -835,6 +870,8 @@ Files: applets/analog-clock/contents/ui/analogclock.qml
        shell/currentcontainmentactionsmodel.cpp
        shell/currentcontainmentactionsmodel.h
        shell/futureutil.h
+       shell/outputorderwatcher.cpp
+       shell/outputorderwatcher.h
        shell/packageplugins/layouttemplate/layouttemplate.cpp
        shell/packageplugins/layouttemplate/layouttemplate.h
        shell/packageplugins/lookandfeel/lookandfeel.cpp
@@ -849,8 +886,6 @@ Files: applets/analog-clock/contents/ui/analogclock.qml
        shell/panelconfigview.h
        shell/panelshadows.cpp
        shell/panelshadows_p.h
-       shell/primaryoutputwatcher.cpp
-       shell/primaryoutputwatcher.h
        shell/screenpool.cpp
        shell/screenpool.h
        shell/scripting/appinterface.cpp
@@ -898,6 +933,7 @@ Copyright: 2006-2013, Aaron Seigo <aseigo@kde.org>
            2015, Antonis Tsiapaliokas <antonis.tsiapaliokas@kde.org>
            2019, Arjen Hiemstra <ahiemstra@heimr.nl>
            2019, Benjamin Port <benjamin.port@enioka.com>
+           2022, Bharadwaj Raju <bharadwaj.raju777@protonmail.com>
            2016, Boudhayan Gupta <bgupta@kde.org>
            2009-2010, Canonical
            2020, Carson Black <uhhadd@gmail.com>
@@ -905,12 +941,13 @@ Copyright: 2006-2013, Aaron Seigo <aseigo@kde.org>
            2002, Craig Drummond <craig@kde.org>
            2021, Cyril Rossi <cyril.rossi@enioka.com>
            2012-2013, Daniel Nicoletti <dantti12@gmail.com>
-           2013-2021, David Edmundson <davidedmundson@kde.org>
+           2013-2022, David Edmundson <davidedmundson@kde.org>
            2008-2020, David Edmundson <kde@davidedmundson.co.uk>
            2009, David Faure <faure@kde.org>
            2005-2010, David Jarvie <djarvie@kde.org>
            2021, David Redondo <kde@david-redondo.de>
            2009, Davide Bettio <davide.bettio@kdemail.net>
+           2022, Derek Christ <christ.derek@gmail.com>
            2021, Devin Lin <espidev@gmail.com>
            2008, Dmitry Suzdalev <dimsuz@gmail.com>
            2018, Eike Hein <hein@kde.org>
@@ -944,6 +981,7 @@ Copyright: 2006-2013, Aaron Seigo <aseigo@kde.org>
            1997, Matthias Kalle Dalheimer <kalle@kde.org>
            2007, Menard Alexis <darktears31@gmail.com>
            2020, Nate Graham <nate@kde.org>
+           2022, Niccolò Venerandi <niccolo@venerandi.com>
            2004-2005, Oswald Buddenhagen <ossi@kde.org>
            2009, Petri Damsten <damu@iki.fi>
            2000, Rik Hemsley
@@ -974,10 +1012,14 @@ Files: applets/digital-clock/plugin/applicationintegration.cpp
        kcms/users/package/contents/ui/ChangePassword.qml
        kcms/users/package/contents/ui/ChangeWalletPassword.qml
        kcms/users/package/contents/ui/CreateUser.qml
+       kcms/users/package/contents/ui/Debouncer.qml
        kcms/users/package/contents/ui/main.qml
+       kcms/users/package/contents/ui/PicturesSheet.qml
        kcms/users/package/contents/ui/UserDetailsPage.qml
        kcms/users/src/kcm.cpp
        kcms/users/src/kcm.h
+       kcms/users/src/maskmousearea.cpp
+       kcms/users/src/maskmousearea.h
        kcms/users/src/user.cpp
        kcms/users/src/user.h
        kcms/users/src/usermodel.cpp
@@ -1036,8 +1078,12 @@ Files: applets/digital-clock/plugin/applicationintegration.cpp
        libtaskmanager/abstractwindowtasksmodel.h
        libtaskmanager/activityinfo.cpp
        libtaskmanager/activityinfo.h
+       libtaskmanager/autotests/data/windows/ManyWindows.qml
+       libtaskmanager/autotests/data/windows/SampleWindow.qml
        libtaskmanager/autotests/launchertasksmodeltest.cpp
+       libtaskmanager/autotests/tasksmodeltest.cpp
        libtaskmanager/autotests/tasktoolstest.cpp
+       libtaskmanager/autotests/xwindowtasksmodeltest.cpp
        libtaskmanager/concatenatetasksproxymodel.cpp
        libtaskmanager/concatenatetasksproxymodel.h
        libtaskmanager/declarative/screencasting.cpp
@@ -1084,10 +1130,11 @@ Files: applets/digital-clock/plugin/applicationintegration.cpp
        runners/services/autotests/servicerunnertest.cpp
        runners/shell/autotests/shellrunnertest.cpp
        shell/autotests/screenpooltest.cpp
+       shell/autotests/shelltest.cpp
        shell/tests/screenpooltest.cpp
 Copyright: 2008, Aaron J. Seigo <aseigo@kde.org>
            2020-2021, Aleix Pol Gonzalez <aleixpol@kde.org>
-           2020-2021, Alexander Lohnau <alexander.lohnau@gmx.de>
+           2020-2022, Alexander Lohnau <alexander.lohnau@gmx.de>
            2021, Alexander Lohnau <alexander.lonau@gmx.de>
            2021, Carl Schwan <carlschwan@kde.org>
            2020, Carson Black <uhhadd@gmail.com>
@@ -1095,10 +1142,12 @@ Copyright: 2008, Aaron J. Seigo <aseigo@kde.org>
            2020, David Redondo <kde@david-redondo.de>
            2008, Dmitry Suzdalev <dimsuz@gmail.com>
            2015-2016, Eike Hein <hein@kde.org>
+           2022, Fushan Wen <qydwhotmail@gmail.com>
            2016-2021, Harald Sitter <sitter@kde.org>
            2016, Ivan Cukic <ivan.cukic@kde.org>
            2009, Jan Gerrit Marker <jangerrit@weiler-marker.com>
            2016-2018, Jan Grulich <jgrulich@redhat.com>
+           2022, Janet Blackquill <uhhadd@gmail.com>
            2018-2019, Kai Uwe Broulik <kde@privat.broulik.de>
            2020, Konrad Materka <materka@gmail.com>
            2016-2022, Marco Martin <mart@kde.org>
@@ -1427,7 +1476,8 @@ Copyright: 2018, Eike Hein <hein@kde.org>
            2015, Marco Martin <mart@kde.org>
 License: LGPL-3.0-or-later
 
-Files: appmenu/appmenu.cpp
+Files: appiumtests/digitalclocktest.py
+       appmenu/appmenu.cpp
        appmenu/appmenu_dbus.cpp
        appmenu/appmenu_dbus.h
        appmenu/appmenu.h
@@ -1444,6 +1494,8 @@ Files: appmenu/appmenu.cpp
        components/sessionsprivate/sessionsprivateplugin.h
        components/shellprivate/shellprivateplugin.cpp
        components/shellprivate/shellprivateplugin.h
+       components/trianglemousefilter/trianglemousefilterplugin.cpp
+       components/trianglemousefilter/trianglemousefilterplugin.h
        ksmserver/client.cpp
        ksmserver/client.h
        ksmserver/global.h
@@ -1461,17 +1513,17 @@ Files: appmenu/appmenu.cpp
        startkde/plasma-session/startup.cpp
        startkde/plasma-session/startup.h
        startkde/plasma-shutdown/shutdown.h
-Copyright: 2021, Benjamin Port <benjamin.port@enioka.com>
-           2020, Björn Ottosson
+Copyright: 2022, Bharadwaj Raju <bharadwaj.raju777@protonmail.com>
            2011-2012, Cédric Bellegarde <gnumdk@gmail.com>
-           2021, Dan Leinir Turthra Jensen <admin@leinir.dk>
            2014-2018, David Edmundson <davidedmundson@kde.org>
+           2021-2022, Harald Sitter <sitter@kde.org>
            2015-2016, Kai Uwe Broulik <kde@privat.broulik.de>
            2011, Lionel Chauvin <megabigbug@yahoo.fr>
            2005, Lubos Lunak <l.lunak@kde.org>
            2016, Martin Graesslin <mgraesslin@kde.org>
            2014, Martin Yrjölä <martin.yrjola@gmail.com>
            1999-2000, Matthias Ettrich <ettrich@kde.org>
+           2016, Microsoft Corporation. All rights reserved.
            1999, Preston Brown <pbrown@kde.org>
            2007, Urs Wolfer <uwolfer@kde.org>
 License: MIT

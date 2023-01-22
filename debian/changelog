@@ -8,6 +8,7 @@ plasma-workspace (4:5.26.90-1) UNRELEASED; urgency=medium
   * Update the list of installed files from build logs.
   * Update cross-plasma versioned dependencies.
   * Update symbols from build for 5.26.90.
+  * Refresh copyright information.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 20 Jan 2023 00:19:55 +0100
 
