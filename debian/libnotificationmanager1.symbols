@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.24.2 amd64
+# SymbolsHelper-Confirmed: 4:5.27.0 amd64
 libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
 * Build-Depends-Package: plasma-workspace-dev
  _ZN19NotificationManager10ServerInfo11nameChangedERK7QString@Base 4:5.18.3
@@ -566,6 +566,9 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZTIN19NotificationManager6ServerE@Base 4:5.17.5
  _ZTIN19NotificationManager8SettingsE@Base 4:5.17.5
  _ZTIN19NotificationManager9JobsModelE@Base 4:5.17.5
+ (optional)_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:5.27.0
+ (optional)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:5.27.0
+ (optional)_ZTISt23_Sp_counted_ptr_inplaceI16KFilePlacesModelSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:5.27.0
  _ZTS12QDBusContext@Base 4:5.17.5
  _ZTSN19NotificationManager10ServerInfoE@Base 4:5.18.3
  _ZTSN19NotificationManager11JobSettingsE@Base 4:5.19.2
@@ -583,6 +586,10 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZTSN19NotificationManager6ServerE@Base 4:5.17.5
  _ZTSN19NotificationManager8SettingsE@Base 4:5.17.5
  _ZTSN19NotificationManager9JobsModelE@Base 4:5.17.5
+ (optional)_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:5.27.0
+ (optional)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:5.27.0
+ (optional)_ZTSSt19_Sp_make_shared_tag@Base 4:5.27.0
+ (optional)_ZTSSt23_Sp_counted_ptr_inplaceI16KFilePlacesModelSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:5.27.0
  _ZTVN19NotificationManager10ServerInfoE@Base 4:5.18.3
  _ZTVN19NotificationManager11JobSettingsE@Base 4:5.19.2
  _ZTVN19NotificationManager12NotificationE@Base 4:5.17.5
@@ -599,6 +606,8 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZTVN19NotificationManager6ServerE@Base 4:5.17.5
  _ZTVN19NotificationManager8SettingsE@Base 4:5.17.5
  _ZTVN19NotificationManager9JobsModelE@Base 4:5.17.5
+ (optional)_ZTVSt23_Sp_counted_ptr_inplaceI16KFilePlacesModelSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:5.27.0
+ (optional)_ZZNSt19_Sp_make_shared_tag5_S_tiEvE5__tag@Base 4:5.27.0
  _ZZZNK19NotificationManager11JobSettings24isInTaskManagerImmutableEvENKUlvE_clEvE15qstring_literal@Base 4:5.19.2
  _ZZZNK19NotificationManager11JobSettings26isInNotificationsImmutableEvENKUlvE_clEvE15qstring_literal@Base 4:5.19.2
  _ZZZNK19NotificationManager11JobSettings26isPermanentPopupsImmutableEvENKUlvE_clEvE15qstring_literal@Base 4:5.19.2
