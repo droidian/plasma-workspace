@@ -269,11 +269,11 @@ Recommends: kde-cli-tools (>= 4:5.26.70~),
             qml-module-org-kde-pipewire,
             systemsettings,
 Breaks: breeze (<< 4:5.23.90~),
-        plasma-desktop (<< 4:5.22.90~),
-        plasma-desktop-data (<< 4:5.22.90~),
+        plasma-desktop (<< 4:5.22.90),
+        plasma-desktop-data (<< 4:5.22.90),
 Replaces: breeze (<< 4:5.23.90~),
-          plasma-desktop (<< 4:5.22.90~),
-          plasma-desktop-data (<< 4:5.22.90~),
+          plasma-desktop (<< 4:5.22.90),
+          plasma-desktop-data (<< 4:5.22.90),
 Description: Plasma Workspace for KF5
  Plasma Workspace for KF5. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
@@ -283,11 +283,11 @@ Package: plasma-workspace-data
 Architecture: all
 Depends: ${misc:Depends},
 Breaks: breeze (<< 4:5.23.90~),
-        plasma-desktop (<< 4:5.24.0~),
-        plasma-desktop-data (<< 4:5.24.0~),
+        plasma-desktop (<< 4:5.24.0),
+        plasma-desktop-data (<< 4:5.27.0),
 Replaces: breeze (<< 4:5.23.90~),
-          plasma-desktop (<< 4:5.24.0~),
-          plasma-desktop-data (<< 4:5.24.0~),
+          plasma-desktop (<< 4:5.24.0),
+          plasma-desktop-data (<< 4:5.27.0),
 Description: Plasma Workspace for KF5 - data files
  Plasma Workspace for KF5. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
@@ -307,8 +307,8 @@ Depends: kquickcharts-dev (>= 5.102.0~),
          qtdeclarative5-dev (>= 5.15.2~),
          ${misc:Depends},
          ${so:Depends},
-Breaks: plasma-desktop-dev (<< 4:5.20~),
-Replaces: plasma-desktop-dev (<< 4:5.20~),
+Breaks: plasma-desktop-dev (<< 4:5.20),
+Replaces: plasma-desktop-dev (<< 4:5.20),
 Description: Plasma Workspace for KF5 devel files
  Plasma Workspace for KF5. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
