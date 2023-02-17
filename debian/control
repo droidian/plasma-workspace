@@ -103,6 +103,7 @@ Build-Depends: baloo-kf5-dev (>= 5.13~),
                qtdeclarative5-dev (>= 5.15.2~),
                qtwayland5-dev-tools,
                qtwayland5-private-dev,
+               wayland-protocols (>= 1.31~),
                xcb-proto,
                zlib1g-dev,
 Standards-Version: 4.6.2
