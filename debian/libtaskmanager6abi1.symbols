@@ -390,6 +390,7 @@ libtaskmanager.so.6abi1 libtaskmanager6abi1 #MINVER#
  _ZNK11TaskManager18LauncherTasksModel16launcherPositionERK4QUrl@ABI_6_1 4:5.17.5
  _ZNK11TaskManager18LauncherTasksModel18launcherActivitiesERK4QUrl@ABI_6_1 4:5.17.5
  _ZNK11TaskManager18LauncherTasksModel19launcherListChangedEv@ABI_6_1 4:5.17.5
+ _ZNK11TaskManager18LauncherTasksModel19rowCountForActivityERK7QString@ABI_6_1 4:5.27.2
  _ZNK11TaskManager18LauncherTasksModel4dataERK11QModelIndexi@ABI_6_1 4:5.17.5
  _ZNK11TaskManager18LauncherTasksModel8rowCountERK11QModelIndex@ABI_6_1 4:5.17.5
  _ZNK11TaskManager18VirtualDesktopInfo10desktopIdsEv@ABI_6_1 4:5.17.5
