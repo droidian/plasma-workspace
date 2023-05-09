@@ -31,10 +31,10 @@ Breeze with Debian's default background
 +
 +    #NOTE this trailing slash is important to rename the directory
 +    install(DIRECTORY sddm-theme-debian/ DESTINATION ${KDE_INSTALL_FULL_DATADIR}/sddm/themes/debian-breeze)
-+    
++
  endif()
- 
- add_subdirectory(autotests/lockscreen)
+
+ if (BUILD_TESTING)
 --- /dev/null
 +++ b/lookandfeel/sddm-theme-debian/metadata.desktop
 @@ -0,0 +1,17 @@
