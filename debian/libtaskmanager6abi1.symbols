@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.17.5 amd64
+# SymbolsHelper-Confirmed: 4:5.27.5 amd64
 libtaskmanager.so.6abi1 libtaskmanager6abi1 #MINVER#
 * Build-Depends-Package: plasma-workspace-dev
  ABI_6_1@ABI_6_1 4:5.17.5
@@ -60,6 +60,7 @@ libtaskmanager.so.6abi1 libtaskmanager6abi1 #MINVER#
  _ZN11TaskManager10TasksModelD2Ev@ABI_6_1 4:5.17.5
  _ZN11TaskManager12ActivityInfo11qt_metacallEN11QMetaObject4CallEiPPv@ABI_6_1 4:5.17.5
  _ZN11TaskManager12ActivityInfo11qt_metacastEPKc@ABI_6_1 4:5.17.5
+ _ZN11TaskManager12ActivityInfo12activityIconERK7QString@ABI_6_1 4:5.27.5
  _ZN11TaskManager12ActivityInfo12activityNameERK7QString@ABI_6_1 4:5.17.5
  _ZN11TaskManager12ActivityInfo16staticMetaObjectE@ABI_6_1 4:5.17.5
  _ZN11TaskManager12ActivityInfoC1EP7QObject@ABI_6_1 4:5.17.5
@@ -520,11 +521,6 @@ libtaskmanager.so.6abi1 libtaskmanager6abi1 #MINVER#
  _ZTVN11TaskManager26ConcatenateTasksProxyModelE@ABI_6_1 4:5.17.5
  _ZTVN11TaskManager27FlattenTaskGroupsProxyModelE@ABI_6_1 4:5.17.5
  _ZTVN11TaskManager28AbstractTasksProxyModelIfaceE@ABI_6_1 4:5.17.5
- (c++)"non-virtual thunk to TaskManager::XStartupTasksModel::~XStartupTasksModel()@ABI_6_1" 4:5.22.90
- (c++)"non-virtual thunk to TaskManager::XStartupTasksModel::~XStartupTasksModel()@ABI_6_1" 4:5.22.90
- (c++)"non-virtual thunk to TaskManager::WaylandStartupTasksModel::~WaylandStartupTasksModel()@ABI_6_1" 4:5.22.90
- (c++)"non-virtual thunk to TaskManager::WaylandStartupTasksModel::~WaylandStartupTasksModel()@ABI_6_1" 4:5.22.90
- (c++)"non-virtual thunk to TaskManager::StartupTasksModel::mapIfaceToSource(QModelIndex const&) const@ABI_6_1" 4:5.22.90
  (c++)"non-virtual thunk to TaskManager::AbstractTasksModel::requestActivate(QModelIndex const&)@ABI_6_1" 4:5.17.5
  (c++)"non-virtual thunk to TaskManager::AbstractTasksModel::requestActivities(QModelIndex const&, QStringList const&)@ABI_6_1" 4:5.17.5
  (c++)"non-virtual thunk to TaskManager::AbstractTasksModel::requestClose(QModelIndex const&)@ABI_6_1" 4:5.17.5
@@ -551,6 +547,7 @@ libtaskmanager.so.6abi1 libtaskmanager6abi1 #MINVER#
  (c++)"non-virtual thunk to TaskManager::LauncherTasksModel::requestNewInstance(QModelIndex const&)@ABI_6_1" 4:5.17.5
  (c++)"non-virtual thunk to TaskManager::LauncherTasksModel::requestOpenUrls(QModelIndex const&, QList<QUrl> const&)@ABI_6_1" 4:5.17.5
  (c++)"non-virtual thunk to TaskManager::LauncherTasksModel::~LauncherTasksModel()@ABI_6_1" 4:5.17.5
+ (c++)"non-virtual thunk to TaskManager::StartupTasksModel::mapIfaceToSource(QModelIndex const&) const@ABI_6_1" 4:5.22.90
  (c++)"non-virtual thunk to TaskManager::StartupTasksModel::~StartupTasksModel()@ABI_6_1" 4:5.17.5
  (c++)"non-virtual thunk to TaskManager::TaskFilterProxyModel::mapIfaceToSource(QModelIndex const&) const@ABI_6_1" 4:5.17.5
  (c++)"non-virtual thunk to TaskManager::TaskFilterProxyModel::~TaskFilterProxyModel()@ABI_6_1" 4:5.17.5
@@ -590,6 +587,7 @@ libtaskmanager.so.6abi1 libtaskmanager6abi1 #MINVER#
  (c++)"non-virtual thunk to TaskManager::TasksModel::requestToggleShaded(QModelIndex const&)@ABI_6_1" 4:5.17.5
  (c++)"non-virtual thunk to TaskManager::TasksModel::requestVirtualDesktops(QModelIndex const&, QList<QVariant> const&)@ABI_6_1" 4:5.17.5
  (c++)"non-virtual thunk to TaskManager::TasksModel::~TasksModel()@ABI_6_1" 4:5.17.5
+ (c++)"non-virtual thunk to TaskManager::WaylandStartupTasksModel::~WaylandStartupTasksModel()@ABI_6_1" 4:5.22.90
  (c++)"non-virtual thunk to TaskManager::WaylandTasksModel::requestActivate(QModelIndex const&)@ABI_6_1" 4:5.17.5
  (c++)"non-virtual thunk to TaskManager::WaylandTasksModel::requestActivities(QModelIndex const&, QStringList const&)@ABI_6_1" 4:5.17.5
  (c++)"non-virtual thunk to TaskManager::WaylandTasksModel::requestClose(QModelIndex const&)@ABI_6_1" 4:5.17.5
@@ -609,6 +607,7 @@ libtaskmanager.so.6abi1 libtaskmanager6abi1 #MINVER#
  (c++)"non-virtual thunk to TaskManager::WaylandTasksModel::~WaylandTasksModel()@ABI_6_1" 4:5.17.5
  (c++)"non-virtual thunk to TaskManager::WindowTasksModel::mapIfaceToSource(QModelIndex const&) const@ABI_6_1" 4:5.17.5
  (c++)"non-virtual thunk to TaskManager::WindowTasksModel::~WindowTasksModel()@ABI_6_1" 4:5.17.5
+ (c++)"non-virtual thunk to TaskManager::XStartupTasksModel::~XStartupTasksModel()@ABI_6_1" 4:5.22.90
  (c++)"non-virtual thunk to TaskManager::XWindowTasksModel::requestActivate(QModelIndex const&)@ABI_6_1" 4:5.17.5
  (c++)"non-virtual thunk to TaskManager::XWindowTasksModel::requestActivities(QModelIndex const&, QStringList const&)@ABI_6_1" 4:5.17.5
  (c++)"non-virtual thunk to TaskManager::XWindowTasksModel::requestClose(QModelIndex const&)@ABI_6_1" 4:5.17.5
