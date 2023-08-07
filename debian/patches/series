@@ -1,2 +1,5 @@
 add_sddm_debian_breeze.patch
 enable_debianabimanager.diff
+
+# Fixed in 5.27.8
+fix_pop_closing_crash.diff
