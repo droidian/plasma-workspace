@@ -4,6 +4,7 @@ plasma-workspace (4:5.27.7-3) UNRELEASED; urgency=medium
   * Make sure to clean lookandfeel/sddm-theme-debian, created at cmake time
     as result of patch add_sddm_debian_breeze.patch. (Closes: #1047031)
   * Remove 8 obsolete maintscript entries in 1 files.
+  * Remove inactive Uploaders.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 14 Aug 2023 06:42:40 +0200
 
