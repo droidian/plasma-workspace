@@ -5,6 +5,14 @@ plasma-workspace (4:5.27.7-3) UNRELEASED; urgency=medium
     as result of patch add_sddm_debian_breeze.patch. (Closes: #1047031)
   * Remove 8 obsolete maintscript entries in 1 files.
   * Remove inactive Uploaders.
+  * Modernize building:
+    - add the dh-sequence-kf5 build dependency to use the kf5 addon
+      automatically
+    - add the dh-sequence-pkgkde-symbolshelper build dependency to use the
+      pkgkde_symbolshelper addon automatically
+    - add the dh-sequence-sodeps build dependency to use the sodeps addon
+      automatically
+    - drop all the manually specified addons and buildsystem for dh
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 14 Aug 2023 06:42:40 +0200
 
