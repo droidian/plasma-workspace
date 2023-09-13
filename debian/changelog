@@ -1,4 +1,4 @@
-plasma-workspace (4:5.27.7-3) UNRELEASED; urgency=medium
+plasma-workspace (4:5.27.8-1) UNRELEASED; urgency=medium
 
   [ Pino Toscano ]
   * Make sure to clean lookandfeel/sddm-theme-debian, created at cmake time
@@ -13,6 +13,9 @@ plasma-workspace (4:5.27.7-3) UNRELEASED; urgency=medium
     - add the dh-sequence-sodeps build dependency to use the sodeps addon
       automatically
     - drop all the manually specified addons and buildsystem for dh
+  [ Patrick Franz ]
+  * New upstream release (5.27.8).
+
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 14 Aug 2023 06:42:40 +0200
 
