@@ -1,4 +1,7 @@
-plasma-workspace (4:5.27.8-3) UNRELEASED; urgency=medium
+plasma-workspace (4:5.27.9-1) UNRELEASED; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (5.27.9).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 27 Oct 2023 18:38:51 +0200
 
