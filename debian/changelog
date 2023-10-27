@@ -1,11 +1,11 @@
-plasma-workspace (4:5.27.9.1-1) UNRELEASED; urgency=medium
+plasma-workspace (4:5.27.9.1-1) unstable; urgency=medium
 
   [ Patrick Franz ]
   * New upstream release (5.27.9).
   * Update build-deps and deps with the info from cmake.
   * New upstream release (5.27.9.1).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 27 Oct 2023 18:38:51 +0200
+ -- Patrick Franz <deltaone@debian.org>  Fri, 27 Oct 2023 21:54:39 +0200
 
 plasma-workspace (4:5.27.8-2) unstable; urgency=medium
 
