@@ -1,3 +1,10 @@
+plasma-workspace (4:5.27.10-2) unstable; urgency=medium
+
+  * Update AppStream 1.0 compat patch
+  * Tighten build-dep on breeze-dev (Closes: #1058908)
+
+ -- Matthias Klumpp <mak@debian.org>  Mon, 18 Dec 2023 22:12:28 +0100
+
 plasma-workspace (4:5.27.10-1) unstable; urgency=medium
 
   * Team upload.
