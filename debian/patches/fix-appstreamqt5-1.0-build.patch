@@ -1,19 +1,19 @@
-From ad8737df3e6d5ab6d47f18f0f55cb23fd8f02cc6 Mon Sep 17 00:00:00 2001
+From 9a941293d12bc7ffcff2327dac71209ec4438181 Mon Sep 17 00:00:00 2001
 From: Matthias Klumpp <matthias@tenstral.net>
 Date: Mon, 18 Dec 2023 05:08:44 +0100
 Subject: [PATCH] Fix build with AppStreamQt5 >= 1.0
 
 ---
- CMakeLists.txt                        | 6 +++---
- applets/kicker/plugin/actionlist.cpp  | 4 ++--
- runners/CMakeLists.txt                | 2 +-
- runners/appstream/CMakeLists.txt      | 2 +-
- runners/appstream/appstreamrunner.cpp | 8 ++++----
- runners/appstream/appstreamrunner.h   | 2 +-
- 6 files changed, 12 insertions(+), 12 deletions(-)
+ CMakeLists.txt                        |  6 +++---
+ applets/kicker/plugin/actionlist.cpp  |  6 +++---
+ runners/CMakeLists.txt                |  2 +-
+ runners/appstream/CMakeLists.txt      |  2 +-
+ runners/appstream/appstreamrunner.cpp | 10 +++++-----
+ runners/appstream/appstreamrunner.h   |  2 +-
+ 6 files changed, 14 insertions(+), 14 deletions(-)
 
 diff --git a/CMakeLists.txt b/CMakeLists.txt
-index 8d26973778..8d86340c79 100644
+index 8d26973778..f0bb78e12c 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
 @@ -183,12 +183,12 @@ if(FONTCONFIG_FOUND)
@@ -22,7 +22,7 @@ index 8d26973778..8d86340c79 100644
  
 -find_package(AppStreamQt 0.10.6)
 -set_package_properties(AppStreamQt PROPERTIES DESCRIPTION "Access metadata for listing available software"
-+find_package(AppStreamQt5 0.10.6)
++find_package(AppStreamQt5 1.0.0)
 +set_package_properties(AppStreamQt5 PROPERTIES DESCRIPTION "Access metadata for listing available software"
                         URL "https://www.freedesktop.org/wiki/Distributions/AppStream/"
                         TYPE OPTIONAL)
@@ -33,7 +33,7 @@ index 8d26973778..8d86340c79 100644
  endif()
  
 diff --git a/applets/kicker/plugin/actionlist.cpp b/applets/kicker/plugin/actionlist.cpp
-index 61fc234872..e3b2c82196 100644
+index 61fc234872..c3a1148add 100644
 --- a/applets/kicker/plugin/actionlist.cpp
 +++ b/applets/kicker/plugin/actionlist.cpp
 @@ -32,7 +32,7 @@
@@ -45,7 +45,7 @@ index 61fc234872..e3b2c82196 100644
  #endif
  
  namespace KAStats = KActivities::Stats;
-@@ -448,7 +448,7 @@ bool handleAppstreamActions(const QString &actionId, const KService::Ptr &servic
+@@ -448,10 +448,10 @@ bool handleAppstreamActions(const QString &actionId, const KService::Ptr &servic
  
      const auto components =
          appstreamPool->componentsByLaunchable(AppStream::Launchable::KindDesktopId, service->desktopEntryName() + QLatin1String(".desktop"));
@@ -53,7 +53,11 @@ index 61fc234872..e3b2c82196 100644
 +    if (components.isEmpty()) {
          return false;
      }
-     return QDesktopServices::openUrl(QUrl(QLatin1String("appstream://") + components[0].id()));
+-    return QDesktopServices::openUrl(QUrl(QLatin1String("appstream://") + components[0].id()));
++    return QDesktopServices::openUrl(QUrl(QLatin1String("appstream://") + components.indexSafe(0)->id()));
+ #else
+     return false;
+ #endif
 diff --git a/runners/CMakeLists.txt b/runners/CMakeLists.txt
 index ec22f27d70..4216518e96 100644
 --- a/runners/CMakeLists.txt
@@ -78,7 +82,7 @@ index 7dc43cdad9..15c486a3ea 100644
 -target_link_libraries(krunner_appstream PUBLIC Qt::Gui KF5::Runner KF5::I18n KF5::Service AppStreamQt)
 +target_link_libraries(krunner_appstream PUBLIC Qt::Gui KF5::Runner KF5::I18n KF5::Service AppStreamQt5)
 diff --git a/runners/appstream/appstreamrunner.cpp b/runners/appstream/appstreamrunner.cpp
-index b0dcb381ee..83d8eeac7d 100644
+index b0dcb381ee..b3a660c8ef 100644
 --- a/runners/appstream/appstreamrunner.cpp
 +++ b/runners/appstream/appstreamrunner.cpp
 @@ -6,7 +6,7 @@
@@ -90,7 +94,7 @@ index b0dcb381ee..83d8eeac7d 100644
  
  #include <QDebug>
  #include <QDesktopServices>
-@@ -150,12 +150,12 @@ QList<AppStream::Component> InstallerRunner::findComponentsByString(const QStrin
+@@ -150,17 +150,17 @@ QList<AppStream::Component> InstallerRunner::findComponentsByString(const QStrin
      QMutexLocker locker(&m_appstreamMutex);
      QString error;
      static bool warnedOnce = false;
@@ -102,10 +106,16 @@ index b0dcb381ee..83d8eeac7d 100644
 +            qCDebug(RUNNER_APPSTREAM) << "Had errors when loading AppStream metadata pool" << m_db.lastError();
          } else {
 -            qCWarning(RUNNER_APPSTREAM) << "Had errors when loading AppStream metadata pool" << error;
-+            qCWarning(RUNNER_APPSTREAM) << "Had errors when loading AppStream metadata pool" << m_dblastError();
++            qCWarning(RUNNER_APPSTREAM) << "Had errors when loading AppStream metadata pool" << m_db.lastError();
              warnedOnce = true;
          }
      }
+ 
+-    return m_db.search(query);
++    return m_db.search(query).toList();
+ }
+ 
+ #include "appstreamrunner.moc"
 diff --git a/runners/appstream/appstreamrunner.h b/runners/appstream/appstreamrunner.h
 index 18197ab08b..b585f55c36 100644
 --- a/runners/appstream/appstreamrunner.h
