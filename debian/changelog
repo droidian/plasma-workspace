@@ -1,3 +1,7 @@
+plasma-workspace (4:5.27.10-3) UNRELEASED; urgency=medium
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 11 Jan 2024 21:56:59 +0100
+
 plasma-workspace (4:5.27.10-2) unstable; urgency=medium
 
   * Update AppStream 1.0 compat patch
