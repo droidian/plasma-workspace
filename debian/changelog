@@ -3,6 +3,7 @@ plasma-workspace (4:5.27.11-1) UNRELEASED; urgency=medium
   [ Patrick Franz ]
   * Bump Standards-Version to 4.7.0 (No changes needed).
   * New upstream release (5.27.11).
+  * Update build-deps and deps with the info from cmake.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 19 May 2024 10:55:16 +0200
 
