@@ -2,6 +2,8 @@ plasma-workspace (4:5.27.11.1-1) UNRELEASED; urgency=medium
 
   [ Patrick Franz ]
   * New upstream release 5.27.11.1, fixes CVE-2024-36041.
+  * Build-depend on pkgconf instead of pkg-config as the latter has been
+    superseded by the former.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 31 May 2024 16:45:06 +0200
 
