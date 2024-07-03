@@ -107,19 +107,43 @@ Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/plasma-workspace
 Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/plasma-workspace.git
 Rules-Requires-Root: no
 
-Package: libcolorcorrect5
+Package: libbatterycontrol6
 Architecture: any
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends},
-Description: Plasma Workspace for KF5 library
- Plasma Workspace for KF5. Workspaces provide
+Description: Plasma Workspace for KF6 library
+ Plasma Workspace for KF6. Workspaces provide
+ support for KDE Plasma Widgets, integrated search,
+ hardware management and a high degree of customizability.
+ Battery control library.
+ .
+ This package contains library files.
+
+Package: libcolorcorrect6
+Architecture: any
+Section: libs
+Depends: ${misc:Depends}, ${shlibs:Depends},
+Description: Plasma Workspace for KF6 library
+ Plasma Workspace for KF6. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
  hardware management and a high degree of customizability.
  ColorCorrect library.
  .
  This package contains library files.
 
-Package: libkfontinst5
+Package: libkmpris6
+Architecture: any
+Section: libs
+Depends: ${misc:Depends}, ${shlibs:Depends},
+Description: Plasma Workspace for KF6 library
+ Plasma Workspace for KF6. Workspaces provide
+ support for KDE Plasma Widgets, integrated search,
+ hardware management and a high degree of customizability.
+ Media Player Remote Interfacing Specification library.
+ .
+ This package contains library files.
+
+Package: libkfontinst6
 Architecture: any
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends},
@@ -134,7 +158,7 @@ Description: Tools and widgets for the desktop library
  .
  This package is part of the KDE Plasma.
 
-Package: libkfontinstui5
+Package: libkfontinstui6
 Architecture: any
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends},
@@ -149,12 +173,12 @@ Description: Tools and widgets for the desktop library
  .
  This package is part of the KDE Plasma.
 
-Package: libkworkspace5-5
+Package: libkworkspace6-6
 Architecture: any
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends},
-Description: Plasma Workspace for KF5 library
- Plasma Workspace for KF5. Workspaces provide
+Description: Plasma Workspace for KF6 library
+ Plasma Workspace for KF6. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
  hardware management and a high degree of customizability.
  Kworkspace library.
@@ -165,34 +189,32 @@ Package: libnotificationmanager1
 Architecture: any
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends},
-Description: Plasma Workspace for KF5 library
- Plasma Workspace for KF5. Workspaces provide
+Description: Plasma Workspace for KF6 library
+ Plasma Workspace for KF6. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
  hardware management and a high degree of customizability.
  Taskmanager library.
  .
  This package contains library files.
 
-Package: libplasma-geolocation-interface5
+Package: libplasma-geolocation-interface6
 Architecture: any
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends},
-Description: Plasma Workspace for KF5 library
- Plasma Workspace for KF5. Workspaces provide
+Description: Plasma Workspace for KF6 library
+ Plasma Workspace for KF6. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
  hardware management and a high degree of customizability.
  Interface library for geolocation.
  .
  This package contains library files.
 
-Package: libtaskmanager6abi1
-X-Debian-ABI: 1
-X-CMake-Target: taskmanager
+Package: libtaskmanager6
 Architecture: any
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends},
-Description: Plasma Workspace for KF5 library
- Plasma Workspace for KF5. Workspaces provide
+Description: Plasma Workspace for KF6 library
+ Plasma Workspace for KF6. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
  hardware management and a high degree of customizability.
  Taskmanager library.
@@ -203,8 +225,8 @@ Package: libweather-ion7
 Architecture: any
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends},
-Description: Plasma Workspace for KF5 library
- Plasma Workspace for KF5. Workspaces provide
+Description: Plasma Workspace for KF6 library
+ Plasma Workspace for KF6. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
  hardware management and a high degree of customizability.
  Weather_ion library.
@@ -214,64 +236,78 @@ Description: Plasma Workspace for KF5 library
 Package: plasma-workspace
 Architecture: any
 Depends: default-dbus-session-bus | dbus-session-bus,
-         drkonqi (>= 5.27.11~),
-         frameworkintegration,
+         drkonqi (>= 6.1.0~),
+         frameworkintegration6,
          gdb-minimal | gdb,
          iso-codes,
-         kactivitymanagerd (>= 5.27.11~),
-         kded5,
-         kinit,
-         kio,
-         kwin-common (>= 4:5.27.11~),
-         libkf5config-bin,
-         libkf5globalaccel-bin (>= 5.7.0),
-         libkf5plasma5 (>= 5.89~),
-         libkf5service-bin,
-         milou (>= 4:5.27.11~),
-         plasma-framework,
-         plasma-integration (>= 5.27.11~),
+         kactivitymanagerd (>= 6.1.0~),
+         kded6,
+         kglobalacceld (>= 6.1.0~),
+         kwayland-integration (>= 6.1.0~),
+         kwin-common (>= 4:6.1.0~),
+         kwin-wayland (>= 4:6.1.0~),
+         libkf6config-bin,
+         milou (>= 4:6.1.0~),
+         plasma-desktoptheme,
+         plasma-integration (>= 6.1.0~),
          plasma-workspace-data (>= ${source:Version}),
-         qdbus-qt5,
-         qml-module-org-kde-draganddrop,
-         qml-module-org-kde-kcoreaddons,
-         qml-module-org-kde-kholidays,
-         qml-module-org-kde-kquickcontrols,
-         qml-module-org-kde-kquickcontrolsaddons,
-         qml-module-org-kde-ksysguard,
-         qml-module-org-kde-kwindowsystem,
-         qml-module-org-kde-prison,
-         qml-module-org-kde-quickcharts,
-         qml-module-org-kde-solid,
-         qml-module-org-kde-userfeedback,
-         qml-module-qt-labs-folderlistmodel,
-         qml-module-qtgraphicaleffects,
-         qml-module-qtqml-models2,
-         qml-module-qtquick-controls,
-         qml-module-qtquick-dialogs,
-         qml-module-qtquick-layouts,
-         qml-module-qtquick-window2,
-         qml-module-qtquick2,
+         qdbus-qt6,
+         qml6-module-org-kde-activities,
+         qml6-module-org-kde-breeze,
+         qml6-module-org-kde-config,
+         qml6-module-org-kde-coreaddons,
+         qml6-module-org-kde-draganddrop,
+         qml6-module-org-kde-kcmutils,
+         qml6-module-org-kde-kholidays,
+         qml6-module-org-kde-kirigami,
+         qml6-module-org-kde-kirigamiaddons-components,
+         qml6-module-org-kde-kitemmodels,
+         qml6-module-org-kde-kquickcontrols,
+         qml6-module-org-kde-kquickcontrolsaddons,
+         qml6-module-org-kde-ksvg,
+         qml6-module-org-kde-ksysguard,
+         qml6-module-org-kde-kwindowsystem,
+         qml6-module-org-kde-newstuff,
+         qml6-module-org-kde-notifications,
+         qml6-module-org-kde-pipewire,
+         qml6-module-org-kde-prison,
+         qml6-module-org-kde-quickcharts,
+         qml6-module-org-kde-userfeedback,
+         qml6-module-qt5compat-graphicaleffects,
+         qml6-module-qtcore,
+         qml6-module-qtqml,
+         qml6-module-qtqml-models,
+         qml6-module-qtquick,
+         qml6-module-qtquick-controls,
+         qml6-module-qtquick-dialogs,
+         qml6-module-qtquick-layouts,
+         qml6-module-qtquick-shapes,
+         qml6-module-qtquick-templates,
+         qml6-module-qtquick-virtualkeyboard,
+         qml6-module-qtquick-window,
+         qt6-wayland,
          udisks2,
          x11-utils,
          x11-xserver-utils,
          ${misc:Depends},
          ${shlibs:Depends},
 Provides: notification-daemon, x-session-manager,
-Recommends: kde-cli-tools (>= 4:5.27.11~),
+Recommends: kde-cli-tools (>= 4:6.1.0~),
             kio-extras,
-            ksystemstats (>= 5.27.11~),
-            libpam-kwallet5 (>= 5.14),
-            powerdevil (>= 4:5.14),
-            qml-module-org-kde-pipewire,
+            ksystemstats (>= 6.1.0~),
+#            libpam-kwallet5 (>= 5.14),
+            powerdevil (>= 4:6.1.0~),
             systemsettings,
 Breaks: breeze (<< 4:5.23.90~),
         plasma-desktop (<< 4:5.22.90),
         plasma-desktop-data (<< 4:5.22.90),
+        plasma-workspace-wayland,
 Replaces: breeze (<< 4:5.23.90~),
           plasma-desktop (<< 4:5.22.90),
           plasma-desktop-data (<< 4:5.22.90),
-Description: Plasma Workspace for KF5
- Plasma Workspace for KF5. Workspaces provide
+          plasma-workspace-wayland,
+Description: Plasma Workspace for KF6
+ Plasma Workspace for KF6. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
  hardware management and a high degree of customizability.
 
@@ -284,8 +320,8 @@ Breaks: breeze (<< 4:5.23.90~),
 Replaces: breeze (<< 4:5.23.90~),
           plasma-desktop (<< 4:5.24.0),
           plasma-desktop-data (<< 4:5.27.0),
-Description: Plasma Workspace for KF5 - data files
- Plasma Workspace for KF5. Workspaces provide
+Description: Plasma Workspace for KF6 - data files
+ Plasma Workspace for KF6. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
  hardware management and a high degree of customizability.
  .
@@ -294,66 +330,17 @@ Description: Plasma Workspace for KF5 - data files
 Package: plasma-workspace-dev
 Architecture: any
 Section: libdevel
-Depends: kquickcharts-dev (>= 5.102.0~),
-         libkf5itemmodels-dev (>= 5.102.0~),
-         libkf5plasma-dev (>= 5.102.0~),
-         libkf5sysguard-dev (>= 4:5.18),
-         libkf5windowsystem-dev (>= 5.89~),
-         qtbase5-dev (>= 5.15.2~),
-         qtdeclarative5-dev (>= 5.15.2~),
+Depends: libkf6itemmodels-dev (>= 6.2.0~),
+         libplasma-dev (>= 6.1.0~),
+         qt6-base-dev (>= 6.6.0+dfsg~),
+         qt6-declarative-dev (>= 6.6.0+dfsg~),
          ${misc:Depends},
          ${so:Depends},
 Breaks: plasma-desktop-dev (<< 4:5.20),
 Replaces: plasma-desktop-dev (<< 4:5.20),
-Description: Plasma Workspace for KF5 devel files
- Plasma Workspace for KF5. Workspaces provide
+Description: Plasma Workspace for KF6 devel files
+ Plasma Workspace for KF6. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
  hardware management and a high degree of customizability.
  .
  This package contains the development files.
-
-Package: plasma-workspace-wayland
-Architecture: any
-Depends: kwayland-integration (>= 5.27.11~),
-         kwin-wayland (>= 4:5.27.11~),
-         plasma-workspace (= ${binary:Version}),
-         qtwayland5,
-         ${misc:Depends},
-         ${shlibs:Depends},
-Description: Plasma Workspace for KF5 - Wayland integration
- Plasma Workspace for KF5. Workspaces provide
- support for KDE Plasma Widgets, integrated search,
- hardware management and a high degree of customizability.
- .
- This package contains the Wayland session.
-
-Package: sddm-theme-breeze
-Architecture: any
-Depends: plasma-framework, plasma-workspace, ${misc:Depends}, ${shlibs:Depends},
-Recommends: sddm,
-Provides: sddm-theme,
-Description: Breeze SDDM theme
- Plasma Workspace for KF5. Workspaces provide
- support for KDE Plasma Widgets, integrated search,
- hardware management and a high degree of customizability.
- Taskmanager library.
- .
- This package contains the files for the breeze SDDM theme.
-
-Package: sddm-theme-debian-breeze
-Architecture: any
-Depends: plasma-framework,
-         plasma-workspace,
-         sddm-theme-breeze,
-         ${misc:Depends},
-         ${shlibs:Depends},
-Recommends: desktop-base (>= 9.0.0~), sddm,
-Provides: sddm-theme,
-Description: Debian Breeze SDDM theme
- Plasma Workspace for KF5. Workspaces provide
- support for KDE Plasma Widgets, integrated search,
- hardware management and a high degree of customizability.
- Taskmanager library.
- .
- This package contains the files for the breeze SDDM theme adapted
- to use the active desktop-base theme for the background.

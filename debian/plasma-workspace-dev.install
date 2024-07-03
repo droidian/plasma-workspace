@@ -1,8 +1,9 @@
 usr/include/colorcorrect/
-usr/include/kworkspace5/
+usr/include/krdb/
+usr/include/kworkspace6/
 usr/include/notificationmanager/
+usr/include/plasma5support/
 usr/include/plasma/geolocation/
-usr/include/plasma/weather/
 usr/include/taskmanager/
 usr/lib/*/cmake/KRunnerAppDBusInterface/KRunnerAppDBusInterfaceConfig.cmake
 usr/lib/*/cmake/KSMServerDBusInterface/KSMServerDBusInterfaceConfig.cmake
@@ -10,10 +11,12 @@ usr/lib/*/cmake/LibColorCorrect/
 usr/lib/*/cmake/LibKWorkspace/
 usr/lib/*/cmake/LibNotificationManager/
 usr/lib/*/cmake/LibTaskManager/
+usr/lib/*/libbatterycontrol.so
 usr/lib/*/libcolorcorrect.so
 usr/lib/*/libkfontinst.so
 usr/lib/*/libkfontinstui.so
-usr/lib/*/libkworkspace5.so
+usr/lib/*/libkmpris.so
+usr/lib/*/libkworkspace6.so
 usr/lib/*/libnotificationmanager.so
 usr/lib/*/libplasma-geolocation-interface.so
 usr/lib/*/libtaskmanager.so
