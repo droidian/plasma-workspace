@@ -1,5 +1,4 @@
 debian/40-kde-plasma-kf6.conf usr/share/lightdm/lightdm.conf.d/
-debian/kde-mimeapps.list usr/share/applications/
 etc/xdg/autostart/gmenudbusmenuproxy.desktop
 etc/xdg/autostart/org.kde.plasma-fallback-session-restore.desktop
 etc/xdg/autostart/org.kde.plasmashell.desktop
