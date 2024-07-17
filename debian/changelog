@@ -7,6 +7,9 @@ plasma-workspace (4:6.1.0-1) UNRELEASED; urgency=medium
   * New binary packages and update of runtime-dependencies.
   * Update lintian-overrides.
 
+  [ Aaron Rainbolt ]
+  * Review copyright information.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 02 Jul 2024 00:02:27 +0200
 
 plasma-workspace (4:5.27.11.1-1) unstable; urgency=medium

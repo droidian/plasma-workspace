@@ -5,13 +5,11 @@ Upstream-Contact: plasma-devel@kde.org
 
 Files: *
 Copyright: 2007-2009, Aaron Seigo <aseigo@kde.org>
-           2014, Aleix Pol Gonzalez <aleixpol@blue-systems.com>
-           2016-2021, Aleix Pol Gonzalez <aleixpol@kde.org>
+           2014-2021, Aleix Pol Gonzalez <aleixpol@kde.org>
            2013, Alejandro Fiestas Olivares <afiestas@kde.org>
-           2020, Alexander Lohnau <alexander.lohnau@gmx.de>
+           2012, Alex Merry <alex.merry@kdemail.net>
            2008, Alexis Ménard <darktears31@gmail.com>
            2009, Andrew Coles <andrew.coles@yahoo.co.uk>
-           Andrew Stanley-Jones
            Andrew Stanley-Jones <asj@cban.com>
            2020, Andrey Butirsky <butirsky@gmail.com>
            2000-2016, Antonio Larrosa <larrosa@kde.org>
@@ -20,17 +18,16 @@ Copyright: 2007-2009, Aaron Seigo <aseigo@kde.org>
            2019-2021, Benjamin Port <benjamin.port@enioka.com>
            2021-2022, Bharadwaj Raju <bharadwaj.raju777@protonmail.com>
            2013, Bhushan Shah <bhush94@gmail.com>
+           2024, Bohdan Onofriichuk <bogdan.onofriuchuk@gmail.com>
            2021, Carl Schwan <carlschwan@kde.org>
            2020, Carson Black <uhhadd@gmail.com>
            2000-2002, Carsten Pfeiffer <pfeiffer@kde.org>
            2003-2011, Craig Drummond <craig@kde.org>
-           2014, Daniel Vrátil <dvratil@redhat.com>
+           2012-2014, Daniel Vrátil <dvratil@redhat.com>
            2008, Dario Freddi <drf@kdemod.ath.cx>
-           2015, David Edmudson <davidedmundson@kde.org>
-           2013-2022, David Edmundson <davidedmundson@kde.org>
-           2014, David Edmundson <kde@davidedmundson.co.uk>
+           2013-2021, David Edmundson <davidedmundson@kde.org>
            2000-2002, David Faure <faure@kde.org>
-           2019-2020, David Redondo <kde@david-redondo.de>
+           2019-2023, David Redondo <kde@david-redondo.de>
            1999, Dirk A. Mueller
            2008-2009, Dmitry Suzdalev <dimsuz@gmail.com>
            2022, Dominic Hayes <ferenosdev@outlook.com>
@@ -38,123 +35,724 @@ Copyright: 2007-2009, Aaron Seigo <aseigo@kde.org>
            2021, Emily Ehlert
            2004-2009, Esben Mose Hansen <kde@mosehansen.dk>
            2003-2007, Fredrik Höglund <fredrik@kde.org>
-           2022-2023, Fushan Wen <qydwhotmail@gmail.com>
+           2022-2024, Fushan Wen <qydwhotmail@gmail.com>
            2000, Geert Jansen <jansen@kde.org>
            2019, Guo Yunhe <i@guoyunhe.me>
            2021-2022, Han Young <hanyoung@protonmail.com>
-           2022, Harald Sitter <sitter@kde.org>
+           2022-2023, Harald Sitter <sitter@kde.org>
            2013, Heena Mahour <heena393@gmail.com>
            2020, Henri Chain <henri.chain@enioka.com>
-           2022, ivan (@ratijas) tkachenko <me@ratijas.tk>
-           2010-2011, Ivan Cukic <ivan.cukic(at)kde.org>
-           2007, Ivan Cukic <ivan.cukic+kde@gmail.com>
-           2016-2017, Ivan Cukic <ivan.cukic@kde.org>
-           2022, ivan tkachenko <me@ratijas.tk>
+           2023-2024, Ismael Asensio <isma.af@gmail.com>
+           2007-2017, Ivan Cukic <ivan.cukic@kde.org>
+           2022-2024, ivan tkachenko <me@ratijas.tk>
            2009, Ivo Anjo <knuckles@gmail.com>
            2010, Jacopo De Simoi <wilderkde@gmail.com>
            2021, Jan Blackquill <uhhadd@gmail.com>
            2007, Jeremy Whiting <jpwhiting@kde.org>
            2022, Jonathan Marten <jjm@keelhaul.me.uk>
            2013, Jonathan Riddell <jr@jriddell.org>
-           2019-2020, Kai Uwe Broulik <kde@broulik.de>
-           2014-2018, Kai Uwe Broulik <kde@privat.broulik.de>
+           2014-2022, Kai Uwe Broulik <kde@broulik.de>
            2002, Karol Szwed <gallium@kde.org>
-           2007, Kevin Ottens <ervin@kde.org>
-           2019, Kevin Ottens <kevin.ottens@enioka.com>
+           2007-2019, Kevin Ottens <kevin.ottens@enioka.com>
            2019-2020, Konrad Materka <materka@gmail.com>
            2008, Lubos Lunak <l.lunak@suse.cz>
-           2006, Lukas Tinkl <ltinkl@suse.cz>
-           2014, Lukáš Tinkl <ltinkl@redhat.com>
-           2012-2020, Marco Martin <mart@kde.org>
-           2009, Marco Martin <notmart@gmail.com>
+           2006-2014, Lukáš Tinkl <ltinkl@redhat.com>
+           2009-2024, Marco Martin <mart@kde.org>
            1998, Mark Donohoe
            2013, Mark Gaiser <markg85@gmail.com>
-           2012-2013, Martin Graesslin <mgraesslin@kde.org>
-           2011-2017, Martin Gräßlin <mgraesslin@kde.org>
-           2013, Martin Klapetek <mklapetek(at)kde.org>
+           2012-2017, Martin Gräßlin <mgraesslin@kde.org>
            2013-2016, Martin Klapetek <mklapetek@kde.org>
            2004, Martin Koller <m.koller@surfeu.at>
            2007-2008, Matthew Woehlke <mw_triad@users.sourceforge.net>
            2001, Matthias Ettrich
            1999, Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
-           2006, Matthias Kretz <kretz@kde.org>
            2009, Matthieu Gallien <matthieu_gallien@yahoo.fr>
            2008, Montel Laurent <montel@kde.org>
-           2020, Méven Car <meven.car@enioka.com>
-           2021, Nate Graham <nate@kde.org>
+           2020-2023, Méven Car <meven@kde.org>
+           2023-2024, Natalie Clarius <natalie.clarius@kde.org>
+           2021-2024, Nate Graham <nate@kde.org>
+           2024, Niccolò Venerandi <niccolo@venerandi.com>
            2020, Nicolas Fella <nicolas.fella@gmx.de
+           2023, Noah Davis <noahadvs@gmail.com>
            2016, Olivier Churlaud <olivier@churlaud.com>
            2007, Paolo Capriotti <p.capriotti@gmail.com>
-           2008-2009, Petri Damsten <damu@iki.fi>
-           2009, Petri Damstén <damu@iki.fi>
+           2008-2009, Petri Damstén <damu@iki.fi>
            2022, Popov Eugene <popov895@ukr.net>
-           2017, Roman Gilg <subdiff@gmail.com>
+           2017-2019, Roman Gilg <subdiff@gmail.com>
            2008-2014, Sebastian Kügler <sebas@kde.org>
+           2023, Serenity Cybersecurity, LLC <license@futurecrew.ru>
            2007-2019, Shawn Starr <shawn.starr@rogers.com>
            2006-2007, Stephen Leaf <smileaf@gmail.com>
-           2022, Tanbir Jishan <tantalising007@gmail.com>
+           2022-2023, Tanbir Jishan <tantalising007@gmail.com>
+           2019, The GNOME Music developers
+           2023, Thenujan Sandramohan <sthenujan2002@gmail.com>
            2009, Thilo-Alexander Ginkel <thilo@ginkel.com>
            1998-1999, Torben Weis <weis@kde.org>
            2007, Urs Wolfer <uwolfer@kde.org>
+           2019-2023, Vlad Zahorodnii <vlad.zahorodnii@kde.org>
            2001, Waldo Bastian <bastian@kde.org>
 License: GPL-2.0-or-later
 
 Files: po/*
-Copyright: 2008, Armenian KDE Translation Team
-           2006, Canonical Ltd, and Rosetta Contributors 2006
-           2002-2018, Free Software Foundation.
-           2007-2014, Free Software Foundation Inc.
-           1998-2021, Free Software Foundation, Inc
-           2000, Jesús Bravo Álvarez
-           2008-2010, K Desktop Environment
-           2009, KDE
-           2000, KDE Team
-           1998-2004, KDE Team.
-           2007, KDE Armenian translation team
-           2000-2002, KDE e.v..
-           2007, KDE i18n Project for Vietnamese
-           2000-2002, KDE-Nederlands team <i18n@kde.nl>.
-           2000-2002, KDE-Nederlands team<i18n@kde.nl>, 2000.
-           1999-2003, Meni Livne <livne@kde.org>
-           2006, Rosetta Contributors and Canonical Ltd 2006
-           2009, Rosetta Contributors and Canonical Ltd 2009
-           2010, Rosetta Contributors and Canonical Ltd 2010
-           2012, Rosetta Contributors and Canonical Ltd 2012
-           2014, Rosetta Contributors and Canonical Ltd 2014
-           2015, Rosetta Contributors and Canonical Ltd 2015
-           2007-2018, The Free Software Foundation.
-           2002-2018, The Free Software Foundation, Inc.
-           2002-2020, This_file_is_part_of_KDE
-           2001, translate.org.za
+Copyright: 2007-2024, A S Alam <aalam.yellow@gmail.com>
+           2010, A. Akbar Hidayat <keripix@gmail.com>
+           2012-2014, Abdalrahim G. Fakhouri <abdilra7eem@yahoo.com>
+           2007, Abdulaziz AlSharif <a.a-a.s@hotmail.com>
+           2004, ABE Masanori <maas_abb@ybb.ne.jp>
+           Abhishek Jacob <abhishekjacob123@gmail.com>
+           2007, Adarsha Rao <adarsh@cadl.iisc.ernet.in>
+           2004, Adem Alp Yıldız <ademalp@linux-sevenler.org>
+           2000, Adem GUNES <adem@alaeddin.cc.selcuk.edu.tr>
+           2005, Adil Yıldız <adil@kde.org.tr>
+           2004, Adil Yıldız <adil@linux-sevenler.org>
+           2004, Adil Yıldız <adil_yildiztr@yahoo.com>
+           2013-2024, Adrian Chaves <adrian@chaves.io>
+           2010, Agron Selimaj <agron33@yahoo.com>
+           2011-2021, Agron Selimaj <linuxmaster@verizon.net>
+           2004, Ahmad M. Zawawi <azawawi@emirates.net.ae>
+           2005, Aksaule Mamayeva <ak78@sci.kz>
+           2008, Alain Sacky <nouslesfrancais@yahoo.fr>
+           2008, Albert R. Valiev <darkstar@altlinux.ru>
+           2007, Aleksejs Zosims <locale@aleksejs.id.lv>
+           2013, Alexander Lakhin <exclusion@gmail.com>
+           2009-2020, Alexander Potashev <aspotashev@gmail.com>
+           2018-2024, Alexander Yavorsky <kekcuha@gmail.com>
+           2008, Alexandre Chassignon <axcldd@gmail.com>
+           2021-2024, Alois Spitzbart <spitz234@hotmail.com>
+           2023, Alosra <aleomoeini@gmail.com>
+           2013-2016, Aman Alam <aalam@users.sf.net>
+           2020, Aman Alam <alam.yellow@gmail.com>
+           2004-2016, Amanpreet Singh Alam <aalam@users.sf.net>
+           2005-2008, Amanpreet Singh Alam <amanpreetalam@yahoo.com>
+           2004, Ambalam <tamilpc@ambalam.com>
+           2008, Amed Çeko Jiyan <amedcj@gmail.com>
+           2008, Amine Roukh <amineroukh@gmail.com>
+           2007-2010, Amine Say <aminesay@yahoo.fr>
+           2004, Ammar Tabbaa <atabba@kacst.edu.sa>
+           2009-2014, Andhika Padmawan <andhika.padmawan@gmail.com>
+           2006-2007, Andrea Celli <andrea.celli@libero.it>
+           2003-2007, Andrea Rizzi <rizzi@kde.org>
+           2009-2010, Andrej Dundović <adundovi@gmail.com>
+           2012-2018, Andrej Mernik <andrejm@ubuntu.si>
+           2011-2012, Andrej Vernekar <andrej.vernekar@gmail.com>
+           2011, Andrej Žnidaršič <andrej.znidarsic@ubuntu.com>
+           2004-2011, Andrew Coles <andrew_coles@yahoo.co.uk>
+           2009-2011, Andrey Cherepanov <skull@kde.ru>
+           2001-2005, Andrey S. Cherepanov <sibskull@mail.ru>
+           2008-2010, Andrius Štikonas <andrius@stikonas.eu>
+           2008-2020, André Marcelo Alvarenga <alvarenga@kde.org>
+           2008, ANI PETER|അനി പീറ്റര് <peter.ani@gmail.com>
+           2009-2013, Anne-Marie Mahfouf <annma@kde.org>
+           2008, Antanas Uršulis <antanas.ursulis@gmail.com>
+           2001, Antoinette Dekeni <antoinette@transalate.org.za>
+           2013-2014, Antonis Geralis <gaantonio@civil.auth.gr>
+           2007, AP S Alam <aalam@users.sf.net>
+           2014-2017, Aracele Torres <aracele@kde.org>
+           2011, Aracele Torres <araceletorres@gmail.com>
+           2002, Arangel Angov <ufo@linux.net.mk>
+           2009, Arindam Ghosh <arindam.foss@gmail.com>
+           2010, arkarjun <arkarjun@gmail.com>
+           2003-2005, Arnar Leósson <leosson@frisurf.no>
+           2008, Arnaud <arnaud.bienner@gmail.com>
+           2004, Arpad Biro <biro_arpad@yahoo.com>
+           2008, Artem Sereda <overmind88@gmail.com>
+           2010, Artur Chłond <eugenewolfe@o2.pl>
+           2007-2014, ASB <aalam@users.sf.net>
+           2009-2010, Ashok Kumar <ashok567@gmail.com>
+           2008, Asier Urio Larrea <asieriko@gmail.com>
+           2006-2008, Auk Piseth <piseth_dv@khmeros.info>
+           2011, Arve Eriksson <031299870@telia.com>
+           2003-2006, Axel Bojer <fri_programvare@bojer.no>
+           2007, Axel Rousseau <axel584@axel584.org>
+           2009-2010, Axel Rousseau <axel@esperanto-jeunes.org>
+           2008, Ayhan YALÇINSOY <dellpardus@hotmail.com>
+           2022, Aziz Adam Adrian <4.adam.adrian@gmail.com>
+           1998, Balazs Nagy <julian7@kva.hu>
+           2012-2014, Balázs Úr <urbalazs@gmail.com>
+           2000, Barış Metin <baris@gelecek.com.tr>
+           2005, berend ytsma <berendy@bigfoot.com>
+           2005-2007, Bianka Šwejdźic <hertn@gmx.de>
+           2000, Bjarni R. Einarsson <bre@netverjar.is>
+           2007-2008, Bjørn Kvisli <bjorn.kvisli@gmail.com>
+           2002-2015, Bjørn Steensrud <bjornst@skogkatt.homelinux.org>
+           2012, Bouklis Panos <panos@echidna-band.com>
+           2004-2010, Bozidar Proevski <bobibobi@freemail.com.mk>
+           2006, Bram Schoenmakers <bramschoenmakers@kde.nl>
+           2000, Branislav Gajdoš <brian@linuxee.sk>
+           2007-2013, Bruno Patri <bruno.patri@gmail.com>
+           2008-2021, Burkhard Lück <lueck@hube-lueck.de>
+           2004, Börkur Ingi Jónsson <berkz@internet.is>
+           2002-2008, Børre Gaup <boerre@skolelinux.no>
+           2017, Camila Moura <camila.moura@kde.org>
+           2003, CAULIER Gilles <caulier.gilles@free.fr>
+           2003, Cedric Pasteur <cedric.pasteur@free.fr>
+           2002-2003, Chao-Hsiung Liao <pesder.liao@msa.hinet.net>
+           2021, Chaoting Liu <brli@chakralinux.org>
+           2003, Charles de Miramon <cmiramon@kde-france.org>
+           2002, Chen Yang <chenyang@elsewhere.idv.tw>
+           2012-2014, Chetan Khona <chetan@kompkin.com>
+           2005, Cho Sung-Jae <jachin@hanafos.com>
+           2005-2017, Chusslove Illich <caslav.ilic@gmx.net>
+           2007-2009, Cindy McKee <cfmckee@gmail.com>
+           2003-2005, Claudiu Costin <claudiuc@kde.org>
+           2006-2007, Clytie Siddall <clytie@riverland.net.au>
+           2011, Cristian Buzduga <cristianbzdg@gmail.com>
+           2011-2013, Cristian Oneț <onet.cristian@gmail.com>
+           2010-2011, Cristina Yenyxe González García <the.blue.valkyrie@gmail.com>
+           2009-2011, Dalibor Djuric <daliborddjuric@gmail.com>
+           2003, Daniele Medri <madrid@linuxmeeting.net>
+           2009-2011, Danishka Navin <danishka@gmail.com>
+           2000-2003, Danko Ilik <danko@mindless.com>
+           2008-2009, Darafei Praliaskouski <komzpa@gmail.com>
+           2007, Darafei Praliaskouski <komzpa@licei2.com>
+           2006, Darafei Praliaskouski <symbol@akeeri.tk>
+           2008-2010, Deepayan Sarkar <deepayan.sarkar@gmail.com>
+           2004-2006, Deepayan Sarkar <deepayan@bengalinux.org>
+           2003-2004, Delafond <gerard@delafond.org>
+           1998, Denis Pershin <dyp@perchine.com>
+           2004-2013, Diego Iastrubni <elcuco@kde.org>
+           2011, Dimitar Popov <insane@fmi.uni-sofia.bg>
+           2011-2014, Dimitrios Glentadakis <dglent@free.fr>
+           2000-2002, Dimitris Kamenopoulos <d.kamenopoulos@mail.ntua.gr>
+           2014-2017, Dimitris Kardarakos <dimkard@gmail.com>
+           2007-2008, Diniz Bortolotto <diniz.bortolotto@gmail.com>
+           2010-2011, Djan Cayron <jean.cayron@gmail.com>
+           2000-2003, Dmitri Ovechkin <d_ovechkin@hotmail.com>
+           2009, DoDo <DoDoEntertainment@gmail.com>
+           2004, Dofri Jonsson <imp@hell.is>
+           2004-2012, Donatas G. <dgvirtual@akl.lt>
+           2007, doutor.zero <doutor.zero@gmail.com>
+           2003, Dror Levin <spatz@012.net.il>
+           2020, Dušan Kazik <prescott66@gmail.com>
+           2005-2021, Eduard Werner <edi.werner@gmx.de>
+           2002, Edward G.J. Lee <edt1023@speedymail.org>
+           2016, ehsan <ehsan.abdolahy@gmail.com>
+           2010-2011, Einars Sprugis <einars8@gmail.com>
+           2008-2011, Eirik U. Birkeland <eirbir@gmail.com>
+           2016-2017, Elkana Bardugo <ttv200@gmail.com>
+           2005-2024, Eloy Cuadra <ecuadra@eloihr.net>
+           2022-2024, Emir SARI <emir_sari@icloud.com>
+           2007, Eng Vannak <evannak@khmeros.info>
+           2023-2024, Enol P. <enolp@softastur.org>
+           2007, Enrique Matias Sanchez (aka Quique) <cronopios@gmail.com>
+           2007-2009, Erdal Ronahi <erdal.ronahi@nospam.gmail.com>
+           1998-2006, Erik Kjær Pedersen <erik@binghamton.edu>
+           2000, Erol Öz <eroloz@bilgi.edu.tr>
+           2010, Ershad K <ershad92@gmail.com>
+           2005, Eskild Hustvedt <zerodogg@skolelinux.no>
+           2007, Espen Talberg <espental@gmail.com>
+           2002-2004, Eugene Zelenko <greendeath@mail.ru>
+           2008, Evgeniy Ivanov <powerfox@kde.ru>
+           2007-2015, Federico Zenith <federico.zenith@member.fsf.org>
+           2008, Federico Zenith <zenith@chemeng.ntnu.no>
+           2023, Ferdinand Galko <galko.ferdinand@gmail.com>
+           2008, Fernando Boaglio <boaglio@kde.org>
+           2020, Frank Steinmetzger <Warp_7@gmx.de>
+           2007-2017, Franklin Weng <franklin@goodhorse.idv.tw>
+           2018-2024, Frederico Gonçalves Guimarães <frederico@teia.bio.br>
+           2008-2023, Frederik Schwarzer <schwarzer@kde.org>
+           2009-2024, Freek de Kruijf <freekdekruijf@kde.nl>
+           2001-2002, Frikkie Thirion <frix@expertron.co.za>
+           2005-2023, Fumiaki Okushi <fumiaki.okushi@gmail.com>
+           2007-2010, Fumiaki Okushi <okushi@kde.gr.jp>
+           2015-2018, Fuminobu Takeyama <ftake@geeko.jp>
+           2007-2020, G Karunakar <karunakar@indlinux.org>
+           1999-2006, Gaute Hvoslef Kvalnes <gaute@verdsveven.com>
+           2014, Geoffray Levasseur <geoffray.levasseurbrandin@numericable.fr>
+           2023-2024, Geraldo Simiao <geraldosimiao@fedoraproject.org>
+           Gheyret Kenji <gheyret@gmail.com>
+           2003, Gilles Caulier <caulier.gilles@free.fr>
+           2008, Gintautas Miselis <gintautas@miselis.lt>
+           2010-2024, Giovanni Sora <g.sora@tiscali.it>
+           2008, Goodhorse <franklin@goodhorse.idv.tw>
+           2002-2005, Gregor Rakar <gregor.rakar@kiss.si>
+           2002-2005, Gregory Mokhin <mok@kde.ru>
+           2008-2011, Guillaume Pujol <guill.p@gmail.com>
+           2022-2024, Guðmundur Erlingsson <gudmundure@gmail.com>
+           2002-2004, Gérard Delafond <gerard@delafond.org>
+           2002-2004, Görkem Çetin <gorkem@kde.org>
+           2010-2013, H. İbrahim Güngör <ibrahim@pardus.org.tr>
+           2012, Hajur Alasefer <frostbutterfly@gmail.com>
+           1998-2002, Hans Petter Bieker <bieker@kde.org>
+           2008, HARI VISHNU <harivishnu@gmail.com>
+           2008, Hari|ഹരി  Vishnu | വിഷ്ണു <harivishnu@gmail.com>
+           1999-2005, Hasso Tepper <hasso@estpak.ee>
+           2003-2004, Heiko Evermann <heiko@evermann.de>
+           2003, Henrique Pinto <stampede@coltec.ufmg.br>
+           2000, Hermann Zheboldov <Hermann.Zheboldov@shq.ru>
+           2013, Hizkuntza Politikarako Sailburuordetza <hizpol@ej-gv.es>
+           2007-2008, Hoàng Đức Hiếu <hieu.d.hoang@gmail.com>
+           2010, Hrishikesh.KB <hrishi.kb@gmail.com>
+           2003-2004, Hydonsingore Sie <hydonsingore@mail.educities.edu.tw>
+           2006, Håkon Trandal <cheesesucker@sinnsyk.com>
+           2003-2009, Håvard Korsvoll <korsvoll@skulelinux.no>
+           2008, Ignacio Poggi <ignaciop.3@gmail.com>
+           2021, Ignacy Kajdan <ignacy.kajdan@gmail.com>
+           2000, Igor Azarniy <azarniy@usa.net>
+           2003, Igor Popovski <igor@popovski.com.mk>
+           2006-2008, Ihar Hrachyshka <ihar.hrachyshka@gmail.com>
+           2005, Ilpo Kantonen <ilpo@iki.fi>
+           2008, Il'ya Mertsalov <a567765@yandex.ru>
+           2005, Ion Gaztañaga <igaztanaga@gmail.com>
+           2001-2002, Isam Bayazidi <bayazidi@arabeyes.org>
+           2006, Ishwor sharma <sharmabeeshwar@gmail.com>
+           2007, Ivan Petrouchtchak <ivanpetrouchtchak@yahoo.com>
+           2004-2024, Iñigo Salvador Azurmendi <xalba@ni.eus>
+           2021, Jacob Dybvald Ludvigsen <jacob.ludvigsen@protonmail.com>
+           2003-2009, Jaime Robles <jaime@robles.es>
+           2024, Janet Blackquill <uhhadd@gmail.com>
+           2023, Jannick Kuhr <opensource@kuhr.org>
+           2011-2012, Javier Vinal <fjvinal@gmail.com>
+           1999, Jañ-Mai Drapier <jdrapier@club-internet.fr>
+           2007-2014, Jean Cayron <jean.cayron@gmail.com>
+           2007-2010, Jean-Jacques Finazzi <mrjay01@users.sourceforge.net>
+           2000, Jesús Bravo Álvarez <jba@pobox.com>
+           2001, Jing-Jong Shyue <shyue@sonoma.com.tw>
+           2012, Jiri Grönroos <jiri.gronroos@iki.fi>
+           2017, Johan Claude-Breuninger <johan.claudebreuninger@gmail.com>
+           2009-2023, Johannes Obermayr <johannesobermayr@gmx.de>
+           1998, John Zero <johnzero@telnet.hu>
+           2006, Joonas Niilola <juippis@roskakori.org>
+           2010-2011, Jorma Karvonen <karvonen.jorma@gmail.com>
+           2008, Jozef Vydra <vydrajojo@gmail.com>
+           2009-2013, Joëlle Cornavin <jcorn@free.fr>
+           2004, Juan Irigoien <juanirigoien@gmail.com>
+           2005, Juanita Franz <juanita.franz@vr-web.de>
+           2012-2020, Julia Dronova <juliette.tux@gmail.com>
+           2008-2010, Julien Richard-Foy <julien.rf@no-log.org>
+           2010, Jumpei Ogawa <phanective@gmail.com>
+           2019-2021, JungHee Lee <daemul72@gmail.com>
+           2006-2024, Jure Repinc <jlp@holodeck1.com>
+           2014, Kaan Ozdincer <kaanozdincer@gmail.com>
+           2006, Kapil Timilsina <lipak21@gmail.com>
+           2000, Karl Backström <backstrom@kde.org>
+           2004-2023, Karl Ove Hufthammer <karl@huftis.org>
+           2008-2010, Kartik Mistry <kartik.mistry@gmail.com>
+           2011, Katarzyna Gierlach <gierlach_k@yahoo.pl>
+           2003-2004, KD at Kyfieithu <kyfieithu@dotmon.com>
+           2011, KDE 4 <megaribi@epn.ba>
+           2023-2024, KDE euskaratzeko proiektuaren arduraduna <xalba@ni.eus>
+           2023-2024, KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>
+           2000-2002, KDE-Nederlands team <i18n@kde.nl>
+           2002, Kenduest Lee <kenduest@i18n.linux.org.tw>
+           2003, Keng-Yu Lin <s9321028@ncnu.edu.tw>
+           2004, Kenshi Muto <kmuto@debian.org>
+           2005, Kevin Donnelly <kevin@dotmon.com>
+           2009-2012, Kevin Scannell <kscanne@gmail.com>
+           2021-2023, Kheyyam Gojayev <xxmn77@gmail.com>
+           2005-2012, Khoem Sokhem <khoemsokhem@khmeros.info>
+           2002-2006, Kim Enkovaara <kim.enkovaara@iki.fi>
+           2002, KIM KyungHeon <tody@teoal.net>
+           2024, Kimmo Kujansuu <mrkujansuu@gmail.com>
+           2010, Kira J. Fernandez <kirajfdez@gmail.com>
+           2022-2024, Kisaragi Hiu <mail@kisaragi-hiu.com>
+           2021-2024, Kishore G <kishore96@gmail.com>
+           2017-2024, Kiszel Kristóf <kiszel.kristof@gmail.com>
+           2010-2019, Kiszel Kristóf <ulysses@kubuntu.org>
+           2011, Klemen Košir <klemen.kosir@gmx.com>
+           2003, Knut Erik Hollund <khollund@responze.net>
+           2002-2005, Knut Yrvin <knut.yrvin@gmail.com>
+           2005, Kobus Venter <kabousv@therugby.co.za>
+           Koldo Navarro <koldo.np@euskalnet.net>
+           2001, Konstantin Volckov <goldhead@linux.ru.net>
+           2008, Koray Löker <loker@pardus.org.tr>
+           2009, Krishna Babu K <kkrothap@redhat.com>
+           2008-2009, Kristof Bal <kristof.bal@gmail.com>
+           2010-2024, Kristof Kiszel <ulysses@fsf.hu>
+           2005-2006, Krzysztof Lichota <lichota@mimuw.edu.pl>
+           2004, Kurose Shushi <md81@bird.email.ne.jp>
+           2004, Kyuhyong <root@localhost.localdomain>
+           2010-2024, Lasse Liehu <lasse.liehu@gmail.com>
+           2002-2003, Lasse Wigelius <lasse.wigelius@same.net>
+           2010, Laszlo Papp <djszapi@archlinux.us>
+           2008-2009, Laurenţiu Buzdugan <lbuz@rolix.org>
+           2007-2012, Leonardo Finetti <finex@finex.org>
+           2002-2008, Leonid Kanter <leon@asplinux.ru>
+           2022-2023, Linerly <linerly@protonmail.com>
+           2002-2005, Lisiane Sztoltz <lisiane@conectiva.com.br>
+           2004, Littleagle Thoronaug <thoronaug@yahoo.es>
+           2012-2015, Liudas Ališauskas <liudas.alisauskas@gmail.com>
+           1998-2003, Logi Ragnarsson <logi@logi.org>
+           2018, Lorenz Adam Damara <lorenzrenz@gmail.com>
+           1998-2002, Lorint Hendschel <Laurent.Hendschel@skynet.be>
+           2008, Luca Bellonda <lbellonda@gmail.com>
+           2003-2016, Luciano Montanaro <mikelima@cirulla.net>
+           2002-2008, Ludovic Grossard <grossard@kde.org>
+           2014-2024, Luigi Toscano <luigi.toscano@tiscali.it>
+           2008-2023, Luiz Fernando Ranghetti <elchevive@opensuse.org>
+           2010-2013, Lukáš Tinkl <ltinkl@redhat.com>
+           2002, Lwandle Mgidlana <lwandle@translate.org.za>
+           2011-2013, Lê Hoàng Phương <herophuong93@gmail.com>
+           2008-2010, Maciej Wikło <maciej.wiklo@wp.pl>
+           2005, Mahay Alam Khan <makl10n@yahoo.com>
+           2007, Mahesh Subedi <submanesh@gmail.com>
+           2004, Mahrazi Mohd Kamal <mahrazi@gmail.com>
+           2001, Majid Moggamel <Anatolia@linux-team.org>
+           2002-2009, Malcolm Hunter <malcolm.hunter@gmx.co.uk>
+           2008-2011, Manfred Wiese <m.j.wiese@web.de>
+           2009, Manoj Kumar Giri <mgiri@redhat.com>
+           2007, Manu B <iammanu@gmail.com>
+           2009, Manuel Tortosa Moreno <manutortosa@chakra-project.org>
+           2002-2003, Maratonec <kjdskjds@dksjd>
+           2008-2014, Marce Villarino <mvillarino@gmail.com>
+           2007-2012, Marcello Anni <marcello.anni@alice.it>
+           2003-2004, Marcin Garski <mgarski@post.pl>
+           2002-2010, Marcos <marcos@euskalgnu.org>
+           2004-2012, Marcus Gama <marcus.gama@gmail.com>
+           2003-2020, Marek Laane <bald@smail.ee>
+           2005-2024, Maris Nartiss <maris.kde@gmail.com>
+           2000, Marián Čavojský <cavojsky@soria-grey.sk>
+           2006-2009, Mark Kwidzińsczi <mark@linuxcsb.org>
+           2009-2011, Marko Dimjašević <marko@dimjasevic.net>
+           2003-2004, Marko Rosic <roske@kde.org.yu>
+           1999, Marko Samastur <markos@elite.org>
+           2010-2013, Markus Slopianka <markus.s@kdemail.net>
+           2009, Markus Sunela <markus.sunela@tut.fi>
+           2007-2013, Marta Rybczyńska <kde-i18n@rybczynska.net>
+           2008-2022, Martin Schlander <mschlander@opensuse.org>
+           2020-2022, Martin Srebotnjak <miles@filmsi.net>
+           2006, MaryamSadat Razavi <razavi@itland.ir>
+           2004, Masaharu 'Max' Goto <magotou@fubyshare.gr.jp>
+           2003-2009, Mashrab Kuvatov <kmashrab@uni-bremen.de>
+           2008, Matas Brazdeikis <matasbbb@gmail.com>
+           2018-2024, Matej Mrenica <matejm98mthw@gmail.com>
+           2020-2024, Matjaž Jeran <matjaz.jeran@amis.net>
+           2004-2005, Matthias Peick <matthias@peick.de>
+           2002-2012, Matthieu Robin <matthieu@macolu.org>
+           2000-2004, Mattias Newzella <newzella@linux.nu>
+           2014-2015, Maxence Le Doré <maxence.ledore@gmail.com>
+           2014-2017, Maxime Corteel <mcorteel@gmail.com>
+           1999-2007, Meni Livne <livne@kde.org>
+           2012, Michael Moroni <michael.moroni@mailoo.org>
+           2007, Michal Ostrowski <michol@linuxcsb.org>
+           2002-2010, Michał Rudolf <mrudolf@kdewebdev.org>
+           2009-2011, Michal Sulek <misurel@gmail.com>
+           2005, Michel Ludwig <michel.ludwig@kdemail.net>
+           2006-2009, Michôł Òstrowsczi <michol@linuxcsb.org>
+           2008-2012, Mickaël Sibelle <kimael@gmail.com>
+           2008-2013, Miguel Branco <mgl.branco@gmail.com>
+           2003-2004, Miguel Revilla Rodríguez <yo@miguelrevilla.com>
+           2000, Mihail Kozlov <mihnik_k@mail.ru>
+           2020-2022, Mihkel Tõnnov <mihhkel@gmail.com>
+           2007-2008, Mikko Piippo <piippo@cc.helsinki.fi>
+           2001, Milos Puzovic <m.puzovic@etoncollege.org.uk>
+           2022-2024, Mincho Kondarev <mkondarev@yahoo.de>
+           2015, Mindaugas <embar@super.lt>
+           2010-2020, Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>
+           2009, Miroslav David <mirodav@gmail.com>
+           2001, Mohamed Eldesoky <mohamed@handasarabia.org>
+           2011-2013, Mohammad Reza Mirdamadi <mohi@linuxshop.ir>
+           2001, Mohammed Ibrahim Halabi <mih_flyer@hotmail.com>
+           2016, Mohi Mirdamadi <mohi@ubuntu.ir>
+           2018-2019, Mthw <jari_45@hotmail.com>
+           2003, Muhammad Najmi Ahmad Zabidi <md_najmi@yahoo.com>
+           2003, Muhammad Najmi bin Ahmad Zabidi <md_najmi@yahoo.com>
+           2008, Muhammet Kara <muhammet.k@gmail.com>
+           2004, Munzir Taha <munzir@kacst.edu.sa>
+           2007-2009, mvillarino <mvillarino@users.sourceforge.net>
+           2023-2024, Māris Nartišs <maris.kde@gmail.com>
+           2006-2007, Nabin Gautam <nabin@mpp.org.np>
+           2008, Narachai Sakorn <narachai@gmail.com>
+           2006, Nasim Daniarzadeh <daniarzadeh@itland.ir>
+           2006-2007, Nazanin Kazemi <kazemi@itland.ir>
+           2009, Netanel_h <netanel@gmx.com>
+           2002, Nguyễn Hưng Vũ <Vu.Hung@techviet.com>
+           2003, Nick Shafff <shafff@ukr.net>
+           2004-2011, Nick Shaforostoff <shafff@ukr.net>
+           2007-2013, Nicola Ruggero <nicola@nxnt.org>
+           2004-2012, Nicolas Ternisien <nicolas.ternisien@gmail.com>
+           2000, Niels Reedijk <n.reedijk@planet.nl>
+           2005-2007, Niklas Laxström <niklas.laxstrom+kdetrans@gmail.com>
+           2011, Nikos Pantazis <pantazisnikolaos@gmail.com>
+           2003, Nils Johan Utsi <njutsi@frisurf.no>
+           2005-2007, Nils Kristian Tomren <slx@nilsk.net>
+           2015, Nils Naumann <nau@gmx.net>
+           2002, Noboru Sinohara <shinobo@leo.bekkoame.ne.jp>
+           Norbert Popiołek <norbert@kde.com.pl>
+           2003, Novica Nakov <novica@bagra.net.mk>
+           2006, Nurali Abdurahmonov <mavnur@gmail.com>
+           2022, Olesya Gerasimenko <translation-team@basealt.ru>
+           2023-2024, Oliver Kellogg <olivermkellogg@gmail.com>
+           2009, Oliver Mucafir <oliver.untwist@gmail.com>
+           2010, Onur Küçük <onur@pardus.org.tr>
+           2007, Oskars <osk@one.lv>
+           2004, Ossama M. Khayat <okhayat@yahoo.com>
+           2010-2013, Ozan Çağlayan <ozan@pardus.org.tr>
+           2000-2007, Pablo de Vicente <pablo.devicente@gmail.com>
+           2002-2007, Pablo Saratxaga <pablo@walon.org>
+           2002, Paladin Liu <paladin@ms1.hinet.net>
+           2009-2011, Panagiotis Papadopoulos <pano_90@gmx.net>
+           2016-2024, Paolo Zamponi <feus73@gmail.com>
+           2001, Park Yu-Chan <super@susekorea.net>
+           2008-2009, Peter Mihálik <udavac@inmail.sk>
+           2007, Peter Murdoch <pete@pmurdoch.com>
+           2010-2017, Petros Vidalis <pvidalis@gmail.com>
+           2006, Phan Vĩnh Thịnh <teppi82@gmail.com>
+           2010, phanect <phanective@gmail.com>
+           2020-2023, Phu Hung Nguyen <phu.nguyen@kdemail.net>
+           2010, Phuwanat Sakornsakolpat <narachai@gmail.com>
+           2007, pierluigi <pier_andreit@yahoo.it>
+           2007-2008, Pierre-Marie Pédrot <pedrotpmx@wanadoo.fr>
+           2006-2020, Pino Toscano <toscano.pino@tiscali.it>
+           2003, Pjetur G. Hjaltason <pjetur@pjetur.net>
+           2008, Pragnesh Radadiya <pg.radadia@gmail.com>
+           2008, Prasad.S.R <saysprasad@gmail.com>
+           2008-2010, Praveen Arimbrathodiyil <pravi.a@gmail.com>
+           2008, Praveen|പ്രവീണ് A|എ <pravi.a@gmail.com>
+           2003-2004, Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>
+           2009, qeqe <danishka@gmail.com>
+           2020-2023, Raghavendra Kamath <raghu@raghukamath.com>
+           2007, Raivis Dejus <orvils@gmail.com>
+           2008-2010, Rajesh Ranjan <rajesh672@gmail.com>
+           2007, Ramaprakasha <ramaprakash.b@gmail.com>
+           2004-2009, Ravishankar Shrivastava <raviratlami@aol.in>
+           2020, rawkoder <rawkoder@fastmail.in>
+           2011, Remigijus Jarmalavičius <remigijus@jarmalavicius.lt>
+           1998-2007, Richard Allen <ra@ra.is>
+           2006-2011, Richard Frič <Richard.Fric@kdemail.net>
+           2000-2010, Rinse de Vries <rinsedevries@kde.nl>
+           2002-2003, Ričardas Čepas <rch@richard.eu.org>
+           2006, Robert Gomulka <rgom@o2.pl>
+           2003, Robert Jacolin <rjacolin@ifrance.com>
+           2009, Robert Millan <rmh@aybabtu.com>
+           2009, Rolf Eike Beer <kde@opensource.sf-tec.de>
+           2000-2003, Roman Maurer <roman@lugos.si>
+           2012-2023, Roman Paholík <wizzardsk@gmail.com>
+           2006-2009, Runa Bhattacharjee <runabh@gmail.com>
+           2004, Ryuichi Kakuda <ryuk@user.script.nu>
+           2022-2024, Ryuichi Yamada <ryuichi_ya220@outlook.jp>
+           2003, Rıdvan CAN <ridvan@geleceklinux.org>
+           2011, Rūdofls Mazurs <rudolfs.mazurs@gmail.com>
+           2001, Sae-keun Kim <segni@susekorea.net>
+           2014-2017, Safa Alfulaij <safa1996alfulaij@gmail.com>
+           2005-2007, Sahachart Anukulkitch <drrider@gmail.com>
+           2011, Sahran <sahran.ug@gmail.com>
+           2008, Saied Taghavi <s.taghavi@gmail.com>
+           2005-2013, Sairan Kikkarin <sairan@computer.org>
+           2012, Samir Ribic <megaribi@epn.ba>
+           2009, Sandeep Shedmake <sandeep.shedmake@gmail.com>
+           2008-2010, Sangeeta Kumari <sangeeta09@gmail.com>
+           2005-2007, Santiago Fernandez Sancho <santi@kde-es.org>
+           2003, Sayamindu Dasgupta <unmadindu@Softhome.net>
+           2002, Sayed Jaffer Al-Mosawi <mosawi@arabeyes.org>
+           2010-2015, Sebastien Renard <renard@kde.org>
+           2007, sebo <tetsuo3@free.fr>
+           2007-2013, Serdar Soytetir <tulliana@gmail.com>
+           2008-2024, Sergiu Bivol <sergiu@cip.md>
+           2010, seshagiri prabhu <seshagiriprabhu@gmail.com>
+           2008-2011, Shankar Prasad <svenkate@redhat.com>
+           2004-2011, Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>
+           2008, SHIJU ALEX|ഷിജൂ അലക്സ് <shijualexonline@gmail.com>
+           2005, Shinichi Tsunoda <tsuno@ngy.1st.ne.jp>
+           2007-2024, Shinjo Park <kde@peremen.name>
+           2004, Shinsaku Nakagawa <shinsaku@users.sourceforge.jp>
+           2007, Shiva Pokharel <shiva@mpp.org.np>
+           2006, Shiva Prasad Pokharel <pokharelshiva@hotmail.com>
+           2003, Shlomi Loubaton <shlomil@hotmail.com>
+           2006-2007, Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>
+           2007-2008, Siarhei Liantsevich <serzh.by@gmail.com>
+           2019, Sidlovsky Yaroslav <zawertun@gmail.com>
+           2018-2020, Simon Depiets <sdepiets@gmail.com>
+           2007, Sokun <sokun_poch@khmeros.info>
+           2008, sparc3 <sparc3@azet.sk>
+           2005-2008, Spiros Georgaras <sngeorgaras@otenet.gr>
+           2001-2005, Stanislav Visnovsky <visnovsky@kde.org>
+           2004-2024, Stefan Asserhäll <stefan.asserhall@gmail.com>
+           2002, Steffen Pietsch <Steffen.Pietsch@BerlinOnline.de>
+           2012-2016, Stelios <sstavra@gmail.com>
+           2005-2007, Stephan Johach <hunsum@gmx.de>
+           2002-2004, Stergios Dramis <sdramis@egnatia.ee.auth.gr>
+           2014-2024, Steve Allewell <steve.allewell@gmail.com>
+           2009, Styopa Semenukha <semenukha@gmail.com>
+           2004, Stígur Snæsson <stigur@vortex.is>
+           2009, Sushruth Tendulkar <sushtend@gmail.com>
+           2004, Svanur Palsson <svanur@tern.is>
+           2008-2024, Sveinn í Felli <sv1@fellsnet.is>
+           2008-2010, Sweta Kothari <swkothar@redhat.com>
+           2002, Séamus Ó Ciardhuáin <seoc@cnds.ucd.ie>
+           2007-2012, Sébastien Renard <Sebastien.Renard@digitalfox.org>
+           2004-2014, Sönke Dibbern <s_dibbern@web.de>
+           2005, Tadashi Jokagi <elf2000@users.sourceforge.net>
+           2006, Tahereh Dadkhahfar <dadkhahfar@itland.ir>
+           2002-2010, Taiki Komoda <kom@kde.gr.jp>
+           2008, Tamara Zeynalyan <tamara@debian.am>
+           2009, Tamas Szanto <taszanto@gmail.com>
+           2000-2009, Tamas Szanto <tszanto@interware.hu>
+           2002-2004, Tapio Kautto <eleknader@phnet.fi>
+           2003-2009, Teemu Rytilahti <teemu.rytilahti@d5k.net>
+           2003-2010, Thanomsub Noppaburana <donga.nb@gmail.com>
+           2002, Thelma Lungcuzo <thelma@translate.org.za>
+           1998, Theodore J. Soldatos <theodore@eexi.gr>
+           2020-2021, Thiago Masato Costa Sueto <herzenschein@gmail.com>
+           2004-2005, Thierry Vignaud <tvignaud@mandriva.com>
+           2002-2005, Thomas Diehl <thd@kde.org>
+           2005-2010, Thomas Reitelbach <tr@erdfunkstelle.de>
+           1998, Thomas Tanghus <tanghus@earthling.net>
+           2014-2022, Thomas Vergnaud <thomas.vergnaud@gmx.fr>
+           2002, Thuraiappah Vaseeharan <vasee@ieee.org>
+           2003, Tiron Andric <tiron@beotel.yu>
+           2021, Toda Ryunosuke <toda.ryunosuke@gmail.com>
+           2000, Togan Müftüoğlu <toganm@yahoo.com>
+           2004, Tom Albers <toma@omat.nl>
+           2010-2011, Tomas Straupis <tomasstraupis@gmail.com>
+           2009-2024, Tommi Nieminen <translator@legisign.org>
+           2019-2021, Tomohiro Hyakutake <tomhioo@outlook.jp>
+           2024, Toms Trasuns <toms.trasuns@posteo.net>
+           2010-2013, Tomáš Chvátal <tomas.chvatal@gmail.com>
+           2003-2005, Toplica Tanaskovic <toptan@kde.org.yu>
+           2005-2009, Toussis Manolis <manolis@koppermind.homelinux.org>
+           2004, Toyohiro Asukai <toyohiro@ksmplus.com>
+           2003, Tsung-Chien Ho <iitze@hotmail.com>
+           2001, Tung-Han Hsieh <thhsieh@linux.org.tw>
+           2007-2008, Umesh Rudrapatna <umeshrs@gmail.com>
+           2004-2007, UTUMI Hirosi <utuhiro78@yahoo.co.jp>
+           2007-2008, Vardan Gevorgyan <vardangevorgyan@yahoo.com>
+           2004, Vasee Vaseeharan <vasee@ieee.org>
+           2009-2010, Vasudev Kamath <kamathvasudev@gmail.com>
+           2009, Vesna Rus <rus.vesna@yahoo.com>
+           2003-2021, Victor Ibragimov <victor.ibragimov@gmail.com>
+           2007-2010, Viesturs Zariņš <viesturs.zarins@mii.lu.lv>
+           2008, Vijay Kiran Kamuju <infyquest@gmail.com>
+           2013-2017, Vincent Pinon <vpinon@kde.org>
+           2007-2024, Vincenzo Reale <smart2128vr@gmail.com>
+           2013-2023, Vit Pelcak <vit@pelcak.org>
+           2000, Vitaly Lopatin <vitls@chat.ru>
+           2013-2022, Volkan Gezer <volkangezer@gmail.com>
+           2004, Volker Jockheck <volkae@gmx.net>
+           2010-2024, Vít Pelčák <vit@pelcak.org>
+           2011, W.H. Kalpa Pathum <callkalpa@gmail.com>
+           2016-2024, Wantoyo <wantoyek@gmail.com>
+           2003, Wilbert Berendsen <wbsoft@xs4all.nl>
+           2019-2020, William Oprandi <william.oprandi@gmail.com>
+           2002, Wojciech Milewski <Wojciech.Milewski@wp.pl>
+           1998-2000, Wolfram Diestel <wolfram@steloj.de>
+           2003, www.kyfieithu.co.uk <kyfieithu@dotmon.com>
+           2003, www.gyfieithu.co.uk <kyfieithu@dotmon.com>
+           2002-2007, Xabi García Feal <xabigf@gmx.net>
+           2008-2014, xalba <xalba@euskalnet.net>
+           2012-2024, Xavier Besnard <xavier.besnard@kde.org>
+           2009, Xosé <xosecalvo@gmail.com>
+           2020-2023, Xəyyam Qocayev <xxmn77@gmail.com>
+           2006-2008, Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>
+           2023-2024, Yaron Shahrabani <sh.yaron@gmail.com>
+           2019, Yaroslav Sidlovsky <zawertun@gmail.com>
+           2009-2011, Yasen Pramatarov <yasen@lindeas.com>
+           2018-2020, Yi-Jyun Pan <pan93412@gmail.com>
+           2015-2019, Yoann Laissus <yoann.laissus@gmail.com>
+           2004, Yoichiro Takehora <takehora@kde.gr.jp>
+           2007, Youssef Chahibi <chahibi@gmail.com>
+           2002, Yuan-Chen Cheng <ycheng@slat.org>
+           2006-2010, Yukiko Bando <ybando@k6.dion.ne.jp>
+           2010-2013, Yuri Efremov <yur.arh@gmail.com>
+           2005, Zaklina Gjalevska <gjalevska@yahoo.com>
+           2009, Zarko Pintar <zarko.pintar@gmail.com>
+           2008-2024, Zayed Al-Saidi <zayed.alsaidi@gmail.com>
+           2000, Zhitomirsky Sergey <szh@chat.ru>
+           2006-2009, Zlatko Popov <zlatkopopov@fsa-bg.org>
+           2022-2024, Zmicier Turok <zmicerturok@gmail.com>
+           2002, Ömer Fadıl USTA <omer_fad@hotmail.com>
+           2018-2022, Øystein Steffensen-Alværvik <oysteins.omsetting@protonmail.com>
+           2011-2024, Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>
+           2012-2013, Αντώνης Γέραλης <capoiosct@gmail.com>
+           2008, Σπύρος Γεωργαράς <sngeorgaras@otenet.gr>
+           2008, Артём Середа <overmind88@gmail.com>
+           2020, Дронова Ю <juliette.tux@gmail.com>
+           2005-2014, דיאגו יסטרובני <elcuco@kde.org>
+           2007, عبدالعزيز الشريف <a.a-a.s@hotmail.com>
+           2008, محمد ابراهيم الحرقان <malham1@hotmail.com>
+           2006, محمد سعد  Mohamed SAAD <metehyi@free.fr>
+           2008, ஆமாச்சு <amachu@ubuntu.com>
+           2007, విజయ్ కిరణ్ కముజు <infyquest@gmail.com>
+           2009, അനില്കുമാര് കെ വി <anilankv@gmail.com>
+           2008, പ്രവീണ് അരിമ്പ്രത്തൊടിയില് <pravi.a@gmail.com>
+           2008, മണിലാല് കെ.എം|Manilal K M <libregeek@gmail.com>
+           2019, ലക്ഷ്മി സുനില് <lakshmisunil12@gmail.com>
+           2008, ശങ്കരനാരായണന് <snalledam@dataone.in>
+           2009, സ്മിത ബി ആര് <smitha.br@gmail.com>
+           2008, ഹിരണ് വേണുഗോപാലന്|Hiran Venugopalan <hiran.v@gmail.com>
+           2019, 百武 朋大 <tomhioo@outlook.jp>
+           2004, 유규형 <khyu@haansoft.com>
 License: GPL-2.0-or-later
 
-Files: kcms/region_language/autotests/CMakeLists.txt
+Files: applets/cameraindicator/Messages.sh
+       kcms/region_language/autotests/CMakeLists.txt
        kcms/region_language/CMakeLists.txt
        kcms/region_language/localegenhelper/CMakeLists.txt
+       kcms/soundtheme/CMakeLists.txt
+       kcms/soundtheme/Messages.sh
+       kcms/soundtheme/soundthemesettings.kcfg
+       kcms/soundtheme/soundthemesettings.kcfgc
+       libkmpris/Messages.sh
+       libnotificationmanager/kcfg/eventsettings.kcfg
+       libnotificationmanager/kcfg/eventsettings.kcfgc
+       plasma-windowed/Messages.sh
+       runners/appstream/CMakeLists.txt
+       runners/baloo/CMakeLists.txt
        runners/bookmarks/autotests/CMakeLists.txt
+       runners/bookmarks/CMakeLists.txt
        runners/calculator/autotests/CMakeLists.txt
-Copyright: 2021, Alexander Lohnau <alexander.lohnau@gmx.de>
+       runners/calculator/CMakeLists.txt
+       runners/CMakeLists.txt
+       runners/helprunner/CMakeLists.txt
+       runners/kill/CMakeLists.txt
+       runners/locations/autotests/CMakeLists.txt
+       runners/locations/CMakeLists.txt
+       runners/places/CMakeLists.txt
+       runners/powerdevil/CMakeLists.txt
+       runners/recentdocuments/CMakeLists.txt
+       runners/services/CMakeLists.txt
+       runners/sessions/CMakeLists.txt
+       runners/shell/CMakeLists.txt
+       runners/webshortcuts/CMakeLists.txt
+       startkde/session-restore/CMakeLists.txt
+Copyright: 2021-2023, Alexander Lohnau <alexander.lohnau@gmx.de>
+           2023, David Edmundson <davidedmundson@kde.org>
+           2023, Fushan Wen <qydwhotmail@gmail.com>
            2022, Han Young <hanyoung@protonmail.com>
+           2023, Ismael Asensio <isma.af@gmail.com>
 License: BSD-2-Clause
 
-Files: appiumtests/CMakeLists.txt
+Files: appiumtests/applets/CMakeLists.txt
+       appiumtests/CMakeLists.txt
+       appiumtests/components_tests/CMakeLists.txt
+       appiumtests/kcms/CMakeLists.txt
+       appiumtests/krunner/CMakeLists.txt
+       appiumtests/wallpapers/CMakeLists.txt
+       applets/batterymonitor/plugin/CMakeLists.txt
+       applets/brightness/plugin/CMakeLists.txt
+       applets/devicenotifier/plugin/CMakeLists.txt
+       applets/keyboardindicator/CMakeLists.txt
+       applets/keyboardindicator/plugin/autotests/CMakeLists.txt
+       applets/keyboardindicator/plugin/CMakeLists.txt
        cmake/FindAppMenuGtkModule.cmake
        cmake/FindKIOExtras.cmake
        cmake/FindKIOFuse.cmake
        cmake/FindLibdrm.cmake
+       components/batterycontrol/CMakeLists.txt
+       components/dbus/autotests/CMakeLists.txt
+       components/dbus/CMakeLists.txt
        kcms/fonts/autotests/CMakeLists.txt
+       libkmpris/autotests/CMakeLists.txt
+       libkmpris/CMakeLists.txt
+       libkmpris/kded/CMakeLists.txt
        runners/services/autotests/CMakeLists.txt
        runners/shell/autotests/CMakeLists.txt
+       startkde/session-shortcuts/CMakeLists.txt
 Copyright: 2014, Alex Merry <alex.merry@kde.org>
            2021, Alexander Lohnau <alexander.lohnau@gmx.de>
-           2021, Alexander Lohnau <alexander.lonau@gmx.de>
-           2021, David Edmundson <kde@davidedmundson.co.uk>
+           2024, Bohdan Onofriichuk <bogdan.onofriuchuk@gmail.com>
+           2021-2023, David Edmundson <davidedmundson@kde.org>
+           2023-2024, Fushan Wen <qydwhotmail@gmail.com>
            2016-2022, Harald Sitter <sitter@kde.org>
            2018, Kai Uwe Broulik <kde@broulik.de>
            2014, Martin Gräßlin <mgraesslin@kde.org>
+           2024, Natalie Clarius <natalie.clarius@kde.org>
 License: BSD-3-Clause
 
-Files: .gitlab-ci.yml
+Files: appiumtests/utils/__init__.py
+       applets/batterymonitor/dbus/org.freedesktop.UPower.xml
+       .gitlab-ci.yml
+       kcms/cursortheme/autotests/data/testcursortheme/cursors/source/generate.sh
        kcms/fonts/autotests/fonts.conf
        kcms/users/avatars/photos/Air?Balloon.png
        kcms/users/avatars/photos/Astronaut.png
@@ -176,20 +774,21 @@ Files: .gitlab-ci.yml
        kcms/users/avatars/photos/Soccer.png
        kcms/users/avatars/photos/Sunflower.png
        kcms/users/avatars/photos/Sushi.png
-       kcms/users/package/contents/ui/hand-images/base.svg
-       kcms/users/package/contents/ui/hand-images/left-index-finger.svg
-       kcms/users/package/contents/ui/hand-images/left-little-finger.svg
-       kcms/users/package/contents/ui/hand-images/left-middle-finger.svg
-       kcms/users/package/contents/ui/hand-images/left-ring-finger.svg
-       kcms/users/package/contents/ui/hand-images/left-thumb.svg
-       kcms/users/package/contents/ui/hand-images/palm.svg
-       kcms/users/package/contents/ui/hand-images/right-index-finger.svg
-       kcms/users/package/contents/ui/hand-images/right-little-finger.svg
-       kcms/users/package/contents/ui/hand-images/right-middle-finger.svg
-       kcms/users/package/contents/ui/hand-images/right-ring-finger.svg
-       kcms/users/package/contents/ui/hand-images/right-thumb.svg
+       kcms/users/src/ui/hand-images/base.svg
+       kcms/users/src/ui/hand-images/left-index-finger.svg
+       kcms/users/src/ui/hand-images/left-little-finger.svg
+       kcms/users/src/ui/hand-images/left-middle-finger.svg
+       kcms/users/src/ui/hand-images/left-ring-finger.svg
+       kcms/users/src/ui/hand-images/left-thumb.svg
+       kcms/users/src/ui/hand-images/palm.svg
+       kcms/users/src/ui/hand-images/right-index-finger.svg
+       kcms/users/src/ui/hand-images/right-little-finger.svg
+       kcms/users/src/ui/hand-images/right-middle-finger.svg
+       kcms/users/src/ui/hand-images/right-ring-finger.svg
+       kcms/users/src/ui/hand-images/right-thumb.svg
        .kde-ci.yml
        krunner/qml/krunner.qrc
+       libkmpris/kded/mprisservice.json
        libtaskmanager/autotests/data/applications/org.kde.dolphin.desktop
        libtaskmanager/autotests/data/applications/org.kde.konversation.desktop
        runners/bookmarks/autotests/firefox/firefox-config-home/atnsd8ae.testmekde/favicons.sqlite
@@ -197,11 +796,12 @@ Files: .gitlab-ci.yml
        runners/bookmarks/autotests/firefox/firefox-config-home/profiles.ini
        runners/services/autotests/fixtures/org.kde.kpat.desktop
 Copyright: 2021-2022, Alexander Lohnau <alexander.lohnau@gmx.de>
+           2008, David Zeuthen <davidz@redhat.com>
+           2023, Fushan Wen <qydwhotmail@gmail.com>
            2022, Janet Blackquill <uhhadd@gmail.com>
-           None
-           none
            2015-2017, Pixabay <info@pixabay.com>
-           2016, Public Domain Pictures <>
+           2016, Public Domain Pictures
+           2008, Richard Hughes <richard@hughsie.com>
            2016-2018, Skitterphoto <info@skitterphoto.com>
            2015, Snapwire <hello@snapwi.re>
 License: CC0-1.0
@@ -240,7 +840,7 @@ Copyright: 2019, Cyril Rossi <cyril.rossi@enioka.com>
            2007, Ivan Cukic <ivan.cukic+kde@gmail.com>
            2019, Kai Uwe Broulik <kde@broulik.de>
            2002, Karol Szwed <gallium@kde.org>
-           1997-2002, kcmdisplay Authors.
+           1997-2002, kcmdisplay Authors
            2003, Maksim Orlovich <maksim.orlovich@kdemail.net>
            2007, Paolo Capriotti <p.capriotti@gmail.com>
            2008, Petri Damsten <damu@iki.fi>
@@ -304,48 +904,56 @@ Files: applets/appmenu/lib/appmenuapplet.cpp
        applets/notifications/package/contents/ui/NotificationReplyField.qml
        applets/notifications/package/contents/ui/SelectableLabel.qml
        applets/panelspacer/package/contents/ui/main.qml
+       components/calendar/kconf_update/migrate-calendar-to-plugin-id.py
+       components/calendar/kconf_update/migrate-calendar-to-plugin-id.upd
        dataengines/packagekit/packagekitengine.cpp
        dataengines/packagekit/packagekitengine.h
        dataengines/packagekit/packagekitjob.cpp
        dataengines/packagekit/packagekitjob.h
        dataengines/packagekit/packagekitservice.cpp
        dataengines/packagekit/packagekitservice.h
+       devicenotifications/devicenotifications.cpp
+       devicenotifications/devicenotifications.h
        kcms/colors/colors.cpp
        kcms/colors/colors.h
        kcms/colors/colorsmodel.cpp
        kcms/colors/colorsmodel.h
        kcms/colors/filterproxymodel.cpp
        kcms/colors/filterproxymodel.h
-       kcms/colors/package/contents/ui/main.qml
+       kcms/colors/ui/main.qml
        kcms/desktoptheme/filterproxymodel.cpp
        kcms/desktoptheme/filterproxymodel.h
        kcms/desktoptheme/themesmodel.cpp
        kcms/desktoptheme/themesmodel.h
        kcms/fonts/autotests/kxftconfigtest.cpp
-       kcms/icons/package/contents/ui/IconSizePopup.qml
-       kcms/icons/package/contents/ui/main.qml
+       kcms/fonts/kconf_update/CMakeLists.txt
+       kcms/fonts/kconf_update/plasma6.0-remove-dpi-settings.upd
+       kcms/icons/ui/main.qml
        kcms/notifications/filterproxymodel.cpp
        kcms/notifications/filterproxymodel.h
        kcms/notifications/kcm.cpp
        kcms/notifications/kcm.h
        kcms/notifications/notificationsdata.cpp
        kcms/notifications/notificationsdata.h
-       kcms/notifications/package/contents/ui/ApplicationConfiguration.qml
-       kcms/notifications/package/contents/ui/main.qml
-       kcms/notifications/package/contents/ui/PopupPositionPage.qml
-       kcms/notifications/package/contents/ui/ScreenPositionSelector.qml
-       kcms/notifications/package/contents/ui/SourcesPage.qml
        kcms/notifications/sourcesmodel.cpp
        kcms/notifications/sourcesmodel.h
+       kcms/notifications/ui/ApplicationConfiguration.qml
+       kcms/notifications/ui/main.qml
+       kcms/notifications/ui/PopupPositionPage.qml
+       kcms/notifications/ui/ScreenPositionSelector.qml
+       kcms/notifications/ui/SourcesPage.qml
+       kcms/soundtheme/kcm_soundtheme.cpp
+       kcms/soundtheme/kcm_soundtheme.h
+       kcms/soundtheme/ui/main.qml
        kcms/style/gtkpage.cpp
        kcms/style/gtkpage.h
        kcms/style/gtkthemesmodel.cpp
        kcms/style/gtkthemesmodel.h
-       kcms/style/package/contents/ui/EffectSettingsPopup.qml
-       kcms/style/package/contents/ui/GtkStylePage.qml
-       kcms/style/package/contents/ui/main.qml
        kcms/style/stylesmodel.cpp
        kcms/style/stylesmodel.h
+       kcms/style/ui/EffectSettingsPopup.qml
+       kcms/style/ui/GtkStylePage.qml
+       kcms/style/ui/main.qml
        plasmacalendarintegration/HolidaysConfig.qml
        plasma-windowed/main.cpp
        plasma-windowed/plasmawindowedcorona.cpp
@@ -357,9 +965,7 @@ Files: applets/appmenu/lib/appmenuapplet.cpp
        runners/bookmarks/autotests/bookmarksmatchtest.cpp
        runners/bookmarks/autotests/firefox/testfirefoxbookmarks.cpp
        shell/kconf_update/CMakeLists.txt
-       shell/kconf_update/plasmashell-5.27-use-panel-thickness-in-default-group.upd
-       shell/standaloneappcorona.cpp
-       shell/standaloneappcorona.h
+       shell/kconf_update/plasma6.0-remove-old-shortcuts.upd
        xembed-sni-proxy/snidbus.cpp
        xembed-sni-proxy/snidbus.h
 Copyright: 2016, Aleix Pol Gonzalez <aleixpol@kde.org>
@@ -372,16 +978,16 @@ Copyright: 2016, Aleix Pol Gonzalez <aleixpol@kde.org>
            2022, Fushan Wen <qydwhotmail@gmail.com>
            2012, Gregor Taetzner <gregor@freenet.de>
            2021-2022, Harald Sitter <sitter@kde.org>
-           2022, ivan tkachenko <me@ratijas.tk>
+           2023, Ismael Asensio <isma.af@gmail.com>
+           2022-2024, ivan tkachenko <me@ratijas.tk>
            2007, Jeremy Whiting <jpwhiting@kde.org>
-           2019-2022, Kai Uwe Broulik <kde@broulik.de>
-           2019, Kai Uwe Broulik <kde@pbroulik.de>
-           2013-2019, Kai Uwe Broulik <kde@privat.broulik.de>
-           2014-2019, Marco Martin <mart@kde.org>
-           2009-2014, Marco Martin <notmart@gmail.com>
+           2013-2024, Kai Uwe Broulik <kde@broulik.de>
+           2009-2023, Marco Martin <mart@kde.org>
            2014-2015, Martin Klapetek <mklapetek@kde.org>
            2007, Matthew Woehlke <mw_triad@users.sourceforge.net>
+           2023, Mike Noe <noeerover@gmail.com>
            2020, Mikhail Zolotukhin <zomial@protonmail.com>
+           2024, Nicolas Fella <nicolas.fella@gmx.de>
            2016, Olivier Churlaud <olivier@churlaud.com>
            2013, Sebastian Kügler <sebas@kde.org>
 License: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
@@ -420,8 +1026,6 @@ Files: applets/systemtray/statusnotifieritemjob.cpp
        dataengines/apps/appservice.h
        dataengines/apps/appsource.cpp
        dataengines/apps/appsource.h
-       dataengines/dict/dictengine.cpp
-       dataengines/dict/dictengine.h
        dataengines/executable/executable.cpp
        dataengines/executable/executable.h
        dataengines/hotplug/deviceserviceaction.cpp
@@ -434,8 +1038,6 @@ Files: applets/systemtray/statusnotifieritemjob.cpp
        dataengines/mouse/cursornotificationhandler.h
        dataengines/mouse/mouseengine.cpp
        dataengines/mouse/mouseengine.h
-       dataengines/mpris2/mpris2engine.cpp
-       dataengines/mpris2/mpris2engine.h
        dataengines/notifications/notificationaction.cpp
        dataengines/notifications/notificationaction.h
        dataengines/notifications/notificationservice.cpp
@@ -458,40 +1060,33 @@ Files: applets/systemtray/statusnotifieritemjob.cpp
        dataengines/soliddevice/soliddevicejob.h
        dataengines/soliddevice/soliddeviceservice.cpp
        dataengines/soliddevice/soliddeviceservice.h
-       dataengines/statusnotifieritem/statusnotifieritemjob.cpp
-       dataengines/statusnotifieritem/statusnotifieritemjob.h
-       dataengines/statusnotifieritem/statusnotifieritemservice.cpp
-       dataengines/statusnotifieritem/statusnotifieritemservice.h
-       dataengines/systemmonitor/systemmonitor.cpp
-       dataengines/systemmonitor/systemmonitor.h
        kcms/colors/colorsapplicator.h
        kcms/colors/plasma-apply-colorscheme.cpp
        kcms/cursortheme/launchfeedbacksettings.kcfg
        kcms/cursortheme/launchfeedbacksettings.kcfgc
-       kcms/cursortheme/package/contents/ui/Delegate.qml
-       kcms/cursortheme/package/contents/ui/LaunchFeedbackDialog.qml
-       kcms/cursortheme/package/contents/ui/main.qml
        kcms/cursortheme/plasma-apply-cursortheme.cpp
+       kcms/cursortheme/ui/Delegate.qml
+       kcms/cursortheme/ui/LaunchFeedbackDialog.qml
+       kcms/cursortheme/ui/main.qml
        kcms/cursortheme/xcursor/themeapplicator.cpp
        kcms/cursortheme/xcursor/themeapplicator.h
        kcms/desktoptheme/kcm.cpp
        kcms/desktoptheme/kcm.h
-       kcms/desktoptheme/package/contents/ui/main.qml
-       kcms/desktoptheme/package/contents/ui/ThemePreview.qml
        kcms/desktoptheme/plasma-apply-desktoptheme.cpp
-       kcms/fonts/package/contents/ui/FontWidget.qml
-       kcms/fonts/package/contents/ui/main.qml
+       kcms/desktoptheme/ui/main.qml
+       kcms/desktoptheme/ui/ThemePreview.qml
+       kcms/fonts/ui/FontWidget.qml
+       kcms/fonts/ui/main.qml
        kcms/lookandfeel/kcm.cpp
        kcms/lookandfeel/kcm.h
        kcms/lookandfeel/kcmmain.cpp
        kcms/lookandfeel/lookandfeelmanager.cpp
        kcms/lookandfeel/lookandfeelmanager.h
-       kcms/lookandfeel/package/contents/ui/main.qml
-       kcms/lookandfeel/package/contents/ui/MoreOptions.qml
-       kcms/lookandfeel/package/contents/ui/SimpleOptions.qml
+       kcms/lookandfeel/ui/main.qml
+       kcms/lookandfeel/ui/MoreOptions.qml
+       kcms/lookandfeel/ui/SimpleOptions.qml
        kioworkers/desktop/desktopnotifier.cpp
        kioworkers/desktop/desktopnotifier.h
-       ksmserver/tests/autostarttest.cpp
        libkworkspace/login1_manager_interface.cpp
        phonon/platform_kde/kdeplatformplugin.cpp
        phonon/platform_kde/kdeplatformplugin.h
@@ -502,7 +1097,6 @@ Files: applets/systemtray/statusnotifieritemjob.cpp
        runners/calculator/calculatorrunner.h
        runners/locations/locationrunner.cpp
        runners/locations/locationrunner.h
-       runners/services/plugin.cpp
        runners/services/servicerunner.cpp
        runners/services/servicerunner.h
        runners/sessions/sessionrunner.cpp
@@ -511,8 +1105,6 @@ Files: applets/systemtray/statusnotifieritemjob.cpp
        runners/shell/shellrunner.h
        runners/webshortcuts/webshortcutrunner.cpp
        runners/webshortcuts/webshortcutrunner.h
-       runners/windowedwidgets/windowedwidgetsrunner.cpp
-       runners/windowedwidgets/windowedwidgetsrunner.h
        solidautoeject/solidautoeject.cpp
        solidautoeject/solidautoeject.h
        soliduiserver/soliduiserver.cpp
@@ -528,45 +1120,36 @@ Files: applets/systemtray/statusnotifieritemjob.cpp
        startkde/waitforname/main.cpp
        startkde/waitforname/waiter.cpp
        startkde/waitforname/waiter.h
-       systemmonitor/kdedksysguard.cpp
-       systemmonitor/ksystemactivitydialog.cpp
-       systemmonitor/ksystemactivitydialog.h
        wallpapers/image/plasma-apply-wallpaperimage.cpp
 Copyright: 2006-2007, Aaron Seigo <aseigo@kde.org>
            2008, Alain Boyer <alainboyer@gmail.com>
            2021, Aleix Pol Gonzalez <aleixpol@kde.org>
-           2007-2012, Alex Merry <alex.merry@kdemail.net>
-           2021-2022, Alexander Lohnau <alexander.lohnau@gmx.de>
-           2020-2021, Alexander Lohnau <alexander.lonau@gmx.de>
+           2008, Alex Merry <alex.merry@kdemail.net>
+           2020-2023, Alexander Lohnau <alexander.lohnau@gmx.de>
            2007, Alexis Ménard <darktears31@gmail.com>
            2015, Antonis Tsiapaliokas <antonis.tsiapaliokas@kde.org>
            2007, Barış Metin <baris@pardus.org.tr>
            2019-2021, Benjamin Port <benjamin.port@enioka.com>
+           2020, Björn Ottosson
            2009, Chani Armitage <chani@kde.org>
            2007, Christopher Blauvelt <cblauvelt@gmail.com>
            2019, Cyril Rossi <cyril.rossi@enioka.com>
            2021, Dan Leinir Turthra Jensen <admin@leinir.dk>
            2008, Dario Freddi <drf54321@gmail.com>
            2018, David Edmundson <davidedmundson@kde.org>
-           2019, David Edmundson <daviedmundson@kde.org>
            2006, David Faure <faure@kde.org>
            2016, David Rosca <nowrep@gmail.com>
            2022, Dominic Hayes <ferenosdev@outlook.com>
            2017, Eike Hein <hein@kde.org>
            2007-2009, Fredrik Höglund <fredrik@kde.org>
-           2016-2020, Harald Sitter <sitter@kde.org>
+           2016-2023, Harald Sitter <sitter@kde.org>
            2023, Ismael Asensio <isma.af@gmail.com>
            2005, Jean-Remy Falleri <jr.falleri@laposte.net>
-           2007, Jeff Cooper <weirdsox11@gmail.com>
-           2007-2010, John Tapsell <johnflux@gmail.com>
-           2007, John Tapsell <tapsell@kde.org>
            2016-2018, Kai Uwe Broulik <kde@privat.broulik.de>
-           2005-2009, Kevin Ottens <ervin@kde.org>
-           2019, Kevin Ottens <kevin.ottens@enioka.com>
+           2005-2019, Kevin Ottens <kevin.ottens@enioka.com>
            2011-2014, Lukas Tinkl <ltinkl@redhat.com>
            2007, Maor Vanmak <mvanmak1@gmail.com>
            2014-2018, Marco Martin <mart@kde.org>
-           2010, Marco Martin <notmart@gmail.com>
            2010, Matteo Agostinelli <agostinelli@gmail.com>
            2007-2008, Matthias Kretz <kretz@kde.org>
            2009, Matthieu Gallien <matthieu_gallien@yahoo.fr>
@@ -574,16 +1157,18 @@ Copyright: 2006-2007, Aaron Seigo <aseigo@kde.org>
            2007-2008, Petri Damsten <damu@iki.fi>
            2007, Richard Moore <rich@kde.org>
            2008, Rob Scheepmaker <r.scheepmaker@student.utwente.nl>
-           2007-2008, Sebastian Kuegler <sebas@kde.org>
-           2011, Sebastian Kügler <sebas@kde.org>
+           2007-2011, Sebastian Kügler <sebas@kde.org>
            2007, Teemu Rytilahti <tpr@iki.fi>
-           2007, Thomas Georgiou <TAGeorgiou@gmail.com>
            2017, Valerio Pilo <vpilo@coldshock.net>
            2011, Viranch Mehta <viranch.mehta@gmail.com>
            2014, Vishesh Handa <me@vhanda.in>
-           2014, Vishesh Handa <vhanda@kde.org>
            2001, Waldo Bastian <bastian@kde.org>
 License: LGPL-2.0-only
+
+Files: kcms/notifications/soundthemeconfig.cpp
+       kcms/notifications/soundthemeconfig.h
+Copyright: 2023, Ismael Asensio <isma.af@gmail.com>
+License: LGPL-2.0-only OR GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
 
 Files: kcms/colors/colorsapplicator.cpp
 Copyright: 2021, Benjamin Port <benjamin.port@enioka.com>
@@ -639,28 +1224,25 @@ License: LGPL-2.0-only_with_parts_in_Public_Domain_OR_MIT
  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  SOFTWARE.
 
-Files: kcms/kcms-common.cpp
-       kcms/kcms-common_p.h
-Copyright: 2021, Ahmad Samir <a.samirh78@gmail.com>
-License: LGPL-2.0-only OR LGPL-3.0-only OR LicenseRef-KDE-Accepted-LGPL
-
-Files: applets/analog-clock/contents/ui/analogclock.qml
+Files: appiumtests/components_tests/systemdialogtest.qml
        applets/analog-clock/contents/ui/Hand.qml
+       applets/analog-clock/contents/ui/main.qml
        applets/batterymonitor/package/contents/ui/BatteryItem.qml
-       applets/batterymonitor/package/contents/ui/BrightnessItem.qml
        applets/batterymonitor/package/contents/ui/CompactRepresentation.qml
        applets/batterymonitor/package/contents/ui/InhibitionHint.qml
-       applets/batterymonitor/package/contents/ui/logic.js
        applets/batterymonitor/package/contents/ui/main.qml
        applets/batterymonitor/package/contents/ui/PopupDialog.qml
        applets/batterymonitor/package/contents/ui/PowerManagementItem.qml
        applets/batterymonitor/package/contents/ui/PowerProfileItem.qml
+       applets/brightness/package/contents/ui/BrightnessItem.qml
+       applets/brightness/package/contents/ui/CompactRepresentation.qml
+       applets/brightness/package/contents/ui/main.qml
+       applets/brightness/package/contents/ui/PopupDialog.qml
        applets/devicenotifier/package/contents/ui/DeviceItem.qml
        applets/devicenotifier/package/contents/ui/FullRepresentation.qml
        applets/devicenotifier/package/contents/ui/main.qml
        applets/digital-clock/package/contents/ui/Tooltip.qml
-       applets/kicker/plugin/autotests/qmltest.cpp
-       applets/lock_logout/contents/ui/lockout.qml
+       applets/lock_logout/contents/ui/main.qml
        applets/mediacontroller/package/contents/ui/ExpandedRepresentation.qml
        applets/mediacontroller/package/contents/ui/main.qml
        applets/notifications/package/contents/ui/DraggableFileArea.qml
@@ -697,8 +1279,6 @@ Files: applets/analog-clock/contents/ui/analogclock.qml
        components/containmentlayoutmanager/appletslayout.h
        components/containmentlayoutmanager/configoverlay.cpp
        components/containmentlayoutmanager/configoverlay.h
-       components/containmentlayoutmanager/containmentlayoutmanagerplugin.cpp
-       components/containmentlayoutmanager/containmentlayoutmanagerplugin.h
        components/containmentlayoutmanager/gridlayoutmanager.cpp
        components/containmentlayoutmanager/gridlayoutmanager.h
        components/containmentlayoutmanager/itemcontainer.cpp
@@ -713,8 +1293,6 @@ Files: applets/analog-clock/contents/ui/analogclock.qml
        components/dialogs/SystemDialog.qml
        components/shellprivate/widgetexplorer/kcategorizeditemsviewmodels.cpp
        components/shellprivate/widgetexplorer/kcategorizeditemsviewmodels_p.h
-       components/shellprivate/widgetexplorer/openwidgetassistant.cpp
-       components/shellprivate/widgetexplorer/openwidgetassistant_p.h
        components/shellprivate/widgetexplorer/plasmaappletitemmodel.cpp
        components/shellprivate/widgetexplorer/plasmaappletitemmodel_p.h
        components/shellprivate/widgetexplorer/widgetexplorer.cpp
@@ -738,16 +1316,12 @@ Files: applets/analog-clock/contents/ui/analogclock.qml
        dataengines/activities/activityengine.h
        dataengines/activities/activityservice.cpp
        dataengines/activities/activityservice.h
-       dataengines/devicenotifications/devicenotificationsengine.cpp
-       dataengines/devicenotifications/devicenotificationsengine.h
        dataengines/favicons/faviconprovider.cpp
        dataengines/favicons/faviconprovider.h
        dataengines/favicons/favicons.cpp
        dataengines/favicons/favicons.h
        dataengines/hotplug/hotplugengine.cpp
        dataengines/hotplug/hotplugengine.h
-       dataengines/keystate/keystate.cpp
-       dataengines/keystate/keystate.h
        dataengines/notifications/notificationsengine.cpp
        dataengines/notifications/notificationsengine.h
        dataengines/powermanagement/powermanagementservice.cpp
@@ -761,10 +1335,10 @@ Files: applets/analog-clock/contents/ui/analogclock.qml
        interactiveconsole/interactiveconsole.cpp
        interactiveconsole/interactiveconsole.h
        interactiveconsole/main.cpp
-       kcms/desktoptheme/package/contents/ui/Hand.qml
+       kcms/desktoptheme/ui/Hand.qml
        kcms/feedback/feedback.cpp
        kcms/feedback/feedback.h
-       kcms/feedback/package/contents/ui/main.qml
+       kcms/feedback/ui/main.qml
        kcms/fonts/fonts.cpp
        kcms/fonts/fonts.h
        kcms/fonts/kxftconfig.cpp
@@ -782,11 +1356,11 @@ Files: applets/analog-clock/contents/ui/analogclock.qml
        kioworkers/desktop/kio_desktop.cpp
        kioworkers/desktop/kio_desktop.h
        kioworkers/desktop/tests/kio_desktop_test.cpp
+       krunner/x11windowscreenrelativepositioner.cpp
+       krunner/x11windowscreenrelativepositioner.h
        ktimezoned/ktimezonedbase.h
        ktimezoned/ktimezoned.cpp
        ktimezoned/ktimezoned.h
-       ktimezoned/ktimezoned_win.cpp
-       ktimezoned/ktimezoned_win.h
        libdbusmenuqt/dbusmenuimporter.cpp
        libdbusmenuqt/dbusmenuimporter.h
        libdbusmenuqt/dbusmenushortcut_p.cpp
@@ -798,34 +1372,28 @@ Files: applets/analog-clock/contents/ui/analogclock.qml
        libdbusmenuqt/utils_p.h
        libkworkspace/kdisplaymanager.cpp
        libkworkspace/kdisplaymanager.h
-       libkworkspace/kworkspace.cpp
        libkworkspace/kworkspace.h
+       libkworkspace/outputorderwatcher.cpp
+       libkworkspace/outputorderwatcher.h
        libkworkspace/sessionmanagementbackend.cpp
        libkworkspace/sessionmanagementbackend.h
        libkworkspace/sessionmanagement.cpp
        libkworkspace/sessionmanagement.h
        libkworkspace/tests/sessiontest.cpp
-       libkworkspace/tests/syncdbusenvtest.cpp
-       libkworkspace/updatelaunchenvjob.cpp
-       libkworkspace/updatelaunchenvjob.h
        libnotificationmanager/autotests/notifications_test.cpp
-       lookandfeel/autotests/lockscreen/main.cpp
-       lookandfeel/org.kde.breeze/contents/components/ActionButton.qml
-       lookandfeel/org.kde.breeze/contents/components/animation/RejectPasswordAnimation.qml
-       lookandfeel/org.kde.breeze/contents/components/animation/RejectPasswordPathAnimation.qml
-       lookandfeel/org.kde.breeze/contents/components/Battery.qml
-       lookandfeel/org.kde.breeze/contents/components/Clock.qml
-       lookandfeel/org.kde.breeze/contents/components/SessionManagementScreen.qml
-       lookandfeel/org.kde.breeze/contents/components/UserDelegate.qml
-       lookandfeel/org.kde.breeze/contents/components/UserList.qml
-       lookandfeel/org.kde.breeze/contents/lockscreen/MainBlock.qml
+       lookandfeel/components/ActionButton.qml
+       lookandfeel/components/animation/RejectPasswordAnimation.qml
+       lookandfeel/components/animation/RejectPasswordPathAnimation.qml
+       lookandfeel/components/Battery.qml
+       lookandfeel/components/Clock.qml
+       lookandfeel/components/SessionManagementScreen.qml
+       lookandfeel/components/UserDelegate.frag
+       lookandfeel/components/UserDelegate.qml
+       lookandfeel/components/UserList.qml
+       lookandfeel/components/VirtualKeyboardLoader.qml
        lookandfeel/org.kde.breeze/contents/systemdialog/SystemDialog.qml
-       lookandfeel/sddm-theme/Background.qml
-       lookandfeel/sddm-theme/KeyboardButton.qml
-       lookandfeel/sddm-theme/Main.qml
-       lookandfeel/sddm-theme/SessionButton.qml
-       plasmacalendarintegration/qmlhelper/holidayeventshelperplugin.cpp
-       plasmacalendarintegration/qmlhelper/holidayeventshelperplugin.h
+       plasmacalendarintegration/qmlhelper/holidayregionsconfig.cpp
+       plasmacalendarintegration/qmlhelper/holidayregionsconfig.h
        runners/bookmarks/autotests/chrome/testchromebookmarks.cpp
        runners/bookmarks/autotests/chrome/testchromebookmarks.h
        runners/bookmarks/bookmarkmatch.cpp
@@ -870,18 +1438,9 @@ Files: applets/analog-clock/contents/ui/analogclock.qml
        shell/currentcontainmentactionsmodel.cpp
        shell/currentcontainmentactionsmodel.h
        shell/futureutil.h
-       shell/outputorderwatcher.cpp
-       shell/outputorderwatcher.h
        shell/packageplugins/layouttemplate/layouttemplate.cpp
-       shell/packageplugins/layouttemplate/layouttemplate.h
        shell/packageplugins/lookandfeel/lookandfeel.cpp
-       shell/packageplugins/lookandfeel/lookandfeel.h
-       shell/packageplugins/qmlWallpaper/wallpaper.cpp
-       shell/packageplugins/qmlWallpaper/wallpaper.h
-       shell/packageplugins/shell/shellpackage.cpp
-       shell/packageplugins/shell/shellpackage.h
        shell/packageplugins/wallpaperimages/wallpaperpackage.cpp
-       shell/packageplugins/wallpaperimages/wallpaperpackage.h
        shell/panelconfigview.cpp
        shell/panelconfigview.h
        shell/panelshadows.cpp
@@ -917,6 +1476,7 @@ Files: applets/analog-clock/contents/ui/analogclock.qml
        startkde/plasmaautostart/plasmaautostart.cpp
        startkde/plasmaautostart/plasmaautostart.h
        startkde/plasma-session/plasma-autostart-list/main.cpp
+       startkde/session-shortcuts/main.cpp
        startkde/startplasma.cpp
        startkde/startplasma.h
        startkde/startplasma-wayland.cpp
@@ -924,28 +1484,25 @@ Files: applets/analog-clock/contents/ui/analogclock.qml
        wallpapers/image/plugin/imageplugin.cpp
        wallpapers/image/plugin/imageplugin.h
 Copyright: 2006-2013, Aaron Seigo <aseigo@kde.org>
-           2014, Aleix Pol Gonzalez <aleixpol@blue-systems.com>
-           2016-2022, Aleix Pol Gonzalez <aleixpol@kde.org>
+           2014-2021, Aleix Pol Gonzalez <aleixpol@kde.org>
            2008, Alex Merry <alex.merry@kdemail.net>
-           2020-2021, Alexander Lohnau <alexander.lohnau@gmx.de>
+           2020-2023, Alexander Lohnau <alexander.lohnau@gmx.de>
            2009, Ana Cecília Martins <anaceciliamb@gmail.com>
            2013, Andrea Scarpino <scarpino@kde.org>
            2015, Antonis Tsiapaliokas <antonis.tsiapaliokas@kde.org>
            2019, Arjen Hiemstra <ahiemstra@heimr.nl>
            2019, Benjamin Port <benjamin.port@enioka.com>
            2022, Bharadwaj Raju <bharadwaj.raju777@protonmail.com>
-           2016, Boudhayan Gupta <bgupta@kde.org>
            2009-2010, Canonical
            2020, Carson Black <uhhadd@gmail.com>
            2009-2010, Chani Armitage <chani@kde.org>
            2002, Craig Drummond <craig@kde.org>
            2021, Cyril Rossi <cyril.rossi@enioka.com>
            2012-2013, Daniel Nicoletti <dantti12@gmail.com>
-           2013-2022, David Edmundson <davidedmundson@kde.org>
-           2008-2020, David Edmundson <kde@davidedmundson.co.uk>
+           2008-2023, David Edmundson <davidedmundson@kde.org>
            2009, David Faure <faure@kde.org>
            2005-2010, David Jarvie <djarvie@kde.org>
-           2021, David Redondo <kde@david-redondo.de>
+           2021-2023, David Redondo <kde@david-redondo.de>
            2009, Davide Bettio <davide.bettio@kdemail.net>
            2022, Derek Christ <christ.derek@gmail.com>
            2021, Devin Lin <espidev@gmail.com>
@@ -955,31 +1512,27 @@ Copyright: 2006-2013, Aaron Seigo <aseigo@kde.org>
            Geert Jansen
            2007, Glenn Ergeerts <glenn.ergeerts@telenet.be>
            2021, Han Young <hanyoung@protonmail.com>
-           2022, Harald Sitter <sitter@kde.org>
-           2020, Ismael Asensio <isma.af@gmail.com>
-           2022, ivan (@ratijas) tkachenko <me@ratijas.tk>
-           2007, Ivan Cukic <ivan.cukic+kde@gmail.com>
-           2013-2016, Ivan Cukic <ivan.cukic@kde.org>
-           2021-2022, ivan tkachenko <me@ratijas.tk>
-           2010-2012, Jacopo De Simoi <wilderkde@gmail.com>
+           2022-2024, Harald Sitter <sitter@kde.org>
+           2020-2023, Ismael Asensio <isma.af@gmail.com>
+           2007-2016, Ivan Cukic <ivan.cukic@kde.org>
+           2021-2024, ivan tkachenko <me@ratijas.tk>
+           2012, Jacopo De Simoi <wilderkde@gmail.com>
            2014, John Layt <john@layt.net>
            2003, Joseph Wenninger <jowenn@kde.org>
            2018, Julian Wolff <wolff@julianwolff.de>
-           2020-2021, Kai Uwe Broulik <kde@broulik.de>
-           2013-2019, Kai Uwe Broulik <kde@privat.broulik.de>
+           2013-2021, Kai Uwe Broulik <kde@broulik.de>
            2019, Kevin Ottens <kevin.ottens@enioka.com>
            2020, Konrad Materka <materka@gmail.com>
            1999, Lars Knoll
            2005, Lubos Lunak <l.lunak@kde.org>
-           2014, Lukáš Tinkl <ltinkl@redhat.com>
            2012, Marco Gulino <marco.gulino@xpeppers.com>
-           2011-2019, Marco Martin <mart@kde.org>
-           2007-2013, Marco Martin <notmart@gmail.com>
+           2007-2019, Marco Martin <mart@kde.org>
            1997, Mark Donohoe
            2013-2015, Martin Klapetek <mklapetek@kde.org>
            2010, Matteo Agostinelli <agostinelli@gmail.com>
            1997, Matthias Kalle Dalheimer <kalle@kde.org>
            2007, Menard Alexis <darktears31@gmail.com>
+           2023-2024, Natalie Clarius <natalie.clarius@kde.org>
            2020, Nate Graham <nate@kde.org>
            2022, Niccolò Venerandi <niccolo@venerandi.com>
            2004-2005, Oswald Buddenhagen <ossi@kde.org>
@@ -995,11 +1548,6 @@ Copyright: 2006-2013, Aaron Seigo <aseigo@kde.org>
            2011-2012, Viranch Mehta <viranch.mehta@gmail.com>
 License: LGPL-2.0-or-later
 
-Files: po/ca/plasma_wallpaper_org.kde.image.po
-       po/ca@valencia/plasma_wallpaper_org.kde.image.po
-Copyright: 2007-2021, This_file_is_part_of_KDE
-License: LGPL-2.0-or-later
-
 Files: applets/digital-clock/plugin/applicationintegration.cpp
        applets/digital-clock/plugin/applicationintegration.h
        applets/systemtray/autotests/systemtraymodeltest.cpp
@@ -1009,27 +1557,39 @@ Files: applets/digital-clock/plugin/applicationintegration.cpp
        components/lookandfeelqml/kpackageinterface.h
        components/lookandfeelqml/lookandfeelqmlplugin.cpp
        components/lookandfeelqml/lookandfeelqmlplugin.h
-       kcms/users/package/contents/ui/ChangePassword.qml
-       kcms/users/package/contents/ui/ChangeWalletPassword.qml
-       kcms/users/package/contents/ui/CreateUser.qml
-       kcms/users/package/contents/ui/Debouncer.qml
-       kcms/users/package/contents/ui/main.qml
-       kcms/users/package/contents/ui/PicturesSheet.qml
-       kcms/users/package/contents/ui/UserDetailsPage.qml
+       kcms/kcms-common.cpp
+       kcms/kcms-common_p.h
+       kcms/users/src/fingerprintmodel.cpp
+       kcms/users/src/fingerprintmodel.h
+       kcms/users/src/fprintdevice.cpp
+       kcms/users/src/fprintdevice.h
        kcms/users/src/kcm.cpp
        kcms/users/src/kcm.h
        kcms/users/src/maskmousearea.cpp
        kcms/users/src/maskmousearea.h
+       kcms/users/src/ui/ChangePassword.qml
+       kcms/users/src/ui/ChangeWalletPassword.qml
+       kcms/users/src/ui/CreateUser.qml
+       kcms/users/src/ui/Debouncer.qml
+       kcms/users/src/ui/EnrollFeedback.qml
+       kcms/users/src/ui/FingerprintDialog.qml
+       kcms/users/src/ui/FingerprintList.qml
+       kcms/users/src/ui/FingerprintProgressCircle.qml
+       kcms/users/src/ui/main.qml
+       kcms/users/src/ui/PickFinger.qml
+       kcms/users/src/ui/PicturesSheet.qml
+       kcms/users/src/ui/UserDetailsPage.qml
        kcms/users/src/user.cpp
        kcms/users/src/user.h
        kcms/users/src/usermodel.cpp
        kcms/users/src/usermodel.h
-       libkworkspace/autotests/testPlatformDetection.cpp
+       libkworkspace/defaultservice.cpp
+       libkworkspace/defaultservice.h
+       libkworkspace/defaultwallpaper.cpp
+       libkworkspace/defaultwallpaper.h
        libnotificationmanager/abstractnotificationsmodel.cpp
        libnotificationmanager/abstractnotificationsmodel.h
        libnotificationmanager/abstractnotificationsmodel_p.h
-       libnotificationmanager/declarative/notificationmanagerplugin.cpp
-       libnotificationmanager/declarative/notificationmanagerplugin.h
        libnotificationmanager/job.cpp
        libnotificationmanager/job.h
        libnotificationmanager/job_p.cpp
@@ -1078,11 +1638,13 @@ Files: applets/digital-clock/plugin/applicationintegration.cpp
        libtaskmanager/abstractwindowtasksmodel.h
        libtaskmanager/activityinfo.cpp
        libtaskmanager/activityinfo.h
+       libtaskmanager/autotests/common.h
        libtaskmanager/autotests/data/windows/ManyWindows.qml
-       libtaskmanager/autotests/data/windows/SampleWindow.qml
        libtaskmanager/autotests/launchertasksmodeltest.cpp
        libtaskmanager/autotests/tasksmodeltest.cpp
        libtaskmanager/autotests/tasktoolstest.cpp
+       libtaskmanager/autotests/waylandtasksmodeltest.cpp
+       libtaskmanager/autotests/waylandtasksmodeltestwrapper.py
        libtaskmanager/autotests/xwindowtasksmodeltest.cpp
        libtaskmanager/concatenatetasksproxymodel.cpp
        libtaskmanager/concatenatetasksproxymodel.h
@@ -1121,7 +1683,7 @@ Files: applets/digital-clock/plugin/applicationintegration.cpp
        libtaskmanager/xwindowsystemeventbatcher.h
        libtaskmanager/xwindowtasksmodel.cpp
        libtaskmanager/xwindowtasksmodel.h
-       lookandfeel/org.kde.breeze/contents/components/VirtualKeyboard_wayland.qml
+       lookandfeel/components/VirtualKeyboard_wayland.qml
        runners/kill/config_keys.h
        runners/kill/killrunner_config.cpp
        runners/kill/killrunner_config.h
@@ -1132,288 +1694,80 @@ Files: applets/digital-clock/plugin/applicationintegration.cpp
        shell/autotests/screenpooltest.cpp
        shell/autotests/shelltest.cpp
        shell/tests/screenpooltest.cpp
+       shell/tests/setwallpapertest.cpp
+       wallpapers/image/wallpaperfileitemactionplugin/wallpaperfileitemaction.cpp
+       wallpapers/image/wallpaperfileitemactionplugin/wallpaperfileitemaction.h
 Copyright: 2008, Aaron J. Seigo <aseigo@kde.org>
+           2021, Ahmad Samir <a.samirh78@gmail.com>
            2020-2021, Aleix Pol Gonzalez <aleixpol@kde.org>
-           2020-2022, Alexander Lohnau <alexander.lohnau@gmx.de>
-           2021, Alexander Lohnau <alexander.lonau@gmx.de>
+           2020-2023, Alexander Lohnau <alexander.lohnau@gmx.de>
            2021, Carl Schwan <carlschwan@kde.org>
            2020, Carson Black <uhhadd@gmail.com>
            2016-2017, David Edmundson <davidedmundson@kde.org>
            2020, David Redondo <kde@david-redondo.de>
+           2020, Devin Lin <espidev@gmail.com>
            2008, Dmitry Suzdalev <dimsuz@gmail.com>
            2015-2016, Eike Hein <hein@kde.org>
-           2022, Fushan Wen <qydwhotmail@gmail.com>
-           2016-2021, Harald Sitter <sitter@kde.org>
+           2022-2023, Fushan Wen <qydwhotmail@gmail.com>
+           2016-2023, Harald Sitter <sitter@kde.org>
            2016, Ivan Cukic <ivan.cukic@kde.org>
            2009, Jan Gerrit Marker <jangerrit@weiler-marker.com>
            2016-2018, Jan Grulich <jgrulich@redhat.com>
            2022, Janet Blackquill <uhhadd@gmail.com>
+           2022, Julius Zint <julius@zint.sh>
            2018-2019, Kai Uwe Broulik <kde@privat.broulik.de>
            2020, Konrad Materka <materka@gmail.com>
            2016-2022, Marco Martin <mart@kde.org>
-           2018, Martin Flöser <mgraesslin@kde.org>
+           2022-2023, Méven Car <meven@kde.org>
            2020, Nate Graham <nate@kde.org>
-           2019, Nicolas Fella <nicolas.fella@gmx.de>
+           2019-2024, Nicolas Fella <nicolas.fella@gmx.de>
            2020, Shah Bhushan <bshah@kde.org>
            2021, Vlad Zahorodnii <vlad.zahorodnii@kde.org>
 License: LGPL-2.1-only OR LGPL-3.0-only OR LicenseRef-KDE-Accepted-LGPL
 
-Files: po/uk/plasma_engine_mpris2.po
-       po/uk/plasma_applet_org.kde.plasma.icon.po
-       po/uk/plasma_runner_recentdocuments.po
-       po/uk/plasma_applet_org.kde.plasma.private.systemtray.po
-       po/uk/kholidays_calendar_plugin.po
-       po/uk/kcm_fonts.po
-       po/uk/freespacenotifier.po
-       po/uk/klipper.po
-       po/uk/plasma_runner_placesrunner.po
-       po/uk/libnotificationmanager.po
-       po/uk/phonon_kde_plugin.po
-       po/uk/kcm_cursortheme.po
-       po/uk/krunner.po
-       po/uk/plasma_applet_org.kde.plasma.digitalclock.po
-       po/uk/kcm_nightcolor.po
-       po/uk/plasma_applet_org.kde.plasma.analogclock.po
-       po/uk/plasma_applet_org.kde.plasma.notifications.po
-       po/uk/kcminit.po
-       po/uk/plasmashellprivateplugin.po
-       po/uk/plasma_runner_webshortcuts.po
-       po/uk/kcm_desktoptheme.po
-       po/uk/plasma_runner_powerdevil.po
-       po/uk/ksmserver.po
-       po/uk/plasma_applet_org.kde.plasma.systemmonitor.po
-       po/uk/plasma_wallpaper_org.kde.image.po
-       po/uk/kio_desktop.po
-       po/uk/plasmashell.po
-       po/uk/plasma_applet_org.kde.plasma.battery.po
-       po/uk/libkworkspace.po
-       po/uk/kcm_autostart.po
-       po/uk/plasma_engine_notifications.po
-       po/uk/systemmonitor.po
-       po/uk/kcm_users.po
-       po/uk/plasma_containmentactions_applauncher.po
-       po/uk/kcm_feedback.po
-       po/uk/plasma_runner_locations.po
-       po/uk/plasma_runner_sessions.po
-       po/uk/plasma_package_plasmashell.po
-       po/uk/plasma_applet_org.kde.plasma.mediacontroller.po
-       po/uk/plasma_runner_kill.po
-       po/uk/plasma_runner_bookmarksrunner.po
-       po/uk/plasma_engine_weather.po
-       po/uk/krdb.po
-       po/uk/plasma_engine_time.po
-       po/uk/plasma_runner_windowedwidgets.po
-       po/uk/plasma_engine_soliddevice.po
-       po/uk/plasma_runner_calculatorrunner.po
-       po/uk/plasma_engine_keystate.po
-       po/uk/plasma_runner_baloosearch5.po
-       po/uk/plasma_containmentactions_contextmenu.po
-       po/uk/plasma_engine_dict.po
-       po/uk/soliduiserver5.po
-       po/uk/kcm_icons.po
-       po/uk/plasma_applet_org.kde.plasma.clipboard.po
-       po/uk/plasma_engine_hotplug.po
-       po/uk/plasma_applet_org.kde.plasma.appmenu.po
-       po/uk/plasma_runner_appstream.po
-       po/uk/kfontinst.po
-       po/uk/plasma_applet_org.kde.plasma.calendar.po
-       po/uk/plasma_engine_devicenotifications.po
-       po/uk/kcm_style.po
-       po/uk/plasma_lookandfeel_org.kde.lookandfeel.po
-       po/uk/plasma_engine_applicationjobs.po
-       po/uk/kio5_applications.po
-       po/uk/plasma_engine_powermanagement.po
-       po/uk/plasma_applet_org.kde.plasma.lock_logout.po
-       po/uk/kcm_colors.po
-       po/uk/kcm_lookandfeel.po
-       po/uk/plasma_containmentactions_switchwindow.po
-       po/uk/plasma_runner_services.po
-       po/uk/plasma_applet_org.kde.plasma.panelspacer.po
-       po/uk/plasma_applet_org.kde.plasma.devicenotifier.po
-       po/uk/plasma_runner_shell.po
-       po/uk/kcm_notifications.po
-       po/uk/libkicker.po
-       po/uk/plasma_wallpaper_org.kde.color.po
-       po/ca@valencia/plasma_engine_mpris2.po
-       po/ca@valencia/plasma_applet_org.kde.plasma.icon.po
-       po/ca@valencia/plasma_runner_recentdocuments.po
-       po/ca@valencia/plasma_applet_org.kde.plasma.private.systemtray.po
-       po/ca@valencia/kholidays_calendar_plugin.po
-       po/ca@valencia/kcm_fonts.po
-       po/ca@valencia/freespacenotifier.po
-       po/ca@valencia/klipper.po
-       po/ca@valencia/plasma_runner_placesrunner.po
-       po/ca@valencia/libnotificationmanager.po
-       po/ca@valencia/phonon_kde_plugin.po
-       po/ca@valencia/kcm_cursortheme.po
-       po/ca@valencia/krunner.po
-       po/ca@valencia/plasma_applet_org.kde.plasma.digitalclock.po
-       po/ca@valencia/kcm_nightcolor.po
-       po/ca@valencia/plasma_applet_org.kde.plasma.analogclock.po
-       po/ca@valencia/plasma_applet_org.kde.plasma.notifications.po
-       po/ca@valencia/kcminit.po
-       po/ca@valencia/plasmashellprivateplugin.po
-       po/ca@valencia/plasma_runner_webshortcuts.po
-       po/ca@valencia/kcm_desktoptheme.po
-       po/ca@valencia/plasma_runner_powerdevil.po
-       po/ca@valencia/ksmserver.po
-       po/ca@valencia/plasma_applet_org.kde.plasma.systemmonitor.po
-       po/ca@valencia/kio_desktop.po
-       po/ca@valencia/plasmashell.po
-       po/ca@valencia/plasma_applet_org.kde.plasma.battery.po
-       po/ca@valencia/libkworkspace.po
-       po/ca@valencia/kcm_autostart.po
-       po/ca@valencia/plasma_engine_notifications.po
-       po/ca@valencia/systemmonitor.po
-       po/ca@valencia/kcm_users.po
-       po/ca@valencia/plasma_containmentactions_applauncher.po
-       po/ca@valencia/kcm_feedback.po
-       po/ca@valencia/plasma_runner_locations.po
-       po/ca@valencia/plasma_runner_sessions.po
-       po/ca@valencia/plasma_package_plasmashell.po
-       po/ca@valencia/plasma_applet_org.kde.plasma.mediacontroller.po
-       po/ca@valencia/plasma_runner_kill.po
-       po/ca@valencia/plasma_runner_bookmarksrunner.po
-       po/ca@valencia/krdb.po
-       po/ca@valencia/plasma_engine_time.po
-       po/ca@valencia/plasma_runner_windowedwidgets.po
-       po/ca@valencia/plasma_engine_soliddevice.po
-       po/ca@valencia/plasma_runner_calculatorrunner.po
-       po/ca@valencia/plasma_engine_keystate.po
-       po/ca@valencia/plasma_runner_baloosearch5.po
-       po/ca@valencia/plasma_containmentactions_contextmenu.po
-       po/ca@valencia/plasma_engine_dict.po
-       po/ca@valencia/soliduiserver5.po
-       po/ca@valencia/kcm_icons.po
-       po/ca@valencia/plasma_applet_org.kde.plasma.activitybar.po
-       po/ca@valencia/plasma_applet_org.kde.plasma.clipboard.po
-       po/ca@valencia/plasma_engine_hotplug.po
-       po/ca@valencia/plasma_applet_org.kde.plasma.appmenu.po
-       po/ca@valencia/plasma_runner_appstream.po
-       po/ca@valencia/kfontinst.po
-       po/ca@valencia/plasma_applet_org.kde.plasma.calendar.po
-       po/ca@valencia/plasma_engine_devicenotifications.po
-       po/ca@valencia/kcm_style.po
-       po/ca@valencia/plasma_lookandfeel_org.kde.lookandfeel.po
-       po/ca@valencia/plasma_engine_applicationjobs.po
-       po/ca@valencia/kio5_applications.po
-       po/ca@valencia/plasma_engine_powermanagement.po
-       po/ca@valencia/plasma_applet_org.kde.plasma.lock_logout.po
-       po/ca@valencia/kcm_colors.po
-       po/ca@valencia/plasma_containmentactions_switchwindow.po
-       po/ca@valencia/plasma_runner_services.po
-       po/ca@valencia/plasma_applet_org.kde.plasma.panelspacer.po
-       po/ca@valencia/plasma_applet_org.kde.plasma.devicenotifier.po
-       po/ca@valencia/plasma_runner_shell.po
-       po/ca@valencia/plasma_applet_org.kde.plasma.manageinputmethod.po
-       po/ca@valencia/kcm_notifications.po
-       po/ca@valencia/libkicker.po
-       po/ca@valencia/plasma_wallpaper_org.kde.color.po
-       po/ca/plasma_engine_mpris2.po
-       po/ca/plasma_applet_org.kde.plasma.icon.po
-       po/ca/plasma_runner_recentdocuments.po
-       po/ca/plasma_applet_org.kde.plasma.private.systemtray.po
-       po/ca/kholidays_calendar_plugin.po
-       po/ca/kcm_fonts.po
-       po/ca/freespacenotifier.po
-       po/ca/klipper.po
-       po/ca/plasma_runner_placesrunner.po
-       po/ca/libnotificationmanager.po
-       po/ca/phonon_kde_plugin.po
-       po/ca/kcm_cursortheme.po
-       po/ca/krunner.po
-       po/ca/plasma_applet_org.kde.plasma.digitalclock.po
-       po/ca/kcm_nightcolor.po
-       po/ca/plasma_applet_org.kde.plasma.analogclock.po
-       po/ca/plasma_applet_org.kde.plasma.notifications.po
-       po/ca/kcminit.po
-       po/ca/plasmashellprivateplugin.po
-       po/ca/plasma_runner_webshortcuts.po
-       po/ca/kcm_desktoptheme.po
-       po/ca/plasma_runner_powerdevil.po
-       po/ca/ksmserver.po
-       po/ca/plasma_applet_org.kde.plasma.systemmonitor.po
-       po/ca/kio_desktop.po
-       po/ca/plasmashell.po
-       po/ca/plasma_applet_org.kde.plasma.battery.po
-       po/ca/libkworkspace.po
-       po/ca/kcm_autostart.po
-       po/ca/plasma_engine_notifications.po
-       po/ca/systemmonitor.po
-       po/ca/kcm_users.po
-       po/ca/plasma_containmentactions_applauncher.po
-       po/ca/kcm_feedback.po
-       po/ca/plasma_runner_locations.po
-       po/ca/plasma_runner_sessions.po
-       po/ca/plasma_package_plasmashell.po
-       po/ca/plasma_applet_org.kde.plasma.mediacontroller.po
-       po/ca/plasma_runner_kill.po
-       po/ca/plasma_runner_bookmarksrunner.po
-       po/ca/krdb.po
-       po/ca/plasma_engine_time.po
-       po/ca/plasma_runner_windowedwidgets.po
-       po/ca/plasma_engine_soliddevice.po
-       po/ca/plasma_runner_calculatorrunner.po
-       po/ca/plasma_engine_keystate.po
-       po/ca/plasma_runner_baloosearch5.po
-       po/ca/plasma_containmentactions_contextmenu.po
-       po/ca/plasma_engine_dict.po
-       po/ca/soliduiserver5.po
-       po/ca/kcm_icons.po
-       po/ca/plasma_applet_org.kde.plasma.activitybar.po
-       po/ca/plasma_applet_org.kde.plasma.clipboard.po
-       po/ca/plasma_engine_hotplug.po
-       po/ca/plasma_applet_org.kde.plasma.appmenu.po
-       po/ca/plasma_runner_appstream.po
-       po/ca/kfontinst.po
-       po/ca/plasma_applet_org.kde.plasma.calendar.po
-       po/ca/plasma_engine_devicenotifications.po
-       po/ca/kcm_style.po
-       po/ca/plasma_lookandfeel_org.kde.lookandfeel.po
-       po/ca/plasma_engine_applicationjobs.po
-       po/ca/kio5_applications.po
-       po/ca/plasma_engine_powermanagement.po
-       po/ca/plasma_applet_org.kde.plasma.lock_logout.po
-       po/ca/kcm_colors.po
-       po/ca/plasma_containmentactions_switchwindow.po
-       po/ca/plasma_runner_services.po
-       po/ca/plasma_applet_org.kde.plasma.panelspacer.po
-       po/ca/plasma_applet_org.kde.plasma.devicenotifier.po
-       po/ca/plasma_runner_shell.po
-       po/ca/plasma_applet_org.kde.plasma.manageinputmethod.po
-       po/ca/kcm_notifications.po
-       po/ca/libkicker.po
-       po/ca/plasma_wallpaper_org.kde.color.po
-Copyright: 1998-2022, This_file_is_part_of_KDE
+Files: po/ca/*.po
+       po/ca@valencia/*.po
+       po/uk/*.po
+Copyright: 2003-2005, Albert Astals Cid <aacid@kde.org>
+           2019, Alfredo Vicente <alviboi@gmail.com>
+           2002-2006, Andriy Rysin <rysin@kde.org>
+           2002-2023, Antoni Bella Pérez <antonibella5@yahoo.com>
+           2002, Dmytro Kovalov <kov@tokyo.email.ne.jp>
+           2019, Empar Montoro Martín <montoro_mde@gva.es>
+           2002-2005, Eugene Onischenko <oneugene@ukr.net>
+           2004, Ivan Lloro Boada <antispam@wanadoo.es>
+           2004-2009, Ivan Petrouchtchak <fr.ivan@ukrainian-orthodox.org>
+           2004-2024, Josep M. Ferrer <txemaq@gmail.com>
+           2008, Orestes Mas Casals <orestes@tsc.upc.edu>
+           2009, Orestes Mas <orestes@tsc.upc.edu>
+           1998-2006, Sebastià Pla i Sanz <sps@sastia.com>
+           2008-2024, Yuri Chornoivan <yurchor@ukr.net>
 License: LGPL-2.1-only OR LGPL-3.0-only OR LicenseRef-KDE-Accepted-LGPL
 
-Files: applets/digital-clock/plugin/digitalclockplugin.cpp
-       applets/digital-clock/plugin/digitalclockplugin.h
+Files: po/ca/plasma_wallpaper_org.kde.image.po
+       po/ca@valencia/plasma_wallpaper_org.kde.image.po
+Copyright: 2007-2024, Josep M. Ferrer <txemaq@gmail.com>
+           2008, Orestes Mas Casals <orestes@tsc.upc.edu>
+           2009, Robert Millan <rmh@aybabtu.com>
+           2014-2015, Antoni Bella Pérez <antonibella5@yahoo.com>
+License: LGPL-2.0-or-later
+
+Files: applets/keyboardindicator/plugin/keystate.cpp
+       applets/keyboardindicator/plugin/keystate.h
        applets/notifications/fileinfo.cpp
        applets/notifications/fileinfo.h
        applets/notifications/filemenu.cpp
        applets/notifications/filemenu.h
        applets/notifications/jobaggregator.cpp
        applets/notifications/jobaggregator.h
-       applets/notifications/texteditclickhandler.cpp
-       applets/notifications/texteditclickhandler.h
        applets/notifications/thumbnailer.cpp
        applets/notifications/thumbnailer.h
+       components/dbus/autotests/dbusservicewatchertest.cpp
+       components/dbus/dbusservicewatcher.cpp
+       components/dbus/dbusservicewatcher.h
        components/keyboardlayout/keyboardlayout.cpp
        components/keyboardlayout/keyboardlayout.h
        c_ptr.h
-       dataengines/keystate/keyservice.cpp
-       dataengines/keystate/keyservice.h
-       dataengines/mpris2/multiplexedservice.cpp
-       dataengines/mpris2/multiplexedservice.h
-       dataengines/mpris2/multiplexer.cpp
-       dataengines/mpris2/multiplexer.h
-       dataengines/mpris2/playeractionjob.cpp
-       dataengines/mpris2/playeractionjob.h
-       dataengines/mpris2/playercontainer.cpp
-       dataengines/mpris2/playercontainer.h
-       dataengines/mpris2/playercontrol.cpp
-       dataengines/mpris2/playercontrol.h
        dataengines/places/jobs.h
        dataengines/places/modeljob.h
        dataengines/places/placeservice.cpp
@@ -1437,14 +1791,28 @@ Files: applets/digital-clock/plugin/digitalclockplugin.cpp
        gmenu-dbusmenu-proxy/utils.h
        gmenu-dbusmenu-proxy/window.cpp
        gmenu-dbusmenu-proxy/window.h
+       libkmpris/mpris2filterproxymodel.cpp
+       libkmpris/mpris2filterproxymodel.h
+       libkmpris/mpris2model.cpp
+       libkmpris/mpris2model.h
+       libkmpris/mpris2sourcemodel.cpp
+       libkmpris/mpris2sourcemodel.h
+       libkmpris/multiplexer.cpp
+       libkmpris/multiplexer.h
+       libkmpris/multiplexermodel.cpp
+       libkmpris/multiplexermodel.h
+       libkmpris/playercontainer.cpp
+       libkmpris/playercontainer.h
        libkworkspace/autostartscriptdesktopfile.cpp
        libkworkspace/autostartscriptdesktopfile.h
+       libtaskmanager/regionfiltermode.h
        runners/baloo/baloosearchrunner.cpp
        runners/baloo/baloosearchrunner.h
        runners/helprunner/helprunner.cpp
        runners/helprunner/helprunner.h
-       systemmonitor/kdedksysguard.h
-       systemmonitor/main.cpp
+       startkde/plasma-shutdown/config.h.cmake
+       startkde/session-restore/restore.cpp
+       startkde/session-restore/save.cpp
        xembed-sni-proxy/fdoselectionmanager.cpp
        xembed-sni-proxy/fdoselectionmanager.h
        xembed-sni-proxy/main.cpp
@@ -1453,30 +1821,65 @@ Files: applets/digital-clock/plugin/digitalclockplugin.cpp
        xembed-sni-proxy/xtestsender.cpp
        xembed-sni-proxy/xtestsender.h
 Copyright: 2009, Aaron Seigo <aseigo@kde.org>
-           2008-2012, Alex Merry <alex.merry@kdemail.net>
+           2007-2012, Alex Merry <alex.merry@kdemail.net>
            2021, Alexander Lohnau <alexander.lohnau@gmx.de>
            2020, Andrey Butirsky <butirsky@gmail.com>
            2014, Daniel Vrátil <dvratil@redhat.com>
-           2015-2019, David Edmundson <davidedmundson@kde.org>
+           2015-2023, David Edmundson <davidedmundson@kde.org>
+           2023, David Redondo <kde@david-redondo.de>
+           2023-2024, Fushan Wen <qydwhotmail@gmail.com>
            2021, Henri Chain <henri.chain@enioka.com>
-           2021-2022, Kai Uwe Broulik <kde@broulik.de>
-           2016-2019, Kai Uwe Broulik <kde@privat.broulik.de>
+           2016-2022, Kai Uwe Broulik <kde@broulik.de>
            2019, Konrad Materka <materka@gmail.com>
            2014, Marco Martin <mart@kde.org>
-           2014, Martin Klapetek <mklapetek@kde.org>
            2014, Vishesh Handa <me@vhanda.in>
            2022, Xaver Hugl <xaver.hugl@gmail.com>
 License: LGPL-2.1-or-later
 
-Files: kcms/region_language/package/contents/ui/AdvancedLanguageSelectPage.qml
-       kcms/region_language/package/contents/ui/main.qml
+Files: kcms/region_language/ui/AdvancedLanguageSelectPage.qml
+       kcms/region_language/ui/main.qml
 Copyright: 2018, Eike Hein <hein@kde.org>
            2021, Han Young <hanyoung@protonmail.com>
            2021, Harald Sitter <sitter@kde.org>
            2015, Marco Martin <mart@kde.org>
 License: LGPL-3.0-or-later
 
-Files: appiumtests/digitalclocktest.py
+Files: appiumtests/applets/analogclocktest.py
+       appiumtests/applets/appmenutest.py
+       appiumtests/applets/batterymonitortest.py
+       appiumtests/applets/calendartest.py
+       appiumtests/applets/cameraindicatortest.py
+       appiumtests/applets/clipboardtest.py
+       appiumtests/applets/devicenotifiertest.py
+       appiumtests/applets/digitalclocktest.py
+       appiumtests/applets/icontest.py
+       appiumtests/applets/lock_logouttest.py
+       appiumtests/applets/logoutgreetertest.py
+       appiumtests/applets/manage-inputmethodtest.py
+       appiumtests/applets/notificationstest.py
+       appiumtests/applets/systemtraytest.py
+       appiumtests/components_tests/systemdialogtest.py
+       appiumtests/kcms/kcm_autostart_test.py
+       appiumtests/kcms/kcm_colors_test.py
+       appiumtests/kcms/kcm_cursortheme_test.py
+       appiumtests/kcms/kcm_desktoptheme_test.py
+       appiumtests/kcms/kcm_feedback_test.py
+       appiumtests/kcms/kcm_fontinst_test.py
+       appiumtests/kcms/kcm_fonts_test.py
+       appiumtests/kcms/kcm_icons_test.py
+       appiumtests/kcms/kcm_lookandfeel_test.py
+       appiumtests/kcms/kcm_nightlight_test.py
+       appiumtests/kcms/kcm_notifications_test.py
+       appiumtests/kcms/kcm_regionandlang_test.py
+       appiumtests/kcms/kcm_soundtheme_test.py
+       appiumtests/kcms/kcm_style_test.py
+       appiumtests/kcms/kcm_users_test.py
+       appiumtests/krunner/krunnertest.py
+       appiumtests/wallpapers/installtest.py
+       applets/keyboardindicator/plugin/autotests/keystatetest.qml
+       applets/keyboardindicator/plugin/autotests/lockedtest.py
+       applets/keyboardindicator/plugin/autotests/lockedtest.qml
+       applets/systemtray/autotests/data/statusnotifiermodel.qml
        appmenu/appmenu.cpp
        appmenu/appmenu_dbus.cpp
        appmenu/appmenu_dbus.h
@@ -1486,16 +1889,15 @@ Files: appiumtests/digitalclocktest.py
        appmenu/menuimporter.h
        appmenu/verticalmenu.cpp
        appmenu/verticalmenu.h
+       components/dbus/autotests/dbusservice.py
+       components/dbus/autotests/dbusservicewatchertest.qml
        components/keyboardlayout/keyboardlayoutplugin.cpp
        components/keyboardlayout/keyboardlayoutplugin.h
        components/sessionsprivate/sessionsmodel.cpp
        components/sessionsprivate/sessionsmodel.h
-       components/sessionsprivate/sessionsprivateplugin.cpp
-       components/sessionsprivate/sessionsprivateplugin.h
+       components/sessionsprivate/types.h
        components/shellprivate/shellprivateplugin.cpp
        components/shellprivate/shellprivateplugin.h
-       components/trianglemousefilter/trianglemousefilterplugin.cpp
-       components/trianglemousefilter/trianglemousefilterplugin.h
        ksmserver/client.cpp
        ksmserver/client.h
        ksmserver/global.h
@@ -1504,6 +1906,9 @@ Files: appiumtests/digitalclocktest.py
        ksmserver/main.cpp
        ksmserver/server.cpp
        ksmserver/server.h
+       libtaskmanager/autotests/data/windows/bug478831.py
+       libtaskmanager/autotests/data/windows/samplewidgetwindow.cpp
+       libtaskmanager/autotests/data/windows/samplewidgetwindow.h.in
        logout-greeter/greeter.cpp
        logout-greeter/greeter.h
        logout-greeter/main.cpp
@@ -1513,23 +1918,28 @@ Files: appiumtests/digitalclocktest.py
        startkde/plasma-session/startup.cpp
        startkde/plasma-session/startup.h
        startkde/plasma-shutdown/shutdown.h
-Copyright: 2022, Bharadwaj Raju <bharadwaj.raju777@protonmail.com>
+       wallpapers/image/wallpaperfileitemactionplugin/CMakeLists.txt
+Copyright: 2021, Benjamin Port <benjamin.port@enioka.com>
+           2020, Björn Ottosson
            2011-2012, Cédric Bellegarde <gnumdk@gmail.com>
+           2021, Dan Leinir Turthra Jensen <admin@leinir.dk>
            2014-2018, David Edmundson <davidedmundson@kde.org>
-           2021-2022, Harald Sitter <sitter@kde.org>
+           2023-2024, Fushan Wen <qydwhotmail@gmail.com>
+           2021-2023, Harald Sitter <sitter@kde.org>
+           2022, Julius Zint <julius@zint.sh>
            2015-2016, Kai Uwe Broulik <kde@privat.broulik.de>
            2011, Lionel Chauvin <megabigbug@yahoo.fr>
            2005, Lubos Lunak <l.lunak@kde.org>
+           2023, Marco Martin <mart@kde.org>
            2016, Martin Graesslin <mgraesslin@kde.org>
            2014, Martin Yrjölä <martin.yrjola@gmail.com>
            1999-2000, Matthias Ettrich <ettrich@kde.org>
-           2016, Microsoft Corporation. All rights reserved.
            1999, Preston Brown <pbrown@kde.org>
            2007, Urs Wolfer <uwolfer@kde.org>
 License: MIT
 
 Files: debian/*
-Copyright: 2022, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Copyright: 2022-2024, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
            2014, Jonathan Riddell <jriddell@ubuntu.com>
            2014, Scarlett Clark <scarlett@scarlettgatelyclark.com>
 License: GPL-2.0-or-later
@@ -1674,9 +2084,8 @@ License: GPL-3.0-only
 
 License: LGPL-2.0-only
  This library is free software; you can redistribute it and/or modify
- it under the terms of the GNU Library General Public License as
- published by the Free Software Foundation; either version 2 of the
- License, or (at your option) any later version.
+ it under the terms of the GNU Library General Public License version
+ 2 as published by the Free Software Foundation.
  .
  This library is distributed in the hope that it will be useful, but
  WITHOUT ANY WARRANTY; without even the implied warranty of
