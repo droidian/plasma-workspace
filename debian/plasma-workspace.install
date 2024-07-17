@@ -78,6 +78,7 @@ usr/lib/*/qt6/qml/org/kde/taskmanager/
 usr/lib/systemd/user/
 usr/share/applications/
 usr/share/dbus-1/services/
+usr/share/kconf_update/*.py
 usr/share/kglobalaccel/org.kde.krunner.desktop
 usr/share/kio_desktop/directory.desktop
 usr/share/kio_desktop/directory.trash

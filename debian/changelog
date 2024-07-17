@@ -12,6 +12,8 @@ plasma-workspace (4:6.1.0-1) UNRELEASED; urgency=medium
 
   [ Aurélien COUDERC ]
   * Refresh lintian overrides.
+  * The python interpreter is needed as a runtime dependency for a
+    kconf_update migration script.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 02 Jul 2024 00:02:27 +0200
 
