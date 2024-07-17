@@ -23,6 +23,7 @@ plasma-workspace: no-manual-page [usr/bin/kcolorschemeeditor]
 plasma-workspace: no-manual-page [usr/bin/kfontinst]
 plasma-workspace: no-manual-page [usr/bin/kfontview]
 plasma-workspace: no-manual-page [usr/bin/lookandfeeltool]
+plasma-workspace: no-manual-page [usr/bin/plasma-localegen-helper]
 plasma-workspace: shared-library-lacks-version usr/lib/*/libkrdb.so libkrdb.so
 plasma-workspace: lacks-ldconfig-trigger usr/lib/*/libkrdb.so
 plasma-workspace: desktop-entry-unknown-type XSession [usr/share/xsessions/plasmax11.desktop]
