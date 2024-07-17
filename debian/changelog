@@ -1,4 +1,4 @@
-plasma-workspace (4:6.1.0-1) UNRELEASED; urgency=medium
+plasma-workspace (4:6.1.0-1) experimental; urgency=medium
 
   [ Patrick Franz ]
   * New upstream release (6.1.0).
@@ -15,7 +15,7 @@ plasma-workspace (4:6.1.0-1) UNRELEASED; urgency=medium
   * The python interpreter is needed as a runtime dependency for a
     kconf_update migration script.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 02 Jul 2024 00:02:27 +0200
+ -- Aurélien COUDERC <coucouf@debian.org>  Wed, 17 Jul 2024 23:24:24 +0200
 
 plasma-workspace (4:5.27.11.1-1) unstable; urgency=medium
 
