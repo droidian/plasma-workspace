@@ -1,3 +1,4 @@
 #add_sddm_debian_breeze.patch
 #enable_debianabimanager.diff
 #fix-appstreamqt5-1.0-build.patch
+upstream_ab80bee1_Fix-svg-images.patch
