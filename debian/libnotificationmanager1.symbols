@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:6.1.0 amd64
+# SymbolsHelper-Confirmed: 4:6.1.4-1 amd64 arm64 armel armhf i386 mips64el ppc64 ppc64el riscv64 s390x
 _Z46qml_register_types_org_kde_notificationmanagerv@Base 4:6.1.0
  _ZGVZN9QMetaType21registerConverterImplI5QListI4QUrlE9QIterableI13QMetaSequenceEEEbSt8functionIFbPKvPvEES_S_E10unregister@Base 4:6.1.0
  _ZGVZN9QMetaType21registerConverterImplI5QListIiE9QIterableI13QMetaSequenceEEEbSt8functionIFbPKvPvEES_S_E10unregister@Base 4:6.1.0
@@ -1213,7 +1213,7 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZNK19NotificationManager9JobsModel9roleNamesEv@Base 4:6.1.0
  (optional=templinst)_ZNKSt8_Rb_treeI7QStringSt4pairIKS0_8QVariantESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE4findERS2_@Base 4:6.1.0
  (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_8QVariantESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE24_M_get_insert_unique_posERS2_@Base 4:6.1.0
- (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_8QVariantESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS4_ERS2_@Base 4:6.1.0
+ (optional=templinst|arch=amd64 arm64 mips64el ppc64el riscv64)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_8QVariantESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS4_ERS2_@Base 4:6.1.0
  _ZTI12QDBusContext@Base 4:6.1.0
  _ZTIFP7QObjectP10QQmlEngineP9QJSEngineE@Base 4:6.1.0
  _ZTIN19NotificationManager10ServerInfoE@Base 4:6.1.0
@@ -1233,14 +1233,23 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZTIN19NotificationManager6ServerE@Base 4:6.1.0
  _ZTIN19NotificationManager8SettingsE@Base 4:6.1.0
  _ZTIN19NotificationManager9JobsModelE@Base 4:6.1.0
+ (arch=armel riscv64)_ZTIN9__gnu_cxx7__mutexE@Base 4:6.1.4-1
  _ZTIPFP7QObjectP10QQmlEngineP9QJSEngineE@Base 4:6.1.0
- _ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.0
- _ZTISt15_Sp_counted_ptrIPN19NotificationManager18NotificationsModelELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.0
- _ZTISt15_Sp_counted_ptrIPN19NotificationManager8SettingsELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.0
- _ZTISt15_Sp_counted_ptrIPN19NotificationManager9JobsModelELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.0
- _ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.0
- _ZTISt23_Sp_counted_ptr_inplaceI16KFilePlacesModelSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.0
- _ZTISt23_Sp_counted_ptr_inplaceIN11QMetaObject10ConnectionESaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.0
+ (arch=armel riscv64)_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.1.4-1
+ (arch=!armel !riscv64)_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.4-1
+ (arch=armel riscv64)_ZTISt15_Sp_counted_ptrIPN19NotificationManager18NotificationsModelELN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.1.4-1
+ (arch=!armel !riscv64)_ZTISt15_Sp_counted_ptrIPN19NotificationManager18NotificationsModelELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.4-1
+ (arch=armel riscv64)_ZTISt15_Sp_counted_ptrIPN19NotificationManager8SettingsELN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.1.4-1
+ (arch=!armel !riscv64)_ZTISt15_Sp_counted_ptrIPN19NotificationManager8SettingsELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.4-1
+ (arch=armel riscv64)_ZTISt15_Sp_counted_ptrIPN19NotificationManager9JobsModelELN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.1.4-1
+ (arch=!armel !riscv64)_ZTISt15_Sp_counted_ptrIPN19NotificationManager9JobsModelELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.4-1
+ (arch=armel riscv64)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.1.4-1
+ (arch=!armel !riscv64)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.4-1
+ (arch=armel armhf)_ZTISt19_Sp_make_shared_tag@Base 4:6.1.4-1
+ (arch=armel riscv64)_ZTISt23_Sp_counted_ptr_inplaceI16KFilePlacesModelSaIvELN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.1.4-1
+ (arch=!armel !riscv64)_ZTISt23_Sp_counted_ptr_inplaceI16KFilePlacesModelSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.4-1
+ (arch=armel riscv64)_ZTISt23_Sp_counted_ptr_inplaceIN11QMetaObject10ConnectionESaIvELN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.1.4-1
+ (arch=!armel !riscv64)_ZTISt23_Sp_counted_ptr_inplaceIN11QMetaObject10ConnectionESaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.4-1
  _ZTIZN9QMetaType17registerConverterI5QListI4QUrlE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Base 4:6.1.0
  _ZTIZN9QMetaType17registerConverterI5QListIiE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS2_EEEEbT1_EUlPKvPvE_@Base 4:6.1.0
  _ZTIZN9QMetaType19registerMutableViewI5QListI4QUrlE9QIterableI13QMetaSequenceEN9QtPrivate37QSequentialIterableMutableViewFunctorIS3_EEEEbT1_EUlPvSB_E_@Base 4:6.1.0
@@ -1264,15 +1273,23 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZTSN19NotificationManager6ServerE@Base 4:6.1.0
  _ZTSN19NotificationManager8SettingsE@Base 4:6.1.0
  _ZTSN19NotificationManager9JobsModelE@Base 4:6.1.0
+ (arch=armel riscv64)_ZTSN9__gnu_cxx7__mutexE@Base 4:6.1.4-1
  _ZTSPFP7QObjectP10QQmlEngineP9QJSEngineE@Base 4:6.1.0
- _ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.0
- _ZTSSt15_Sp_counted_ptrIPN19NotificationManager18NotificationsModelELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.0
- _ZTSSt15_Sp_counted_ptrIPN19NotificationManager8SettingsELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.0
- _ZTSSt15_Sp_counted_ptrIPN19NotificationManager9JobsModelELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.0
- _ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.0
+ (arch=armel riscv64)_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.1.4-1
+ (arch=!armel !riscv64)_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.4-1
+ (arch=armel riscv64)_ZTSSt15_Sp_counted_ptrIPN19NotificationManager18NotificationsModelELN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.1.4-1
+ (arch=!armel !riscv64)_ZTSSt15_Sp_counted_ptrIPN19NotificationManager18NotificationsModelELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.4-1
+ (arch=armel riscv64)_ZTSSt15_Sp_counted_ptrIPN19NotificationManager8SettingsELN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.1.4-1
+ (arch=!armel !riscv64)_ZTSSt15_Sp_counted_ptrIPN19NotificationManager8SettingsELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.4-1
+ (arch=armel riscv64)_ZTSSt15_Sp_counted_ptrIPN19NotificationManager9JobsModelELN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.1.4-1
+ (arch=!armel !riscv64)_ZTSSt15_Sp_counted_ptrIPN19NotificationManager9JobsModelELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.4-1
+ (arch=armel riscv64)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.1.4-1
+ (arch=!armel !riscv64)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.4-1
  _ZTSSt19_Sp_make_shared_tag@Base 4:6.1.0
- _ZTSSt23_Sp_counted_ptr_inplaceI16KFilePlacesModelSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.0
- _ZTSSt23_Sp_counted_ptr_inplaceIN11QMetaObject10ConnectionESaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.0
+ (arch=armel riscv64)_ZTSSt23_Sp_counted_ptr_inplaceI16KFilePlacesModelSaIvELN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.1.4-1
+ (arch=!armel !riscv64)_ZTSSt23_Sp_counted_ptr_inplaceI16KFilePlacesModelSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.4-1
+ (arch=armel riscv64)_ZTSSt23_Sp_counted_ptr_inplaceIN11QMetaObject10ConnectionESaIvELN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.1.4-1
+ (arch=!armel !riscv64)_ZTSSt23_Sp_counted_ptr_inplaceIN11QMetaObject10ConnectionESaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.4-1
  _ZTSZN9QMetaType17registerConverterI5QListI4QUrlE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Base 4:6.1.0
  _ZTSZN9QMetaType17registerConverterI5QListIiE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS2_EEEEbT1_EUlPKvPvE_@Base 4:6.1.0
  _ZTSZN9QMetaType19registerMutableViewI5QListI4QUrlE9QIterableI13QMetaSequenceEN9QtPrivate37QSequentialIterableMutableViewFunctorIS3_EEEEbT1_EUlPvSB_E_@Base 4:6.1.0
@@ -1294,11 +1311,16 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZTVN19NotificationManager6ServerE@Base 4:6.1.0
  _ZTVN19NotificationManager8SettingsE@Base 4:6.1.0
  _ZTVN19NotificationManager9JobsModelE@Base 4:6.1.0
- _ZTVSt15_Sp_counted_ptrIPN19NotificationManager18NotificationsModelELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.0
- _ZTVSt15_Sp_counted_ptrIPN19NotificationManager8SettingsELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.0
- _ZTVSt15_Sp_counted_ptrIPN19NotificationManager9JobsModelELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.0
- _ZTVSt23_Sp_counted_ptr_inplaceI16KFilePlacesModelSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.0
- _ZTVSt23_Sp_counted_ptr_inplaceIN11QMetaObject10ConnectionESaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.0
+ (arch=armel riscv64)_ZTVSt15_Sp_counted_ptrIPN19NotificationManager18NotificationsModelELN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.1.4-1
+ (arch=!armel !riscv64)_ZTVSt15_Sp_counted_ptrIPN19NotificationManager18NotificationsModelELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.4-1
+ (arch=armel riscv64)_ZTVSt15_Sp_counted_ptrIPN19NotificationManager8SettingsELN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.1.4-1
+ (arch=!armel !riscv64)_ZTVSt15_Sp_counted_ptrIPN19NotificationManager8SettingsELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.4-1
+ (arch=armel riscv64)_ZTVSt15_Sp_counted_ptrIPN19NotificationManager9JobsModelELN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.1.4-1
+ (arch=!armel !riscv64)_ZTVSt15_Sp_counted_ptrIPN19NotificationManager9JobsModelELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.4-1
+ (arch=armel riscv64)_ZTVSt23_Sp_counted_ptr_inplaceI16KFilePlacesModelSaIvELN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.1.4-1
+ (arch=!armel !riscv64)_ZTVSt23_Sp_counted_ptr_inplaceI16KFilePlacesModelSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.4-1
+ (arch=armel riscv64)_ZTVSt23_Sp_counted_ptr_inplaceIN11QMetaObject10ConnectionESaIvELN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.1.4-1
+ (arch=!armel !riscv64)_ZTVSt23_Sp_counted_ptr_inplaceIN11QMetaObject10ConnectionESaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.4-1
  (optional=templinst)_ZZN9QMetaType21registerConverterImplI5QListI4QUrlE9QIterableI13QMetaSequenceEEEbSt8functionIFbPKvPvEES_S_E10unregister@Base 4:6.1.0
  (optional=templinst)_ZZN9QMetaType21registerConverterImplI5QListIiE9QIterableI13QMetaSequenceEEEbSt8functionIFbPKvPvEES_S_E10unregister@Base 4:6.1.0
  (optional=templinst)_ZZN9QMetaType23registerMutableViewImplI5QListI4QUrlE9QIterableI13QMetaSequenceEEEbSt8functionIFbPvS8_EES_S_E10unregister@Base 4:6.1.0

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:6.1.0 amd64
+# SymbolsHelper-Confirmed: 4:6.1.4-1 armel armhf i386 ppc64 s390x
 libcolorcorrect.so.6 libcolorcorrect6 #MINVER#
 * Build-Depends-Package: plasma-workspace-dev
  _Z39qml_register_types_org_kde_colorcorrectv@Base 4:6.1.0
@@ -35,7 +35,7 @@ libcolorcorrect.so.6 libcolorcorrect6 #MINVER#
  _ZNK12ColorCorrect7SunCalc10metaObjectEv@Base 4:6.1.0
  (optional=templinst)_ZNKSt8_Rb_treeI7QStringSt4pairIKS0_8QVariantESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE4findERS2_@Base 4:6.1.0
  (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_8QVariantESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE24_M_get_insert_unique_posERS2_@Base 4:6.1.0
- (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_8QVariantESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS4_ERS2_@Base 4:6.1.0
+#MISSING: 4:6.1.4-1# (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_8QVariantESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS4_ERS2_@Base 4:6.1.0
  _ZTIN12ColorCorrect10GeolocatorE@Base 4:6.1.0
  _ZTIN12ColorCorrect17CompositorAdaptorE@Base 4:6.1.0
  _ZTIN12ColorCorrect7SunCalcE@Base 4:6.1.0
