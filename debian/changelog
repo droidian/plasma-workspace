@@ -1,5 +1,9 @@
 plasma-workspace (4:6.1.4-3) UNRELEASED; urgency=medium
 
+  [ Sandro Knauß ]
+  * Add missing runtime dependency qml6-module-org-kde-plasma-
+    plasma5support.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 17 Aug 2024 10:00:23 +0200
 
 plasma-workspace (4:6.1.4-2) experimental; urgency=medium
