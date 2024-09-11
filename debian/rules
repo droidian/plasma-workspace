@@ -12,7 +12,5 @@ override_dh_auto_test:
 	# Disable auto tests at build time
 	:
 
-#override_dh_fixperms-arch:
-#	chmod -x debian/plasma-workspace/etc/xdg/autostart/klipper.desktop
-#	chmod -x debian/plasma-workspace/usr/lib/*/libexec/plasma-sourceenv.sh
-#	dh_fixperms -a
+execute_after_dh_fixperms-arch:
+	chmod -x $(CURDIR)/debian/plasma-workspace/usr/share/kglobalaccel/org.kde.krunner.desktop
