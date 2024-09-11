@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:6.1.4-1 amd64 arm64 armel armhf i386 mips64el ppc64 ppc64el riscv64 s390x
+# SymbolsHelper-Confirmed: 4:6.1.4 amd64 arm64 armel armhf i386 mips64el ppc64 ppc64el riscv64 s390x
 libkworkspace6.so.6 libkworkspace6-6 #MINVER#
 * Build-Depends-Package: plasma-workspace-dev
  _ZGVZN9QMetaType21registerConverterImplI5QListI15QDBusObjectPathE9QIterableI13QMetaSequenceEEEbSt8functionIFbPKvPvEES_S_E10unregister@Base 4:6.1.0

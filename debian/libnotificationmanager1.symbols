@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:6.1.4-1 amd64 arm64 armel armhf i386 mips64el ppc64 ppc64el riscv64 s390x
+# SymbolsHelper-Confirmed: 4:6.1.4 amd64 arm64 armel armhf i386 mips64el ppc64 ppc64el riscv64 s390x
 libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
 * Build-Depends-Package: plasma-workspace-dev
  _Z46qml_register_types_org_kde_notificationmanagerv@Base 4:6.1.0
