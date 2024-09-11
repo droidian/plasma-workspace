@@ -1,5 +1,8 @@
 plasma-workspace (4:6.1.4-5) UNRELEASED; urgency=medium
 
+  [ Aurélien COUDERC ]
+  * Add missing build dependency on systemd.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 11 Sep 2024 09:29:23 +0200
 
 plasma-workspace (4:6.1.4-4) experimental; urgency=medium

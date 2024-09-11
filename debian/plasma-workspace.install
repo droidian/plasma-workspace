@@ -10,6 +10,7 @@ usr/bin/gmenudbusmenuproxy
 usr/bin/kcminit
 usr/bin/kcminit_startup
 usr/bin/kcolorschemeeditor
+usr/bin/kde-systemd-start-condition
 usr/bin/kfontinst
 usr/bin/kfontview
 usr/bin/krunner
