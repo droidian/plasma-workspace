@@ -1,4 +1,4 @@
 # SymbolsHelper-Confirmed: 4:6.1.4 amd64
 libbatterycontrol.so.6 libbatterycontrol6 #MINVER#
 * Build-Depends-Package: plasma-workspace-dev
- _Z49qml_register_types_org_kde_plasma_private_batteryv@Base 6.1.4
+ _Z49qml_register_types_org_kde_plasma_private_batteryv@Base 4:6.1.4
