@@ -8,6 +8,7 @@ plasma-workspace (4:6.1.5-1) UNRELEASED; urgency=medium
   * Tighten Plasma packages inter-dependencies.
   * Fix permissions of installed files.
   * Fix duplicate symbols for libnotificationmanager1 and libtaskmanager6.
+  * Fix symbols having debian revision in libkmpris6.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 11 Sep 2024 19:22:35 +0200
 
