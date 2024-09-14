@@ -1,9 +1,9 @@
-plasma-workspace (4:6.1.5-3) UNRELEASED; urgency=medium
+plasma-workspace (4:6.1.5-3) experimental; urgency=medium
 
   [ Aurélien COUDERC ]
   * Update symbols from buildds for 4:6.1.5.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 14 Sep 2024 14:41:34 +0200
+ -- Aurélien COUDERC <coucouf@debian.org>  Sat, 14 Sep 2024 14:53:49 +0200
 
 plasma-workspace (4:6.1.5-2) experimental; urgency=medium
 
