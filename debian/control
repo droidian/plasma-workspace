@@ -136,6 +136,18 @@ Description: Plasma Workspace for KF6 library
  .
  This package contains library files.
 
+Package: libklipper6
+Architecture: any
+Section: libs
+Depends: ${misc:Depends}, ${shlibs:Depends},
+Description: Klipper library
+ Klipper is the Plasma clipboard utility. It stores clipboard
+ history, and allows you to link clipboard contents to application
+ actions.
+ .
+ This package contains the library files, it is part of Plasma
+ Workspaces.
+
 Package: libkmpris6
 Architecture: any
 Section: libs

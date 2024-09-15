@@ -15,6 +15,7 @@ usr/lib/*/libbatterycontrol.so
 usr/lib/*/libcolorcorrect.so
 usr/lib/*/libkfontinst.so
 usr/lib/*/libkfontinstui.so
+usr/lib/*/libklipper.so
 usr/lib/*/libkmpris.so
 usr/lib/*/libkworkspace6.so
 usr/lib/*/libnotificationmanager.so
