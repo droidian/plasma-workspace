@@ -140,6 +140,7 @@ Package: libklipper6
 Architecture: any
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends},
+Recommends: plasma-workspace-doc (>= ${source:Version}),
 Description: Klipper library
  Klipper is the Plasma clipboard utility. It stores clipboard
  history, and allows you to link clipboard contents to application
@@ -315,6 +316,7 @@ Recommends: kde-cli-tools (>= 4:6.1.5~),
             kio-extras,
             kio-fuse,
             ksystemstats (>= 6.1.5~),
+            plasma-workspace-doc (>= ${source:Version}),
             powerdevil (>= 4:6.1.5~),
             systemsettings,
 Breaks: breeze (<< 4:5.23.90~),
@@ -345,6 +347,19 @@ Description: Plasma Workspace for KF6 - data files
  hardware management and a high degree of customizability.
  .
  This contains the data files for the Plasma workspace.
+
+Package: plasma-workspace-doc
+Architecture: all
+Depends: ${misc:Depends},
+Breaks: plasma-workspace-data (<< 4:6.1.90~),
+Replaces: plasma-workspace-data (<< 4:6.1.90~),
+Description: Plasma Workspace documentation
+ Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
+ Bigscreen. It contains shared KCM configuration screens, applets as
+ well as multiple libraries.
+ .
+ This package contains the documentation files forr the Plasma
+ Workspace components and libraries
 
 Package: plasma-workspace-dev
 Architecture: any

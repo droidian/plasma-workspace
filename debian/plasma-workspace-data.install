@@ -4,9 +4,6 @@ usr/share/dbus-1/system.d/org.kde.localegenhelper.conf
 usr/share/dbus-1/system-services/org.kde.fontinst.service
 usr/share/dbus-1/system-services/org.kde.localegenhelper.service
 usr/share/desktop-directories/
-usr/share/doc/HTML/*/kcontrol/
-usr/share/doc/HTML/*/klipper/
-usr/share/doc/HTML/*/PolicyKit-kde/
 usr/share/icons/
 usr/share/kconf_update/*.upd
 usr/share/kfontinst/
