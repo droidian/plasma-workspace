@@ -6,6 +6,7 @@ plasma-workspace (4:6.1.90-1) UNRELEASED; urgency=medium
   * Update the list of installed files.
   * Add binary package for libklipper6.
   * Review copyright information.
+  * Update symbols from build for 6.1.90.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 14 Sep 2024 23:16:38 +0200
 

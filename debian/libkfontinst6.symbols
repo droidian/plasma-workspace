@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:6.1.5 arm64 armel armhf i386 loong64 mips64el ppc64 ppc64el riscv64 s390x
+# SymbolsHelper-Confirmed: 4:6.1.90 amd64
 libkfontinst.so.6 libkfontinst6 #MINVER#
 * Build-Depends-Package: plasma-workspace-dev
  _ZN3KFI14WritingSystems8instanceEv@Base 4:6.1.4
@@ -51,9 +51,11 @@ libkfontinst.so.6 libkfontinst6 #MINVER#
  _ZN3KFI4Misc5qHashERKNS0_5TFontE@Base 4:6.1.4
  _ZN3KFI4Misc6getDirERK7QString@Base 4:6.1.4
  _ZN3KFI4Misc7getFileERK7QString@Base 4:6.1.4
- _ZN3KFI4Misc8checkExtERK7QStringS3_@Base 4:6.1.4
+ _ZN3KFI4Misc8checkExtERK7QString11QStringView@Base 4:6.1.90
+#MISSING: 4:6.1.90# _ZN3KFI4Misc8checkExtERK7QStringS3_@Base 4:6.1.4
  _ZN3KFI4Misc8isBitmapERK7QString@Base 4:6.1.4
- _ZN3KFI4Misc9changeExtERK7QStringS3_@Base 4:6.1.4
+ _ZN3KFI4Misc9changeExtERK7QString13QLatin1String@Base 4:6.1.90
+#MISSING: 4:6.1.90# _ZN3KFI4Misc9changeExtERK7QStringS3_@Base 4:6.1.4
  _ZN3KFI4Misc9createDirERK7QString@Base 4:6.1.4
  _ZN3KFI4Misc9dirSyntaxERK7QString@Base 4:6.1.4
  _ZN3KFI4Misc9getFolderERK7QStringS3_R5QListIS1_E@Base 4:6.1.4
