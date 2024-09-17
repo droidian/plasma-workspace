@@ -8,6 +8,7 @@ plasma-workspace (4:6.1.90-1) UNRELEASED; urgency=medium
   * Review copyright information.
   * Update symbols from build for 6.1.90.
   * Split off documentation into its own package.
+  * Improve package descriptions.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 14 Sep 2024 23:16:38 +0200
 

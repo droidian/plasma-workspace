@@ -116,140 +116,155 @@ Package: libbatterycontrol6
 Architecture: any
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends},
-Description: Plasma Workspace for KF6 library
- Plasma Workspace for KF6. Workspaces provide
- support for KDE Plasma Widgets, integrated search,
- hardware management and a high degree of customizability.
- Battery control library.
+Description: Plasma Workspace battery control library
+ Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
+ Bigscreen. It contains shared KCM configuration screens, applets as
+ well as multiple libraries.
  .
- This package contains library files.
+ This package contains the battery control library files.
 
 Package: libcolorcorrect6
 Architecture: any
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends},
-Description: Plasma Workspace for KF6 library
- Plasma Workspace for KF6. Workspaces provide
- support for KDE Plasma Widgets, integrated search,
- hardware management and a high degree of customizability.
- ColorCorrect library.
+Description: Plasma Workspace color correction library
+ Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
+ Bigscreen. It contains shared KCM configuration screens, applets as
+ well as multiple libraries.
  .
- This package contains library files.
+ This library can be used for configuring the color correction at
+ the compositor level. This includes adjusting screen gamma levels
+ and setting night time color temperature (Night Light).
+ .
+ Currently only controlling KWin in Wayland mode is supported.
+ .
+ This package contains the color correction library files.
 
 Package: libklipper6
 Architecture: any
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends},
 Recommends: plasma-workspace-doc (>= ${source:Version}),
-Description: Klipper library
+Description: Plasma Workspaces Klipper library
+ Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
+ Bigscreen. It contains shared KCM configuration screens, applets as
+ well as multiple libraries.
+ .
  Klipper is the Plasma clipboard utility. It stores clipboard
  history, and allows you to link clipboard contents to application
  actions.
  .
- This package contains the library files, it is part of Plasma
- Workspaces.
+ This package contains the Klipper library files.
 
 Package: libkmpris6
 Architecture: any
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends},
-Description: Plasma Workspace for KF6 library
- Plasma Workspace for KF6. Workspaces provide
- support for KDE Plasma Widgets, integrated search,
- hardware management and a high degree of customizability.
- Media Player Remote Interfacing Specification library.
+Description: Plasma Workspace MPRIS library
+ Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
+ Bigscreen. It contains shared KCM configuration screens, applets as
+ well as multiple libraries.
  .
- This package contains library files.
+ This library can be used to control Media Player Remote Interfacing
+ Specification-compatible media players.
+ .
+ This package contains Plasma Workspace MPRIS library files.
 
 Package: libkfontinst6
 Architecture: any
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends},
-Description: Tools and widgets for the desktop library
- Plasma Desktop offers a beautiful looking desktop
- that takes complete advantage of modern computing technology.
- Through the use of visual effects and scalable graphics,
- the desktop experience is not only smooth but also pleasant
- to the eye. The looks of Plasma Desktop not only provide beauty,
- they are also used to support and improve your computer
- activities effectively, without being distracting.
+Description: Plasma Workspace fonts installation library
+ Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
+ Bigscreen. It contains shared KCM configuration screens, applets as
+ well as multiple libraries.
  .
- This package is part of the KDE Plasma.
+ This package contains the fonts installation library files.
 
 Package: libkfontinstui6
 Architecture: any
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends},
-Description: Tools and widgets for the desktop library
- Plasma Desktop offers a beautiful looking desktop
- that takes complete advantage of modern computing technology.
- Through the use of visual effects and scalable graphics,
- the desktop experience is not only smooth but also pleasant
- to the eye. The looks of Plasma Desktop not only provide beauty,
- they are also used to support and improve your computer
- activities effectively, without being distracting.
+Description: Plasma Workspace UI components for fonts installation
+ Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
+ Bigscreen. It contains shared KCM configuration screens, applets as
+ well as multiple libraries.
  .
- This package is part of the KDE Plasma.
+ This library provides UI components to manage fonts installation
+ used in the fonts installation KCM configuration screen.
+ .
+ This package contains the library files for the fonts installation
+ UI components.
 
 Package: libkworkspace6-6
 Architecture: any
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends},
-Description: Plasma Workspace for KF6 library
- Plasma Workspace for KF6. Workspaces provide
- support for KDE Plasma Widgets, integrated search,
- hardware management and a high degree of customizability.
- Kworkspace library.
+Description: Plasma Workspace library
+ Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
+ Bigscreen. It contains shared KCM configuration screens, applets as
+ well as multiple libraries.
  .
- This package contains library files.
+ This library provides the core features of Plasma Workspace like
+ display, login and session management.
+ .
+ This package contains the main Plasma Workspace library files.
 
 Package: libnotificationmanager1
 Architecture: any
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends},
-Description: Plasma Workspace for KF6 library
- Plasma Workspace for KF6. Workspaces provide
- support for KDE Plasma Widgets, integrated search,
- hardware management and a high degree of customizability.
- Taskmanager library.
+Description: Plasma Workspace notification manager library
+ Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
+ Bigscreen. It contains shared KCM configuration screens, applets as
+ well as multiple libraries.
  .
- This package contains library files.
+ This library is responsible for listing notifications, closing them
+ and interacting with them in Plasma.
+ .
+ This package contains the notification manager library files.
 
 Package: libplasma-geolocation-interface6
 Architecture: any
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends},
-Description: Plasma Workspace for KF6 library
- Plasma Workspace for KF6. Workspaces provide
- support for KDE Plasma Widgets, integrated search,
- hardware management and a high degree of customizability.
- Interface library for geolocation.
+Description: Plasma Workspace geolocation library
+ Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
+ Bigscreen. It contains shared KCM configuration screens, applets as
+ well as multiple libraries.
  .
- This package contains library files.
+ This library provides support for interfacing with geolocation
+ provider services like GPS or Mozilla Location Service.
+ .
+ This package contains the geolocation library files.
 
 Package: libtaskmanager6
 Architecture: any
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends},
-Description: Plasma Workspace for KF6 library
- Plasma Workspace for KF6. Workspaces provide
- support for KDE Plasma Widgets, integrated search,
- hardware management and a high degree of customizability.
- Taskmanager library.
+Description: Plasma Workspace task manager library
+ Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
+ Bigscreen. It contains shared KCM configuration screens, applets as
+ well as multiple libraries.
  .
- This package contains library files.
+ The task manager library provides various abstractions for listing
+ windows, startup tasks and launcher jobs.
+ .
+ This package contains the task manager library files.
 
 Package: libweather-ion7
 Architecture: any
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends},
-Description: Plasma Workspace for KF6 library
- Plasma Workspace for KF6. Workspaces provide
- support for KDE Plasma Widgets, integrated search,
- hardware management and a high degree of customizability.
- Weather_ion library.
+Description: Plasma Workspace weather information library
+ Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
+ Bigscreen. It contains shared KCM configuration screens, applets as
+ well as multiple libraries.
  .
- This package contains library files.
+ This library provides support for interfacing with online weather
+ information sources.
+ .
+ This package contains the weather information library files.
 
 Package: plasma-workspace
 Architecture: any
@@ -327,10 +342,10 @@ Replaces: breeze (<< 4:5.23.90~),
           plasma-desktop (<< 4:5.22.90),
           plasma-desktop-data (<< 4:5.22.90),
           plasma-workspace-wayland,
-Description: Plasma Workspace for KF6
- Plasma Workspace for KF6. Workspaces provide
- support for KDE Plasma Widgets, integrated search,
- hardware management and a high degree of customizability.
+Description: base for Plasma Desktop, Mobile, and Bigscreen graphical environments
+ Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
+ Bigscreen. It contains shared KCM configuration screens, applets as
+ well as multiple libraries.
 
 Package: plasma-workspace-data
 Architecture: all
@@ -341,12 +356,12 @@ Breaks: breeze (<< 4:5.23.90~),
 Replaces: breeze (<< 4:5.23.90~),
           plasma-desktop (<< 4:5.24.0),
           plasma-desktop-data (<< 4:5.27.0),
-Description: Plasma Workspace for KF6 - data files
- Plasma Workspace for KF6. Workspaces provide
- support for KDE Plasma Widgets, integrated search,
- hardware management and a high degree of customizability.
+Description: Plasma Workspace data files
+ Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
+ Bigscreen. It contains shared KCM configuration screens, applets as
+ well as multiple libraries.
  .
- This contains the data files for the Plasma workspace.
+ This contains the data files for Plasma Workspace.
 
 Package: plasma-workspace-doc
 Architecture: all
@@ -358,8 +373,8 @@ Description: Plasma Workspace documentation
  Bigscreen. It contains shared KCM configuration screens, applets as
  well as multiple libraries.
  .
- This package contains the documentation files forr the Plasma
- Workspace components and libraries
+ This package contains the documentation for Plasma Workspace
+ components and libraries
 
 Package: plasma-workspace-dev
 Architecture: any
@@ -372,9 +387,9 @@ Depends: libkf6itemmodels-dev (>= 6.5.0~),
          ${so:Depends},
 Breaks: plasma-desktop-dev (<< 4:5.20),
 Replaces: plasma-desktop-dev (<< 4:5.20),
-Description: Plasma Workspace for KF6 devel files
- Plasma Workspace for KF6. Workspaces provide
- support for KDE Plasma Widgets, integrated search,
- hardware management and a high degree of customizability.
+Description: Plasma Workspace development files
+ Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
+ Bigscreen. It contains shared KCM configuration screens, applets as
+ well as multiple libraries.
  .
- This package contains the development files.
+ This package contains the development files for Plasma Workspace.
