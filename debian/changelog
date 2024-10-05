@@ -1,4 +1,4 @@
-plasma-workspace (4:6.2.0-1) UNRELEASED; urgency=medium
+plasma-workspace (4:6.2.0-1) experimental; urgency=medium
 
   [ Aurélien COUDERC ]
   * New upstream release (6.1.90).
@@ -14,7 +14,7 @@ plasma-workspace (4:6.2.0-1) UNRELEASED; urgency=medium
   * Tighten inter-Plasma package dependencies.
   * Update symbols from build for 6.2.0.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 14 Sep 2024 23:16:38 +0200
+ -- Aurélien COUDERC <coucouf@debian.org>  Sat, 05 Oct 2024 23:17:51 +0200
 
 plasma-workspace (4:6.1.5-3) experimental; urgency=medium
 
