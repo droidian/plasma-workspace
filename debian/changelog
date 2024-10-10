@@ -1,5 +1,9 @@
 plasma-workspace (4:6.2.0-2) UNRELEASED; urgency=medium
 
+  [ Patrick Franz ]
+  * Add Breaks+Replaces for plasma-workspace-data against xdg-desktop-
+    portal-kde.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 10 Oct 2024 17:30:12 +0200
 
 plasma-workspace (4:6.2.0-1) experimental; urgency=medium
