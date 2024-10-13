@@ -1,5 +1,9 @@
 plasma-workspace (4:6.2.0-3) UNRELEASED; urgency=medium
 
+  [ Aurélien COUDERC ]
+  * Make plasma-workspace depend on qml6-module-qtpositioning, required
+    for the night color KCM.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 13 Oct 2024 16:04:44 +0200
 
 plasma-workspace (4:6.2.0-2) experimental; urgency=medium
