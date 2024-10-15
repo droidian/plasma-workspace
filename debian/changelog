@@ -4,6 +4,7 @@ plasma-workspace (4:6.2.1-1) UNRELEASED; urgency=medium
   * Make plasma-workspace depend on qml6-module-qtpositioning, required
     for the night color KCM.
   * New upstream release (6.2.1).
+  * Update build-deps and deps with the info from cmake.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 13 Oct 2024 16:04:44 +0200
 
