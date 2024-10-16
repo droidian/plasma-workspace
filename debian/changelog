@@ -1,5 +1,8 @@
 plasma-workspace (4:6.2.1.1-1) UNRELEASED; urgency=medium
 
+  [ Patrick Franz ]
+  * New upstream release (6.2.1.1).
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 16 Oct 2024 21:42:38 +0200
 
 plasma-workspace (4:6.2.1-1) experimental; urgency=medium
