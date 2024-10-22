@@ -2,6 +2,8 @@ plasma-workspace (4:6.2.2-1) UNRELEASED; urgency=medium
 
   [ Aurélien COUDERC ]
   * New upstream release (6.2.2).
+  * Revert upstream minor version bump for build dependencies to avoid
+    rebuilding all Plasma packages.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 22 Oct 2024 18:51:40 +0200
 
