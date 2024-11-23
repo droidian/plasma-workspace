@@ -1,4 +1,4 @@
-plasma-workspace (4:6.2.3-1) UNRELEASED; urgency=medium
+plasma-workspace (4:6.2.3-1) unstable; urgency=medium
 
   [ Aurélien COUDERC ]
   * New upstream release (6.2.3).
@@ -6,8 +6,9 @@ plasma-workspace (4:6.2.3-1) UNRELEASED; urgency=medium
   * Drop patch for backported commit, now part of the upstream release.
   * Add build dependency to qt6-declarative-private-dev required since
     cmake 3.31.
+  * Release to unstable.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 16 Nov 2024 22:25:08 +0100
+ -- Aurélien COUDERC <coucouf@debian.org>  Sat, 23 Nov 2024 21:57:37 +0100
 
 plasma-workspace (4:6.2.2-1) experimental; urgency=medium
 
