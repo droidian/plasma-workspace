@@ -4,6 +4,8 @@ plasma-workspace (4:6.2.3-1) UNRELEASED; urgency=medium
   * New upstream release (6.2.3).
   * Update build-deps and deps with the info from cmake.
   * Drop patch for backported commit, now part of the upstream release.
+  * Add build dependency to qt6-declarative-private-dev required since
+    cmake 3.31.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 16 Nov 2024 22:25:08 +0100
 
