@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:6.1.90 amd64
+# SymbolsHelper-Confirmed: 4:6.2.3 armel armhf i386 s390x
 libklipper.so.6 libklipper6 #MINVER#
 * Build-Depends-Package: plasma-workspace-dev
  _ZN10URLGrabber10actionMenuESt10shared_ptrIK11HistoryItemEb@Base 4:6.1.90
@@ -28,7 +28,7 @@ libklipper.so.6 libklipper6 #MINVER#
  _ZN11HistoryItemD1Ev@Base 4:6.1.90
  _ZN11HistoryItemD2Ev@Base 4:6.1.90
  _ZN12HistoryModel10removeRowsEiiRK11QModelIndex@Base 4:6.1.90
- _ZN12HistoryModel10setMaxSizeEx@Base 4:6.1.90
+ (subst)_ZN12HistoryModel10setMaxSizeE{qptrdiff}@Base 4:6.1.90
  _ZN12HistoryModel11loadHistoryEv@Base 4:6.1.90
  _ZN12HistoryModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:6.1.90
  _ZN12HistoryModel11qt_metacastEPKc@Base 4:6.1.90
@@ -39,7 +39,7 @@ libklipper.so.6 libklipper6 #MINVER#
  _ZN12HistoryModel13moveBackToTopEv@Base 4:6.1.90
  _ZN12HistoryModel13moveTopToBackEv@Base 4:6.1.90
  _ZN12HistoryModel16staticMetaObjectE@Base 4:6.1.90
- _ZN12HistoryModel21startSaveHistoryTimerENSt6chrono8durationIlSt5ratioILl1ELl1EEEE@Base 4:6.1.90
+ (subst)_ZN12HistoryModel21startSaveHistoryTimerENSt6chrono8durationI{int64_t}St5ratioIL{int64_t}1EL{int64_t}1EEEE@Base 4:6.1.90
  _ZN12HistoryModel4selfEv@Base 4:6.1.90
  _ZN12HistoryModel5clearEv@Base 4:6.1.90
  _ZN12HistoryModel6insertERKSt10shared_ptrI11HistoryItemE@Base 4:6.1.90
@@ -47,7 +47,7 @@ libklipper.so.6 libklipper6 #MINVER#
  _ZN12HistoryModel7changedEb@Base 4:6.1.90
  _ZN12HistoryModel7setDataERK11QModelIndexRK8QVarianti@Base 4:6.1.90
  _ZN12HistoryModel9moveToTopERK10QByteArray@Base 4:6.1.90
- _ZN12HistoryModel9moveToTopEx@Base 4:6.1.90
+ (subst)_ZN12HistoryModel9moveToTopE{qptrdiff}@Base 4:6.1.90
  _ZN12HistoryModelC1Ev@Base 4:6.1.90
  _ZN12HistoryModelC2Ev@Base 4:6.1.90
  _ZN12HistoryModelD0Ev@Base 4:6.1.90
@@ -164,7 +164,7 @@ libklipper.so.6 libklipper6 #MINVER#
  _ZNK7Klipper22ignoreClipboardChangesEv@Base 4:6.1.90
  _ZNK7Klipper9cycleTextEv@Base 4:6.1.90
  (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_S0_ESt10_Select1stIS3_ESt4lessIS0_ESaIS3_EE24_M_get_insert_unique_posERS2_@Base 4:6.1.90
- (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_S0_ESt10_Select1stIS3_ESt4lessIS0_ESaIS3_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS3_ERS2_@Base 4:6.1.90
+#MISSING: 4:6.2.3# (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_S0_ESt10_Select1stIS3_ESt4lessIS0_ESaIS3_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS3_ERS2_@Base 4:6.1.90
  _ZTI10URLGrabber@Base 4:6.1.90
  _ZTI11HistoryItem@Base 4:6.1.90
  _ZTI12HistoryModel@Base 4:6.1.90
@@ -174,14 +174,24 @@ libklipper.so.6 libklipper6 #MINVER#
  _ZTI16HistoryImageItem@Base 4:6.1.90
  _ZTI17HistoryStringItem@Base 4:6.1.90
  _ZTI7Klipper@Base 4:6.1.90
- _ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.90
- _ZTISt15_Sp_counted_ptrIP14HistoryURLItemLN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.90
- _ZTISt15_Sp_counted_ptrIP15SystemClipboardLN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.90
- _ZTISt15_Sp_counted_ptrIP16HistoryImageItemLN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.90
- _ZTISt15_Sp_counted_ptrIP17HistoryStringItemLN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.90
- _ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.90
- _ZTISt23_Sp_counted_ptr_inplaceI17HistoryStringItemSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.90
- _ZTISt23_Sp_counted_ptr_inplaceI7KlipperSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.90
+ (arch=armel)_ZTIN9__gnu_cxx7__mutexE@Base 4:6.2.3
+ (arch=armel)_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
+ (arch=!armel)_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
+ (arch=armel)_ZTISt15_Sp_counted_ptrIP14HistoryURLItemLN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
+ (arch=!armel)_ZTISt15_Sp_counted_ptrIP14HistoryURLItemLN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
+ (arch=armel)_ZTISt15_Sp_counted_ptrIP15SystemClipboardLN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
+ (arch=!armel)_ZTISt15_Sp_counted_ptrIP15SystemClipboardLN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
+ (arch=armel)_ZTISt15_Sp_counted_ptrIP16HistoryImageItemLN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
+ (arch=!armel)_ZTISt15_Sp_counted_ptrIP16HistoryImageItemLN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
+ (arch=armel)_ZTISt15_Sp_counted_ptrIP17HistoryStringItemLN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
+ (arch=!armel)_ZTISt15_Sp_counted_ptrIP17HistoryStringItemLN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
+ (arch=armel)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
+ (arch=!armel)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
+ (arch=armel armhf)_ZTISt19_Sp_make_shared_tag@Base 4:6.2.3
+ (arch=armel)_ZTISt23_Sp_counted_ptr_inplaceI17HistoryStringItemSaIvELN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
+ (arch=!armel)_ZTISt23_Sp_counted_ptr_inplaceI17HistoryStringItemSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
+ (arch=armel)_ZTISt23_Sp_counted_ptr_inplaceI7KlipperSaIvELN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
+ (arch=!armel)_ZTISt23_Sp_counted_ptr_inplaceI7KlipperSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
  _ZTS10URLGrabber@Base 4:6.1.90
  _ZTS11HistoryItem@Base 4:6.1.90
  _ZTS12HistoryModel@Base 4:6.1.90
@@ -191,15 +201,24 @@ libklipper.so.6 libklipper6 #MINVER#
  _ZTS16HistoryImageItem@Base 4:6.1.90
  _ZTS17HistoryStringItem@Base 4:6.1.90
  _ZTS7Klipper@Base 4:6.1.90
- _ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.90
- _ZTSSt15_Sp_counted_ptrIP14HistoryURLItemLN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.90
- _ZTSSt15_Sp_counted_ptrIP15SystemClipboardLN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.90
- _ZTSSt15_Sp_counted_ptrIP16HistoryImageItemLN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.90
- _ZTSSt15_Sp_counted_ptrIP17HistoryStringItemLN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.90
- _ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.90
+ (arch=armel)_ZTSN9__gnu_cxx7__mutexE@Base 4:6.2.3
+ (arch=armel)_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
+ (arch=!armel)_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
+ (arch=armel)_ZTSSt15_Sp_counted_ptrIP14HistoryURLItemLN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
+ (arch=!armel)_ZTSSt15_Sp_counted_ptrIP14HistoryURLItemLN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
+ (arch=armel)_ZTSSt15_Sp_counted_ptrIP15SystemClipboardLN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
+ (arch=!armel)_ZTSSt15_Sp_counted_ptrIP15SystemClipboardLN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
+ (arch=armel)_ZTSSt15_Sp_counted_ptrIP16HistoryImageItemLN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
+ (arch=!armel)_ZTSSt15_Sp_counted_ptrIP16HistoryImageItemLN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
+ (arch=armel)_ZTSSt15_Sp_counted_ptrIP17HistoryStringItemLN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
+ (arch=!armel)_ZTSSt15_Sp_counted_ptrIP17HistoryStringItemLN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
+ (arch=armel)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
+ (arch=!armel)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
  _ZTSSt19_Sp_make_shared_tag@Base 4:6.1.90
- _ZTSSt23_Sp_counted_ptr_inplaceI17HistoryStringItemSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.90
- _ZTSSt23_Sp_counted_ptr_inplaceI7KlipperSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.90
+ (arch=armel)_ZTSSt23_Sp_counted_ptr_inplaceI17HistoryStringItemSaIvELN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
+ (arch=!armel)_ZTSSt23_Sp_counted_ptr_inplaceI17HistoryStringItemSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
+ (arch=armel)_ZTSSt23_Sp_counted_ptr_inplaceI7KlipperSaIvELN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
+ (arch=!armel)_ZTSSt23_Sp_counted_ptr_inplaceI7KlipperSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
  _ZTV10URLGrabber@Base 4:6.1.90
  _ZTV11HistoryItem@Base 4:6.1.90
  _ZTV12HistoryModel@Base 4:6.1.90
@@ -209,10 +228,16 @@ libklipper.so.6 libklipper6 #MINVER#
  _ZTV16HistoryImageItem@Base 4:6.1.90
  _ZTV17HistoryStringItem@Base 4:6.1.90
  _ZTV7Klipper@Base 4:6.1.90
- _ZTVSt15_Sp_counted_ptrIP14HistoryURLItemLN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.90
- _ZTVSt15_Sp_counted_ptrIP15SystemClipboardLN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.90
- _ZTVSt15_Sp_counted_ptrIP16HistoryImageItemLN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.90
- _ZTVSt15_Sp_counted_ptrIP17HistoryStringItemLN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.90
- _ZTVSt23_Sp_counted_ptr_inplaceI17HistoryStringItemSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.90
- _ZTVSt23_Sp_counted_ptr_inplaceI7KlipperSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.1.90
+ (arch=armel)_ZTVSt15_Sp_counted_ptrIP14HistoryURLItemLN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
+ (arch=!armel)_ZTVSt15_Sp_counted_ptrIP14HistoryURLItemLN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
+ (arch=armel)_ZTVSt15_Sp_counted_ptrIP15SystemClipboardLN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
+ (arch=!armel)_ZTVSt15_Sp_counted_ptrIP15SystemClipboardLN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
+ (arch=armel)_ZTVSt15_Sp_counted_ptrIP16HistoryImageItemLN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
+ (arch=!armel)_ZTVSt15_Sp_counted_ptrIP16HistoryImageItemLN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
+ (arch=armel)_ZTVSt15_Sp_counted_ptrIP17HistoryStringItemLN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
+ (arch=!armel)_ZTVSt15_Sp_counted_ptrIP17HistoryStringItemLN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
+ (arch=armel)_ZTVSt23_Sp_counted_ptr_inplaceI17HistoryStringItemSaIvELN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
+ (arch=!armel)_ZTVSt23_Sp_counted_ptr_inplaceI17HistoryStringItemSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
+ (arch=armel)_ZTVSt23_Sp_counted_ptr_inplaceI7KlipperSaIvELN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
+ (arch=!armel)_ZTVSt23_Sp_counted_ptr_inplaceI7KlipperSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
  _ZZNSt19_Sp_make_shared_tag5_S_tiEvE5__tag@Base 4:6.1.90

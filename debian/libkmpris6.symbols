@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:6.1.5 amd64 arm64 armel armhf i386 loong64 ppc64 ppc64el s390x
+# SymbolsHelper-Confirmed: 4:6.2.3 mips64el
 libkmpris.so.6 libkmpris6 #MINVER#
 * Build-Depends-Package: plasma-workspace-dev
  _Z47qml_register_types_org_kde_plasma_private_mprisv@Base 4:6.1.4
@@ -172,7 +172,7 @@ libkmpris.so.6 libkmpris6 #MINVER#
  (optional=templinst)_ZNKSt8_Rb_treeI7QStringSt4pairIKS0_8QVariantESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE4findERS2_@Base 4:6.1.4
  (optional=templinst|arch=amd64 arm64 ppc64el)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_8QVariantESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE16_M_insert_uniqueIS4_EES1_ISt17_Rb_tree_iteratorIS4_EbEOT_@Base 4:6.1.4
  (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_8QVariantESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE24_M_get_insert_unique_posERS2_@Base 4:6.1.4
- (optional=templinst|arch=amd64 arm64 loong64 ppc64el)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_8QVariantESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS4_ERS2_@Base 4:6.1.4
+ (optional=templinst|arch=amd64 arm64 loong64 mips64el ppc64el)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_8QVariantESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS4_ERS2_@Base 4:6.1.4
  _ZTI11Mpris2Model@Base 4:6.1.4
  _ZTI11Multiplexer@Base 4:6.1.4
  _ZTI15PlayerContainer@Base 4:6.1.4
