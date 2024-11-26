@@ -1,5 +1,8 @@
 plasma-workspace (4:6.2.3-3) UNRELEASED; urgency=medium
 
+  [ Aurélien COUDERC ]
+  * Update symbols from buildds for 4:6.2.3.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 26 Nov 2024 21:01:37 +0100
 
 plasma-workspace (4:6.2.3-2) unstable; urgency=medium
