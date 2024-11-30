@@ -25,6 +25,7 @@
 
 #define TEST_STEP_INTERVAL 2000
 
+int stage_count = 6;
 /**
  * There are 6 stages in ksplash
  *  - initial (from this class)
@@ -70,6 +71,9 @@ SplashApp::SplashApp(int &argc, char **argv)
         adoptScreen(screen);
     }
 
+    if (qEnvironmentVariableIsSet("KDE_NO_KWIN"))
+        stage_count = 5;
+
     setStage(QStringLiteral("initial"));
 
     if (KWindowSystem::isPlatformWayland()) {
@@ -113,7 +117,7 @@ void SplashApp::setStage(const QString &stage)
 void SplashApp::setStage(int stage)
 {
     m_stage = stage;
-    if (m_stage == 6) {
+    if (m_stage == stage_count) {
         QGuiApplication::exit(EXIT_SUCCESS);
     }
     for (SplashWindow *w : std::as_const(m_windows)) {
