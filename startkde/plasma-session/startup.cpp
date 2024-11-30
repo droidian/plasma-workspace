@@ -161,8 +161,12 @@ Startup::Startup(QObject *parent)
     } else {
         // This must block until started as it sets the WAYLAND_DISPLAY/DISPLAY env variables needed for the rest of the boot
         // fortunately it's very fast as it's just starting a wrapper
-        StartServiceJob kwinWaylandJob(QStringLiteral("kwin_wayland_wrapper"), {QStringLiteral("--xwayland")}, QStringLiteral("org.kde.KWinWrapper"));
-        kwinWaylandJob.exec();
+        if (!qEnvironmentVariableIsSet("KDE_NO_KWIN")) {
+            StartServiceJob kwinWaylandJob(QStringLiteral("kwin_wayland_wrapper"), {QStringLiteral("--xwayland")}, QStringLiteral("org.kde.KWinWrapper"));
+            kwinWaylandJob.exec();
+        } else {
+            qCWarning(PLASMA_SESSION) << "KDE_NO_KWIN environment variable is set, kwin start is disabled, make sure another wayland compositor is running";
+        }
         // kslpash is only launched in plasma-session from the wayland mode, for X it's in startplasma-x11
 
         const KConfig cfg(QStringLiteral("ksplashrc"));
@@ -179,16 +183,18 @@ Startup::Startup(QObject *parent)
     KJob *phase1 = nullptr;
     m_lock.reset(new QEventLoopLocker);
 
-    const QList<KJob *> sequence = {
-        new StartProcessJob(QStringLiteral("kcminit_startup"), {}),
-        new StartServiceJob(QStringLiteral("kded6"), {}, QStringLiteral("org.kde.kded6"), {}),
-        x11WindowManagerJob,
-        new StartServiceJob(QStringLiteral("ksmserver"), QCoreApplication::instance()->arguments().mid(1), QStringLiteral("org.kde.ksmserver")),
-        new StartupPhase0(autostart, this),
-        phase1 = new StartupPhase1(autostart, this),
-        new RestoreSessionJob(),
-        new StartupPhase2(autostart, this),
-    };
+    QList<KJob *> sequence;
+    sequence.append(new StartProcessJob(QStringLiteral("kcminit_startup"), {}));
+    sequence.append(new StartServiceJob(QStringLiteral("kded6"), {}, QStringLiteral("org.kde.kded6"), {}));
+    if (!qEnvironmentVariableIsSet("KDE_NO_KWIN")) {
+        sequence.append(x11WindowManagerJob);
+        sequence.append(new StartServiceJob(QStringLiteral("ksmserver"), QCoreApplication::instance()->arguments().mid(1), QStringLiteral("org.kde.ksmserver")));
+    }
+    sequence.append(new StartupPhase0(autostart, this));
+    sequence.append(phase1 = new StartupPhase1(autostart, this));
+    sequence.append(new RestoreSessionJob());
+    sequence.append(new StartupPhase2(autostart, this));
+
     KJob *last = nullptr;
     for (KJob *job : sequence) {
         if (!job) {
