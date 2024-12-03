@@ -1,4 +1,4 @@
-plasma-workspace (4:6.2.4-1) UNRELEASED; urgency=medium
+plasma-workspace (4:6.2.4-1) unstable; urgency=medium
 
   [ Aurélien COUDERC ]
   * New upstream release (6.2.4).
@@ -6,7 +6,7 @@ plasma-workspace (4:6.2.4-1) UNRELEASED; urgency=medium
   * Remove obsolete conf file /etc/xdg/autostart/klipper.desktop. (Closes:
     #1088962)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 03 Dec 2024 16:39:49 +0100
+ -- Aurélien COUDERC <coucouf@debian.org>  Tue, 03 Dec 2024 16:43:03 +0100
 
 plasma-workspace (4:6.2.3-3) unstable; urgency=medium
 
