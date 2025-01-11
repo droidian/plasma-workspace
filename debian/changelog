@@ -2,6 +2,7 @@ plasma-workspace (4:6.2.90-1) UNRELEASED; urgency=medium
 
   [ Aurélien COUDERC ]
   * New upstream release (6.2.90).
+  * Update build-deps and deps with the info from cmake.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 12 Jan 2025 00:49:28 +0100
 
