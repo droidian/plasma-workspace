@@ -81,7 +81,7 @@ public:
     }
     void start() override
     {
-        qCDebug(PLASMA_SESSION) << "Phase 0";
+        qCInfo(PLASMA_SESSION) << "Phase 0";
         addSubjob(new AutoStartAppsJob(m_autostart, 0));
         addSubjob(new KCMInitJob());
         addSubjob(new SleepJob());
@@ -98,7 +98,7 @@ public:
     }
     void start() override
     {
-        qCDebug(PLASMA_SESSION) << "Phase 1";
+        qCInfo(PLASMA_SESSION) << "Phase 1";
         addSubjob(new AutoStartAppsJob(m_autostart, 1));
     }
 };
@@ -114,7 +114,7 @@ public:
 
     void start() override
     {
-        qCDebug(PLASMA_SESSION) << "Phase 2";
+        qCInfo(PLASMA_SESSION) << "Phase 2";
         addSubjob(new AutoStartAppsJob(m_autostart, 2));
     }
 };
@@ -226,7 +226,7 @@ void Startup::upAndRunning(const QString &msg)
 
 void Startup::finishStartup()
 {
-    qCDebug(PLASMA_SESSION) << "Finished";
+    qCInfo(PLASMA_SESSION) << "Finished";
     upAndRunning(QStringLiteral("ready"));
 
     playStartupSound();
@@ -308,6 +308,7 @@ void AutoStartAppsJob::start()
                 emitResult();
                 return;
             }
+            qCInfo(PLASMA_SESSION) << "autostart" << serviceName;
             auto job = new KIO::ApplicationLauncherJob(KService::Ptr(new KService(serviceName)), this);
             job->start();
         } while (true);
@@ -368,7 +369,7 @@ StartProcessJob::StartProcessJob(const QString &process, const QStringList &args
 
 void StartProcessJob::start()
 {
-    qCDebug(PLASMA_SESSION) << "Starting " << m_process->program() << m_process->arguments();
+    qCInfo(PLASMA_SESSION) << "Starting " << m_process->program() << m_process->arguments();
 
     m_process->start();
 }

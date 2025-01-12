@@ -106,7 +106,7 @@ void SplashApp::timerEvent(QTimerEvent *event)
 
 void SplashApp::setStage(const QString &stage)
 {
-    qCDebug(KSPLASHQML_DEBUG) << "Loading stage " << stage << ", current count " << m_stages.count();
+    qCInfo(KSPLASHQML_DEBUG) << "Loading stage " << stage << ", current count " << m_stages.count();
 
     if (m_stages.contains(stage)) {
         return;
