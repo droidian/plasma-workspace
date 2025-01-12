@@ -226,20 +226,6 @@ Description: Plasma Workspace notification manager library
  .
  This package contains the notification manager library files.
 
-Package: libplasma-geolocation-interface6
-Architecture: any
-Section: libs
-Depends: ${misc:Depends}, ${shlibs:Depends},
-Description: Plasma Workspace geolocation library
- Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
- Bigscreen. It contains shared KCM configuration screens, applets as
- well as multiple libraries.
- .
- This library provides support for interfacing with geolocation
- provider services like GPS or Mozilla Location Service.
- .
- This package contains the geolocation library files.
-
 Package: libtaskmanager6
 Architecture: any
 Section: libs

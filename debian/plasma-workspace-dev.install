@@ -3,7 +3,6 @@ usr/include/krdb/
 usr/include/kworkspace6/
 usr/include/notificationmanager/
 usr/include/plasma5support/
-usr/include/plasma/geolocation/
 usr/include/taskmanager/
 usr/lib/*/cmake/KRunnerAppDBusInterface/KRunnerAppDBusInterfaceConfig.cmake
 usr/lib/*/cmake/KSMServerDBusInterface/KSMServerDBusInterfaceConfig.cmake
@@ -19,7 +18,6 @@ usr/lib/*/libklipper.so
 usr/lib/*/libkmpris.so
 usr/lib/*/libkworkspace6.so
 usr/lib/*/libnotificationmanager.so
-usr/lib/*/libplasma-geolocation-interface.so
 usr/lib/*/libtaskmanager.so
 usr/lib/*/libweather_ion.so
 usr/share/dbus-1/interfaces/
