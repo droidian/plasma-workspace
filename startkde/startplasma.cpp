@@ -694,7 +694,7 @@ bool startPlasmaSession(bool wayland)
     std::unique_ptr<QProcess, KillBeforeDeleter> startPlasmaSession;
     if (!useSystemdBoot()) {
         startPlasmaSession.reset(new QProcess);
-        qCDebug(PLASMA_STARTUP) << "Using classic boot";
+        qCInfo(PLASMA_STARTUP) << "Using classic boot";
 
         QStringList plasmaSessionOptions;
         if (wayland) {
@@ -716,7 +716,7 @@ bool startPlasmaSession(bool wayland)
 
         startPlasmaSession->start(QStringLiteral(CMAKE_INSTALL_FULL_BINDIR "/plasma_session"), plasmaSessionOptions);
     } else {
-        qCDebug(PLASMA_STARTUP) << "Using systemd boot";
+        qCInfo(PLASMA_STARTUP) << "Using systemd boot";
         const QString platform = wayland ? QStringLiteral("wayland") : QStringLiteral("x11");
 
         auto msg = QDBusMessage::createMethodCall(QStringLiteral("org.freedesktop.systemd1"),
