@@ -192,7 +192,9 @@ Startup::Startup(QObject *parent)
     }
     sequence.append(new StartupPhase0(autostart, this));
     sequence.append(phase1 = new StartupPhase1(autostart, this));
-    sequence.append(new RestoreSessionJob());
+    if (!qEnvironmentVariableIsSet("KDE_NO_KWIN")) {
+        sequence.append(new RestoreSessionJob());
+    }
     sequence.append(new StartupPhase2(autostart, this));
 
     KJob *last = nullptr;
