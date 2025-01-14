@@ -184,7 +184,12 @@ Startup::Startup(QObject *parent)
     m_lock.reset(new QEventLoopLocker);
 
     QList<KJob *> sequence;
-    sequence.append(new StartProcessJob(QStringLiteral("kcminit_startup"), {}));
+    if (!qEnvironmentVariableIsSet("KDE_NO_KWIN")) {
+        sequence.append(new StartProcessJob(QStringLiteral("kcminit_startup"), {}));
+    } else {
+        QProcess::startDetached(QStringLiteral("kcminit_startup"), {});
+        usleep(2000000);
+    }
     sequence.append(new StartServiceJob(QStringLiteral("kded6"), {}, QStringLiteral("org.kde.kded6"), {}));
     if (!qEnvironmentVariableIsSet("KDE_NO_KWIN")) {
         sequence.append(x11WindowManagerJob);
