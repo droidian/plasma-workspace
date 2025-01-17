@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:6.1.5 amd64 arm64 armel armhf i386 loong64 mips64el ppc64 ppc64el riscv64 s390x
+# SymbolsHelper-Confirmed: 4:6.2.90 amd64
 libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
 * Build-Depends-Package: plasma-workspace-dev
  _Z46qml_register_types_org_kde_notificationmanagerv@Base 4:6.1.0
@@ -46,6 +46,7 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZN19NotificationManager12Notification15setDesktopEntryERK7QString@Base 4:6.1.0
  _ZN19NotificationManager12Notification18setApplicationNameERK7QString@Base 4:6.1.0
  _ZN19NotificationManager12Notification22setApplicationIconNameERK7QString@Base 4:6.1.0
+ _ZN19NotificationManager12Notification27setWasAddedDuringInhibitionEb@Base 4:6.2.90
  _ZN19NotificationManager12Notification7setBodyERK7QString@Base 4:6.1.0
  _ZN19NotificationManager12Notification7setIconERK7QString@Base 4:6.1.0
  _ZN19NotificationManager12Notification7setReadEb@Base 4:6.1.0
@@ -116,11 +117,13 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZN19NotificationManager13Notifications20setShowNotificationsEb@Base 4:6.1.0
  _ZN19NotificationManager13Notifications20showDismissedChangedEv@Base 4:6.1.0
  _ZN19NotificationManager13Notifications21jobsPercentageChangedEv@Base 4:6.1.0
+ _ZN19NotificationManager13Notifications21showInhibitionSummaryEv@Base 4:6.2.90
  _ZN19NotificationManager13Notifications22activeJobsCountChangedEv@Base 4:6.1.0
  _ZN19NotificationManager13Notifications24showNotificationsChangedEv@Base 4:6.1.0
  _ZN19NotificationManager13Notifications27setBlacklistedNotifyRcNamesERK5QListI7QStringE@Base 4:6.1.0
  _ZN19NotificationManager13Notifications27setWhitelistedNotifyRcNamesERK5QListI7QStringE@Base 4:6.1.0
  _ZN19NotificationManager13Notifications28setBlacklistedDesktopEntriesERK5QListI7QStringE@Base 4:6.1.0
+ _ZN19NotificationManager13Notifications28setShowAddedDuringInhibitionEb@Base 4:6.2.90
  _ZN19NotificationManager13Notifications28setWhitelistedDesktopEntriesERK5QListI7QStringE@Base 4:6.1.0
  _ZN19NotificationManager13Notifications31activeNotificationsCountChangedEv@Base 4:6.1.0
  _ZN19NotificationManager13Notifications31blacklistedNotifyRcNamesChangedEv@Base 4:6.1.0
@@ -128,6 +131,7 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZN19NotificationManager13Notifications31whitelistedNotifyRcNamesChangedEv@Base 4:6.1.0
  _ZN19NotificationManager13Notifications32blacklistedDesktopEntriesChangedEv@Base 4:6.1.0
  _ZN19NotificationManager13Notifications32expiredNotificationsCountChangedEv@Base 4:6.1.0
+ _ZN19NotificationManager13Notifications32showAddedDuringInhibitionChangedEv@Base 4:6.2.90
  _ZN19NotificationManager13Notifications32whitelistedDesktopEntriesChangedEv@Base 4:6.1.0
  _ZN19NotificationManager13Notifications5clearE6QFlagsINS0_9ClearFlagEE@Base 4:6.1.0
  _ZN19NotificationManager13Notifications5closeERK11QModelIndex@Base 4:6.1.0
@@ -276,6 +280,7 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZN19NotificationManager3Job21processedItemsChangedEv@Base 4:6.1.0
  _ZN19NotificationManager3Job22processedAmountChangedEv@Base 4:6.1.0
  _ZN19NotificationManager3Job22setApplicationIconNameERK7QString@Base 4:6.1.0
+ _ZN19NotificationManager3Job23effectiveDestUrlChangedEv@Base 4:6.2.90
  _ZN19NotificationManager3Job23totalDirectoriesChangedEv@Base 4:6.1.0
  _ZN19NotificationManager3Job24descriptionLabel1ChangedEv@Base 4:6.1.0
  _ZN19NotificationManager3Job24descriptionLabel2ChangedEv@Base 4:6.1.0
@@ -404,6 +409,7 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZNK19NotificationManager12Notification20configureActionLabelEv@Base 4:6.1.0
  _ZNK19NotificationManager12Notification20replyPlaceholderTextEv@Base 4:6.1.0
  _ZNK19NotificationManager12Notification21replySubmitButtonTextEv@Base 4:6.1.0
+ _ZNK19NotificationManager12Notification24wasAddedDuringInhibitionEv@Base 4:6.2.90
  _ZNK19NotificationManager12Notification25replySubmitButtonIconNameEv@Base 4:6.1.0
  _ZNK19NotificationManager12Notification2idEv@Base 4:6.1.0
  _ZNK19NotificationManager12Notification4bodyEv@Base 4:6.1.0
@@ -443,6 +449,7 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZNK19NotificationManager13Notifications24whitelistedNotifyRcNamesEv@Base 4:6.1.0
  _ZNK19NotificationManager13Notifications25blacklistedDesktopEntriesEv@Base 4:6.1.0
  _ZNK19NotificationManager13Notifications25expiredNotificationsCountEv@Base 4:6.1.0
+ _ZNK19NotificationManager13Notifications25showAddedDuringInhibitionEv@Base 4:6.2.90
  _ZNK19NotificationManager13Notifications25whitelistedDesktopEntriesEv@Base 4:6.1.0
  _ZNK19NotificationManager13Notifications4dataERK11QModelIndexi@Base 4:6.1.0
  _ZNK19NotificationManager13Notifications5countEv@Base 4:6.1.0
@@ -495,6 +502,7 @@ libnotificationmanager.so.1 libnotificationmanager1 #MINVER#
  _ZNK19NotificationManager3Job14processedFilesEv@Base 4:6.1.0
  _ZNK19NotificationManager3Job14processedItemsEv@Base 4:6.1.0
  _ZNK19NotificationManager3Job15applicationNameEv@Base 4:6.1.0
+ _ZNK19NotificationManager3Job16effectiveDestUrlEv@Base 4:6.2.90
  _ZNK19NotificationManager3Job16totalDirectoriesEv@Base 4:6.1.0
  _ZNK19NotificationManager3Job17descriptionLabel1Ev@Base 4:6.1.0
  _ZNK19NotificationManager3Job17descriptionLabel2Ev@Base 4:6.1.0
