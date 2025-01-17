@@ -10,7 +10,6 @@ Copyright: 2007-2009, Aaron Seigo <aseigo@kde.org>
            2013, Alejandro Fiestas Olivares <afiestas@kde.org>
            2012, Alex Merry <alex.merry@kdemail.net>
            2008, Alexis Ménard <darktears31@gmail.com>
-           2009, Andrew Coles <andrew.coles@yahoo.co.uk>
            Andrew Stanley-Jones
            Andrew Stanley-Jones <asj@cban.com>
            2020, Andrey Butirsky <butirsky@gmail.com>
@@ -39,7 +38,7 @@ Copyright: 2007-2009, Aaron Seigo <aseigo@kde.org>
            2021, Emily Ehlert
            2004-2009, Esben Mose Hansen <kde@mosehansen.dk>
            2003-2007, Fredrik Höglund <fredrik@kde.org>
-           2022-2024, Fushan Wen <qydwhotmail@gmail.com>
+           2022-2025, Fushan Wen <qydwhotmail@gmail.com>
            2000, Geert Jansen <jansen@kde.org>
            2019, Guo Yunhe <i@guoyunhe.me>
            2021-2022, Han Young <hanyoung@protonmail.com>
@@ -49,7 +48,6 @@ Copyright: 2007-2009, Aaron Seigo <aseigo@kde.org>
            2023-2024, Ismael Asensio <isma.af@gmail.com>
            2022, ivan (@ratijas) tkachenko <me@ratijas.tk>
            2010-2011, Ivan Cukic <ivan.cukic(at)kde.org>
-           2007, Ivan Cukic <ivan.cukic+kde@gmail.com>
            2016-2017, Ivan Cukic <ivan.cukic@kde.org>
            2022-2024, ivan tkachenko <me@ratijas.tk>
            2009, Ivo Anjo <knuckles@gmail.com>
@@ -58,7 +56,7 @@ Copyright: 2007-2009, Aaron Seigo <aseigo@kde.org>
            2007, Jeremy Whiting <jpwhiting@kde.org>
            2022, Jonathan Marten <jjm@keelhaul.me.uk>
            2013, Jonathan Riddell <jr@jriddell.org>
-           2019-2022, Kai Uwe Broulik <kde@broulik.de>
+           2019-2024, Kai Uwe Broulik <kde@broulik.de>
            2014-2018, Kai Uwe Broulik <kde@privat.broulik.de>
            2002, Karol Szwed <gallium@kde.org>
            2007, Kevin Ottens <ervin@kde.org>
@@ -90,12 +88,12 @@ Copyright: 2007-2009, Aaron Seigo <aseigo@kde.org>
            2016, Olivier Churlaud <olivier@churlaud.com>
            2007, Paolo Capriotti <p.capriotti@gmail.com>
            2008-2009, Petri Damsten <damu@iki.fi>
-           2009, Petri Damstén <damu@iki.fi>
            2022, Popov Eugene <popov895@ukr.net>
            2017-2019, Roman Gilg <subdiff@gmail.com>
            2013-2014, Sebastian Kügler <sebas@kde.org>
            2023, Serenity Cybersecurity, LLC <license@futurecrew.ru>
            2007-2019, Shawn Starr <shawn.starr@rogers.com>
+           2018-2020, Stasiek Michalski <hellcp@opensuse.org>
            2006-2007, Stephen Leaf <smileaf@gmail.com>
            2022-2023, Tanbir Jishan <tantalising007@gmail.com>
            2019, The GNOME Music developers
@@ -710,7 +708,9 @@ Files: po/ar/kcm_autostart.po
        po/ar/klipper.po
        po/ar/krunner.po
        po/ar/ksmserver.po
+       po/ar/libkicker.po
        po/ar/libkmpris.po
+       po/ar/oom-notifier.po
        po/ar/plasma_applet_org.kde.plasma.activitybar.po
        po/ar/plasma_applet_org.kde.plasma.cameraindicator.po
        po/ar/plasma_applet_org.kde.plasma.devicenotifier.po
@@ -816,14 +816,20 @@ Files: po/ar/kcm_autostart.po
        po/az/plasma_wallpaper_org.kde.image.po
        po/az/plasmawindowed.po
        po/az/session-shortcuts-kded.po
+       po/be/kcm_feedback.po
        po/be/kcm_soundtheme.po
        po/be/kded_devicenotifications.po
+       po/be/kded_donationmessage.po
        po/be/libkmpris.po
+       po/be/oom-notifier.po
        po/be/plasma_applet_org.kde.plasma.cameraindicator.po
        po/be/plasma_interactiveconsole.po
        po/be/plasmawindowed.po
        po/be/session-shortcuts-kded.po
        po/bg/kcm_autostart.po
+       po/bg/kcm_colors.po
+       po/bg/kcm_cursortheme.po
+       po/bg/kcm_desktoptheme.po
        po/bg/kcm_fonts.po
        po/bg/kcm_lookandfeel.po
        po/bg/kcm_nightlight.po
@@ -833,16 +839,23 @@ Files: po/ar/kcm_autostart.po
        po/bg/kcm_style.po
        po/bg/kcm_users.po
        po/bg/kded_devicenotifications.po
+       po/bg/kded_donationmessage.po
        po/bg/kfontinst.po
        po/bg/klipper.po
+       po/bg/krunner.po
        po/bg/ksmserver.po
+       po/bg/libkicker.po
        po/bg/libkmpris.po
+       po/bg/oom-notifier.po
+       po/bg/plasma_applet_org.kde.plasma.activitybar.po
        po/bg/plasma_applet_org.kde.plasma.cameraindicator.po
        po/bg/plasma_applet_org.kde.plasma.clipboard.po
        po/bg/plasma_applet_org.kde.plasma.devicenotifier.po
        po/bg/plasma_applet_org.kde.plasma.digitalclock.po
+       po/bg/plasma_applet_org.kde.plasma.icon.po
        po/bg/plasma_applet_org.kde.plasma.lock_logout.po
        po/bg/plasma_applet_org.kde.plasma.notifications.po
+       po/bg/plasma_applet_org.kde.plasma.private.systemtray.po
        po/bg/plasma_containmentactions_contextmenu.po
        po/bg/plasma_engine_weather.po
        po/bg/plasma_interactiveconsole.po
@@ -850,11 +863,15 @@ Files: po/ar/kcm_autostart.po
        po/bg/plasma_runner_appstream.po
        po/bg/plasma_runner_baloosearch.po
        po/bg/plasma_runner_calculatorrunner.po
+       po/bg/plasma_runner_placesrunner.po
+       po/bg/plasma_runner_sessions.po
+       po/bg/plasma_runner_webshortcuts.po
        po/bg/plasmashell.po
        po/bg/plasmashellprivateplugin.po
        po/bg/plasma_wallpaper_org.kde.image.po
        po/bg/plasmawindowed.po
        po/bg/session-shortcuts-kded.po
+       po/bg/soliduiserver.po
        po/cs/kcm_autostart.po
        po/cs/kcm_colors.po
        po/cs/kcm_desktoptheme.po
@@ -872,7 +889,9 @@ Files: po/ar/kcm_autostart.po
        po/cs/klipper.po
        po/cs/krunner.po
        po/cs/ksmserver.po
+       po/cs/libkicker.po
        po/cs/libkmpris.po
+       po/cs/plasma_applet_org.kde.plasma.activitybar.po
        po/cs/plasma_applet_org.kde.plasma.cameraindicator.po
        po/cs/plasma_applet_org.kde.plasma.digitalclock.po
        po/cs/plasma_applet_org.kde.plasma.lock_logout.po
@@ -905,6 +924,7 @@ Files: po/ar/kcm_autostart.po
        po/da/klipper.po
        po/da/krunner.po
        po/da/ksmserver.po
+       po/da/libkicker.po
        po/da/libnotificationmanager.po
        po/da/plasma_applet_org.kde.plasma.analogclock.po
        po/da/plasma_applet_org.kde.plasma.appmenu.po
@@ -928,16 +948,26 @@ Files: po/ar/kcm_autostart.po
        po/da/plasmashellprivateplugin.po
        po/da/plasma_wallpaper_org.kde.image.po
        po/de/kcm_autostart.po
+       po/de/kcm_desktoptheme.po
        po/de/kcm_fonts.po
+       po/de/kcm_lookandfeel.po
        po/de/kcm_nightlight.po
        po/de/kcm_notifications.po
+       po/de/kcm_regionandlang.po
        po/de/kcm_soundtheme.po
+       po/de/kcm_style.po
        po/de/kcm_users.po
+       po/de/kded_devicenotifications.po
+       po/de/kded_donationmessage.po
        po/de/kfontinst.po
+       po/de/klipper.po
        po/de/krunner.po
+       po/de/libkicker.po
        po/de/libkmpris.po
+       po/de/oom-notifier.po
        po/de/plasma_applet_org.kde.plasma.activitybar.po
        po/de/plasma_applet_org.kde.plasma.cameraindicator.po
+       po/de/plasma_applet_org.kde.plasma.clipboard.po
        po/de/plasma_applet_org.kde.plasma.devicenotifier.po
        po/de/plasma_applet_org.kde.plasma.digitalclock.po
        po/de/plasma_applet_org.kde.plasma.lock_logout.po
@@ -946,13 +976,40 @@ Files: po/ar/kcm_autostart.po
        po/de/plasma_applet_org.kde.plasma.private.systemtray.po
        po/de/plasma_containmentactions_contextmenu.po
        po/de/plasma_engine_weather.po
+       po/de/plasma_interactiveconsole.po
        po/de/plasma_lookandfeel_org.kde.lookandfeel.po
+       po/de/plasma_runner_baloosearch.po
        po/de/plasma_runner_sessions.po
        po/de/plasmashell.po
        po/de/plasmashellprivateplugin.po
        po/de/plasma_wallpaper_org.kde.image.po
        po/de/plasmawindowed.po
        po/de/session-shortcuts-kded.po
+       po/el/kcm_colors.po
+       po/el/kcm_feedback.po
+       po/el/kcm_lookandfeel.po
+       po/el/kcm_nightlight.po
+       po/el/kcm_notifications.po
+       po/el/kcm_regionandlang.po
+       po/el/kcm_soundtheme.po
+       po/el/kcm_users.po
+       po/el/kded_devicenotifications.po
+       po/el/kded_donationmessage.po
+       po/el/kfontinst.po
+       po/el/klipper.po
+       po/el/libkmpris.po
+       po/el/libnotificationmanager.po
+       po/el/plasma_applet_org.kde.plasma.activitybar.po
+       po/el/plasma_applet_org.kde.plasma.cameraindicator.po
+       po/el/plasma_applet_org.kde.plasma.manageinputmethod.po
+       po/el/plasma_applet_org.kde.plasma.systemmonitor.po
+       po/el/plasma_containmentactions_applauncher.po
+       po/el/plasma_interactiveconsole.po
+       po/el/plasma_runner_appstream.po
+       po/el/plasma_runner_baloosearch.po
+       po/el/plasmashell.po
+       po/el/plasmawindowed.po
+       po/el/session-shortcuts-kded.po
        po/en_GB/kcm_autostart.po
        po/en_GB/kcm_colors.po
        po/en_GB/kcm_cursortheme.po
@@ -971,7 +1028,9 @@ Files: po/ar/kcm_autostart.po
        po/en_GB/klipper.po
        po/en_GB/krunner.po
        po/en_GB/ksmserver.po
+       po/en_GB/libkicker.po
        po/en_GB/libkmpris.po
+       po/en_GB/oom-notifier.po
        po/en_GB/plasma_applet_org.kde.plasma.activitybar.po
        po/en_GB/plasma_applet_org.kde.plasma.cameraindicator.po
        po/en_GB/plasma_applet_org.kde.plasma.devicenotifier.po
@@ -1007,7 +1066,9 @@ Files: po/ar/kcm_autostart.po
        po/es/kfontinst.po
        po/es/klipper.po
        po/es/ksmserver.po
+       po/es/libkicker.po
        po/es/libkmpris.po
+       po/es/oom-notifier.po
        po/es/plasma_applet_org.kde.plasma.activitybar.po
        po/es/plasma_applet_org.kde.plasma.cameraindicator.po
        po/es/plasma_applet_org.kde.plasma.devicenotifier.po
@@ -1042,7 +1103,9 @@ Files: po/ar/kcm_autostart.po
        po/eu/kfontinst.po
        po/eu/klipper.po
        po/eu/ksmserver.po
+       po/eu/libkicker.po
        po/eu/libkmpris.po
+       po/eu/oom-notifier.po
        po/eu/plasma_applet_org.kde.plasma.activitybar.po
        po/eu/plasma_applet_org.kde.plasma.cameraindicator.po
        po/eu/plasma_applet_org.kde.plasma.devicenotifier.po
@@ -1063,19 +1126,41 @@ Files: po/ar/kcm_autostart.po
        po/eu/plasmawindowed.po
        po/eu/session-shortcuts-kded.po
        po/fa/plasmashell.po
+       po/fi/kcm_autostart.po
+       po/fi/kcm_colors.po
+       po/fi/kcm_desktoptheme.po
+       po/fi/kcm_lookandfeel.po
        po/fi/kcm_nightlight.po
        po/fi/kcm_notifications.po
+       po/fi/kcm_regionandlang.po
        po/fi/kcm_soundtheme.po
+       po/fi/kcm_style.po
+       po/fi/kcm_users.po
+       po/fi/kded_devicenotifications.po
+       po/fi/kded_donationmessage.po
+       po/fi/kfontinst.po
        po/fi/klipper.po
+       po/fi/ksmserver.po
+       po/fi/libkicker.po
        po/fi/libkmpris.po
+       po/fi/oom-notifier.po
+       po/fi/plasma_applet_org.kde.plasma.activitybar.po
        po/fi/plasma_applet_org.kde.plasma.devicenotifier.po
        po/fi/plasma_applet_org.kde.plasma.digitalclock.po
+       po/fi/plasma_applet_org.kde.plasma.lock_logout.po
        po/fi/plasma_applet_org.kde.plasma.mediacontroller.po
        po/fi/plasma_applet_org.kde.plasma.notifications.po
+       po/fi/plasma_applet_org.kde.plasma.private.systemtray.po
+       po/fi/plasma_containmentactions_contextmenu.po
+       po/fi/plasma_engine_weather.po
        po/fi/plasma_lookandfeel_org.kde.lookandfeel.po
+       po/fi/plasma_runner_baloosearch.po
        po/fi/plasma_runner_bookmarksrunner.po
        po/fi/plasma_runner_kill.po
        po/fi/plasmashell.po
+       po/fi/plasmashellprivateplugin.po
+       po/fi/plasma_wallpaper_org.kde.image.po
+       po/fi/session-shortcuts-kded.po
        po/fr/kcm_autostart.po
        po/fr/kcm_colors.po
        po/fr/kcm_cursortheme.po
@@ -1094,7 +1179,9 @@ Files: po/ar/kcm_autostart.po
        po/fr/klipper.po
        po/fr/krunner.po
        po/fr/ksmserver.po
+       po/fr/libkicker.po
        po/fr/libkmpris.po
+       po/fr/oom-notifier.po
        po/fr/plasma_applet_org.kde.plasma.activitybar.po
        po/fr/plasma_applet_org.kde.plasma.cameraindicator.po
        po/fr/plasma_applet_org.kde.plasma.devicenotifier.po
@@ -1134,7 +1221,9 @@ Files: po/ar/kcm_autostart.po
        po/gl/kfontinst.po
        po/gl/klipper.po
        po/gl/ksmserver.po
+       po/gl/libkicker.po
        po/gl/libkmpris.po
+       po/gl/oom-notifier.po
        po/gl/plasma_applet_org.kde.plasma.activitybar.po
        po/gl/plasma_applet_org.kde.plasma.cameraindicator.po
        po/gl/plasma_applet_org.kde.plasma.devicenotifier.po
@@ -1167,13 +1256,16 @@ Files: po/ar/kcm_autostart.po
        po/he/kcm_style.po
        po/he/kcm_users.po
        po/he/kded_devicenotifications.po
+       po/he/kded_donationmessage.po
        po/he/kfontinst.po
        po/he/klipper.po
        po/he/krdb.po
        po/he/krunner.po
        po/he/ksmserver.po
+       po/he/libkicker.po
        po/he/libkmpris.po
        po/he/libkworkspace.po
+       po/he/oom-notifier.po
        po/he/plasma_applet_org.kde.plasma.activitybar.po
        po/he/plasma_applet_org.kde.plasma.analogclock.po
        po/he/plasma_applet_org.kde.plasma.appmenu.po
@@ -1194,6 +1286,22 @@ Files: po/ar/kcm_autostart.po
        po/he/plasmashellprivateplugin.po
        po/he/plasma_wallpaper_org.kde.image.po
        po/he/session-shortcuts-kded.po
+       po/hi/kcm_autostart.po
+       po/hi/kcm_colors.po
+       po/hi/kcm_cursortheme.po
+       po/hi/kcm_desktoptheme.po
+       po/hi/kcm_fonts.po
+       po/hi/kcm_icons.po
+       po/hi/kcm_notifications.po
+       po/hi/kcm_style.po
+       po/hi/kcm_users.po
+       po/hi/kfontinst.po
+       po/hi/klipper.po
+       po/hi/plasma_applet_org.kde.plasma.clipboard.po
+       po/hi/plasma_applet_org.kde.plasma.devicenotifier.po
+       po/hi/plasma_applet_org.kde.plasma.digitalclock.po
+       po/hi/plasma_applet_org.kde.plasma.notifications.po
+       po/hi/plasma_runner_appstream.po
        po/hu/kcm_autostart.po
        po/hu/kcm_colors.po
        po/hu/kcm_cursortheme.po
@@ -1208,12 +1316,15 @@ Files: po/ar/kcm_autostart.po
        po/hu/kcm_style.po
        po/hu/kcm_users.po
        po/hu/kded_devicenotifications.po
+       po/hu/kded_donationmessage.po
        po/hu/kfontinst.po
        po/hu/klipper.po
        po/hu/krunner.po
        po/hu/ksmserver.po
+       po/hu/libkicker.po
        po/hu/libkmpris.po
        po/hu/libnotificationmanager.po
+       po/hu/oom-notifier.po
        po/hu/plasma_applet_org.kde.plasma.activitybar.po
        po/hu/plasma_applet_org.kde.plasma.analogclock.po
        po/hu/plasma_applet_org.kde.plasma.appmenu.po
@@ -1228,6 +1339,7 @@ Files: po/ar/kcm_autostart.po
        po/hu/plasma_applet_org.kde.plasma.private.systemtray.po
        po/hu/plasma_applet_org.kde.plasma.systemmonitor.po
        po/hu/plasma_containmentactions_contextmenu.po
+       po/hu/plasma_engine_weather.po
        po/hu/plasma_interactiveconsole.po
        po/hu/plasma_lookandfeel_org.kde.lookandfeel.po
        po/hu/plasma_runner_baloosearch.po
@@ -1250,6 +1362,7 @@ Files: po/ar/kcm_autostart.po
        po/ia/kded_devicenotifications.po
        po/ia/kded_donationmessage.po
        po/ia/klipper.po
+       po/ia/libkicker.po
        po/ia/plasma_applet_org.kde.plasma.activitybar.po
        po/ia/plasma_applet_org.kde.plasma.devicenotifier.po
        po/ia/plasma_applet_org.kde.plasma.digitalclock.po
@@ -1263,17 +1376,61 @@ Files: po/ar/kcm_autostart.po
        po/ia/plasma_wallpaper_org.kde.image.po
        po/ia/session-shortcuts-kded.po
        po/id/kcm_autostart.po
+       po/id/kcm_colors.po
+       po/id/kcm_cursortheme.po
+       po/id/kcm_desktoptheme.po
        po/id/kcm_feedback.po
+       po/id/kcm_fonts.po
+       po/id/kcm_icons.po
+       po/id/kcm_lookandfeel.po
+       po/id/kcm_nightlight.po
+       po/id/kcm_notifications.po
+       po/id/kcm_regionandlang.po
+       po/id/kcm_soundtheme.po
+       po/id/kcm_style.po
        po/id/kcm_users.po
+       po/id/kded_devicenotifications.po
+       po/id/kded_donationmessage.po
+       po/id/kfontinst.po
+       po/id/klipper.po
+       po/id/krunner.po
        po/id/ksmserver.po
+       po/id/libkicker.po
+       po/id/libkmpris.po
+       po/id/libnotificationmanager.po
+       po/id/oom-notifier.po
+       po/id/plasma_applet_org.kde.plasma.activitybar.po
+       po/id/plasma_applet_org.kde.plasma.analogclock.po
+       po/id/plasma_applet_org.kde.plasma.appmenu.po
+       po/id/plasma_applet_org.kde.plasma.cameraindicator.po
+       po/id/plasma_applet_org.kde.plasma.devicenotifier.po
+       po/id/plasma_applet_org.kde.plasma.digitalclock.po
+       po/id/plasma_applet_org.kde.plasma.icon.po
+       po/id/plasma_applet_org.kde.plasma.lock_logout.po
+       po/id/plasma_applet_org.kde.plasma.manageinputmethod.po
+       po/id/plasma_applet_org.kde.plasma.mediacontroller.po
+       po/id/plasma_applet_org.kde.plasma.notifications.po
+       po/id/plasma_applet_org.kde.plasma.private.systemtray.po
+       po/id/plasma_applet_org.kde.plasma.systemmonitor.po
+       po/id/plasma_containmentactions_contextmenu.po
+       po/id/plasma_engine_weather.po
+       po/id/plasma_interactiveconsole.po
        po/id/plasma_lookandfeel_org.kde.lookandfeel.po
+       po/id/plasma_runner_baloosearch.po
+       po/id/plasma_runner_calculatorrunner.po
+       po/id/plasma_runner_recentdocuments.po
+       po/id/plasma_runner_sessions.po
+       po/id/plasmashell.po
+       po/id/plasmashellprivateplugin.po
+       po/id/plasma_wallpaper_org.kde.image.po
+       po/id/plasmawindowed.po
+       po/id/session-shortcuts-kded.po
        po/ie/kcm_regionandlang.po
        po/ie/kded_devicenotifications.po
        po/ie/kio_desktop.po
        po/ie/krdb.po
        po/ie/libkicker.po
        po/ie/plasma_applet_org.kde.plasma.analogclock.po
-       po/ie/plasma_engine_powermanagement.po
        po/ie/plasma_lookandfeel_org.kde.lookandfeel.po
        po/ie/plasma_runner_baloosearch.po
        po/ie/plasma_runner_locations.po
@@ -1283,6 +1440,8 @@ Files: po/ar/kcm_autostart.po
        po/ie/plasmashell.po
        po/ie/plasma_wallpaper_org.kde.color.po
        po/is/kcm_autostart.po
+       po/is/kcm_colors.po
+       po/is/kcm_desktoptheme.po
        po/is/kcm_fonts.po
        po/is/kcm_lookandfeel.po
        po/is/kcm_nightlight.po
@@ -1290,6 +1449,7 @@ Files: po/ar/kcm_autostart.po
        po/is/kcm_regionandlang.po
        po/is/kcm_style.po
        po/is/kcm_users.po
+       po/is/kded_devicenotifications.po
        po/is/kfontinst.po
        po/is/klipper.po
        po/is/ksmserver.po
@@ -1299,6 +1459,7 @@ Files: po/ar/kcm_autostart.po
        po/is/plasma_applet_org.kde.plasma.digitalclock.po
        po/is/plasma_applet_org.kde.plasma.lock_logout.po
        po/is/plasma_applet_org.kde.plasma.notifications.po
+       po/is/plasma_applet_org.kde.plasma.private.systemtray.po
        po/is/plasma_containmentactions_contextmenu.po
        po/is/plasma_engine_weather.po
        po/is/plasma_lookandfeel_org.kde.lookandfeel.po
@@ -1323,7 +1484,9 @@ Files: po/ar/kcm_autostart.po
        po/it/kfontinst.po
        po/it/klipper.po
        po/it/ksmserver.po
+       po/it/libkicker.po
        po/it/libkmpris.po
+       po/it/oom-notifier.po
        po/it/plasma_applet_org.kde.plasma.activitybar.po
        po/it/plasma_applet_org.kde.plasma.cameraindicator.po
        po/it/plasma_applet_org.kde.plasma.devicenotifier.po
@@ -1339,6 +1502,7 @@ Files: po/ar/kcm_autostart.po
        po/it/plasma_runner_baloosearch.po
        po/it/plasma_runner_sessions.po
        po/it/plasmashell.po
+       po/it/plasmashellprivateplugin.po
        po/it/plasma_wallpaper_org.kde.image.po
        po/it/plasmawindowed.po
        po/it/session-shortcuts-kded.po
@@ -1354,26 +1518,46 @@ Files: po/ar/kcm_autostart.po
        po/ja/kcm_regionandlang.po
        po/ja/kcm_soundtheme.po
        po/ja/kcm_style.po
+       po/ja/kded_donationmessage.po
        po/ja/plasma_applet_org.kde.plasma.manageinputmethod.po
        po/ja/plasma_applet_org.kde.plasma.notifications.po
        po/ja/plasma_applet_org.kde.plasma.systemmonitor.po
+       po/ja/plasma_containmentactions_contextmenu.po
        po/ja/plasma_lookandfeel_org.kde.lookandfeel.po
        po/ja/plasmashell.po
        po/ja/plasma_wallpaper_org.kde.image.po
        po/ko/kcm_autostart.po
+       po/ko/kcm_colors.po
+       po/ko/kcm_desktoptheme.po
+       po/ko/kcm_lookandfeel.po
        po/ko/kcm_nightlight.po
        po/ko/kcm_notifications.po
        po/ko/kcm_regionandlang.po
        po/ko/kcm_soundtheme.po
+       po/ko/kcm_style.po
+       po/ko/kcm_users.po
+       po/ko/kded_devicenotifications.po
+       po/ko/kded_donationmessage.po
+       po/ko/kfontinst.po
+       po/ko/klipper.po
        po/ko/ksmserver.po
+       po/ko/libkicker.po
        po/ko/libkmpris.po
+       po/ko/oom-notifier.po
+       po/ko/plasma_applet_org.kde.plasma.activitybar.po
        po/ko/plasma_applet_org.kde.plasma.devicenotifier.po
        po/ko/plasma_applet_org.kde.plasma.digitalclock.po
        po/ko/plasma_applet_org.kde.plasma.lock_logout.po
        po/ko/plasma_applet_org.kde.plasma.notifications.po
+       po/ko/plasma_applet_org.kde.plasma.private.systemtray.po
+       po/ko/plasma_containmentactions_contextmenu.po
+       po/ko/plasma_engine_weather.po
+       po/ko/plasma_interactiveconsole.po
        po/ko/plasma_lookandfeel_org.kde.lookandfeel.po
+       po/ko/plasma_runner_baloosearch.po
        po/ko/plasmashell.po
        po/ko/plasmashellprivateplugin.po
+       po/ko/plasma_wallpaper_org.kde.image.po
        po/ko/session-shortcuts-kded.po
        po/lv/freespacenotifier.po
        po/lv/kcm_autostart.po
@@ -1392,6 +1576,7 @@ Files: po/ar/kcm_autostart.po
        po/lv/kcm_style.po
        po/lv/kcm_users.po
        po/lv/kded_devicenotifications.po
+       po/lv/kded_donationmessage.po
        po/lv/kfontinst.po
        po/lv/kio_applications.po
        po/lv/klipper.po
@@ -1402,6 +1587,7 @@ Files: po/ar/kcm_autostart.po
        po/lv/libkmpris.po
        po/lv/libkworkspace.po
        po/lv/libnotificationmanager.po
+       po/lv/oom-notifier.po
        po/lv/plasma_applet_org.kde.plasma.activitybar.po
        po/lv/plasma_applet_org.kde.plasma.analogclock.po
        po/lv/plasma_applet_org.kde.plasma.appmenu.po
@@ -1459,7 +1645,9 @@ Files: po/ar/kcm_autostart.po
        po/nl/kfontinst.po
        po/nl/klipper.po
        po/nl/ksmserver.po
+       po/nl/libkicker.po
        po/nl/libkmpris.po
+       po/nl/oom-notifier.po
        po/nl/plasma_applet_org.kde.plasma.activitybar.po
        po/nl/plasma_applet_org.kde.plasma.cameraindicator.po
        po/nl/plasma_applet_org.kde.plasma.devicenotifier.po
@@ -1519,6 +1707,7 @@ Files: po/ar/kcm_autostart.po
        po/pa/plasma_applet_org.kde.plasma.systemmonitor.po
        po/pa/plasma_containmentactions_contextmenu.po
        po/pa/plasma_engine_weather.po
+       po/pa/plasma_interactiveconsole.po
        po/pa/plasma_lookandfeel_org.kde.lookandfeel.po
        po/pa/plasma_runner_appstream.po
        po/pa/plasma_runner_baloosearch.po
@@ -1546,7 +1735,9 @@ Files: po/ar/kcm_autostart.po
        po/pl/kfontinst.po
        po/pl/klipper.po
        po/pl/ksmserver.po
+       po/pl/libkicker.po
        po/pl/libkmpris.po
+       po/pl/oom-notifier.po
        po/pl/plasma_applet_org.kde.plasma.activitybar.po
        po/pl/plasma_applet_org.kde.plasma.devicenotifier.po
        po/pl/plasma_applet_org.kde.plasma.digitalclock.po
@@ -1565,6 +1756,7 @@ Files: po/ar/kcm_autostart.po
        po/pt_BR/kcm_autostart.po
        po/pt_BR/kcm_colors.po
        po/pt_BR/kcm_cursortheme.po
+       po/pt_BR/kcm_desktoptheme.po
        po/pt_BR/kcm_lookandfeel.po
        po/pt_BR/kcm_nightlight.po
        po/pt_BR/kcm_notifications.po
@@ -1577,10 +1769,16 @@ Files: po/ar/kcm_autostart.po
        po/pt_BR/klipper.po
        po/pt_BR/krunner.po
        po/pt_BR/ksmserver.po
+       po/pt_BR/libkicker.po
+       po/pt_BR/plasma_applet_org.kde.plasma.activitybar.po
        po/pt_BR/plasma_applet_org.kde.plasma.clipboard.po
        po/pt_BR/plasma_applet_org.kde.plasma.devicenotifier.po
        po/pt_BR/plasma_applet_org.kde.plasma.digitalclock.po
+       po/pt_BR/plasma_applet_org.kde.plasma.lock_logout.po
        po/pt_BR/plasma_applet_org.kde.plasma.notifications.po
+       po/pt_BR/plasma_applet_org.kde.plasma.private.systemtray.po
+       po/pt_BR/plasma_containmentactions_contextmenu.po
+       po/pt_BR/plasma_engine_weather.po
        po/pt_BR/plasma_interactiveconsole.po
        po/pt_BR/plasma_lookandfeel_org.kde.lookandfeel.po
        po/pt_BR/plasma_runner_baloosearch.po
@@ -1600,6 +1798,8 @@ Files: po/ar/kcm_autostart.po
        po/ru/kcm_style.po
        po/ru/kcm_users.po
        po/ru/kded_devicenotifications.po
+       po/ru/kded_donationmessage.po
+       po/ru/kfontinst.po
        po/ru/klipper.po
        po/ru/libkicker.po
        po/ru/libkmpris.po
@@ -1618,21 +1818,56 @@ Files: po/ar/kcm_autostart.po
        po/ru/plasma_wallpaper_org.kde.image.po
        po/ru/plasmawindowed.po
        po/ru/session-shortcuts-kded.po
+       po/sa/freespacenotifier.po
+       po/sa/kcm_colors.po
+       po/sa/kcm_cursortheme.po
+       po/sa/kcm_feedback.po
+       po/sa/kcm_fonts.po
+       po/sa/kcminit.po
+       po/sa/kcm_lookandfeel.po
+       po/sa/kcm_nightlight.po
+       po/sa/kcm_notifications.po
+       po/sa/kcm_regionandlang.po
+       po/sa/kcm_soundtheme.po
+       po/sa/kcm_style.po
+       po/sa/kcm_users.po
+       po/sa/kfontinst.po
+       po/sa/klipper.po
+       po/sa/krunner.po
+       po/sa/ksmserver.po
+       po/sa/libkicker.po
+       po/sa/libkworkspace.po
+       po/sa/phonon_kde_plugin.po
+       po/sa/plasma_applet_org.kde.plasma.calendar.po
+       po/sa/plasma_applet_org.kde.plasma.lock_logout.po
+       po/sa/plasma_applet_org.kde.plasma.mediacontroller.po
+       po/sa/plasma_applet_org.kde.plasma.notifications.po
+       po/sa/plasma_applet_org.kde.plasma.private.systemtray.po
+       po/sa/plasma_containmentactions_contextmenu.po
+       po/sa/plasma_lookandfeel_org.kde.lookandfeel.po
+       po/sa/plasma_runner_baloosearch.po
+       po/sa/plasma_runner_kill.po
+       po/sa/plasmashell.po
+       po/sa/plasmashellprivateplugin.po
+       po/sa/plasma_wallpaper_org.kde.image.po
        po/sk/kcm_autostart.po
        po/sk/kcm_nightlight.po
        po/sk/kcm_notifications.po
        po/sk/kcm_soundtheme.po
        po/sk/kcm_users.po
        po/sk/kded_devicenotifications.po
+       po/sk/kded_donationmessage.po
        po/sk/krunner.po
        po/sk/ksmserver.po
        po/sk/libkmpris.po
+       po/sk/oom-notifier.po
        po/sk/plasma_applet_org.kde.plasma.cameraindicator.po
        po/sk/plasma_applet_org.kde.plasma.clipboard.po
        po/sk/plasma_applet_org.kde.plasma.digitalclock.po
        po/sk/plasma_applet_org.kde.plasma.lock_logout.po
        po/sk/plasma_applet_org.kde.plasma.mediacontroller.po
        po/sk/plasma_applet_org.kde.plasma.notifications.po
+       po/sk/plasma_interactiveconsole.po
        po/sk/plasma_lookandfeel_org.kde.lookandfeel.po
        po/sk/plasma_runner_calculatorrunner.po
        po/sk/plasma_runner_sessions.po
@@ -1640,11 +1875,13 @@ Files: po/ar/kcm_autostart.po
        po/sk/plasmashellprivateplugin.po
        po/sk/plasma_wallpaper_org.kde.image.po
        po/sk/plasmawindowed.po
+       po/sk/session-shortcuts-kded.po
        po/sl/kded_donationmessage.po
        po/sl/kfontinst.po
        po/sl/ksmserver.po
        po/sl/libkicker.po
        po/sl/libnotificationmanager.po
+       po/sl/oom-notifier.po
        po/sl/plasma_applet_org.kde.plasma.calendar.po
        po/sl/plasma_applet_org.kde.plasma.digitalclock.po
        po/sl/plasma_applet_org.kde.plasma.lock_logout.po
@@ -1674,8 +1911,10 @@ Files: po/ar/kcm_autostart.po
        po/sv/klipper.po
        po/sv/krunner.po
        po/sv/ksmserver.po
+       po/sv/libkicker.po
        po/sv/libkmpris.po
        po/sv/libnotificationmanager.po
+       po/sv/oom-notifier.po
        po/sv/plasma_applet_org.kde.plasma.activitybar.po
        po/sv/plasma_applet_org.kde.plasma.cameraindicator.po
        po/sv/plasma_applet_org.kde.plasma.clipboard.po
@@ -1714,6 +1953,7 @@ Files: po/ar/kcm_autostart.po
        po/ta/kfontinst.po
        po/ta/klipper.po
        po/ta/ksmserver.po
+       po/ta/libkicker.po
        po/ta/libkmpris.po
        po/ta/plasma_applet_org.kde.plasma.activitybar.po
        po/ta/plasma_applet_org.kde.plasma.analogclock.po
@@ -1761,6 +2001,7 @@ Files: po/ar/kcm_autostart.po
        po/tr/ksmserver.po
        po/tr/libkicker.po
        po/tr/libkmpris.po
+       po/tr/oom-notifier.po
        po/tr/plasma_applet_org.kde.plasma.activitybar.po
        po/tr/plasma_applet_org.kde.plasma.cameraindicator.po
        po/tr/plasma_applet_org.kde.plasma.devicenotifier.po
@@ -1803,7 +2044,9 @@ Files: po/ar/kcm_autostart.po
        po/zh_TW/kfontinst.po
        po/zh_TW/klipper.po
        po/zh_TW/ksmserver.po
+       po/zh_TW/libkicker.po
        po/zh_TW/libkmpris.po
+       po/zh_TW/oom-notifier.po
        po/zh_TW/plasma_applet_org.kde.plasma.activitybar.po
        po/zh_TW/plasma_applet_org.kde.plasma.devicenotifier.po
        po/zh_TW/plasma_applet_org.kde.plasma.digitalclock.po
@@ -1825,42 +2068,55 @@ Copyright: 2020-2024, A S Alam <aalam.yellow@gmail.com>
            2021-2024, A S Alam <aalam@satluj.org>
            2007-2024, A S Alam <aalam@users.sf.net>
            2019-2024, A S Alam <alam.yellow@gmail.com>
+           2024, A S Alam <aman@punlinux.org>
            2018-2024, Adrian Chaves <adrian@chaves.io>
-           2023-2024, Adrián Chaves (Gallaecio)
+           2023-2025, Adrián Chaves (Gallaecio)
            2024, Agron Selimaj <as9902613@gmail.com>
            2018-2024, Alexander Yavorsky <kekcuha@gmail.com>
            2024, Alois Spitzbart <spitz234@hotmail.com>
            2024, Alois.spitzbart <spitz234@hotmail.com>
            2023, Alosra <Aleomoeini@gmail.com>
+           2024, Antikruk <nashtlumach@gmail.com>
            2023-2024, Antoni Bella Pérez <antonibella5@yahoo.com>
-           2005-2024, Eloy Cuadra <ecuadra@eloihr.net>
-           2022-2024, Emir SARI <emir_sari@icloud.com>
+           2011-2024, Antonis Geralis <capoiosct@gmail.com>
+           CC0-1.0
+           2010, Cristina Yenyxe González García <the.blue.valkyrie@gmail.com>
+           2024, Dimitrys Meliates <demetresmeliates+i18n@gmail.com>
+           2005-2025, Eloy Cuadra <ecuadra@eloihr.net>
+           2022-2025, Emir SARI <emir_sari@icloud.com>
            2023-2024, Enol P. <enolp@softastur.org>
+           2007, Enrique Matias Sanchez (aka Quique) <cronopios@gmail.com>
            2024, Flori G <Renner03@protonmail.com>
            2024, Flori G <renner03@protonmail.com>
            2024, Frank Steinmetzger <dev-kde@felsenfleischer.de>
            2009-2024, Freek de Kruijf <f.de.kruijf@hetnet.nl>
-           2009-2024, Freek de Kruijf <freekdekruijf@kde.nl>
+           2009-2025, Freek de Kruijf <freekdekruijf@kde.nl>
+           2014-2025, G.Sora <g.sora@tiscali.it>
            2010-2024, g.sora <g.sora@tiscali.it>
            2023-2024, Geraldo Simiao <geraldosimiao@fedoraproject.org>
-           2017-2024, giovanni <g.sora@tiscali.it>
-           2013-2024, Giovanni Sora <g.sora@tiscali.it>
+           2017-2025, giovanni <g.sora@tiscali.it>
+           2013-2025, Giovanni Sora <g.sora@tiscali.it>
            2024, Guilherme Marçal Silva <guimarcalsilva@gmail.com>
            2024, Gummi <gudmundure@gmail.com>
            2023-2024, gummi <gudmundure@gmail.com>
            2022-2024, Guðmundur Erlingsson <gudmundure@gmail.com>
            2023-2024, Iñigo Salvador Azurmendi <xalba@ni.eus>
+           2003-2009, Jaime Robles <jaime@kde.org>
            2024, Janet Blackquill <uhhadd@gmail.com>
+           2012, Javier Vinal <fjvinal@gmail.com>
            2009-2024, Johannes Obermayr <johannesobermayr@gmx.de>
-           2004-2024, Josep M. Ferrer <txemaq@gmail.com>
+           2004-2025, Josep M. Ferrer <txemaq@gmail.com>
            2007-2024, Jure Repinc <jlp@holodeck1.com>
+           2024, Kai Uwe Broulik <kde@broulik.de>
+           2024, kali <shreekantkalwar@gmail.com>
+           2024, kali <skkalwar999@gmail.com>
            2024, KDE euskaratzeko proiektuaren arduraduna <xalba@ni.eus>
            2023-2024, KDE Euskaratzeko proiektuko arduraduna <xalba@ni.eus
-           2023-2024, KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>
+           2023-2025, KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>
            2022-2024, Kheyyam <xxmn77@gmail.com>
            2024, Kheyyam Godjayev <xxmn77@gmail.com>
            2024, Kimmo Kujansuu <mrkujansuu@gmail.com>
-           2022-2024, Kisaragi Hiu <mail@kisaragi-hiu.com>
+           2022-2025, Kisaragi Hiu <mail@kisaragi-hiu.com>
            2021-2024, Kishore G <kishore96@gmail.com>
            2017-2024, Kiszel Kristóf <kiszel.kristof@gmail.com>
            2021-2024, Kristof Kiszel <kiszel.kristof@gmail.com>
@@ -1870,34 +2126,46 @@ Copyright: 2020-2024, A S Alam <aalam.yellow@gmail.com>
            2010-2024, Lasse Liehu <lliehu@kolumbus.fi>
            2023, Linerly <linerly@linerly.xyz>
            2022-2023, Linerly <linerly@protonmail.com>
+           2015-2025, Luigi Toscano <luigi.toscano@tiscali.it>
            2019-2024, Matej Mrenica <matejm98mthw@gmail.com>
            2020-2024, Matjaž Jeran <matjaz.jeran@amis.net>
-           2022-2024, Mincho Kondarev <mkondarev@yahoo.de>
+           2003, Miguel Revilla Rodríguez <yo@miguelrevilla.com>
+           2022-2025, Mincho Kondarev <mkondarev@yahoo.de>
            2024, OIS <mistresssilvara@hotmail.com>
+           2022-2024, Olesya Gerasimenko <translation-team@basealt.ru>
+           2004, Pablo de Vicente <p.devicente@wanadoo.es>
+           2006, Pablo de Vicente <pablo.devicente@gmail.com>
+           2000-2002, Pablo de Vicente <vicente@oan.es>
            2017-2024, Paolo Zamponi <feus73@gmail.com>
            2024, rasmus rosendahl-kaa <rasmus@rosendahl-kaa.name>
-           2023, Roman Paholík <wizzardsk@gmail.com>
+           2024, Roman Paholik <wizzardsk@gmail.com>
+           2023-2024, Roman Paholík <wizzardsk@gmail.com>
            2022-2024, Ryuichi Yamada <ryuichi_ya220@outlook.jp>
+           2005, Santiago Fernandez Sancho <santi@kde-es.org>
            2007-2024, Shinjo Park <kde@peremen.name>
            2004-2024, Stefan Asserhäll <stefan.asserhall@gmail.com>
            2014-2024, Steve Allewell <steve.allewell@gmail.com>
            2009-2024, Tommi Nieminen <translator@legisign.org>
-           2024, Toms Trasuns <toms.trasuns@posteo.net>
-           2008-2024, Vincenzo Reale <smart2128vr@gmail.com>
+           2024-2025, Toms Trasuns <toms.trasuns@posteo.net>
+           2008-2025, Vincenzo Reale <smart2128vr@gmail.com>
            2012-2024, Vit Pelcak <vit@pelcak.org>
            2010-2024, Vít Pelčák <vit@pelcak.org>
            2017-2024, Wantoyo <wantoyek@gmail.com>
+           2018-2024, wantoyo <wantoyek@gmail.com>
+           2022-2024, Wantoyèk <wantoyek@gmail.com>
            2024, X əyyam
-           2012-2024, Xavier Besnard <xavier.besnard@kde.org>
+           2012-2025, Xavier Besnard <xavier.besnard@kde.org>
            2023-2024, Yaron Shahrabani <sh.yaron@gmail.com>
            2008-2024, zayed <zayed.alsaidi@gmail.com>
-           2009-2024, Zayed Al-Saidi <zayed.alsaidi@gmail.com>
+           2009-2025, Zayed Al-Saidi <zayed.alsaidi@gmail.com>
            2024, Zmicier Turok <zmicerturok@gmail.com>
            2011-2024, Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>
+           2024, Δημήτρης Μηλιάτης <demetresmeliates+i18n@gmail.com>
 License: GPL-2.0-or-later
 Comment: Automatically extracted
 
 Files: applets/cameraindicator/package/Messages.sh
+       geotimezoned/CMakeLists.txt
        kcms/region_language/autotests/CMakeLists.txt
        kcms/region_language/CMakeLists.txt
        kcms/region_language/localegenhelper/CMakeLists.txt
@@ -1905,9 +2173,14 @@ Files: applets/cameraindicator/package/Messages.sh
        kcms/soundtheme/Messages.sh
        kcms/soundtheme/soundthemesettings.kcfg
        kcms/soundtheme/soundthemesettings.kcfgc
+       klipper/kconf_update/CMakeLists.txt
        libkmpris/Messages.sh
        libnotificationmanager/kcfg/eventsettings.kcfg
        libnotificationmanager/kcfg/eventsettings.kcfgc
+       oom-notifier/autotests/CMakeLists.txt
+       oom-notifier/CMakeLists.txt
+       oom-notifier/Messages.sh
+       oom-notifier/oom-notifier.json
        plasma-windowed/Messages.sh
        runners/appstream/CMakeLists.txt
        runners/baloo/CMakeLists.txt
@@ -1929,16 +2202,21 @@ Files: applets/cameraindicator/package/Messages.sh
        startkde/session-restore/CMakeLists.txt
 Copyright: 2021-2023, Alexander Lohnau <alexander.lohnau@gmx.de>
            2023, David Edmundson <davidedmundson@kde.org>
-           2023, Fushan Wen <qydwhotmail@gmail.com>
+           2023-2024, Fushan Wen <qydwhotmail@gmail.com>
            2022, Han Young <hanyoung@protonmail.com>
+           2020-2024, Harald Sitter <sitter@kde.org>
            2023, Ismael Asensio <isma.af@gmail.com>
+           2024, Kai Uwe Broulik <kde@broulik.de>
 License: BSD-2-Clause
 
 Files: appiumtests/applets/CMakeLists.txt
+       appiumtests/applets/kicker/CMakeLists.txt
+       appiumtests/applets/kicker/favoritetest.py
        appiumtests/CMakeLists.txt
        appiumtests/components_tests/CMakeLists.txt
        appiumtests/kcms/CMakeLists.txt
        appiumtests/krunner/CMakeLists.txt
+       appiumtests/ksplash/CMakeLists.txt
        appiumtests/wallpapers/CMakeLists.txt
        applets/cameraindicator/autotests/CMakeLists.txt
        applets/cameraindicator/CMakeLists.txt
@@ -1949,40 +2227,40 @@ Files: appiumtests/applets/CMakeLists.txt
        cmake/FindAppMenuGtkModule.cmake
        cmake/FindKIOExtras.cmake
        cmake/FindKIOFuse.cmake
-       cmake/FindLibdrm.cmake
        components/batterycontrol/CMakeLists.txt
        components/dbus/autotests/CMakeLists.txt
        components/dbus/CMakeLists.txt
        donationmessage/CMakeLists.txt
        kcms/fonts/autotests/CMakeLists.txt
        klipper/declarative/CMakeLists.txt
+       klipper/kconf_update/plasma6.3-update-clipboard-database-2-to-3.upd
        libkmpris/autotests/CMakeLists.txt
        libkmpris/CMakeLists.txt
        libkmpris/kded/CMakeLists.txt
        runners/services/autotests/CMakeLists.txt
        runners/shell/autotests/CMakeLists.txt
        startkde/session-shortcuts/CMakeLists.txt
-Copyright: 2014, Alex Merry <alex.merry@kde.org>
-           2021, Alexander Lohnau <alexander.lohnau@gmx.de>
+Copyright: 2021, Alexander Lohnau <alexander.lohnau@gmx.de>
            2021, Alexander Lohnau <alexander.lonau@gmx.de>
            2024, Bohdan Onofriichuk <bogdan.onofriuchuk@gmail.com>
            2023, David Edmundson <davidedmundson@kde.org>
            2021, David Edmundson <kde@davidedmundson.co.uk>
            2023-2024, Fushan Wen <qydwhotmail@gmail.com>
-           2016-2022, Harald Sitter <sitter@kde.org>
+           2016-2023, Harald Sitter <sitter@kde.org>
            2018, Kai Uwe Broulik <kde@broulik.de>
-           2014, Martin Gräßlin <mgraesslin@kde.org>
            2024, Nate Graham <nate@kde.org>
 License: BSD-3-Clause
 
-Files: appiumtests/utils/__init__.py
+Files: appiumtests/applets/systemtraytest/org.kde.testdbusactivation/metadata.json
+       appiumtests/utils/__init__.py
        donationmessage/donationmessage.json
        donationmessage/donationmessage.notifyrc
        donationmessage/Messages.sh
+       geotimezoned/geotimezoned.json
+       geotimezoned/Messages.sh
        .gitlab-ci.yml
        kcms/cursortheme/autotests/data/testcursortheme/cursors/source/generate.sh
        kcms/fonts/autotests/fonts.conf
-       kcms/users/avatars/photos/Air?Balloon.png
        kcms/users/avatars/photos/Astronaut.png
        kcms/users/avatars/photos/Books.png
        kcms/users/avatars/photos/Brushes.png
@@ -2017,8 +2295,10 @@ Files: appiumtests/utils/__init__.py
        .kde-ci.yml
        krunner/qml/krunner.qrc
        libkmpris/kded/mprisservice.json
+       libnotificationmanager/libnotificationmanager.notifyrc
        libtaskmanager/autotests/data/applications/org.kde.dolphin.desktop
        libtaskmanager/autotests/data/applications/org.kde.konversation.desktop
+       oom-notifier/oom-notifier.notifyrc
        runners/bookmarks/autotests/firefox/firefox-config-home/atnsd8ae.testmekde/favicons.sqlite
        runners/bookmarks/autotests/firefox/firefox-config-home/atnsd8ae.testmekde/places.sqlite
        runners/bookmarks/autotests/firefox/firefox-config-home/profiles.ini
@@ -2068,7 +2348,7 @@ Copyright: 2019, Cyril Rossi <cyril.rossi@enioka.com>
            2007, Ivan Cukic <ivan.cukic+kde@gmail.com>
            2019, Kai Uwe Broulik <kde@broulik.de>
            2002, Karol Szwed <gallium@kde.org>
-           1997-2002, kcmdisplay Authors
+           1997-2002, kcmdisplay Authors.
            2003, Maksim Orlovich <maksim.orlovich@kdemail.net>
            2007, Paolo Capriotti <p.capriotti@gmail.com>
            2008, Petri Damsten <damu@iki.fi>
@@ -2117,29 +2397,35 @@ Files: applets/appmenu/lib/appmenuapplet.cpp
        applets/notifications/draghelper.h
        applets/notifications/notificationapplet.cpp
        applets/notifications/notificationapplet.h
+       applets/notifications/notificationwindow.cpp
+       applets/notifications/notificationwindow.h
        applets/notifications/package/contents/ui/CompactRepresentation.qml
+       applets/notifications/package/contents/ui/components/ActionContainer.qml
+       applets/notifications/package/contents/ui/components/Body.qml
+       applets/notifications/package/contents/ui/components/EditContextMenu.qml
+       applets/notifications/package/contents/ui/components/FooterLoader.qml
+       applets/notifications/package/contents/ui/components/HeadingButtons.qml
+       applets/notifications/package/contents/ui/components/Icon.qml
+       applets/notifications/package/contents/ui/components/JobDetails.qml
+       applets/notifications/package/contents/ui/components/JobIconItem.qml
+       applets/notifications/package/contents/ui/components/JobItem.qml
+       applets/notifications/package/contents/ui/components/ModelInterface.qml
+       applets/notifications/package/contents/ui/components/NotificationHeader.qml
+       applets/notifications/package/contents/ui/components/NotificationReplyField.qml
+       applets/notifications/package/contents/ui/components/Summary.qml
+       applets/notifications/package/contents/ui/delegates/BaseDelegate.qml
+       applets/notifications/package/contents/ui/delegates/DelegateHistoryGrouped.qml
+       applets/notifications/package/contents/ui/delegates/DelegateHistory.qml
+       applets/notifications/package/contents/ui/delegates/DelegatePopup.qml
        applets/notifications/package/contents/ui/DraggableDelegate.qml
-       applets/notifications/package/contents/ui/EditContextMenu.qml
        applets/notifications/package/contents/ui/FullRepresentation.qml
        applets/notifications/package/contents/ui/global/Globals.qml
        applets/notifications/package/contents/ui/global/PulseAudio.qml
-       applets/notifications/package/contents/ui/JobDetails.qml
-       applets/notifications/package/contents/ui/JobItem.qml
        applets/notifications/package/contents/ui/main.qml
-       applets/notifications/package/contents/ui/NotificationHeader.qml
-       applets/notifications/package/contents/ui/NotificationItem.qml
        applets/notifications/package/contents/ui/NotificationPopup.qml
-       applets/notifications/package/contents/ui/NotificationReplyField.qml
-       applets/notifications/package/contents/ui/SelectableLabel.qml
        applets/panelspacer/package/contents/ui/main.qml
-       components/calendar/kconf_update/migrate-calendar-to-plugin-id.py
+       components/calendar/kconf_update/migrate-calendar-to-plugin-id.py.in
        components/calendar/kconf_update/migrate-calendar-to-plugin-id.upd
-       dataengines/packagekit/packagekitengine.cpp
-       dataengines/packagekit/packagekitengine.h
-       dataengines/packagekit/packagekitjob.cpp
-       dataengines/packagekit/packagekitjob.h
-       dataengines/packagekit/packagekitservice.cpp
-       dataengines/packagekit/packagekitservice.h
        devicenotifications/devicenotifications.cpp
        devicenotifications/devicenotifications.h
        kcms/colors/colors.cpp
@@ -2182,6 +2468,9 @@ Files: applets/appmenu/lib/appmenuapplet.cpp
        kcms/style/ui/EffectSettingsPopup.qml
        kcms/style/ui/GtkStylePage.qml
        kcms/style/ui/main.qml
+       oom-notifier/autotests/oom-notifier-decodetest.cpp
+       oom-notifier/decode.h
+       oom-notifier/module.cpp
        plasmacalendarintegration/HolidaysConfig.qml
        plasma-windowed/main.cpp
        plasma-windowed/plasmawindowedcorona.cpp
@@ -2201,18 +2490,17 @@ Copyright: 2016, Aleix Pol Gonzalez <aleixpol@kde.org>
            2013-2014, Bhushan Shah <bhush94@gmail.com>
            2016, Chinmoy Ranjan Pradhan <chinmoyrp65@gmail.com>
            2019-2020, Cyril Rossi <cyril.rossi@enioka.com>
-           2015, David Edmundson <davidedmundson@kde.org>
+           2015-2024, David Edmundson <davidedmundson@kde.org>
            2019, David Redondo <kde@david-redondo.de>
            2022, Fushan Wen <qydwhotmail@gmail.com>
-           2012, Gregor Taetzner <gregor@freenet.de>
-           2021-2022, Harald Sitter <sitter@kde.org>
+           2021-2024, Harald Sitter <sitter@kde.org>
            2023, Ismael Asensio <isma.af@gmail.com>
            2022-2024, ivan tkachenko <me@ratijas.tk>
            2007, Jeremy Whiting <jpwhiting@kde.org>
            2019-2024, Kai Uwe Broulik <kde@broulik.de>
            2019, Kai Uwe Broulik <kde@pbroulik.de>
            2013-2019, Kai Uwe Broulik <kde@privat.broulik.de>
-           2014-2023, Marco Martin <mart@kde.org>
+           2014-2024, Marco Martin <mart@kde.org>
            2009-2014, Marco Martin <notmart@gmail.com>
            2014-2015, Martin Klapetek <mklapetek@kde.org>
            2007, Matthew Woehlke <mw_triad@users.sourceforge.net>
@@ -2222,6 +2510,7 @@ Copyright: 2016, Aleix Pol Gonzalez <aleixpol@kde.org>
            2016, Olivier Churlaud <olivier@churlaud.com>
            2013, Sebastian Kügler <sebas@kde.org>
 License: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
+
 
 Files: applets/mediacontroller/CMakeLists.txt
        applets/mediacontroller/plugin/CMakeLists.txt
@@ -2237,44 +2526,29 @@ Copyright: 2022, Bharadwaj Raju <bharadwaj.raju777@protonmail.com>
            2019, Kai Uwe Broulik <kde@broulik.de>
 License: GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
 
+Files: donationmessage/donationmessage.cpp
+       donationmessage/donationmessage.h
+Copyright: 2024, Nate Graham <nate@kde.org>
+License: GPL-3.0-or-later
+
 Files: applets/devicenotifier/plugin/deviceserviceaction.cpp
        applets/devicenotifier/plugin/deviceserviceaction.h
        applets/systemtray/statusnotifieritemjob.cpp
        applets/systemtray/statusnotifieritemjob.h
        applets/systemtray/statusnotifieritemservice.cpp
        applets/systemtray/statusnotifieritemservice.h
-       dataengines/activities/activityjob.cpp
-       dataengines/activities/activityjob.h
        dataengines/applicationjobs/jobaction.cpp
        dataengines/applicationjobs/jobaction.h
        dataengines/applicationjobs/jobcontrol.cpp
        dataengines/applicationjobs/jobcontrol.h
        dataengines/applicationjobs/kuiserverengine.cpp
        dataengines/applicationjobs/kuiserverengine.h
-       dataengines/apps/appjob.cpp
-       dataengines/apps/appjob.h
-       dataengines/apps/appsengine.cpp
-       dataengines/apps/appsengine.h
-       dataengines/apps/appservice.cpp
-       dataengines/apps/appservice.h
-       dataengines/apps/appsource.cpp
-       dataengines/apps/appsource.h
        dataengines/executable/executable.cpp
        dataengines/executable/executable.h
-       dataengines/mouse/cursornotificationhandler.cpp
-       dataengines/mouse/cursornotificationhandler.h
-       dataengines/mouse/mouseengine.cpp
-       dataengines/mouse/mouseengine.h
        dataengines/notifications/notificationaction.cpp
        dataengines/notifications/notificationaction.h
        dataengines/notifications/notificationservice.cpp
        dataengines/notifications/notificationservice.h
-       dataengines/places/placesengine.cpp
-       dataengines/places/placesengine.h
-       dataengines/powermanagement/powermanagementengine.cpp
-       dataengines/powermanagement/powermanagementengine.h
-       dataengines/powermanagement/powermanagementjob.cpp
-       dataengines/powermanagement/powermanagementjob.h
        kcms/colors/colorsapplicator.h
        kcms/colors/plasma-apply-colorscheme.cpp
        kcms/cursortheme/launchfeedbacksettings.kcfg
@@ -2339,24 +2613,22 @@ Files: applets/devicenotifier/plugin/deviceserviceaction.cpp
 Copyright: 2006-2007, Aaron Seigo <aseigo@kde.org>
            2008, Alain Boyer <alainboyer@gmail.com>
            2021, Aleix Pol Gonzalez <aleixpol@kde.org>
-           2008, Alex Merry <alex.merry@kdemail.net>
            2021-2023, Alexander Lohnau <alexander.lohnau@gmx.de>
            2020-2021, Alexander Lohnau <alexander.lonau@gmx.de>
            2007, Alexis Ménard <darktears31@gmail.com>
            2015, Antonis Tsiapaliokas <antonis.tsiapaliokas@kde.org>
            2007, Barış Metin <baris@pardus.org.tr>
            2019-2021, Benjamin Port <benjamin.port@enioka.com>
-           2009, Chani Armitage <chani@kde.org>
+           2020, Björn Ottosson
            2019, Cyril Rossi <cyril.rossi@enioka.com>
            2021, Dan Leinir Turthra Jensen <admin@leinir.dk>
-           2008, Dario Freddi <drf54321@gmail.com>
            2018, David Edmundson <davidedmundson@kde.org>
            2019, David Edmundson <daviedmundson@kde.org>
            2006, David Faure <faure@kde.org>
            2016, David Rosca <nowrep@gmail.com>
            2022, Dominic Hayes <ferenosdev@outlook.com>
            2017, Eike Hein <hein@kde.org>
-           2007-2009, Fredrik Höglund <fredrik@kde.org>
+           2008-2009, Fredrik Höglund <fredrik@kde.org>
            2016-2023, Harald Sitter <sitter@kde.org>
            2023, Ismael Asensio <isma.af@gmail.com>
            2005, Jean-Remy Falleri <jr.falleri@laposte.net>
@@ -2364,7 +2636,6 @@ Copyright: 2006-2007, Aaron Seigo <aseigo@kde.org>
            2005-2009, Kevin Ottens <ervin@kde.org>
            2019, Kevin Ottens <kevin.ottens@enioka.com>
            2011-2014, Lukas Tinkl <ltinkl@redhat.com>
-           2007, Maor Vanmak <mvanmak1@gmail.com>
            2014-2018, Marco Martin <mart@kde.org>
            2010, Matteo Agostinelli <agostinelli@gmail.com>
            2007-2008, Matthias Kretz <kretz@kde.org>
@@ -2373,8 +2644,6 @@ Copyright: 2006-2007, Aaron Seigo <aseigo@kde.org>
            2007-2008, Petri Damsten <damu@iki.fi>
            2007, Richard Moore <rich@kde.org>
            2008, Rob Scheepmaker <r.scheepmaker@student.utwente.nl>
-           2007-2008, Sebastian Kuegler <sebas@kde.org>
-           2011, Sebastian Kügler <sebas@kde.org>
            2007, Teemu Rytilahti <tpr@iki.fi>
            2017, Valerio Pilo <vpilo@coldshock.net>
            2014, Vishesh Handa <me@vhanda.in>
@@ -2451,8 +2720,8 @@ Files: appiumtests/components_tests/systemdialogtest.qml
        applets/lock_logout/contents/ui/main.qml
        applets/mediacontroller/package/contents/ui/ExpandedRepresentation.qml
        applets/mediacontroller/package/contents/ui/main.qml
-       applets/notifications/package/contents/ui/DraggableFileArea.qml
-       applets/notifications/package/contents/ui/ThumbnailStrip.qml
+       applets/notifications/package/contents/ui/components/DraggableFileArea.qml
+       applets/notifications/package/contents/ui/components/ThumbnailStrip.qml
        applets/systemmonitor/systemmonitor/package/contents/ui/CompactRepresentation.qml
        applets/systemmonitor/systemmonitor/package/contents/ui/config/ConfigAppearance.qml
        applets/systemmonitor/systemmonitor/package/contents/ui/config/ConfigSensors.qml
@@ -2518,18 +2787,8 @@ Files: appiumtests/components_tests/systemdialogtest.qml
        containmentactions/switchdesktop/desktop.h
        containmentactions/switchwindow/switch.cpp
        containmentactions/switchwindow/switch.h
-       dataengines/activities/activityengine.cpp
-       dataengines/activities/activityengine.h
-       dataengines/activities/activityservice.cpp
-       dataengines/activities/activityservice.h
-       dataengines/favicons/faviconprovider.cpp
-       dataengines/favicons/faviconprovider.h
-       dataengines/favicons/favicons.cpp
-       dataengines/favicons/favicons.h
        dataengines/notifications/notificationsengine.cpp
        dataengines/notifications/notificationsengine.h
-       dataengines/powermanagement/powermanagementservice.cpp
-       dataengines/powermanagement/powermanagementservice.h
        dataengines/time/timeengine.cpp
        dataengines/time/timeengine.h
        dataengines/time/timesource.cpp
@@ -2693,14 +2952,13 @@ Copyright: 2006-2013, Aaron Seigo <aseigo@kde.org>
            2008, Alex Merry <alex.merry@kdemail.net>
            2020-2023, Alexander Lohnau <alexander.lohnau@gmx.de>
            2009, Ana Cecília Martins <anaceciliamb@gmail.com>
-           2013, Andrea Scarpino <scarpino@kde.org>
            2015, Antonis Tsiapaliokas <antonis.tsiapaliokas@kde.org>
            2019, Arjen Hiemstra <ahiemstra@heimr.nl>
            2019, Benjamin Port <benjamin.port@enioka.com>
            2022, Bharadwaj Raju <bharadwaj.raju777@protonmail.com>
            2009-2010, Canonical
            2020, Carson Black <uhhadd@gmail.com>
-           2009-2010, Chani Armitage <chani@kde.org>
+           2009, Chani Armitage <chani@kde.org>
            2002, Craig Drummond <craig@kde.org>
            2021, Cyril Rossi <cyril.rossi@enioka.com>
            2013-2023, David Edmundson <davidedmundson@kde.org>
@@ -2734,8 +2992,7 @@ Copyright: 2006-2013, Aaron Seigo <aseigo@kde.org>
            1999, Lars Knoll
            2005, Lubos Lunak <l.lunak@kde.org>
            2012, Marco Gulino <marco.gulino@xpeppers.com>
-           2011-2019, Marco Martin <mart@kde.org>
-           2007-2008, Marco Martin <notmart@gmail.com>
+           2011-2024, Marco Martin <mart@kde.org>
            1997, Mark Donohoe
            2013-2015, Martin Klapetek <mklapetek@kde.org>
            2010, Matteo Agostinelli <agostinelli@gmail.com>
@@ -2751,7 +3008,6 @@ Copyright: 2006-2013, Aaron Seigo <aseigo@kde.org>
            2007-2009, Shawn Starr <shawn.starr@rogers.com>
            1998-2005, Stephan Kulow <coolo@kde.org>
            2009, Till Adam <adam@kde.org>
-           2007, Tobias Koenig <tokoe@kde.org>
            2019, Tranter Madi <trmdi@yandex.com>
            2011-2012, Viranch Mehta <viranch.mehta@gmail.com>
 License: LGPL-2.0-or-later
@@ -2993,14 +3249,7 @@ Files: applets/keyboardindicator/plugin/keystate.cpp
        components/keyboardlayout/keyboardlayout.cpp
        components/keyboardlayout/keyboardlayout.h
        c_ptr.h
-       dataengines/places/jobs.h
-       dataengines/places/modeljob.h
-       dataengines/places/placeservice.cpp
-       dataengines/places/placeservice.h
-       dataengines/places/placesproxymodel.cpp
-       dataengines/places/placesproxymodel.h
-       dataengines/places/setupdevicejob.cpp
-       dataengines/places/setupdevicejob.h
+       geotimezoned/org.freedesktop.timedated1.xml
        gmenu-dbusmenu-proxy/actions.cpp
        gmenu-dbusmenu-proxy/actions.h
        gmenu-dbusmenu-proxy/gdbusmenutypes_p.cpp
@@ -3057,7 +3306,6 @@ Copyright: 2009, Aaron Seigo <aseigo@kde.org>
            2021-2022, Kai Uwe Broulik <kde@broulik.de>
            2016-2019, Kai Uwe Broulik <kde@privat.broulik.de>
            2019, Konrad Materka <materka@gmail.com>
-           2014, Marco Martin <mart@kde.org>
            2012, Martin Gräßlin <mgraesslin@kde.org>
            2013, Sebastian Kügler <sebas@kde.org>
            2014, Vishesh Handa <me@vhanda.in>
@@ -3077,14 +3325,19 @@ Files: appiumtests/applets/analogclocktest.py
        appiumtests/applets/appmenutest_window.py
        appiumtests/applets/calendartest.py
        appiumtests/applets/cameraindicatortest.py
+       appiumtests/applets/clipboardtest/bug497735_simultaneous_clipboard_requests.py
+       appiumtests/applets/clipboardtest/copysecret.py
        appiumtests/applets/clipboardtest.py
        appiumtests/applets/devicenotifiertest.py
        appiumtests/applets/digitalclocktest.py
        appiumtests/applets/icontest.py
+       appiumtests/applets/kicker/favoritetest.qml
        appiumtests/applets/lock_logouttest.py
        appiumtests/applets/logoutgreetertest.py
        appiumtests/applets/manage-inputmethodtest.py
        appiumtests/applets/notificationstest.py
+       appiumtests/applets/systemtraytest/dbusservice.py
+       appiumtests/applets/systemtraytest/org.kde.testdbusactivation/contents/ui/main.qml
        appiumtests/applets/systemtraytest.py
        appiumtests/components_tests/systemdialogtest.py
        appiumtests/kcms/kcm_autostart_test.py
@@ -3103,6 +3356,7 @@ Files: appiumtests/applets/analogclocktest.py
        appiumtests/kcms/kcm_style_test.py
        appiumtests/kcms/kcm_users_test.py
        appiumtests/krunner/krunnertest.py
+       appiumtests/ksplash/ksplashtest.py
        appiumtests/wallpapers/installtest.py
        applets/cameraindicator/autotests/videoplay.cpp
        applets/cameraindicator/autotests/videosource.cpp
@@ -3128,6 +3382,7 @@ Files: appiumtests/applets/analogclocktest.py
        components/sessionsprivate/sessionsmodel.cpp
        components/sessionsprivate/sessionsmodel.h
        components/sessionsprivate/types.h
+       klipper/autotests/v3migrationtest.py
        ksmserver/client.cpp
        ksmserver/client.h
        ksmserver/global.h
@@ -3139,6 +3394,7 @@ Files: appiumtests/applets/analogclocktest.py
        libtaskmanager/autotests/data/windows/bug478831.py
        libtaskmanager/autotests/data/windows/samplewidgetwindow.cpp
        libtaskmanager/autotests/data/windows/samplewidgetwindow.h.in
+       libtaskmanager/autotests/data/windows/transient_window.py
        logout-greeter/greeter.cpp
        logout-greeter/greeter.h
        logout-greeter/main.cpp
@@ -3154,7 +3410,7 @@ Copyright: 2021, Benjamin Port <benjamin.port@enioka.com>
            2011-2012, Cédric Bellegarde <gnumdk@gmail.com>
            2021, Dan Leinir Turthra Jensen <admin@leinir.dk>
            2018, David Edmundson <davidedmundson@kde.org>
-           2023-2024, Fushan Wen <qydwhotmail@gmail.com>
+           2023-2025, Fushan Wen <qydwhotmail@gmail.com>
            2021-2023, Harald Sitter <sitter@kde.org>
            2022, Julius Zint <julius@zint.sh>
            2015-2016, Kai Uwe Broulik <kde@privat.broulik.de>
@@ -3170,7 +3426,7 @@ Copyright: 2021, Benjamin Port <benjamin.port@enioka.com>
 License: MIT
 
 Files: debian/*
-Copyright: 2022-2024, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Copyright: 2022-2025, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
            2014, Jonathan Riddell <jriddell@ubuntu.com>
            2014, Scarlett Clark <scarlett@scarlettgatelyclark.com>
 License: GPL-2.0-or-later
@@ -3308,6 +3564,25 @@ License: GPL-3.0-only
  .
  You should have received a copy of the GNU General Public License
  along with this program. If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General Public
+ License version 3 can be found in
+ `/usr/share/common-licenses/GPL-3’.
+
+License: GPL-3.0-or-later
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see
+ <http://www.gnu.org/licenses/>.
  .
  On Debian systems, the complete text of the GNU General Public
  License version 3 can be found in
