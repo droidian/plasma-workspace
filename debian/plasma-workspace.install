@@ -36,6 +36,7 @@ usr/lib/*/kconf_update_bin/plasma6.0-remove-dpi-settings
 usr/lib/*/kconf_update_bin/plasma6.0-remove-old-shortcuts
 usr/lib/*/kconf_update_bin/plasmashell-6.0-keep-custom-position-of-panels
 usr/lib/*/kconf_update_bin/plasmashell-6.0-keep-default-floating-setting-for-plasma-5-panels
+usr/lib/*/kconf_update_bin/plasma6.3-update-clipboard-database-2-to-3
 usr/lib/kf6/kauth/libexec/fontinst
 usr/lib/kf6/kauth/libexec/fontinst_helper
 usr/lib/kf6/kauth/libexec/fontinst_x11

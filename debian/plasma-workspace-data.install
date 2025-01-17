@@ -8,10 +8,7 @@ usr/share/icons/
 usr/share/kconf_update/*.upd
 usr/share/kfontinst/
 usr/share/kio/servicemenus/installfont.desktop
-usr/share/knotifications6/devicenotifications.notifyrc
-usr/share/knotifications6/donationmessage.notifyrc
-usr/share/knotifications6/freespacenotifier.notifyrc
-usr/share/knotifications6/phonon.notifyrc
+usr/share/knotifications6/
 usr/share/knsrcfiles/
 usr/share/konqsidebartng/virtual_folders/services/fonts.desktop
 usr/share/kstyle/
