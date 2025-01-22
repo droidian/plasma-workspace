@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:6.2.90 amd64
+# SymbolsHelper-Confirmed: 4:6.2.90 amd64 armel
 libklipper.so.6 libklipper6 #MINVER#
 * Build-Depends-Package: plasma-workspace-dev
  _ZN10URLGrabber10actionMenuESt10shared_ptrIK11HistoryItemEb@Base 4:6.1.90
@@ -160,16 +160,13 @@ libklipper.so.6 libklipper6 #MINVER#
  (arch=armel riscv64)_ZTIN9__gnu_cxx7__mutexE@Base 4:6.2.3
  (arch=armel riscv64)_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
  (arch=!armel !riscv64)_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
- (arch=armel riscv64)_ZTISt15_Sp_counted_ptrIP14HistoryURLItemLN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
  (arch=armel riscv64)_ZTISt15_Sp_counted_ptrIP15SystemClipboardLN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
  (arch=!armel !riscv64)_ZTISt15_Sp_counted_ptrIP15SystemClipboardLN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
- (arch=armel riscv64)_ZTISt15_Sp_counted_ptrIP16HistoryImageItemLN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
- (arch=armel riscv64)_ZTISt15_Sp_counted_ptrIP17HistoryStringItemLN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
  (arch=armel riscv64)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
  (arch=!armel !riscv64)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
  (arch=armel armhf)_ZTISt19_Sp_make_shared_tag@Base 4:6.2.3
- _ZTISt23_Sp_counted_ptr_inplaceI11HistoryItemSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.90
- (arch=armel riscv64)_ZTISt23_Sp_counted_ptr_inplaceI17HistoryStringItemSaIvELN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
+ (arch=armel)_ZTISt23_Sp_counted_ptr_inplaceI11HistoryItemSaIvELN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.90
+ (arch=amd64)_ZTISt23_Sp_counted_ptr_inplaceI11HistoryItemSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.90
  (arch=armel riscv64)_ZTISt23_Sp_counted_ptr_inplaceI7KlipperSaIvELN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
  (arch=!armel !riscv64)_ZTISt23_Sp_counted_ptr_inplaceI7KlipperSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
  _ZTS10URLGrabber@Base 4:6.1.90
@@ -182,16 +179,13 @@ libklipper.so.6 libklipper6 #MINVER#
  (arch=armel riscv64)_ZTSN9__gnu_cxx7__mutexE@Base 4:6.2.3
  (arch=armel riscv64)_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
  (arch=!armel !riscv64)_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
- (arch=armel riscv64)_ZTSSt15_Sp_counted_ptrIP14HistoryURLItemLN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
  (arch=armel riscv64)_ZTSSt15_Sp_counted_ptrIP15SystemClipboardLN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
  (arch=!armel !riscv64)_ZTSSt15_Sp_counted_ptrIP15SystemClipboardLN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
- (arch=armel riscv64)_ZTSSt15_Sp_counted_ptrIP16HistoryImageItemLN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
- (arch=armel riscv64)_ZTSSt15_Sp_counted_ptrIP17HistoryStringItemLN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
  (arch=armel riscv64)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
  (arch=!armel !riscv64)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
  _ZTSSt19_Sp_make_shared_tag@Base 4:6.1.90
- _ZTSSt23_Sp_counted_ptr_inplaceI11HistoryItemSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.90
- (arch=armel riscv64)_ZTSSt23_Sp_counted_ptr_inplaceI17HistoryStringItemSaIvELN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
+ (arch=armel)_ZTSSt23_Sp_counted_ptr_inplaceI11HistoryItemSaIvELN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.90
+ (arch=amd64)_ZTSSt23_Sp_counted_ptr_inplaceI11HistoryItemSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.90
  (arch=armel riscv64)_ZTSSt23_Sp_counted_ptr_inplaceI7KlipperSaIvELN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
  (arch=!armel !riscv64)_ZTSSt23_Sp_counted_ptr_inplaceI7KlipperSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
  _ZTV10URLGrabber@Base 4:6.1.90
@@ -200,13 +194,10 @@ libklipper.so.6 libklipper6 #MINVER#
  _ZTV13HistoryCycler@Base 4:6.1.90
  _ZTV15SystemClipboard@Base 4:6.1.90
  _ZTV7Klipper@Base 4:6.1.90
- (arch=armel riscv64)_ZTVSt15_Sp_counted_ptrIP14HistoryURLItemLN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
  (arch=armel riscv64)_ZTVSt15_Sp_counted_ptrIP15SystemClipboardLN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
  (arch=!armel !riscv64)_ZTVSt15_Sp_counted_ptrIP15SystemClipboardLN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
- (arch=armel riscv64)_ZTVSt15_Sp_counted_ptrIP16HistoryImageItemLN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
- (arch=armel riscv64)_ZTVSt15_Sp_counted_ptrIP17HistoryStringItemLN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
- _ZTVSt23_Sp_counted_ptr_inplaceI11HistoryItemSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.90
- (arch=armel riscv64)_ZTVSt23_Sp_counted_ptr_inplaceI17HistoryStringItemSaIvELN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
+ (arch=armel)_ZTVSt23_Sp_counted_ptr_inplaceI11HistoryItemSaIvELN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.90
+ (arch=amd64)_ZTVSt23_Sp_counted_ptr_inplaceI11HistoryItemSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.90
  (arch=armel riscv64)_ZTVSt23_Sp_counted_ptr_inplaceI7KlipperSaIvELN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
  (arch=!armel !riscv64)_ZTVSt23_Sp_counted_ptr_inplaceI7KlipperSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
  _ZZNSt19_Sp_make_shared_tag5_S_tiEvE5__tag@Base 4:6.1.90
