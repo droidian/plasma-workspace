@@ -1,4 +1,4 @@
-plasma-workspace (4:6.2.91-1) UNRELEASED; urgency=medium
+plasma-workspace (4:6.2.91-1) experimental; urgency=medium
 
   [ Aurélien COUDERC ]
   * New upstream release (6.2.91).
@@ -6,7 +6,7 @@ plasma-workspace (4:6.2.91-1) UNRELEASED; urgency=medium
   * Add lintian override for plasma-workspace having… many dependencies.
   * Update symbols from build for 6.2.91.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 23 Jan 2025 23:54:48 +0100
+ -- Aurélien COUDERC <coucouf@debian.org>  Thu, 23 Jan 2025 23:54:50 +0100
 
 plasma-workspace (4:6.2.90-2) experimental; urgency=medium
 
