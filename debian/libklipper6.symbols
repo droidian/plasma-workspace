@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:6.2.90 amd64 armel
+# SymbolsHelper-Confirmed: 4:6.2.91 amd64
 libklipper.so.6 libklipper6 #MINVER#
 * Build-Depends-Package: plasma-workspace-dev
  _ZN10URLGrabber10actionMenuESt10shared_ptrIK11HistoryItemEb@Base 4:6.1.90
@@ -49,6 +49,7 @@ libklipper.so.6 libklipper6 #MINVER#
  _ZN12HistoryModel6removeERK7QString@Base 4:6.2.90
  _ZN12HistoryModel7changedEb@Base 4:6.1.90
  _ZN12HistoryModel7setDataERK11QModelIndexRK8QVarianti@Base 4:6.1.90
+ _ZN12HistoryModel8settingsEv@Base 4:6.2.91
  _ZN12HistoryModel9moveToTopERK7QString@Base 4:6.2.90
  (subst)_ZN12HistoryModel9moveToTopE{qptrdiff}@Base 4:6.1.90
  _ZN12HistoryModelC1Ev@Base 4:6.1.90
