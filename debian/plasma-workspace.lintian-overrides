@@ -29,3 +29,5 @@ plasma-workspace: lacks-ldconfig-trigger usr/lib/*/libkrdb.so
 plasma-workspace: desktop-entry-unknown-type XSession [usr/share/xsessions/plasmax11.desktop]
 # systemsettings executable required for the KCMs is provided by the Recommends: systemsettings dependency
 plasma-workspace: desktop-command-not-in-package systemsettings [usr/share/applications/kcm_*]
+# Yes sorry, plasma-workspace does have a lot of dependencies
+plasma-workspace: field-too-long Depends (5018 chars > 5000)
