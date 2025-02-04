@@ -332,7 +332,7 @@ Description: base for Plasma Desktop, Mobile, and Bigscreen graphical environmen
  well as multiple libraries.
 
 Package: plasma-workspace-data
-Architecture: all
+Architecture: any
 Depends: ${misc:Depends},
 Breaks: breeze (<< 4:5.23.90~),
         plasma-desktop (<< 4:5.24.0),
