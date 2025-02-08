@@ -28,6 +28,13 @@ plasma-workspace (4:6.2.90-1) experimental; urgency=medium
 
  -- Aurélien COUDERC <coucouf@debian.org>  Sun, 12 Jan 2025 00:49:30 +0100
 
+plasma-workspace (4:6.2.5-2) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * Remove appmenu-gtk2-module as a build dependency (Closes: #1095120).
+
+ -- Patrick Franz <deltaone@debian.org>  Sat, 08 Feb 2025 15:20:55 +0100
+
 plasma-workspace (4:6.2.5-1) unstable; urgency=medium
 
   [ Aurélien COUDERC ]
