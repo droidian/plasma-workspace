@@ -28,6 +28,14 @@ plasma-workspace (4:6.2.90-1) experimental; urgency=medium
 
  -- Aurélien COUDERC <coucouf@debian.org>  Sun, 12 Jan 2025 00:49:30 +0100
 
+plasma-workspace (4:6.2.5-3) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * Do not depend on gdb-minimal any more since the package will be
+    removed and always depend on gdb (Closes: #1092734).
+
+ -- Patrick Franz <deltaone@debian.org>  Sun, 09 Feb 2025 23:04:18 +0100
+
 plasma-workspace (4:6.2.5-2) unstable; urgency=medium
 
   [ Patrick Franz ]
