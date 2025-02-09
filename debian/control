@@ -271,7 +271,7 @@ Architecture: any
 Depends: default-dbus-session-bus | dbus-session-bus,
          drkonqi (>= 6.2.0~),
          frameworkintegration6,
-         gdb-minimal | gdb,
+         gdb,
          iso-codes,
          kactivitymanagerd (>= 6.2.0~),
          kded6,
