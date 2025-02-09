@@ -1,10 +1,10 @@
-plasma-workspace (4:6.2.5-3) UNRELEASED; urgency=medium
+plasma-workspace (4:6.2.5-3) unstable; urgency=medium
 
   [ Patrick Franz ]
   * Do not depend on gdb-minimal any more since the package will be
     removed and always depend on gdb (Closes: #1092734).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 09 Feb 2025 22:58:28 +0100
+ -- Patrick Franz <deltaone@debian.org>  Sun, 09 Feb 2025 23:04:18 +0100
 
 plasma-workspace (4:6.2.5-2) unstable; urgency=medium
 
