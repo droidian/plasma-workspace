@@ -3,6 +3,7 @@ plasma-workspace (4:6.3.4-1) UNRELEASED; urgency=medium
   [ Patrick Franz ]
   * New upstream release (6.3.4).
   * Update build-deps and deps with the info from cmake.
+  * Backport patch to fix padding issue.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 02 Apr 2025 22:08:59 +0200
 
