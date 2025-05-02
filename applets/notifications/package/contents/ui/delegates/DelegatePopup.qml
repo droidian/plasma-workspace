@@ -58,7 +58,7 @@ BaseDelegate {
         Layout.row: 1
         Layout.columnSpan: delegateRoot.__firstColumn + 2
         // Hug the top, left, and right
-        Layout.topMargin: -((delegateRoot.columnSpacing * 2) + height)
+        Layout.topMargin: -((delegateRoot.rowSpacing * 2) + height)
         Layout.leftMargin: -delegateRoot.modelInterface.popupLeftPadding
         Layout.rightMargin: -delegateRoot.modelInterface.popupRightPadding
         implicitHeight: 2
@@ -94,15 +94,22 @@ BaseDelegate {
     Components.Summary {
         id: summary
         Layout.fillWidth: true
-        Layout.alignment: Qt.AlignTop
         Layout.row: 2
         Layout.column: delegateRoot.__firstColumn
         Layout.columnSpan: icon.visible ? 1 : 2
         modelInterface: delegateRoot.modelInterface
+
+        KQuickControlsAddons.MouseEventListener {
+            anchors.fill: parent
+            visible: modelInterface.hasDefaultAction && !delegateRoot.hasBodyText
+            onClicked: modelInterface.defaultActionInvoked();
+        }
     }
 
     Components.Icon {
         id: icon
+        // We removed the row spacing from the base layout, so re-add it just here
+        Layout.topMargin: Kirigami.Units.smallSpacing
         Layout.row: 2
         Layout.column: delegateRoot.__firstColumn + 1
         Layout.rowSpan: 2
@@ -111,6 +118,7 @@ BaseDelegate {
 
     KQuickControlsAddons.MouseEventListener {
         Layout.fillWidth: true
+        Layout.fillHeight: true
         Layout.row: summary.visible ? 3 : 2
         Layout.column: delegateRoot.__firstColumn
         Layout.columnSpan: icon.visible ? 1 : 2
@@ -118,6 +126,7 @@ BaseDelegate {
         // The body doesn't need to influence the implicit width in any way, this avoids a binding loop
         implicitWidth: -1
         implicitHeight: scroll.implicitHeight
+        visible: delegateRoot.hasBodyText
         onClicked: {
             if (modelInterface.hasDefaultAction) {
                 modelInterface.defaultActionInvoked();

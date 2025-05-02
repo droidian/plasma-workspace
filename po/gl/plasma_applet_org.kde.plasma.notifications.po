@@ -3,13 +3,13 @@
 # Marce Villarino <mvillarino@kde-espana.es>, 2011.
 # Marce Villarino <mvillarino@kde-espana.es>, 2011, 2012, 2013, 2014.
 # Adrián Chaves Fernández <adriyetichaves@gmail.com>, 2015, 2016.
-# SPDX-FileCopyrightText: 2024 Adrián Chaves (Gallaecio)
+# SPDX-FileCopyrightText: 2024, 2025 Adrián Chaves (Gallaecio)
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-24 02:34+0000\n"
+"POT-Creation-Date: 2025-03-31 02:33+0000\n"
 "PO-Revision-Date: 2024-02-04 12:44+0100\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.12.0\n"
+"X-Generator: Lokalize 24.12.3\n"
 
 #: fileinfo.cpp:170
 #, kde-format
@@ -267,30 +267,30 @@ msgctxt "@action:button"
 msgid "Send"
 msgstr "Enviar"
 
-#: package/contents/ui/components/Summary.qml:35
+#: package/contents/ui/components/Summary.qml:36
 #, kde-format
 msgctxt "Job name, e.g. Copying is paused"
 msgid "%1 (Paused)"
 msgstr "%1 (detívose)"
 
-#: package/contents/ui/components/Summary.qml:40
+#: package/contents/ui/components/Summary.qml:41
 #, kde-format
 msgctxt "Job name, e.g. Copying has failed"
 msgid "%1 (Failed)"
 msgstr "%1 (fallou)"
 
-#: package/contents/ui/components/Summary.qml:42
+#: package/contents/ui/components/Summary.qml:43
 #, kde-format
 msgid "Job Failed"
 msgstr "A tarefa fallou"
 
-#: package/contents/ui/components/Summary.qml:46
+#: package/contents/ui/components/Summary.qml:47
 #, kde-format
 msgctxt "Job name, e.g. Copying has finished"
 msgid "%1 (Finished)"
 msgstr "%1 (rematou)"
 
-#: package/contents/ui/components/Summary.qml:48
+#: package/contents/ui/components/Summary.qml:49
 #, kde-format
 msgid "Job Finished"
 msgstr "Rematou a tarefa"

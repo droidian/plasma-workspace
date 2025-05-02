@@ -1,7 +1,5 @@
 # Translation of plasmawindowed to Norwegian Bokmål
 #
-# SPDX-FileCopyrightText: 2025 Martin Hansen <mh306602@gmail.com>
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"

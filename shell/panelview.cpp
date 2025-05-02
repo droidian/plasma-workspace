@@ -699,8 +699,12 @@ void PanelView::positionPanel()
 
 void PanelView::queuePositionAndResizePanel()
 {
-    m_geometryDirty = true;
-    update();
+    if (isExposed()) {
+        m_geometryDirty = true;
+        update();
+    } else {
+        positionAndResizePanel();
+    }
 }
 
 void PanelView::positionAndResizePanel()
@@ -1194,11 +1198,6 @@ void PanelView::adaptToScreen()
 bool PanelView::event(QEvent *e)
 {
     switch (e->type()) {
-    case QEvent::UpdateRequest:
-        if (m_geometryDirty) {
-            positionAndResizePanel();
-        }
-        break;
     case QEvent::Show:
         positionAndResizePanel();
         break;
@@ -1347,6 +1346,10 @@ bool PanelView::event(QEvent *e)
                 QFocusEvent *fe = new QFocusEvent(QEvent::FocusOut);
                 qGuiApp->postEvent(focusWindow, fe);
             }
+        }
+    } else if (e->type() == QEvent::UpdateRequest || e->type() == QEvent::Expose) {
+        if (m_geometryDirty) {
+            positionAndResizePanel();
         }
     }
 
