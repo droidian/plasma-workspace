@@ -1,3 +1,16 @@
+plasma-workspace (4:6.3.5-1) UNRELEASED; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (6.3.5).
+    - Notification: Escape lonely < and > symbols. (kde#502106)
+    - Calendar: Move event indicator above main label.
+    - Appelts/notifications: Fix Notifications positions. (kde#500192,
+    kde#498599, kde#491217, kde#502160)
+    - Applets/notifications: improve paddings again.
+    - Multiscreen: fix an incorrect assert in screenInvariants. (kde#494616)
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 May 2025 00:17:32 +0200
+
 plasma-workspace (4:6.3.4-1) unstable; urgency=medium
 
   [ Patrick Franz ]
