@@ -14,6 +14,8 @@ plasma-workspace (4:6.3.5-1) UNRELEASED; urgency=medium
   * Backport other upstream commits:
     - Fix lockscreen showing a placeholder instead of the real multimedia
     player name in some multi-player setups.
+    - Fix Scroll Wheel issue in the All Applications section of the launcher.
+    (kde#486481)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 May 2025 00:17:32 +0200
 
