@@ -10,6 +10,7 @@ plasma-workspace (4:6.3.5-1) UNRELEASED; urgency=medium
     - Multiscreen: fix an incorrect assert in screenInvariants. (kde#494616)
   * Relax inter-plasma versioned dependency constraint so we can upload
     only 6.3.5 packages that have actual code changes.
+  * Drop backported patch now part of the upstream release.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 May 2025 00:17:32 +0200
 
