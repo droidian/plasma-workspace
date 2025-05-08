@@ -16,6 +16,8 @@ plasma-workspace (4:6.3.5-1) UNRELEASED; urgency=medium
     player name in some multi-player setups.
     - Fix Scroll Wheel issue in the All Applications section of the launcher.
     (kde#486481)
+    - Fix implementation of the StatusNotifierItem spec to support context
+    menu on left click in the system tray.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 May 2025 00:17:32 +0200
 
