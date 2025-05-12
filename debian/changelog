@@ -18,6 +18,8 @@ plasma-workspace (4:6.3.5-1) UNRELEASED; urgency=medium
     (kde#486481)
     - Fix implementation of the StatusNotifierItem spec to support context
     menu on left click in the system tray.
+    - Never use scientific notation even for big numbers in notifications.
+    (kde#422166)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 May 2025 00:17:32 +0200
 
