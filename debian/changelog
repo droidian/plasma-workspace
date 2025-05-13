@@ -20,6 +20,8 @@ plasma-workspace (4:6.3.5-1) UNRELEASED; urgency=medium
     menu on left click in the system tray.
     - Never use scientific notation even for big numbers in notifications.
     (kde#422166)
+    - Fix global menu sometimes showing menu items from non-active app.
+    (kde#473714)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 May 2025 00:17:32 +0200
 
