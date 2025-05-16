@@ -22,6 +22,7 @@ plasma-workspace (4:6.3.5-1) UNRELEASED; urgency=medium
     (kde#422166)
     - Fix global menu sometimes showing menu items from non-active app.
     (kde#473714)
+    - Fix issue in sorting users list to put the logged in user first.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 May 2025 00:17:32 +0200
 
