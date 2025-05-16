@@ -24,6 +24,8 @@ plasma-workspace (4:6.3.5-1) UNRELEASED; urgency=medium
     (kde#473714)
     - Fix issue in sorting users list to put the logged in user first.
     - Prevent trying to delete the logged in user and failing. (kde#495494)
+    - Make selecting the C locale in regional options actually work.
+    (kde#500432)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 May 2025 00:17:32 +0200
 
