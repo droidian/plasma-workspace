@@ -27,6 +27,8 @@ plasma-workspace (4:6.3.5-1) UNRELEASED; urgency=medium
     - Make selecting the C locale in regional options actually work.
     (kde#500432)
     - Fix duplicate optical devices in disks and devices applet. (kde#495140)
+    - Disable pointless and surprising horizontal scrolling of notifications
+    contents.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 May 2025 00:17:32 +0200
 
