@@ -5,3 +5,4 @@ upstream_f17c2546_applets-systemtray-Open-context-menu-on-click-when-ItemIsMenu.
 upstream_cf206f9d_applets-notifications-never-use-scientific-notation-for-large-numbers.patch
 upstream_73875471_applets-appmenu-Fix-displaying-menu-of-the-previous-active-window.patch
 upstream_5d008e00_applets-appmenu-Store-dbus-menu-importer-in-a-std-unique-ptr.patch
+upstream_fbb2e6d3_users-kcm-Fix-issue-in-sorting-user-list.patch
