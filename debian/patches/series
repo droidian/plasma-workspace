@@ -8,3 +8,4 @@ upstream_5d008e00_applets-appmenu-Store-dbus-menu-importer-in-a-std-unique-ptr.p
 upstream_fbb2e6d3_users-kcm-Fix-issue-in-sorting-user-list.patch
 upstream_9abfdd26_kcm-users-refine-deleting-logged-in-user-UX.patch
 upstream_c9ee2931_kcm-regionandlang-add-locale-C-to-mapping-and-always-set-LANG-and-LC-.patch
+upstream_a83c4e5f_applets-devicenotifier-check-if-device-has-been-added-before.patch
