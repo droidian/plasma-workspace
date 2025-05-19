@@ -29,6 +29,7 @@ plasma-workspace (4:6.3.5-1) UNRELEASED; urgency=medium
     - Fix duplicate optical devices in disks and devices applet. (kde#495140)
     - Disable pointless and surprising horizontal scrolling of notifications
     contents.
+    - Warn users about full storage not just on / and /home.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 May 2025 00:17:32 +0200
 
