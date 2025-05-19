@@ -14,6 +14,8 @@ plasma-workspace (4:6.3.5-1) UNRELEASED; urgency=medium
   * Backport upstream commits scheduled for 6.3.6:
     - Fix entirely wrong colours when enabling "Tint all colours with accent
     colour". (kde#503394)
+    - Remove pointless "mount" action for audio CDs and blank optical media.
+    (kde#503999)
   * Backport other upstream commits:
     - Fix lockscreen showing a placeholder instead of the real multimedia
     player name in some multi-player setups.
