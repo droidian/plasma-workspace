@@ -11,3 +11,4 @@ upstream_c9ee2931_kcm-regionandlang-add-locale-C-to-mapping-and-always-set-LANG-
 upstream_a83c4e5f_applets-devicenotifier-check-if-device-has-been-added-before.patch
 upstream_2c27c9db_applets-notifications-don-t-allow-horizontal-scrolling.patch
 upstream_9e0939c1_Warn-user-about-full-storage-in-any-device-partition.patch
+upstream_6d12cde3_wallpapers-image-Fix-thumbnails-not-matching-output-size.patch
