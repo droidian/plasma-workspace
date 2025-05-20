@@ -12,3 +12,4 @@ upstream_a83c4e5f_applets-devicenotifier-check-if-device-has-been-added-before.p
 upstream_2c27c9db_applets-notifications-don-t-allow-horizontal-scrolling.patch
 upstream_9e0939c1_Warn-user-about-full-storage-in-any-device-partition.patch
 upstream_6d12cde3_wallpapers-image-Fix-thumbnails-not-matching-output-size.patch
+upstream_8845c001_shell-Osd-Fix-missing-RTL.patch

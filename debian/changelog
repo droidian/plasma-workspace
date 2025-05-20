@@ -32,6 +32,7 @@ plasma-workspace (4:6.3.5-1) UNRELEASED; urgency=medium
     - Warn users about full storage not just on / and /home.
     - Fix incorrect wallpaper preview when using screens with widely different
     aspect ratios. (kde#483097)
+    - Fix OSD not properly displaying RTL languages. (kde#503255)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 May 2025 00:17:32 +0200
 
