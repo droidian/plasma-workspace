@@ -21,3 +21,4 @@ upstream_72719edd_components-sessionprivate-fix-a-potential-crash-in-SessionsMod
 upstream_41a554e6_applets-notifications-Don-t-set-a-parent-for-WidgetsAskUserActionHandler.patch
 upstream_2c855c2f_Fix-cell-height-calc-in-resize-handle.patch
 upstream_bf67f256_klipper-make-Add-Actions-dialog-only-window-modal.patch
+upstream_d4df9b5f_applets-systemmonitor-handle-null-faceController.patch
