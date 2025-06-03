@@ -14,3 +14,4 @@ upstream_9e0939c1_Warn-user-about-full-storage-in-any-device-partition.patch
 upstream_6d12cde3_wallpapers-image-Fix-thumbnails-not-matching-output-size.patch
 upstream_8845c001_shell-Osd-Fix-missing-RTL.patch
 upstream_142caad0_applets-notification-fix-fullRepresentation-only-widgets.patch
+upstream_32a7cf2a_colorsapplicator-Don-t-allow-extended-RGB-from-OKLabToLinearSRGB.patch
