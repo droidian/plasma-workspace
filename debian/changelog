@@ -47,6 +47,9 @@ plasma-workspace (4:6.3.5-1) UNRELEASED; urgency=medium
     - Fix OSD not properly displaying RTL languages. (kde#503255)
     - Fix Notifications widget added to the desktop not showing new
     notifications. (kde#503815)
+    - Fix “Process Table” visualization for blank System Monitor sensor
+    widgets to no longer incorrectly makes them think they’re in need of
+    configuration the next time you restart Plasma or the system. (kde#504335)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 May 2025 00:17:32 +0200
 
