@@ -1,0 +1,33 @@
+From bf67f25676d4d9777d888b6576127d368af66cb7 Mon Sep 17 00:00:00 2001
+From: Nate Graham <nate@kde.org>
+Date: Thu, 22 May 2025 14:58:27 -0600
+Subject: [PATCH] klipper: make "Add Actions" dialog only window-modal
+
+Otherwise it blocks all of plasmashell while it's open.
+
+BUG: 501938
+FIXED-IN: 6.3.6
+
+
+(cherry picked from commit 30c0703860e8e943999152e141bb44c62ee1c038)
+
+Co-authored-by: Nate Graham <nate@kde.org>
+---
+ klipper/editactiondialog.cpp | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/klipper/editactiondialog.cpp b/klipper/editactiondialog.cpp
+index 09c54c3dd70..eda12832e12 100644
+--- a/klipper/editactiondialog.cpp
++++ b/klipper/editactiondialog.cpp
+@@ -181,6 +181,7 @@ EditActionDialog::EditActionDialog(QWidget *parent)
+     : QDialog(parent)
+ {
+     setWindowTitle(i18n("Action Properties"));
++    setWindowModality(Qt::WindowModal);
+     QDialogButtonBox *buttons = new QDialogButtonBox(QDialogButtonBox::Ok | QDialogButtonBox::Cancel, this);
+     buttons->button(QDialogButtonBox::Ok)->setShortcut(Qt::CTRL | Qt::Key_Return);
+     connect(buttons, &QDialogButtonBox::accepted, this, &EditActionDialog::slotAccepted);
+-- 
+GitLab
+

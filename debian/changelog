@@ -21,6 +21,8 @@ plasma-workspace (4:6.3.5-1) UNRELEASED; urgency=medium
     - components/sessionprivate: fix a potential crash in SessionsModel.
     - Fix deleting downloaded files from the notifications. (kde#504385)
     - Fix cell height calculation during vertical resizing.
+    - klipper: make "Add Actions" dialog only window-modal to avoid blocking
+    plasmashell completely. (kde#501938)
   * Backport other upstream commits:
     - Fix lockscreen showing a placeholder instead of the real multimedia
     player name in some multi-player setups.
