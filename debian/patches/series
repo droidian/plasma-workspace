@@ -22,3 +22,4 @@ upstream_41a554e6_applets-notifications-Don-t-set-a-parent-for-WidgetsAskUserAct
 upstream_2c855c2f_Fix-cell-height-calc-in-resize-handle.patch
 upstream_bf67f256_klipper-make-Add-Actions-dialog-only-window-modal.patch
 upstream_d4df9b5f_applets-systemmonitor-handle-null-faceController.patch
+upstream_b9bc83c6_applets-systemmonitor-skip-configure-button-on-sensorless-faces.patch
