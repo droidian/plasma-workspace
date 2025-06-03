@@ -17,3 +17,4 @@ upstream_142caad0_applets-notification-fix-fullRepresentation-only-widgets.patch
 upstream_32a7cf2a_colorsapplicator-Don-t-allow-extended-RGB-from-OKLabToLinearSRGB.patch
 upstream_60859fa9_applets-devicenotifier-fix-pointless-mount-action.patch
 upstream_7635c551_libnotificationmanager-fix-critical-notifications-not-showing-when-Do-not-disturb-is-active.patch
+upstream_72719edd_components-sessionprivate-fix-a-potential-crash-in-SessionsModel.patch
