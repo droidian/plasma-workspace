@@ -1,0 +1,33 @@
+From 2c855c2fe47ce4ea8ba4fd0edb840f21bb7a9937 Mon Sep 17 00:00:00 2001
+From: Nate Graham <nate@kde.org>
+Date: Thu, 22 May 2025 08:25:05 -0600
+Subject: [PATCH] Fix cell height calc in resize handle
+
+Correct typo using cellWidth() instead of cellHeight() for
+minimum height calculation during vertical resizing. Ensures
+proper cell-aligned sizing behavior.
+
+
+(cherry picked from commit 4b1dfd560433ef89f80b5916d2ac15739c5f91fb)
+
+Co-authored-by: Wang Yu <wangyu@uniontech.com>
+---
+ components/containmentlayoutmanager/resizehandle.cpp | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/components/containmentlayoutmanager/resizehandle.cpp b/components/containmentlayoutmanager/resizehandle.cpp
+index b3b1f673ef0..f840717ecf6 100644
+--- a/components/containmentlayoutmanager/resizehandle.cpp
++++ b/components/containmentlayoutmanager/resizehandle.cpp
+@@ -156,7 +156,7 @@ void ResizeHandle::mouseMoveEvent(QMouseEvent *event)
+ 
+     // Now make minimumSize an integer number of cells
+     minimumSize.setWidth(ceil(minimumSize.width() / layout->cellWidth()) * layout->cellWidth());
+-    minimumSize.setHeight(ceil(minimumSize.height() / layout->cellWidth()) * layout->cellHeight());
++    minimumSize.setHeight(ceil(minimumSize.height() / layout->cellHeight()) * layout->cellHeight());
+ 
+     // Horizontal resize
+     if (resizeLeft()) {
+-- 
+GitLab
+
