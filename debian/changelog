@@ -20,6 +20,7 @@ plasma-workspace (4:6.3.5-1) UNRELEASED; urgency=medium
     not disturb is active.
     - components/sessionprivate: fix a potential crash in SessionsModel.
     - Fix deleting downloaded files from the notifications. (kde#504385)
+    - Fix cell height calculation during vertical resizing.
   * Backport other upstream commits:
     - Fix lockscreen showing a placeholder instead of the real multimedia
     player name in some multi-player setups.
