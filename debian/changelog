@@ -18,6 +18,7 @@ plasma-workspace (4:6.3.5-1) UNRELEASED; urgency=medium
     (kde#503999)
     - libnotificationmanager: fix critical notifications not showing when Do
     not disturb is active.
+    - components/sessionprivate: fix a potential crash in SessionsModel.
   * Backport other upstream commits:
     - Fix lockscreen showing a placeholder instead of the real multimedia
     player name in some multi-player setups.
