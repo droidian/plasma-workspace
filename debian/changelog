@@ -29,6 +29,8 @@ plasma-workspace (4:6.3.6-1) UNRELEASED; urgency=medium
     (kde#504423)
     - Do not show logout screen on power button press when in lockscreen /
     screensaver. [f1605df4] (kde#504575)
+    - Fix holding mouse to scroll inside desktop widgets unexpectedly entering
+    edit mode. [8e6b79da] (kde#416909)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 19 Jul 2025 09:59:48 +0200
 

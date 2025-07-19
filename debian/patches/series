@@ -21,3 +21,4 @@ upstream_e9fd71d9_wallpapers-image-don-t-crash-when-removing-usr-share.patch
 upstream_88911e82_shell-Rearrange-the-teardown-order.patch
 upstream_01978f58_Do-not-track-cache-partitions-with-freespacenotifier.patch
 upstream_f1605df4_Do-not-show-logout-screen-when-in-lockscreen-screensaver.patch
+upstream_8e6b79da_containmentlayoutmanager-don-t-enter-edit-mode-without-activefocus.patch
