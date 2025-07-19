@@ -31,6 +31,8 @@ plasma-workspace (4:6.3.6-1) UNRELEASED; urgency=medium
     screensaver. [f1605df4] (kde#504575)
     - Fix holding mouse to scroll inside desktop widgets unexpectedly entering
     edit mode. [8e6b79da] (kde#416909)
+    - Fix "move to activity" when there are only 2 activities. [e2ae8f54]
+    (kde#483148)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 19 Jul 2025 09:59:48 +0200
 
