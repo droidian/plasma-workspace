@@ -24,3 +24,4 @@ upstream_f1605df4_Do-not-show-logout-screen-when-in-lockscreen-screensaver.patch
 upstream_8e6b79da_containmentlayoutmanager-don-t-enter-edit-mode-without-activefocus.patch
 upstream_e2ae8f54_libtaskmanager-fix-move-to-activity-when-on-almost-all-activities.patch
 upstream_ab55c53e_applets-kicker-fix-filenames-containing-in-history.patch
+upstream_d286dce3_Klipper-Remove-local-Configure-Klipper-action.patch
