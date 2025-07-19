@@ -1,4 +1,4 @@
-plasma-workspace (4:6.3.6-1) UNRELEASED; urgency=medium
+plasma-workspace (4:6.3.6-1) unstable; urgency=medium
 
   [ Aurélien COUDERC ]
   * New upstream release (6.3.6).
@@ -46,7 +46,7 @@ plasma-workspace (4:6.3.6-1) UNRELEASED; urgency=medium
     - Fix systemd services reload reemitting all previous OOM notifications.
     [ec837446] (kde#502279)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 19 Jul 2025 09:59:48 +0200
+ -- Aurélien COUDERC <coucouf@debian.org>  Sat, 19 Jul 2025 12:11:47 +0200
 
 plasma-workspace (4:6.3.5-1) unstable; urgency=medium
 
