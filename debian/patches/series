@@ -19,3 +19,4 @@ upstream_b9bc83c6_applets-systemmonitor-skip-configure-button-on-sensorless-face
 upstream_45784326_libtaskmanager-show-Comment-for-launcher-icons-when-appropriate.patch
 upstream_e9fd71d9_wallpapers-image-don-t-crash-when-removing-usr-share.patch
 upstream_88911e82_shell-Rearrange-the-teardown-order.patch
+upstream_01978f58_Do-not-track-cache-partitions-with-freespacenotifier.patch
