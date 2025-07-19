@@ -25,3 +25,4 @@ upstream_8e6b79da_containmentlayoutmanager-don-t-enter-edit-mode-without-activef
 upstream_e2ae8f54_libtaskmanager-fix-move-to-activity-when-on-almost-all-activities.patch
 upstream_ab55c53e_applets-kicker-fix-filenames-containing-in-history.patch
 upstream_d286dce3_Klipper-Remove-local-Configure-Klipper-action.patch
+upstream_a4e153b3_kcms-feedback-remove-little-hover-icons.patch
