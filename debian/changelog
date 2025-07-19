@@ -41,6 +41,8 @@ plasma-workspace (4:6.3.6-1) UNRELEASED; urgency=medium
     [a3e153b3] (kde#505761)
     - Fix unablity to remove/unpin documents/apps from Application Menu after
     deleting the document/app from system. [d1896f5a] (kde#402820)
+    - Fix unchecking "Show date" in clock settings creating an empty gap on
+    the panel until restarting plasmashell [b2e80af5] (kde#505614)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 19 Jul 2025 09:59:48 +0200
 
