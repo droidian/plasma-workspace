@@ -21,6 +21,8 @@ plasma-workspace (4:6.3.6-1) UNRELEASED; urgency=medium
   * Backport upstream commits:
     - Fix fallback name for task manager icons for programs with Comment
     property missing in the desktop file. [45784326] (kde#504431)
+    - Fix crash in system settings when removing /usr/share as a wallpaper
+    directory. [e9fd71d9] (kde#503593)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 19 Jul 2025 09:59:48 +0200
 
