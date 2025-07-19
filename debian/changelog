@@ -1,3 +1,25 @@
+plasma-workspace (4:6.3.6-1) UNRELEASED; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (6.3.6).
+    - Weather/envcan: Adapt to the new locations list URL.
+    - Weather/envcan: Fix handling of non-continuous hourly folder list.
+    - Dataengines/weather: Adapt to the new dynamic URLs on envcan.
+    - RunCommand: fix "hide faded completion text" calculation. (kde#505698)
+    - Klipper: make "Add Actions" dialog only window-modal. (kde#501938)
+    - Fix cell height calc in resize handle.
+    - Applets/notifications: Don't set a parent for
+    WidgetsAskUserActionHandler. (kde#504385)
+    - Components/sessionprivate: fix a potential crash in SessionsModel.
+    - Libnotificationmanager: fix critical notifications not showing when Do
+    not disturb is active.
+    - Applets/devicenotifier: fix pointless mount action. (kde#503999)
+    - Colorsapplicator: Don't allow extended RGB from OKLabToLinearSRGB.
+    (kde#503394)
+  * Drop backported patches now part of the upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 19 Jul 2025 09:59:48 +0200
+
 plasma-workspace (4:6.3.5-1) unstable; urgency=medium
 
   [ Aurélien COUDERC ]

@@ -14,12 +14,5 @@ upstream_9e0939c1_Warn-user-about-full-storage-in-any-device-partition.patch
 upstream_6d12cde3_wallpapers-image-Fix-thumbnails-not-matching-output-size.patch
 upstream_8845c001_shell-Osd-Fix-missing-RTL.patch
 upstream_142caad0_applets-notification-fix-fullRepresentation-only-widgets.patch
-upstream_32a7cf2a_colorsapplicator-Don-t-allow-extended-RGB-from-OKLabToLinearSRGB.patch
-upstream_60859fa9_applets-devicenotifier-fix-pointless-mount-action.patch
-upstream_7635c551_libnotificationmanager-fix-critical-notifications-not-showing-when-Do-not-disturb-is-active.patch
-upstream_72719edd_components-sessionprivate-fix-a-potential-crash-in-SessionsModel.patch
-upstream_41a554e6_applets-notifications-Don-t-set-a-parent-for-WidgetsAskUserActionHandler.patch
-upstream_2c855c2f_Fix-cell-height-calc-in-resize-handle.patch
-upstream_bf67f256_klipper-make-Add-Actions-dialog-only-window-modal.patch
 upstream_d4df9b5f_applets-systemmonitor-handle-null-faceController.patch
 upstream_b9bc83c6_applets-systemmonitor-skip-configure-button-on-sensorless-faces.patch
