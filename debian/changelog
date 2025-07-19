@@ -39,6 +39,8 @@ plasma-workspace (4:6.3.6-1) UNRELEASED; urgency=medium
     with global shortcuts. [d286dce3] (kde#501632)
     - Remove unexpected hover icons above user feedback selection labels.
     [a3e153b3] (kde#505761)
+    - Fix unablity to remove/unpin documents/apps from Application Menu after
+    deleting the document/app from system. [d1896f5a] (kde#402820)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 19 Jul 2025 09:59:48 +0200
 

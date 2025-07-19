@@ -26,3 +26,4 @@ upstream_e2ae8f54_libtaskmanager-fix-move-to-activity-when-on-almost-all-activit
 upstream_ab55c53e_applets-kicker-fix-filenames-containing-in-history.patch
 upstream_d286dce3_Klipper-Remove-local-Configure-Klipper-action.patch
 upstream_a4e153b3_kcms-feedback-remove-little-hover-icons.patch
+upstream_d1896f5a_applets-kicker-resolve-non-existing-files-to-their-url.patch
