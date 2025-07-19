@@ -16,3 +16,4 @@ upstream_8845c001_shell-Osd-Fix-missing-RTL.patch
 upstream_142caad0_applets-notification-fix-fullRepresentation-only-widgets.patch
 upstream_d4df9b5f_applets-systemmonitor-handle-null-faceController.patch
 upstream_b9bc83c6_applets-systemmonitor-skip-configure-button-on-sensorless-faces.patch
+upstream_45784326_libtaskmanager-show-Comment-for-launcher-icons-when-appropriate.patch
