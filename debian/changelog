@@ -27,6 +27,8 @@ plasma-workspace (4:6.3.6-1) UNRELEASED; urgency=medium
     going to sleep. [88911e82] (kde#487660)
     - Do not track cache partitions with freespacenotifier. [01978f58]
     (kde#504423)
+    - Do not show logout screen on power button press when in lockscreen /
+    screensaver. [f1605df4] (kde#504575)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 19 Jul 2025 09:59:48 +0200
 
