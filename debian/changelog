@@ -17,6 +17,7 @@ plasma-workspace (4:6.3.6-1) UNRELEASED; urgency=medium
     - Colorsapplicator: Don't allow extended RGB from OKLabToLinearSRGB.
     (kde#503394)
   * Drop backported patches now part of the upstream release.
+  * Refresh patches.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 19 Jul 2025 09:59:48 +0200
 
