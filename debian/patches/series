@@ -1,3 +1,4 @@
+fix-incorrect-libplasma-dependency-version.patch
 relax-interplasma-versioned-deps.patch
 upstream_e4e0dee5_libkmpris-allow-MultiplexerModel-to-show-actual-player-name.patch
 upstream_4f9b1a69_Fix-Scroll-Wheel-issue-in-AllApps-submenu-of-Application-Dashboard.patch
