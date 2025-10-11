@@ -14,6 +14,7 @@ usr/lib/*/libbatterycontrol.so
 usr/lib/*/libkfontinst.so
 usr/lib/*/libkfontinstui.so
 usr/lib/*/libklipper.so
+usr/lib/*/libklookandfeel.so
 usr/lib/*/libkworkspace6.so
 usr/lib/*/libnotificationmanager.so
 usr/lib/*/libtaskmanager.so

@@ -146,6 +146,21 @@ Description: Plasma Workspaces Klipper library
  .
  This package contains the Klipper library files.
 
+Package: libklookandfeel6
+Architecture: any
+Section: libs
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+Description: Plasma Workspace look and feel helper library
+ This tiny library provides shared helpers for determining whether a global
+ theme is light or dark. It is used by the look and feel and landing page
+ configuration modules.
+ .
+ In the future, the library can include other global theme related features.
+ For example, perhaps the look and feel manager could live in it too.
+ .
+ This package contains Plasma Workspace libklookandfeel library files.
+
 Package: libkmpris6
 Architecture: any
 Section: libs
