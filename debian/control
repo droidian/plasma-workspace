@@ -129,24 +129,6 @@ Description: Plasma Workspace battery control library
  .
  This package contains the battery control library files.
 
-Package: libcolorcorrect6
-Architecture: any
-Section: libs
-Depends: ${misc:Depends},
-         ${shlibs:Depends},
-Description: Plasma Workspace color correction library
- Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
- Bigscreen. It contains shared KCM configuration screens, applets as
- well as multiple libraries.
- .
- This library can be used for configuring the color correction at
- the compositor level. This includes adjusting screen gamma levels
- and setting night time color temperature (Night Light).
- .
- Currently only controlling KWin in Wayland mode is supported.
- .
- This package contains the color correction library files.
-
 Package: libklipper6
 Architecture: any
 Section: libs
