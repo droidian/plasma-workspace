@@ -34,9 +34,11 @@ usr/bin/startplasma-x11
 usr/bin/xembedsniproxy
 usr/lib/*/kconf_update_bin/plasma6.0-remove-dpi-settings
 usr/lib/*/kconf_update_bin/plasma6.0-remove-old-shortcuts
+usr/lib/*/kconf_update_bin/plasma6.3-update-clipboard-database-2-to-3
+usr/lib/*/kconf_update_bin/plasma6.4-migrate-fullscreen-notifications-to-dnd
 usr/lib/*/kconf_update_bin/plasmashell-6.0-keep-custom-position-of-panels
 usr/lib/*/kconf_update_bin/plasmashell-6.0-keep-default-floating-setting-for-plasma-5-panels
-usr/lib/*/kconf_update_bin/plasma6.3-update-clipboard-database-2-to-3
+usr/lib/*/kconf_update_bin/plasmashell-6.5-remove-stop-activity-shortcut
 usr/lib/kf6/kauth/libexec/fontinst
 usr/lib/kf6/kauth/libexec/fontinst_helper
 usr/lib/kf6/kauth/libexec/fontinst_x11
@@ -51,7 +53,6 @@ usr/lib/*/libexec/plasma-sourceenv.sh
 usr/lib/*/libkrdb.so
 usr/lib/*/qt6/plugins/
 usr/lib/*/qt6/qml/org/kde/breeze/components/
-usr/lib/*/qt6/qml/org/kde/colorcorrect/
 usr/lib/*/qt6/qml/org/kde/notificationmanager/
 usr/lib/*/qt6/qml/org/kde/plasma/lookandfeel/
 usr/lib/*/qt6/qml/org/kde/plasma/private/
@@ -61,6 +62,8 @@ usr/lib/*/qt6/qml/org/kde/plasma/workspace/components/
 usr/lib/*/qt6/qml/org/kde/plasma/workspace/dbus/
 usr/lib/*/qt6/qml/org/kde/plasma/workspace/dialogs/
 usr/lib/*/qt6/qml/org/kde/plasma/workspace/keyboardlayout/
+usr/lib/*/qt6/qml/org/kde/plasma/workspace/osd/
+usr/lib/*/qt6/qml/org/kde/plasma/workspace/timezoneselector/
 usr/lib/*/qt6/qml/org/kde/plasma/workspace/trianglemousefilter/
 usr/lib/*/qt6/qml/org/kde/taskmanager/
 usr/lib/systemd/user/
@@ -71,7 +74,6 @@ usr/share/kglobalaccel/org.kde.krunner.desktop
 usr/share/kio_desktop/directory.desktop
 usr/share/kio_desktop/directory.trash
 usr/share/krunner/dbusplugins/plasma-runner-baloosearch.desktop
-usr/share/metainfo/
 usr/share/solid/actions/openWithFileManager.desktop
 usr/share/wayland-sessions/plasma.desktop
 usr/share/xsessions/plasmax11.desktop
