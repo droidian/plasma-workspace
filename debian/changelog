@@ -5,6 +5,7 @@ plasma-workspace (4:6.4.91-1) UNRELEASED; urgency=medium
   * Update build-deps and deps with the info from cmake.
   * Drop backported commits now part of the upstream release.
   * Drop now unused libcolorcorrect6 library.
+  * Drop libweather-ion7 library, now part of plasma5support.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Oct 2025 12:38:31 +0200
 

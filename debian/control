@@ -234,21 +234,6 @@ Description: Plasma Workspace task manager library
  .
  This package contains the task manager library files.
 
-Package: libweather-ion7
-Architecture: any
-Section: libs
-Depends: ${misc:Depends},
-         ${shlibs:Depends},
-Description: Plasma Workspace weather information library
- Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
- Bigscreen. It contains shared KCM configuration screens, applets as
- well as multiple libraries.
- .
- This library provides support for interfacing with online weather
- information sources.
- .
- This package contains the weather information library files.
-
 Package: plasma-workspace
 Architecture: any
 Depends: default-dbus-session-bus | dbus-session-bus,
