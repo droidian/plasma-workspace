@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:6.1.90 amd64
+# SymbolsHelper-Confirmed: 4:6.4.91 amd64
 libtaskmanager.so.6 libtaskmanager6 #MINVER#
 * Build-Depends-Package: plasma-workspace-dev
  _Z38qml_register_types_org_kde_taskmanagerv@Base 4:6.1.90
@@ -42,6 +42,7 @@ libtaskmanager.so.6 libtaskmanager6 #MINVER#
  _ZN11TaskManager10TasksModel21regionGeometryChangedEv@Base 4:6.1.0
  _ZN11TaskManager10TasksModel21requestRemoveLauncherERK4QUrl@Base 4:6.1.0
  _ZN11TaskManager10TasksModel21requestToggleGroupingERK11QModelIndex@Base 4:6.1.0
+ _ZN11TaskManager10TasksModel21requestToggleNoBorderERK11QModelIndex@Base 4:6.4.91
  _ZN11TaskManager10TasksModel21setFilterNotMaximizedEb@Base 4:6.1.0
  _ZN11TaskManager10TasksModel21setFilterNotMinimizedEb@Base 4:6.1.0
  _ZN11TaskManager10TasksModel22filterMinimizedChangedEv@Base 4:6.1.0
@@ -109,6 +110,7 @@ libtaskmanager.so.6 libtaskmanager6 #MINVER#
  _ZN11TaskManager17WaylandTasksModel18requestNewInstanceERK11QModelIndex@Base 4:6.1.0
  _ZN11TaskManager17WaylandTasksModel18winIdsFromMimeDataEPK9QMimeDataPb@Base 4:6.1.0
  _ZN11TaskManager17WaylandTasksModel19requestToggleShadedERK11QModelIndex@Base 4:6.1.0
+ _ZN11TaskManager17WaylandTasksModel21requestToggleNoBorderERK11QModelIndex@Base 4:6.4.91
  _ZN11TaskManager17WaylandTasksModel22requestToggleKeepAboveERK11QModelIndex@Base 4:6.1.0
  _ZN11TaskManager17WaylandTasksModel22requestToggleKeepBelowERK11QModelIndex@Base 4:6.1.0
  _ZN11TaskManager17WaylandTasksModel22requestToggleMaximizedERK11QModelIndex@Base 4:6.1.0
@@ -135,6 +137,7 @@ libtaskmanager.so.6 libtaskmanager6 #MINVER#
  _ZN11TaskManager17XWindowTasksModel18requestNewInstanceERK11QModelIndex@Base 4:6.1.0
  _ZN11TaskManager17XWindowTasksModel18winIdsFromMimeDataEPK9QMimeDataPb@Base 4:6.1.0
  _ZN11TaskManager17XWindowTasksModel19requestToggleShadedERK11QModelIndex@Base 4:6.1.0
+ _ZN11TaskManager17XWindowTasksModel21requestToggleNoBorderERK11QModelIndex@Base 4:6.4.91
  _ZN11TaskManager17XWindowTasksModel22requestToggleKeepAboveERK11QModelIndex@Base 4:6.1.0
  _ZN11TaskManager17XWindowTasksModel22requestToggleKeepBelowERK11QModelIndex@Base 4:6.1.0
  _ZN11TaskManager17XWindowTasksModel22requestToggleMaximizedERK11QModelIndex@Base 4:6.1.0
@@ -160,6 +163,7 @@ libtaskmanager.so.6 libtaskmanager6 #MINVER#
  _ZN11TaskManager18AbstractTasksModel17requestActivitiesERK11QModelIndexRK5QListI7QStringE@Base 4:6.1.0
  _ZN11TaskManager18AbstractTasksModel18requestNewInstanceERK11QModelIndex@Base 4:6.1.0
  _ZN11TaskManager18AbstractTasksModel19requestToggleShadedERK11QModelIndex@Base 4:6.1.0
+ _ZN11TaskManager18AbstractTasksModel21requestToggleNoBorderERK11QModelIndex@Base 4:6.4.91
  _ZN11TaskManager18AbstractTasksModel22requestToggleKeepAboveERK11QModelIndex@Base 4:6.1.0
  _ZN11TaskManager18AbstractTasksModel22requestToggleKeepBelowERK11QModelIndex@Base 4:6.1.0
  _ZN11TaskManager18AbstractTasksModel22requestToggleMaximizedERK11QModelIndex@Base 4:6.1.0
@@ -254,6 +258,7 @@ libtaskmanager.so.6 libtaskmanager6 #MINVER#
  _ZN11TaskManager22TaskGroupingProxyModel19requestToggleShadedERK11QModelIndex@Base 4:6.1.0
  _ZN11TaskManager22TaskGroupingProxyModel20setBlacklistedAppIdsERK5QListI7QStringE@Base 4:6.1.0
  _ZN11TaskManager22TaskGroupingProxyModel21requestToggleGroupingERK11QModelIndex@Base 4:6.1.0
+ _ZN11TaskManager22TaskGroupingProxyModel21requestToggleNoBorderERK11QModelIndex@Base 4:6.4.91
  _ZN11TaskManager22TaskGroupingProxyModel22requestToggleKeepAboveERK11QModelIndex@Base 4:6.1.0
  _ZN11TaskManager22TaskGroupingProxyModel22requestToggleKeepBelowERK11QModelIndex@Base 4:6.1.0
  _ZN11TaskManager22TaskGroupingProxyModel22requestToggleMaximizedERK11QModelIndex@Base 4:6.1.0
@@ -311,6 +316,7 @@ libtaskmanager.so.6 libtaskmanager6 #MINVER#
  _ZN11TaskManager28AbstractTasksProxyModelIface17requestActivitiesERK11QModelIndexRK5QListI7QStringE@Base 4:6.1.0
  _ZN11TaskManager28AbstractTasksProxyModelIface18requestNewInstanceERK11QModelIndex@Base 4:6.1.0
  _ZN11TaskManager28AbstractTasksProxyModelIface19requestToggleShadedERK11QModelIndex@Base 4:6.1.0
+ _ZN11TaskManager28AbstractTasksProxyModelIface21requestToggleNoBorderERK11QModelIndex@Base 4:6.4.91
  _ZN11TaskManager28AbstractTasksProxyModelIface22requestToggleKeepAboveERK11QModelIndex@Base 4:6.1.0
  _ZN11TaskManager28AbstractTasksProxyModelIface22requestToggleKeepBelowERK11QModelIndex@Base 4:6.1.0
  _ZN11TaskManager28AbstractTasksProxyModelIface22requestToggleMaximizedERK11QModelIndex@Base 4:6.1.0
@@ -425,6 +431,7 @@ libtaskmanager.so.6 libtaskmanager6 #MINVER#
  _ZNK11TaskManager18VirtualDesktopInfo17desktopLayoutRowsEv@Base 4:6.1.0
  _ZNK11TaskManager18VirtualDesktopInfo19desktopNamesChangedEv@Base 4:6.1.0
  _ZNK11TaskManager18VirtualDesktopInfo21currentDesktopChangedEv@Base 4:6.1.0
+ _ZNK11TaskManager18VirtualDesktopInfo23desktopPositionsChangedEv@Base 4:6.4.91
  _ZNK11TaskManager18VirtualDesktopInfo23numberOfDesktopsChangedEv@Base 4:6.1.0
  _ZNK11TaskManager18VirtualDesktopInfo24desktopLayoutRowsChangedEv@Base 4:6.1.0
  _ZNK11TaskManager18VirtualDesktopInfo24navigationWrappingAroundEv@Base 4:6.1.0
@@ -598,6 +605,7 @@ libtaskmanager.so.6 libtaskmanager6 #MINVER#
  (c++)"non-virtual thunk to TaskManager::AbstractTasksModel::requestToggleKeepBelow(QModelIndex const&)@Base" 4:6.1.0
  (c++)"non-virtual thunk to TaskManager::AbstractTasksModel::requestToggleMaximized(QModelIndex const&)@Base" 4:6.1.0
  (c++)"non-virtual thunk to TaskManager::AbstractTasksModel::requestToggleMinimized(QModelIndex const&)@Base" 4:6.1.0
+ (c++)"non-virtual thunk to TaskManager::AbstractTasksModel::requestToggleNoBorder(QModelIndex const&)@Base" 4:6.4.91
  (c++)"non-virtual thunk to TaskManager::AbstractTasksModel::requestToggleShaded(QModelIndex const&)@Base" 4:6.1.0
  (c++)"non-virtual thunk to TaskManager::AbstractTasksModel::requestVirtualDesktops(QModelIndex const&, QList<QVariant> const&)@Base" 4:6.1.0
  (c++)"non-virtual thunk to TaskManager::AbstractTasksModel::~AbstractTasksModel()@Base" 4:6.1.0
@@ -628,6 +636,7 @@ libtaskmanager.so.6 libtaskmanager6 #MINVER#
  (c++)"non-virtual thunk to TaskManager::TaskGroupingProxyModel::requestToggleKeepBelow(QModelIndex const&)@Base" 4:6.1.0
  (c++)"non-virtual thunk to TaskManager::TaskGroupingProxyModel::requestToggleMaximized(QModelIndex const&)@Base" 4:6.1.0
  (c++)"non-virtual thunk to TaskManager::TaskGroupingProxyModel::requestToggleMinimized(QModelIndex const&)@Base" 4:6.1.0
+ (c++)"non-virtual thunk to TaskManager::TaskGroupingProxyModel::requestToggleNoBorder(QModelIndex const&)@Base" 4:6.4.91
  (c++)"non-virtual thunk to TaskManager::TaskGroupingProxyModel::requestToggleShaded(QModelIndex const&)@Base" 4:6.1.0
  (c++)"non-virtual thunk to TaskManager::TaskGroupingProxyModel::requestVirtualDesktops(QModelIndex const&, QList<QVariant> const&)@Base" 4:6.1.0
  (c++)"non-virtual thunk to TaskManager::TaskGroupingProxyModel::~TaskGroupingProxyModel()@Base" 4:6.1.0
@@ -647,6 +656,7 @@ libtaskmanager.so.6 libtaskmanager6 #MINVER#
  (c++)"non-virtual thunk to TaskManager::TasksModel::requestToggleKeepBelow(QModelIndex const&)@Base" 4:6.1.0
  (c++)"non-virtual thunk to TaskManager::TasksModel::requestToggleMaximized(QModelIndex const&)@Base" 4:6.1.0
  (c++)"non-virtual thunk to TaskManager::TasksModel::requestToggleMinimized(QModelIndex const&)@Base" 4:6.1.0
+ (c++)"non-virtual thunk to TaskManager::TasksModel::requestToggleNoBorder(QModelIndex const&)@Base" 4:6.4.91
  (c++)"non-virtual thunk to TaskManager::TasksModel::requestToggleShaded(QModelIndex const&)@Base" 4:6.1.0
  (c++)"non-virtual thunk to TaskManager::TasksModel::requestVirtualDesktops(QModelIndex const&, QList<QVariant> const&)@Base" 4:6.1.0
  (c++)"non-virtual thunk to TaskManager::TasksModel::~TasksModel()@Base" 4:6.1.0
@@ -665,6 +675,7 @@ libtaskmanager.so.6 libtaskmanager6 #MINVER#
  (c++)"non-virtual thunk to TaskManager::WaylandTasksModel::requestToggleKeepBelow(QModelIndex const&)@Base" 4:6.1.0
  (c++)"non-virtual thunk to TaskManager::WaylandTasksModel::requestToggleMaximized(QModelIndex const&)@Base" 4:6.1.0
  (c++)"non-virtual thunk to TaskManager::WaylandTasksModel::requestToggleMinimized(QModelIndex const&)@Base" 4:6.1.0
+ (c++)"non-virtual thunk to TaskManager::WaylandTasksModel::requestToggleNoBorder(QModelIndex const&)@Base" 4:6.4.91
  (c++)"non-virtual thunk to TaskManager::WaylandTasksModel::requestToggleShaded(QModelIndex const&)@Base" 4:6.1.0
  (c++)"non-virtual thunk to TaskManager::WaylandTasksModel::requestVirtualDesktops(QModelIndex const&, QList<QVariant> const&)@Base" 4:6.1.0
  (c++)"non-virtual thunk to TaskManager::WaylandTasksModel::~WaylandTasksModel()@Base" 4:6.1.0
@@ -685,6 +696,7 @@ libtaskmanager.so.6 libtaskmanager6 #MINVER#
  (c++)"non-virtual thunk to TaskManager::XWindowTasksModel::requestToggleKeepBelow(QModelIndex const&)@Base" 4:6.1.0
  (c++)"non-virtual thunk to TaskManager::XWindowTasksModel::requestToggleMaximized(QModelIndex const&)@Base" 4:6.1.0
  (c++)"non-virtual thunk to TaskManager::XWindowTasksModel::requestToggleMinimized(QModelIndex const&)@Base" 4:6.1.0
+ (c++)"non-virtual thunk to TaskManager::XWindowTasksModel::requestToggleNoBorder(QModelIndex const&)@Base" 4:6.4.91
  (c++)"non-virtual thunk to TaskManager::XWindowTasksModel::requestToggleShaded(QModelIndex const&)@Base" 4:6.1.0
  (c++)"non-virtual thunk to TaskManager::XWindowTasksModel::requestVirtualDesktops(QModelIndex const&, QList<QVariant> const&)@Base" 4:6.1.0
  (c++)"non-virtual thunk to TaskManager::XWindowTasksModel::~XWindowTasksModel()@Base" 4:6.1.0

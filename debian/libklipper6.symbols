@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:6.3.2 amd64
+# SymbolsHelper-Confirmed: 4:6.4.91 amd64
 libklipper.so.6 libklipper6 #MINVER#
 * Build-Depends-Package: plasma-workspace-dev
  _ZN10URLGrabber10actionMenuESt10shared_ptrIK11HistoryItemEb@Base 4:6.1.90
@@ -9,7 +9,6 @@ libklipper.so.6 libklipper6 #MINVER#
  _ZN10URLGrabber12loadSettingsEv@Base 4:6.1.90
  _ZN10URLGrabber13setActionListERK5QListIP10ClipActionE@Base 4:6.1.90
  _ZN10URLGrabber15matchingActionsERK7QStringb@Base 4:6.1.90
- _ZN10URLGrabber15sigDisablePopupEv@Base 4:6.1.90
  _ZN10URLGrabber16slotItemSelectedEP7QAction@Base 4:6.1.90
  _ZN10URLGrabber16staticMetaObjectE@Base 4:6.1.90
  _ZN10URLGrabber17slotKillPopupMenuEv@Base 4:6.1.90
@@ -41,6 +40,7 @@ libklipper.so.6 libklipper6 #MINVER#
  _ZN12HistoryModel13moveTopToBackEv@Base 4:6.1.90
  _ZN12HistoryModel16staticMetaObjectE@Base 4:6.1.90
  _ZN12HistoryModel20saveClipboardHistoryEv@Base 4:6.2.90
+ _ZN12HistoryModel22clearNonStarredHistoryEv@Base 4:6.4.91
  _ZN12HistoryModel26slotReceivedEmptyClipboardEN10QClipboard4ModeE@Base 4:6.2.90
  _ZN12HistoryModel4selfEv@Base 4:6.1.90
  _ZN12HistoryModel5clearEv@Base 4:6.1.90
@@ -106,7 +106,6 @@ libklipper.so.6 libklipper6 #MINVER#
  _ZN7Klipper15updateTimestampEv@Base 4:6.1.90
  _ZN7Klipper16slotRepeatActionEv@Base 4:6.1.90
  _ZN7Klipper16staticMetaObjectE@Base 4:6.1.90
- _ZN7Klipper17disableURLGrabberEv@Base 4:6.1.90
  _ZN7Klipper18slotHistoryChangedEb@Base 4:6.1.90
  _ZN7Klipper18slotStartShowTimerEv@Base 4:6.1.90
  _ZN7Klipper20getClipboardContentsEv@Base 4:6.1.90
@@ -134,6 +133,8 @@ libklipper.so.6 libklipper6 #MINVER#
  _ZNK11HistoryItem4typeEv@Base 4:6.2.90
  _ZNK12HistoryModel10metaObjectEv@Base 4:6.1.90
  _ZNK12HistoryModel11pendingJobsEv@Base 4:6.2.90
+ _ZNK12HistoryModel13isItemStarredERK7QString@Base 4:6.4.91
+ _ZNK12HistoryModel20bindableStarredCountEv@Base 4:6.4.91
  _ZNK12HistoryModel4dataERK11QModelIndexi@Base 4:6.1.90
  _ZNK12HistoryModel5firstEv@Base 4:6.1.90
  _ZNK12HistoryModel7indexOfEPK11HistoryItem@Base 4:6.1.90
@@ -141,8 +142,6 @@ libklipper.so.6 libklipper6 #MINVER#
  _ZNK12HistoryModel7maxSizeEv@Base 4:6.1.90
  _ZNK12HistoryModel8rowCountERK11QModelIndex@Base 4:6.1.90
  _ZNK12HistoryModel9roleNamesEv@Base 4:6.1.90
- (optional=templinst)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 4:6.1.90
- (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4:6.1.90
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:6.1.90
  _ZNK13HistoryCycler10metaObjectEv@Base 4:6.1.90
  _ZNK13HistoryCycler11nextInCycleEv@Base 4:6.1.90
