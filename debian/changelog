@@ -9,6 +9,7 @@ plasma-workspace (4:6.4.91-1) UNRELEASED; urgency=medium
   * Update the list of installed files.
   * Package new libklookandfeel6 library.
   * Update symbols from build for 6.4.91.
+  * Drop Rules-Requires-Root: no, not needed anymore since trixie.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Oct 2025 12:38:31 +0200
 
