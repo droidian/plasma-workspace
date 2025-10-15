@@ -352,8 +352,10 @@ Description: Plasma Workspace data files
 Package: plasma-workspace-doc
 Architecture: all
 Depends: ${misc:Depends},
-Breaks: plasma-workspace-data (<< 4:6.1.90~),
-Replaces: plasma-workspace-data (<< 4:6.1.90~),
+Breaks: plasma-desktop-doc (<< 4:6.4.90~),
+        plasma-workspace-data (<< 4:6.1.90~),
+Replaces: plasma-desktop-doc (<< 4:6.4.90~),
+          plasma-workspace-data (<< 4:6.1.90~),
 Description: Plasma Workspace documentation
  Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
  Bigscreen. It contains shared KCM configuration screens, applets as
