@@ -1,5 +1,9 @@
 plasma-workspace (4:6.4.91-3) UNRELEASED; urgency=medium
 
+  [ Aurélien COUDERC ]
+  * Bump Breaks/Replaces against plasma-desktop-data (<< 4:6.4.90~).
+    (Closes: #1118102)
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 15 Oct 2025 08:46:42 +0200
 
 plasma-workspace (4:6.4.91-2) experimental; urgency=medium
