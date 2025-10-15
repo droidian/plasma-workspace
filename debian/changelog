@@ -1,10 +1,10 @@
-plasma-workspace (4:6.4.91-2) UNRELEASED; urgency=medium
+plasma-workspace (4:6.4.91-2) experimental; urgency=medium
 
   [ Aurélien COUDERC ]
   * Add missing Breaks/Replaces against plasma-desktop-doc (<<
     4:6.4.90~). (Closes: #1118101)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 15 Oct 2025 08:43:41 +0200
+ -- Aurélien COUDERC <coucouf@debian.org>  Wed, 15 Oct 2025 08:45:43 +0200
 
 plasma-workspace (4:6.4.91-1) experimental; urgency=medium
 
