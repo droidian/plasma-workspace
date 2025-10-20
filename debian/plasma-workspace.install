@@ -71,7 +71,6 @@ usr/share/kglobalaccel/org.kde.krunner.desktop
 usr/share/kio_desktop/directory.desktop
 usr/share/kio_desktop/directory.trash
 usr/share/krunner/dbusplugins/plasma-runner-baloosearch.desktop
-usr/share/metainfo/
 usr/share/solid/actions/openWithFileManager.desktop
 usr/share/wayland-sessions/plasma.desktop
 usr/share/xsessions/plasmax11.desktop
