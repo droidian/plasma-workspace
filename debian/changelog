@@ -1,4 +1,6 @@
-plasma-workspace (4:6.3.6-3) UNRELEASED; urgency=medium
+plasma-workspace (4:6.3.6-3) unstable; urgency=medium
+
+  * Team upload.
 
   [ Aurélien COUDERC ]
   * Drop Rules-Requires-Root: no, not needed anymore since trixie.
@@ -9,7 +11,7 @@ plasma-workspace (4:6.3.6-3) UNRELEASED; urgency=medium
     (Closes: #1117363)
   * Update symbols files from the logs of buildds.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 20 Oct 2025 20:13:57 +0200
+ -- Pino Toscano <pino@debian.org>  Mon, 20 Oct 2025 22:14:46 +0200
 
 plasma-workspace (4:6.3.6-2) unstable; urgency=medium
 
