@@ -2,12 +2,13 @@
 # Burkhard Lück <lueck@hube-lueck.de>, 2014, 2016, 2018, 2021.
 # Frederik Schwarzer <schwarzer@kde.org>, 2016, 2022, 2023.
 # Jannick Kuhr <opensource@kuhr.org>, 2023.
-# SPDX-FileCopyrightText: 2024 2025 Flori G <Renner03@protonmail.com>
+# SPDX-FileCopyrightText: 2025 Flori G <Renner03@protonmail.com>
+# SPDX-FileCopyrightText: 2024, 2025 SPDX-FileCopyrightText :
 msgid ""
 msgstr ""
 "Project-Id-Version: plasmashellprivateplugin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-04 00:42+0000\n"
+"POT-Creation-Date: 2025-04-23 02:36+0000\n"
 "PO-Revision-Date: 2025-01-25 16:59+0100\n"
 "Last-Translator: Flori G <Renner03@protonmail.com>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.12.1\n"
+"X-Generator: Lokalize 24.12.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -63,14 +64,14 @@ msgctxt "Means 'Other calendar items'"
 msgid "Other"
 msgstr "Weitere"
 
-#: calendar/qml/DayDelegate.qml:95
+#: calendar/qml/DayDelegate.qml:96
 #, kde-format
 msgid "%1 event"
 msgid_plural "%1 events"
 msgstr[0] "%1 Termin"
 msgstr[1] "%1 Termine"
 
-#: calendar/qml/DayDelegate.qml:96
+#: calendar/qml/DayDelegate.qml:97
 #, kde-format
 msgid "No events"
 msgstr "Keine Termine"
